@@ -10,7 +10,7 @@ the "Repository Facts" section — it should reflect a fresh inspection._
   build/damage calculations, player account context, inventory intelligence,
   farming/relic/mastery planning, market data, and an AI assistant ("Ask
   Cephalon") into one coherent product. It combines the strengths of
-  Overframe, the Warframe Wiki, AlecaFrame, and VoidForge without being a
+  Overframe, the Warframe Wiki, AlecaFrame, and the upstream engine without being a
   tab-for-tab clone of any of them.
 - **Audience**: Warframe players — from mid-game to endgame theorycrafters —
   who want contextual, account-aware answers ("what should I do right now,
@@ -18,7 +18,7 @@ the "Repository Facts" section — it should reflect a fresh inspection._
 - **Evaluation context**: Open-source now, potentially commercial later. Built
   in the open for now; the calculation engine must sit behind a clean
   boundary so it can be independently re-implemented if the product is later
-  taken closed-source (VoidForge is AGPLv3 — see Constraints + Licensing in
+  taken closed-source (the upstream engine is AGPLv3 — see Constraints + Licensing in
   `workflow.md`). Quality bar: premium desktop-companion feel, deterministic
   and trustworthy math.
 - **Success looks like**: A player opens the app, sees world state relevant to
@@ -26,13 +26,13 @@ the "Repository Facts" section — it should reflect a fresh inspection._
   ownership + stats + build planner + acquisition + market price, builds it in
   a modern weapon builder that shows live scenario-based DPS/TTK deltas as
   mods change, and compares two builds with an explained diff — all backed by
-  VoidForge's calculation logic behind a service layer, with calculation
+  the upstream engine's calculation logic behind a service layer, with calculation
   confidence surfaced (Verified vs Approximation).
 - **Deadline / milestones**: None. Phased roadmap (Phase 1–5) defined in the
   project handoff; Phase 1 is foundation only (see `workflow.md` / first task).
 - **Origin**: New work. Empty repository initialized during bootstrap. Built
-  around an external open-source engine: **VoidForge**
-  (https://github.com/StepTwo33/VoidForge, AGPLv3), to be treated as a
+  around an external open-source engine: **the upstream engine** (AGPL-3.0; provenance in
+  `docs/agent/upstream-engine.md`), to be treated as a
   calculation/data engine, not forked-and-reskinned as the product.
 
 ## Repository Facts (verified by inspection)
@@ -44,9 +44,9 @@ the "Repository Facts" section — it should reflect a fresh inspection._
   committed): Next.js + TypeScript, Supabase, a standalone deterministic
   calculation package, normalized Warframe data layer, service layer between
   UI and calculations, server-side wrappers for external data, AI tool layer.
-  Final stack to be confirmed after VoidForge inspection.
+  Final stack to be confirmed after the upstream engine inspection.
 - Package manager: TBD (likely pnpm or npm — decide with stack)
-- Test framework(s): TBD for our code. VoidForge's existing suite is to be
+- Test framework(s): TBD for our code. the upstream engine's existing suite is to be
   preserved and imported with the engine (framework to be identified during
   investigation).
 - Build/lint/typecheck commands: TBD (set when the app scaffold lands)
@@ -58,7 +58,7 @@ the "Repository Facts" section — it should reflect a fresh inspection._
 
 ## Inferences (confirmed by user)
 
-- Commercial-later intent means the VoidForge/AGPL calculation code must be
+- Commercial-later intent means the upstream engine/AGPL calculation code must be
   isolable and, if needed, replaceable via clean-room reimplementation —
   confirmed.
 - Player-account, inventory, and market data will arrive soon enough that
@@ -66,11 +66,11 @@ the "Repository Facts" section — it should reflect a fresh inspection._
 
 ## Unknowns
 
-- VoidForge's actual internal architecture: where the calculation engine
+- the upstream engine's actual internal architecture: where the calculation engine
   lives, how coupled it is to its UI, its data-loading strategy, test
   coverage, and its exact license headers/notices. Resolved by the first
   `/start-task` investigation (Argus).
-- Whether VoidForge's engine is import-as-package clean or needs extraction.
+- Whether the upstream engine's engine is import-as-package clean or needs extraction.
 - Source, license, and update strategy for bulk Warframe game data (item
   stats, drop tables) — approval gate below.
 - External Warframe data APIs to be used (warframestat.us, warframe.market,
@@ -93,9 +93,9 @@ the "Repository Facts" section — it should reflect a fresh inspection._
   - **Calculation confidence must be surfaced, not hidden.** Distinguish
     Verified (exact deterministic) from Approximation (interaction still under
     research). Never present an approximation as verified.
-  - **Do not blindly fork + reskin VoidForge.** Treat it as an engine.
+  - **Do not blindly fork + reskin the upstream engine.** Treat it as an engine.
     Isolate the reusable calculation/data/test layers; build a new UI.
-  - **Preserve VoidForge's test suite** wherever it comes across with the
+  - **Preserve the upstream engine's test suite** wherever it comes across with the
     engine; ported behavior stays covered.
   - **Respect AGPLv3.** Do not remove attribution or license notices. Do not
     copy code without understanding the obligations. Keep corresponding
@@ -127,7 +127,7 @@ auth, new dependencies, destructive actions, scope expansion):
   (item stats, drop tables, etc.) into the repo requires explicit sign-off on
   source, license, and update strategy first.
 - **Calc formula changes** — changing any damage/scaling/interaction formula
-  away from what VoidForge does requires explicit sign-off, because it affects
+  away from what the upstream engine does requires explicit sign-off, because it affects
   correctness the user cannot easily eyeball.
 
 (Note: copying/adapting AGPL code and adopting external data APIs were

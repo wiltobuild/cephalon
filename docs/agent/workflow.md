@@ -25,8 +25,9 @@ referenced by /start-task on every task._
 | Audit / harsh review | Parallel Argus + Themis specialists → dedup → user |
 | Docs only | Argus → writer → Themis |
 | Architecture change | Argus → Athena → independent Themis review → **approval** |
-| Engine import / extraction (VoidForge) | Argus (map coupling + license headers + test coverage) → Athena → independent Themis review → **approval** → Codex → Themis (elevated scrutiny) → Apollo (run the imported test suite) |
+| Engine import / extraction  | Argus (map coupling + license headers + test coverage) → Athena → independent Themis review → **approval** → Codex → Themis (elevated scrutiny) → Apollo (run the imported test suite) |
 | Calc-formula change **or** game-data bundling | Argus → Athena → **approval + entry in decisions.md** → Codex → Themis → Apollo |
+| Catalog refresh (curated pull from upstream) | Argus (diff upstream `data/**` vs vendored; classify data-only vs formula/constant) → **approval** → Codex (apply data-only delta) → Apollo (golden-baseline byte-compare + full suite). Any formula/constant change in the diff splits off to the calc-formula row. |
 
 Bold **approval** = hard stop; do not proceed without explicit user sign-off.
 
@@ -36,10 +37,10 @@ Two code paths get elevated treatment regardless of how small the change looks:
 
 1. **Calc-formula changes.** Any change to a damage / enemy-scaling /
    mod-interaction / crit / status / elemental / faction-multiplier formula
-   away from VoidForge's behavior. The user cannot eyeball these for
+   away from the upstream engine's behavior. The user cannot eyeball these for
    correctness, so: Athena must show the before/after formula and the source
    of the new value, the user must sign off, and the approval is recorded in
-   `docs/agent/decisions.md`. Ported VoidForge tests must still pass (or the
+   `docs/agent/decisions.md`. Ported upstream-engine tests must still pass (or the
    test change is itself part of the reviewed diff with justification).
 
 2. **Game-data bundling.** Committing bulk Warframe game data (item stats,
@@ -63,15 +64,15 @@ committed.
 
 ## Git / commit strategy
 
-- New repo, single project (structure — single Next.js app vs. monorepo with
-  a separate calc package — to be decided in the first architecture task and
-  recorded in `decisions.md`). Default branch `main`; feature branches only
-  when a task's plan calls for one.
+- New repo. Structure: **pnpm workspace monorepo** — `apps/web` (Next.js) +
+  `packages/engine` (the upstream calc engine + its `data/` catalog + tests,
+  one package for now; a later `warframe-data` split is a costed future task).
+  Default branch `main`; feature branches only when a task's plan calls for one.
 - Small commits per approved phase, not one giant commit per task.
 - No commits without explicit user request, per global default in
   `~/.claude/CLAUDE.md`.
 - No remote configured yet. No pushes / PRs until the user adds a remote and
-  approves pushing. When VoidForge (AGPLv3) code is imported, the commit that
+  approves pushing. When the upstream engine (AGPLv3) code is imported, the commit that
   introduces it must preserve its LICENSE and attribution/notice files.
 
 ## Data safety policy

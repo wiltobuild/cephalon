@@ -1,7 +1,7 @@
 # Tasks
 
 Each task run through `/start-task` gets its own directory here, named by a
-short slug (e.g. `docs/tasks/voidforge-engine-investigation/`).
+short slug (e.g. `docs/tasks/upstream-engine-investigation/`).
 
 This project's Documentation level is **Standard** (see
 `docs/agent/project-profile.md`). Each task directory contains:
@@ -22,7 +22,7 @@ Two code paths always get the full treatment plus a dated sign-off entry in
 `docs/agent/decisions.md`, regardless of task size:
 
 - **Calc-formula changes** — altering a damage/scaling/interaction formula
-  away from VoidForge's behavior.
+  away from the upstream engine's behavior.
 - **Game-data bundling** — committing bulk Warframe game data into the repo.
 
 See `docs/agent/workflow.md` for the full task-type → workflow mapping and
