@@ -2335,5 +2335,13 @@
     "ordnanceSpeedBonus": 0,
     "munitionsCapacityBonus": 0,
     "abilityTurretDamageBonus": 0
+  },
+  "sp:bare:braton:lancer": {
+    "ttkSeconds": 339.02857142857465,
+    "shotsToKill": 2144
+  },
+  "sp:modded:hek:crewman": {
+    "ttkSeconds": 77.78801843317979,
+    "shotsToKill": 82
   }
 }

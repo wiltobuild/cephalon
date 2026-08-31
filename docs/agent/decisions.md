@@ -210,3 +210,50 @@ future first-time addition of a golden file doesn't need a paired decisions
 entry.
 **Approved by**: Claude (coordinator) under the standing Phase-1b authorisation;
 in the Phase 1b report to the user.
+
+## 2026-08-30 — Steel Path scaling values SIGNED OFF (calc-formula gate, task 11)
+
+**Context**: The 2026-08-30 "Steel Path scoped INTO Phase 1" decision requires
+the user's dated sign-off on the wiki-sourced scaling values before any code.
+Argus sourced them from the current official wiki
+(`docs/tasks/phase-1c-steel-path/sourcing.md`) and found the commonly cited
+figures are stale (rebalanced in Update 36.0, 2024-06-18).
+
+**Values approved (user, "approve as sourced"):**
+- `SP_LEVEL_SHIFT = 100` — wiki.warframe.com/w/The_Steel_Path: "level increased by 100".
+- `SP_HEALTH_MULT = 2.5` — same page: "+150% (to a total of 250%, or 2.5x) bonus to health".
+- `SP_SHIELD_MULT = 2.5` — U36.0 patch note: "Shields are now multiplied by 2.5x" (was ×6.25).
+- **NO armor multiplier** — U36.0 patch note: "Steel Path no longer increases Armor values." Armor rises on SP only via the +100 level shift.
+- Out of scope: resource/mod drop chance, enemy damage output, Archwing/Railjack (+50) / Duviri (+20) mode variants, Eidolon fixed levels.
+
+**Order of operations:** (1) `effLevel = sp ? level + 100 : level`; (2) run the
+existing `scaleHealth` / `scaleArmor` / `scaleShield` on `effLevel`, unchanged;
+(3) multiply the health and shield *results* by 2.5 when `sp`; armor gets the
+shift only. Apply at the three call sites in `simulateDiscreteTTK`
+(`ttk.ts:323-325`) — scaling primitives keep their signatures.
+
+**Surface:** `sp?: boolean` on `SimulationParams` (+ `DEFAULT_SIM_PARAMS: false`)
+and a param on `calculateTTK`. Opt-in — `sp` off/absent = byte-identical to
+today. New named constants at the top of `ttk.ts` with the citations above.
+
+**Confidence label:** Steel Path output = **`approximation`** ("Approximation —
+pending live verification"), NOT `verified`. Rationale: the engine's underlying
+level curve is already a linear approximation of DE's post-U27.2 formulas, so
+absolute SP numbers will drift from live; SP tests assert the *composition*
+(`sp_result === 2.5 × non_sp(level + 100)` for health/shield; `=== non_sp(level+100)`
+for armor), not live-game values. `ConfidenceService.CONFIDENCE_MAP.steelPath`
+moves from `pending-verification` to `approximation` when task 11 lands. (This
+refines the earlier "then Verified" wording in the Steel Path scoping entry —
+Argus's sourcing shows Verified would over-claim.)
+
+**Deferred to a separate follow-up task:** Damage Attenuation (the wiki page is
+self-flagged unreliable; it is a boss/Lich/Archon mechanic, not SP-specific, and
+no enemy in the engine's 19-unit roster has it).
+
+**Verification bar for the implementation:** full ported suite stays
+**1925 tests / 0 fail** with `sp` off; new SP characterization tests match the
+8 worked oracle examples in the sourcing doc; `verify-engine-baseline` extended
+with SP-on cases (that extension itself paired with this entry). Elevated Themis
+review; Apollo runs the full suite + SP tests.
+
+**Approved by**: user (Steel Path scaling values, 2026-08-30).

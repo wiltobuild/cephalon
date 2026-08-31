@@ -31,7 +31,7 @@ exports[`ConfidenceService > locks the full confidence map 1`] = `
   "setBonuses": "verified",
   "statusChance": "verified",
   "statusUptime": "not-modeled",
-  "steelPath": "pending-verification",
+  "steelPath": "approximation",
   "sustainedDps": "verified",
   "totalDamage": "verified",
   "ttk": "approximation",

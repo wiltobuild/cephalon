@@ -5,6 +5,8 @@ export interface Scenario {
   faction?: string;
   enemyArchetypeId?: string;
   level?: number;
+  /** Standard ground-mission Steel Path scaling. */
+  steelPath?: boolean;
   /** Binary because the engine exposes applyHeadshots, not a headshot-rate model. */
   headshots: boolean;
   /** A 0–5 count because the engine does not model per-status uptime. */
@@ -23,6 +25,7 @@ export interface Scenario {
 export function scenarioToSimulationParams(scenario: Scenario): SimulationParams {
   return {
     ...DEFAULT_SIM_PARAMS,
+    sp: scenario.steelPath ?? false,
     targetFaction: scenario.faction,
     applyHeadshots: scenario.headshots,
     statusTypesOnTarget: Math.max(0, Math.min(5, scenario.statusTypesOnTarget)),

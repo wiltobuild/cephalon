@@ -11,6 +11,11 @@ import {
   factionTripleDotMultiplier,
 } from "./combat-multipliers";
 
+export const SP_LEVEL_SHIFT = 100; // wiki.warframe.com/w/The_Steel_Path — "level increased by 100"
+export const SP_HEALTH_MULT = 2.5; // wiki.warframe.com/w/The_Steel_Path — "+150% (to a total of 250%, or 2.5x) bonus to health"
+export const SP_SHIELD_MULT = 2.5; // wiki.warframe.com/w/The_Steel_Path U36.0 — "Shields are now multiplied by 2.5x"
+// NO SP armor multiplier — Steel Path stopped multiplying armor in U36.0.
+
 export interface EnemyType {
   id: string;
   name: string;
@@ -316,13 +321,15 @@ export function simulateDiscreteTTK(
   enemy: EnemyType,
   level: number,
   opts?: { maxTime?: number; maxShots?: number },
+  sp = false,
 ): TTKResult {
   const maxTime = opts?.maxTime ?? 600;
   const maxShots = opts?.maxShots ?? 50_000;
 
-  const scaledHp = scaleHealth(enemy.baseHealth, level, enemy.faction);
-  const baseArmor = scaleArmor(enemy.baseArmor, level);
-  const scaledShield = scaleShield(enemy.baseShield, level);
+  const effLevel = sp ? level + SP_LEVEL_SHIFT : level;
+  const scaledHp = (sp ? SP_HEALTH_MULT : 1) * scaleHealth(enemy.baseHealth, effLevel, enemy.faction);
+  const baseArmor = scaleArmor(enemy.baseArmor, effLevel);
+  const scaledShield = (sp ? SP_SHIELD_MULT : 1) * scaleShield(enemy.baseShield, effLevel);
 
   const dmgTypes = collectDamageTypes(stats);
   const totalRaw = dmgTypes.reduce((s, d) => s + d.value, 0);
@@ -726,6 +733,6 @@ export function simulateDiscreteTTK(
 }
 
 /** Main entry — discrete Viral/Corrosive-aware TTK sim. */
-export function calculateTTK(stats: CalculatedStats, enemy: EnemyType, level: number): TTKResult {
-  return simulateDiscreteTTK(stats, enemy, level);
+export function calculateTTK(stats: CalculatedStats, enemy: EnemyType, level: number, sp = false): TTKResult {
+  return simulateDiscreteTTK(stats, enemy, level, undefined, sp);
 }

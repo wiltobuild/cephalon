@@ -401,6 +401,8 @@ export interface StatusProc {
 }
 
 export interface SimulationParams {
+  /** Steel Path: +100 enemy level, ×2.5 health, ×2.5 shield; armor gets the level shift only. Default false = star-chart scaling. */
+  sp?: boolean;
   comboCount: number;         // melee combo hit count (default 0)
   killStacks: number;         // Galvanized / Berserker on-kill stacks (0-5)
   statusTypesOnTarget: number; // Condition Overload / Galvanized Aptitude (0-5)
@@ -574,6 +576,7 @@ export interface SimulationParams {
 }
 
 export const DEFAULT_SIM_PARAMS: SimulationParams = {
+  sp: false,
   comboCount: 0,
   killStacks: 0,
   statusTypesOnTarget: 0,

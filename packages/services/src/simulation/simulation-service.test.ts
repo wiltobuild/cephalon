@@ -17,11 +17,28 @@ test("attaches EV / roster / special-defenses / Steel-Path caveats unconditional
     const keys = result.caveats.map((c) => c.key);
     expect(keys).toEqual(expect.arrayContaining(["expectedValueStatus", "enemyRoster", "specialDefenses", "steelPath"]));
     const sp = result.caveats.find((c) => c.key === "steelPath")!;
-    expect(sp.tag).toBe("pending-verification");
-    expect(sp.text).toMatch(/Steel Path scaling is not yet modelled/i);
-    // never claims the level scaling shown IS Steel Path
-    expect(sp.text).not.toMatch(/Steel Path (applied|active|modelled\.)/i);
+    expect(sp.tag).toBe("approximation");
+    expect(sp.text).toMatch(/Enemy level only/i);
+    expect(sp.text).not.toMatch(/Steel Path applied/i);
   }
+});
+
+test("applies Steel Path scaling and reports its approximation caveat", () => {
+  const catalog = new CatalogService();
+  const confidence = new ConfidenceService();
+  const builds = new BuildService(catalog, confidence);
+  const build = builds.calculateWeapon({ weaponId: "braton", modSlots: [], scenario });
+  const steelPathBuild = builds.calculateWeapon({ weaponId: "braton", modSlots: [], scenario: { ...scenario, steelPath: true } });
+  const sim = new SimulationService(catalog, confidence);
+  const target = { enemyArchetypeId: "lancer", level: 100 };
+  const standard = sim.simulate(build, target);
+  const steelPath = sim.simulate(steelPathBuild, target);
+
+  expect(steelPathBuild.rawStats.simParams.sp).toBe(true);
+  expect(steelPath.ttk.ttk).toBeGreaterThan(standard.ttk.ttk);
+  const caveat = steelPath.caveats.find((item) => item.key === "steelPath")!;
+  expect(caveat.tag).toBe("approximation");
+  expect(caveat.text).toMatch(/Steel Path applied/i);
 });
 
 test("rejects an unknown enemy archetype", () => {

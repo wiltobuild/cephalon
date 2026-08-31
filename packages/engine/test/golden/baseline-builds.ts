@@ -11,7 +11,7 @@ import {
   ENEMY_TYPES,
 } from "../../src/index";
 
-export interface BaselineBuild { id: string; kind: "weapon" | "warframe" | "archwing" | "railjack"; weaponId?: string; modIds?: string[]; warframeId?: string; archwingId?: string; }
+export interface BaselineBuild { id: string; kind: "weapon" | "warframe" | "archwing" | "railjack"; weaponId?: string; modIds?: string[]; warframeId?: string; archwingId?: string; enemyId?: string; sp?: boolean; }
 
 /** Canonical representative builds: bare weapons across trigger families plus a small modded set. */
 export const BASELINE_BUILDS: BaselineBuild[] = [
@@ -21,6 +21,8 @@ export const BASELINE_BUILDS: BaselineBuild[] = [
   { id: "modded:paris", kind: "weapon", weaponId: "paris", modIds: ["serration"] },
   { id: "modded:skana", kind: "weapon", weaponId: "skana", modIds: ["pressure_point"] },
   { id: "modded:torid", kind: "weapon", weaponId: "torid", modIds: ["serration"] },
+  { id: "sp:bare:braton:lancer", kind: "weapon", weaponId: "braton", enemyId: "lancer", sp: true },
+  { id: "sp:modded:hek:crewman", kind: "weapon", weaponId: "hek", modIds: ["point_blank"], enemyId: "crewman", sp: true },
   { id: "warframe:excalibur", kind: "warframe", warframeId: "excalibur" },
   { id: "archwing:odonata", kind: "archwing", archwingId: "odonata" },
   { id: "railjack:bare", kind: "railjack" },
@@ -38,7 +40,10 @@ export function computeBaseline(build: BaselineBuild): Record<string, unknown> {
     if (!weapon) throw new Error(`Missing baseline weapon ${build.weaponId}`);
     const modSlots = (build.modIds ?? []).map((modId, slotIndex) => ({ modId, rank: mods.get(modId)?.maxRank ?? 0, slotIndex }));
     const stats = calculateWeaponBuildWithArcanes(weapon, modSlots, mods, []);
-    const ttk = calculateTTK(stats, ENEMY_TYPES[0], 100);
+    const enemy = build.enemyId ? ENEMY_TYPES.find((item) => item.id === build.enemyId) : ENEMY_TYPES[0];
+    if (!enemy) throw new Error(`Missing baseline enemy ${build.enemyId}`);
+    const ttk = calculateTTK(stats, enemy, 100, build.sp ?? false);
+    if (build.sp) return { ttkSeconds: ttk.ttk, shotsToKill: ttk.shotsToKill };
     return { ...numericFields(stats as unknown as Record<string, unknown>), ttkSeconds: ttk.ttk, shotsToKill: ttk.shotsToKill };
   }
   if (build.kind === "warframe") {

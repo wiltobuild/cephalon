@@ -35,7 +35,7 @@ export const CONFIDENCE_MAP: Record<MechanicKey, ConfidenceTag> = {
   discreteTtk: "approximation", meleeDps: "approximation", radialDamage: "approximation",
   abilityDamage: "approximation", rivenGrade: "approximation", armorStripPercent: "not-modeled",
   headshotPercent: "not-modeled", statusUptime: "not-modeled", archonOffensiveShards: "not-modeled",
-  magneticShieldGateOverguardEximus: "not-modeled", enemyRoster: "not-modeled", steelPath: "pending-verification",
+  magneticShieldGateOverguardEximus: "not-modeled", enemyRoster: "not-modeled", steelPath: "approximation",
 };
 
 export class ConfidenceService {

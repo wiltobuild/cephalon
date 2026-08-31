@@ -22,6 +22,9 @@ import {
   scaleHealth,
   scaleShield,
   SHIELD_MODIFIERS,
+  SP_HEALTH_MULT,
+  SP_LEVEL_SHIFT,
+  SP_SHIELD_MULT,
   viralHealthMultiplier,
   type EnemyType,
   type TTKResult,
@@ -175,16 +178,22 @@ export function runDamageSim(
   input: DamageSimInputs,
   enemy: EnemyType,
   level: number,
+  sp = false,
 ): DamageSimResult | null {
   const totalRaw = Object.values(input.dmgTypes).reduce((s, v) => s + v, 0);
   if (totalRaw <= 0) return null;
 
   const stats = simInputsToCalculatedStats(input, enemy.faction);
-  const discrete = calculateTTK(stats, enemy, level);
+  const discrete = calculateTTK(stats, enemy, level, sp);
 
-  const hp = scaleHealth(enemy.baseHealth, level, enemy.faction);
-  const baseArmor = scaleArmor(enemy.baseArmor, level);
-  const shield = scaleShield(enemy.baseShield, level);
+  // Pristine level-scaled defenses for the paper breakdown. NOTE: do not read
+  // `discrete.scaledArmor` here — on the main TTKResult path that field is
+  // end-of-fight armor (post corrosive/heat/puncture strip), not the base value.
+  // Steel Path composition mirrors ttk.ts: +100 level, ×2.5 health/shield, ×1 armor.
+  const effLevel = sp ? level + SP_LEVEL_SHIFT : level;
+  const hp = (sp ? SP_HEALTH_MULT : 1) * scaleHealth(enemy.baseHealth, effLevel, enemy.faction);
+  const baseArmor = scaleArmor(enemy.baseArmor, effLevel);
+  const shield = (sp ? SP_SHIELD_MULT : 1) * scaleShield(enemy.baseShield, effLevel);
 
   const procsPerSec = input.fireRate * input.statusChance * input.multishot;
   const corrosiveWeight = (input.dmgTypes.corrosive ?? 0) / totalRaw;

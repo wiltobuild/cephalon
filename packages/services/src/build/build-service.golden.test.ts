@@ -37,6 +37,11 @@ const WEAPON_BUILDS: { id: string; mods: string[] }[] = [
 ];
 
 describe("BuildService faithful translation (modded)", () => {
+  test("maps Scenario.steelPath to the engine SP input", () => {
+    expect(scenarioToSimulationParams({ ...scenario, steelPath: true }).sp).toBe(true);
+    expect(scenarioToSimulationParams(scenario).sp).toBe(false);
+  });
+
   for (const { id, mods } of WEAPON_BUILDS) {
     test(`${id}: rawStats == direct engine call`, () => {
       const weapon = catalog.getWeapon(id)!;
