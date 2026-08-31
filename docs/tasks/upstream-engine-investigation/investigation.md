@@ -1,12 +1,12 @@
 # the upstream engine / "the upstream project" — Argus investigation
 
 Read-only investigation of `vendor/upstream-engine/` @ `e66896a0fa83b7336baaa5614d9fb7c8a7d61e88`
-("Merge branch 'dev' into main", 2026-07-25, author `StepTwo33 <jasonwelch903@gmail.com>`).
+("Merge branch 'dev' into main", 2026-07-25, by the sole author).
 
 Method: static analysis (`rg`, `Read`), a scripted transitive-import closure of the
 calculation entry points, plus one read-only `npm install` + `npx vitest run`.
 
-Naming note: the git remote is `https://github.com/StepTwo33/the upstream engine.git` and this
+Naming note: the git remote is `the upstream repository (URL in docs/agent/upstream-engine.md)` and this
 task calls the project "the upstream engine", but **every in-repo string says "the upstream project" /
 `upstream-project` / `the-upstream-project.example`**. The GitHub repo was evidently renamed
 the upstream project → the upstream engine; the working tree still self-identifies as the upstream project. This doc
@@ -778,12 +778,12 @@ radial falloff.
 ### Verified facts (documents, quoted minimally)
 
 - **`LICENSE`** (full text, 6 lines): "This project is licensed under the GNU Affero
-  General Public License v3.0 (AGPL-3.0)." … "Copyright (c) 2026 StepTwo33 (Jason) and
+  General Public License v3.0 (AGPL-3.0)." … "Copyright (c) 2026 the sole author and
   the upstream project contributors." … **"Previous versions were under MIT; new contributions and
   this license change apply going forward."**
 - **`package.json`**: `"name": "upstream-project"`, `"version": "0.1.0"`,
   `"description": "Open-source Warframe build planner (the upstream project)"`,
-  **`"license": "MIT"`**, `"repository.url": "https://github.com/StepTwo33/the upstream project.git"`.
+  **`"license": "MIT"`**, `"repository.url": "the upstream repository (URL in docs/agent/upstream-engine.md)"`.
   → Direct contradiction with `LICENSE`.
 - **`README.md`**: "# the upstream project", "Open-source verification source for
   [the-upstream-project.example]", **"This repository is not intended for self-hosting."**, "## License
@@ -793,7 +793,7 @@ radial falloff.
 - **`CONTRIBUTING.md`**: "Thanks for helping with the upstream project." — no CLA, no
   copyright-assignment clause. "Issues and pull requests are welcome."
 - **`SECURITY.md`**: email `support@the-upstream-project.example`; nothing licensing-related.
-- **Git remote**: `https://github.com/StepTwo33/the upstream engine.git` (repo renamed from
+- **Git remote**: `the upstream repository (URL in docs/agent/upstream-engine.md)` (repo renamed from
   the upstream project). **The vendored clone is a single squashed commit** `e66896a`
   (`git rev-list --count HEAD` = **1**). There is **no history** to locate the
   MIT→AGPL commit, the rename commit, or their dates. `git log --grep` for

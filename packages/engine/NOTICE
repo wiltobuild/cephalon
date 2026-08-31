@@ -1,0 +1,16 @@
+Cephalon's engine package derives from VoidForge, previously named FrameHub
+(Frame Hub), at https://github.com/StepTwo33/VoidForge, revision
+e66896a0fa83b7336baaa5614d9fb7c8a7d61e88.
+
+The source tree's LICENSE is GNU AGPL-3.0. Earlier versions were under MIT;
+new contributions and the license change apply going forward. The upstream
+package metadata still states MIT, which conflicts with its LICENSE; Cephalon
+treats the source as AGPL-3.0.
+
+The calculation code and catalog include material described as ported from an
+earlier Dart project whose license is not stated in the available source.
+
+Warframe names, statistics, and assets are the property of Digital Extremes.
+They are used for informational purposes under community fan-site convention;
+this is an unofficial fan project and is not affiliated with or endorsed by
+Digital Extremes.

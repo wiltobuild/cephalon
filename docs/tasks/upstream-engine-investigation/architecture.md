@@ -213,20 +213,35 @@ Detail: [`investigation.md`](investigation.md) §7.
 ## 8. Licensing (not legal advice)
 
 Facts ([`investigation.md`](investigation.md) §8;
-[`../../agent/upstream-engine.md`](../../agent/upstream-engine.md)):
+[`../../agent/upstream-engine.md`](../../agent/upstream-engine.md) → History):
 `LICENSE` = **AGPL-3.0** "going forward; previous versions were MIT";
 `package.json` still declares `"license": "MIT"` (a published, machine-read
 contradiction — SBOM / `license-checker` will report the upstream as MIT); no
 CLA; no per-file headers; calc + data are a port of an earlier **Dart** project
-of **unstated** license; the available clone is a **single squashed commit**, so
-the MIT→AGPL date and which lines predate it are **unrecoverable**. The
-maintainer is treated as **unreachable**.
+of **unstated** license.
+
+**History recovered** (the "unrecoverable" premise was an artifact of the
+`--depth 1` vendor clone; a full-history reference clone now exists, 438
+commits 2026-02-15 → 2026-07-25): **single copyright holder** — every commit is
+one person (the sole author, four aliases), **no third-party
+contributors**, so the missing CLA is moot. MIT→AGPL switch is commit `ffd82e9`,
+**2026-07-16** (LICENSE-only; `package.json` "MIT" simply never updated —
+confirmed stale). Our pinned rev `e66896a` (2026-07-25) is **post-switch**; the
+`src/lib/calc/` engine has **no MIT-era version** in this repo, so the calc code
+is AGPL-only. ~48 `src/data/**` files do have a 2026-07-13 MIT snapshot but with
+heavy post-switch work since. The maintainer's email is active; **per user
+decision no outreach is pursued** ("unreachable" is a project choice, not a
+fact).
 
 **AGPL §13** attaches to any Cephalon service that links this code: while the
 project is open-source, the complete corresponding source of the combined work
 must be offered to users under AGPL-3.0. A **closed-source / commercial pivot is
-not a clean step** — it would need a grant from every rights holder (not
-obtainable) or removal/rewrite of the AGPL portions.
+still not a clean step** — but the recovered history narrows it: there is **one
+identifiable rights holder** (a clean commercial/dual license *if* the
+maintainer were engaged, which the project has chosen not to pursue). The
+residual unknown is the **Dart-origin project's license** (probably self,
+unverified). Absent that, the pivot route is removal/rewrite of the AGPL
+portions — and the calc engine has no MIT-era fallback.
 
 **Decision (user-approved 2026-08-30):** build on the upstream engine **now
 under full AGPL-3.0**; keep only the legally required `LICENSE` + a `NOTICE`

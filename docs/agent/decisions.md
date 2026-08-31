@@ -146,3 +146,42 @@ that task lands, any scenario UI shipped shows SP as **Approximation — pending
 verification**, never Verified. This is the first exercise of the
 calc-formula gate and its golden-baseline / `decisions.md` machinery.
 **Approved by**: user
+
+## 2026-08-30 — Phase 1a — R2 engine build-step
+
+**Decision**: apps/web consumes `@cephalon/engine` via `transpilePackages` +
+source; a tsup/tsc-alias dist build is deferred to the first second consumer or
+publish. Approved by: user (Part A bundle).
+
+## 2026-08-30 — Phase 1a — arcane-effect overrides use a default empty set (deviation from brief, recorded)
+
+**Context**: Phase 1a sub-task 5 (de-singleton) made `apply*Overrides` and the
+8 `getEffective*` accessors take a **required** `OverrideSet`. The brief grouped
+`overrides/arcane-effect-overrides.ts` (`applyArcaneEffectOverrides`,
+`getArcaneEffectDef`) with that "required" set. Making it required forces an
+`OverrideSet` parameter through `calc/calculator.ts` (l.1923) and 4 call sites
+in `calc/arcane-calculator.ts` — i.e. modifying a `calc/` god file, which
+Phase 1a scope explicitly excludes ("KEEP verbatim + WRAP", no calc-formula or
+calc-file changes).
+**Options considered**: (1) thread `OverrideSet` through `calculator.ts` /
+`arcane-calculator.ts` now — rejected, touches the excluded god file and
+widens the diff into calc logic; (2) give the two functions
+`overrides: OverrideSet = []` and record the gap — chosen; (3) drop the
+functions from the package — rejected, `calculator.ts` imports
+`getArcaneEffectDef`.
+**Decision**: `applyArcaneEffectOverrides` / `getArcaneEffectDef` take
+`overrides: OverrideSet = []`. Consequence: once a host wires real data
+overrides, every category flows via the required params **except arcane-effect
+(magnitude) overrides**, which reach the damage math through `calculator.ts`.
+Phase-1 impact is nil — no override host exists, `setOverrideCache` is deleted,
+and the upstream server-side path would also see an empty set. The functions
+are exported from the barrel's catalog-assembly group with a comment marking
+the gap.
+**Follow-up (Phase 1b, CatalogService milestone)**: thread arcane-effect
+overrides to the calc path — either `CatalogService` builds a merged
+`ARCANE_EFFECTS` map and passes it via the existing `effects?` param of
+`getArcaneEffectDef`, or an `OverrideSet` is threaded through
+`calculateWeaponBuildWithArcanes`. Tracked in the Phase 1a final-report open
+items.
+**Approved by**: Claude (coordinator) under the standing Phase-1a authorisation;
+surfaced to the user in the Phase 1a report.

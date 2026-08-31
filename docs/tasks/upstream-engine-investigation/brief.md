@@ -3,7 +3,7 @@
 ## Scope
 
 A read-only technical investigation of the upstream engine repository
-(https://github.com/StepTwo33/the upstream engine, cloned at `vendor/upstream-engine/`,
+(the upstream repository (URL in docs/agent/upstream-engine.md), cloned at `vendor/upstream-engine/`,
 rev `e66896a` "Merge branch 'dev' into main", 2026-07-25), followed by a
 proposed architecture for Cephalon that reuses the upstream engine's calculation and
 data layers as an engine.
@@ -87,7 +87,7 @@ The deliverable is a single architecture document at
   `src/app` (102, Next routes/pages), `src/components` (76, UI),
   `src/data` (49, game data / normalization). Existing in-repo docs:
   `docs/ARCHITECTURE.md`, `docs/ACCURACY_CHECKLIST.md`.
-- Licensing signal: `LICENSE` = AGPL-3.0 (Copyright 2026 StepTwo33 /
+- Licensing signal: `LICENSE` = AGPL-3.0 (Copyright 2026 <author> /
   the upstream project contributors; "previous versions were under MIT... apply going
   forward"); `package.json` still declares `"license": "MIT"` and
   `name: "upstream-project"`.

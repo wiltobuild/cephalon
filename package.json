@@ -1,0 +1,15 @@
+{
+  "name": "cephalon",
+  "private": true,
+  "packageManager": "pnpm@9.15.5",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

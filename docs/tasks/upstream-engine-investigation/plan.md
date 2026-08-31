@@ -156,7 +156,7 @@ documented future task** (recipe + trigger above), not Phase 1. Record both in
 ## Decision: Licensing path (highest-stakes)
 
 ### Evidence (all from Argus §8 — factual, not legal advice)
-- `LICENSE` = AGPL-3.0, "Copyright (c) 2026 StepTwo33 (Jason) and the upstream project
+- `LICENSE` = AGPL-3.0, "Copyright (c) 2026 the sole author and the upstream project
   contributors", "Previous versions were under MIT; new contributions and this
   license change apply going forward."
 - `package.json` still says `"license": "MIT"`, `"name": "upstream-project"` — a
