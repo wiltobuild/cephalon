@@ -83,6 +83,7 @@ async function filesUnder(directory) {
 // is "no React/Next/Prisma/network".
 const servicesSource = path.join(repositoryRoot, "packages", "services", "src");
 const servicesLabels = new Set(["framework import", "Prisma import", "WFCD import", "fetch"]);
+const webSource = path.join(repositoryRoot, "apps", "web", "src");
 
 async function collect(root, filter) {
   const out = [];
@@ -102,12 +103,19 @@ const violations = [
   ...await collect(engineSource, null),
   ...await collect(servicesSource, (v) => [...servicesLabels].some((l) => v.includes(`: ${l} `))),
 ];
+for (const file of await filesUnder(webSource)) {
+  if (!file.endsWith(".ts") && !file.endsWith(".tsx")) continue;
+  const relative = path.relative(webSource, file).replaceAll(path.sep, "/");
+  if (relative.startsWith("server/")) continue;
+  const source = stripComments(await readFile(file, "utf8"));
+  if (/\bfrom\s*["']@cephalon\/(?:engine|services)["']|\bimport\s*["']@cephalon\/(?:engine|services)["']/.test(source)) violations.push(`web/${relative}: Cephalon engine/services import outside src/server`);
+}
 
 if (violations.length > 0) {
   console.error("Boundary check failed:");
   for (const violation of violations) console.error(`- ${violation}`);
   process.exitCode = 1;
 } else {
-  console.log("Boundary check passed (self-test ok): packages/engine/src + packages/services/src.");
+  console.log("Boundary check passed (self-test ok): packages/engine/src + packages/services/src + apps/web/src server-only imports.");
   console.log(`Temporary allowlist: ${temporaryAllowlist.size === 0 ? "empty" : [...temporaryAllowlist.keys()].join(", ")}`);
 }

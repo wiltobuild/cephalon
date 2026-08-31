@@ -13,6 +13,7 @@ import {
   modMatchesExclusiveWeapon,
   type WeaponModProfile,
 } from "@/mods/weapon-mod-tags";
+export type { WeaponModProfile } from "@/mods/weapon-mod-tags";
 
 export type WeaponModSlotType =
   | "regular"

@@ -52,6 +52,8 @@ export { allCompanions } from "./data/companions";
 export { allArchonShards } from "./data/archon-shards";
 export { archwings, necramechs } from "./data/archwing";
 export { enrichWeapon } from "./weapons/weapon-enrich";
+export { modEligibleForWeaponSlot } from "./mods/mod-weapon-eligibility";
+export type { WeaponModSlotType, WeaponModProfile } from "./mods/mod-weapon-eligibility";
 export {
   getEffectiveArchonShards,
   getEffectiveArcanes,

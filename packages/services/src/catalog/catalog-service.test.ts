@@ -13,4 +13,10 @@ describe("CatalogService", () => {
     const overrides: OverrideSet = [{ id: "test", targetType: "weapon", targetId: "braton", action: "modify", fields: { name: "Test Braton" }, note: "test", timestamp: 0 }];
     expect(new CatalogService(overrides).getWeapon("braton")?.name).toBe("Test Braton");
   });
+  test("provides lightweight builder catalog helpers", () => {
+    const catalog = new CatalogService();
+    expect(catalog.listWeapons().find((weapon) => weapon.id === "braton")?.name).toBe("Braton");
+    expect(catalog.getWeaponDetail("braton")?.modSlotCount).toBeGreaterThan(0);
+    expect(catalog.compatibleMods("braton").find((mod) => mod.id === "serration_r3")?.name).toBe("Serration");
+  });
 });
