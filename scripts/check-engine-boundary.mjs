@@ -108,7 +108,11 @@ for (const file of await filesUnder(webSource)) {
   const relative = path.relative(webSource, file).replaceAll(path.sep, "/");
   if (relative.startsWith("server/")) continue;
   const source = stripComments(await readFile(file, "utf8"));
-  if (/\bfrom\s*["']@cephalon\/(?:engine|services)["']|\bimport\s*["']@cephalon\/(?:engine|services)["']/.test(source)) violations.push(`web/${relative}: Cephalon engine/services import outside src/server`);
+  // catches: bare `from "@cephalon/engine"`, subpath `@cephalon/services/dist/...`,
+  // and `import("@cephalon/engine")` dynamic imports. `import type` is fine (erased).
+  if (/(?<!\btype\s)(?:from|import)\s*\(?\s*["']@cephalon\/(?:engine|services)(?:\/[^"']*)?["']/.test(source)) {
+    violations.push(`web/${relative}: Cephalon engine/services import outside src/server`);
+  }
 }
 
 if (violations.length > 0) {
