@@ -1,0 +1,16 @@
+{
+  "name": "@cephalon/services",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": {
+    "build:engine": "pnpm --filter @cephalon/engine build",
+    "pretest": "pnpm run build:engine",
+    "pretypecheck": "pnpm run build:engine",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "@cephalon/engine": "workspace:*" },
+  "devDependencies": { "vitest": "^3.2.4" }
+}

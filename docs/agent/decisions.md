@@ -185,3 +185,28 @@ overrides to the calc path — either `CatalogService` builds a merged
 items.
 **Approved by**: Claude (coordinator) under the standing Phase-1a authorisation;
 surfaced to the user in the Phase 1a report.
+
+## 2026-08-30 — Phase 1b — engine golden-baseline established (task 10)
+
+**Context**: The calc-formula gate (`scripts/check-formula-gate.mjs`) treats
+`packages/engine/test/golden/engine-baseline.json` as a protected path — a
+change to it requires a `decisions.md` entry in the same diff. This entry
+establishes the baseline itself so the introducing commit satisfies its own
+gate.
+**Decision**: `packages/engine/test/golden/engine-baseline.json` records the
+deterministic `CalculatedStats` / `TTKResult` numeric fields for ~48 canonical
+builds (`baseline-builds.ts` — weapons across trigger families + Incarnon +
+melee + a warframe + archwing + railjack), computed through the
+`@cephalon/engine` barrel. `verify-engine-baseline.test.ts` deep-equals every
+finite numeric field per build. Provenance: the bundled catalog at upstream rev
+`e66896a` (see `packages/engine/src/data/PROVENANCE.md`); Warframe balance as of
+the July 2026 catalog sync. Any future change to these numbers — from a catalog
+pull or a formula edit — must be reviewed and recorded here (the gate enforces
+it). Regenerate with `packages/engine/scripts/gen-baseline.mjs` only when a
+change has been approved.
+**Follow-up**: refine `check-formula-gate.mjs` to distinguish file *creation*
+(`git diff --name-status` = `A`) of the baseline from *modification*, so a
+future first-time addition of a golden file doesn't need a paired decisions
+entry.
+**Approved by**: Claude (coordinator) under the standing Phase-1b authorisation;
+in the Phase 1b report to the user.

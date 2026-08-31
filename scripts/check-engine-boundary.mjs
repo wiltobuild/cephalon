@@ -77,18 +77,37 @@ async function filesUnder(directory) {
   return nested.flat();
 }
 
-const violations = [];
-for (const file of await filesUnder(engineSource)) {
-  if (!file.endsWith(".ts")) continue;
-  const relativePath = path.relative(engineSource, file).replaceAll(path.sep, "/");
-  violations.push(...scan(relativePath, await readFile(file, "utf8")));
+// `packages/services/src` gets a subset check: no framework/ORM imports and no
+// network. `process.env` is allowed there (service-layer config) but not the
+// DOM/window checks — services never touch the DOM either, but the salient rule
+// is "no React/Next/Prisma/network".
+const servicesSource = path.join(repositoryRoot, "packages", "services", "src");
+const servicesLabels = new Set(["framework import", "Prisma import", "WFCD import", "fetch"]);
+
+async function collect(root, filter) {
+  const out = [];
+  let files;
+  try { files = await filesUnder(root); } catch { return out; }
+  for (const file of files) {
+    if (!file.endsWith(".ts")) continue;
+    const rel = path.relative(root, file).replaceAll(path.sep, "/");
+    for (const v of scan(rel, await readFile(file, "utf8"))) {
+      if (!filter || filter(v)) out.push(`${path.basename(root) === "src" ? path.basename(path.dirname(root)) : "engine"}/${v}`);
+    }
+  }
+  return out;
 }
 
+const violations = [
+  ...await collect(engineSource, null),
+  ...await collect(servicesSource, (v) => [...servicesLabels].some((l) => v.includes(`: ${l} `))),
+];
+
 if (violations.length > 0) {
-  console.error("Engine boundary check failed:");
+  console.error("Boundary check failed:");
   for (const violation of violations) console.error(`- ${violation}`);
   process.exitCode = 1;
 } else {
-  console.log("Engine boundary check passed (self-test ok).");
+  console.log("Boundary check passed (self-test ok): packages/engine/src + packages/services/src.");
   console.log(`Temporary allowlist: ${temporaryAllowlist.size === 0 ? "empty" : [...temporaryAllowlist.keys()].join(", ")}`);
 }

@@ -1,0 +1,40 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BuildService regression anchors (cited modded builds) > braton + [serration_r3, split_chamber_r3, point_strike_r3, vital_sense_r3] @ grineer/headshots/2 status/3 kill/12 arcane 1`] = `
+{
+  "burstDps": 3832,
+  "criticalChance": 0.3,
+  "multishot": 1.9,
+  "sustainedDps": 2759,
+  "totalDamage": 66,
+}
+`;
+
+exports[`BuildService regression anchors (cited modded builds) > lex + [hornet_strike_r3, barrel_diffusion_r3] @ grineer/headshots/2 status/3 kill/12 arcane 1`] = `
+{
+  "burstDps": 2372,
+  "criticalChance": 0.2,
+  "multishot": 2.2,
+  "sustainedDps": 1667,
+  "totalDamage": 416,
+}
+`;
+
+exports[`BuildService regression anchors (cited modded builds) > rhino + [vitality, redirection, steel_fiber] durability anchor 1`] = `
+{
+  "effectiveHealth": 2314,
+  "totalArmor": 480,
+  "totalHealth": 540,
+  "totalShield": 910,
+}
+`;
+
+exports[`BuildService regression anchors (cited modded builds) > soma + [serration_r3, split_chamber_r3, point_strike_r3, vital_sense_r3, heavy_caliber] @ grineer/headshots/2 status/3 kill/12 arcane 1`] = `
+{
+  "burstDps": 15298,
+  "criticalChance": 0.75,
+  "multishot": 1.9,
+  "sustainedDps": 10550,
+  "totalDamage": 52,
+}
+`;
