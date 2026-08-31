@@ -60,6 +60,17 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm --filter @cephalon/engine build
       - run: pnpm --filter web build
+  web-unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: corepack enable
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter @cephalon/engine build
+      - run: pnpm --filter web test
   e2e:
     runs-on: ubuntu-latest
     steps:

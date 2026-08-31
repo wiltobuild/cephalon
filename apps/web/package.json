@@ -7,6 +7,7 @@
     "build": "next build",
     "typecheck": "tsc --noEmit",
     "e2e": "playwright test",
+    "pretest": "pnpm --filter @cephalon/engine build",
     "test": "vitest run"
   },
   "dependencies": {

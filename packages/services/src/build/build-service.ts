@@ -11,7 +11,13 @@ import { CatalogService } from "../catalog/catalog-service";
 import { ConfidenceService, type ConfidenceTag, type MechanicKey } from "../confidence/confidence-service";
 import { scenarioToSimulationParams, type Scenario } from "./scenario";
 
-export interface StatViewModel { key: MechanicKey; label: string; value: number; confidence: ConfidenceTag; }
+export interface StatViewModel {
+  key: MechanicKey;
+  label: string;
+  value: number;
+  confidence: ConfidenceTag;
+  breakdown?: { type: string; value: number }[];
+}
 export interface BuildViewModel {
   stats: StatViewModel[];
   perModContribution: { modId: string; label: string; dpsDelta: number; pct: number }[];
@@ -29,6 +35,10 @@ export interface WarframeBuildInput {
 
 export const WEAPON_STAT_FIELDS: { key: MechanicKey; label: string; field: keyof CalculatedStats }[] = [
   { key: "totalDamage", label: "Total Damage", field: "totalDamage" },
+  { key: "impact", label: "Impact", field: "impact" },
+  { key: "puncture", label: "Puncture", field: "puncture" },
+  { key: "slash", label: "Slash", field: "slash" },
+  { key: "elementalDamage", label: "Elemental Damage", field: "totalDamage" },
   { key: "burstDps", label: "Burst DPS", field: "burstDps" },
   { key: "sustainedDps", label: "Sustained DPS", field: "sustainedDps" },
   { key: "criticalChance", label: "Critical Chance", field: "criticalChance" },
@@ -87,6 +97,16 @@ export class BuildService {
 
   private mapStats<T extends object>(stats: T, fields: { key: MechanicKey; label: string; field: keyof T }[]): StatViewModel[] {
     this.confidence.assertTagged(fields.map((item) => item.key));
-    return fields.map((item) => ({ key: item.key, label: item.label, value: Number(stats[item.field]), confidence: this.confidence.tag(item.key) }));
+    return fields.map((item) => ({
+      key: item.key,
+      label: item.label,
+      value: item.key === "elementalDamage"
+        ? (stats as CalculatedStats).elements.reduce((total, element) => total + element.value, 0)
+        : Number(stats[item.field]),
+      confidence: this.confidence.tag(item.key),
+      ...(item.key === "elementalDamage"
+        ? { breakdown: (stats as CalculatedStats).elements.map((element) => ({ type: element.type, value: element.value })) }
+        : {}),
+    }));
   }
 }

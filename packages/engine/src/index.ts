@@ -54,6 +54,8 @@ export { archwings, necramechs } from "./data/archwing";
 export { enrichWeapon } from "./weapons/weapon-enrich";
 export { modEligibleForWeaponSlot } from "./mods/mod-weapon-eligibility";
 export type { WeaponModSlotType, WeaponModProfile } from "./mods/mod-weapon-eligibility";
+export { getWeaponModProfile } from "./mods/weapon-mod-tags";
+export { rivenDispositions } from "./data/riven-dispositions";
 export {
   getEffectiveArchonShards,
   getEffectiveArcanes,

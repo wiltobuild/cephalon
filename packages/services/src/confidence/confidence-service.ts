@@ -12,6 +12,7 @@ export type ConfidenceTag = "verified" | "approximation" | "not-modeled" | "pend
 export type MechanicKey =
   | "totalDamage" | "burstDps" | "sustainedDps" | "criticalChance" | "criticalMultiplier"
   | "statusChance" | "fireRate" | "multishot" | "reloadTime" | "magazine" | "modCapacityCost"
+  | "impact" | "puncture" | "slash" | "elementalDamage"
   // Warframe survivability outputs (deterministic; covered by warframe-math-audit /
   // warframe-mod-audit in the ported suite).
   | "warframeEhp" | "warframeHealth" | "warframeShield" | "warframeArmor" | "warframeEnergy"
@@ -27,6 +28,7 @@ export const CONFIDENCE_MAP: Record<MechanicKey, ConfidenceTag> = {
   totalDamage: "verified", burstDps: "verified", sustainedDps: "verified", criticalChance: "verified",
   criticalMultiplier: "verified", statusChance: "verified", fireRate: "verified", multishot: "verified",
   reloadTime: "verified", magazine: "verified", modCapacityCost: "verified",
+  impact: "verified", puncture: "verified", slash: "verified", elementalDamage: "verified",
   warframeEhp: "verified", warframeHealth: "verified", warframeShield: "verified",
   warframeArmor: "verified", warframeEnergy: "verified",
   factionMultiplier: "verified", enemyScaling: "verified",
