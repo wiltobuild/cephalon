@@ -40,6 +40,12 @@ Deviations / additions specific to this project:
 - No git remote yet — no pushes/PRs without the user adding a remote and
   approving.
 
+- **All UI is built and reviewed against `docs/design/design-language.md`**
+  (user-authored). Stack: Tailwind v4 + CSS-var tokens, Radix UI + cmdk,
+  dark-first. It must not look like a generic AI SaaS dashboard — that doc's
+  anti-pattern list is a hard review checklist.
+
 New tasks: run `/start-task`. Operating docs live in `docs/agent/`
 (`project-profile.md`, `workflow.md`, `upstream-engine.md`, `roles/`,
-`decisions.md`). See `docs/tasks/README.md` for the per-task artifact structure.
+`decisions.md`). Design direction: `docs/design/design-language.md`. See
+`docs/tasks/README.md` for the per-task artifact structure.
