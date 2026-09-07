@@ -19100,3 +19100,464 @@ Primed Heated Charge stack heat, Pistol Pestilence plus Frostbite add viral.
 **Who runs this.** Players who want a low-effort chaining fire beam.
 
 ---
+
+### The Pocket Ogris
+**Prisma Angstrum Incarnon. A corrosive-heat rocket pistol with a wide blast.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Area DPS, crowd clear |
+| Difficulty | Intermediate |
+| Investment | Heavy. 7 forma, MR 8 |
+| Weapon reliance | Standalone |
+
+> Tenno. Prisma Angstrum lobs a rocket with a generous area. Corrosive-heat
+> strips and ticks, and Galvanized Shot goes multiplicative with Cascadia Flare
+> in Incarnon mode.
+
+**The build**
+
+- Primed Heated Charge, rank 10, Naramon polarity
+- Accelerated Isotope, rank 3, Madurai polarity
+- Pistol Pestilence, rank 3, unpolarised
+- Primed Convulsion, rank 10, Naramon polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Primed Pistol Gambit, rank 10, Madurai polarity
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Exilus: Steady Hands, Naramon polarity
+- Arcane: Cascadia Flare
+
+Weapon figures land near 52% crit chance and 4.62x crit damage at a 2.8 fire
+rate. Confidence: Approximation, per the author.
+
+**Evolutions.** Paladin's Virtue at II if your frame has over 700 energy, else
+Haven Foray with an overshield. Swift Deliverance at III. Critical Parallel at
+IV.
+
+**The mods.** Galvanized Shot is +360% after three statuses, multiplicative with
+Cascadia Flare in Incarnon mode; Galvanized Diffusion is multishot; Primed
+Pistol Gambit plus Primed Target Cracker are crit; Primed Convulsion plus
+Pistol Pestilence plus Primed Heated Charge build corrosive and heat.
+
+**Where it struggles.** Three-round magazine and travel time. Self-stagger.
+Charge uptime.
+
+**Who runs this.** Players who want a hand-held rocket launcher.
+
+---
+
+### The Fever Reader
+**Noctua. A viral-heat tome for Dante, low-maintenance stacks with Archon Vitality.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heat damage-over-time DPS |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 10 |
+| Weapon reliance | High. Best with Archon Vitality and Arcane Hot Shot |
+
+> Tenno. Built to stack heat status without needing kills to hold mods. Archon
+> Vitality doubles heat procs and Arcane Hot Shot supplies crit, so Noctua just
+> keeps the fire going.
+
+**The build**
+
+- Primed Heated Charge, rank 10, Naramon polarity
+- Frostbite, rank 3, unpolarised
+- Pistol Pestilence, rank 3, Madurai polarity
+- Lethal Torrent, rank 5, Madurai polarity
+- Pistol Elementalist, rank 5, Vazarin polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Primed Pistol Gambit, rank 10, Madurai polarity
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Exilus: Jahu Canticle, unpolarised
+- Arcane: Cascadia Flare
+
+Weapon figures land near 86% crit chance and 4.2x crit damage at a 2.4 fire
+rate. Confidence: Approximation, per the author.
+
+**The mods.** Cascadia Flare is unconditional base damage (no kill upkeep);
+Pistol Elementalist multiplies the heat damage-over-time; Primed Pistol Gambit
+plus Primed Target Cracker are crit; Galvanized Diffusion is multishot; Primed
+Heated Charge plus Frostbite plus Pistol Pestilence build heat and viral.
+Boost fire rate externally (Reinforced Bond, Arcane Velocity).
+
+**Where it struggles.** Low base fire rate without buffs. Slow reload.
+
+**Variants.** The Burning Page (#260) is the hybrid utility tome; The Silent
+Page (#279) is the viral-electric version.
+
+**Who runs this.** Dante players leaning on heat inherit.
+
+---
+
+### The Homing Knife
+**Kunai Incarnon. Red-crit homing throwing knives that seek the head.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Precision DPS, single target |
+| Difficulty | Intermediate |
+| Investment | Heavy. 7 forma, MR 0 |
+| Weapon reliance | Standalone |
+
+> Tenno. Kunai's Incarnon form throws 20 homing knives that curve into heads.
+> That makes every headshot-gated mod, Pistol Acuity and Galvanized Crosshairs
+> included, trivial to keep active.
+
+**The build**
+
+- Primed Heated Charge, rank 10, Naramon polarity
+- Pistol Pestilence, rank 3, Madurai polarity
+- Primed Convulsion, rank 10, Naramon polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Galvanized Crosshairs, rank 10, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Pistol Acuity, rank 10, Naramon polarity
+- Exilus: Lethal Momentum, Madurai polarity
+- Arcane: Secondary Outburst
+
+Weapon figures land near 8% base crit chance and 3.36x crit damage with a
+roughly 3.2x Incarnon multiplier; Pistol Acuity and Crosshairs push headshot
+crit far higher. Confidence: Approximation, per the author.
+
+**The mods.** Pistol Acuity is the headshot crit and multiplier; Galvanized
+Crosshairs adds headshot crit; Hornet Strike is unconditional base damage;
+Galvanized Shot is damage-per-status; Primed Convulsion plus Pistol Pestilence
+build the elements. For Corpus, swap Frostbite for Expel Corpus.
+
+**Where it struggles.** Non-Incarnon mode is weak. Charge uptime.
+
+**Who runs this.** Players who want an MR 0 weapon that red-crits heads for
+them.
+
+---
+
+### The Cascade Beam
+**Furis Incarnon. The Furis wide beam tuned for level-cap Void Cascade.**
+
+| | |
+|--|--|
+| Content | Steel Path, Void Cascade, Level cap |
+| Role | Status DPS, Demolyst and Thrax killer |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 1 |
+| Weapon reliance | High. Wants Nourish and Arcane Precision |
+
+> Tenno. Same wide status beam, tuned for Cascade: Nourish supplies viral,
+> Arcane Precision adds flat damage, and Secondary Fortifier keeps you alive and
+> shreds Thrax overguard.
+
+**The build**
+
+- Primed Heated Charge, rank 10, Naramon polarity
+- Scorch, rank 3, unpolarised
+- Pistol Elementalist, rank 5, Vazarin polarity
+- Lethal Torrent, rank 5, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Primed Pistol Gambit, rank 10, Madurai polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Amalgam Barrel Diffusion, rank 5, Madurai polarity
+- Exilus: Lethal Momentum, Madurai polarity
+- Arcane: Secondary Fortifier
+
+Weapon figures land near 14% base crit chance and 4.2x crit damage with a
+roughly 3.2x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Hornet Strike is unconditional base damage (no kill upkeep);
+Pistol Elementalist multiplies status; Primed Pistol Gambit plus Primed Target
+Cracker are crit; Amalgam Barrel Diffusion is multishot plus reload. Mending
+Shot or Energizing Shot in the exilus for reviving or energy.
+
+**Where it struggles.** Beam range. Relies on the Nourish pairing for viral.
+
+**Variants.** The Wide Sidebeam (#270) is the general-use Furis.
+
+**Who runs this.** Cascade runners who want a durable status hose.
+
+---
+
+### The Hungry Tome
+**Grimoire. A viral-electric DPS tome with an auto armour-strip canticle.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | DPS, self armour strip |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 10 |
+| Weapon reliance | Standalone |
+
+> Tenno. Unlike the pure primer Grimoire, this one kills: viral-electric,
+> Hornet Strike for unconditional damage, and Jahu Canticle stripping armour in
+> an area so the electric procs land clean.
+
+**The build**
+
+- Primed Convulsion, rank 10, Naramon polarity
+- Lethal Torrent, rank 5, Madurai polarity
+- Xata Invocation, rank 3, Naramon polarity. Grants energy regeneration while equipped
+- Primed Target Cracker, rank 10, Madurai polarity
+- Frostbite, rank 3, unpolarised
+- Pistol Pestilence, rank 3, Madurai polarity
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Exilus: Jahu Canticle, unpolarised. Canticle. Alt-fire strips armour in an area
+- Arcane: Secondary Enervate
+
+Weapon figures land near 20% crit chance and 4.2x crit damage with a roughly
+3.2x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Hornet Strike is unconditional damage; Galvanized Diffusion is
+multishot; Primed Target Cracker is crit damage; Secondary Enervate lifts crit
+chance. Galvanized Shot is skipped because part of the damage is area and there
+are only two statuses. Jahu Canticle auto-strips; swap for Lohk Canticle with
+external strip. Xata Invocation is optional energy.
+
+**Where it struggles.** Modest crit ceiling. Charge time on the alt-fire.
+
+**Variants.** The Odd Tome (#259) is the pure primer Grimoire.
+
+**Who runs this.** Caster frames who want the tome to strip and kill.
+
+---
+
+### The Silent Page
+**Noctua. A viral-electric pure-DPS tome with minimal stack upkeep.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | DPS, single target and crowd |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 10 |
+| Weapon reliance | Standalone |
+
+> Tenno. Viral-electric Noctua built so only one mod (Galvanized Diffusion) ever
+> needs a kill to stay stacked. Hornet Strike and Cascadia Flare carry the base
+> damage.
+
+**The build**
+
+- Primed Convulsion, rank 10, Naramon polarity
+- Pistol Pestilence, rank 3, Madurai polarity
+- Frostbite, rank 3, unpolarised
+- Lethal Torrent, rank 5, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Pistol Elementalist, rank 5, Vazarin polarity
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Exilus: Lohk Canticle, unpolarised
+- Arcane: Secondary Enervate
+
+Weapon figures land near 30% crit chance and 4.2x crit damage with a roughly
+3.2x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Hornet Strike is unconditional damage; Primed Target Cracker is
+crit damage; Secondary Enervate lifts crit chance; Pistol Elementalist
+multiplies the electric damage-over-time; Galvanized Diffusion is the only
+kill-gated mod. Lohk Canticle is flexible for Jahu Canticle if you want passive
+strip. Swap Lethal Torrent for Magnetic Might against Thrax with external fire
+rate.
+
+**Where it struggles.** Low base fire rate without buffs. Slow reload.
+
+**Variants.** The Fever Reader (#275) is the viral-heat Noctua; The Burning Page
+(#260) is the hybrid utility build.
+
+**Who runs this.** Dante players who want steady damage without babysitting
+stacks.
+
+---
+
+### The Acid Sprayer
+**Coda Catabolyst. A fast magnetic-corrosive-viral-electric beam with Critical Mutation.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Status DPS, crowd clear |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 17 |
+| Weapon reliance | Standalone |
+
+> Tenno. Catabolyst is a spraying beam with an alt-fire that lobs the empty
+> magazine as a bomb. Four innate statuses feed Galvanized Shot for +480%, and
+> Critical Mutation adds a big crit spike after ten kills.
+
+**The build**
+
+- Primed Convulsion, rank 10, Naramon polarity
+- Pistol Elementalist, rank 5, unpolarised
+- Ice Storm, rank 3, unpolarised
+- Pistol Pestilence, rank 3, Madurai polarity
+- Lethal Torrent, rank 5, Madurai polarity
+- Critical Mutation, rank 5, Madurai polarity
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Exilus: Primed Pistol Ammo Mutation, Madurai polarity
+- Arcane: Secondary Enervate
+
+Weapon figures land near 11% base crit chance and 2.9x crit damage, both lifted
+by Critical Mutation and Secondary Enervate. Confidence: Approximation, per the
+author.
+
+**The mods.** Galvanized Shot is +120% per status (+480% at four innate);
+Galvanized Diffusion is multishot and double-dips beam status; Critical Mutation
+adds 300% crit chance and damage after ten kills; Pistol Elementalist multiplies
+electric and speeds reload.
+
+**Progenitor.** Magnetic, for the uncombined element flexibility and the
+overguard bonus.
+
+**Where it struggles.** Very short range. Ramp time for Critical Mutation. High
+MR gate.
+
+**Who runs this.** Players who want a crit-spike spray beam.
+
+---
+
+### The Heat Seed
+**Epitaph. A heat-inherit primer that seeds a huge first heat stack.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Dedicated heat primer |
+| Difficulty | Advanced |
+| Investment | Low. 4 forma, MR 8 |
+| Weapon reliance | Low. It is a support tool |
+
+> Tenno. Heat inherit means every later heat proc copies the heat damage and
+> faction damage of the very first stack applied. So this Epitaph loads that
+> first stack with every heat and faction multiplier it can, then your main
+> weapon inherits it.
+
+**The build**
+
+- Primed Heated Charge, rank 10, unpolarised
+- Scorch, rank 3, Madurai polarity
+- Frostbite, rank 3, Madurai polarity
+- Pistol Pestilence, rank 3, Madurai polarity
+- Magnetic Might, rank 3, unpolarised
+- Primed Expel Grineer, rank 10, Madurai polarity
+- Lethal Torrent, rank 5, Madurai polarity
+- Amalgam Barrel Diffusion, rank 5, Madurai polarity
+- Exilus: Pistol Ammo Mutation, Naramon polarity
+- Arcane: Secondary Fortifier
+
+Weapon figures land near 48% crit chance and 3.64x crit damage; the build is
+tuned for the heat stack, not crit. Confidence: Approximation, per the author.
+
+**How it works.** Heat status ticks for 0.5x modded base damage times heat and
+faction multipliers over six seconds, and every refresh reuses the first stack's
+heat and faction values. Load the first tap with Primed Heated Charge, Scorch
+and Primed Expel Grineer so that inherited stack is enormous. Secondary
+Fortifier steals overguard.
+
+**Where it struggles.** The mechanic is fiddly and faction-specific. Near-zero
+direct damage.
+
+**Variants.** The Quick Primer (#262) is the general Epitaph primer; The Heat
+Seed is the heat-inherit specialist.
+
+**Who runs this.** Players running a heat-inherit weapon like a status Furis or
+Nukor.
+
+---
+
+### The Bolt Fan
+**Ballistica Prime Incarnon. A crossbow pistol that fans bolts or focuses a boss.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Crowd clear or single-target, per evolution |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 14 |
+| Weapon reliance | Standalone |
+
+> Tenno. Ballistica Prime's Incarnon is a rapid multi-bolt crossbow. Pick
+> Prolific Perforation for crowd crit through punch-through, or Headcracker for a
+> single-target fire-rate spike.
+
+**The build**
+
+- Lethal Torrent, rank 5, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Primed Pistol Gambit, rank 10, Madurai polarity
+- Primed Heated Charge, rank 10, Naramon polarity
+- Primed Convulsion, rank 10, Naramon polarity
+- Pistol Pestilence, rank 3, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Exilus: Lethal Momentum, unpolarised
+- Arcane: Cascadia Flare
+
+Weapon figures land near 57% crit chance and 4.2x crit damage at a 5.3 fire
+rate. Confidence: Approximation, per the author. You can leave the exilus empty
+and move its polarity elsewhere to save a forma.
+
+**Evolutions.** Headcracker at II (up to 70% fire rate for 4s, 50% on headshot)
+for single-target; Prolific Perforation (up to +80% crit on punch-through hits)
+for crowds. Rapid Reinforcement at III for reload.
+
+**The mods.** Galvanized Shot is damage-per-status; Galvanized Diffusion is
+multishot; Primed Pistol Gambit plus Primed Target Cracker are crit; Primed
+Convulsion plus Pistol Pestilence plus Primed Heated Charge build the elements.
+
+**Where it struggles.** Charge uptime. Bolt travel time.
+
+**Who runs this.** Players who want one crossbow for both bosses and crowds.
+
+---
+
+### The Magnetic Draw
+**Glory. A magnetic-heat hybrid sidearm for Thrax, Corpus and eximus.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Anti-shield and anti-overguard DPS |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma, no MR requirement |
+| Weapon reliance | Standalone. Best on Jade |
+
+> Tenno. Where the viral-heat Glory handles flesh, this one handles shields and
+> overguard: magnetic status boosts damage to both, magnetic damage has a 50%
+> shield bonus, and heat from Primed Heated Charge carries the raw numbers.
+
+**The build**
+
+- Primed Heated Charge, rank 10, Naramon polarity
+- Primed Convulsion, rank 10, Naramon polarity
+- Frostbite, rank 3, unpolarised
+- Lethal Torrent, rank 5, Madurai polarity
+- Anemic Agility, rank 5, unpolarised
+- Primed Target Cracker, rank 10, Madurai polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Exilus: open
+- Arcane: Secondary Enervate
+
+Weapon figures land near 15% crit chance and 4.2x crit damage with a roughly
+3.05x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Hornet Strike is unconditional base damage; Galvanized Diffusion
+is multishot; Primed Target Cracker is crit damage; Secondary Enervate lifts
+crit chance. Primed Convulsion plus Frostbite make magnetic, heat from Primed
+Heated Charge and the innate.
+
+**Where it struggles.** Weaker than the viral-heat Glory against pure flesh.
+
+**Variants.** The Blazing Draw (#266) is the viral-heat Glory; a pure alt-fire
+corrosive-blast Glory (#285) is the area option.
+
+**Who runs this.** Players who want a Glory for Corpus and Thrax-heavy content.
+
+---
