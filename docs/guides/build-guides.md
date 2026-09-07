@@ -8955,3 +8955,954 @@ armour falls off, boss-blind.
 never drops its shield gate.
 
 ---
+
+### Shadow Arts
+**Follie. Shadowgraph barrels and arc traps that scale on enemy health, plus tap-invulnerability.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Percent-health nuke, crowd control, on-tap invulnerability |
+| Difficulty | Intermediate. The barrel-and-teleport combo and the 3.5s invuln cadence |
+| Investment | High. 6 forma, cast-speed shards |
+| Weapon reliance | Low. Shadowgraphs do the damage; a weapon detonates barrels |
+
+> Tenno. Follie paints the room. Shadowgraph drops explosive barrels that deal
+> 65% of an enemy's health and ignore armour, or arc traps that deal a flat amount
+> plus 2.5% health, neither scaled by your Strength. Inkblot slows enemies and
+> feeds you orbs. Forced Perspective gives 3.5 seconds of invulnerability on a
+> 100m range. Drop a barrel, teleport into it to detonate, repeat.
+
+**The build**
+
+- Precision Intensify, rank 5, Madurai polarity
+- Overextended, rank 5, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Archon Flow, rank 10, Naramon polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Preparation, unpolarised
+- Arcanes: Arcane Sculptor, Arcane Concentration
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with 585 health, 325 shield, 325 armor and a 641 energy pool.
+
+**How it works.** Explosive barrels deal 65% health ignoring armour and need a
+detonation (a direct shot, a corrosive proc from inkblot, or teleporting into
+them). Arc traps deal 250 plus 2.5% health with 10 built-in charges. Neither
+scales with Strength, so Strength is only for a subsumed Roar, which pushes the
+barrel to 100% health for a one-shot at ~180% Roar Strength (200% through
+overguard). Arcane Sculptor triggers off Shadowgraph and locks 175% Efficiency, so
+Blind Rage runs at 45% arsenal Efficiency for maximum Range. *Confidence:
+Approximation, per the author.*
+
+**Playstyle.**
+
+1. Keep Self Portrait (3) up in each zone for map-wide inkblot and energy.
+2. Barrel spam: hold 2 to select Explosive Barrel, tap 2, then tap 1 to teleport into it and detonate.
+3. Arc Trap spam: hold 2 to select Arc Traps, spam tap 2 (max 3 active).
+4. Swap to Thermian RPG for Acolytes.
+5. Tap 1 every 3.5s to stay invulnerable, or shield-gate off 2 with Catalyzing Shields.
+
+**Duration, Efficiency, Range, Strength.** Duration for Shadowgraph lifespan (Arc
+Trap ignores it). Efficiency 45% to 160% by mission density, solved by Arcane
+Sculptor. Range spreads inkblot and Plein Air, not barrel or arc-trap AoE.
+Strength only for a subsumed Roar and Plein Air's strip (200%, 164% with Corrosive
+Projection).
+
+**The mods.** *Blind Rage* is the Strength, covered by *Arcane Sculptor*.
+*Overextended* is the Range. *Primed Continuity* holds Duration. *Archon Stretch*
+is Range plus passive energy. *Equilibrium* converts inkblot orbs. *Catalyzing
+Shields* locks the gate. *Brief Respite* aura feeds it.
+
+**Flexible slots.** Streamline plus Arcane Impetus for a high-Efficiency low-
+density version. Health Conversion plus Adaptation for a Self Portrait 90%-DR
+health tank. The exilus is open.
+
+**Helminth.** Pick one. Subsume over Plein Air (4).
+
+- **Roar** is the standard: it pushes barrel damage to 100% health for a level-cap one-shot.
+- **Breach Surge** for homing sparks off barrel and arc-trap damage.
+- **Tempest Barrage** for a corrosive zone that auto-detonates barrels plus viral for the one-shot threshold.
+
+**Archon Shards.** Two to three cast-speed for the 1-and-2 combo flow. The rest
+parkour, duration or Equilibrium. Five total.
+
+**Arcanes.** Arcane Sculptor for the Efficiency lock, Arcane Concentration for
+Duration (good with Roar). Arcane Impetus for a low-density Efficiency version.
+
+**Focus.** Any. Madurai for Roar Strength and cast speed.
+
+**Weapon synergy.** Enkaus (Follie's signature gun) instantly dissolves enemies
+below 35% health, syncing with inkblot. Otherwise any weapon that can shoot
+barrels to detonate them.
+
+**Staying alive.** Forced Perspective's 3.5s invulnerability plus Catalyzing
+Shields gating off 2, plus inkblot's slow. It fails if you cannot recast 1 in time
+with the gate down, and to toxin.
+
+**Energy.** Inkblot orbs through Equilibrium plus Arcane Sculptor. Preparation for
+the start.
+
+**Where it struggles.** The barrel-teleport combo is fiddly and the 3.5s invuln
+cadence interrupts everything. Bosses (barrels ignore armour but bosses have huge
+health). 6 forma.
+
+**Variants.** A high-Efficiency low-density build. A Self Portrait health tank.
+
+**Strengths and weaknesses.** Strong: level-independent percent-health nuke,
+map-wide slow, on-tap invulnerability, armour-ignoring. Weak: fiddly combo,
+invuln-cadence interrupts play, boss-blind, forma-hungry.
+
+**Who runs this.** Players who want a nuke that deletes anything by percentage and
+do not mind the teleport-detonate rhythm.
+
+---
+
+### Descent of Fangs
+**Voruna. Pure Ulfrun's Descent claw DPS with Fangs slash-taxi refilling charges.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Ability-DPS claw nuke |
+| Difficulty | Intermediate |
+| Investment | High. 7 forma |
+| Weapon reliance | Very low. Ulfrun's Descent is the damage |
+
+> Tenno. This is the ability-only Voruna. Enter Ulfrun's Descent and claw enemies;
+> Fangs of Raksh stamps five statuses on a target, and if slash lands in that
+> five, killing the target taxis a strong slash proc across 16m, which triggers
+> Ulfrun's Endurance and refills your charges. Stay invisible, prime, claw,
+> repeat.
+
+**The build**
+
+- Ulfrun's Endurance, rank 3, Zenurik polarity — augment. Slash-proc kills refill Ulfrun's Descent charges
+- Equilibrium, rank 10, Naramon polarity
+- Overextended, rank 5, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Prey of Dynar, rank 3, unpolarised — augment. Marks an enemy for a wider Fangs spread
+- Primed Continuity, rank 10, Madurai polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Cunning Drift, Madurai polarity
+- Arcanes: Arcane Crepuscular, Arcane Impetus
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 250% Range, 45%
+Efficiency, with 555 health, 370 shield, 200 armor and a 427 energy pool.
+
+**How it works.** Same status-taxi engine as Muzzled Wolf, but the damage output
+is Ulfrun's Descent's claw attacks rather than a melee weapon. Fangs (2) rolls
+five random statuses; a slash in that roll, applied to a Prey of Dynar mark and
+killed, spreads a strong slash proc and triggers Ulfrun's Endurance to refill
+charges, so 4 is self-sustaining. The build needs 9 free mod capacity for a
+mission-start Lycath's Hunt cast. *Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Tap 1 to go invisible.
+2. Tap 2 on an enemy (ideally the marked one) to prime five statuses.
+3. Tap 4 to enter Ulfrun's Descent, claw the primed enemy to spread and refill charges.
+
+**The mods.** *Blind Rage* is the Strength. *Overextended, Archon Stretch* set the
+maxed Range for the Fangs spread, with Archon Stretch feeding passive energy.
+*Primed Continuity* holds Duration for 1 and 3. *Primed Flow, Equilibrium* are the
+energy base fed by Lycath's Hunt. *Ulfrun's Endurance* refills charges.
+*Prey of Dynar* widens the spread. *Corrosive Projection* is a damage lift.
+
+**Helminth.** **Roar** over 3 (swap Blind Rage for Transient Fortitude or
+Streamline). It boosts Ulfrun and double-dips the slash it spreads.
+
+**Archon Shards.** One cast-speed. Two Violet Equilibrium optional to free the
+Equilibrium slot. Strength or parkour for Ulfrun (melee crit-damage does not
+affect it). Five total.
+
+**Arcanes.** Arcane Crepuscular for Strength and crit damage while invisible,
+Arcane Impetus for Strength and Efficiency from Fangs.
+
+**Focus.** Naramon or Madurai. Any works given the invisibility.
+
+**Weapon synergy.** A primer secondary (Epitaph, Kuva Nukor) with Augur mods for
+backup shield gating and consistent viral. A Huras Kubrow with claw mods, Contagious
+Bond and the Mecha set for extra nuke potential.
+
+**Staying alive.** Invisibility on tap plus spread-status crowd control plus
+Vazarin Sling. It fails to Eximus (no blind) and to toxin.
+
+**Energy.** Lycath's Hunt orbs plus Equilibrium plus Arcane Impetus.
+
+**Where it struggles.** RNG on the Fangs slash roll (5/13 chance). Eximus and
+Thrax. Bosses. 7 forma for an ability-only build.
+
+**Variants.** Muzzled Wolf is the melee-platform version. Voruna Prime has a wider
+spread and hits 500 energy without a shard.
+
+**Strengths and weaknesses.** Strong: self-refilling ability nuke, map-wide status
+spread, invisible, near no weapon investment. Weak: RNG-dependent, Eximus-awkward,
+boss-blind, very forma-hungry.
+
+**Who runs this.** Players who want to nuke rooms with Voruna's claws and nothing
+else.
+
+---
+
+### Altar of the Dead
+**Nekros Prime. A Shield of Shadows health tank with Desecrate energy and a million effective HP.**
+
+| | |
+|--|--|
+| Content | Steel Path (to about level 500) |
+| Role | Solo health tank with a shadow army |
+| Difficulty | Beginner |
+| Investment | Medium to high. 4 forma |
+| Weapon reliance | Total. Nekros tanks; the weapon does everything |
+
+> Tenno. Shield of Shadows redirects 90% of your damage to your shadow army at
+> max shadows and 214% Strength. Stack that with Health Conversion armour, Arcane
+> Guardian, Arcane Blessing and Adaptation and you reach around a million
+> effective HP. Desecrate plus Despoil plus Equilibrium keeps health and energy
+> flowing. This is a solo, sub-endurance tank, largely outclassed by shield
+> gating.
+
+**The build**
+
+- Health Conversion, rank 5, Vazarin polarity
+- Shield of Shadows, rank 3, unpolarised — augment. Redirects damage to shadows
+- Primed Continuity, rank 10, Madurai polarity
+- Blind Rage, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Stretch, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Adaptation, rank 10, Vazarin polarity
+- Aura: Summoner's Wrath, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Blessing, Arcane Guardian
+
+Arsenal figures land at roughly 214% Strength, 155% Duration, 145% Range, 45%
+Efficiency, with 370 health, 555 shield, 135 armor and a 541 energy pool.
+
+**How it works.** Shield of Shadows needs 214% Strength for 90% DR at max shadows.
+That plus 88% from ~2250 armour (Health Conversion plus Arcane Guardian) is 98.8%,
+and Adaptation pushes it to 99.89%, for up to ~1.36 million EHP with max Arcane
+Blessing. Despoil drops your health and Desecrate generates the orbs, so Health
+Conversion and Equilibrium stay fed. *Confidence: Approximation, per the author's
+DR math.*
+
+**Playstyle.**
+
+1. Turn on Desecrate (3).
+2. Kill enemies for shadows and orbs.
+3. Activate Shadows of the Dead (4).
+4. Use Soul Punch (1) on heavies below 25% health for instant kills and strong shadows, or to mark tougher units.
+
+**The mods.** *Blind Rage plus Power Drift* clears the 214% Strength breakpoint.
+*Health Conversion* is the armour source. *Adaptation* is the DR layer. *Primed
+Continuity* holds Duration to cut shadow decay. *Primed Flow, Equilibrium* are the
+energy-and-health engine with Despoil. *Summoner's Wrath* aura boosts the shadows.
+
+**Flexible slots.** Adaptation and Stretch are the flex zone: Natural Talent
+(without cast-speed shards), Vitality (without Arcane Blessing) or Primed
+Continuity.
+
+**Helminth.** Pick one. Subsume over Soul Punch (1).
+
+- **Blood Altar** to heal Nekros and the shadows constantly.
+- **Nourish** for shadow damage, viral and energy.
+- **Roar** for general DPS. **Gloom** for slow and self-heal (does not heal shadows).
+
+**Archon Shards.** Two Amber cast-speed (Shadows of the Dead is a slow cast). One
+to two Crimson strength for the breakpoint. Five total.
+
+**Arcanes.** Arcane Blessing for the health, Arcane Guardian for the armour.
+
+**Focus.** Any. Madurai for Strength.
+
+**Weapon synergy.** None from the frame. Bring whatever kills.
+
+**Staying alive.** The DR stack, healed by Despoil and Desecrate orbs. It fails
+past about level 500 where a hit exceeds even a million EHP, and to toxin (bypasses
+armour). Shadows can confuse allies in public (use a bright energy colour).
+
+**Energy.** Despoil plus Desecrate plus Equilibrium. A flood.
+
+**Where it struggles.** Level-500 ceiling. Shield gating does the same job with
+less investment. The frame does no damage. Bosses.
+
+**Variants.** The Reaper of Shadows build is the active shield-gate looting Nekros.
+
+**Strengths and weaknesses.** Strong: enormous EHP for solo mid-content, a shadow
+army, simple. Weak: hard ceiling, outclassed by gating, no self damage, boss-
+blind.
+
+**Who runs this.** Solo players who want a nostalgic set-and-forget tank for
+regular Steel Path.
+
+---
+
+### Divine Lotus Flames
+**Nezha Prime. Reaping Chakram heat stacking and Divine Retribution expedite, behind Warding Halo.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heat-stacking nuke, status spread, crowd control, absorb tank |
+| Difficulty | Intermediate |
+| Investment | Medium. 3 forma |
+| Weapon reliance | Low to medium. Chakram carries; a DoT weapon feeds the Divine Retribution spread |
+
+> Tenno. This Nezha leans on Reaping Chakram, which doubles its own damage per
+> enemy hit and, thrown into speared enemies, splits into two and applies heat
+> procs. Archon Vitality doubles those procs. When Divine Spears ends, every
+> accumulated heat proc is compressed and multiplied by Strength, wiping the
+> speared room. Warding Halo absorbs a burst of fire into a huge health bar.
+
+**The build**
+
+- Stretch, rank 5, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Overextended, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Reaping Chakram, rank 3, unpolarised — augment. Chakram doubles damage per hit and drops more orbs
+- Divine Retribution, rank 3, unpolarised — augment. Divine Spears expedites accumulated status
+- Archon Vitality, rank 10, Vazarin polarity — doubles heat procs
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Molt Augmented, Arcane Aegis
+
+Arsenal figures land at roughly 139% Strength, 100% Duration, 250% Range, 45%
+Efficiency, with a 930 health pool, 185 shield, 265 armor and a 641 energy pool.
+
+**How it works.** Low Duration lets Divine Spears end on its own, triggering
+Divine Retribution's expedite of all accumulated heat procs, multiplied by
+Strength. Reaping Chakram thrown into speared enemies duplicates and stacks heat;
+Archon Vitality doubles the procs. Chakram kills drop a guaranteed health orb (55
+energy through Equilibrium) and a 35% energy orb, so energy floods. *Confidence:
+Approximation, per the author.*
+
+**Playstyle.**
+
+1. Activate Warding Halo (3) surrounded by enemies for the absorb and the huge halo health.
+2. Cast Divine Spears (4) to lock a room; shoot a status weapon or throw Chakram.
+3. Cast Blazing Chakram (2) into the speared enemies to duplicate and spread heat.
+4. Shield-gate off Chakram and Divine Spears casts.
+
+**The mods.** *Blind Rage* is the Strength. *Overextended, Stretch* set the maxed
+Range for Divine Spears (~53m). *Primed Flow, Equilibrium* are the energy base.
+*Reaping Chakram* is the damage double and orb source. *Divine Retribution* is the
+expedite. *Archon Vitality* doubles heat procs. *Brief Respite* aura feeds the
+gate.
+
+**Flexible slots.** Archon Vitality and Reaping Chakram are both flexible (Archon
+Vitality only doubles heat procs and adds EHP; Reaping Chakram only adds orbs and
+Chakram damage). Rolling Guard or Catalyzing Shields for solo endurance.
+
+**Helminth.** Pick one.
+
+- **Roar** is preferred: it double-dips heat from Chakram, and triple-dips the final Divine Retribution expedite.
+- **Breach Surge** for stealth-damage stuns and sparks that double-dip the Chakram debuff.
+- **Silence** to stop Violence dispelling your kit.
+
+**Archon Shards.** Two Amber cast-speed. One optional Tauforged Azure shield-
+capacity (for a full gate without overshields, freeing Catalyzing Shields). Two
+Crimson strength. Five total.
+
+**Arcanes.** Molt Augmented for Strength, Arcane Aegis for a passive survival
+layer. Arcane Avenger with Combat Discipline as a swap.
+
+**Focus.** Any. Madurai for Strength on the expedite multiplier.
+
+**Weapon synergy.** A viral-corrosive-heat area primer (Bubonico, Epitaph Prime,
+Cedo) to maximise Reaping Chakram DPS. Or any strong DoT weapon for the Divine
+Retribution spread.
+
+**Staying alive.** Warding Halo absorb plus its 3s activation and 2s break
+i-frames, plus shield gating, plus Divine Spears crowd control. It fails if
+Warding Halo lapses with the gate down, and to toxin.
+
+**Energy.** The Chakram-Equilibrium loop. A flood once started.
+
+**Where it struggles.** A cold start before Chakram is up. Bosses. Needs a DoT
+weapon to nuke fully.
+
+**Variants.** The Divine Shield Lotus build leans on the weapon status spread more
+than Chakram.
+
+**Strengths and weaknesses.** Strong: a strong self-contained heat nuke, infinite
+energy, an absorb tank, crowd control. Weak: cold start, boss-blind, weapon helps.
+
+**Who runs this.** Players who want a Nezha that nukes with Chakram and does not
+lean as hard on a specific weapon.
+
+---
+
+### The Eternal Storm
+**Gara Prime. Pure Splinter Storm: stack a moving damage field and run into things.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Passive damage aura that grows without limit, area denial, 90% DR tank |
+| Difficulty | Intermediate. The Mass Vitrify plus Shattered Lash stacking loop |
+| Investment | High. 5 forma, duration or melee crit-damage shards |
+| Weapon reliance | Low. Shattered Lash stacks the field; a primer or roll-strip helps against armour |
+
+> Tenno. Splinter Storm is a field that moves with you, cuts your damage taken by
+> 90%, and has no damage ceiling. Cast Mass Vitrify, shatter it with Shattered
+> Lash, and every point of that damage banks into the field. Repeat the wall-and-
+> shatter loop and the field grows until you kill level-cap enemies by walking
+> past them. Arcane Circumvent strips as you roll through.
+
+**The build**
+
+- Overextended, rank 5, Vazarin polarity
+- Umbral Intensify, rank 10, unpolarised
+- Augur Reach, rank 5, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Sculptor, Arcane Circumvent
+
+Arsenal figures land at roughly 183% Strength, 254% Duration, 214% Range, 45%
+Efficiency, with 445 health, 370 shield, 200 armor and a 641 energy pool.
+
+**How it works.** Splinter Storm banks a portion of Shattered Lash's damage and
+holds it with no cap, so the wall-and-shatter loop grows it indefinitely. High
+Duration keeps the stacks from lapsing; high Range lets the ~7m field reach
+without hugging enemies. Arcane Sculptor locks 175% Efficiency off casts of 3 or
+4, so Blind Rage runs at 45% arsenal Efficiency. Since July 2024, corrosive plus
+heat (no strip shards) is enough for the field to kill level cap after a few
+stacks. *Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Cast Splinter Storm (2) on yourself (not aimed at anything) and on your sentinel.
+2. Cast 3 for the buff.
+3. Cast Mass Vitrify (4), press 4 again to stop the expansion.
+4. Shatter the wall with Shattered Lash (1).
+5. Repeat 4 and 1 constantly to stack, refreshing Splinter Storm before it lapses.
+
+**The mods.** *Blind Rage, Umbral Intensify* are the Strength for Shattered Lash,
+covered by *Arcane Sculptor*. *Narrow Minded, Primed Continuity* are the Duration.
+*Overextended, Augur Reach, Archon Stretch* set the Range, with Archon Stretch
+feeding passive energy off electric Shattered Lash. *Primed Flow* is the pool.
+*Brief Respite* aura feeds the gate.
+
+**Flexible slots.** Adaptation for a ~300k shield-EHP casual tank. Rolling Guard
+for status cleanse. Narrow Minded flexes for Augur Message. The aura and exilus
+are open.
+
+**Helminth.** Pick one. Subsume over Spectrorage (3).
+
+- **Roar** for a multiplicative Shattered Lash boost (fastest stacking).
+- **Nourish** for viral (additive, weaker than Roar) plus energy.
+- **Silence** to stop Violence dispelling your stacked field.
+
+**Archon Shards.** One to two Amber cast-speed. Three Crimson Duration or Violet
+melee crit-damage. Five total.
+
+**Arcanes.** Arcane Sculptor for the Efficiency lock, Arcane Circumvent for a
+roll-strip that pairs with the moving field. Molt Augmented or Arcane Blade
+Charger as swaps.
+
+**Focus.** Any. Vazarin Sling for i-frames. Madurai for Strength and cast speed.
+
+**Weapon synergy.** Use a sentinel, not a moving pet, and keep Splinter Storm on
+it for a second overlapping damage source (double damage per tick). Diriga for
+priming, Helios Prime with Vicious Bond for passive strip, Nautilus for grouping.
+
+**Staying alive.** Splinter Storm's 90% DR plus shield gating off 1 plus Arcane
+Circumvent's roll-strip-and-steal. It fails in the cold-start window before the
+field has stacks, and to toxin.
+
+**Energy.** Arcane Sculptor's lock. A non-issue.
+
+**Where it struggles.** A cold start before Splinter Storm ramps. Losing the field
+to Violence resets minutes of stacking (bring Silence). Bosses. Very open tiles
+where Mass Vitrify cannot corral.
+
+**Variants.** The Glass Storm build is the hybrid Shattered Lash and Splinter Storm
+build. A pure Shattered Lash spam build.
+
+**Strengths and weaknesses.** Strong: a passive damage field with no ceiling that
+also tanks, strong area denial, comfortable once ramped. Weak: cold-start ramp,
+Violence-vulnerable, boss-blind, tile-sensitive.
+
+**Who runs this.** Players who want a Gara that kills level-cap enemies by walking
+near them.
+
+---
+
+### Pillaging Thunder Fist
+**Baruuk Prime. Minimum-Duration Lull spam and Pull grouping on the Desert Wind fist.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Exalted-fist clear with fast Restraint erosion and grouping |
+| Difficulty | Intermediate |
+| Investment | Medium. 4 forma |
+| Weapon reliance | Low. Desert Wind is the damage; Pull groups for it |
+
+> Tenno. This Baruuk runs minimum Duration so Lull can be spammed to erode
+> Restraint fast and get you into Serene Storm quickly, and subsumes Pull over
+> Elude for grouping so you build Desert Wind combo on a tight ball of enemies.
+> Reactive Storm's electric procs and Archon Stretch off an electric Desert Wind
+> pair with the grouping.
+
+**The build**
+
+- Reactive Storm, rank 3, Zenurik polarity — augment. Desert Wind gains status chance
+- Blind Rage, rank 10, Madurai polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Overextended, rank 5, Vazarin polarity
+- Precision Intensify, rank 5, unpolarised
+- Archon Stretch, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Fleeting Expertise, rank 5, unpolarised
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Power Drift, unpolarised
+- Arcanes: Molt Augmented, Arcane Strike
+
+Arsenal figures land at roughly 209% Strength, 12.5% Duration, 235% Range, 105%
+Efficiency, with 280 health, 465 shield, 240 armor and a 300 energy pool.
+
+**How it works.** 12.5% Duration makes Lull nearly free to spam for Restraint
+erosion, and does not touch Pull, Desolate Hands or Serene Storm. Positive
+Efficiency (from Fleeting Expertise offsetting Blind Rage) supports the Lull,
+Pillage and Desolate Hands spam. Precision Intensify double-dips Desert Wind DPS
+via Reactive Storm's status chance. Serene Storm runs on Restraint, not energy.
+*Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Activate Desolate Hands (3), keep daggers above 9.
+2. Spam Lull (2) to erode Restraint, recast to keep it minimal.
+3. Activate Serene Storm (4), spam light melee.
+4. Spam Pull to group and build Desert Wind combo.
+
+**The mods.** *Blind Rage, Transient Fortitude, Precision Intensify* are the
+Strength. *Overextended, Archon Stretch* set the Range for Pillage and Lull, with
+Archon Stretch feeding passive energy. *Fleeting Expertise* is the Efficiency
+offset. *Equilibrium* is energy. *Corrosive Projection* is a global armour cut.
+
+**Helminth.** Pick one. Subsume over Elude.
+
+- **Pillage** (the source's default) for a strip that scales with the low Duration and high Range, plus shields.
+- **Omamori** for a chill survival layer.
+
+**Archon Shards.** One cast-speed. Two parkour. Two Violet melee crit-damage (with
+Primed Flow to double the value). Five total.
+
+**Arcanes.** Arcane Strike for Desert Wind attack speed, Molt Augmented for
+Strength. Arcane Fury or Augmented as swaps.
+
+**Focus.** Naramon for combo. Madurai for Strength.
+
+**Survivability.** Baruuk's stacked innate DR (50% at minimum Restraint, 90% at 9
+daggers, 40% in Serene Storm; ~97% total, 99.7% with Adaptation), plus Pillage or
+passive shield gating in endurance.
+
+**Weapon synergy.** Desert Wind is the weapon. An electric influence build pairs
+with the grouping and Reactive Storm procs.
+
+**Staying alive.** Stacked DR plus Pillage or shield gating plus Pull crowd
+control. It fails in endurance if you must attack while surrounded and unshielded,
+and to toxin.
+
+**Energy.** Fleeting Expertise Efficiency plus Equilibrium plus Archon Stretch.
+
+**Where it struggles.** The minimum-Duration build makes any duration-based
+subsume useless. Ranged targets. Bosses.
+
+**Variants.** The Endless Fist build is the Elude-and-Elusive-Retribution version.
+
+**Strengths and weaknesses.** Strong: fast into Serene Storm, strong grouped
+clear, very tanky, a strip via Pillage. Weak: no duration subsumes, melee range,
+boss-slow.
+
+**Who runs this.** Players who want a Baruuk that groups the room and gets into
+its exalted fists faster.
+
+---
+
+### Longest Day and Eternal Night
+**Equinox Prime. Gloom stacked with Peaceful Provocation for a 99% slow, plus a Maim nuke.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Near-total time freeze, stun-lock nuke, effective immortality in Night form |
+| Difficulty | Advanced. The Day-to-Night slow-stacking sequence |
+| Investment | Medium. 4 forma, cast-speed shards |
+| Weapon reliance | Medium. Maim banks weapon and ability damage; a weapon releases it |
+
+> Tenno. In Day form, Peaceful Provocation adds 70% Strength on top of Pacify and
+> Provoke, pushing Gloom to a 94% slow and letting Rage stun-lock a room. Switch to
+> Night form with Gloom still up and Peaceful Provocation's 80% slow multiplies
+> against Gloom's 95% to reach 99%: time practically stops, and Mend regenerates
+> your shields against any stray fire. Bank damage in Maim, then release.
+
+**The build**
+
+- Peaceful Provocation, rank 3, unpolarised — augment. Day 3 grants a stacking Strength buff
+- Fleeting Expertise, rank 5, Naramon polarity
+- Augur Reach, rank 5, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Streamline, rank 5, unpolarised
+- Stretch, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Energize, Molt Augmented
+
+Arsenal figures land at roughly 155% Strength, 67% Duration, 175% Range, 190%
+Efficiency, with 465 health, 370 shield, 160 armor and a 712 energy pool.
+
+**How it works.** Max Fleeting Expertise plus Streamline hits the 190% Efficiency
+channel-drain floor (the UI shows 175%) so you can hold up to three channelled
+abilities. Duration is dumped above the 40% floor. Peaceful Provocation stacks to
++70% Strength in Day form (reaching 272% for a 95% Gloom slow), and in Night form
+adds an 80% slow that multiplies against Gloom's 95% for a compound 99%.
+*Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Start in Day, activate 3 for the initial 40% Strength.
+2. Activate Gloom with 3 up for ~83% slow; activate 4 to stun and bank damage.
+3. Kill until Peaceful Provocation shows 70%; dispel and recast Gloom for 94%.
+4. Deactivate 4 to nuke, reactivate immediately to re-stun.
+5. Switch to Night, activate 3 and 4, take shield-only damage until Peaceful Provocation shows 80% for the 99% compound slow.
+
+**The mods.** *Fleeting Expertise, Streamline* hit the Efficiency floor.
+*Transient Fortitude* is the Strength core (drop for Primed Flow plus Rolling
+Guard if you run Madurai plus Molt Augmented for +100%). *Stretch, Augur Reach*
+set the Range. *Primed Continuity* keeps Duration above the floor. *Peaceful
+Provocation* is the slow-stacking augment. *Brief Respite* aura feeds shield
+gating.
+
+**Helminth.** **Gloom** over a slot is the build. Energy Transfer augment as an
+option to bank in Night and nuke in Day.
+
+**Archon Shards.** Two cast-speed (mandatory). Three energy-max to free Primed
+Flow for Rolling Guard. Five total.
+
+**Arcanes.** Arcane Energize (essential for the triple-channel drain), Molt
+Augmented or Molt Vigor for Strength. Arcane Consequence for parkour off the easy
+slowed headshots.
+
+**Focus.** Madurai or Zenurik plus Molt Augmented for +100% Strength to free
+strength mods. Vazarin as a backup.
+
+**Weapon synergy.** Zenith's infinite punch-through pairs with Maim's through-wall
+slash indicators to hit enemies through walls. Otherwise a strong area weapon to
+bank Maim fast.
+
+**Staying alive.** The 99% slow in Night form is near-total time freeze, plus Mend
+shield regen against stray fire, plus shield gating. It fails to a hit that lands
+before the slow is fully stacked, and to toxin.
+
+**Energy.** The Efficiency floor plus Arcane Energize. A Dethcube helps.
+
+**Where it struggles.** The Day-to-Night stacking sequence is a real skill barrier
+and interrupts DPS. Maim's falloff and banking delay as in Day and Night. Bosses.
+
+**Variants.** The Day and Night build is the simpler sleep-and-Maim switch.
+
+**Strengths and weaknesses.** Strong: the strongest slow in the game (near time
+freeze), stun-lock nuke, effective immortality in Night form. Weak: complex
+stacking sequence, Maim falloff, boss-blind.
+
+**Who runs this.** Players who want to functionally stop time and delete the
+frozen room.
+
+---
+
+### The Prime Wolf
+**Voruna Prime. The Prime chassis Fangs status-taxi melee platform with a wider spread.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Status-spread melee nuke, permanent crowd control, stealth carry |
+| Difficulty | Intermediate |
+| Investment | Medium. 3 forma (5 with Archon mods for a mission-start Lycath cast) |
+| Weapon reliance | High. A forced-slash or high-status melee is what Fangs taxis |
+
+> Tenno. Voruna Prime is the Muzzled Wolf build with better numbers: the base
+> chassis hits 500 energy without a shard, and the Fangs of Raksh spread reaches
+> 20m, or 49m on a Prey of Dynar mark. Same plan: invisible, prime five statuses,
+> land a strong slash or gas proc on the marked target, and taxi it across the
+> room.
+
+**The build**
+
+- Equilibrium, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Prey of Dynar, rank 3, Zenurik polarity — augment. Marks an enemy for a 49m Fangs spread
+- Augur Reach, rank 5, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Crepuscular, Arcane Impetus
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 280% Range, 45%
+Efficiency, with 555 health, 370 shield, 265 armor and a 513 energy pool.
+
+**How it works.** Identical status-taxi engine to Muzzled Wolf. Fangs of Raksh (2)
+rolls five random statuses (39% chance one matches your melee); a matching strong
+proc from a heavy attack, applied to a Prey of Dynar mark and killed, is averaged
+with the weaker procs and spread 49m. Dynar also gives the melee a flat 100% crit
+and 100% status chance. Melee Afflictions multiplies transferred DoTs
+exponentially. *Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Activate Lycath's Hunt (3), keep it up (5-status kills extend it indefinitely).
+2. Press 1 to go invisible and mark an enemy with Prey of Dynar.
+3. Press 2 on the marked enemy for five statuses, then heavy-attack it to death to taxi the strong procs.
+4. Repeat 1 and 2 on each fresh group.
+
+**The mods.** *Blind Rage* is the Strength. *Overextended, Augur Reach, Archon
+Stretch* set the maxed Range for the Fangs spread, with Archon Stretch feeding
+passive energy. *Primed Flow, Equilibrium* are the energy base fed by Lycath's
+Hunt. *Archon Continuity* adds corrosive procs. *Prey of Dynar* is the 49m spread.
+
+**Flexible slots.** Equilibrium flexes for Ulfrun's Endurance, Catalyzing Shields,
+Vigorous Swap (Glaives, Contagion), Nira's Hatred (slam) or a subsume augment.
+
+**Helminth.** Pick one. Subsume over Ulfrun's Descent (4) for a melee platform.
+
+- **Roar** to triple-dip the Fangs status spread.
+- **Wrathful Advance** for red crits.
+- **Shooting Gallery** with Muzzle Flash for a map-wide blind and a 700% stealth multiplier.
+- **Silence** with Savage Silence for a mobile permanent stun.
+
+**Archon Shards.** One Tauforged cast-speed. Two Violet Equilibrium optional. Two
+Violet melee crit-damage (melee focus) or corrosive ability-damage (Ulfrun focus).
+Five total.
+
+**Arcanes.** Arcane Impetus for Strength and Efficiency from Fangs, Arcane
+Crepuscular for hit-and-run melees. Arcane Strike, Fury or Augmented as swaps.
+
+**Focus.** Naramon for combo. Madurai for Strength.
+
+**Weapon synergy.** Forced-slash-on-heavy melees for slash taxi (nikanas 5x,
+scythes 6x, claws 5x); dual daggers and tonfas are best for Melee Afflictions
+(two knockdowns per heavy). Or light-attack influence melees. Influence Contagion
+has the strongest synergy since Dynar gives it status chance. Tenet Exec or
+Sampotes for influence slam.
+
+**Staying alive.** Invisibility on tap plus spread-status crowd control plus
+Vazarin Sling. It fails to Eximus and Thrax (no blind through overguard) and to
+toxin.
+
+**Energy.** Lycath's Hunt orbs plus Equilibrium plus Arcane Impetus.
+
+**Where it struggles.** RNG on the Fangs slash roll. Eximus and Thrax. Bosses.
+
+**Variants.** Muzzled Wolf is the base-Voruna version. Descent of Fangs is the
+Ulfrun's Descent ability build. An Arcane Persistence health-tank variant.
+
+**Strengths and weaknesses.** Strong: map-wide clear via status taxi with a wider
+spread than base Voruna, permanent crowd control, invisible, strong priming. Weak:
+RNG-dependent, Eximus-awkward, boss-blind.
+
+**Who runs this.** Players who own Voruna Prime and want the Muzzled Wolf clear
+with a bigger radius and no energy-max shard needed.
+
+---
+
+### Solar Cataclysm
+**Wisp Prime. A Cataclysmic Gate Sol Gate area nuke feeding Breach Surge sparks.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Sustained beam nuke, spark nuke, self and team buff |
+| Difficulty | Intermediate |
+| Investment | Medium. 3 forma, Topaz radiation shards |
+| Weapon reliance | Very low. Sol Gate and its sparks do the killing |
+
+> Tenno. The Cataclysmic Gate augment turns Sol Gate from a single beam into a
+> Range-scaling area nuke. Its escalating heat procs feed Breach Surge sparks that
+> scale off that damage, and Arcane Universal Fallout floods energy off the
+> radiation procs. Roar, Archon Vitality and a heat-inherit primer stack the heat
+> until it one-shots level cap.
+
+**The build**
+
+- Vigorous Swap, rank 10, unpolarised
+- Archon Vitality, rank 0, unpolarised — doubles Sol Gate heat procs
+- Archon Stretch, rank 10, Naramon polarity
+- Cataclysmic Gate, rank 3, unpolarised — augment. Sol Gate becomes a Range-scaling area nuke
+- Overextended, rank 5, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Worthy Comradery, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Universal Fallout, Arcane Crepuscular
+
+Arsenal figures land at roughly 154% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with about 404 health, 370 shield, 210 armor and an 855 energy pool.
+
+**How it works.** Cataclysmic Gate scales Sol Gate's area with Range and raises its
+damage. Heat procs ramp over time and feed Breach Surge sparks (subsumed) that
+scale off the damage that made them, past the 5-million cap via Roar, Vigorous
+Swap (2.65x), Arcane Crepuscular (+3 flat crit damage while invisible) and Worthy
+Comradery (75% crit chance on headshots). Arcane Universal Fallout floods energy
+off Sol Gate's radiation. *Confidence: Approximation, per the author's spark math.*
+
+**How to maximise the heat.** Roar (double-dips heat), Haste mote corrosive strip,
+a heat-inherit primer (~3.25x), 10 viral (4.25x), Health and Shock motes (1.25x),
+Archon Vitality (doubles procs), and five Tauforged Topaz radiation ability-damage
+shards (1.75x).
+
+**Playstyle.** Plant motes, keep Roar (subsumed over Sol Gate's slot's
+counterpart) or a buff up, cast Breach Surge, then hold Sol Gate over the enemy
+area and let the ramp and sparks do the work.
+
+**The mods.** *Blind Rage* is the Strength. *Overextended, Archon Stretch* set the
+Range, with Archon Stretch feeding energy. *Cataclysmic Gate* is the area nuke.
+*Rank 0 Archon Vitality* doubles heat procs. *Vigorous Swap* multiplies the sparks.
+*Primed Continuity* holds mote and buff Duration. *Worthy Comradery* aura raises
+spark crit.
+
+**Helminth.** **Breach Surge** is the spark engine. **Roar** as the buff subsume if
+you route Breach Surge elsewhere.
+
+**Archon Shards.** Five Tauforged Topaz radiation ability-damage for the heat
+multiplier. Or split with cast-speed and parkour. Five total.
+
+**Arcanes.** Arcane Universal Fallout for the energy flood, Arcane Crepuscular for
+the spark crit-damage add while airborne-invisible.
+
+**Focus.** Any. Madurai for Strength.
+
+**Weapon synergy.** A heat-inherit primer (Epitaph, Kuva Nukor, Kompressa)
+multiplies Sol Gate's heat procs. Shock motes inherit Manifold Bond on a companion
+weapon for a Contagious Bond heat-spread feedback loop with Roar.
+
+**Staying alive.** Mote invisibility and shield gating as in Ravenous Wraith, plus
+Sol Gate's own crowd control. It fails to toxin.
+
+**Energy.** Arcane Universal Fallout plus Archon Stretch. A flood while Sol Gate is
+up.
+
+**Where it struggles.** Sol Gate roots you while channelling. Line-of-sight tiles.
+Bosses. The heat-inherit setup is a real chore for the ceiling.
+
+**Variants.** The Ravenous Wraith build is the general mote-and-Breach-Surge Wisp.
+
+**Strengths and weaknesses.** Strong: a strong sustained area nuke, huge spark
+potential, floods its own energy, keeps the team buffs. Weak: channel roots you,
+line-of-sight limited, setup-heavy, boss-blind.
+
+**Who runs this.** Players who want Wisp's Sol Gate to actually nuke and will stack
+the heat multipliers to get there.
+
+---
+
+### Mightiest Motes
+**Wisp Prime. A pure support build stacking Strength past 500% for maximum mote buffs.**
+
+| | |
+|--|--|
+| Content | Steel Path, Support |
+| Role | Maximum-strength Reservoir mote buffs for a squad |
+| Difficulty | Beginner |
+| Investment | Medium. 4 forma |
+| Weapon reliance | Total. Wisp only buffs; the squad and your weapon do everything |
+
+> Tenno. This Wisp does one thing: push ability Strength as high as it goes so the
+> Haste, Vitality and Shock motes hand the squad the biggest possible buffs.
+> Brightbonnet subsumed over Sol Gate adds Strength and energy while you bounce on
+> it, and the conditional stack of Archon Intensify, Molt Vigor, Madurai and
+> shards reaches 548% on demand.
+
+**The build**
+
+- Amar's Hatred, rank 5, unpolarised
+- Transient Fortitude, rank 10, Madurai polarity
+- Energy Conversion, rank 5, Madurai polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Augur Secrets, rank 5, unpolarised
+- Archon Intensify, rank 10, Madurai polarity
+- Aura: Growing Power, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Molt Augmented, Arcane Bellicose
+
+Arsenal figures land at roughly 338% Strength on the arsenal screen (climbing to
+~548% with Archon Intensify, Molt Vigor and conditionals), 172% Duration, 79%
+Range, 45% Efficiency, with 370 health, 370 shield, ~263 armor and a 300 energy
+pool.
+
+**How it works.** The arsenal shows 338%, but Archon Intensify adds 30% on heal,
+Molt Vigor adds 45% after an Operator ability, and Madurai (40%), Power Drain
+(50%), Pax Bolt (30%) and shards (up to 75%) stack for ~548% on demand, or ~743%
+with every conditional, or ~951% after a Nidus specter link. Every point of that
+scales the mote buffs. *Confidence: Approximation, per the author, who notes
+several sources are not shown on the arsenal screen.*
+
+**Playstyle.**
+
+1. Plant one of each Reservoir.
+2. Bounce on Brightbonnet (subsumed) for Strength and energy while staying invisible via the passive.
+3. Snapshot the conditional Strength stack, then place high-value motes for the squad.
+4. Refresh motes; they have infinite duration so on a static point you place them once.
+
+**The mods.** *Blind Rage, Transient Fortitude, Augur Secrets, Archon Intensify*
+are the Strength stack. *Narrow Minded* is the Duration with its Range cost free.
+*Energy Conversion* snapshots more Strength. *Archon Stretch* feeds passive energy.
+*Growing Power* aura and *Power Drift* exilus add Strength.
+
+**Helminth.** **Brightbonnet** over Sol Gate (4) for Strength and energy while
+bouncing.
+
+**Archon Shards.** Five Tauforged Crimson strength (up to 75%). Or split with
+cast-speed. Five total.
+
+**Arcanes.** Molt Augmented and Arcane Bellicose for Strength. Molt Vigor as a
+conditional swap.
+
+**Focus.** Madurai for the 40% Strength.
+
+**Weapon synergy.** None from the frame. Bring whatever kills; the motes carry the
+squad.
+
+**Staying alive.** Wisp's airborne invisibility plus the Brightbonnet bounce. This
+build has no gate and thin defense; stay in the air. It fails to focused fire and
+toxin.
+
+**Energy.** Brightbonnet plus Archon Stretch plus Energy Conversion. Thin without
+them.
+
+**Where it struggles.** It does no damage. It is a pure team-buff frame for
+coordinated squads; solo it is just an invisible mote dispenser. Bosses.
+
+**Variants.** The Ravenous Wraith build is the self-sufficient survivor-and-buffer
+Wisp.
+
+**Strengths and weaknesses.** Strong: the largest mote buffs possible, invisible,
+simple. Weak: zero damage, fragile, only shines in a coordinated squad.
+
+**Who runs this.** Players buffing a premade squad who want every mote at its
+theoretical maximum.
+
+---
