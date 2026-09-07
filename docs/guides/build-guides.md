@@ -14695,3 +14695,687 @@ Surge (#179) is the Breach Surge nuke.
 does the work.
 
 ---
+
+### The Passive Gut
+**Grendel Prime. A passive shield-gate weapon platform, low forma.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Weapon platform, shield-gate tank |
+| Difficulty | Beginner |
+| Investment | Low. 2 forma |
+| Weapon reliance | Very high |
+
+> Tenno. The cheap version of the Grendel gun stand: Catalyzing Shields plus
+> Fast Deflection and Vigilante Vigor rebuild a passive gate while you focus the
+> weapon. Nourish covers viral and energy.
+
+**The build**
+
+- Vigilante Vigor, rank 5, unpolarised
+- Fast Deflection, rank 5, unpolarised
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Hearty Nourishment, rank 3, unpolarised. Augment. Nourish also grants a lasting health boost
+- Blind Rage, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Aegis, Molt Augmented
+
+Arsenal figures land at roughly 199% Strength, 254% Duration, 34% Range, 45%
+Efficiency, with a 1295 health pool, 400 armor, 95 shield and 712 energy.
+Confidence: Approximation, per the author.
+
+**How it works.** Fast Deflection plus Vigilante Vigor and Arcane Aegis restore
+shields fast enough that the 1.33-second gate is almost always ready without
+active casting. Nourish (Helminth) gives viral on the weapon plus an energy
+return, and Hearty Nourishment adds a health cushion.
+
+**Helminth.** Nourish over Regurgitate.
+
+**Archon Shards.** Two parkour velocity, one cast speed, two flex (melee or
+primary crit to match your weapon).
+
+**Where it struggles.** No ability damage. Slower gate recovery than an active
+build.
+
+**Variants.** The Iron Gut (#180) is the Persistence tank; The Gut Surge (#179)
+is the Breach Surge nuke; The Devouring Maw (#053) is the Pulverize DPS Grendel.
+
+**Who runs this.** Players who want the lowest-effort Grendel gun platform.
+
+---
+
+### First Spores
+**Saryn Prime. A zero-forma Spores starter for learning the frame.**
+
+| | |
+|--|--|
+| Content | Star Chart, early Steel Path, Beginner |
+| Role | Spore spread, learning-friendly |
+| Difficulty | Beginner |
+| Investment | None. 0 forma |
+| Weapon reliance | Medium |
+
+> Tenno. A first Saryn: Spores to spread, Toxic Lash for the weapon and the
+> spore pops, Regenerative Molt and Rejuvenation for a forgiving heal. Two open
+> slots to grow into.
+
+**The build**
+
+- Continuity, rank 5, unpolarised
+- Intensify, rank 5, Madurai polarity
+- Regenerative Molt, rank 3, unpolarised. Augment. Molt heals you over its duration
+- Vitality, rank 8, Vazarin polarity
+- Streamline, rank 5, unpolarised
+- Stretch, rank 5, unpolarised
+- Augur Reach, rank 5, unpolarised
+- Flow, rank 5, Naramon polarity
+- Aura: Rejuvenation, Vazarin polarity
+- Exilus: Power Drift, unpolarised
+- Arcanes: none yet (two open slots)
+
+Arsenal figures land at roughly 145% Strength, 130% Duration, 175% Range, 130%
+Efficiency, with an 845 health pool, 315 armor, 370 shield and 600 energy.
+Confidence: Approximation, per the author.
+
+**How it works.** Cast Spores on one enemy, spread them by killing infected
+targets or hitting them with Toxic Lash melee, and watch the damage ramp as the
+count climbs. Miasma is a reset and a finisher. Regenerative Molt plus
+Rejuvenation is a simple heal while you learn the loop.
+
+**Helminth.** None; learn the base kit first.
+
+**Archon Shards.** None; add ability strength once you have them.
+
+**Where it struggles.** No forma means tight capacity and no arcanes. Damage
+falls off in deep Steel Path.
+
+**Variants.** The Spreading Rot (#004) is the invested Spores hybrid; The Toxic
+Overbuff (#063) is the weapon-platform Saryn.
+
+**Who runs this.** New players building their first Saryn.
+
+---
+
+### The Shoestring Pull
+**Mag. A zero-forma, no-arcane Magnetize build on the cheapest possible mods.**
+
+| | |
+|--|--|
+| Content | Star Chart, early Steel Path, Beginner |
+| Role | Magnetize damage funnel, learning-friendly |
+| Difficulty | Beginner |
+| Investment | None. 0 forma |
+| Weapon reliance | High |
+
+> Tenno. Everything here is a common mod. Magnetize a target, shoot into the
+> bubble, and let the stored damage detonate the pack. Rolling Guard and
+> Handspring are the only safety net.
+
+**The build**
+
+- Intensify, rank 5, unpolarised
+- Augur Message, rank 5, unpolarised
+- Continuity, rank 5, unpolarised
+- Fleeting Expertise, rank 5, Naramon polarity
+- Augur Reach, rank 5, unpolarised
+- Stretch, rank 5, unpolarised
+- Rolling Guard, rank 10, unpolarised
+- Natural Talent, rank 3, Naramon polarity
+- Aura: Steel Charge, Madurai polarity
+- Exilus: Handspring, unpolarised
+- Arcanes: none (two open slots)
+
+Arsenal figures land at roughly 130% Strength, 94% Duration, 175% Range, 160%
+Efficiency, with 280 health, 555 shield, 105 armor and 190 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Magnetize turns an enemy into a bubble that stores a share of
+all damage dealt inside it and releases it when the duration ends or the target
+dies. Shoot into the bubble with any weapon, or drag it into a crowd. Pull is a
+cheap group-and-stagger.
+
+**Helminth.** None.
+
+**Archon Shards.** None; ability strength later.
+
+**Where it struggles.** Tiny energy pool, no arcanes, thin defenses. A stepping
+stone, not an endgame build.
+
+**Variants.** The Kill Box (#048) is the invested Magnetize-and-Crush Mag.
+
+**Who runs this.** New players on a brand-new Mag with no resources.
+
+---
+
+### The Fast Cloud
+**Wukong Prime. A Cloud Walker mobility build with a Preparation energy start.**
+
+| | |
+|--|--|
+| Content | Star Chart, spy, extraction, Steel Path |
+| Role | Mobility, invisibility, objective carry |
+| Difficulty | Beginner |
+| Investment | Medium. 5 forma |
+| Weapon reliance | Medium |
+
+> Tenno. Cloud Walker for a fast, healing, invisible dash between objectives.
+> Long duration and Arcane Phantasm make the cloud cover ground; Preparation
+> hands you a full energy bar on spawn.
+
+**The build**
+
+- Streamline, rank 5, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Umbral Intensify, rank 10, Umbral polarity
+- Augur Secrets, rank 5, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Primed Sure Footed, rank 10, Vazarin polarity
+- Aura: Enemy Radar, aura slot
+- Exilus: Preparation, unpolarised
+- Arcanes: Arcane Energize, Arcane Phantasm
+
+Arsenal figures land at roughly 223% Strength, 227% Duration, 34% Range, 130%
+Efficiency, with 555 health, 445 shield, 290 armor and 556 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Cloud Walker makes you invisible, moves fast, and heals over
+its duration; Arcane Phantasm adds movement speed on top. Enemy Radar and the
+spy-friendly mobility make this a fast-extract and objective-runner. Defy and
+Celestial Twin are still there if a fight starts.
+
+**Helminth.** None; Cloud Walker is the point.
+
+**Archon Shards.** Parkour velocity and cast speed.
+
+**Where it struggles.** Low killing power. Not a damage build.
+
+**Variants.** The Cloud Staff (#033) and The Idle Staff (#059) are the Iron
+Staff Wukong builds; The Counterstrike (#164) is the Defy nuke.
+
+**Who runs this.** Players who want Wukong as a speed-run and spy tool.
+
+---
+
+### The Casual Halo
+**Nezha Prime. Divine Retribution plus Adaptation as a low-stress Steel Path tank.**
+
+| | |
+|--|--|
+| Content | Steel Path |
+| Role | Reflect nuke, casual tank |
+| Difficulty | Beginner |
+| Investment | Low. 2 forma |
+| Weapon reliance | Medium |
+
+> Tenno. Warding Halo plus Adaptation plus Arcane Guardian is a lot of effective
+> health for little effort. Divine Retribution turns the hits you take into a
+> radial finisher pulse for clear.
+
+**The build**
+
+- Divine Retribution, rank 3, unpolarised. Augment. Warding Halo reflects damage as radial finisher damage
+- Blind Rage, rank 10, Madurai polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Stretch, rank 5, unpolarised
+- Adaptation, rank 10, Vazarin polarity
+- Overextended, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Blessing, Arcane Guardian
+
+Arsenal figures land at roughly 194% Strength, 73% Duration, 250% Range, 45%
+Efficiency, with 465 health, 185 shield, 265 armor and 641 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Warding Halo absorbs a chunk of damage; Adaptation and Arcane
+Guardian stretch it further; Arcane Blessing grows the health pool from orb
+pickups. Divine Retribution converts the damage the Halo eats into a finisher
+pulse around you, which clears trash without aiming.
+
+**Helminth.** None; the reflect loop is the build.
+
+**Archon Shards.** Health and armour, then cast speed for recasts.
+
+**Where it struggles.** Short Halo duration means frequent recasts. Reflect
+damage falls off at very high levels.
+
+**Variants.** The Warded Wildfire (#039) is the general-use Nezha; The Iron Halo
+(#146) is the high-strength persistence tank; The Broken Halo (#167) is the
+i-frame recast build.
+
+**Who runs this.** Players who want a relaxed, tanky Nezha for regular Steel
+Path.
+
+---
+
+### The Twin Orbit
+**Sirius and Orion. Orion as the armour-strip weapon platform, Sirius as the buffer.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Weapon platform, armour strip, squad buff |
+| Difficulty | Advanced |
+| Investment | Medium. 3 forma across the pair |
+| Weapon reliance | Very high |
+
+> Tenno. This duo splits roles: Orion runs maximum range for the armour-strip
+> and grouping abilities, Sirius runs maximum duration and strength as a pure
+> buff. You mostly pilot Orion.
+
+**The build**
+
+- Blind Rage, rank 10, aura slot
+- Umbral Intensify, rank 10, unpolarised
+- Piercing Roar, rank 0, unpolarised. Augment. Roar shockwave strips a portion of armour
+- Narrow Minded, rank 10, Vazarin polarity
+- Nira's Hatred, rank 5, Vazarin polarity
+- Augur Message, rank 5, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Constitution, rank 3, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Concentration, Molt Efficiency
+
+Arsenal figures land at roughly 258% Strength, 321% Duration, 34% Range, 45%
+Efficiency on the buffer profile, with a 776 health pool, 455 shield, 160 armor
+and 250 energy. Confidence: Approximation, per the author.
+
+**How it works.** On Orion: spam the first ability everywhere to strip armour,
+keep the second active for free damage negation, and use the third sparingly for
+grouping (it carries enemies away and blocks headshots, so many players skip
+it). Sirius sits on the buff profile and keeps the damage multiplier and
+duration up for the squad. The author publishes matching arsenal codes for both
+halves.
+
+**Helminth.** Per the linked pair build; the buffer half leans on Roar.
+
+**Archon Shards.** Strip and cast speed on Orion; strength and duration on
+Sirius.
+
+**Where it struggles.** Managing two frames is a learning curve. Grouping ability
+fights your Incarnon aim.
+
+**Variants.** The Divided Star (#071) is the other split-role take on this pair.
+
+**Who runs this.** Duo-frame players who want a dedicated strip-and-buff engine.
+
+---
+
+### The Lazy Antimatter
+**Nova Prime. Omamori over Antimatter Drop for a hands-off Slowva tank.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Slowva, shield-gate tank |
+| Difficulty | Beginner |
+| Investment | Medium. 5 forma |
+| Weapon reliance | High |
+
+> Tenno. Molecular Prime for the slow and the death-blast, Omamori over
+> Antimatter Drop for a flat damage-reduction layer, and a Catalyzing Shields
+> gate. Cast 4, shoot, relax.
+
+**The build**
+
+- Vigilante Vigor, rank 5, unpolarised
+- Fast Deflection, rank 5, Vazarin polarity
+- Molecular Fission, rank 3, unpolarised. Augment. Null Star stacks refresh on primed kills
+- Blind Rage, rank 10, Madurai polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Overextended, rank 5, unpolarised
+- Neutron Star, rank 3, unpolarised. Augment. Null Star shards detonate for AoE
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Concentration, Arcane Aegis
+
+Arsenal figures land at roughly 139% Strength, 100% Duration, 190% Range, 45%
+Efficiency, with 370 health, 370 shield, 135 armor and 755 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Molecular Prime slows the room and chains explosions on primed
+kills. Omamori (Helminth) gives a flat chance to negate hits, layered on a Fast
+Deflection plus Catalyzing Shields gate. Null Star with Molecular Fission and
+Neutron Star is a passive orbiting pulse so you barely cast.
+
+**Helminth.** Omamori over Antimatter Drop.
+
+**Archon Shards.** Cast speed and shield capacity.
+
+**Where it struggles.** Low damage ceiling. Leans entirely on the weapon once
+the slow is up.
+
+**Variants.** Molecular Tide (#029) is the general Slowva; The Hushed Slow
+(#148) is the max-slow Silence variant.
+
+**Who runs this.** Players who want the least demanding Slowva for defense
+objectives.
+
+---
+
+### The Enduring Reap
+**Sevagoth Prime. A Shadow nuke on an Arcane Persistence chassis.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Sow-and-Reap nuke, persistence tank |
+| Difficulty | Advanced |
+| Investment | Heavy. 6 forma, shards |
+| Weapon reliance | Medium |
+
+> Tenno. Dark Propagation makes Sow self-spread, Shadow Haze adds shadows and a
+> crit debuff, and three Umbral mods clear 700 armour so Arcane Persistence caps
+> the health loss while you nuke.
+
+**The build**
+
+- Umbral Intensify, rank 10, Umbral polarity
+- Umbral Vitality, rank 10, unpolarised
+- Umbral Fiber, rank 10, unpolarised
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Stretch, rank 5, Naramon polarity
+- Shadow Haze, rank 3, Zenurik polarity. Augment. Reap spawns extra shadows and applies a crit-chance debuff
+- Dark Propagation, rank 3, Zenurik polarity. Augment. Sow self-propagates and carries the detonation
+- Aura: Growing Power, Madurai polarity
+- Exilus: Power Drift, Zenurik polarity
+- Arcanes: Arcane Blessing, Arcane Persistence
+
+Arsenal figures land at roughly 192% Strength, 100% Duration, 145% Range, 100%
+Efficiency, with a 1036 health pool, 518 armor, 370 shield and 641 energy.
+Confidence: Approximation, per the author.
+
+**How it works.** Sow plants charges that Dark Propagation spreads on its own;
+Reap detonates them in a wave and, via Shadow Haze, leaves shadows and a crit
+debuff. Above 700 armour Arcane Persistence caps incoming loss, and Arcane
+Blessing plus Hunter Adrenaline keep the pool and energy up.
+
+**Helminth.** None; the augments are the nuke.
+
+**Archon Shards.** Armour to hold the threshold, then ability strength and cast
+speed.
+
+**Where it struggles.** Sow-Reap has a rhythm and a windup. Nullifiers break
+Persistence.
+
+**Variants.** The Withering Scythe (#017) is the Gloom crit-buff Sevagoth; The
+Culling Number (#060) is the pure one-shot nuke.
+
+**Who runs this.** Sevagoth players who want the nuke and an unkillable body at
+once.
+
+---
+
+### The Concrete Vigil
+**Qorvex. An Arcane Persistence weapon platform behind Containment Wall.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Persistence tank, weapon platform, armour strip |
+| Difficulty | Intermediate |
+| Investment | Heavy. 6 forma |
+| Weapon reliance | Very high |
+
+> Tenno. Qorvex has high base armour and a radiation strip. Two Umbral mods plus
+> Wrecking Wall clear 700 armour, Arcane Persistence caps the health loss, and
+> the Containment Wall blocks line of sight. The gun does the killing.
+
+**The build**
+
+- Nira's Hatred, rank 5, Vazarin polarity
+- Wrecking Wall, rank 3, unpolarised. Augment. Containment Wall grants a large temporary armour bonus
+- Umbral Intensify, rank 10, Umbral polarity
+- Umbral Vitality, rank 10, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Lightning Dash, Madurai polarity
+- Arcanes: Arcane Persistence, Arcane Blessing
+
+Arsenal figures land at roughly 254% Strength, 170% Duration, 100% Range, 45%
+Efficiency, with an 1855 health pool, 875 armor, 300 shield and 570 energy.
+Confidence: Approximation, per the author.
+
+**How it works.** Cast the third ability to spread a radiation strip, drop
+Containment Wall for cover and the Wrecking Wall armour spike, and stay above
+700 armour so Arcane Persistence caps the loss. Hunter Adrenaline funds casts
+from the hits you take; Arcane Blessing grows the buffer.
+
+**Helminth.** None; the base kit strips and walls on its own.
+
+**Archon Shards.** Armour to hold 700, then cast speed and health.
+
+**Where it struggles.** Slow frame, short range. Nullifiers. No ability damage.
+
+**Variants.** The Chain Reaction (#062) is the Crucible Blast nuke Qorvex.
+
+**Who runs this.** Players who want an immovable Qorvex gun turret for level cap.
+
+---
+
+### The Gated Spore
+**Saryn Prime. An active shield-gate weapon platform, Spores kept only for the viral.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Weapon platform, shield-gate tank |
+| Difficulty | Intermediate |
+| Investment | Heavy. 6 forma |
+| Weapon reliance | Very high |
+
+> Tenno. Cast on cooldown to hold the gate, keep Spores and Toxic Lash up for
+> the viral and the weapon buff, and let a strong gun do everything else. Range
+> is dumped.
+
+**The build**
+
+- Primed Flow, rank 10, Naramon polarity
+- Umbral Intensify, rank 10, unpolarised
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Equilibrium, rank 10, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Venom Dose, rank 3, Zenurik polarity. Augment. Toxic Lash adds a toxin damage buff to allied weapons
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Aegis, Molt Augmented
+
+Arsenal figures land at roughly 199% Strength, 227% Duration, 34% Range, 100%
+Efficiency, with 465 health, 370 shield, 315 armor and 855 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Catalyzing Shields plus the low shield pool gives a clean
+1.33-second gate on every ability cast. Spores and Toxic Lash still apply viral
+and a weapon buff, and Venom Dose extends the toxin bonus to the squad. It is a
+Saryn body wrapped around a gun.
+
+**Helminth.** None; Spores stay for the viral.
+
+**Archon Shards.** Cast speed and shield capacity.
+
+**Where it struggles.** No ability damage worth the name. Gate upkeep needs a
+steady cast rhythm.
+
+**Variants.** The Spreading Rot (#004) is the Spores hybrid; The Toxic Overbuff
+(#063) is the standard weapon-platform Saryn.
+
+**Who runs this.** Players who want Saryn purely as a tanky primer for an
+Incarnon.
+
+---
+
+### The Gated Current
+**Volt Prime. An active shield-gate weapon platform with Shock Trooper.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Weapon platform, shield-gate tank, buff |
+| Difficulty | Intermediate |
+| Investment | Heavy. 6 forma |
+| Weapon reliance | Very high |
+
+> Tenno. Cast Speed or Shock on cooldown to hold the gate, keep Electric Shield
+> up for the crit and multishot bonus, and add Shock Trooper flat electric to
+> the gun. Range is dumped.
+
+**The build**
+
+- Umbral Intensify, rank 10, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Rolling Guard, rank 10, Vazarin polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Shock Trooper, rank 3, Zenurik polarity. Augment. Adds an additive electric damage bonus to weapons
+- Transient Fortitude, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Equilibrium, rank 10, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Molt Augmented, Arcane Aegis
+
+Arsenal figures land at roughly 199% Strength, 227% Duration, 34% Range, 100%
+Efficiency, with 370 health, 555 shield, 135 armor and 300 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Catalyzing Shields plus the low pool gives a 1.33-second gate
+on each cast. Shoot through Electric Shield for the crit and multishot bonus,
+and keep Shock Trooper on the weapon for flat electric. Rolling Guard is the
+reset when the gate lapses.
+
+**Helminth.** None; the base kit buffs and gates.
+
+**Archon Shards.** Cast speed and shield capacity.
+
+**Where it struggles.** Tiny energy pool. No ability damage.
+
+**Variants.** Grounding Field (#011) is the Capacitance endless Volt; The Bounty
+Sprint (#147) is the Plague Star speed build.
+
+**Who runs this.** Players who want a shield-position Volt for a hitscan
+Incarnon.
+
+---
+
+### The Gated Wing
+**Titania Prime. A Razorwing shield-gate platform for pistol Incarnons.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Weapon platform, shield-gate tank, mobility |
+| Difficulty | Intermediate |
+| Investment | Low. 3 forma |
+| Weapon reliance | Very high. Dex Pixia or a pistol Incarnon |
+
+> Tenno. Razorwing for the speed and the exalted guns, Catalyzing Shields for
+> the gate on every cast, and Razorwing Blitz so recasts also boost fire rate
+> and range. The gun is the build.
+
+**The build**
+
+- Augur Secrets, rank 5, unpolarised
+- Archon Continuity, rank 10, Madurai polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Equilibrium, rank 10, Naramon polarity
+- Precision Intensify, rank 5, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Razorwing Blitz, rank 3, unpolarised. Augment. Recasting Razorwing stacks fire rate and ability range
+- Aura: Corrosive Projection, aura slot
+- Exilus: Preparation, unpolarised
+- Arcanes: Arcane Impetus, Arcane Pistoleer
+
+Arsenal figures land at roughly 124% Strength, 254% Duration, 34% Range, 100%
+Efficiency, with 465 health, 370 shield, 135 armor and 755 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** In Razorwing you are fast and small, wielding Dex Pixia.
+Catalyzing Shields plus the low pool gates you each time you recast; Razorwing
+Blitz turns those recasts into a fire-rate and range buff. Arcane Pistoleer
+gives free ammo on the secondary; Arcane Impetus builds combo.
+
+**Helminth.** None; Razorwing is the platform.
+
+**Archon Shards.** Cast speed and pistol crit if using Pixia, or primary crit
+for a Kitgun.
+
+**Where it struggles.** No ability damage. Lanterns are barely used here.
+
+**Variants.** Razorwing Waltz (#026) is the general-use DPS Titania; The Fissure
+Sprint (#123) is the relic-run speed build.
+
+**Who runs this.** Players who want a fast, gated Titania body for a pistol
+Incarnon.
+
+---
+
+### The Silent Step
+**Ash Prime. A stealth-level build with no Primed Sure Footed, tuned for finisher farming.**
+
+| | |
+|--|--|
+| Content | Steel Path, stealth-affinity farming |
+| Role | Invisibility, stealth-finisher farm |
+| Difficulty | Beginner |
+| Investment | Low. 3 forma |
+| Weapon reliance | Medium |
+
+> Tenno. Smoke Screen for invisibility, Savage Silence to open every nearby
+> enemy to a finisher, and Enemy Radar to keep the chain going. Built for
+> stealth-multiplier affinity, not survival.
+
+**The build**
+
+- Fortitude, rank 3, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Constitution, rank 3, Naramon polarity
+- Power Drift, rank 5, unpolarised
+- Stretch, rank 5, unpolarised
+- Preparation, rank 10, unpolarised
+- Savage Silence, rank 3, unpolarised. Augment. Silenced enemies are open to finishers and take bonus finisher damage
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Enemy Radar, aura slot
+- Exilus: Sure Footed, Vazarin polarity
+- Arcanes: Arcane Energize, Arcane Consequence
+
+Arsenal figures land at roughly 115% Strength, 183% Duration, 145% Range, 100%
+Efficiency, with 555 health, 465 shield, 185 armor and 427 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Stay invisible with Smoke Screen, walk into a group, cast
+Savage Silence to open them to finishers, and clear them for the stealth
+affinity multiplier. Preparation hands you full energy on spawn; Constitution
+and Fortitude extend the invisibility window. Primed Sure Footed is deliberately
+left off to save a slot, so expect the occasional knockdown.
+
+**Helminth.** None; the augment carries the loop.
+
+**Archon Shards.** Cast speed and energy; not required.
+
+**Where it struggles.** No scaling damage, thin defenses, knockdown-prone
+without Primed Sure Footed. It is a farm build.
+
+**Variants.** The Silent Verdict (#012) is the red-crit Bladestorm Ash; First
+Cuts (#098) is the beginner non-Helminth build; The Quiet Cut (#135) is the
+Obex finisher nuke.
+
+**Who runs this.** Players grinding stealth-multiplier affinity on Ash.
+
+---
