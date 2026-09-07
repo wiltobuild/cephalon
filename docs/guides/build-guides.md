@@ -17726,3 +17726,466 @@ Heavy forma cost.
 **Who runs this.** Players grinding Plague Star for the fastest boil kills.
 
 ---
+
+### The Antimatter Shell
+**Kuva Sobek. Acid Shells trash nuke plus Thrax kills, tuned for Nova with Arcane Hot Shot.**
+
+| | |
+|--|--|
+| Content | Steel Path, Void Cascade, Level cap |
+| Role | Chain-detonation nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 6 forma, MR 15 |
+| Weapon reliance | High. Nova-only, needs Arcane Hot Shot |
+
+> Tenno. Same Acid Shells chain as the other Sobek builds, here powered by Nova:
+> Arcane Hot Shot supplies the crit chance, Molecular Prime doubles the damage
+> that starts the chain, and Null Star handles stragglers.
+
+**The build**
+
+- Primed Charged Shell, rank 10, Naramon polarity
+- Magnetic Strafe, rank 3, unpolarised
+- Shotgun Elementalist, rank 5, unpolarised
+- Acid Shells, rank 5, unpolarised
+- Primed Cleanse Grineer, rank 10, Madurai polarity
+- Primed Ravage, rank 10, Madurai polarity
+- Galvanized Hell, rank 10, Madurai polarity
+- Galvanized Savvy, rank 10, Vazarin polarity
+- Narrow Barrel, rank 5, Madurai polarity
+- Arcane: Primary Deadhead
+
+Weapon figures land near 21% crit chance (higher with Arcane Hot Shot) and 4.83x
+crit damage at a 3.5 fire rate. Confidence: Approximation, per the author.
+
+**How it works.** As The Acid Chain (#226): Acid Shells detonates a killed enemy
+for a share of its health in a corrosive-blast area, chaining across the pack.
+Molecular Prime's damage amp makes the first kill trivial to land.
+
+**Where it struggles.** Nova-locked, needs Arcane Hot Shot. Acid Shells' Steel
+Path scaling caveats apply.
+
+**Variants.** The Acid Chain (#226), The Demon Shell (#228) and The Live Round
+(#234) are the other frame pairings.
+
+**Who runs this.** Nova players who want a matched chain-nuke shotgun.
+
+---
+
+### The Lash Rot
+**Torid Incarnon. Raw viral-toxin for Saryn, where Toxic Lash forces the toxin.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Trash clear, toxin damage-over-time |
+| Difficulty | Advanced |
+| Investment | Heavy. 7 forma, MR 4 |
+| Weapon reliance | High. Saryn-only |
+
+> Tenno. Toxic Lash forces toxin status that scales off raw damage, so this Torid
+> build stacks raw viral and toxin and lets Saryn supply the procs while the
+> Incarnon beam chains.
+
+**The build**
+
+- Vile Acceleration, rank 5, Naramon polarity
+- Primed Cryo Rounds, rank 10, Vazarin polarity
+- Infected Clip, rank 5, Naramon polarity
+- Malignant Force, rank 3, Madurai polarity
+- Rifle Elementalist, rank 5, unpolarised
+- Critical Delay, rank 5, Naramon polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Amalgam Serration, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Blight
+
+Weapon figures land near 45% crit chance and 2x crit damage with a roughly 2.4x
+Incarnon multiplier. Confidence: Approximation, per the author.
+
+**Evolutions.** Final Fusillade at II, Swift Deliverance at III, Survivor's Edge
+at IV.
+
+**The mods.** Amalgam Serration is base damage; Galvanized Chamber is multishot;
+Rifle Elementalist multiplies the toxin damage-over-time; Primary Blight adds
+crit damage as toxin procs land. Malignant Force plus Primed Cryo Rounds are
+viral, Infected Clip is the toxin.
+
+**Where it struggles.** Saryn-locked. Charge uptime. No armour bypass beyond
+what Saryn provides.
+
+**Variants.** The Toxic Cloud (#218) is the frame-agnostic toxin Torid.
+
+**Who runs this.** Saryn players who want a matched Torid.
+
+---
+
+### The Cold Burst
+**Vectis Prime Incarnon. A blast-cold sniper with an area on every shot.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Precision DPS with splash |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma, MR 14 |
+| Weapon reliance | Standalone |
+
+> Tenno. Vectis Prime's Incarnon form adds a blast area on impact. Cold plus
+> blast means every shot staggers a cluster and freezes it while the direct hit
+> deletes the priority target.
+
+**The build**
+
+- Hammer Shot, rank 3, unpolarised
+- Vile Acceleration, rank 5, unpolarised
+- Thermite Rounds, rank 3, Madurai polarity
+- Rifle Elementalist, rank 5, Vazarin polarity
+- Critical Delay, rank 5, Naramon polarity
+- Primed Bane of Orokin, rank 10, Madurai polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Amalgam Serration, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Frostbite
+
+Weapon figures land near 90% crit chance and 3.2x crit damage with a roughly
+2.4x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**Evolutions.** Inciting Incident at II for +50 base over Lone Enforcer. Rapid
+Fire Reinforcement at III for reload. Critical Parallel at IV.
+
+**The mods.** Galvanized Chamber is multishot; Amalgam Serration is base damage;
+Primed Bane double-dips the blast damage-over-time and triple-dips a Xata's
+Whisper instance if you run it (flexible for Vital Sense). Rifle Elementalist
+plus Thermite Rounds build the element.
+
+**Where it struggles.** Two-round magazine and a reload between. Charge uptime.
+
+**Variants.** The Single Chamber (#249) is the Incarnon-off one-shot Vectis
+Prime.
+
+**Who runs this.** Players who want a sniper that also clears the trash around
+the target.
+
+---
+
+### The Armored Tax
+**Coda Hema. A Primary Bulwark Thrax killer for frames with over 1500 armour.**
+
+| | |
+|--|--|
+| Content | Steel Path, Void Cascade, Level cap |
+| Role | Single-target delete, priority kills |
+| Difficulty | Advanced |
+| Investment | Low. 1 forma, MR 17 |
+| Weapon reliance | High. Needs a 1500-plus armour frame |
+
+> Tenno. Primary Bulwark scales damage with your frame's armour. On an Inaros or
+> similar 1500-plus armour tank it holds +500% consistently, and Coda Hema's
+> compounding Aptitude does the rest: under a second to kill level-cap Thrax on
+> headshots.
+
+**The build**
+
+- Vile Acceleration, rank 5, unpolarised
+- High Voltage, rank 3, unpolarised
+- Malignant Force, rank 3, unpolarised
+- Magnetic Capacity, rank 3, unpolarised
+- Necrophagic Vigor, rank 5, unpolarised
+- Galvanized Chamber, rank 10, Madurai polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Amalgam Serration, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Bulwark
+
+Weapon figures land near 20% base crit chance (far higher with Necrophagic
+Vigor) and 2.3x crit damage with a roughly 2.4x Incarnon multiplier. Confidence:
+Approximation, per the author.
+
+**The mods.** Amalgam Serration and Galvanized Aptitude compound multiplicatively
+on Coda Hema; Galvanized Chamber is multishot; Necrophagic Vigor is the
+crit-on-health-reload augment. High Voltage plus Malignant Force plus Magnetic
+Capacity build viral and magnetic.
+
+**Where it struggles.** Needs a very high armour frame and a health-cost reload
+loop. High MR gate.
+
+**Variants.** The Blood Tax (#230) is the general-use Coda Hema.
+
+**Who runs this.** Inaros and other heavy-armour tanks hunting Thrax.
+
+---
+
+### The Lingering Fog
+**Neutralizer. A silent sniper that leaves 17-second gas clouds.**
+
+| | |
+|--|--|
+| Content | Steel Path, area denial |
+| Role | Area denial, damage-over-time |
+| Difficulty | Intermediate |
+| Investment | Low. 5 forma, no MR requirement |
+| Weapon reliance | Standalone |
+
+> Tenno. A joke that works: Continuous Misery plus Hunter Track plus the gas
+> element gives Neutralizer's clouds an absurd duration, so one shot poisons a
+> doorway for the better part of a minute.
+
+**The build**
+
+- Rifle Elementalist, rank 5, unpolarised
+- Continuous Misery, rank 3, unpolarised
+- Hunter Track, rank 5, Madurai polarity
+- Primed Bane of Orokin, rank 10, Madurai polarity
+- Target Acquired, rank 5, Madurai polarity
+- Vital Sense, rank 5, Madurai polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Semi-Rifle Cannonade, rank 5, Vazarin polarity
+- Exilus: Hush, unpolarised
+- Arcane: Primary Deadhead
+
+Weapon figures land near 45% crit chance and 6.6x crit damage with a roughly
+3.4x multiplier. Confidence: Approximation, per the author.
+
+**How it works.** Continuous Misery and Hunter Track extend status duration
+massively; Rifle Elementalist multiplies the gas damage-over-time. Fire a shot
+into a chokepoint and the cloud does the work while you move on.
+
+**Where it struggles.** It is a novelty. Clouds do not scale to the deepest
+level cap. Slow fire rate.
+
+**Variants.** The Silent Slug (#217) and The Shock Sniper (#233) are the serious
+Neutralizer builds.
+
+**Who runs this.** Players who enjoy poisoning a whole tileset with one round.
+
+---
+
+### The Single Chamber
+**Vectis Prime. An Incarnon-off one-shot sniper that needs no stacks.**
+
+| | |
+|--|--|
+| Content | Steel Path, Level cap |
+| Role | Single-target one-shot |
+| Difficulty | Advanced |
+| Investment | Low. 3 forma, MR 14 |
+| Weapon reliance | Standalone |
+
+> Tenno. Incarnon-off Vectis Prime does more single-target damage than its
+> transformed mode and needs no Galvanized stacks. Primed Chamber plus Primary
+> Acuity turn one headshot into a level-cap delete.
+
+**The build**
+
+- Primed Chamber, rank 3, unpolarised
+- Semi-Rifle Cannonade, rank 5, unpolarised
+- Malignant Force, rank 3, Madurai polarity
+- Primed Cryo Rounds, rank 10, Vazarin polarity
+- Critical Delay, rank 5, Naramon polarity
+- Depleted Reload, rank 5, unpolarised
+- Primary Acuity, rank 10, Naramon polarity
+- Vital Sense, rank 5, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Deadhead
+
+Weapon figures land near 90% crit chance and 4.4x crit damage with a roughly
+3.4x multiplier. Confidence: Approximation, per the author.
+
+**Evolutions.** Inciting Incident at II for +200 base damage. Rapid Fire
+Reinforcement or Marksman's Hand at III. Critical Parallel at IV.
+
+**The mods.** Primed Chamber is the big first-shot damage; Primary Acuity is the
+headshot crit and multiplier; Semi-Rifle Cannonade adds damage and locks fire
+rate to cancel Critical Delay's penalty. Depleted Reload plus Primed Chamber is
+the classic single-shot sniper pairing. Run Galvanized Scope over Critical
+Delay if you do not mind stacks.
+
+**Where it struggles.** One target per shot, then a reload. Body shots waste it.
+
+**Variants.** The Cold Burst (#246) is the Incarnon area build.
+
+**Who runs this.** Snipers who want maximum per-shot damage with no ramp.
+
+---
+
+### The Burst Sweep
+**Burston Prime Incarnon. A general-use viral-heat crowd-clear tune.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | All-round DPS, crowd clear |
+| Difficulty | Beginner |
+| Investment | Medium. 6 forma, MR 12 |
+| Weapon reliance | Standalone |
+
+> Tenno. The straightforward Burston Prime Incarnon: viral-heat, a normal crit
+> core, Galvanized Chamber for consistent charging. No Primary Acuity, no
+> headshot dependence.
+
+**The build**
+
+- Primed Shred, rank 10, Madurai polarity
+- Primed Cryo Rounds, rank 10, Vazarin polarity
+- Malignant Force, rank 3, unpolarised
+- Vital Sense, rank 5, Madurai polarity
+- Galvanized Scope, rank 10, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Amalgam Serration, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Deadhead
+
+Weapon figures land near 54% crit chance and 3.96x crit damage with a roughly
+2.55x Incarnon multiplier; Absolute Valor takes base crit to 50%. Confidence:
+Approximation, per the author.
+
+**Evolutions.** Fortress Salvo at II for damage and punch-through over 450
+armour, Kinetic Battle at III, Absolute Valor at IV.
+
+**The mods.** Galvanized Chamber is multishot; Galvanized Scope and Vital Sense
+are crit; Primed Shred adds fire rate and punch-through; Amalgam Serration is
+base damage. Malignant Force plus Primed Cryo Rounds are viral, heat from the
+Incarnon area.
+
+**Where it struggles.** Lower single-target ceiling than the Acuity build.
+Charge uptime.
+
+**Variants.** The Triple Tap (#200) is the headshot red-crit Burston Prime.
+
+**Who runs this.** Players who want a forgiving all-rounder burst rifle.
+
+---
+
+### The Ramping Spray
+**Kuva Kohm. A viral-electric spool-up shotgun that fills the screen with pellets.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Close-range status DPS |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma, MR 13 |
+| Weapon reliance | Standalone |
+
+> Tenno. Kuva Kohm adds a pellet per shot as you hold the trigger, up to a wall
+> of lead. Viral-electric plus the Galvanized status core makes each spooled
+> burst a crowd delete.
+
+**The build**
+
+- Primed Charged Shell, rank 10, Naramon polarity
+- Shotgun Barrage, rank 5, unpolarised
+- Chilling Reload, rank 3, unpolarised
+- Toxic Barrage, rank 3, unpolarised
+- Primed Ravage, rank 10, Madurai polarity
+- Critical Deceleration, rank 5, Madurai polarity
+- Galvanized Hell, rank 10, Madurai polarity
+- Galvanized Savvy, rank 10, Vazarin polarity
+- Galvanized Acceleration, rank 10, Madurai polarity
+- Arcane: Primary Crux
+
+Weapon figures land near 57% crit chance and 4.83x crit damage with a roughly 2x
+Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Savvy is damage-per-status; Galvanized Hell is
+multishot; Galvanized Acceleration speeds the spool; Critical Deceleration plus
+Primed Ravage are crit. Chilling Reload plus Toxic Barrage make viral, Primed
+Charged Shell adds electric and raw damage.
+
+**Where it struggles.** Spool-up delay on the first target. Heavy ammo use.
+Short range.
+
+**Who runs this.** Players who want a shotgun that turns into a firehose.
+
+---
+
+### The Sonic Shell
+**Coda Bassocyst. A slow, hard-hitting magnetic-electric shotgun with an echo detonation.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Single-target and small-crowd burst |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma, MR 17 |
+| Weapon reliance | Standalone |
+
+> Tenno. Bassocyst fires a heavy shell that leaves a sonic charge, then a follow
+> up shot detonates it. Magnetic-electric handles shields, overguard and mixed
+> crowds.
+
+**The build**
+
+- Primed Charged Shell, rank 10, Naramon polarity
+- Shotgun Elementalist, rank 5, Vazarin polarity
+- Primed Point Blank, rank 10, unpolarised
+- Magnetic Strafe, rank 3, unpolarised
+- Primed Ravage, rank 10, Madurai polarity
+- Critical Deceleration, rank 5, unpolarised
+- Galvanized Savvy, rank 10, Vazarin polarity
+- Galvanized Hell, rank 10, Madurai polarity
+- Galvanized Acceleration, rank 10, Madurai polarity
+- Arcane: Primary Deadhead
+
+Weapon figures land near 54% crit chance and 4.62x crit damage with a roughly
+2.65x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Primed Point Blank is unconditional damage; Galvanized Hell is
+multishot; Primed Ravage plus Critical Deceleration are crit; Galvanized Savvy
+scales with the statuses on the target. Primed Charged Shell plus Magnetic
+Strafe build magnetic-electric.
+
+**Where it struggles.** Very low fire rate. The detonation combo needs a second
+shot. High MR gate.
+
+**Who runs this.** Players who want a deliberate, heavy-hitting shotgun.
+
+---
+
+### The Air Burst
+**Coda Bubonico. A one-forma heat alt-fire spam build for aerial Uriel play.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Airborne crowd clear |
+| Difficulty | Beginner |
+| Investment | Low. 1 forma, MR 17 |
+| Weapon reliance | Standalone |
+
+> Tenno. Uriel rewards staying airborne. This Bubonico build spams the alt-fire
+> area burst with raw heat and Primary Merciless so you rain damage from above
+> without touching the primary trigger.
+
+**The build**
+
+- Shotgun Elementalist, rank 5, unpolarised
+- Scattering Inferno, rank 3, unpolarised
+- Blaze, rank 3, unpolarised
+- Primed Cleanse Orokin, rank 10, Madurai polarity
+- Galvanized Hell, rank 10, unpolarised
+- Primed Tactical Pump, rank 10, Naramon polarity
+- Primed Point Blank, rank 10, Madurai polarity
+- Incendiary Coat, rank 5, Naramon polarity
+- Galvanized Acceleration, rank 10, Madurai polarity
+- Arcane: Primary Merciless
+
+Weapon figures land near 27% crit chance and 2.3x crit damage with a roughly
+3.25x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Primed Point Blank is unconditional damage; Galvanized Hell is
+multishot; Blaze plus Incendiary Coat plus Scattering Inferno stack heat;
+Primed Tactical Pump speeds the reload for continuous alt-fire. Primary
+Merciless ramps damage on kills.
+
+**Where it struggles.** Alt-fire ammo drain. Heat only, so no viral multiplier.
+High MR gate.
+
+**Variants.** The Split Plague (#214) is the full hybrid Coda Bubonico; The
+Plague Primer (#232) is the base-Bubonico primer.
+
+**Who runs this.** Uriel players who fight from the air.
+
+---
