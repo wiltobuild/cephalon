@@ -7156,3 +7156,826 @@ grouping and strip, slow in Fused Crucible, boss-blind.
 grouped, stripped room into a chain reaction.
 
 ---
+
+### Lashing Venom
+**Saryn Prime. The strongest weapon buff in the game, Venom Dose plus Toxic Lash plus Roar on one gun.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Weapon platform with an enormous toxin buff |
+| Difficulty | Intermediate. The shield-gate rhythm |
+| Investment | Medium. 4 forma, emerald toxin shards |
+| Weapon reliance | Total. Saryn buffs and survives; the weapon does everything |
+
+> Tenno. Stack Venom Dose, Toxic Lash and a subsumed Roar and your weapon's toxin
+> status climbs into the thousands of percent. Roar and faction mods double-dip
+> Toxic Lash's damage and triple-dip its forced toxin status, and emerald shards
+> multiply it again. Molt shield-gates you on demand. Point a toxin weapon at the
+> room and it dissolves.
+
+**The build**
+
+- Precision Intensify, rank 5, unpolarised
+- Augur Secrets, rank 5, Naramon polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Equilibrium, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Venom Dose, rank 3, unpolarised — augment. Adds a toxin damage buff to weapons
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Toxic Flight, unpolarised
+- Arcanes: Arcane Sculptor, Molt Augmented
+
+Arsenal figures land at roughly 223% Strength, 254% Duration, 34% Range, 45%
+Efficiency, with 465 health, 370 shield, 315 armor and a 300 energy pool.
+
+**How it works.** Toxic Lash's damage is double-dipped by Roar and faction mods,
+and its forced toxin status is triple-dipped; two Tauforged Emerald toxin shards
+multiply the status ~1.9x on top. The author's worked example: a 100-base-damage
+weapon with two toxin mods, 350% Venom Dose, ~105% Roar and two toxin shards
+reaches roughly a 1550% raw damage buff and a 7700% toxin-status buff. Arcane
+Sculptor locks 175% Efficiency off Molt casts, so Blind Rage runs at 45% arsenal
+Efficiency with no Flow. *Confidence: Approximation, per the author's damage
+formulas.*
+
+**Playstyle.**
+
+1. Hold 1 (Venom Dose) and press 3 (Toxic Lash) to overbuff your weapon; keep both up.
+2. Keep the subsumed Roar up.
+3. Tap 2 (Molt) whenever shields break to fully reset the gate, and for the speed buff.
+4. Shoot.
+
+**Duration, Efficiency, Range, Strength.** High Duration for Venom Dose, Toxic
+Lash and Roar. Efficiency at 45% via Arcane Sculptor. Range does nothing here and
+is dumped to 34%. Strength scales all three buffs; Precision Intensify is a hair
+better than Umbral below ~300% for Roar triple-dipping Toxic Lash, and easier to
+slot.
+
+**The mods.** *Blind Rage, Precision Intensify* are the Strength, covered by
+*Arcane Sculptor*. *Narrow Minded, Primed Continuity* are the Duration, Range cost
+free. *Catalyzing Shields* locks the Molt gate. *Equilibrium* is energy. *Venom
+Dose* is the toxin buff. *Augur Secrets* adds Strength and a gate contribution.
+
+**Flexible slots.** Augur Secrets flexes for Duration or Strength if you run an
+Augur mod elsewhere. Without Arcane Sculptor, swap Blind Rage for Primed Flow. The
+aura and exilus are open.
+
+**Helminth.** Pick one. Subsume over Spores or Miasma.
+
+- **Roar** is the default: it double-dips Toxic Lash and triple-dips its status.
+- **Expedite Suffering** for Disruption, compressing the toxin procs into one multiplied instance (Saryn's passive extends the window 25%).
+
+**Archon Shards.** One Tauforged Amber cast-speed. Two to three Tauforged Emerald
+toxin-status damage (each additive third shard is a ~24% total-damage gain,
+better than a full strip in most cases). One Tauforged Emerald max-corrosive-stack
+for 13-stack 98% strip against armour. Five total.
+
+**Arcanes.** Arcane Sculptor for the Efficiency lock, Molt Augmented for Strength.
+Arcane Aegis for lazy survival as a swap.
+
+**Focus.** Any. Madurai for Strength on the buffs.
+
+**Weapon synergy.** Any toxin or toxin-convertible weapon: pure-viral or pure-toxin
+Torid, Ocucor (the comfiest, auto-aim and auto-reload), Acid Shells Sobek for a
+map-wide chain, Nightwatch Napalm Kuva Ogris for lingering fields, Vermisplicer
+with Combustion Beam.
+
+**Staying alive.** The Molt shield-gate loop plus Catalyzing Shields, or a passive
+Fast Deflection plus Vigilante Vigor plus Arcane Aegis setup. It fails in the gap
+if you cannot cast Molt, and to toxin.
+
+**Energy.** Arcane Sculptor plus Equilibrium. Molt on demand for the gate.
+
+**Where it struggles.** Entirely weapon-carried. Bosses need the weapon. The
+buff-and-gate juggling is constant.
+
+**Variants.** The Venomous Bloom build is the spore-nuke hybrid. Pure Expedite
+Suffering for Disruption.
+
+**Strengths and weaknesses.** Strong: the single largest weapon damage buff in the
+game, strong shield-gate survival, faction-flexible. Weak: does no damage itself,
+boss-blind, constant upkeep.
+
+**Who runs this.** Players who want to make one toxin weapon hit like a nuke and do
+not mind babysitting three buffs and a shield gate.
+
+---
+
+### The Undying
+**Inaros Prime. A 6000-health persistence tank with a Sandstorm strip-nuke and a percent-health execute.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Effectively immortal tank, grouping, armour strip, priming, trash nuke |
+| Difficulty | Beginner |
+| Investment | Extreme. 8 forma, two Umbral forma |
+| Weapon reliance | Medium. Sandstorm can nuke and prime; a weapon covers single targets |
+
+> Tenno. Inaros does not shield-gate; he just has 6000 health and Arcane
+> Persistence capping incoming damage at 500 a second. Sandstorm makes him
+> invulnerable while it spins, heals him per trapped enemy, and strips and primes
+> whatever it holds. Desiccation is a percent-health execute. Scarab Shell makes
+> him status-immune. Stand in the fire and let the sand do the work.
+
+**The build**
+
+- Blind Rage, rank 10, Madurai polarity
+- Elemental Sandstorm, rank 3, Zenurik polarity — augment. Sandstorm inherits your melee's elements and status
+- Umbral Fiber, rank 10, Umbral polarity
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Umbral Intensify, rank 10, Umbral polarity
+- Umbral Vitality, rank 10, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Stand United, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Bellicose, Arcane Persistence
+
+Arsenal figures land at roughly 291% Strength, 155% Duration, 100% Range, 45%
+Efficiency, with a 6762 health pool, 732 armor, no shields and a 541 energy pool.
+
+**How it works.** Arcane Persistence caps damage at 500/s above 700 armour, which
+Stand United plus the Umbral set (or two Tauforged armour shards) clears
+non-conditionally. With 6000+ health that is 8 to 16 seconds of standing still
+before dying, and Sandstorm heals 50/s per trapped enemy plus grants full
+invulnerability while it spins. Scarab Shell adds immunity to the magnetic, heat
+and corrosive statuses that break Persistence. *Confidence: Approximation, per the
+author.*
+
+**Playstyle.**
+
+1. Cast Sandstorm (2) on a crowd for invulnerability, healing, grouping, strip and priming.
+2. Cast Desiccation (1) as a percent-health execute and a blind.
+3. Keep Scarab Swarm (4) charged for the armour and status immunity.
+4. Weapon covers single targets.
+
+**Duration, Efficiency, Range, Strength.** Positive Duration for Sandstorm and
+Scarab Swarm. Efficiency dumped because Hunter Adrenaline floods energy from the
+hits you take (outside Sandstorm). Neutral Range for Sandstorm suction. Strength
+boosts Scarab Shell armour and Sandstorm's damage and status (double-dips the DoT).
+
+**The mods.** The *Umbral set plus Umbral Fiber* plus *Stand United* is the
+armour-and-health core for Persistence. *Blind Rage* is the Strength. *Hunter
+Adrenaline* is the energy engine. *Primed Flow* is the pool. *Elemental Sandstorm*
+makes Sandstorm a strip-primer-nuke.
+
+**Flexible slots.** Two Tauforged armour shards plus non-Umbral Strength mods if
+you cannot afford Umbral forma. The aura and exilus are otherwise open.
+
+**Helminth.** Pick one. Subsume over Devour (3).
+
+- **Roar** for Sandstorm and weapon damage.
+- **Nourish** for viral and energy.
+- A **grouping** ability if Sandstorm's suction is not enough.
+
+**Archon Shards.** For a weapon Inaros: two Crimson Duration, two violet weapon-
+damage, one Amber cast-speed. For pure Sandstorm DPS: two Emerald corrosive-stack
+plus three Tauforged Emerald corrosive-ability-damage. Two Tauforged armour if not
+running Umbral. Five total.
+
+**Arcanes.** Arcane Bellicose for 72% Strength (from the huge health), Arcane
+Persistence for the damage cap. Arcane Grace as a swap if health clears 8334 for
+self-sufficient regen.
+
+**Focus.** Any. Unairu for passive armour. Madurai for Strength.
+
+**Weapon synergy.** The melee's elements set Sandstorm's status weighting, so a
+pure-blast or electric-influence melee doubles as a Sandstorm statstick and a
+weapon. Primary Bulwark on a primary when Scarab Shell is charged. Coda Hema for
+headshot lifesteal to heal outside Sandstorm.
+
+**Staying alive.** Arcane Persistence plus the health pool plus Sandstorm
+invulnerability and healing plus Scarab Shell status immunity. It fails only to
+Violence and nullifiers.
+
+**Energy.** Hunter Adrenaline floods it. A non-issue.
+
+**Where it struggles.** 8 forma plus two Umbral forma is the heaviest investment
+here. The frame's damage is Sandstorm (trash only) or the weapon. Bosses.
+
+**Variants.** A pure Sandstorm DPS build. A weapon-platform build.
+
+**Strengths and weaknesses.** Strong: as close to unkillable as any frame, strong
+grouping, strip and priming, floods its own energy. Weak: extreme forma cost, weak
+own damage, boss-blind.
+
+**Who runs this.** Players who want the single most durable frame in the game and
+have the forma to build it properly.
+
+---
+
+### The Kindling
+**Ember Prime. A Fireball Frenzy heat weapon buff with Fire Blast overguard survival.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heat weapon buff platform, overguard survival, partial strip |
+| Difficulty | Beginner to intermediate |
+| Investment | Medium. 4 forma, Topaz secondary crit shards |
+| Weapon reliance | Total. Ember buffs and survives; the weapon does everything |
+
+> Tenno. Fireball Frenzy adds a big heat damage bonus to your weapon, and Ember's
+> passive gives 5% Strength per burning enemy, so lighting a room up with Inferno
+> pumps the next buff. Healing Flame grants overguard, which cleanses status,
+> blocks knockdown, and gives a 0.5s gate on break, so one cast is worth ~1.5s of
+> i-frames and a partial armour strip. Light the room, buff, shoot.
+
+**The build**
+
+- Healing Flame, rank 3, unpolarised — augment. Fire Blast heals and grants overguard
+- Fireball Frenzy, rank 3, unpolarised — augment. Fireball grants a heat weapon buff
+- Exothermic, rank 3, unpolarised — augment. Inferno kills make energy orbs
+- Umbral Intensify, rank 10, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Augur Reach, rank 5, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Firewalker, Madurai polarity
+- Arcanes: Arcane Hot Shot, Molt Augmented
+
+Arsenal figures land at roughly 144% Strength, 155% Duration, 130% Range, 100%
+Efficiency, with 370 health, 465 shield, 160 armor and a 641 energy pool.
+
+**How it works.** Fireball Frenzy's heat bonus scales with Strength, and Ember's
+passive adds 5% Strength per burning enemy (100% after Inferno hits 20), so you
+cast Inferno, then hold Fireball for a pumped buff. Healing Flame's overguard is
+worth ~1.5s of i-frames per Fire Blast (1s shield gate plus 0.5s overguard gate)
+and replaces Catalyzing Shields, Rolling Guard and Primed Sure Footed in one slot.
+*Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Cast Inferno (4) to light enemies on fire, proc the passive Strength, and boost energy-orb drops.
+2. Hold Fireball (1) for the heat buff once the room is burning.
+3. Spam Fire Blast (3) whenever overguard drops for i-frames and a partial strip.
+4. Shoot.
+
+**Duration, Efficiency, Range, Strength.** Duration for Fireball Frenzy and Nourish
+uptime. Neutral Efficiency with Exothermic or Equilibrium. Range for Fire Blast
+radius (overguard consistency). Strength for the heat buff, pumped by the passive.
+
+**The mods.** *Umbral Intensify* is the Strength. *Primed Continuity* holds
+Duration. *Augur Reach* is Range plus a gate contribution. *Primed Flow* is the
+pool. *Healing Flame* is the survival engine. *Fireball Frenzy* is the buff.
+*Exothermic* is the energy.
+
+**Flexible slots.** Catalyzing Shields is optional on top of Healing Flame for a
+guaranteed 1.33s gate. Augur Reach flexes to Stretch with an Augur mod elsewhere.
+The aura and exilus are open.
+
+**Helminth.** Pick one. Subsume over Immolation (2) for endurance.
+
+- **Nourish** for free viral plus energy, no frame vulnerability in Operator.
+- **Roar** for weapon and Inferno damage (frame-vulnerable in Operator).
+- **Sickening Pulse** to double Inferno's heat DoT.
+- **Breach Surge** for sparks off Inferno DoTs after a strip.
+
+**Archon Shards.** Two Amber cast-speed. Three Topaz secondary crit-chance (+75%
+crit on heat-status kills). Or parkour. Five total.
+
+**Arcanes.** Arcane Hot Shot for 300% weapon crit chance, Molt Augmented for
+Strength. Arcane Truculence (area viral on overguard gain) or Arcane Eruption (map
+knockdown off energy orbs) as fun swaps.
+
+**Focus.** Any. Madurai for Strength.
+
+**Weapon synergy.** Avoid heat-status weapons: heat inherit means casting Inferno
+or Fire Blast first strips your weapon's heat and faction mods from later procs.
+Use raw or non-heat weapons with decent crit: Torid Incarnon (corrosive-blast),
+Burston Incarnon (magnetic), Boar Incarnoff, Dual Toxocyst Incarnon, Laetum
+Incarnon.
+
+**Staying alive.** Healing Flame's overguard and shield gate plus heat crowd
+control. It fails if you cannot recast Fire Blast in time, and to toxin.
+
+**Energy.** Exothermic orbs plus Nourish if subsumed. Comfortable.
+
+**Where it struggles.** Inferno's own DPS does not scale. The heat-inherit rule
+limits your weapon choice. Bosses take the weapon.
+
+**Variants.** A Gloom "Slow Cooker" crowd-control build.
+
+**Strengths and weaknesses.** Strong: a large heat weapon buff, overguard survival
+in one slot, partial strip, good energy. Weak: weapon-carried, heat-weapon-
+incompatible, boss-blind.
+
+**Who runs this.** Players who want a simple weapon platform with a strong buff and
+a one-slot survival answer.
+
+---
+
+### Infinite Fists of Ore
+**Atlas Prime. Free Landslide spam and Ore Gaze looting on a rubble-armour tank.**
+
+| | |
+|--|--|
+| Content | Steel Path (to about level 500), Looting |
+| Role | Casual solo loot farm, punch clear, rubble tank |
+| Difficulty | Beginner |
+| Investment | Low. 1 forma |
+| Weapon reliance | Low. Landslide clears; a statstick shapes its damage |
+
+> Tenno. Path of Statues petrifies anything that walks where you slid, and Rubble
+> Heap makes Landslide free and stronger at max rubble, so you just punch
+> forever, keeping 1500 rubble armour up without ever casting Petrify. Ore Gaze
+> adds a ~60% bonus loot roll, matching Nekros. Punch your way to the drops.
+
+**The build**
+
+- Blind Rage, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Ore Gaze, rank 3, unpolarised — augment. Petrified enemies drop bonus loot
+- Overextended, rank 5, Vazarin polarity
+- Path of Statues, rank 3, unpolarised — augment. Petrifies enemies that cross your Landslide path
+- Rubble Heap, rank 3, unpolarised — augment. Free Landslide and more damage at max rubble
+- Archon Stretch, rank 10, Naramon polarity
+- Adaptation, rank 10, unpolarised
+- Aura: Steel Charge, Madurai polarity
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Blessing, Molt Augmented
+
+Arsenal figures land at roughly 139% Strength, 100% Duration, 250% Range, 45%
+Efficiency, with 650 health, 555 shield, 500 armor and a 755 energy pool.
+
+**How it works.** At max rubble (1400+), Landslide is free to cast and stronger,
+and Path of Statues petrifies enemies crossing your path, so you punch and gain
+rubble without casting Petrify. Ore Gaze's loot roll is ~63% at 250% Strength,
+exceeding Khora and Nekros. This is a solo, high-density build only; other players
+rerouting spawns break the rubble economy. *Confidence: Approximation, per the
+author.*
+
+**Playstyle.**
+
+1. Petrify (3) a group and kill them with Landslide or your weapon for rubble.
+2. Keep Nourish (2) up if subsumed.
+3. Above 1400 rubble, spam Landslide (1) into everything; enemies crossing your path petrify.
+4. Occasionally Petrify a fresh crowd for loot.
+
+**Duration, Efficiency, Range, Strength.** Positive Duration for a 20s+ Petrify.
+Minimum Efficiency because Ore Gaze drops energy orbs, Landslide is free at max
+rubble, and Path of Statues replaces Petrify casts. Range for Landslide's AoE and
+Petrify's cone. Strength for Landslide damage and Ore Gaze's loot chance.
+
+**The mods.** *Blind Rage* is the Strength. *Overextended* is the Range. *Primed
+Flow* is the pool. *Rubble Heap, Path of Statues, Ore Gaze* are the three augments
+that make it a self-sustaining loot loop. *Adaptation* plus rubble armour is the
+tank. *Archon Stretch* is Range plus passive energy.
+
+**Flexible slots.** Path of Statues and Ore Gaze drop for a non-looting or
+non-survival build. Adaptation and Archon Flow for more tank or energy. The aura
+and exilus are open.
+
+**Helminth.** Pick one. Subsume over Tectonics (2).
+
+- **Nourish** for viral Landslide plus an energy multiplier.
+- **Roar** for damage and DoT double-dip.
+- **Wrathful Advance** for forced red crits on Landslide.
+- **Pillage** or **Resonator** for shields or crowd control in endurance.
+
+**Archon Shards.** Two Amber cast-speed for Petrify and Rumbler. Three Tauforged
+Violet melee crit-damage for a crit statstick. Five total.
+
+**Arcanes.** Arcane Blessing for health, Molt Augmented for Strength and loot
+chance. Arcane Avenger for flat crit on Landslide's low base.
+
+**Focus.** Madurai plus a Nidus specter to push Ore Gaze to 100%. Any works.
+
+**Weapon synergy.** A statstick shapes Landslide (electric influence, gas
+afflictions). A Helios with Deconstructor and Vicious Bond spreads a 15% armour
+strip through Landslide's 9m.
+
+**Staying alive.** Rubble armour (1500) plus Adaptation, healed by Arcane Blessing
+and rubble pickups. It falls off past about level 500; use the endurance variant
+with shield gating there.
+
+**Energy.** Ore Gaze orbs plus Nourish. Minimum Efficiency is fine.
+
+**Where it struggles.** Only works solo on dense maps. Falls off past level 500.
+Bosses. Low-density content starves the rubble loop.
+
+**Variants.** An endurance shield-gate variant. A quick-mission variant. A
+non-Landslide Ore Gaze loot variant.
+
+**Strengths and weaknesses.** Strong: a self-sustaining free-Landslide loop, a
+top-tier loot multiplier, tanky and cheap. Weak: solo-and-density-locked, level-
+capped around 500, boss-blind.
+
+**Who runs this.** Solo farmers who want to punch a dense survival tile for an hour
+and come out loaded.
+
+---
+
+### Ghost Recon
+**Cyte-09. A through-wall weakpoint highlighter and a Neutralizer exalted sniper, from permanent stealth.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Weapon platform |
+| Role | Exalted-sniper DPS, weakpoint marksman, invisible survivor |
+| Difficulty | Intermediate |
+| Investment | Medium to high. 5 forma, violet electric shards |
+| Weapon reliance | Low. The Neutralizer exalted is the damage; your own weapon is optional |
+
+> Tenno. Cyte marks weakpoints through walls and boosts weakpoint damage. Resupply
+> reloads your gun with a chosen element and forces that status like Saryn's Toxic
+> Lash. Evade keeps you invisible as long as you land the occasional headshot.
+> Neutralizer is an exalted sniper whose weakpoint shots ricochet. Highlight,
+> shoot the glowing spots, delete.
+
+**The build**
+
+- Augur Message, rank 5, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Rolling Guard, rank 10, Vazarin polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Augur Reach, rank 5, unpolarised
+- Umbral Intensify, rank 10, unpolarised
+- Constitution, rank 3, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Sculptor, Arcane Crepuscular
+
+Arsenal figures land at roughly 243% Strength, 207% Duration, 175% Range, 45%
+Efficiency, with 325 health, 235 shield, 150 armor and a 230 energy pool.
+
+**How it works.** Arcane Sculptor triggers off Seek and Resupply and locks 175%
+Efficiency; entering Neutralizer during that window snapshots every subsequent shot
+to 175% Efficiency permanently, so bullets cost ~2.5 energy. Archon Stretch off an
+electric Resupply gives 2 energy/s, covering the rest. Strength triple-dips
+Neutralizer DPS (the weakpoint multiplier from 1, the buff from 2, the multiplier
+of 4). *Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Tap 1 (Seek) to highlight weakpoints through walls and boost weakpoint damage.
+2. Hold 2, pick Electric, tap 2 to reload with Electric Resupply.
+3. Tap 3 (Evade) for invisibility; weakpoint kills prolong it.
+4. Tap 4 (Neutralizer) and shoot the glowing spots; alt-fire lobs cold grenades.
+
+**Duration, Efficiency, Range, Strength.** High Duration (150 to 200%+) so Evade
+survives dry spells. Efficiency locked by Arcane Sculptor. Range tuned to tileset
+for ricochet and Seek punch-through (70 to 100 in corridors, 145 to 280 in the
+open). Strength is pushed as high as comfortable.
+
+**The mods.** *Blind Rage, Umbral Intensify* are the Strength, covered by *Arcane
+Sculptor*. *Primed Continuity, Constitution* are the Duration for Evade. *Augur
+Message, Augur Reach* are Range and gate contributions. *Archon Stretch* is Range
+plus passive energy off electric Resupply. *Rolling Guard* is status cleanse.
+
+**Flexible slots.** Rolling Guard flexes for more Strength or Duration. Energy
+Nexus if energy still feels tight. The aura and exilus are open (Primed Sure
+Footed).
+
+**Helminth.** Cyte's kit is self-sufficient; a subsume is optional. Roar cannot
+run alongside Resupply solo. Silence or a grouping ability are reasonable.
+
+**Archon Shards.** Two to four Violet primary electric-damage (double-dips the
+electric DoT). One optional Amber cast-speed. Two parkour. Five total.
+
+**Arcanes.** Arcane Sculptor for the Efficiency snapshot (mandatory), Arcane
+Crepuscular for Strength and flat crit damage while invisible. Molt Augmented as a
+swap.
+
+**Focus.** Any. Madurai for Strength.
+
+**Resupply element.** Electric is the best general pick: instant proc, small AoE,
+triggers Archon Stretch, boosted by Primed Convulsion and violet shards, good vs
+Murmur. Gas for camping KPM, Blast for mobile headshot clear, Toxin vs Corpus,
+Heat for single-target with Archon Vitality.
+
+**Weapon synergy.** Neutralizer builds: raw-damage one-shot for Thrax, Electric DoT
+for trash, Gas DoT for camping. Other snipers gain the Resupply bonus. Scourge
+plus a headshot pistol for a non-exalted option.
+
+**Staying alive.** Evade invisibility plus Rolling Guard for the status procs that
+tag you through it. It fails if you cannot land headshots to sustain Evade, and to
+enemies that ignore stealth.
+
+**Energy.** The Arcane Sculptor snapshot plus Archon Stretch. A non-issue once set.
+
+**Where it struggles.** It is a marksman platform: poor aim means poor damage.
+Bosses want the raw Neutralizer build. Open tiles need a Range rebuild.
+
+**Variants.** Neutralizer raw one-shot, Electric DoT, Gas DoT. Scourge plus pistol.
+
+**Strengths and weaknesses.** Strong: strong scaling exalted DPS, through-wall
+weakpoint marking, permanent stealth, near-free bullets. Weak: aim-dependent,
+tileset-sensitive Range, boss setup differs.
+
+**Who runs this.** Marksmen who want an exalted sniper that highlights every
+weakpoint and never runs out of ammo or invisibility.
+
+---
+
+### The Holy Ghost
+**Harrow Prime. Permanent Evade invisibility and a flat headshot crit buff, with almost no casting.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Comfortable invisible crit-DPS carrier |
+| Difficulty | Beginner |
+| Investment | Medium. 4 forma |
+| Weapon reliance | Total. Harrow buffs and hides; the weapon does everything |
+
+> Tenno. This is the lazy Harrow. Evade keeps you invisible almost forever off a
+> few headshots. Lasting Covenant gives a permanent 200% flat crit chance on
+> headshots. Penance buffs fire rate and reload. You cast almost nothing except
+> the occasional Condemn to line up heads. Get headshots, profit.
+
+**The build**
+
+- Blind Rage, rank 10, Madurai polarity
+- Lasting Covenant, rank 3, unpolarised — augment. Covenant's crit buff becomes permanent, no i-frames
+- Stretch, rank 5, unpolarised
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Rolling Guard, rank 10, Vazarin polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Crepuscular, Arcane Precision
+
+Arsenal figures land at roughly 199% Strength, 254% Duration, 79% Range, 45%
+Efficiency, with 370 health, 740 shield, 185 armor and a 541 energy pool.
+
+**How it works.** Evade (subsumed over Thurible) gives invisibility that prolongs
+off headshots, effectively permanent at this Duration off a headshot every ~50s.
+Lasting Covenant makes Covenant's crit buff permanent (200% flat on headshots) at
+the cost of its i-frames. Penance adds fire rate and reload. Beyond that you only
+cast Condemn to lock enemies for easy heads. *Confidence: Approximation, per the
+author.*
+
+**Playstyle.**
+
+1. Cast Covenant (4) twice for max duration of the crit buff (press 1 for shield, 2 to spend it).
+2. Cast Evade (3) for invisibility.
+3. Get headshots.
+4. Occasional Condemn to lock a group.
+
+**Duration, Efficiency, Range, Strength.** Very high Duration for Evade and the
+crit buff. Efficiency dumped with Primed Flow and Equilibrium. Range is low (only
+Condemn uses it). Strength for Penance and Covenant.
+
+**The mods.** *Blind Rage* is the Strength. *Narrow Minded, Primed Continuity* are
+the Duration, Range cost free. *Primed Flow, Equilibrium* are the energy base.
+*Lasting Covenant* is the permanent crit buff. *Rolling Guard* is status cleanse
+for the procs that tag you through invisibility. *Stretch* is a little Condemn
+range.
+
+**Flexible slots.** Archon Stretch over Stretch with an electric companion for
+passive energy. Constitution over Archon Stretch if you never use Condemn. Worthy
+Comradery aura over Corrosive Projection for +75% headshot crit.
+
+**Helminth.** Evade over Thurible is the build. No other subsume is needed.
+
+**Archon Shards.** Three to four Duration. One or two optional corrosive-stack for
+a strip. Keep one cast-speed if you like. Five total.
+
+**Arcanes.** Arcane Crepuscular for Strength and flat crit damage while invisible,
+Arcane Precision for pistol damage. Arcane Pistoleer for a non-Incarnon pistol.
+
+**Focus.** Any. Vazarin as a backup for when Evade lapses.
+
+**Weapon synergy.** Headshot-attractor or headshot-payoff weapons: Scourge, Dual
+Toxocyst, Knell Prime, Sicarus Prime Incarnon. Vadarya Prime can self-sustain
+Evade.
+
+**Staying alive.** Permanent Evade invisibility plus Rolling Guard for status. It
+fails to AoE and environmental procs that ignore stealth, and to a nullifier
+stripping Evade.
+
+**Energy.** Primed Flow plus Equilibrium; you barely cast.
+
+**Where it struggles.** Entirely weapon-carried. Bosses take the weapon. It does
+nothing for the squad (unlike Preacher of Pain).
+
+**Variants.** The Preacher of Pain build is the full-kit team-support Harrow.
+
+**Strengths and weaknesses.** Strong: permanent invisibility, a large permanent
+crit buff, near-zero casting, very comfortable. Weak: selfish, weapon-carried,
+boss-blind.
+
+**Who runs this.** Players who want the most low-effort possible invisible
+crit-carry and do not need Harrow's team energy.
+
+---
+
+### Siege Tank
+**Protea Prime. A semi-AFK Blaze Artillery heat nuke stacked with the Mecha set and Roar.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Camp turret nuke, near-AFK with an invisibility pet |
+| Difficulty | Intermediate. The Temporal Anchor timer-lock and camp setup |
+| Investment | Low. 2 forma, duration shards, a Huras Kubrow |
+| Weapon reliance | Very low. Blaze Artillery turrets do everything |
+
+> Tenno. Set up a camp: a spot where enemies funnel in and a separate spot for
+> your Dispensary. Snapshot a big Roar with Protea's fourth-cast passive, then
+> enter Temporal Anchor and lock its timer with 2. Drop three Blaze Artillery
+> turrets every ten seconds. They strip and nuke through Temporal Erosion, the
+> Mecha set spreads the kills, and Huras keeps you invisible. You barely move.
+
+**The build**
+
+- Equilibrium, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Overextended, rank 5, unpolarised
+- Temporal Artillery, rank 3, unpolarised — augment. Blaze Artillery deals more damage
+- Primed Flow, rank 10, Naramon polarity
+- Archon Vitality, rank 0, unpolarised — doubles Blaze Artillery heat procs
+- Temporal Erosion, rank 3, unpolarised — augment. Damage during Temporal Anchor strips armour
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Mecha Empowered, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Concentration, Arcane Sculptor
+
+Arsenal figures land at roughly 139% Strength, 199% Duration, 124% Range, 45%
+Efficiency, with about 404 health, 555 shield, 185 armor and a 712 energy pool.
+
+**How it works.** This is the camp-focused sibling of The Blazing Lotus. Casting 2
+during Temporal Anchor locks its timer despite the UI ticking down, so the Anchor
+runs indefinitely while its armour-strip and no-decay bank stay active. Roar
+subsumed over 3, snapshotted at ~299% Strength via the fourth-cast passive,
+double-dips Blaze Artillery's heat DoT for ~3.6x. The Mecha set spreads a marked
+kill's statuses to a 20m+ radius. *Confidence: Approximation, per the author's heat
+calculations.*
+
+**Playstyle (camping).**
+
+1. Pick a DPS spot with one enemy entrance and a Dispensary spot at least 15m away.
+2. Trigger the 100% Strength passive with three casts of 2, then cast Roar for a ~299% Strength Roar.
+3. Trigger the passive again, grab Dispensary orbs to top energy, then cast Temporal Anchor.
+4. Do not move. Recast three turrets every 8 to 10 seconds. Huras keeps you invisible while you do not shoot.
+
+**Duration, Efficiency, Range, Strength.** Duration scales Blaze Artillery's
+cumulative damage and gives long Dispensary, Shrapnel Vortex and Temporal Anchor.
+Efficiency solved by Arcane Sculptor. Slightly positive Range for ~40m Blaze
+Artillery reach. Strength for turret damage, Dispensary drops and the strip rate.
+
+**The mods.** *Blind Rage* is the Strength, covered by *Arcane Sculptor*.
+*Narrow Minded* is the Duration. *Overextended* is the Range. *Primed Flow,
+Equilibrium* are the energy base. *Temporal Erosion* is the strip, *Temporal
+Artillery* the turret damage, *Rank 0 Archon Vitality* the heat-proc doubler.
+*Mecha Empowered* aura is the set effect.
+
+**Flexible slots.** The new Blaze Artillery augment (one turret follows you at 20x
+during Temporal Anchor) fits the empty slot for a mobile version. Mecha Pulse over
+Primed Continuity for the full set. Growing Power or Corrosive Projection aura if
+you skip the Mecha set.
+
+**Helminth.** **Roar** over 3 (or over 1 if you run Huras for invisibility) is the
+build: it double-dips Blaze Artillery's heat DoT for ~3.6x and buffs the squad.
+
+**Archon Shards.** One to two Amber cast-speed. Three to four Tauforged Crimson
+Duration for turret ramp. Five total.
+
+**Arcanes.** Arcane Sculptor for the Efficiency lock, Arcane Concentration for
+Duration. Molt Augmented or Arcane Steadfast as swaps.
+
+**Focus.** Vazarin Sling for i-frames. Madurai for Strength and cast speed.
+
+**Weapon synergy.** A heat-inherit primer multiplies Blaze Artillery's heat procs,
+but its range makes manual priming impractical; a Shade or Huras with Tazicor or
+Helstrum primes heat passively instead. Zenistar gives passive heat priming plus
+melee-vortex grouping.
+
+**Staying alive.** Temporal Anchor's 3s i-frames plus status cleanse plus Huras
+invisibility, backed by shield gating off 1. It fails if you shoot and break
+invisibility with the gate down, and to toxin.
+
+**Energy.** Arcane Sculptor plus Equilibrium plus a Synth Deconstruct pet.
+
+**Where it struggles.** It is a camp build; it does little while moving. Line-of-
+sight tiles. Bosses. Fully armoured targets without a strip eat dozens of casts.
+
+**Variants.** The Blazing Lotus is the active, mobile Temporal Anchor build.
+
+**Strengths and weaknesses.** Strong: near-AFK room clear, a strip built into the
+nuke, strong heat scaling, invisible. Weak: camp-only, boss-blind, tile-dependent,
+needs a Kubrow.
+
+**Who runs this.** Players who want to set up in one spot and let turrets clear an
+endurance survival while they barely touch the controls.
+
+---
+
+### Mecha Anvil
+**Lavos. A leaner Mecha-set Gas-and-Heat Catalyze nuke on a straightforward armour tank.**
+
+| | |
+|--|--|
+| Content | Steel Path, Level cap |
+| Role | Status-spread nuke, high-armour tank |
+| Difficulty | Advanced. The element-infusion rotation |
+| Investment | Medium. 3 forma, a Mecha-set Kubrow |
+| Weapon reliance | Low to medium. Catalyze nukes; a primer stacks the elements |
+
+> Tenno. This is the base-Lavos version of the Full Mecha Alchemist: fewer forma,
+> a plain Adaptation-and-Guardian armour tank instead of Arcane Persistence, but
+> the same Catalyze plan. Infuse Gas, prime with elements, and the 2^status
+> multiplier plus the Mecha set does the rest. Lavos has no energy, only
+> cooldowns, so Swift Bite and Transmutation Probe are how you cast again.
+
+**The build**
+
+- Lingering Transmutation, rank 3, unpolarised — augment. Transmutation Probe lasts longer
+- Valence Formation, rank 3, unpolarised — augment. +200% element bonus (weapons; DoT interaction is bugged)
+- Adaptation, rank 10, Vazarin polarity
+- Mecha Pulse, rank 3, unpolarised
+- Stretch, rank 5, unpolarised
+- Precision Intensify, rank 5, Madurai polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Archon Vitality, rank 10, Vazarin polarity — doubles Catalyze heat procs
+- Aura: Mecha Empowered, Naramon polarity
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Impetus, Arcane Guardian
+
+Arsenal figures land at roughly 100% Strength, 155% Duration, 160% Range, 100%
+Efficiency, with a 1480 health pool, 370 shield, 675 armor and no energy bar.
+
+**How it works.** Identical Catalyze scaling to the Full Mecha Alchemist: 2^(number
+of distinct statuses), Gas infusion for lingering procs, Archon Continuity for
+corrosive off Ophidian Bite, and the Mecha set's Empowered mark (6.25x DoT) plus
+its kill-spread. The difference is the tank: Adaptation plus Mecha Pulse armour
+(up to ~5850, ~99.5% DR with Adaptation) plus Arcane Guardian and Ophidian Bite
+healing, for ~600k effective HP to around level 500, instead of Arcane Persistence.
+Note Valence Formation's DoT interaction is currently bugged, so drop it for a pure
+Catalyze build. *Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Group enemies (Magus Anomaly, Ensnare, Nautilus Cordon).
+2. Shoot a primer for statuses, infuse Gas (hold 1 and 4) or Heat (hold 4), then cast Catalyze (4).
+3. Infuse Corrosive (hold 1 and 3) into casts of 1, 2 and 3 for the strip.
+4. Tap 3 then tap 1 into the group to slash the cooldowns of 4 and 3.
+5. Tap 2 (Vial Rush) through the group for corrosive pools.
+
+**Duration, Efficiency, Range, Strength.** Duration extends every status's DoT
+(~9s at 155%). Efficiency matters only for how much Swift Bite and Transmutation
+Probe cut cooldowns; ~100% is the sweet spot. Range for all abilities. Strength as
+high as the other stats allow (Precision Intensify).
+
+**The mods.** *Precision Intensify* is the Strength. *Stretch* is the Range.
+*Archon Continuity* is Duration plus the corrosive conversion. *Archon Vitality*
+doubles Catalyze heat procs. *Adaptation, Mecha Pulse* plus the *Mecha Empowered*
+aura are the tank and the set. *Lingering Transmutation* extends the cooldown-
+reduction window.
+
+**Flexible slots.** Drop Valence Formation for a pure Catalyze build. Fast
+Deflection plus Vigilante Vigor plus Catalyzing Shields for a passive-gate version.
+The exilus is open (Coaction Drift double-dips Mecha Empowered).
+
+**Helminth.** Pick one. Subsume over Vial Rush.
+
+- **Ensnare** or another grouping ability for Gas overlap and cooldown reduction.
+- **Sickening Pulse** for the 10x Gas and electric multiplier on tight maps.
+- **Roar** for a passive DoT multiplier.
+- **Expedite Suffering** for Disruption. **Pillage** for shield gating.
+
+**Archon Shards.** One to two Amber cast-speed. Three to four Crimson Duration for
+Gas proc length. One optional Tauforged Emerald corrosive-stack for a 98% strip.
+Note Archon Stretch and Archon Flow do nothing (no energy). Five total.
+
+**Arcanes.** Arcane Impetus for 60% Strength and 30% Efficiency from Lavos's ten
+elements, Arcane Guardian for the tank armour. Molt Augmented or Arcane Ice Storm
+as swaps.
+
+**Focus.** Any. Madurai for cast speed on the infusion casts.
+
+**Weapon synergy.** An area primer that procs many statuses (Cedo alt-fire,
+Bubonico, Kuva Ogris, Grimoire), or a heat-inherit secondary for Catalyze's heat
+procs. Telos Boltace or Dual Ichor for a melee-vortex or influence loadout.
+
+**Staying alive.** The armour tank plus Ophidian Bite healing plus Arcane Guardian.
+It falls off past about level 500; use the Full Mecha Alchemist's Arcane
+Persistence build for higher. It fails to Violence, nullifiers, and heat or
+corrosive stripping armour.
+
+**Energy.** There is none. Cooldowns, shortened by Swift Bite and Transmutation
+Probe.
+
+**Where it struggles.** The element-infusion rotation is the same steep learning
+curve. The tank has a level-500 ceiling. Overguard resists percent-HP effects.
+Bosses.
+
+**Variants.** The Full Mecha Alchemist (Lavos Prime) build is the endurance version
+with Arcane Persistence.
+
+**Strengths and weaknesses.** Strong: the same huge status-nuke ceiling for fewer
+forma, no energy to manage, tanky to level 500. Weak: tank ceiling, complex
+rotation, overguard-awkward, needs a Kubrow.
+
+**Who runs this.** Players who want the Mecha Alchemist nuke on a cheaper, simpler
+tank chassis for sub-endurance content.
+
+---
