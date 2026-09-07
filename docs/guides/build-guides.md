@@ -9906,3 +9906,1233 @@ simple. Weak: zero damage, fragile, only shines in a coordinated squad.
 theoretical maximum.
 
 ---
+
+### Maim Equinox
+**Equinox Prime. A pure Day-form Maim nuke with a Terrify full strip.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Bank-and-release map nuke, armour strip, shield-gate survivor |
+| Difficulty | Intermediate. Knowing when to release Maim |
+| Investment | Medium. 4 forma, cast-speed and strength shards |
+| Weapon reliance | High. Your weapon banks the Maim charge |
+
+> Tenno. This is the Day-only Maim build. Bank 75% of the health enemies lose into
+> Maim with an area weapon, then cast Terrify and flip Maim off-and-on to strip
+> and release a 50m nuke. Terrify also stops the room shooting you.
+
+**The build**
+
+- Rolling Guard, rank 10, unpolarised
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Augur Reach, rank 5, unpolarised
+- Fleeting Expertise, rank 5, Naramon polarity
+- Stretch, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Overextended, rank 5, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Aegis, Molt Augmented
+
+Arsenal figures land at roughly 40% Strength, 40% Duration, 280% Range, 160%
+Efficiency, with 465 health, 370 shield, 160 armor and a 712 energy pool.
+
+**How it works.** Maim banks 75% of health and shields lost (not the damage
+number), with linear falloff to 0 at 50m (about 21% at 40m), and Strength does not
+change the bank or the release. So Strength is dumped and Range maxed. Terrify
+full-strips at 167% Strength (137% with Corrosive Projection), reached after 250
+kills with Molt Augmented plus one strength shard plus Pacify and Provoke's
+Strength buff. *Confidence: Approximation, per the author's Maim figures.*
+
+**Playstyle.** Set a bright emissive for Day.
+
+1. Activate Maim (4), kill with a weapon to bank damage.
+2. When banked (rough level benchmarks: ~3M at level 150, ~7M at 500, ~52M at 9999 to kill at 40m), cast Terrify (1), then flip Maim off and immediately back on.
+3. Keep 3 up after 250 kills for the single-cast strip.
+
+**The mods.** *Fleeting Expertise* is the Efficiency toward the channel-drain floor
+(190% with Seismic Bond). *Overextended, Stretch, Augur Reach* set the maxed
+Range, with Augur Reach feeding the gate. *Catalyzing Shields* locks the gate.
+*Equilibrium* is energy. *Corrosive Projection* lowers the strip threshold.
+
+**Helminth.** Pick one. Subsume over Pacify and Provoke's counterpart.
+
+- **Terrify** is the standout: ~42m radius, ignores line of sight (like Maim), full-strips and crowd-controls.
+- **Pillage** for a 2.5s shield gate plus status cleanse. **Fireblast** as a weaker option.
+
+**Archon Shards.** Two Tauforged cast-speed. One Tauforged strength for the strip.
+Two parkour. Five total.
+
+**Arcanes.** Arcane Aegis for backup survival, Molt Augmented for the strip
+threshold.
+
+**Weapon synergy.** Strong area weapons that strip health fast: slam melees
+(Magistar, Arca Titron), Incarnon primaries, influence melees.
+
+**Staying alive.** Shield gating off Terrify and Maim casts plus Terrify's crowd
+control plus Rolling Guard. It fails if you cannot cast to gate, and to a hit that
+lands with the gate down.
+
+**Where it struggles.** Maim's falloff means you must over-bank to kill at range.
+Armoured targets without the strip. Bosses.
+
+**Variants.** Day and Night (#028) is the sleep-and-switch build; Longest Day and
+Eternal Night (#087) is the Gloom time-freeze build.
+
+**Strengths and weaknesses.** Strong: a 50m line-of-sight-ignoring nuke, a
+full strip, crowd control. Weak: banking delay, falloff, boss-blind.
+
+**Who runs this.** Players who want a straightforward Day-form Maim nuke without
+form-switching.
+
+---
+
+### The Thunderous Blade
+**Excalibur. An electric-influence Exalted Blade and Slash Dash nuke, behind passive shield gating.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Exalted-melee influence clear, comfort passive-gate survival |
+| Difficulty | Beginner to intermediate |
+| Investment | Medium. 3 forma, melee crit-damage shards |
+| Weapon reliance | Low. Exalted Blade and Slash Dash carry |
+
+> Tenno. Since the rework, Exalted Blade takes acolyte mods and the Melee
+> Influence arcane, and Slash Dash uses its stats too. Chromatic Blade makes the
+> blade electric and gives it huge status chance, so influence procs chain through
+> a room. Catalyzing Shields plus Fast Deflection plus Vigilante Vigor plus Arcane
+> Aegis passively re-gates you so you never watch your shields. Radial Blind for
+> the gaps.
+
+**The build**
+
+- Streamline, rank 5, unpolarised
+- Chromatic Blade, rank 3, unpolarised — augment. Exalted Blade gains status chance and becomes electric
+- Primed Flow, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Fast Deflection, rank 5, unpolarised
+- Vigilante Vigor, rank 5, unpolarised
+- Precision Intensify, rank 5, Madurai polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Preparation, unpolarised
+- Arcanes: Molt Augmented, Arcane Aegis
+
+Arsenal figures land at roughly 100% Strength, 100% Duration, 100% Range, 130%
+Efficiency, with 370 health, 370 shield, 240 armor and a 427 energy pool.
+
+**How it works.** Chromatic Blade (mandatory, blue emissive) turns Exalted Blade
+electric with high status for Melee Influence. Strength double-dips influence DPS
+(Chromatic Blade's status chance and Exalted Blade's base damage), so add Blind
+Rage or Transient Fortitude if you want more. The passive-gate stack means any
+shield regenerated gives the full 1.33s gate, and the recharge delay is ~1s, so
+you re-gate as long as you avoid one second of hits. *Confidence: Approximation,
+and the Catalyzing Shields interaction is a bug.*
+
+**Playstyle.** Enter Exalted Blade, spam light attacks and Slash Dash; cast Radial
+Blind for the vulnerable moments. Press 1 (Slash Dash) for invulnerability while
+dashing.
+
+**The mods.** *Precision Intensify* is the Strength. *Streamline* cuts the Exalted
+Blade channel cost. *Fast Deflection, Vigilante Vigor, Catalyzing Shields* are the
+passive-gate package. *Chromatic Blade* is the influence enabler. *Primed Flow,
+Equilibrium* are the energy base. *Corrosive Projection* is a damage lift.
+
+**Helminth.** Pick one. Subsume over 2 or 3.
+
+- **Roar** for the highest influence DPS (double-dips single-target status, triple-dips spread procs).
+- **Wrathful Advance** for flat crit on Slash Dash's raw single-target hit.
+- **Nourish** for energy plus free viral.
+
+**Archon Shards.** One cast-speed. One Tauforged energy-max (base Excalibur only).
+Three Tauforged Violet melee crit-damage. Five total.
+
+**Arcanes.** Molt Augmented for Strength, Arcane Aegis for the passive-gate
+immortality. Arcane Fury or Strike as swaps.
+
+**Focus.** Naramon for combo. Madurai for Strength.
+
+**Weapon synergy.** A Diriga or Hound to prime Condition Overload and feed
+Equilibrium.
+
+**Staying alive.** The passive gate plus Slash Dash invulnerability plus Radial
+Blind. A Grimoire with Fass Canticle makes you fully immortal for 15s per proc. It
+fails to toxin.
+
+**Where it struggles.** Weapon-light for bosses. Ranged targets need a Slash Dash
+in.
+
+**Variants.** An active-gating variant frees slots for better stats.
+
+**Strengths and weaknesses.** Strong: strong exalted influence clear, effortless
+survival, cheap. Weak: boss-slow, melee range.
+
+**Who runs this.** Players who want a comfortable exalted-blade Excalibur that
+clears rooms and never checks its shields.
+
+---
+
+### Infinite Energy Vortex
+**Vauban Prime. Map-locking vortices sustained forever by Spectrosiphon energy orbs.**
+
+| | |
+|--|--|
+| Content | Steel Path, Interception, Defense |
+| Role | Objective lockdown, squad energy supply |
+| Difficulty | Beginner |
+| Investment | Low. 2 forma |
+| Weapon reliance | Total. Vauban locks the map; the squad kills |
+
+> Tenno. Drop vortices on every capture point, extend them forever with Repelling
+> Bastille, and never run out of energy because Spectrosiphon carpets the floor in
+> energy orbs for you and the squad. Interception and Defense become trivial.
+
+**The build**
+
+- Spectrosiphon, rank 3, unpolarised — augment. Spectrorage drops energy orbs
+- Overextended, rank 5, Vazarin polarity
+- Stretch, rank 5, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Enduring Bastille, rank 3, unpolarised — augment. Kills in Bastille extend its duration
+- Augur Reach, rank 5, unpolarised
+- Rolling Guard, rank 10, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Energize (rank 3), Molt Efficiency
+
+Arsenal figures land at roughly 40% Strength, 155% Duration, 280% Range, 100%
+Efficiency, with 370 health, 370 shield, 210 armor and a 641 energy pool.
+
+**How it works.** Repelling Bastille extends each vortex's duration, effectively
+indefinitely while you have energy, and Spectrosiphon makes energy effectively
+infinite. Survival is Brief Respite and Rolling Guard plus the vortex crowd
+control. Strength is dumped; nothing here needs it.
+
+**Playstyle.** Cast a vortex on each objective, keep Bastilles up to extend them,
+drop Spectrorage for the orb supply, and hold position.
+
+**Helminth.** Subsume over 1 or 3. Spectrorage with Spectrosiphon is the energy
+engine; keep it or subsume a grouping ability over the other slot.
+
+**Archon Shards.** Cast-speed and duration to taste. Five total.
+
+**Staying alive.** Brief Respite gating plus Rolling Guard plus total vortex crowd
+control. Very safe.
+
+**Where it struggles.** It does no damage. Overguarded enemies ignore the vortex
+pull less cleanly. Mobile missions.
+
+**Variants.** The Galactic Immunisation Program (#037) is the scaling-DPS Vauban.
+
+**Strengths and weaknesses.** Strong: trivialises objective defense, infinite
+squad energy, safe, cheap. Weak: zero damage, camp-only.
+
+**Who runs this.** Players who want to lock down an Interception or Defense and
+keep the squad's energy full.
+
+---
+
+### Antimatter Annihilation
+**Nova Prime. A pure ability build: Neutron Star heat and Antimatter Drop, Mecha-boosted.**
+
+| | |
+|--|--|
+| Content | Steel Path (to about level 500) |
+| Role | Ability-only trash nuke |
+| Difficulty | Beginner |
+| Investment | High. 5 forma, a Mecha-set Kubrow |
+| Weapon reliance | Very low |
+
+> Tenno. This Nova kills with abilities: Neutron Star's heat procs (doubled by
+> Archon Vitality, spread by the Mecha set) and Antimatter Drop, which absorbs
+> 25,000 and pays out 200,000. It falls off past about level 500.
+
+**The build**
+
+- Neutron Star, rank 3, Zenurik polarity — augment
+- Overextended, rank 5, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Molecular Fission, rank 3, unpolarised — augment
+- Mecha Pulse, rank 3, unpolarised
+- Archon Vitality, rank 10, Vazarin polarity — doubles Neutron Star heat procs
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Mecha Empowered, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Molt Augmented, Arcane Arachne
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 190% Range, 45%
+Efficiency, with 740 health, 370 shield, 135 armor and a 755 energy pool.
+
+**How it works.** Neutron Star applies forced heat in an area, doubled by Archon
+Vitality; the Mecha set's Empowered mark multiplies the DoT 6.25x and its kill-
+spread carries it to a 30m radius. Antimatter Drop absorbs weapon damage (cap
+25,000) and releases up to 200,000 radiation. *Confidence: Approximation, per the
+author.*
+
+**Helminth.** Pick one. **Roar** double-dips heat and boosts Antimatter Drop, or
+**Nourish** for viral Neutron Star plus energy.
+
+**Archon Shards.** Two cast-speed. One to two Violet Equilibrium. Five total.
+
+**Where it struggles.** Ability damage falls off past level 500. Bosses.
+
+**Variants.** Event Horizon (#029) is the general Slowva/Speedva; Rave Party (#073)
+is the speed build.
+
+**Strengths and weaknesses.** Strong: near no weapon investment, self-spreading
+heat, a 2x damage debuff on top. Weak: level-500 ceiling, boss-blind, forma-hungry.
+
+**Who runs this.** Players who want a Nova that kills mid-level trash with
+abilities alone.
+
+---
+
+### Ruyi Jingu Bang
+**Wukong Prime. A pure Iron Staff red-crit build with passive shield gating.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Exalted-melee influence clear |
+| Difficulty | Beginner |
+| Investment | High. 5 forma, Umbral forma, melee crit-damage shards |
+| Weapon reliance | Low. Iron Staff is the damage |
+
+> Tenno. This Wukong drops everything except Iron Staff and survival. Wrathful
+> Advance subsumed gives flat crit for red crits, and Catalyzing Shields plus Fast
+> Deflection plus Vigilante Vigor passively re-gate you. Enter 4, hold light
+> attack.
+
+**The build**
+
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Equilibrium, rank 10, Naramon polarity
+- Umbral Intensify, rank 10, Umbral polarity
+- Vigilante Vigor, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Fast Deflection, rank 5, unpolarised
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Strike, Molt Augmented
+
+Arsenal figures land at roughly 199% Strength, 172% Duration, 34% Range, 100%
+Efficiency, with 555 health, 445 shield, 290 armor and a 556 energy pool.
+
+**How it works.** The same passive-gate stack as elsewhere (any shield regenerated
+gives the full 1.33s gate, ~1s recharge delay). Wrathful Advance subsumed over 1
+or 3 gives a flat crit boost to red-crit Iron Staff. Strength scales Iron Staff.
+
+**Helminth.** **Wrathful Advance** over 1 or 3 for the red crits. Roar as an
+alternative for a triple-dip on influence procs.
+
+**Archon Shards.** Five Tauforged Violet melee crit-damage (or split with
+parkour). Five total.
+
+**Where it struggles.** Bosses take the staff. Fragile without the gate. Very
+forma-hungry for a one-note build.
+
+**Variants.** Celestial Monkey (#033) is the active Iron Staff and Defy-nuke build;
+Lazy Monkey King (#059) is the persistence tank.
+
+**Strengths and weaknesses.** Strong: instant red crits, strong influence clear,
+effortless gate. Weak: one-note, boss-slow, forma-hungry.
+
+**Who runs this.** Players who want the simplest possible red-crit Iron Staff
+Wukong.
+
+---
+
+### Assimilate Annihilation
+**Nyx Prime. Immortal Assimilate feeding a Mind-Control-buffed banked-damage nuke.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Immortal caster, banked-damage nuke, mind-control buff platform |
+| Difficulty | Intermediate |
+| Investment | Medium. 3 forma |
+| Weapon reliance | High. A hard-hitting weapon buffs the Mind Control target that feeds the nuke |
+
+> Tenno. Inside Assimilate, Nyx and her sentinel cannot be hurt, and it scales to
+> level cap. Every hit her Mind Control ally lands is banked, and dropping the
+> bubble releases it as a 50m nuke whose radius grows with the damage banked. Buff
+> a Mind Control target with a strong weapon until it deals millions, then drop
+> Assimilate on the room.
+
+**The build**
+
+- Assimilate, rank 3, Zenurik polarity — augment. Mobile, scaling invulnerability
+- Mind Freak, rank 3, unpolarised — augment. Mind Control target deals more damage
+- Pacifying Bolts, rank 3, unpolarised — augment
+- Primed Continuity, rank 10, Madurai polarity
+- Umbral Intensify, rank 10, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Molt Augmented, Arcane Concentration
+
+Arsenal figures land at roughly 144% Strength, 254% Duration, 34% Range, 100%
+Efficiency, with 370 health, 465 shield, 135 armor and a 641 energy pool.
+
+**How it works.** Assimilate's drain is a Duration-Efficiency pairing; at ~280%
+Duration you hold it indefinitely with 100% Efficiency plus a Seismic Bond pet.
+The nuke's radius is `15 x Range% + sqrt(5 x banked damage) / 50`, capped at 50m,
+so ~1.1M banked damage caps it even at 34% Range. Buff Mind Control with a
+multiplicative Galvanized Shot secondary (Ballistica Incarnon, Prisma Angstrum
+Incarnon, Epitaph) plus a primer to reach 20,000% to 40,000%. *Confidence:
+Approximation, per the author's formula.*
+
+**Playstyle.** Cast Mind Control on an enemy, hit it hard to buff it, enter
+Assimilate near a crowd, let the banked damage build, drop the bubble to nuke.
+
+**Helminth.** Pick one. Subsume over Chaos (3).
+
+- **Roar** for a damage buff that also buffs the Mind Control target and double-dips status.
+- **Nourish** for a buff plus energy.
+- **Xata's Whisper** for raw weapon damage (does not buff the Mind Control target).
+
+**Archon Shards.** Three Duration for the drain floor. Two parkour for rolling in
+Assimilate. Five total.
+
+**Weapon synergy.** Nyx's passive gives up to 200% additive crit chance to
+primaries and secondaries. A robotic companion (immortal in Assimilate) with
+Seismic Bond for the Efficiency threshold.
+
+**Staying alive.** Assimilate is total immortality while active, with a 6s i-frame
+bridge on exit. It effectively does not fail while 4 is up.
+
+**Where it struggles.** Mobility (you roll everywhere). Boss single-target is on
+the weapon or the buffed Mind Control target.
+
+**Variants.** Control and Assimilate (#040) is the general strip-and-nuke build.
+
+**Strengths and weaknesses.** Strong: unconditional immortality to level cap, a
+scaling nuke, cheap. Weak: slow, weapon-and-buff-dependent, boss setup differs.
+
+**Who runs this.** Players who want to be unkillable while a buffed thrall feeds a
+map nuke.
+
+---
+
+### Pure Voltage
+**Gyre Prime. A Mecha-set pure electric ability nuke.**
+
+| | |
+|--|--|
+| Content | Steel Path, Level cap |
+| Role | Pure ability electric nuke |
+| Difficulty | Intermediate |
+| Investment | Low. 3 forma, a Huras Kubrow |
+| Weapon reliance | Very low |
+
+> Tenno. This Gyre is the Mecha-set ability build: Rotorswell and Coil Horizon
+> chain electric through a grouped room, the Mecha set spreads the kills, Roar
+> subsumed multiplies it, and Huras keeps you invisible.
+
+**The build**
+
+- Cathode Current, rank 3, Zenurik polarity — augment
+- Mecha Pulse, rank 3, unpolarised
+- Augur Reach, rank 5, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Primed Continuity, rank 10, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Mecha Empowered, Naramon polarity
+- Exilus: Preparation, unpolarised
+- Arcanes: Molt Augmented, Arcane Circumvent
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 265% Range, 45%
+Efficiency, with 445 health, 740 shield, 105 armor and a 684 energy pool.
+
+**How it works.** As Electrolysis (#079), but with the Mecha set instead of a
+strip subsume: Mecha Empowered's mark multiplies electric DoT, and the kill-spread
+carries it. Roar over 1. Without a Huras, swap the aura for Corrosive Projection
+and Mecha Pulse for Primed Flow, Equilibrium or Rolling Guard.
+
+**Archon Shards.** One cast-speed. Four Violet electric ability-damage. Five total.
+
+**Helminth.** **Roar** over 1.
+
+**Where it struggles.** Fragile frame; lean on Coil Horizon and Huras. Bosses.
+Cold-start cooldown risk on Cathode Grace.
+
+**Variants.** Flux Dancer (#043) is the weapon platform; Electrolysis (#079) is the
+strip-subsume ability build.
+
+**Strengths and weaknesses.** Strong: strong grouped electric nuke with almost no
+weapon investment, invisible. Weak: fragile, boss-blind, needs a Kubrow.
+
+**Who runs this.** Players who want a Mecha-set electric nuke Gyre.
+
+---
+
+### Beginner's Blades
+**Ash Prime. A zero-forma non-helminth Bladestorm and finisher build.**
+
+| | |
+|--|--|
+| Content | Steel Path, Beginner |
+| Role | Invisible assassin, learning-friendly |
+| Difficulty | Beginner |
+| Investment | None. 0 forma |
+| Weapon reliance | Medium. A slash weapon and finishers back up Bladestorm |
+
+> Tenno. A first Ash build with no forma and no subsume. Stay invisible with Smoke
+> Screen, mark a room with Bladestorm, and send the clones. Teleport Rush sets up
+> finishers and extends invisibility.
+
+**The build**
+
+- Teleport Rush, rank 3, unpolarised — augment
+- Equilibrium, rank 10, Naramon polarity
+- Smoke Shadow, rank 3, unpolarised — augment
+- Precision Intensify, rank 5, Madurai polarity
+- Stretch, rank 5, unpolarised
+- Flow, rank 5, unpolarised
+- Narrow Minded, rank 10, unpolarised
+- Continuity, rank 5, Madurai polarity
+- Aura: Steel Charge, Madurai polarity
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Crepuscular, Molt Efficiency
+
+Arsenal figures land at roughly 115% Strength, 229% Duration, 79% Range, 100%
+Efficiency, with 555 health, 465 shield, 185 armor and a 300 energy pool.
+
+**How it works.** High Duration keeps Smoke Screen up ~20s. Bladestorm's 50m base
+means 79% Range still marks at 40m. Precision Intensify covers Bladestorm's
+Strength. All three augments are flexible.
+
+**Playstyle.** Tap 1 for Wrathful Advance, cast 2 for invisibility, mark with 4 and
+send the clones, mop up with a slash melee or gun. Cast 3 (Teleport Rush) for
+finishers and to refresh invisibility.
+
+**Helminth.** When ready, subsume over 1 or 3: Wrathful Advance, Silence with
+Savage Silence, Roar, or Expedite Suffering.
+
+**Weapon synergy.** A magnetic Kuva Nukor or Epitaph primer plus a high-slash
+melee or statstick. Fragor Prime or Innodem for finishers.
+
+**Strengths and weaknesses.** Strong: free, invisible, forgiving, scales into the
+level-cap builds later. Weak: modest damage without investment, boss-slow.
+
+**Who runs this.** New players learning Ash before committing forma.
+
+---
+
+### Glorious Purpose
+**Jade. A pure Glory alt-fire nuke for high-density camping.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | High-density camp nuke |
+| Difficulty | Intermediate |
+| Investment | High. 5 forma, a Huras or Shade |
+| Weapon reliance | Very low |
+
+> Tenno. This is the alt-fire-only Glory build: spam alt-fire to detonate stacked
+> Judgements across a packed room. Alt-fire eats energy, so Arcane Sculptor locks
+> Efficiency off a cast of 1 every 12s. Stay invisible with a companion so
+> Crepuscular is always on (alt-fire does not break invisibility).
+
+**The build**
+
+- Equilibrium, rank 10, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Stretch, rank 5, unpolarised
+- Overextended, rank 5, unpolarised
+- Precision Intensify, rank 5, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura 1: Growing Power, aura slot
+- Aura 2: Corrosive Projection, aura slot
+- Exilus: Preparation, unpolarised
+- Arcanes: Arcane Crepuscular, Arcane Sculptor
+
+Arsenal figures land at roughly 194% Strength, 128% Duration, 235% Range, 45%
+Efficiency, with 465 health, 550 shield, 135 armor and a 570 energy pool.
+
+**How it works.** Alt-fire (1500 heat, 4m, locked 1/s) detonates all nearby
+Judgements at once, so density is everything: 20 stacked Judgements is ~60,000 per
+shot. Arcane Sculptor covers the energy cost. Crepuscular's crit-damage add needs
+the companion invisibility.
+
+**Helminth.** **Roar**, **Nourish** or **Xata's Whisper** over 3.
+
+**Where it struggles.** Camp-only; primary fire is better in lower density.
+Line-of-sight tiles. Bosses.
+
+**Variants.** Archangel of Annihilation (#024) is the primary-and-hybrid general
+build.
+
+**Strengths and weaknesses.** Strong: enormous stacked-Judgement burst in dense
+rooms. Weak: density-locked, boss-blind, needs a companion for Crepuscular.
+
+**Who runs this.** Players who camp Steel Path survival with Jade and want maximum
+alt-fire density damage.
+
+---
+
+### Energized Munitions
+**Gauss Prime. A pure weapon platform: Redline buffs plus Energized Munitions ammo economy.**
+
+| | |
+|--|--|
+| Content | Steel Path, Weapon platform |
+| Role | Fire-rate and reload buff platform for area weapons |
+| Difficulty | Beginner |
+| Investment | Low. 2 forma |
+| Weapon reliance | Total |
+
+> Tenno. Keep Redline up for the fire-rate, reload and holster-speed buffs, and
+> subsume Energized Munitions so you never reload. Point an area weapon at the
+> room.
+
+**The build**
+
+- Fast Deflection, rank 5, unpolarised
+- Thermal Transfer, rank 3, unpolarised — augment
+- Constitution, rank 3, unpolarised
+- Narrow Minded, rank 10, Vazarin polarity
+- Augur Message, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Rolling Guard, rank 10, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Aegis (rank 0), Molt Efficiency
+
+Arsenal figures land at roughly 100% Strength, 306% Duration, 34% Range, 100%
+Efficiency, with 370 health, 650 shield, 185 armor and a 225 energy pool. Sprint
+1.5.
+
+**How it works.** Max Duration for the longest Redline uptime. Fast Deflection plus
+Arcane Aegis is the passive-gate immortality loop (as Frozen Flames). Thermal
+Transfer adds weapon blast after a heat-cold Sunder.
+
+**Helminth.** **Energized Munitions** over 3 for infinite ammo on the platform.
+
+**Weapon synergy.** Slow, hard-hitting area weapons: Akarius Prime, Tenet Envoy,
+Kuva Zarr.
+
+**Strengths and weaknesses.** Strong: strong weapon buffs, no reloading, fast,
+cheap, immortal via the loop. Weak: toxin-vulnerable, does nothing itself, bug-
+dependent survival.
+
+**Who runs this.** Players who want Gauss purely as a fire-rate-and-ammo platform
+for a heavy area weapon.
+
+---
+
+### Shattering Glass
+**Gara Prime. Pure Shattered Lash influence spam.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | One-button influence map nuke |
+| Difficulty | Beginner to intermediate |
+| Investment | High. 5 forma, melee crit-damage shards |
+| Weapon reliance | Low. Shattered Lash is exalted and does the killing |
+
+> Tenno. This Gara does one thing: spam Shattered Lash with electric influence to
+> sweep and nuke a room. Fast casts matter, so cast-speed shards are key.
+
+**The build**
+
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Equilibrium, rank 10, Naramon polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Streamline, rank 5, unpolarised
+- Overextended, rank 5, unpolarised
+- Augur Reach, rank 5, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Molt Augmented, Arcane Concentration
+
+Arsenal figures land at roughly 95% Strength, 73% Duration, 280% Range, 130%
+Efficiency, with 445 health, 370 shield, 200 armor and a 641 energy pool.
+
+**How it works.** Range is maxed for Shattered Lash reach; Streamline plus
+Equilibrium plus Archon Stretch (off electric Shattered Lash) sustains the spam.
+Catalyzing Shields gates you off casts.
+
+**Helminth.** Roar or Nourish for a damage multiplier; Silence to stop Violence.
+
+**Archon Shards.** One to two cast-speed (spam speed). Two parkour. The rest Violet
+melee crit-damage. Five total.
+
+**Where it struggles.** No passive damage field (that is The Eternal Storm). Bosses.
+
+**Variants.** Glass Storm (#015) is the hybrid; The Eternal Storm (#085) is pure
+Splinter Storm.
+
+**Strengths and weaknesses.** Strong: one-button clear, cheap to pilot. Weak:
+weapon-light for bosses, needs cast-speed to feel good.
+
+**Who runs this.** Players who want to hold one button and sweep rooms with Gara.
+
+---
+
+### The Stampede
+**Rhino Prime. Endurance Iron Skin i-frame gating plus a Stomp lock, on a Roar or Nourish platform.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Endurance tank via Iron Skin i-frames, crowd control, weapon buff |
+| Difficulty | Intermediate |
+| Investment | Very high. 7 forma, Umbral forma |
+| Weapon reliance | Total. Rhino tanks and buffs; the weapon kills |
+
+> Tenno. This Rhino survives on the i-frames around Iron Skin, not its health
+> value: 3s of absorb invulnerability on cast, plus 0.5s overguard and 1.33s
+> shield-gate i-frames on break, is 5 to 8s per cast. Add Stomp's map-wide stun
+> and Reinforcing Stomp topping Iron Skin up, and you recast maybe once a minute.
+> Keep Roar or Nourish going for the weapon.
+
+**The build**
+
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Reinforcing Stomp, rank 3, Zenurik polarity — augment. Stomp restores Iron Skin per enemy hit
+- Archon Stretch, rank 10, Naramon polarity
+- Umbral Intensify, rank 10, Umbral polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Augur Message, rank 5, Vazarin polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Ice Spring, unpolarised
+- Arcanes: Arcane Truculence, Molt Augmented
+
+Arsenal figures land at roughly 199% Strength, 152% Duration, 145% Range, 100%
+Efficiency, with 370 health, 555 shield, 290 armor and a 427 energy pool.
+
+**How it works.** Iron Skin's i-frames (absorb + overguard + shield gate) total 5
+to 8s, and if you absorb a strong hit (a Jade Eximus) you can bank hundreds of
+millions of Iron Skin, refreshed by Reinforcing Stomp. Stomp's high base range
+locks the room. High Strength is for Roar or Nourish, not Iron Skin's value here.
+*Confidence: Approximation, per the author.*
+
+**Playstyle.** Cast Iron Skin, keep Roar or Nourish up, spam Stomp for the lock
+and the Iron Skin top-up, recast Iron Skin when you get hit through the lock.
+
+**Helminth.** **Nourish** (energy plus weapon viral) or **Roar** (weapon damage,
+status double-dip). Shock with Shock Trooper for an electric add.
+
+**Archon Shards.** One cast-speed, two parkour, two strength or primary
+electric-damage. Five total.
+
+**Weapon synergy.** Status weapons for Roar's double-dip: Torid Incarnon, Kuva
+Nukor, influence melees.
+
+**Staying alive.** The Iron Skin i-frame stack plus Stomp crowd control. It can
+ignore toxin if you time recasts well. It fails only if hit repeatedly through the
+Stomp lock with Iron Skin down.
+
+**Where it struggles.** Very forma-hungry. Does no damage itself. Bosses.
+
+**Variants.** Ironclad Rhino (#058) and Shield of Iron (#016) are the Iron Skin-
+value tanks.
+
+**Strengths and weaknesses.** Strong: survives to level cap on i-frames alone,
+strong lock, strong weapon buff. Weak: 7 forma plus Umbral, weapon-carried, boss-
+blind.
+
+**Who runs this.** Players who want an endurance Rhino that tanks on invulnerability
+windows rather than a health number.
+
+---
+
+### Wire Dancer
+**Ivara Prime. A Prowl-invisible weapon platform on a dashwire, with Empowered Quiver.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Weapon platform |
+| Role | Silent invisible weapon platform, Artemis Bow DPS |
+| Difficulty | Beginner to intermediate |
+| Investment | Medium. 3 forma, primary electric shards |
+| Weapon reliance | Total. Ivara buffs and hides; the weapon kills |
+
+> Tenno. Stay invisible in Prowl, stand on a dashwire for the accuracy and steady
+> aim, and let Empowered Quiver plus a Nourish subsume buff whatever you are
+> shooting. Artemis Bow is there if you want it.
+
+**The build**
+
+- Umbral Intensify, rank 10, unpolarised
+- Empowered Quiver, rank 3, Zenurik polarity — augment. Cloak Arrow grants a damage buff
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Fleeting Expertise, rank 5, Naramon polarity
+- Augur Secrets, rank 5, unpolarised
+- Transient Fortitude, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Preparation, unpolarised
+- Arcanes: Arcane Crepuscular, Molt Augmented
+
+Arsenal figures land at roughly 223% Strength, 167% Duration, 34% Range, 160%
+Efficiency, with 280 health, 555 shield, 135 armor and an 855 energy pool.
+
+**How it works.** Prowl invisibility plus a dashwire for stable DPS. Range is
+dumped (Empowered Quiver and Prowl are self-cast). Nourish subsumed adds viral and
+energy. Silence all loud weapons with a hush exilus so shooting does not break
+invisibility.
+
+**Helminth.** Pick one. **Nourish** for energy and viral, **Xata's Whisper** for
+double-dipped headshots, **Roar** for status weapons, **Dispensary** for full
+energy refills in Prowl.
+
+**Archon Shards.** Four to five Violet primary electric-damage. Five total.
+
+**Weapon synergy.** Innately silent weapons (Daikyu, Fulmin) or any weapon with a
+silencer mod. A non-bow primary statstick for Artemis Bow's Vigilante bonus.
+
+**Staying alive.** Prowl invisibility. Thin defense otherwise; stay unseen. Fails
+to AoE that ignores stealth and to toxin.
+
+**Where it struggles.** Entirely weapon-carried. Bosses take the weapon. Loud
+weapons need silencing.
+
+**Variants.** Well of Death (#057) is the Concentrated Arrow room nuke.
+
+**Strengths and weaknesses.** Strong: permanent stealth, a solid weapon buff,
+silent, comfortable. Weak: selfish, weapon-carried, boss-blind.
+
+**Who runs this.** Players who want an invisible, silent platform for a favourite
+primary.
+
+---
+
+### Eternal Hysteria
+**Valkyr Prime. Low-range comfort Hysteria: Talons lifesteal and Arcane Persistence to level cap.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Near-immortal exalted melee, one-shot Talons to level cap |
+| Difficulty | Beginner |
+| Investment | Medium. 3 forma, melee crit-damage shards |
+| Weapon reliance | Low. Talons carry; a primer or companion adds status |
+
+> Tenno. This is the low-range comfort Hysteria. Valkyr's 1000 base armour arms
+> Arcane Persistence with no armour mods, the Umbral-ish health stack gives a 4s
+> buffer, and Talons lifesteal refills it instantly. Ripline still has 59m of
+> mobility at 79% Range. Enter Hysteria and shred.
+
+**The build**
+
+- Eternal War, rank 3, unpolarised — augment
+- Stretch, rank 5, Naramon polarity
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Gladiator Resolve, rank 5, unpolarised
+- Augur Secrets, rank 5, unpolarised
+- Archon Intensify, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Hysterical Assault, unpolarised
+- Arcanes: Arcane Persistence, Arcane Battery
+
+Arsenal figures land at roughly 209% Strength, 172% Duration, 79% Range, 100%
+Efficiency, with 1050 health, 1000 armor, 185 shield and a 225 energy pool (Arcane
+Battery raises the effective pool).
+
+**How it works.** Arcane Persistence caps damage at 500/s (Valkyr clears 700
+armour at base). Gladiator Resolve plus the Umbral Intensify and Vitality give
+~2000 health for a 4s buffer, and Talons lifesteal refills it, so the death-gate
+passive rarely triggers. *Confidence: Approximation, per the author.*
+
+**Helminth.** Pick one. Subsume over 3. **Roar** (status), **Nourish** (raw),
+**Xata's Whisper** (Thrax and overguard one-shots). Silence against Infested
+Ancient Disruptors.
+
+**Archon Shards.** One cast-speed. Two to four Tauforged Violet melee crit-damage.
+Two parkour. Five total.
+
+**Staying alive.** Arcane Persistence plus Talons lifesteal plus the death gate. It
+fails to Infested energy drain (bring Silence) and to a hit exceeding your health
+in one Persistence tick.
+
+**Where it struggles.** Melee range. Bosses. Infested without Silence.
+
+**Variants.** Rip and Tear (#020) is the high-range grouping build.
+
+**Strengths and weaknesses.** Strong: near-immortal, comfortable, strong Talons
+clear, cheap. Weak: melee range, Infested-vulnerable, boss-slow.
+
+**Who runs this.** Players who want the most low-effort immortal Valkyr.
+
+---
+
+### Surging Aquablades
+**Yareli Prime. A pure Aquablade slash-DoT spam off the Merulina board.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Aquablade slash-DoT nuke |
+| Difficulty | Intermediate |
+| Investment | High. 4 forma, a Huras Kubrow |
+| Weapon reliance | Very low |
+
+> Tenno. Ride Merulina invisible and spam Aquablades for zero energy. Surging
+> Aquablades banks damage into each throw, Sea Snares stack a vulnerability, Roar
+> double-dips the slash DoT, and the Mecha set double-dips it again on a mark. You
+> are a ghost ship throwing water bombs.
+
+**The build**
+
+- Mecha Pulse, rank 3, unpolarised
+- Surging Blades, rank 3, Zenurik polarity — augment. Aquablades bank damage
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Constitution, rank 3, Naramon polarity
+- Precision Intensify, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Mecha Empowered, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Concentration, Molt Augmented
+
+Arsenal figures land at roughly 214% Strength, 282% Duration, 34% Range, 45%
+Efficiency, with 370 health, 650 shield, 105 armor and a 315 energy pool.
+
+**How it works.** Max Duration lets Surging Aquablades bank maximum damage and
+gives Roar ~2 minutes. Aquablades cost 0 on Merulina, Merulina and Sea Snares are
+cheap, so minimum Efficiency works. The author's figure: ~50,000 banked, Roar
+double-dip (3.31x), Mecha Empowered (6.25x), Sea Snares (3.74x) spreads ~1.28M
+slash per second in 30m on a marked kill. *Confidence: Approximation, per the
+author.*
+
+**Playstyle.** Activate Roar off the board, get on Merulina, spam Aquablades (bind
+3 to a mouse button), spam Sea Snares for the vulnerability, do not shoot (breaks
+invisibility). Off-and-on Merulina twice for i-frames when invisibility ends.
+
+**Helminth.** **Roar** over 3.
+
+**Archon Shards.** One to two cast-speed. The rest Duration. Five total.
+
+**Where it struggles.** Personal-range Aquablades need you close. Bosses. Needs a
+Huras for the invisibility.
+
+**Variants.** Loyal Waverider (#041) is the secondary-weapon platform.
+
+**Strengths and weaknesses.** Strong: strong spreading slash DoT with near no
+weapon or energy investment, invisible. Weak: close range, boss-blind, needs a
+Kubrow.
+
+**Who runs this.** Players who want a hands-off Yareli that nukes with water.
+
+---
+
+### Shadow of Death
+**Ash Prime. An endurance Bladestorm build with a Seeking Shuriken single-target strip.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Invisible assassin, endurance Bladestorm |
+| Difficulty | Intermediate |
+| Investment | High. 5 forma |
+| Weapon reliance | Medium. Bladestorm carries clears; a weapon and the strip cover bosses |
+
+> Tenno. This is the endurance Bladestorm Ash. Seeking Shuriken strips a single
+> target for boss and Disruption work, and the helminth slot swaps by weapon: Roar
+> for status, Xata's Whisper for Thrax, Expedite Suffering for slash, Nourish for
+> energy.
+
+**The build**
+
+- Seeking Shuriken, rank 3, unpolarised — augment. Strips a single target's armour
+- Primed Flow, rank 10, Naramon polarity
+- Rolling Guard, rank 10, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Smoke Shadow, rank 3, unpolarised — augment
+- Equilibrium, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Molt Augmented, Arcane Crepuscular
+
+Arsenal figures land at roughly 199% Strength, 254% Duration, 34% Range, 45%
+Efficiency, with 555 health, 465 shield, 185 armor and a 427 energy pool.
+
+**How it works.** Standard endurance Bladestorm: high Duration for Smoke Screen,
+Equilibrium plus negative Efficiency, and the helminth slot chosen per weapon.
+Seeking Shuriken is optional if your weapon already handles armour.
+
+**Helminth.** Pick one over 1 or 3.
+
+- **Xata's Whisper** for Thrax and raw-damage headshot weapons (9x headshot, 64x melee stealth).
+- **Roar** for Condition Overload and status weapons.
+- **Expedite Suffering** for slash weapons (add Stretch over Precision Intensify).
+- **Nourish** (over 3) for free energy on mark refunds.
+
+**Archon Shards.** Cast-speed, energy-max and melee crit-damage as in Wrathful
+Blades (#012).
+
+**Where it struggles.** Boss single-target is on the weapon or Seeking Shuriken.
+Open worlds need a Range rebuild.
+
+**Variants.** Wrathful Blades (#012) is the red-crit level-cap build; Beginner's
+Blades (#098) is the zero-forma starter.
+
+**Strengths and weaknesses.** Strong: flexible endurance assassin, permanent
+stealth, a single-target strip. Weak: boss damage on the weapon, Range rebuild for
+open maps.
+
+**Who runs this.** Players who want an endurance Ash tuned to whatever weapon they
+bring.
+
+---
+
+### The Trickster
+**Loki Prime. Permanent invisibility and Radial Disarm, built for endurance Disruption.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Disruption |
+| Role | Permanent-invisibility carry, Radial Disarm crowd control, Switch Teleport support |
+| Difficulty | Beginner |
+| Investment | High. 5 forma |
+| Weapon reliance | Total. Loki hides and disarms; the weapon does everything |
+
+> Tenno. High Duration Invisibility with no gaps, Radial Disarm to turn a
+> Disruption room into melee-only, and Safeguard Switch to protect a defense
+> target. A subsumed damage buff over Decoy carries the weapon.
+
+**The build**
+
+- Primed Continuity, rank 10, Madurai polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Precision Intensify, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Safeguard Switch, rank 3, unpolarised — augment. Switch Teleport shields the target
+- Aura: Brief Respite, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Crepuscular, Molt Efficiency
+
+Arsenal figures land at roughly 254% Strength, 227% Duration, 34% Range, 45%
+Efficiency, with 280 health, 280 shield, 135 armor and a 755 energy pool.
+
+**How it works.** High Duration makes Invisibility effectively permanent. Range is
+dumped (Radial Disarm has a huge base). The helminth over 4 (Ultimate) is a damage
+buff for the weapon.
+
+**Helminth.** Pick one over 4. **Xata's Whisper**, **Eclipse** or **Roar**.
+
+**Where it struggles.** Does no damage. Radial Disarm does not help against ranged
+enemy types that keep shooting (Corpus). Bosses.
+
+**Strengths and weaknesses.** Strong: seamless permanent stealth, strong
+Disruption utility, a weapon buff. Weak: selfish otherwise, weapon-carried, boss-
+blind.
+
+**Who runs this.** Players running endurance Disruption who want to stay unseen and
+disarm the room.
+
+---
+
+### Siege Tank Mesa
+**Mesa Prime. A minimum-range Gloom lifesteal tank that stands still in Peacemaker.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Open World |
+| Role | Effortless lifesteal tank, Peacemaker DPS |
+| Difficulty | Beginner |
+| Investment | Medium to high. 4 forma, three Tauforged armour shards |
+| Weapon reliance | Low. Regulators are the damage |
+
+> Tenno. Gloom at minimum range is a 5.4m bubble that only drains when enemies are
+> in it, so on a ranged frame it is nearly free, and it gives Regulators lifesteal.
+> Arcane Persistence caps incoming damage. Stand still in Peacemaker and heal
+> through anything.
+
+**The build**
+
+- Primed Continuity, rank 10, Madurai polarity
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Archon Vitality, rank 10, Vazarin polarity
+- Fleeting Expertise, rank 5, Naramon polarity
+- Steel Fiber, rank 10, Vazarin polarity
+- Precision Intensify, rank 5, unpolarised
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Mesa's Waltz, unpolarised
+- Arcanes: Arcane Persistence, Arcane Velocity
+
+Arsenal figures land at roughly 100% Strength, 194% Duration, 34% Range, 160%
+Efficiency, with a 1000 health pool, ~270 armor (Steel Fiber plus two Tauforged
+shards reach 700), 280 shield and a 541 energy pool.
+
+**How it works.** Minimum-range Gloom drains only when enemies enter its small
+bubble, which on a stationary ranged Mesa is rare, so it is effectively free
+lifesteal on Regulators. Arcane Persistence's 500/s cap plus that lifesteal means
+Mesa cannot die while healing over 500/s. Reach 700 armour with three Tauforged
+Azure shards, or Steel Fiber plus two. *Confidence: Approximation, per the author.*
+
+**Helminth.** **Gloom** over 1 (casual) or 3.
+
+**Where it struggles.** Peacemaker roots you. Toxin bypasses armour but not the
+Gloom heal if it out-paces it. Bosses take longer.
+
+**Variants.** Nourished Gunslinger (#022) is the active shield-gate Mesa.
+
+**Strengths and weaknesses.** Strong: stand-still immortal, free Regulator
+lifesteal, good for open-world bounties. Weak: rooted while firing, no grouping,
+weapon-carried.
+
+**Who runs this.** Players who want a lazy Mesa that never moves and never dies.
+
+---
+
+### The Nourished Horizon
+**Nova Prime. A shard-gated Nourish build that auto-tags enemies with slow, viral and heat.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Auto-applied 75% slow and 2x damage debuff, viral prime, weapon platform |
+| Difficulty | Intermediate |
+| Investment | High. 4 forma, mandatory Tauforged shards |
+| Weapon reliance | High. The debuff amplifies your weapon; the weapon kills |
+
+> Tenno. Nourish plus Neutron Star plus Molecular Fission auto-tag every enemy in
+> 23m with 75% slow, a 2x damage debuff, viral and heat, no wave travel time, so
+> Thrax get debuffed the instant they spawn. Then your weapon does double damage
+> to a slowed, viral-primed room.
+
+**The build**
+
+- Overextended, rank 5, unpolarised
+- Rolling Guard, rank 10, Vazarin polarity
+- Molecular Fission, rank 3, unpolarised — augment
+- Blind Rage, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Stretch, rank 5, unpolarised
+- Neutron Star, rank 3, unpolarised — augment
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Hot Shot, Arcane Aegis
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with 370 health, 370 shield, 135 armor and a 755 energy pool.
+
+**How it works.** Nourish (subsumed over 2) plus Neutron Star plus Molecular
+Fission tags enemies within 23m (46m manual) automatically, so you rarely cast
+Molecular Prime. Nova's passive drops health orbs off slowed kills for Nourish and
+Equilibrium energy. Requires a Tauforged strength shard to hit the 150% Molecular
+Prime threshold, plus two Violet to free the Equilibrium slot for Rolling Guard.
+*Confidence: Approximation, per the author.*
+
+**Playstyle.** Default tap/hold (tap 4 for slow). Let the auto-tag do the work,
+shoot the slowed viral-primed room, place Wormholes for long corridors.
+
+**Helminth.** **Nourish** or **Xata's Whisper** over 2.
+
+**Archon Shards.** Two Tauforged cast-speed. One Tauforged Crimson strength
+(mandatory). Two Tauforged Violet (Equilibrium). Five total.
+
+**Weapon synergy.** Crit weapons for Arcane Hot Shot (not Devouring Attrition
+weapons). Molecular Prime's death explosions inherit on-kill effects (Devouring
+Attrition, Acid Shells, Amalgam Argonak).
+
+**Where it struggles.** Requires the shards to function. Ability damage is not the
+plan; the weapon carries. Bosses.
+
+**Variants.** Event Horizon (#029) is the no-shard general build.
+
+**Strengths and weaknesses.** Strong: automatic room-wide slow and 2x debuff plus
+viral, strong weapon amplifier, auto-debuffs Thrax on spawn. Weak: shard-gated,
+weapon-carried, boss-blind.
+
+**Who runs this.** Shard-rich players who want a Nova that debuffs the room
+automatically and hands their weapon a doubled, slowed target.
+
+---
+
+### Breaching the Redline
+**Wisp Prime. Stacking Critical Surge past the cap for 1000% weapon crit chance.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Weapon platform |
+| Role | Extreme weapon crit-chance buff platform |
+| Difficulty | Advanced. The Critical Surge teleport-distance timing |
+| Investment | High. 5 forma, duration shards |
+| Weapon reliance | Total |
+
+> Tenno. Critical Surge gives crit chance based on teleport distance to a mote, and
+> individual buffs under 250% each stack on their own 30s timer without
+> overwriting. Rank 1 Critical Surge plus a controlled ~20m teleport keeps each
+> buff under the cap, so ping-ponging between two motes stacks 1000%+ crit chance
+> onto your weapon.
+
+**The build**
+
+- Archon Stretch, rank 10, Naramon polarity
+- Critical Surge, rank 1, unpolarised — augment. Teleport to a mote grants crit chance
+- Blind Rage, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Constitution, rank 3, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Growing Power, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Concentration, Arcane Crepuscular
+
+Arsenal figures land at roughly 199% Strength, 282% Duration, 79% Range, 45%
+Efficiency, with 370 health, 370 shield, 210 armor and an 855 energy pool.
+
+**How it works.** 342% Duration gives 30s Critical Surge buffs. Each buff under
+250% stacks separately, so four 200% buffs is ~800% crit chance for ~20s. Rank 1
+Critical Surge gives 5% per metre times Strength, so at 224% Strength you need to
+travel over 22m to hit 250%, leaving a 10 to 22m window to land under the cap.
+Plant two motes exactly 20m apart and ping-pong. *Confidence: Approximation, per
+the author.*
+
+**Playstyle.** Plant two motes 20m apart, teleport between them five-plus times for
+1000%+ crit chance, then shoot.
+
+**Helminth.** A weapon buff (Roar, Nourish, Eclipse) over Sol Gate.
+
+**Archon Shards.** Two cast-speed. Three Crimson Duration. Five total.
+
+**Where it struggles.** The teleport-distance timing is fiddly and easy to
+overshoot the cap. Bosses take the weapon. Line-of-sight for the mote teleport.
+
+**Variants.** Ravenous Wraith (#007) is the general mote-and-spark Wisp.
+
+**Strengths and weaknesses.** Strong: the largest weapon crit-chance buff
+possible, keeps Wisp's mote support. Weak: fiddly stacking, weapon-carried, boss-
+blind.
+
+**Who runs this.** Players who want to overcrit a weapon to red every shot and
+enjoy the mote ping-pong.
+
+---
