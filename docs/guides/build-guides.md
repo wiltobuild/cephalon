@@ -19561,3 +19561,457 @@ corrosive-blast Glory (#285) is the area option.
 **Who runs this.** Players who want a Glory for Corpus and Thrax-heavy content.
 
 ---
+
+### The Worm Chain
+**Vermisplicer (Primary Kitgun). A Combustion Beam chaining nuke for Saryn or Oraxia.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Chain nuke, crowd clear |
+| Difficulty | Advanced |
+| Investment | Heavy. 6 forma, no MR requirement |
+| Weapon reliance | High. Saryn plus Roar or Oraxia plus Nourish |
+
+> Tenno. Combustion Beam detonates enemies killed by heat, chaining across a
+> pack. On Vermisplicer's multi-tendril beam with Roar Saryn or Oraxia behind
+> it, one burst clears the room.
+
+**The build**
+
+- Infected Clip, rank 5, Naramon polarity
+- Primed Cryo Rounds, rank 10, Vazarin polarity
+- Vile Acceleration, rank 5, unpolarised
+- Combustion Beam, rank 5, Madurai polarity. Heat kills detonate in an area and chain
+- Vital Sense, rank 5, unpolarised
+- Critical Delay, rank 5, Naramon polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Exilus: Sinister Reach, Naramon polarity
+- Arcane: Primary Blight
+- Pax Charge, rank 3 (Kitgun arcane slot). Recharges ammo over time
+
+Weapon figures land near 117% crit chance and 5.06x crit damage at a 13.6 fire
+rate. Confidence: Approximation, per the author.
+
+**The mods.** Combustion Beam is the chain detonation; Galvanized Aptitude and
+Chamber are the damage and multishot core; Infected Clip plus Primed Cryo Rounds
+build viral, with heat from the frame. For Oraxia plus Nourish, swap Primed Cryo
+Rounds for Primed Bane or Hammer Shot and consider Brash plus Splat parts for
+more range.
+
+**Where it struggles.** Frame-locked. Short base range. Needs the external
+damage multiplier.
+
+**Variants.** The Worm Beam (#290) is the frame-agnostic viral-electric
+Vermisplicer.
+
+**Who runs this.** Saryn and Oraxia players who want a chaining beam nuke.
+
+---
+
+### The Alt Slug
+**Glory. Pure alt-fire corrosive-blast spam, no damage or multishot mods.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Area burst |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma, no MR requirement |
+| Weapon reliance | Standalone |
+
+> Tenno. Glory's alt-fire is a single heavy blast that ignores multishot, fire
+> rate, damage mods and Fulmination. So this build does not run any of those; it
+> stacks raw elements and crit multiplier only.
+
+**The build**
+
+- Hollow Point, rank 5, unpolarised
+- Primed Heated Charge, rank 10, Naramon polarity
+- Frostbite, rank 3, Madurai polarity
+- Primed Expel Grineer, rank 10, Madurai polarity
+- Primed Convulsion, rank 10, Naramon polarity
+- Pistol Pestilence, rank 3, unpolarised
+- Primed Target Cracker, rank 10, Madurai polarity
+- Magnetic Might, rank 3, Madurai polarity
+- Exilus: open
+- Arcane: Secondary Enervate
+
+Weapon figures land near 15% crit chance and 6.2x crit damage with a roughly
+0.85x multiplier on the alt-fire. Confidence: Approximation, per the author.
+
+**The mods.** Because multishot, fire rate and damage mods do nothing on the
+alt-fire, the build is all raw elements (Primed Heated Charge, Primed Convulsion,
+Frostbite, Pistol Pestilence for corrosive-blast), crit multiplier (Primed
+Target Cracker, Hollow Point), faction damage (Primed Expel Grineer) and
+Secondary Enervate for crit chance.
+
+**Where it struggles.** Slow, one blast at a time. Niche.
+
+**Variants.** The Blazing Draw (#266) and The Magnetic Draw (#283) are the
+primary-fire Glory builds.
+
+**Who runs this.** Players who like the thump of the Glory alt-fire.
+
+---
+
+### The Boil Burner
+**Pyrana Prime. A viral heat-and-Infested pistol tuned for the Plague Star boil.**
+
+| | |
+|--|--|
+| Content | Events, Steel Path |
+| Role | Objective burst, boss damage |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 13 |
+| Weapon reliance | Standalone |
+
+> Tenno. Pyrana Prime's alt-fire summons a spectral second pistol so you are
+> firing two guns. Built with Primed Expel Infested and viral-heat, it melts the
+> Plague Star boil objective fast.
+
+**The build**
+
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Lethal Torrent, rank 5, Madurai polarity
+- Accelerated Isotope, rank 3, Madurai polarity
+- Primed Heated Charge, rank 10, Naramon polarity
+- Primed Expel Infested, rank 10, Madurai polarity
+- Primed Pistol Gambit, rank 10, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Exilus: Primed Steady Hands, Naramon polarity
+- Arcane: Secondary Outburst
+
+Weapon figures land near 69% crit chance and 4.62x crit damage at an 8 fire
+rate. Confidence: Approximation, per the author.
+
+**The mods.** Hornet Strike is unconditional base damage; Galvanized Diffusion
+is multishot; Primed Pistol Gambit plus Primed Target Cracker are crit; Primed
+Expel Infested is the boil's faction; Primed Heated Charge plus Accelerated
+Isotope build heat and radiation. Run Energized Munitions for ammo.
+
+**Where it struggles.** Event-specific tuning. Ammo economy without support.
+
+**Who runs this.** Players grinding Plague Star for fast boil kills.
+
+---
+
+### The Warden Page
+**Noctua. A magnetic-viral DPS and primer tome that ignores fire rate and multishot.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Primer and single-target DPS |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma, MR 10 |
+| Weapon reliance | Standalone |
+
+> Tenno. Wordwarden, Noctua's alt-fire, is not affected by fire rate or
+> multishot, so this build leans on Galvanized Shot, crit multiplier and raw
+> elements. It doubles as a magnetic primer.
+
+**The build**
+
+- Magnetic Might, rank 3, Madurai polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Creeping Bullseye, rank 5, unpolarised
+- Primed Convulsion, rank 10, Naramon polarity
+- Frostbite, rank 3, unpolarised
+- Pistol Pestilence, rank 3, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Exilus: Jahu Canticle, unpolarised
+- Arcane: Secondary Encumber
+
+Weapon figures land near 90% crit chance and 5x crit damage at a 1.2 fire rate.
+Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Shot is damage-per-status; Hornet Strike is
+unconditional base damage; Primed Target Cracker plus Creeping Bullseye are
+crit; Magnetic Might plus Primed Convulsion plus Frostbite plus Pistol
+Pestilence build magnetic and viral. Jahu Canticle auto-strips.
+
+**Where it struggles.** Very low fire rate on the alt-fire. Slow between shots.
+
+**Variants.** The Silent Page (#279) and The Fever Reader (#275) are the
+Galvanized-Diffusion Noctua builds.
+
+**Who runs this.** Players who want a Noctua that primes magnetic and picks off
+targets.
+
+---
+
+### The Charged Spike
+**Epitaph Prime. A charged raw-damage one-shot with Surging Shot burst.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Single-target one-shot |
+| Difficulty | Advanced |
+| Investment | Heavy. 6 forma, MR 14 |
+| Weapon reliance | High. Wants a viral primer or Nourish |
+
+> Tenno. Epitaph Prime's charged shot fires a heavy bolt with an area. Built raw
+> for damage rather than pure priming, with Secondary Surge for a burst on
+> reload, it deletes level-cap single targets.
+
+**The build**
+
+- Primed Heated Charge, rank 10, Naramon polarity
+- Pistol Pestilence, rank 3, Madurai polarity
+- Primed Convulsion, rank 10, Naramon polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Galvanized Crosshairs, rank 10, Madurai polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Exilus: Primed Pistol Ammo Mutation, Naramon polarity
+- Arcane: Secondary Surge
+
+Weapon figures land near 50% crit chance and 6.3x crit damage with a roughly
+3.2x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Hornet Strike is unconditional base damage; Galvanized Shot is
+damage-per-status; Galvanized Diffusion is multishot; Primed Target Cracker plus
+Galvanized Crosshairs are crit. Primed Heated Charge plus Primed Convulsion plus
+Pistol Pestilence build the elements; use Nourish for viral-corrosive-heat, or a
+primary primer for the maximum.
+
+**Where it struggles.** Charge time. One target per shot. Needs the priming
+pairing.
+
+**Variants.** The Quick Primer (#262) and The Heat Seed (#281) are the
+support-only Epitaph builds.
+
+**Who runs this.** Players who want the Epitaph as a hand-held sniper.
+
+---
+
+### The Shell Chain
+**Tenet Detron. Thermagnetic Shells chaining nuke for Saryn.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Chain nuke, crowd clear |
+| Difficulty | Advanced |
+| Investment | Low. 3 forma, MR 16 |
+| Weapon reliance | High. Saryn-only |
+
+> Tenno. Thermagnetic Shells makes Tenet Detron's blast leave a lingering
+> field, and heat kills chain the detonation. With Saryn's Toxic Lash and a
+> strip behind it, one volley clears a pack.
+
+**The build**
+
+- Pistol Elementalist, rank 5, unpolarised
+- Primed Expel Grineer, rank 10, Madurai polarity
+- Pistol Pestilence, rank 3, unpolarised
+- Pathogen Rounds, rank 5, unpolarised
+- Thermagnetic Shells, rank 3, unpolarised. Augment. Blast leaves a lingering damage field
+- Lethal Torrent, rank 5, unpolarised
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Exilus: Primed Pistol Ammo Mutation, Madurai polarity
+- Arcane: Secondary Fortifier
+
+Weapon figures land near 18% crit chance and 2x crit damage at a 5.3 fire rate;
+this is a status weapon. Confidence: Approximation, per the author.
+
+**The mods.** Thermagnetic Shells is the field augment; Galvanized Shot is
+damage-per-status; Galvanized Diffusion is multishot; Pistol Elementalist
+multiplies status; Pistol Pestilence plus Pathogen Rounds build toxin and viral.
+Secondary Fortifier steals overguard.
+
+**Where it struggles.** Saryn-locked. Short range. Falloff on the blast.
+
+**Variants.** A Uriel Tenet Detron (#294) uses the same augment with a heat
+pairing.
+
+**Who runs this.** Saryn players who want a chaining shotgun pistol.
+
+---
+
+### The Worm Beam
+**Vermisplicer (Primary Kitgun). A viral-electric crit beam, no frame lock.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Beam DPS, crowd and single target |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma, no MR requirement |
+| Weapon reliance | Standalone |
+
+> Tenno. The plain Vermisplicer build: a multi-tendril beam with a strong crit
+> base, modded viral-electric with Galvanized Aptitude and Pax Charge so it
+> never reloads.
+
+**The build**
+
+- Vile Acceleration, rank 5, unpolarised
+- Stormbringer, rank 5, Naramon polarity
+- Malignant Force, rank 0, unpolarised
+- Rime Rounds, rank 0, Madurai polarity
+- Vital Sense, rank 5, Madurai polarity
+- Critical Delay, rank 5, unpolarised
+- Galvanized Chamber, rank 10, unpolarised
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Exilus: Sinister Reach, Naramon polarity
+- Arcane: Primary Crux
+- Pax Charge, rank 3 (Kitgun arcane slot). Recharges ammo over time
+
+Weapon figures land near 84% crit chance and 4.4x crit damage at a 13.6 fire
+rate. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Aptitude and Chamber are the damage and multishot core;
+Critical Delay and Vital Sense are crit; Malignant Force plus Rime Rounds are
+viral, Stormbringer weights electric; Sinister Reach extends the short beam.
+
+**Where it struggles.** Short range even with Sinister Reach. Beam spread wastes
+damage on single targets.
+
+**Variants.** The Worm Chain (#284) is the Combustion Beam frame-locked nuke.
+
+**Who runs this.** Players who want a cheap no-MR beam that never reloads.
+
+---
+
+### The Steady Rockets
+**Akarius Prime. A no-conditionals viral-heat rocket pistol for Mirage.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Area DPS, crowd clear |
+| Difficulty | Intermediate |
+| Investment | Heavy. 7 forma, MR 14 |
+| Weapon reliance | High. Best on Mirage |
+
+> Tenno. Where the general Akarius Prime uses Galvanized stacks, this one uses
+> only unconditional mods so Mirage's multiplied damage output is steady from
+> the first shot.
+
+**The build**
+
+- Primed Heated Charge, rank 10, Naramon polarity
+- Pistol Pestilence, rank 3, Madurai polarity
+- Ice Storm, rank 3, Madurai polarity
+- Primed Fulmination, rank 10, Madurai polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Primed Pistol Gambit, rank 10, Madurai polarity
+- Amalgam Barrel Diffusion, rank 5, Madurai polarity
+- Exilus: Primed Pistol Ammo Mutation, Naramon polarity
+- Arcane: Secondary Fortifier
+
+Weapon figures land near 52% crit chance and 4.2x crit damage at a 3.9 fire
+rate. Confidence: Approximation, per the author.
+
+**The mods.** Hornet Strike is unconditional base damage; Amalgam Barrel
+Diffusion is multishot plus reload; Primed Pistol Gambit plus Primed Target
+Cracker are crit; Primed Fulmination widens the blast; Pistol Pestilence plus
+Ice Storm plus Primed Heated Charge build viral and heat. Arcane flexible for
+Akimbo Slip Shot; swap Ice Storm for Primed Convulsion with Nourish.
+
+**Where it struggles.** Ammo economy. Self-stagger. Heavy forma cost.
+
+**Variants.** The Rocket Twins (#269) is the general-use Akarius Prime.
+
+**Who runs this.** Mirage players who want consistent rocket output for
+Hall of Mirrors.
+
+---
+
+### The Homing Pistol
+**Cyanex. A viral-electric alt-fire build with auto-aiming rounds.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Mid-range DPS, forgiving aim |
+| Difficulty | Beginner |
+| Investment | Medium. 6 forma, MR 8 |
+| Weapon reliance | Standalone |
+
+> Tenno. Cyanex's alt-fire launches a burst of rounds that curve toward whatever
+> you are looking at. Modded viral-electric with the Galvanized core, it is a
+> forgiving mid-range sidearm.
+
+**The build**
+
+- Pistol Elementalist, rank 5, unpolarised
+- Hornet Strike, rank 10, Madurai polarity
+- Lethal Torrent, rank 5, Madurai polarity
+- Primed Convulsion, rank 10, Naramon polarity
+- Frostbite, rank 3, unpolarised
+- Pistol Pestilence, rank 3, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Exilus: Lethal Momentum, Madurai polarity
+- Arcane: Secondary Merciless
+
+Weapon figures land near 8% crit chance and 1.4x crit damage at a 7.5 fire rate;
+this is a status weapon, not a crit one. Confidence: Approximation, per the
+author.
+
+**The mods.** Galvanized Shot is damage-per-status; Galvanized Diffusion is
+multishot; Pistol Elementalist multiplies the electric damage-over-time; Hornet
+Strike is unconditional base damage. Primed Convulsion plus Frostbite plus
+Pistol Pestilence build viral-electric. Secondary Merciless ramps damage on
+kills.
+
+**Where it struggles.** Low crit ceiling. Alt-fire ammo drain.
+
+**Who runs this.** Players who want a point-in-the-general-direction sidearm.
+
+---
+
+### The Archon Guns
+**Dex Pixia Prime. A raw-damage Razorwing build for deleting Archons and Liches.**
+
+| | |
+|--|--|
+| Content | Archon hunts, Steel Path, Level cap |
+| Role | Single-target burst, boss killer |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, Titania only |
+| Weapon reliance | High. Titania-locked |
+
+> Tenno. Stripped to unconditional damage: Hornet Strike, Magnum Force, Barrel
+> Diffusion and a fat crit multiplier, plus corrosive-heat. No status ramp, so
+> the first magazine into an Archon hits full force.
+
+**The build**
+
+- Pathogen Rounds, rank 5, Naramon polarity
+- Primed Convulsion, rank 10, Naramon polarity
+- Primed Heated Charge, rank 10, Naramon polarity
+- Lethal Torrent, rank 5, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Magnum Force, rank 10, Madurai polarity
+- Barrel Diffusion, rank 5, Madurai polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Exilus: open
+- Arcane: Secondary Enervate
+
+Weapon figures land near 10% crit chance and 4.2x crit damage with a roughly
+4.85x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Hornet Strike plus Magnum Force are the base-damage stack; Barrel
+Diffusion plus Lethal Torrent are multishot; Primed Target Cracker is crit
+damage; Secondary Enervate lifts crit chance. Pathogen Rounds plus Primed
+Convulsion plus Primed Heated Charge build corrosive-heat.
+
+**Where it struggles.** Titania-locked. Low crit chance without Enervate.
+Magnum Force accuracy penalty.
+
+**Variants.** The Faerie Guns (#268) is the status area Dex Pixia.
+
+**Who runs this.** Titania players on Archon hunts.
+
+---
