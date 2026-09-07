@@ -1349,3 +1349,714 @@ heavy without companion mods, falls off in the deepest endurance.
 thinks about energy.
 
 ---
+
+### Capacitance Bulwark
+**Volt Prime. Discharge crowd control that refills your shields, plus an electric weapon overbuff.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Crowd control, trash nuke, electric weapon buff, shield-gate survivor |
+| Difficulty | Beginner to intermediate |
+| Investment | Medium. 3 forma, cast-speed shards optional |
+| Weapon reliance | Medium. Shock Trooper and Shield make the weapon the scaling damage; Discharge falls off |
+
+> Tenno. Discharge is a net. It stuns a room and, with the Capacitance augment,
+> converts that crowd control into shields that reset your gate. Keep one
+> Discharge live on at least one enemy at all times and you are effectively
+> immortal. Speed buffs your fire rate and reload, Shield stacks an electric
+> damage bonus and a crit multiplier, and Shock Trooper turns your weapon into an
+> electric monster.
+
+**The build**
+
+- Archon Stretch, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Shock Trooper, rank 3, unpolarised — augment. Adds an additive electric damage bonus to weapons
+- Capacitance, rank 3, unpolarised — augment. Discharge converts damage dealt into shields
+- Rolling Guard, rank 10, Vazarin polarity
+- Equilibrium, rank 10, Naramon polarity
+- Aura: Growing Power, Madurai polarity
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Concentration, Molt Augmented
+
+Arsenal figures land at roughly 170% Strength, 128% Duration, 145% Range, 100%
+Efficiency, with 370 health, 555 shield, 135 armor and an 855 energy pool.
+
+**How it works.** Discharge has a 20m base radius; 145% Range gives about 29m,
+enough to lock down a room without pulling in neighbouring areas and choking your
+spawn flow. Capacitance turns the damage Discharge deals into shields, so a live
+Discharge is a continuous shield-gate refill. Shield stacks up to six times when
+stationary for a +300% additive electric damage instance, separate from Shock
+Trooper's additive electric bonus. Strength scales the weapon buffs and Discharge
+damage but not Shield.
+
+**Ability priority.**
+
+1. Keep Shock Trooper up (hold 1), depending on your weapon.
+2. Keep Speed up (tap 2) for mobility, reload and melee speed.
+3. Keep Shield up (tap 3) and walk through it for protection, the electric bonus and the crit multiplier. Stack six while camping.
+4. Cast Discharge (4) whenever it lapses. Always have one active on at least one enemy for the shield refill and the crowd control.
+
+**Duration, Efficiency, Range, Strength.** Positive Duration for buff uptime; swap
+Transient Fortitude for Umbral Intensify plus Duration shards if you want to
+recast less. Efficiency stays neutral because Archon Stretch plus Equilibrium
+covers it. Range is tuned to lock one room, not the map; add Overextended over
+Primed Flow for open tiles. Strength is for the weapon buffs, since Discharge
+damage does not scale into high levels.
+
+**The mods.** *Transient Fortitude* is the Strength for the buffs, with *Primed
+Continuity* buying back its Duration. *Archon Stretch* is Range plus passive energy
+when it procs off 1 or 4. *Primed Flow* is the pool, and it is a flex slot for
+Range or Duration. *Equilibrium* converts orbs. *Shock Trooper* is the weapon
+electric bonus. *Capacitance* is the shield engine. *Rolling Guard* is the status
+cleanse for the moments Discharge is down.
+
+**Flexible slots.** Rolling Guard becomes Range or Strength if you are content
+casting 4 to gate. Natural Talent for cast speed if you skip cast-speed shards.
+The aura and exilus are both open: Growing Power for Strength, Primed Sure Footed
+for knockdowns.
+
+**Helminth.** Pick one. Subsume over 1 (keep Discharge for nuke and crowd control,
+replace Shock Trooper) or over 4 (keep Shock Trooper for weapon DPS).
+
+- **Nourish** for viral and an energy multiplier.
+- **Roar** for weapon DPS and a Discharge boost.
+- **Pillage** for armor strip plus shields plus status cleanse.
+- **Ensnare** for grouping to enable electric DoT chaining and headshots.
+
+**Archon Shards.** One to two Amber cast-speed. The rest flexible: parkour,
+Crimson strength or duration, violet melee crit for a melee loadout, violet
+primary electric for a gun loadout. Five total.
+
+**Arcanes.** Arcane Concentration for Duration, Molt Augmented for the Strength
+the weapon buffs want. Swap either for Molt Efficiency, Arcane Steadfast or Arcane
+Aegis.
+
+**Focus.** Madurai for cast speed and Strength. Vazarin for endurance i-frames.
+Zenurik for energy without Energize. Unairu for a shield and armor strip that
+works on acolytes and demolysts.
+
+**Weapon synergy.** Electric or viral-electric crit weapons that also want reload
+speed: Phantasma, Strun, Fulmin Prime, Bubonico alt-fire. For melee, only certain
+projectile melees benefit from all three of Shock Trooper influence, Speed's
+attack speed and Shield's crit multiplier: Innodem, Ceramic Dagger Incarnon, Syam,
+Hate Incarnon.
+
+**Staying alive.** The Capacitance shield loop plus Rolling Guard. It fails
+against Eximus that ignore the stun, in the gap if you let every Discharge lapse
+at once, and to toxin.
+
+**Energy.** Archon Stretch plus Equilibrium at neutral Efficiency. Add Arcane
+Steadfast or a Grimoire Xata Invocation if it runs thin.
+
+**Where it struggles.** Discharge damage is a low-level nuke only; past a point it
+is pure crowd control and the weapon does the killing. Open maps dilute the
+radius. Bosses ignore it.
+
+**Variants.** A pure weapon platform with Roar or Nourish. A pure Discharge nuke
+with Terrify. A speed meme with Molt.
+
+**Strengths and weaknesses.** Strong: reliable room lockdown, self-sustaining
+shields, strong electric weapon buffs, cheap and forgiving. Weak: ability damage
+does not scale, weapon-dependent at high levels, radius is tile-sensitive.
+
+**Who runs this.** Players who want a crowd-control frame that also survives
+forever and turns an electric weapon into a nuke.
+
+---
+
+### Wrathful Blades
+**Ash Prime. A red-crit Bladestorm that one-shots to level cap, plus a melee platform.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Single-target and multi-mark assassin, melee platform |
+| Difficulty | Intermediate |
+| Investment | Medium to high. 3 forma, an energy-max shard, melee crit-damage shards |
+| Weapon reliance | Medium. Bladestorm carries clears; a melee mops up and covers bosses |
+
+> Tenno. Wrathful Advance is a flat crit-chance number equal to your Strength, and
+> it lands on both your melee and Bladestorm. At high Strength that pushes
+> Bladestorm to tier-four red crits, tens of millions per hit, no priming needed.
+> Mark a room with 4, send the clones, and everything below level 500 is already
+> dead. Smoke Screen keeps you invisible while it happens.
+
+**The build**
+
+- Umbral Intensify, rank 10, unpolarised
+- Teleport Rush, rank 3, unpolarised — augment. Teleport grants a parkour buff and sets up finishers
+- Stretch, rank 5, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Steel Charge, Madurai polarity
+- Exilus: Preparation, unpolarised
+- Arcanes: Arcane Crepuscular, Arcane Fury
+
+Arsenal figures land at roughly 199% Strength, 227% Duration, 79% Range, 100%
+Efficiency, with 555 health, 465 shield, 185 armor and a 427 energy pool.
+
+**How it works.** Since the 2025 rework Bladestorm is an exalted: the Shadow Clones
+weapon takes melee mods and scales on melee crit, and Wrathful Advance's flat
+crit-chance boost (equal to final Strength) is what turns its low base crit into
+guaranteed red crits. The author's figure: at 388% final Strength, Bladestorm sits
+near 399% crit chance for tier-four crits and 20 to 30 million per initial hit
+with no priming, enough to one-shot every non-boss attenuated enemy to level cap.
+The listed build sits lower at 199% arsenal Strength and leans on Molt Augmented,
+Crepuscular and Madurai to climb. *Confidence: Approximation, per the author's
+Bladestorm spreadsheet.*
+
+**Ability priority.**
+
+1. Tap 1 for Wrathful Advance, keep it up. It doubles as mobility.
+2. Cast 2 for invisibility, recast as needed.
+3. Cast 3 (Teleport Rush) to finisher enemies and refresh invisibility. Casting 3 during Bladestorm makes you join in and finish faster.
+4. Optional: prime with viral and multiple statuses for the level-cap variant.
+5. Tap 4, sweep the cursor over enemies to mark them, tap 4 again to send the clones. Mop up with melee or gun.
+
+**Efficiency and energy.** Negative Efficiency is sustainable because Smoke Screen
+lasts long and refreshes off Teleport, and Bladestorm costs about 9.3 energy per
+mark while invisible for a guaranteed one-shot. Equilibrium is the main engine; a
+Synth Deconstruct companion feeds it, and Eximus kills drop two health orbs for
+110 energy. *Confidence: Approximation, per the author.*
+
+**Duration, Range, Strength.** High Duration for Smoke Screen and Wrathful Advance
+uptime. Range is dumped to 79% because Bladestorm's 50m base already covers a big
+room; go wide only for open-world (Overextended over Narrow Minded). Strength is
+the damage and the crit-chance boost, so it is the stat you push.
+
+**The mods.** *Umbral Intensify, Transient Fortitude* are the Strength core.
+*Narrow Minded, Primed Continuity* are the Duration, with Narrow Minded's Range
+cost being free here. *Primed Flow* is the pool. *Equilibrium* is the energy.
+*Teleport Rush* is a flex slot for finishers and parkour, swappable for Rolling
+Guard or an Augur mod. *Steel Charge* aura adds mod capacity and a little melee
+damage.
+
+**Flexible slots.** Brief Respite over Steel Charge for shield-gate backup, with
+Shuriken as an on-demand shield refill. Rolling Guard for the random AoE status
+procs that get through invisibility. Seeking Shuriken for boss and Disruption
+armor strip. The exilus is open.
+
+**Arcanes.** Arcane Crepuscular for 30% Strength and a flat crit-damage add while
+invisible, which is a large Bladestorm buff given its low base crit damage. Arcane
+Fury for melee damage. Arcane Trickery is a strong swap: at this kill rate it
+keeps near-permanent, undispellable invisibility. Arcane Blade Charger instead of
+Fury for a gun-leaning Ash.
+
+**Focus.** Madurai for 40% Strength and 50% cast speed, and it is the Cascade
+meta. Naramon to hold Bladestorm combo without Melee Crescendo. Vazarin for
+endurance i-frames. Unairu for free knockdown resist and a full strip.
+
+**Archon Shards.** One Tauforged Azure energy-max shard to reach 500 energy, which
+doubles the value of violet melee crit-damage shards. Two to four violet melee
+crit-damage. The rest in Crimson Duration. Five total.
+
+**Weapon synergy.** Finisher weapons benefit from Teleport finishers: hammers and
+rapiers at 32x back-finisher, scythes at 14x. Slash heavy-attack melees pair with
+Ash's slash passive; x12 heavy setups (Glaive Prime, Syam, Sepfahn) are strong. A
+primer is optional for the level-cap variant.
+
+**Staying alive.** Near-permanent invisibility plus Rolling Guard or Vazarin
+Sling. It fails to AoE and environmental status procs while cloaked, and to
+nullifiers stripping Smoke Screen (Arcane Trickery does not have that problem).
+
+**Energy.** Equilibrium plus a Synth Deconstruct pet. Backups: Grimoire Xata
+Invocation, Energy Nexus, Zenurik.
+
+**Where it struggles.** Bosses and Demolysts resist the Bladestorm one-shot
+without heavy priming, so single-target boss damage is on your melee. Open worlds
+need a Range rebuild.
+
+**Variants.** A min-maxed one-shot-level-cap Bladestorm build. A gas Bladestorm
+for dense survival. A Savage Silence variant. A pure gun platform with Eclipse or
+Roar.
+
+**Strengths and weaknesses.** Strong: genuine level-cap one-shot clear, permanent
+stealth, low priming needs, flexible melee platform. Weak: boss damage needs the
+melee, Range rebuild for open maps, exalted now means Shadow Clones needs its own
+mods and forma.
+
+**Who runs this.** Players who want to point at a room and have it already be
+dead, while invisible.
+
+---
+
+### Critical Infestation
+**Nidus Prime. A Virulence crit engine, Larva grouping, and a parasitic tank that cannot be status-locked.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Primary-weapon crit buff, grouping, bruiser tank |
+| Difficulty | Intermediate. Stack management is constant |
+| Investment | Low to medium. 4 forma, one armour shard is mandatory for the arcane |
+| Weapon reliance | High. Teeming Virulence and Parasitic Link exist to make your primary hit harder |
+
+> Tenno. Nidus feeds. Larva balls a crowd, Virulence stabs through it for
+> Mutation stacks and energy, and Teeming Virulence turns those stacks into flat
+> primary crit chance. Parasitic Link chains you to your companion for status
+> immunity and a multiplicative damage buff. Parasitic Vitality turns stacks into
+> tens of thousands of health, and Arcane Persistence caps incoming damage while
+> your armour is high. Keep the stacks, keep a link, and you do not die.
+
+**The build**
+
+- Teeming Virulence, rank 3, unpolarised — augment. Mutation stacks grant flat primary crit chance
+- Parasitic Vitality, rank 3, unpolarised — augment. Replaces Vitality; stacks grant large health
+- Larva Burst, rank 3, unpolarised — augment. Larva deals scaling damage
+- Stretch, rank 5, unpolarised
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Overextended, rank 5, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Toxic Flight, Naramon polarity
+- Arcanes: Arcane Persistence, Arcane Bellicose
+
+Arsenal figures land at roughly 154% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with 925 health, 525 armor, no shields and a 190 energy pool.
+
+**How it works.** Virulence returns 15.5 energy per enemy hit, so hitting five
+enemies in a Larva refunds 78 energy against its cost. Stacks drive everything:
+Virulence and Larva Burst damage, the Teeming Virulence crit chance on your
+primary, and the Parasitic Vitality health pool. Arcane Persistence caps damage
+taken at 500/s while armour is above 700, which Nidus reaches with one Tauforged
+Azure shard on top of his 525 base. Parasitic Link gives status immunity and a
+multiplicative damage buff to you and the linked ally.
+
+**Ability priority.**
+
+1. Cast Larva (2) to group, catching at least five enemies.
+2. Cast Virulence (1) into the ball for kills, stacks and energy.
+3. Hold Link (3) onto your companion once you have a stack, for the Strength and damage buff plus status immunity.
+4. Cast Ravenous (4) for crowd control, healing and AoE.
+5. Repeat 2 and 1 to max stacks, then Virulence every 10 to 15 seconds to refresh Teeming Virulence and recover lost stacks.
+
+**Duration, Efficiency, Range, Strength.** Duration is only for Link and Ravenous
+uptime. Minimum Efficiency is fine because Virulence refunds energy and 4 is free.
+Range is essential for Larva's pull and Link distance, and is pushed hard. Strength
+scales Virulence, Larva Burst, the crit chance and the health pool.
+
+**The mods.** *Blind Rage* is the Strength. *Overextended, Stretch* are the Range
+for Larva. *Archon Continuity* is Duration plus a corrosive spread. *Hunter
+Adrenaline* is optional insurance energy if you fumble a Virulence. *Teeming
+Virulence, Parasitic Vitality, Larva Burst* are the three augments and the flex
+zone: none is mandatory. *Corrosive Projection* aura for a 1.8x lift on armored
+targets.
+
+**Flexible slots.** The augment slots are all swappable. Drop Teeming Virulence if
+your primary has near-zero base crit, and reduce Strength to just clear the 180%
+DR threshold. Abundant Mutation for a 500-stack health meme. Stretch becomes
+Archon Intensify (more Strength via Ravenous) if you do not need max Range. The
+exilus and aura are open.
+
+**Helminth.** Nidus has a synergistic kit and is best with no subsume. If you must,
+subsume over 4:
+
+- **Roar** to boost Virulence, Larva Burst (double-dips toxin), and your weapon.
+- **Nourish** for viral and energy.
+- **Gloom** for crowd control and healing, sustained by Virulence energy.
+- **Tharros Strike** for a full shield and armor strip at 200% Strength, hitting the whole Larva in a cone.
+
+**Archon Shards.** One Amber cast-speed, one Tauforged Azure armour (mandatory for
+Arcane Persistence). The rest flexible: parkour, violet primary electric for a gun
+platform, or Emerald toxin for Larva Burst. Five total.
+
+**Arcanes.** Arcane Persistence for the 500/s damage cap, Arcane Bellicose for 72%
+Strength. Arcane Grace is a strong swap if your max health clears about 8,334,
+since it then out-heals most incoming damage.
+
+**Focus.** Any. Madurai for Strength and cast speed, Vazarin for i-frames, Zenurik
+for energy.
+
+**Weapon synergy.** Primaries benefit most from Teeming Virulence's crit chance and
+optional violet electric shards. Parasitic Link's multiplier ignores Condition
+Overload, so favour weapons that do not lean on Galvanized Aptitude. Coda Hema
+(headshot lifesteal, multiplicative Galvanized Aptitude) is a standout. Zymos on a
+linked, stunned target spams homing spores.
+
+**Staying alive.** The Parasitic Vitality health pool plus Arcane Persistence's
+damage cap plus Link status immunity. It fails if you let stacks decay below the
+health threshold, or if you have no link active and eat a status you cannot
+cleanse.
+
+**Energy.** Virulence into a five-plus Larva refills you. Hunter Adrenaline is the
+backstop.
+
+**Where it struggles.** Mobile, low-density content where you cannot ball enough
+enemies to feed stacks. Bosses. The frame wants a static, dense mission to be at
+its best.
+
+**Variants.** A max-Strength Roar variant. A Viral Reave meme that one-shots
+inside Larva.
+
+**Strengths and weaknesses.** Strong: large primary crit buff, strong grouping,
+very hard to kill, status-immune, cheap on forma. Weak: density-dependent, boss-
+blind, energy and stacks both punish sloppy play early.
+
+**Who runs this.** Players who solo endurance survival and want a bruiser that
+also makes their primary weapon crit.
+
+---
+
+### Fire and Brimstone
+**Uriel. Three demon passives that feed a Brimstone nuke and a heat weapon platform.**
+
+| | |
+|--|--|
+| Content | Steel Path, Level cap, Weapon platform |
+| Role | Hybrid caster nuke and mobile weapon platform |
+| Difficulty | Advanced. Three passive demons and four active abilities to track |
+| Investment | High. 5 forma, two cast-speed shards |
+| Weapon reliance | Medium to high. Brimstone nukes; the Vythelas heat buff scales your weapon between casts |
+
+> Tenno. Uriel fights with three demons. Catenach chains and slows a group so one
+> kill spreads to all of them. Gulphagor marks a target that drops six health orbs
+> on death, which Equilibrium turns into your whole energy bar every four seconds.
+> Vythelas leaves runes that buff your fire rate and stack a permanent heat
+> bonus. On top of that, Infernalis flies you around, Remedium makes you immortal
+> and refills shields, Demonium stacks a damage vulnerability, and Brimstone
+> carpets the floor in escalating heat.
+
+**The build**
+
+- Archon Vitality, rank 10, Vazarin polarity — doubles heat procs
+- Archon Intensify, rank 10, Madurai polarity — Strength on healing, which is constant here
+- Stretch, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Overextended, rank 5, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Camisado, Arcane Hot Shot
+
+Arsenal figures land at roughly 184% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with about 1332 health, 666 shield, 105 armor and a 427 energy pool.
+
+**How it works.** The three demons stay active as long as they live, even if you
+subsume their linked ability, so you cast 2 often to heal and revive them, which
+also triggers Archon Intensify continuously. Gulphagor's marked kills are the
+energy engine: six health orbs and two energy orbs every four seconds, about 430
+energy through Equilibrium. Vythelas runes give a fire-rate buff and a heat buff
+coded like Cyte's resupply, which currently appears to last indefinitely once it
+sticks. Demonium (3) applies an AoE damage vulnerability and charges Brimstone
+fastest. Brimstone (4) covers a large area in guaranteed-heat damage that
+escalates over time. *Confidence: Approximation, per the author, and several
+interactions are flagged as possible bugs.*
+
+**Ability priority.**
+
+1. Keep Infernalis (1) up and jump-dodge to fly.
+2. Tap Remedium (2) on shield loss or when you need to be immortal, and often to heal demons. Restoring 1150+ shield for the full 2.5s gate needs Archon Vitality's 1332 health and about 173% Strength.
+3. Tap Demonium (3) constantly for the vulnerability and Brimstone charge.
+4. Tap Brimstone (4) over the enemy area.
+
+**Duration, Efficiency, Range, Strength.** Duration wants 155% minimum, ideally
+200%+, for Infernalis, Brimstone and the demon timers. Efficiency is negative
+because Gulphagor refills the bar. Range feeds Brimstone coverage and Catenach's
+chain; run negative Range only if you subsume Brimstone away. Strength is the
+priority stat, scaling every demon effect, Brimstone, the vulnerability and the
+shield restore.
+
+**The mods.** *Blind Rage* is the Strength, with *Archon Intensify* adding more
+through constant demon healing. *Primed Continuity* holds Duration. *Overextended,
+Stretch* set Brimstone's Range. *Primed Flow* is the pool. *Equilibrium* is the
+engine paired with Gulphagor. *Archon Vitality* doubles heat procs, which is
+direct Brimstone and Vythelas-weapon scaling. *Corrosive Projection* strips armor
+before heat does its partial strip.
+
+**Flexible slots.** The exilus is fully open: Power Drift, Cunning Drift,
+Firewalker, Primed Sure Footed. Arcane Concentration over Hot Shot for a pure
+Brimstone build.
+
+**Helminth.** Pick one, based on focus.
+
+- Over 1 for a camping Brimstone build: **Bright Bonnet** for energy and Strength, or **Sickening Pulse** to double all heat statuses in a large area.
+- Over 4 for a mobile weapon platform: **Thermal Sunder** with Thermal Transfer for a heat add that double-dips Vythelas, or **Nourish** for viral and more energy.
+
+**Archon Shards.** At least two cast-speed for 2, 3 and 4. The rest flexible:
+parkour to fly faster, Duration, Strength, or one or two violet Equilibrium shards
+to lighten the Equilibrium dependence in general content. Five total.
+
+**Arcanes.** Arcane Camisado for a fast 60% Strength stack from the demons, Arcane
+Hot Shot for 300% weapon crit chance stacked by his abilities. Swap Hot Shot for
+Arcane Concentration on a Brimstone-only build, or Molt Augmented for
+unconditional Strength.
+
+**Focus.** Madurai for Strength and cast speed fits the cast-heavy playstyle.
+
+**Weapon synergy.** Vythelas's heat buff is the Cyte resupply family, so run
+weapons that want it: heat mods are mandatory (they double-dip the heat DoT),
+faction mods triple-dip. Kuva Sobek with Acid Shells, Ocucor viral-heat, Detron.
+The author's caveat: Vythelas is inconsistent to keep up, so pair it with weapons
+that are already strong (incarnons) so a dropped buff does not leave you helpless.
+Uriel can fire alt-fire weapons like Bubonico while flying.
+
+**Staying alive.** Remedium's on-cast immortality and shield refill, backed by the
+1332 health pool. It fails if you cannot keep killing Gulphagor's marks and run
+dry, since Remedium then has no energy.
+
+**Energy.** Gulphagor plus Equilibrium. Everything depends on killing a marked
+target every four seconds.
+
+**Where it struggles.** The complexity is the cost: two subsystems (demons and
+actives) to track, and a weapon buff you have to physically chase. Sparse content
+starves the energy engine.
+
+**Variants.** A pure Brimstone camping build. A pure weapon platform with Thermal
+Transfer.
+
+**Strengths and weaknesses.** Strong: huge energy economy, an area nuke, strong
+weapon scaling, immortal on demand, very mobile. Weak: high tracking load, buff-
+chasing, energy engine needs consistent kills, several load-bearing interactions
+are unconfirmed bugs.
+
+**Who runs this.** Players who want a busy, high-ceiling frame that nukes and
+platforms at once.
+
+---
+
+### Glass Storm
+**Gara Prime. A Shattered Lash influence nuke and a Splinter Storm damage field that follows you.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Melee-influence map nuke, passive damage aura, objective defense |
+| Difficulty | Intermediate |
+| Investment | Medium to high. 4 forma, cast-speed and duration shards |
+| Weapon reliance | Low to medium. Shattered Lash is exalted; a primer or influence source helps it |
+
+> Tenno. Gara turns the room to glass. Shattered Lash with melee influence sweeps
+> a wide arc and nukes maps with a single button. Splinter Storm stacks with no
+> ceiling into a moving field that kills what comes near you and cuts your damage
+> taken by 90%. Mass Vitrify walls an objective, and smashing that wall with
+> Shattered Lash feeds Splinter Storm and clears the area. Spectrorage covers
+> crowd control and, with its augment, keeps the whole squad's energy topped up.
+
+**The build**
+
+- Shattered Storm, rank 3, unpolarised — augment. Spreads Splinter Storm and its damage vulnerability onto enemies
+- Spectrosiphon, rank 3, unpolarised — augment. Spectrorage drops energy orbs for the squad
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Overextended, rank 5, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Ice Spring, unpolarised
+- Arcanes: Arcane Sculptor, Molt Augmented
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with 445 health, 370 shield, 200 armor and a 641 energy pool.
+
+**How it works.** Range is the priority: it sets Shattered Lash reach (about 25m)
+and Mass Vitrify's explosion radius (about 37.5m). Shattered Lash is an exalted
+now, crit and status viable, and pairs with electric influence for map-wide
+clear. Splinter Storm stacks indefinitely, moving with you, giving 90% damage
+reduction at 134% Strength and a growing damage field. Arcane Sculptor locks you
+to 175% Efficiency for 12 seconds after casting 3 or 4, which is what lets Blind
+Rage run at 45% arsenal Efficiency with no energy problems.
+
+**Playstyle.** Invert tap/hold for Gara so tap is the Sweeping Slash version.
+
+1. Cast Splinter Storm (2) on yourself, your sentinel, allies and the objective.
+2. Cast Spectrorage (3) nearby for crowd control and energy orbs.
+3. Cast Mass Vitrify (4) and immediately press 4 again to end the expansion with enemies outside the wall.
+4. Cast Shattered Lash (1) at the wall to shatter it, nuke the area and build Splinter Storm stacks.
+5. Spam 1 at enemies to nuke; stand near heavy targets to let Splinter Storm grind them down.
+
+**Survivability.** Shield gating with Brief Respite and Catalyzing Shields: casting
+1 generates shields, and Catalyzing Shields locks the gate to 1.33s regardless of
+pool size. Splinter Storm's 90% damage reduction is a second layer for non-
+endurance. Rolling Guard, Arcane Aegis and Vazarin Sling are backups.
+*Confidence: Approximation, per the author.*
+
+**Duration, Efficiency, Range, Strength.** Duration gives leeway between Mass
+Vitrify casts so you do not lose Splinter Storm stacks; Narrow Minded if you want
+long uptime without recasting. Efficiency is solved by Arcane Sculptor. Range is
+maxed. Strength boosts Shattered Lash damage (which feeds Splinter Storm) and the
+damage vulnerabilities.
+
+**The mods.** *Blind Rage* is the Strength, viable only because *Arcane Sculptor*
+covers the Efficiency. *Overextended, Archon Stretch* set the Range, with Archon
+Stretch also feeding passive energy off electric-modded Shattered Lash. *Primed
+Continuity* holds Splinter Storm duration. *Primed Flow* is the pool.
+*Catalyzing Shields* is the shield-gate lock. *Brief Respite* aura feeds the gate.
+*Shattered Storm* and *Spectrosiphon* are both optional augments.
+
+**Flexible slots.** Shattered Storm can become Narrow Minded for long Splinter
+Storm uptime, or an Augur mod. Spectrosiphon becomes Equilibrium if you subsume
+Spectrorage. Mending Splinters for a support role. Rolling Guard for high-level
+status cleanse. The aura and exilus are open.
+
+**Helminth.** Pick one. Subsume over Spectrorage, and swap Spectrosiphon for
+Equilibrium.
+
+- **Roar** boosts Shattered Lash raw damage for Splinter Storm, double-dips its status, triple-dips influence.
+- **Nourish** adds viral to Shattered Lash and an energy multiplier.
+- **Pillage** strips armor and shields and refills your shields.
+
+**Archon Shards.** One to two Tauforged Amber cast-speed. Three to four Tauforged
+Crimson Duration for Splinter Storm and buff uptime, or violet melee crit-damage
+for Shattered Lash. Five total.
+
+**Arcanes.** Arcane Sculptor for the Efficiency lock, Molt Augmented for 60%
+Strength in longer missions. Arcane Blade Charger or Arcane Fury to boost the Mass
+Vitrify explosion. Arcane Circumvent for a roll-strip.
+
+**Focus.** Any. Vazarin Sling is the strongest survival option. Madurai for the
+Strength and cast speed.
+
+**Companion.** Use a sentinel, not a moving pet, so you can keep Splinter Storm on
+it permanently for a second overlapping damage source. Diriga with Arc Coil for
+priming, Helios Prime with Vicious Bond for passive armor strip, Nautilus for
+grouping. Equip Seismic Bond for free Efficiency during Mass Vitrify.
+
+**Staying alive.** Shield gating plus Splinter Storm's 90% DR. It fails in the gap
+if you cannot generate shields (no enemies to hit with 1), and against toxin.
+
+**Energy.** Arcane Sculptor's Efficiency lock plus Spectrosiphon or Equilibrium.
+
+**Where it struggles.** A cold start before Splinter Storm has stacks. Very open
+tiles where Mass Vitrify cannot corral enemies. Bosses.
+
+**Variants.** A pure Shattered Lash spam build. A pure Splinter Storm build.
+
+**Strengths and weaknesses.** Strong: one-button map nuke, a passive damage field
+that also tanks, strong objective defense, squad energy support. Weak: ramp-up
+time, tile-sensitive, boss-blind, exalted Shattered Lash needs its own mods.
+
+**Who runs this.** Players who want a defense and survival frame that clears maps
+by holding one button and stops taking damage.
+
+---
+
+### Shield of Iron
+**Rhino Prime. Stacked-armour Iron Skin into the millions, with a usable Roar.**
+
+| | |
+|--|--|
+| Content | Steel Path, Level cap, Min-max meme |
+| Role | Set-and-forget tank, team damage buff |
+| Difficulty | Intermediate. The setup combo has a strict order |
+| Investment | High. 5 forma, as many strength shards as you own |
+| Weapon reliance | Total. Rhino does nothing to enemies except buff your damage |
+
+> Tenno. Iron Skin scales on armour, and armour here comes from four stacking
+> sources at once: Parasitic Armor, Ironclad Charge, Health Conversion and the
+> arcanes. Because Strength multiplies Iron Skin three separate times, the health
+> bar you build is a cubic function of Strength: millions of effective hit points
+> from one setup. Do the combo in order, then forget about dying and keep Roar up
+> for the squad.
+
+**The build**
+
+- Ironclad Charge, rank 3, Zenurik polarity — augment. Charge grants a large temporary total-armour bonus per enemy hit
+- Health Conversion, rank 5, Vazarin polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Iron Shrapnel, rank 0, unpolarised — augment. Lets you cancel Iron Skin to recast on your timing
+- Umbral Intensify, rank 10, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Primed Redirection, rank 10, Vazarin polarity
+- Aura: Growing Power, Madurai polarity
+- Exilus: Power Drift, Zenurik polarity
+- Arcanes: Arcane Battery, Arcane Expertise
+
+Arsenal figures land at roughly 313% Strength, 128% Duration, 100% Range, 45%
+Efficiency, with 370 health, a 1554 shield pool, 290 armor and a 150 energy pool
+(Arcane Battery raises the effective pool to around 1000 once armour is high).
+
+**How it works.** Iron Skin's value is base armour times a stack of multipliers,
+and Strength enters that product three times: Parasitic Armor scales on Strength
+(about 6185 armour at 398%), Ironclad Charge scales on Strength (about 199% total-
+armour increase per enemy hit), and Iron Skin itself takes Strength as a final
+multiplier. Primed Redirection feeds Parasitic Armor through shield capacity, and
+Arcane Expertise converts Strength into more shield on top. Arcane Battery gives up
+to 1000 energy max at high armour, which frees the Primed Flow slot.
+
+**The setup combo (order matters).**
+
+1. At mission start, cast Parasitic Armor then Iron Skin for about 30k as a buffer, which also maxes Arcane Battery.
+2. Refill energy (Zenurik, Grimoire Xata Invocation, Tenet Glaxion).
+3. Optional extra armour: health orbs for Health Conversion, melee kills for Melee Fortification, and so on.
+4. Group a crowd (Magus Anomaly, Exodia Hunt, Vazarin snare).
+5. Cast Charge through the group for the Ironclad Charge bonus (12s).
+6. Cast Iron Skin twice: once to dispel, once to recast while Ironclad Charge is still up, locking the inflated armour into the Iron Skin value.
+7. Keep Roar up.
+
+**Iron Skin numbers at 398% Strength (author's figures).**
+
+- Direct cast: about 7,950
+- After charging one enemy: about 14k
+- After Parasitic Armor, no charge: about 74k
+- Parasitic Armor plus charging 20 enemies plus Health Conversion: about 3.18 million
+- All armour sources stacked: over 5 million
+
+For reference, one million Iron Skin lasts roughly five minutes of standing still
+under fire in base Steel Path Grineer survival. *Confidence: Approximation, per
+the author.*
+
+**Duration, Efficiency, Range, Strength.** Duration keeps Roar near 40s and gives
+comfortable Ironclad Charge and Parasitic Armor timers for setup. Efficiency is
+floored; the combo costs about 200 energy, so you need a start-of-mission energy
+source. Range is untouched at 100% for a decent Charge line and Roar radius.
+Strength is the entire build.
+
+**The mods.** *Transient Fortitude, Blind Rage, Umbral Intensify* are the Strength
+stack, with *Primed Continuity* holding Duration. *Ironclad Charge* is the
+mandatory armour multiplier. *Health Conversion* is a stacking armour source.
+*Primed Redirection* deepens the shield pool for Parasitic Armor. *Iron Shrapnel*
+is optional recast control. *Growing Power* aura for another 25% Strength on proc.
+
+**Flexible slots.** Iron Shrapnel becomes Augur Message (Roar uptime), Augur
+Secrets (Strength) or Equilibrium (energy). Umbral Fiber and armor mods are
+deliberately excluded: base armour is only 290, so they add almost nothing next to
+the Strength sources.
+
+**Helminth.** Parasitic Armor is the build. Alternatives if you cannot get it:
+Elemental Ward (Cold) for about 1291 armour, then Defy, then Warcry. Empower works
+but needs a recast before every ability.
+
+**Archon Shards.** One or two Amber cast-speed. Every remaining slot is Crimson
+strength, because Strength triple-dips Iron Skin. Five total.
+
+**Focus.** Madurai for a 40% Strength Sling perk, which is the best choice for
+maximising Iron Skin. Vazarin for a grouping ability. Zenurik for energy plus 20%
+Strength on next cast.
+
+**Weapon synergy.** None from the frame beyond Roar. A slam melee with Melee
+Fortification adds more armour to the stack. Otherwise bring whatever kills.
+
+**Staying alive.** Iron Skin, and only Iron Skin. It has no innate regen, so when
+the pool is gone you redo the combo. Toxin bypasses it entirely, so bring a way to
+cleanse or avoid toxin.
+
+**Energy.** Arcane Battery plus a start-of-mission source. Once Iron Skin is in the
+millions you only cast Roar every 30s.
+
+**Where it struggles.** Toxin. Endurance past the point where a single hit exceeds
+even a multi-million pool. The setup combo is a ritual you repeat every few
+minutes, and a botched order gives a fraction of the value.
+
+**Variants.** A non-helminth Iron Skin tank. A Roar buff build sharing polarities.
+An endurance Nourish non-tank variant. A Mecha Pulse armour-meme variant.
+
+**Strengths and weaknesses.** Strong: effectively unkillable in most content once
+set up, strong team Roar, conceptually simple. Weak: does zero damage itself,
+toxin-vulnerable, setup ritual, no regen so the pool is a countdown.
+
+**Who runs this.** Players who want to not think about survival at all and just
+carry a weapon, plus a Roar for the squad.
+
+---
