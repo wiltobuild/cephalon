@@ -17272,3 +17272,457 @@ targets.
 **Who runs this.** Snipers who want statuses that keep working after the shot.
 
 ---
+
+### The Live Round
+**Kuva Sobek. Electric Acid Shells chain nuke for Cyte-09's resupply ammo.**
+
+| | |
+|--|--|
+| Content | Steel Path, Void Cascade, Level cap |
+| Role | Chain-detonation nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, MR 15 |
+| Weapon reliance | High. Cyte-09-only |
+
+> Tenno. Cyte-09's Resupply loads electric ammo that chains between enemies. This
+> Sobek build turns each of those chains into an Acid Shells detonation across
+> the pack.
+
+**The build**
+
+- Acid Shells, rank 5, unpolarised
+- Shotgun Elementalist, rank 5, unpolarised
+- Primed Ravage, rank 10, Madurai polarity
+- Shotgun Barrage, rank 5, unpolarised
+- Primed Charged Shell, rank 10, Naramon polarity
+- Primed Cleanse Orokin, rank 10, Madurai polarity
+- Galvanized Savvy, rank 10, Vazarin polarity
+- Galvanized Hell, rank 10, Madurai polarity
+- Narrow Barrel, rank 5, Naramon polarity
+- Arcane: Primary Deadhead
+
+Weapon figures land near 21% crit chance and 4.83x crit damage at a 4.75 fire
+rate. Confidence: Approximation, per the author.
+
+**How it works.** Galvanized Hell helps land the first kill that starts the
+chain, but it does not touch Acid Shells or the resupply chaining. Progenitor
+barely matters; cold gives magnetic for overguard and is shared with Saryn,
+toxin makes corrosive with the electric for a strip, magnetic is the flexible
+pick. Run violet primary-electric shards.
+
+**Where it struggles.** Cyte-09-locked. Acid Shells' Steel Path scaling caveats
+apply.
+
+**Variants.** The Acid Chain (#226) is the Saryn version; The Demon Shell (#228)
+is the Uriel heat version.
+
+**Who runs this.** Cyte-09 players who want a matched chain-nuke shotgun.
+
+---
+
+### The Blast Rot
+**Torid Incarnon. Blast-viral chaining for Gauss with Xata's Whisper or Thermal Transfer.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Trash clear, chain nuke |
+| Difficulty | Advanced |
+| Investment | Heavy. 7 forma, MR 4 |
+| Weapon reliance | High. Needs a blast source on the frame |
+
+> Tenno. Torid's Incarnon beam chains off the blast it creates on impact. Pair
+> it with Gauss running Xata's Whisper, or any frame with Thermal Transfer, so
+> every hit is a blast proc that spreads the chain.
+
+**The build**
+
+- Rifle Elementalist, rank 5, unpolarised
+- Primed Bane of Grineer, rank 10, Madurai polarity
+- Primed Firestorm, rank 10, Madurai polarity
+- Primed Cryo Rounds, rank 10, Vazarin polarity
+- Vital Sense, rank 5, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Amalgam Serration, rank 10, Madurai polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Merciless
+
+Weapon figures land near 45% crit chance and 4.4x crit damage with a roughly
+2.55x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Primed Firestorm widens the initial area so more enemies get the
+blast that starts the chain (swap for Bladed Rounds or Hammer Shot if you lack
+it). Primed Cryo Rounds combines with the frame's heat for blast; Galvanized
+Chamber is multishot; Critical Delay and Vital Sense are crit.
+
+**Where it struggles.** Dead without the external blast source. Charge uptime.
+Slow fire rate.
+
+**Variants.** The Chaining Rot (#194), The Toxic Cloud (#218) and The Arc Rot
+(#221) are the other Torid tunes.
+
+**Who runs this.** Gauss and Xata players who want a Torid that spreads.
+
+---
+
+### The Plasma Dart
+**Dera Vandal Incarnon. A silent, no-recoil viral-heat beam of plasma darts.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Sustained DPS, comfort pick |
+| Difficulty | Beginner |
+| Investment | Medium. 5 forma, MR 7 |
+| Weapon reliance | Standalone |
+
+> Tenno. Dera Vandal's Incarnon is smooth, silent and recoil-free. It is not a
+> top-tier nuke, but viral-heat plus Galvanized Aptitude makes it a comfortable
+> Steel Path workhorse.
+
+**The build**
+
+- Vital Sense, rank 5, Madurai polarity
+- Critical Delay, rank 5, unpolarised
+- Primed Shred, rank 10, Madurai polarity
+- Thermite Rounds, rank 3, unpolarised
+- Malignant Force, rank 3, unpolarised
+- Primed Cryo Rounds, rank 10, Vazarin polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Crux
+
+Weapon figures land near 24% crit chance and 4.4x crit damage at a 15.2 fire
+rate. Confidence: Approximation, per the author.
+
+**Evolutions.** Paragon Essence at II, Swift Deliverance at III, High Ground at
+IV.
+
+**The mods.** Galvanized Chamber is multishot; Galvanized Aptitude is
+damage-per-status; Critical Delay and Vital Sense are crit; Primed Shred adds
+fire rate and punch-through. Malignant Force plus Primed Cryo Rounds are viral,
+Thermite Rounds is heat.
+
+**Where it struggles.** Middling damage ceiling. Charge uptime.
+
+**Who runs this.** Players who value a quiet, flat-shooting rifle over raw
+numbers.
+
+---
+
+### The Viral Breath
+**Lizzie. A zero-forma-friendly viral-heat flamethrower with Overcharge ramp.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Close-range status DPS |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma, no MR requirement |
+| Weapon reliance | Standalone |
+
+> Tenno. The straightforward Lizzie build: viral-heat, Galvanized Aptitude for
+> the damage-per-status, and Primary Overcharge ramping as you hold the trigger.
+> No frame lock.
+
+**The build**
+
+- Vile Acceleration, rank 5, Naramon polarity
+- Rifle Elementalist, rank 5, Madurai polarity
+- Malignant Force, rank 3, unpolarised
+- Rime Rounds, rank 3, unpolarised
+- Vital Sense, rank 5, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Exilus: Sinister Reach, unpolarised
+- Arcane: Primary Overcharge
+
+Weapon figures land near 105% crit chance and 5.06x crit damage at a 13.6 fire
+rate. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Aptitude and Chamber are the damage and multishot core;
+Rifle Elementalist boosts the status damage; Malignant Force plus Rime Rounds
+build viral, with heat innate. With Nourish, drop the viral mods for Magnetic
+Capacity, Serration, Bladed Rounds or Primed Bane.
+
+**Where it struggles.** Very short range. Overcharge ramp resets on trigger
+release.
+
+**Variants.** The Dragon Leash (#210) is the Temple-and-Hot-Shot heat-blast
+Lizzie.
+
+**Who runs this.** Players who want a Lizzie that works on any frame.
+
+---
+
+### The Volley Fan
+**Artemis Bow Prime. A low-forma general-use volley with blast or electric.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Ability-weapon DPS, crowd or single target |
+| Difficulty | Beginner |
+| Investment | Low. 2 forma, Ivara only |
+| Weapon reliance | High. Ivara-locked |
+
+> Tenno. The plain Artemis Bow build: no Concentrated Arrow, just a wide seven-
+> arrow volley. Blast pairs with Xata's Whisper for area; electric hits harder
+> on single targets.
+
+**The build**
+
+- Vile Acceleration, rank 5, Naramon polarity
+- Hammer Shot, rank 3, unpolarised
+- Thermite Rounds, rank 3, unpolarised
+- Rime Rounds, rank 3, unpolarised
+- Vital Sense, rank 5, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Serration, rank 10, Madurai polarity
+- Exilus: Terminal Velocity, unpolarised
+- Arcane: Longbow Sharpshot
+
+Weapon figures land near 75% crit chance and 5.6x crit damage with a roughly
+2.5x multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Use Serration, not Galvanized Aptitude, which currently does not
+apply to Artemis Bow. Galvanized Chamber is multishot; Critical Delay and Vital
+Sense are crit; Thermite Rounds plus Rime Rounds make blast. For electric, swap
+for High Voltage plus Stormbringer.
+
+**Element options.** Blast with Xata's Whisper subsumed makes the volley area
+(Xata procs off the blast proc). Electric is the single-target choice.
+
+**Where it struggles.** Ivara-locked. Draw speed. Volley spread wastes arrows
+at range.
+
+**Variants.** The Concentrated Bolt (#216) is the Concentrated Arrow burst
+build.
+
+**Who runs this.** Ivara players who want a simple bow without the augment.
+
+---
+
+### The Cube Beam
+**Tenet Quanta. A viral-electric crit beam with flexible magnetic progenitor.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Beam DPS, single target and crowd |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 16 |
+| Weapon reliance | Standalone |
+
+> Tenno. Tenet Quanta is a strong crit beam that also lobs alt-fire cubes.
+> Magnetic progenitor keeps every element combination open and boosts damage to
+> shields and overguard.
+
+**The build**
+
+- Primed Shred, rank 10, Madurai polarity
+- Stormbringer, rank 5, Naramon polarity
+- Rime Rounds, rank 3, Madurai polarity
+- Malignant Force, rank 3, Madurai polarity
+- Vital Sense, rank 5, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Exilus: Sinister Reach, Naramon polarity
+- Arcane: Primary Overcharge
+
+Weapon figures land near 93% crit chance and 5.5x crit damage at a 13.5 fire
+rate. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Aptitude is +240% at three statuses plus status chance
+(flexible for Serration if you dislike maintaining stacks); Galvanized Chamber
+is multishot and double-dips beam status; Critical Delay and Vital Sense are
+crit; Primed Shred is punch-through. Malignant Force plus Rime Rounds are viral,
+Stormbringer weights electric.
+
+**Progenitor.** Magnetic, for flexibility and the overguard and shield bonus.
+
+**Where it struggles.** Beam range. High MR gate.
+
+**Who runs this.** Players who want a crit beam that also deals with eximus.
+
+---
+
+### The Crystal Round
+**Stahlta. A raw viral-heat charged rifle built for headshot bursts.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Precision DPS, single target |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 10 |
+| Weapon reliance | Standalone |
+
+> Tenno. Stahlta's charged alt-fire fires a crystalline slug that detonates.
+> Built raw viral-heat with a solid crit engine, it punches through single
+> targets and small clusters.
+
+**The build**
+
+- Vile Acceleration, rank 5, unpolarised
+- Primed Cryo Rounds, rank 10, Vazarin polarity
+- Malignant Force, rank 3, Madurai polarity
+- Amalgam Serration, rank 10, Madurai polarity
+- Vital Sense, rank 5, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Deadhead
+
+Weapon figures land near 72% crit chance and 3.96x crit damage with a roughly
+2.4x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Amalgam Serration is base damage plus sprint speed; Galvanized
+Chamber is multishot; Galvanized Aptitude is damage-per-status; Critical Delay
+and Vital Sense are crit. Malignant Force plus Primed Cryo Rounds are viral,
+with heat from the innate.
+
+**Where it struggles.** Charge time on the alt-fire. Middling area.
+
+**Who runs this.** Players who like a charge rifle with a satisfying burst.
+
+---
+
+### The Claw Anchor
+**Paris Prime. A status statstick for a Mecha Kubrow's Contagion nuke.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Status statstick |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, MR 8 |
+| Weapon reliance | Low. It is a statstick, not a shooter |
+
+> Tenno. This is only for a Mecha Kubrow build. Paris Prime's Incarnon evolution
+> pushes base status chance to 80%, and every status mod plus a riven and
+> Bhisaj-Bal stacks the modded status sky-high to feed the Kubrow's Contagion
+> nuke.
+
+**The build**
+
+- Rime Rounds, rank 3, Madurai polarity
+- Thermite Rounds, rank 3, Madurai polarity
+- Hammer Shot, rank 3, Vazarin polarity
+- Malignant Force, rank 3, unpolarised
+- High Voltage, rank 3, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Rifle Aptitude, rank 5, Vazarin polarity
+- a status-chance riven, rank 8, Madurai polarity
+- Exilus: Bhisaj-Bal, Naramon polarity
+- Arcane: Primary Crux
+
+Weapon figures land near 20% base status chance, rising to 80% with the Incarnon
+evolution and far higher with the full status stack. Confidence: Approximation,
+per the author.
+
+**How it works.** The gun is never fired for damage; its modded status chance is
+what the Mecha set and the Kubrow's Contagion read. Without a riven, run Amalgam
+Serration for the sprint speed instead.
+
+**Where it struggles.** Requires a Mecha Kubrow build and ideally a riven. Niche.
+
+**Who runs this.** Players running a Huras Kubrow Mecha Contagion nuke.
+
+---
+
+### The Split Beam
+**Convectrix. A two-beam viral-electric shotgun that clamps to a single line.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Crowd clear, status DPS |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 7 |
+| Weapon reliance | Standalone |
+
+> Tenno. Convectrix fires two beams that start wide and sweep together into one
+> line. Held on the crossover point, it stacks viral and electric fast with
+> excellent ammo economy.
+
+**The build**
+
+- Primed Cleanse Grineer, rank 10, Madurai polarity
+- Primed Charged Shell, rank 10, Naramon polarity
+- Frigid Blast, rank 3, unpolarised
+- Toxic Barrage, rank 3, Madurai polarity
+- Shotgun Barrage, rank 5, Madurai polarity
+- Shotgun Elementalist, rank 5, unpolarised
+- Galvanized Hell, rank 10, Madurai polarity
+- Galvanized Savvy, rank 10, Vazarin polarity
+- Galvanized Acceleration, rank 10, Madurai polarity
+- Arcane: Primary Crux
+
+Weapon figures land near 16% crit chance and 2.4x crit damage at a 22.8 fire
+rate; this is a status weapon. Confidence: Approximation, per the author.
+
+**The mods.** Convectrix's 16% base crit is not worth chasing (Critical
+Deceleration only takes it to 48%), so this leans fully on status: Galvanized
+Savvy for damage-per-status, Galvanized Hell for multishot, Galvanized
+Acceleration for fire rate. Frigid Blast plus Toxic Barrage make viral, Primed
+Charged Shell adds electric. With external fire rate, swap Shotgun Barrage for
+Magnetic Strafe.
+
+**Where it struggles.** Short range. The beams must converge to focus damage.
+
+**Who runs this.** Players who want an ammo-efficient status hose.
+
+---
+
+### The Hemocyte Buster
+**Boar Prime. An Incarnon-off raw-damage shotgun for the Plague Star boil.**
+
+| | |
+|--|--|
+| Content | Events, Steel Path |
+| Role | Objective burst, boss damage |
+| Difficulty | Advanced |
+| Investment | Heavy. 9 forma, MR 11 |
+| Weapon reliance | High. Wants companion buff bonds |
+
+> Tenno. Two Primed elemental mods on a shotgun each give +165% raw damage, more
+> than an Incendiary Coat despite the Hemocyte's heat weakness. Stack them and
+> the crit core to delete the Plague Star boil.
+
+**The build**
+
+- Shotgun Barrage, rank 5, Madurai polarity
+- Primed Ammo Stock, rank 10, Naramon polarity
+- Primed Ravage, rank 10, Madurai polarity
+- Critical Deceleration, rank 5, Madurai polarity
+- Primed Chilling Grasp, rank 10, Vazarin polarity
+- Primed Charged Shell, rank 10, Naramon polarity
+- Galvanized Hell, rank 10, Madurai polarity
+- Primed Point Blank, rank 10, Madurai polarity
+- Exilus: Lock and Load, Naramon polarity
+- Arcane: Shotgun Vendetta
+
+Weapon figures land near 45% crit chance and 4.2x crit damage with a roughly
+2.65x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Primed Chilling Grasp and Primed Charged Shell are the two raw
+elemental boosts; Primed Point Blank is unconditional damage; Primed Ravage plus
+Critical Deceleration are crit; Galvanized Hell is multishot. Run Arcane Tempo,
+Reinforced Bond, Tenacious Bond and Energized Munitions for the fire-rate and
+crit support.
+
+**Where it struggles.** Event-specific tuning. Self-stagger at point blank.
+Heavy forma cost.
+
+**Variants.** The Tusk Swap (#208) is the general-use hybrid Boar Prime.
+
+**Who runs this.** Players grinding Plague Star for the fastest boil kills.
+
+---
