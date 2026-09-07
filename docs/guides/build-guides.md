@@ -13629,3 +13629,540 @@ Restless Grid (#151) is the Photon Strike spam.
 for mid-level Steel Path.
 
 ---
+
+### The Slipstream Vial
+**Lavos Prime. Evade over the second ability, infused with gas for auto-headshots.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Evasion tank, weapon platform |
+| Difficulty | Intermediate |
+| Investment | Low. 3 forma |
+| Weapon reliance | High |
+
+> Tenno. Evade gives near-total dodge uptime, gas clouds sometimes score
+> free headshots and feed Evade duration, and Swift Bite plus Transmutation
+> Probe resets the ability if it ever lapses.
+
+**The build**
+
+- Valence Formation, rank 3, unpolarised. Augment. Ability casts add a stacking elemental damage buff
+- Vigilante Vigor, rank 5, unpolarised
+- Constitution, rank 3, Naramon polarity
+- Swift Bite, rank 3, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Fast Deflection, rank 5, Vazarin polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Ice Spring, unpolarised
+- Arcanes: Arcane Concentration, Arcane Fury
+
+Arsenal figures land at roughly 40% Strength, 282% Duration, 124% Range, 100%
+Efficiency, with 800 health, 410 shield, 675 armor and no energy pool.
+Confidence: Approximation, per the author.
+
+**How it works.** Low strength, high duration: Evade (Helminth) does not care
+about strength, so the build dumps it for duration to keep the dodge window
+open. Infusing gas means gas clouds occasionally auto-headshot and extend Evade.
+If it runs out, Swift Bite plus Transmutation Probe bypasses the cooldown, which
+is why a little range is kept.
+
+**Helminth.** Evade over the second ability, infused with gas.
+
+**Archon Shards.** Duration, then cast speed.
+
+**Where it struggles.** No ability damage. Evade does not stop everything (toxin,
+some AoE). Cooldown gap if you fumble the reset.
+
+**Variants.** The Charged Vial (#158) and The Sealed Vial (#163) are the
+shield-gate Lavos builds.
+
+**Who runs this.** Lavos players who prefer dodge uptime to a shield gate.
+
+---
+
+### The Passing Blur
+**Rhino Prime. A 410%-Strength Reave that one-shots Steel Path with no viral.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Mobile one-shot nuke |
+| Difficulty | Advanced |
+| Investment | Heavy. 7 forma, five shards |
+| Weapon reliance | Low |
+
+> Tenno. Reave subsumed over Rhino Charge, pushed to 410% Strength so a single
+> dash deletes Steel Path enemies without any viral stacking. Iron Skin covers
+> the fragility.
+
+**The build**
+
+- Augur Secrets, rank 5, unpolarised
+- Umbral Vitality, rank 10, unpolarised
+- Transient Fortitude, rank 10, Madurai polarity
+- Umbral Intensify, rank 10, Umbral polarity
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Sprint Boost, aura slot
+- Exilus: Power Drift, Zenurik polarity
+- Arcanes: Arcane Energize, Arcane Bellicose
+
+Arsenal figures land at roughly 348% Strength, 128% Duration, 100% Range, 45%
+Efficiency, with an 851 health pool, 555 shield, 290 armor and 427 energy.
+Confidence: Approximation, per the author.
+
+**How it works.** Reave deals a percentage of enemy max health and heals you for
+it. At 410% Strength that percentage one-shots Steel Path trash outright, so no
+viral primer is needed. Umbral Vitality is chosen over Amar's Hatred because it
+boosts Umbral Intensify (55%) and Arcane Bellicose (to 20%) for more total
+Strength, letting you hit 410% with three Tauforged crimson shards instead of
+four.
+
+**Helminth.** Reave over Rhino Charge.
+
+**Archon Shards.** Two Tauforged amber cast speed, three Tauforged crimson
+strength. Running Madurai Power Transfer for 40% Strength lets you drop a
+strength shard for an energy shard.
+
+**Where it struggles.** Iron Skin is your only defense and Reave leaves you
+exposed mid-dash. Bosses and heavy units survive.
+
+**Variants.** The Bulwark (#058) and The Invulnerable Window (#102) are the Iron
+Skin Rhino builds.
+
+**Who runs this.** Players who want a Revenant-style Reave nuke on a tankier
+frame.
+
+---
+
+### The Sealed Vial
+**Lavos Prime. A pure weapon platform gating on shield recharge, Roar or Omamori infused.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Weapon platform, shield-gate tank |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma |
+| Weapon reliance | Very high |
+
+> Tenno. No energy, so gate on shields: Catalyzing Shields caps the pool low,
+> Fast Deflection and Vigilante Vigor and Arcane Aegis rebuild it, Rolling Guard
+> covers the gap. Infuse Roar for damage or Omamori for survival.
+
+**The build**
+
+- Vigilante Vigor, rank 5, unpolarised
+- Fast Deflection, rank 5, unpolarised
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Valence Formation, rank 3, Zenurik polarity. Augment. Ability casts add a stacking elemental damage buff
+- Blind Rage, rank 10, Madurai polarity
+- Rolling Guard, rank 10, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Ice Spring, unpolarised
+- Arcanes: Arcane Fury, Arcane Aegis
+
+Arsenal figures land at roughly 199% Strength, 254% Duration, 34% Range, 45%
+Efficiency, with 800 health, 410 shield, 675 armor and no energy pool.
+Confidence: Approximation, per the author.
+
+**How it works.** Range is dumped because you only self-cast. Every ability is
+on cooldown, so the shield gate is the whole defense: Catalyzing Shields for the
+clean 1.33-second window, Fast Deflection and Vigilante Vigor and Arcane Aegis
+for fast rebuilds, Rolling Guard as the panic reset. Valence Formation and the
+infused buff carry the numbers on your weapon.
+
+**Helminth.** Roar over the second ability for damage, or Omamori for
+survivability.
+
+**Archon Shards.** Shield capacity and cast speed.
+
+**Where it struggles.** No energy economy fallback. Cooldowns cap cast rate.
+
+**Variants.** The Charged Vial (#158) is the Catalyze-nuke shield-gate build;
+The Element Engine (#049) and The Alchemist's Forge (#112) are the scaling
+Catalyze builds.
+
+**Who runs this.** Lavos players who want the frame to be a pure durable gun
+stand.
+
+---
+
+### The Counterstrike
+**Wukong Prime. Defy as a wide, cheap nuke off its counterattack pulse.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Ability nuke, tank |
+| Difficulty | Intermediate |
+| Investment | Low. 3 forma |
+| Weapon reliance | Medium |
+
+> Tenno. Defy makes you briefly invulnerable and then releases a scaling
+> counterattack. Max range and efficiency, minimal duration, and you recast it
+> constantly for a room-clearing pulse plus a built-in tank.
+
+**The build**
+
+- Augur Reach, rank 5, unpolarised
+- Fleeting Expertise, rank 5, unpolarised
+- Transient Fortitude, rank 10, Madurai polarity
+- Overextended, rank 5, Vazarin polarity
+- Stretch, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Aegis, Molt Augmented
+
+Arsenal figures land at roughly 95% Strength, 68% Duration, 280% Range, 160%
+Efficiency, with 555 health, 445 shield, 290 armor and 556 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Defy's counterattack scales with the damage absorbed during
+its window, so short duration plus high recast rate keeps the pulses coming.
+Wide range makes each pulse a room clear. The invulnerability phase is the
+survival layer, and Celestial Twin adds a second gun.
+
+**Helminth.** None; the counterattack is the build.
+
+**Archon Shards.** One cast speed; melee crit damage is optional if you also
+want Iron Staff.
+
+**Where it struggles.** Damage lags at very high levels. Timing-dependent.
+
+**Variants.** The Cloud Staff (#033) and The Idle Staff (#059) are the Iron
+Staff Wukong builds; The Bare Staff (#095) is the red-crit version.
+
+**Who runs this.** Wukong players who want an ability nuke instead of a melee
+one.
+
+---
+
+### The Melee Verse
+**Dante. A Wrathful Advance battlemage that buffs a melee instead of casting Tragedy.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Melee platform, buff, overguard tank |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma |
+| Weapon reliance | Very high |
+
+> Tenno. Dante's Pageflight overguard and Light Verse buffs keep a melee build
+> alive and swinging while Wrathful Advance provides the teleport and crit
+> angle. Tragedy is left in the book.
+
+**The build**
+
+- Umbral Intensify, rank 10, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Blind Rage, rank 10, Madurai polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Augur Message, rank 5, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Concentration, Arcane Fury
+
+Arsenal figures land at roughly 243% Strength, 278% Duration, 79% Range, 45%
+Efficiency, with 390 health, 240 shield, 145 armor and 769 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Cast the Noctua verses for the flat damage and crit buffs,
+Pageflight for overguard, then swing. Wrathful Advance (Helminth) teleports you
+onto a target and grants a guaranteed-crit follow-up. High duration keeps the
+buff bar full between packs.
+
+**Helminth.** Wrathful Advance over Dark Verse or Tragedy.
+
+**Archon Shards.** Melee crit damage, then ability duration.
+
+**Where it struggles.** Buff upkeep is a lot of casts. Thin base defenses lean
+hard on overguard.
+
+**Variants.** Verse of Ruin (#005) is the Tragedy slash-nuke Dante; The Book of
+Fire (#116) is the pure Noctua DPS build.
+
+**Who runs this.** Melee players who want Dante's buffs on a stick.
+
+---
+
+### The Idle Void
+**Xaku Prime. A minimal-input shield-gate build with Omamori or Nourish infused.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Weapon platform, shield-gate tank, armour strip |
+| Difficulty | Beginner |
+| Investment | Low. 3 forma |
+| Weapon reliance | High |
+
+> Tenno. The Lost abilities strip and disarm on their own; this build just adds
+> a comfortable shield gate and a defensive subsume so you can hold an objective
+> without much thought.
+
+**The build**
+
+- Blind Rage, rank 10, Madurai polarity
+- Stretch, rank 5, unpolarised
+- Fast Deflection, rank 5, unpolarised
+- Vigilante Vigor, rank 5, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Overextended, rank 5, Vazarin polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Ice Spring, unpolarised
+- Arcanes: Arcane Aegis, Molt Augmented
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with 359 health, 353 shield, 167 armor and 715 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** The Vast Untime and Gaze cover armour strip and crowd control
+passively. Fast Deflection plus Vigilante Vigor and Arcane Aegis rebuild the
+shield gate quickly; the infused subsume (Omamori for flat damage reduction,
+Nourish for viral and energy) covers the rest. Grasp of Lohk still steals guns
+for extra damage.
+
+**Helminth.** Omamori or Nourish over the third ability.
+
+**Archon Shards.** Shield capacity and cast speed.
+
+**Where it struggles.** Low personal damage. Gate depends on shield recovery
+uptime.
+
+**Variants.** The Stolen Arsenal (#018) is the full non-Helminth Xaku.
+
+**Who runs this.** Players who want a low-effort Xaku for defense and
+Interception.
+
+---
+
+### The Broken Halo
+**Nezha Prime. Low strength on purpose so Warding Halo breaks fast for i-frames.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Gate tank, weapon platform |
+| Difficulty | Advanced |
+| Investment | Medium. 4 forma |
+| Weapon reliance | Very high |
+
+> Tenno. Warding Halo grants a short invulnerability when it breaks. Keep the
+> hit buffer small with low strength, recast constantly, and you have a rolling
+> i-frame window. Nourish over Blazing Chakram fixes energy and viral.
+
+**The build**
+
+- Augur Reach, rank 5, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Overextended, rank 5, Vazarin polarity
+- Equilibrium, rank 10, Naramon polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Divine Retribution, rank 3, unpolarised. Augment. Warding Halo reflects damage as radial finisher damage
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Precision, Arcane Hot Shot
+
+Arsenal figures land at roughly 40% Strength, 155% Duration, 280% Range, 100%
+Efficiency, with 465 health, 185 shield, 265 armor and 641 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Because strength is dumped, Warding Halo has a tiny buffer and
+pops almost immediately, triggering its break invulnerability. Recasting on
+cooldown chains those windows. Divine Retribution turns the incoming damage into
+a radial finisher hit for some clear. Nourish covers energy and puts viral on
+the gun.
+
+**Helminth.** Nourish over Blazing Chakram. Chakram is skipped here for its poor
+targeting, its weakness at low strength, and its ability to cause reverse heat
+inherit that slashes weapon status damage.
+
+**Archon Shards.** Cast speed, then efficiency or energy.
+
+**Where it struggles.** Constant recasting. No damage identity beyond Divine
+Retribution and the gun.
+
+**Variants.** The Iron Halo (#146) is the high-strength Warding Halo tank; The
+Warded Wildfire (#039) is the general-use Nezha.
+
+**Who runs this.** Players who like the break-and-recast i-frame rhythm.
+
+---
+
+### The Warding Charm
+**Nezha Prime. A zero-forma Omamori gate starter.**
+
+| | |
+|--|--|
+| Content | Steel Path, Beginner |
+| Role | Gate tank, weapon platform |
+| Difficulty | Beginner |
+| Investment | None. 0 forma |
+| Weapon reliance | High |
+
+> Tenno. A first endurance Nezha: Omamori over the first ability for flat damage
+> reduction, Fast Deflection and Vigilante Vigor for the shield gate, and enough
+> range on Warding Halo to cover you. No forma needed.
+
+**The build**
+
+- Vigilante Vigor, rank 5, unpolarised
+- Precision Intensify, rank 5, Madurai polarity
+- Stretch, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Fast Deflection, rank 5, unpolarised
+- Divine Retribution, rank 3, unpolarised. Augment. Warding Halo reflects damage as radial finisher damage
+- Overextended, rank 5, Vazarin polarity
+- Fleeting Expertise, rank 5, unpolarised
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Precision, Arcane Aegis
+
+Arsenal figures land at roughly 40% Strength, 40% Duration, 250% Range, 160%
+Efficiency, with 465 health, 185 shield, 265 armor and 225 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Omamori (Helminth) gives a chance to negate incoming hits
+entirely, which layers with the Fast Deflection plus Vigilante Vigor shield
+gate. High efficiency keeps Warding Halo recastable on a small energy pool. Low
+strength keeps the Halo buffer small so it breaks and grants i-frames often.
+
+**Helminth.** Omamori over the first ability.
+
+**Archon Shards.** Cast speed and efficiency once you have shards; not required.
+
+**Where it struggles.** Very low energy pool. No damage of its own. A learning
+build, not a level-cap one.
+
+**Variants.** The Broken Halo (#167) is the invested version of this idea; The
+Iron Halo (#146) is the high-strength tank.
+
+**Who runs this.** New players building their first survivable Nezha.
+
+---
+
+### The Bare Bridle
+**Dagath. The base kit, no Helminth, tuned for cast speed and comfort.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Ability nuke, debuff, gate tank |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma |
+| Weapon reliance | Medium |
+
+> Tenno. Dagath's kit already strips, debuffs and nukes. This build leaves it
+> intact, adds Brief Respite and Catalyzing Shields for the gate, and pushes
+> cast speed with shards so the rotation feels smooth.
+
+**The build**
+
+- Transient Fortitude, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Rolling Guard, rank 10, unpolarised
+- Streamline, rank 5, unpolarised
+- Stretch, rank 5, unpolarised
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Brief Respite, Zenurik polarity
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Molt Augmented, Arcane Energize
+
+Arsenal figures land at roughly 155% Strength, 128% Duration, 145% Range, 130%
+Efficiency, with 666 health, 250 shield, 125 armor and 641 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Wyrd Scythes prime and mark, Doom spreads a damage-vulnerability
+debuff, Rakhali's Cavalry heals and clears. Brief Respite plus Catalyzing
+Shields and the low shield pool gives a reliable gate on every cast. Molt
+Augmented and Arcane Energize keep strength and energy topped over a long run.
+
+**Helminth.** None; the base kit is the appeal.
+
+**Archon Shards.** Two cast speed mandatory; the rest into duration or strength.
+
+**Where it struggles.** Modest single-target damage. Squishy if the gate lapses.
+
+**Variants.** The Doomed Hunt (#042) is the Steel Path general-use Dagath.
+
+**Who runs this.** Players who like Dagath's kit as designed and do not want to
+subsume it.
+
+---
+
+### The Linked Vigil
+**Trinity Prime. An Arcane Persistence tank behind a permanent Link.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Persistence tank, support |
+| Difficulty | Advanced |
+| Investment | Heavy. 5 forma, two Tauforged armour shards |
+| Weapon reliance | High |
+
+> Tenno. Two Tauforged armour shards plus Umbral Fiber push Trinity past 700
+> armour, capping Arcane Persistence's health loss. Link redirects damage and
+> blocks status, which is what keeps Persistence from breaking.
+
+**The build**
+
+- Umbral Fiber, rank 10, Umbral polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Umbral Vitality, rank 10, Umbral polarity
+- Umbral Intensify, rank 10, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Champion's Blessing, rank 3, Zenurik polarity. Augment. Blessing also grants a stacking crit-damage buff on heal
+- Aura: Corrosive Projection, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Blessing, Arcane Persistence
+
+Arsenal figures land at roughly 117% Strength, 254% Duration, 124% Range, 100%
+Efficiency, with a 1036 health pool, 378 armor before shards, 555 shield and 641
+energy. Confidence: Approximation, per the author.
+
+**How it works.** Keep Link active at all times: it redirects a share of incoming
+damage to a linked enemy and blocks status procs, which is what stops heat and
+corrosive from breaking Arcane Persistence. Above 700 armour (reached with the
+two Tauforged shards) Persistence caps the remaining loss, and Blessing plus
+Arcane Blessing top the pool back up. Champion's Blessing adds a squad crit
+buff.
+
+**Helminth.** None; Link and Blessing are the core.
+
+**Archon Shards.** Two Tauforged armour to clear 700, then cast speed and
+health.
+
+**Where it struggles.** Link needs a target nearby. Nullifiers. Low strength
+means Blessing's damage reduction is not maxed.
+
+**Variants.** The Blood Chalice (#030) is the armour-strip weapon-platform
+Trinity; The Reflecting Pool (#130) is the Gloom immortal tank.
+
+**Who runs this.** Trinity players who want to be unkillable and still buff the
+squad.
+
+---
