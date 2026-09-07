@@ -12551,3 +12551,535 @@ Adaptation plus Vitality is a beginner tank. Upgrade path is The Cloud Staff
 **Who runs this.** New players learning Wukong.
 
 ---
+
+### The Grinding Storm
+**Inaros Prime. Elemental Sandstorm as a passive nuke on a Mecha armour-strip tank.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Sandstorm damage-over-time nuke, tank |
+| Difficulty | Advanced |
+| Investment | Heavy. 7 forma, a Mecha companion, five shards |
+| Weapon reliance | Low. A blast or electric statstick feeds Sandstorm |
+
+> Tenno. Elemental Sandstorm turns Inaros's whirlwind into a moving blender that
+> scales off a melee statstick. Mecha Pulse and Mecha Empowered mark and amplify,
+> emerald shards strip armour with corrosive, and Inaros's health bar does the
+> rest.
+
+**The build**
+
+- Primed Flow, rank 10, Naramon polarity
+- Elemental Sandstorm, rank 3, unpolarised. Augment. Sandstorm pulls in enemies and deals melee-statstick damage
+- Blind Rage, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Archon Intensify, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Mecha Pulse, rank 3, unpolarised. Set mod. Marked-enemy kills grant stacking armour
+- Aura: Mecha Empowered, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Molt Augmented, Arcane Bellicose
+
+Arsenal figures land at roughly 244% Strength, 155% Duration, 145% Range, 45%
+Efficiency, with a 2415 health pool, 240 armor and 541 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Sandstorm's tick damage copies your equipped melee's modded
+damage, so a statstick built for pure blast (a heat weapon plus one cold mod) or
+pure electric with Melee Influence pushes the whirlwind's kill speed. A priming
+companion such as Panzer or Diriga applies viral and magnetic so the ticks land
+hard. Two emerald shards stack corrosive for a full strip, three Tauforged
+emeralds add ability damage on that corrosive stack.
+
+**Helminth.** Free slot after Elemental Sandstorm goes to a subsume you like;
+the author leaves the kit intact and leans on the statstick.
+
+**Archon Shards.** Two emerald corrosive, three Tauforged emerald ability damage
+on the corrosive stack.
+
+**Where it struggles.** Needs a statstick and a primer set up. Slow against
+single targets. Range is dumped, so you drive into packs.
+
+**Variants.** The Undying (#064) is the plain Inaros tank.
+
+**Who runs this.** Inaros mains who want the frame to nuke without aiming.
+
+---
+
+### The Braced Javelin
+**Styanax. A shield-gating Nourish weapon platform for endless runs.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Weapon platform, buff, shield-gate tank |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma |
+| Weapon reliance | Very high. The gun does the killing |
+
+> Tenno. Base Styanax with Nourish for viral and energy, Axios Javelineers for a
+> passive damage pulse, and Brief Respite plus Primed Sure Footed for a shield
+> gate you never lose. The gun carries.
+
+**The build**
+
+- Primed Flow, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Tharros Lethality, rank 3, unpolarised. Partial armour strip on cast
+- Rolling Guard, rank 10, Vazarin polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Axios Javelineers, rank 3, unpolarised. Augment. Final Stand leaves seeking javelins that keep dealing damage
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Molt Augmented, Arcane Aegis
+
+Arsenal figures land at roughly 199% Strength, 155% Duration, 145% Range, 45%
+Efficiency, with 370 health, 925 shield, 265 armor and 641 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Cast an ability, Brief Respite refills shields from the energy
+spent, and the 1.3-second shield gate resets. Nourish (Helminth) covers viral
+on the weapon and an energy return. Axios Javelineers adds a background damage
+tick so trash melts while you focus priority targets.
+
+**Helminth.** Nourish over the fourth ability slot.
+
+**Archon Shards.** Cast speed and shield capacity; one flex to taste.
+
+**Where it struggles.** Does nothing without a strong gun. No hard armour strip
+beyond Tharros.
+
+**Variants.** The Iron Volley (#046) and The Bristling Volley (#076) are the
+ability-damage Styanax builds.
+
+**Who runs this.** Players who want Styanax as a durable trigger for an Incarnon.
+
+---
+
+### The Fed Glacier
+**Frost Prime. A wide Avalanche with Nourish over the fourth-ability augment slot.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Armour-strip, overguard tank, crowd control |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma |
+| Weapon reliance | Medium |
+
+> Tenno. Icy Avalanche for overguard, Biting Frost for crit against frozen
+> targets, huge range for a room-wide freeze, and Nourish for viral and energy.
+> Comfortable, not flashy.
+
+**The build**
+
+- Biting Frost, rank 3, unpolarised. Augment. Crit chance versus frozen enemies
+- Equilibrium, rank 10, Naramon polarity
+- Primed Continuity, rank 10, unpolarised
+- Archon Flow, rank 10, Naramon polarity
+- Overextended, rank 5, Vazarin polarity
+- Icy Avalanche, rank 3, unpolarised. Augment. Avalanche grants armour-scaled overguard
+- Blind Rage, rank 10, Madurai polarity
+- Stretch, rank 5, Naramon polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Ice Storm, Molt Augmented
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with 370 health, 650 shield, 315 armor and 427 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Avalanche freezes and part-strips the room, Icy Avalanche
+converts that into overguard so you ignore status and knockdown, and Biting
+Frost gives your weapon a large crit bonus against every frozen target. Nourish
+(Helminth) is viral plus energy. Freeze Force is a flexible swap over Primed
+Continuity if you want cold on the gun.
+
+**Helminth.** Nourish over Snow Globe or Ice Wave.
+
+**Archon Shards.** Ability strength to reach full strip, then energy or cast
+speed.
+
+**Where it struggles.** No damage of its own past the initial burst. Leans on
+the weapon once armour is gone.
+
+**Variants.** Killing Frost (#019) is the red-crit full-strip Frost.
+
+**Who runs this.** Defense and Interception players who want a calm strip-and-CC
+frame.
+
+---
+
+### The Red Fang
+**Voruna. Pure red-crit buff for Zaws, glaives and slam builds.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Melee crit platform, invisibility |
+| Difficulty | Advanced |
+| Investment | Heavy. 7 forma |
+| Weapon reliance | Very high. The melee is the whole build |
+
+> Tenno. Ulfrun's Descent is ignored here. This is Voruna as a walking red-crit
+> multiplier for melees that Fangs of Raksh cannot help: Zaws, glaives, slam
+> weapons and influence melees like Nami Solo.
+
+**The build**
+
+- Precision Intensify, rank 5, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Vigorous Swap, rank 10, Naramon polarity. Zaw-only damage after weapon swap
+- Narrow Minded, rank 10, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Rolling Guard, rank 10, unpolarised
+- Transient Fortitude, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Fury, Arcane Crepuscular
+
+Arsenal figures land at roughly 254% Strength, 172% Duration, 34% Range, 45%
+Efficiency, with 555 health, 370 shield, 200 armor and 427 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Voruna's second ability grants a flat crit-damage and
+crit-chance buff that pushes strong melees into red crits. Range is dumped
+because the buff is self-only. Vigorous Swap is a Zaw-specific damage spike;
+swap it for Augur Secrets, Augur Message or Catalyzing Shields otherwise. For
+slam builds, run Nira's Hatred and Nira's Anguish over Primed Sure Footed and
+Vigorous Swap.
+
+**Arcanes.** Arcane Crepuscular only fires on the first hit out of stealth
+(slam, contagion). On glaives or light attacks use Arcane Impetus or Molt
+Augmented instead.
+
+**Archon Shards.** Melee crit damage in violet, then ability strength.
+
+**Where it struggles.** Zero utility for the squad. Buff upkeep between packs.
+
+**Variants.** The Blinded Hunt (#077) is the status-taxi Voruna; The Prime Wolf
+(#088) covers Ulfrun's nuke.
+
+**Who runs this.** Zaw and glaive players who want the highest personal melee
+ceiling.
+
+---
+
+### The Antimatter Bloom
+**Nova Prime. Antimatter Drop fed into Neutron Star and the Molecular Prime blast.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Ability nuke |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma |
+| Weapon reliance | Medium. A strong gun charges the orb |
+
+> Tenno. Fire Antimatter Drop, dump rounds into it to load the payload, then let
+> Neutron Star and the Molecular Prime death-blast clear what the orb does not.
+
+**The build**
+
+- Stretch, rank 5, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Neutron Star, rank 3, unpolarised. Augment. Null Star shards detonate for AoE
+- Umbral Intensify, rank 10, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Overextended, rank 5, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Concentration, Molt Augmented
+
+Arsenal figures land at roughly 183% Strength, 155% Duration, 250% Range, 45%
+Efficiency, with 370 health, 370 shield, 135 armor and 755 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Antimatter Drop absorbs weapon damage and releases it as a
+scaling blast, so charge it with an Incarnon (Strun, Boar, Felarx, Phenmor, Dual
+Toxocyst). Neutron Star clears the small stuff. Molecular Prime doubles damage
+taken and leaves a chain explosion on every primed kill.
+
+**Helminth.** Roar for a flat multiplier on every one of those numbers, or
+Pillage for armour strip and shield sustain.
+
+**Archon Shards.** Ability strength, then cast speed.
+
+**Where it struggles.** Orb charging is hands-on. Squishy if you stand still.
+
+**Variants.** Molecular Tide (#029) is the general-use Slowva; The Particle Storm
+(#094) is the no-weapon ability nuke.
+
+**Who runs this.** Nova players who like the manual Antimatter Drop rhythm.
+
+---
+
+### The Iron Halo
+**Nezha Prime. An Umbral persistence tank behind Warding Halo.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Lazy tank, weapon platform |
+| Difficulty | Beginner |
+| Investment | Medium. 5 forma, three Umbral mods, Arcane Blessing |
+| Weapon reliance | High |
+
+> Tenno. Warding Halo plus the full Umbral tank plus Arcane Blessing means you
+> recast a shield once a minute and otherwise ignore the health bar. The gun does
+> the work.
+
+**The build**
+
+- Umbral Intensify, rank 10, Umbral polarity
+- Umbral Vitality, rank 10, Umbral polarity
+- Umbral Fiber, rank 10, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Blind Rage, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Controlled Slide, Zenurik polarity
+- Arcanes: Arcane Blessing, Arcane Precision
+
+Arsenal figures land at roughly 291% Strength, 254% Duration, 34% Range, 45%
+Efficiency, with a 1302 health pool, 742 armor, 185 shield and 641 energy.
+Confidence: Approximation, per the author.
+
+**How it works.** High strength gives Warding Halo a large hit buffer, long
+duration keeps it up, and Arcane Blessing converts orb pickups into a growing
+health pool. Range is dumped because you only need the self-cast. Firewalker is
+a passive status cleanse under you.
+
+**Helminth.** None required; the kit stands on its own. A defensive subsume over
+Blazing Chakram is fine.
+
+**Archon Shards.** Health and armour in the tank direction, then cast speed for
+recasts.
+
+**Where it struggles.** Halo has a re-up delay when it pops. No crowd control.
+
+**Variants.** The Warded Wildfire (#039) is the general-use Nezha; The Burning
+Discus (#084) is the Chakram nuke.
+
+**Who runs this.** Players who want a set-and-forget Nezha for long Steel Path
+sessions.
+
+---
+
+### The Bounty Sprint
+**Volt Prime. A high-strength Shock caster tuned for Plague Star runs.**
+
+| | |
+|--|--|
+| Content | Events, Steel Path |
+| Role | Speed buff, single-target burst |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma |
+| Weapon reliance | Medium |
+
+> Tenno. Volt for the squad speed buff and a fat Shock to delete the boil
+> objective, built for the Plague Star grind rather than endless survival.
+
+**The build**
+
+- Shock Trooper, rank 3, unpolarised. Augment. Adds an additive electric damage bonus to weapons
+- Umbral Intensify, rank 10, Umbral polarity
+- Blind Rage, rank 10, Madurai polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Augur Secrets, rank 5, unpolarised
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Growing Power, Madurai polarity
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Steadfast, Arcane Tempo
+
+Arsenal figures land at roughly 322% Strength, 227% Duration, 34% Range, 45%
+Efficiency, with 370 health, 555 shield, 135 armor and 855 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Speed is the point: your squad clears the run faster. Shock
+one-shots the objective at this strength, and Shock Trooper adds flat electric
+to weapons for the trash. Swap Arcane Tempo for Arcane Velocity or Arcane
+Acceleration to match your weapon.
+
+**Helminth.** None; keep the base kit.
+
+**Archon Shards.** Ability strength, then cast speed.
+
+**Where it struggles.** Not a Steel Path endurance build. Thin defenses.
+
+**Variants.** Grounding Field (#011) is the endless Volt with Capacitance shield
+gating.
+
+**Who runs this.** Players farming Plague Star or Ghoul Purge.
+
+---
+
+### The Hushed Slow
+**Nova Prime. Silence subsumed for a stagger, tuned to exactly 150% Strength for max slow.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Slowva, shield-gate tank, crowd control |
+| Difficulty | Advanced |
+| Investment | Medium. 4 forma, five shards |
+| Weapon reliance | Medium |
+
+> Tenno. Molecular Prime at its slowest, Silence over Null Star for a room-wide
+> stagger and finisher opener, and a Fast Deflection plus Vigilante Vigor shield
+> gate. Precise numbers matter here.
+
+**The build**
+
+- Molecular Fission, rank 3, unpolarised. Augment. Null Star stacks refresh on primed kills
+- Narrow Minded, rank 10, Vazarin polarity
+- Fast Deflection, rank 5, unpolarised
+- Vigilante Vigor, rank 5, Vazarin polarity
+- Neutron Star, rank 3, unpolarised. Augment. Null Star shards detonate for AoE
+- Overextended, rank 3, unpolarised
+- Precision Intensify, rank 5, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Aegis, Arcane Concentration
+
+Arsenal figures land at roughly 60% Strength, 199% Duration, 94% Range, 100%
+Efficiency, with 370 health, 370 shield, 135 armor and 755 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Molecular Prime's slow is strongest at 150% Strength, so
+rank-3 Overextended plus Precision Intensify is deliberately set to land exactly
+there. Silence (Helminth) staggers every enemy entering range and opens
+finishers. Fast Deflection plus Vigilante Vigor and Nova's shields hold a
+consistent gate.
+
+**Helminth.** Silence over Null Star.
+
+**Archon Shards.** Two cast speed, two violet Equilibrium shards, one flex.
+
+**Where it struggles.** Damage comes entirely from the weapon and the 4 blast.
+Positioning matters for the gate.
+
+**Variants.** Molecular Tide (#029) is the standard Slowva.
+
+**Who runs this.** Players who want max slow plus a passive stagger for defense
+objectives.
+
+---
+
+### The Lash Loop
+**Khora Prime. Pure Whipclaw damage-stacking for endurance, low strength high range.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Whipclaw nuke |
+| Difficulty | Intermediate |
+| Investment | Medium. 4 forma |
+| Weapon reliance | Low. Whipclaw is the weapon |
+
+> Tenno. Accumulating Whipclaw banks a stacking damage bonus as you keep casting;
+> everything else here just widens the hit and keeps energy flowing so the loop
+> never stops.
+
+**The build**
+
+- Overextended, rank 5, unpolarised
+- Augur Reach, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Precision Intensify, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Accumulating Whipclaw, rank 3, Zenurik polarity. Augment. Whipclaw damage stacks up to a capped bonus as you keep casting
+- Venari Bodyguard, rank 3, unpolarised. Augment. Venari revives you and tanks
+- Aura: Corrosive Projection, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Molt Augmented, Arcane Fury
+
+Arsenal figures land at roughly 40% Strength, 100% Duration, 220% Range, 100%
+Efficiency, with 465 health, 465 shield, 345 armor and 641 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Whipclaw's damage is mostly its own base plus the melee mods
+on your statstick, so strength barely matters; range and the Accumulating
+Whipclaw stack do. Cast on cooldown to hold the cap. Catalyzing Shields plus a
+low shield pool gives a reliable gate, and Venari Bodyguard is a free revive.
+
+**Helminth.** None; the author keeps Ensnare for grouping.
+
+**Archon Shards.** Cast speed, then ability efficiency or parkour.
+
+**Where it struggles.** Building and holding the stack takes casts. Nothing for
+the squad beyond Venari.
+
+**Variants.** The Debtor's Cage (#002) is the Strangledome loot-and-hold Khora.
+
+**Who runs this.** Players who want the simplest possible Whipclaw spam for long
+runs.
+
+---
+
+### The Fed Sphere
+**Gyre. A Nourish shield-gate weapon platform with Conductive Sphere.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Weapon platform, shield-gate tank |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma |
+| Weapon reliance | Very high |
+
+> Tenno. Tap 1 constantly to hold the shield gate, roll constantly for i-frames
+> and status cleanse, and let Nourish plus Archon Stretch keep energy topped so
+> the loop never breaks. The gun kills.
+
+**The build**
+
+- Cathode Current, rank 3, unpolarised
+- Conductive Sphere, rank 3, unpolarised. Augment. Cathode Grace also restores energy on the electric proc
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Rolling Guard, rank 10, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Overextended, rank 5, unpolarised
+- Archon Stretch, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Aegis, Arcane Precision
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with 370 health, 650 shield, 105 armor and 240 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Gyre's first ability is cheap, so tapping it plus Brief
+Respite and Catalyzing Shields keeps the 1.3-second gate alive indefinitely.
+Nourish (Helminth) covers viral on the weapon; Archon Stretch and Cathode Grace
+refund energy on electric procs so casts stay free. Rolling Guard covers the
+gap when the gate drops.
+
+**Helminth.** Nourish over Coil Horizon.
+
+**Archon Shards.** One Tauforged cast speed, two Tauforged parkour velocity, two
+violet primary electric if you run an electric primary.
+
+**Where it struggles.** No ability damage. Low energy pool leans hard on the
+refund loop.
+
+**Variants.** The Live Wire (#043) is the ability-AoE Gyre; The Grounded Chain
+(#079) and The Second Current (#118) are the other platform variants.
+
+**Who runs this.** Players who want Gyre purely as an unkillable gun stand.
+
+---
