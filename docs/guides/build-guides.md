@@ -3422,3 +3422,779 @@ armour both cut the payload, boss-blind.
 once.
 
 ---
+
+### Event Horizon
+**Nova Prime. Molecular Prime slow or speed, self-priming Null Stars, and passive orb energy.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Squad-wide slow (or speed), armour softening, crowd control, damage amp |
+| Difficulty | Beginner to intermediate |
+| Investment | Medium. 4 forma, one strength shard for the 150% threshold |
+| Weapon reliance | Medium. Molecular Prime's 2x damage and the Neutron Star strip make your weapon hit far harder |
+
+> Tenno. Molecular Prime does one thing that matters: everything it touches takes
+> double damage, and it either crawls to a stop or sprints, your call. The updated
+> augments mean Null Stars seek out enemies and prime them for you, and Neutron
+> Star stuns and part-strips armour in a radius. Nova's passive turns slowed kills
+> into health orbs and sped kills into energy orbs, so the frame funds itself.
+
+**The build**
+
+- Blind Rage, rank 10, Madurai polarity
+- Overextended, rank 5, Vazarin polarity
+- Molecular Fission, rank 3, unpolarised — augment. Null Stars apply Molecular Prime on hit
+- Primed Continuity, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Stretch, rank 5, unpolarised
+- Neutron Star, rank 3, unpolarised — augment. Recasting 1 fires all stars; adds forced heat and a partial strip
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Concentration, Arcane Hot Shot
+
+Arsenal figures land at roughly 154% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with 370 health, 370 shield, 135 armor and a 755 energy pool.
+
+**How it works.** Molecular Prime's 75% slow or speed both cap at 150% Strength;
+the listed 154% clears it. Molecular Fission lets Null Stars seek and prime enemies
+in a 12 to 20m radius so you rarely recast Molecular Prime itself. Neutron Star
+adds a forced heat proc that stuns (prolonged hugely by the slow) and strips up to
+50% armour over 2s, about a 3.7x damage multiplier against armour. Nova's passive
+plus Equilibrium keeps energy flowing at 45% Efficiency. *Confidence:
+Approximation, per the author.*
+
+**Playstyle.**
+
+1. Tap 4 for the 75% slow, or hold 4 for the 75% speed.
+2. Tap 1 for Null Stars; recast 1 periodically to fire all stars for heat procs and Molecular Prime.
+3. Use 3 (Wormhole) for traversal and shield gating.
+4. Use 2 (Antimatter Drop) for low-level nuking, or as a 25,000-in-200,000-out amplifier with a hard-hitting weapon.
+
+**Survivability.** Shield gating: Brief Respite plus three Augur mods gives about
+0.9s off 2, 1s off 3, 1.45s off 4; Catalyzing Shields makes every cast a full
+1.33s. Null Star's 90% damage reduction (now on shields and health, near-100%
+uptime with Molecular Fission) passively tanks base Steel Path to about level 500.
+*Confidence: Approximation, per the author.*
+
+**Duration, Efficiency, Range, Strength.** Duration scales Molecular Prime's spread
+and the Null Star particle count (24 at ~200%). Efficiency is negative because the
+passive funds it. Range 145% to 235% for Wormhole, Antimatter Drop, the star seek
+radius and the Neutron Star and Molecular Prime radii. Strength only needs to
+clear 150%.
+
+**The mods.** *Blind Rage* is the Strength (past the threshold it does little).
+*Overextended, Stretch* set the Range. *Primed Continuity* holds Duration.
+*Primed Flow, Equilibrium* are the energy base. *Molecular Fission, Neutron Star*
+are the augments that make priming passive. *Brief Respite* aura feeds the gate.
+
+**Flexible slots.** Drop Equilibrium for violet Equilibrium shards and add Augur
+Message, Augur Reach, Rolling Guard or Fast Deflection. Arcane Sculptor over
+Concentration or Hot Shot for free Wormhole spam.
+
+**Helminth.** Pick one. Subsume over 2 or 3.
+
+- **Nourish** for viral Null Stars, a weapon viral buff, and an energy multiplier.
+- **Roar** for ability and status damage (full ability-DPS builds exist).
+- **Xata's Whisper** to trigger off Molecular Prime's blast procs and buff blast weapons.
+- **Silence** for Eximus and Acolyte lockout, stun prolonged by the slow.
+- **Pillage** for a strip and shield return.
+
+**Archon Shards.** One Amber cast-speed. One Tauforged Crimson strength to hit
+150% and free Power Drift. Two Tauforged Crimson Duration. One optional violet
+Equilibrium. Five total.
+
+**Arcanes.** Arcane Concentration for the Duration spread, Arcane Hot Shot for
+300% crit chance (easy to keep with Neutron Star; skip it on Phenmor, Laetum,
+Felarx). Arcane Sculptor or Molt Efficiency as swaps.
+
+**Focus.** Any. Madurai for Strength and cast speed. Vazarin Sling as a backup.
+
+**Weapon synergy.** Any crit weapon with Arcane Hot Shot. Molecular Prime's death
+explosions inherit on-kill effects: Devouring Attrition on first-gen Incarnons
+(Phenmor, Laetum, Felarx) for area nukes, Acid Shells on Sobek, Amalgam Argonak
+strip, Okina spectral daggers.
+
+**Staying alive.** Shield gating plus the slow plus Null Star DR. It fails in the
+gap with no crowd to gate on, and to toxin.
+
+**Energy.** The passive plus Equilibrium. Arcane Sculptor if you spam Wormhole.
+
+**Where it struggles.** Molecular Prime's amp is a multiplier, not a nuke, so a
+weak weapon stays weak. Bosses take the doubled damage but you still need to deal
+it. Wormhole energy without Sculptor.
+
+**Variants.** An endurance Nourish variant. A pure ability-DPS Roar build. A
+Silence comfort build. A Pillage build. A full-EHP tank Slowva.
+
+**Strengths and weaknesses.** Strong: a squad-wide 2x damage debuff, flexible
+slow or speed, self-funding energy, part-strip and crowd control from one augment.
+Weak: amplifier not a nuke, boss damage still on the weapon, needs a strength
+source for the threshold cleanly.
+
+**Who runs this.** Players who want to double the whole squad's damage and slow the
+room to a crawl.
+
+---
+
+### Avenging Angel
+**Trinity Prime. A full armour strip plus a stacking red-crit buff for whatever you are shooting.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Weapon platform |
+| Role | Weapon damage enabler, team energy and immortality support |
+| Difficulty | Intermediate. The ramp-up is slow and losing the buff hurts |
+| Investment | Very low. 1 forma |
+| Weapon reliance | Total. Trinity does nothing to enemies; she strips armour and makes your gun red-crit |
+
+> Tenno. Trinity strips a target to zero armour with Abating Link and then feeds
+> your weapon crit chance from Champion's Blessing, up to 350% additive based on
+> how much health you heal. Add Arcane Avenger's flat 45% and a mid-crit weapon
+> red-crits every other shot. Energy Vampire keeps you and the squad topped up,
+> and Bless makes the team briefly immortal. Keep Link and Bless up, heal through
+> Combat Discipline, and let the buff climb.
+
+**The build**
+
+- Vampire Leech, rank 3, unpolarised — augment. Energy Vampire also grants shields
+- Primed Continuity, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Abating Link, rank 3, unpolarised — augment. Link strips linked enemies' armour
+- Overextended, rank 5, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Champion's Blessing, rank 3, unpolarised — augment. Bless grants a health-scaled crit-chance buff
+- Aura: Combat Discipline, Vazarin polarity
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Concentration, Arcane Avenger
+
+Arsenal figures land at roughly 154% Strength, 254% Duration, 124% Range, 45%
+Efficiency, with 370 health, 555 shield, 135 armor and a 641 energy pool.
+
+**How it works.** Abating Link only needs 167% Strength for a full strip.
+Champion's Blessing gives up to 350% additive crit chance based on the percentage
+of health healed; Arcane Avenger adds a flat 45%. Combat Discipline is the healing
+trigger, and because Link and Bless give 75% damage reduction each (about 93%
+total), Combat Discipline only costs about 1 health per kill instead of 10, which
+Bless heals. The buff takes 2 to 5 minutes to cap solo, faster with a companion
+that needs healing. *Confidence: Approximation, per the author's spreadsheet.*
+
+**Ability priority.**
+
+1. Cast Energy Vampire often to keep energy topped.
+2. Keep Link and Bless up at all times.
+3. Get kills for Combat Discipline and Arcane Avenger.
+4. Cast Bless to heal and stack Champion's Blessing.
+5. Once capped, always refresh Bless before the crit buff lapses.
+
+**Duration, Efficiency, Range, Strength.** Very high Duration for Link, Bless and
+the crit buff. Efficiency dumped because Primed Flow plus Energy Vampire covers it.
+Some Range for Link and Well of Life. Strength only for the 167% strip threshold
+(Energy Vampire's true-damage pulse also scales with Strength if you want the
+one-shot at 236%).
+
+**The mods.** *Blind Rage* is the Strength. *Narrow Minded, Primed Continuity* are
+the Duration, with Narrow Minded's Range cost bought back by Overextended.
+*Primed Flow* is the pool. *Abating Link* is the strip. *Champion's Blessing* is
+the crit buff. *Combat Discipline* aura is the healing trigger for both the buff
+and Avenger.
+
+**Flexible slots.** Rolling Guard for i-frames and status cleanse. Adaptation plus
+Arcane Guardian over Abating Link for a health-tank route. A Bleeding Dragon Key
+plus Quick Thinking speeds the ramp.
+
+**Helminth.** Pick one. Trinity's kit is full, so subsume for the missing piece:
+crowd control or passive survival.
+
+- **Silence** at neutral Range for a refreshable stun plus Eximus and Acolyte lockout.
+- **Evade** for permanent invisibility so you barely gate.
+- **Resonator** for cheat-mode crowd control.
+- **Roar** or **Nourish** for weapon and Energy Vampire damage.
+
+**Archon Shards.** One Tauforged Amber cast-speed. Then either four Tauforged
+ability-damage-on-status shards for the Energy Vampire one-shot, or duration and
+parkour to protect the crit buff. Five total.
+
+**Arcanes.** Arcane Avenger is mandatory with Combat Discipline. Arcane
+Concentration for Duration. Arcane Energize as a backup only.
+
+**Focus.** Any. Madurai for cast speed. Vazarin for i-frames.
+
+**Weapon synergy.** Any primary or secondary with decent base crit chance so the
+buff pushes it into consistent red crits: Kuva Chakkhurr, Dread, Kuva Bramma,
+Amprex, Dual Toxocyst Incarnon, Epitaph.
+
+**Staying alive.** Link plus Bless damage reduction plus Well of Life immortality
+(60s cooldown) plus optional Rolling Guard. It fails in deep endurance where the
+DR is not enough, and to toxin.
+
+**Energy.** Energy Vampire plus Primed Flow. It is a non-issue.
+
+**Where it struggles.** The slow ramp, and losing the buff to a death or a missed
+refresh sets you back minutes. No damage of its own. Bosses need the weapon.
+
+**Variants.** A Bleeding Dragon Key fast-ramp build. A health-tank Adaptation
+build.
+
+**Strengths and weaknesses.** Strong: a full strip and a huge crit buff for one
+forma, best-in-slot team energy, team immortality. Weak: entirely weapon-carried,
+slow to come online, punishing to lose the buff.
+
+**Who runs this.** Players who want to turn one weapon into a red-crit machine and
+hard-support the squad's energy.
+
+---
+
+### The Blazing Lotus
+**Protea Prime. Blaze Artillery turret damage, a Temporal Anchor strip and rewind, and shield-satellite gating.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Turret nuke, armour strip, grouping, a banked-damage nuke, shield-gate survivor |
+| Difficulty | Advanced. A four-cast rotation, an inverted control, and the Anchor rewind |
+| Investment | Low. 2 forma, duration and cast-speed shards |
+| Weapon reliance | Medium. Blaze Artillery and Temporal Anchor's banked damage carry; a weapon feeds the bank |
+
+> Tenno. Protea drops turrets. Blaze Artillery ramps up the longer it lives and
+> the more it hits, so grouping matters. Temporal Anchor is the trick: enter it,
+> strip armour with your other abilities via Temporal Erosion, bank 25% of every
+> hit you land, then end it to dump all that damage in a 35m sphere and rewind
+> your energy and ammo back to where you started. Shield Satellites give a long
+> double gate. Every fourth cast, her passive doubles your Strength.
+
+**The build**
+
+- Equilibrium, rank 10, Naramon polarity
+- Overextended, rank 5, unpolarised
+- Temporal Erosion, rank 3, unpolarised — augment. Damage during Temporal Anchor strips armour
+- Temporal Artillery, rank 3, unpolarised — augment. Blaze Artillery deals more damage
+- Primed Flow, rank 10, Naramon polarity
+- Archon Vitality, rank 0, unpolarised — doubles Blaze Artillery heat procs
+- Blind Rage, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Growing Power, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Concentration, Arcane Sculptor
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 190% Range, 45%
+Efficiency, with about 404 health, 555 shield, 185 armor and a 712 energy pool.
+
+**How it works.** Arcane Sculptor triggers off casting 1 and 2 and locks 175%
+Efficiency for 12s, so it is always up and energy is a non-issue even at 45%
+arsenal Efficiency. Temporal Anchor banks 25% of each damage instance with no cap
+and releases it in a 35m+ line-of-sight sphere; Temporal Erosion makes casts of 1
+and 2 strip armour during the Anchor, working on Acolytes and Demolysts with no
+big Strength requirement. Protea's passive gives +100% Strength to every fourth
+cast, which you want to land on the Anchor cast so it strips 20% per hit.
+*Confidence: Approximation, per the author.*
+
+**Playstyle.** Invert tap/hold so tapping 1 casts Shield Satellite.
+
+1. Tap 3 (Dispensary) at mission start and keep one near you.
+2. Tap 1 (Shield Satellite) onto the ground; approach one for shields and a ~5s double gate. Recast and grab one whenever shields break.
+3. Hold 1 (Shrapnel Vortex) at chokepoints for crowd control and strip contribution.
+4. Tap 2 (Blaze Artillery) toward enemies. Three at once, short duration, recast often.
+5. Tap 4 (Temporal Anchor) on the 100% passive cast: strip with 2, 2, 2, then either let it expire, tap 4 again to group, or bank damage and tap 4 to nuke, then rewind.
+
+**Duration, Efficiency, Range, Strength.** Duration lengthens Blaze Artillery so it
+ramps higher; 200%+ with shards. Efficiency solved by Sculptor. Range for Shrapnel
+Vortex, the implosion and nuke radius, and Blaze Artillery's already-long reach.
+Strength is modest because the passive doubles it every fourth cast; Growing Power
+plus Molt Augmented plus passive reaches about 225%.
+
+**The mods.** *Blind Rage* is the Strength, covered by *Arcane Sculptor*.
+*Overextended* is the Range. *Primed Continuity* is the Blaze Artillery Duration.
+*Primed Flow, Equilibrium* are the energy base. *Temporal Erosion* is the strip.
+*Temporal Artillery* is turret damage. *Rank 0 Archon Vitality* is a ~30% Blaze
+Artillery DPS bump via doubled heat procs. Do not run Augur mods; they overwrite
+the Shield Satellite gate.
+
+**Flexible slots.** Blind Rage to Constitution or Nira's Hatred for Duration.
+Archon Vitality to Umbral Intensify for Strength. The aura and exilus are open.
+
+**Helminth.** Pick one. Subsume over Dispensary (if you run external energy) or
+Temporal Anchor (if you dislike the rewind).
+
+- A **grouping** ability (Larva ideal, then Coil Horizon, Airburst, Ensnare, Pull) to ramp Blaze Artillery faster.
+- An **armour strip** (Terrify at 167%, or 137% with Corrosive Projection) if you subsume Temporal Anchor away.
+- **Roar** or **Nourish** for turret damage or energy and weapon viral.
+- **Gloom** or **Breach Surge** for crowd-control survival.
+
+**Archon Shards.** One to two Tauforged Amber cast-speed for the Anchor animation.
+Three to four Tauforged Crimson Duration for Blaze Artillery. Five total.
+
+**Arcanes.** Arcane Sculptor for the Efficiency lock, Arcane Concentration for
+Duration. Molt Augmented or Arcane Hot Shot as swaps.
+
+**Focus.** Vazarin Sling for i-frames and Void Snare grouping. Madurai for cast
+speed and Strength.
+
+**Weapon synergy.** A heat-inherit primer (Epitaph, Bubonico, Proboscis Cernos)
+raises Blaze Artillery DPS if you tag enemies before the turrets do. Latron
+Incarnon primes viral and strips. Any strong weapon feeds the Temporal Anchor
+bank.
+
+**Staying alive.** The Shield Satellite double gate plus Temporal Anchor's 3s
+i-frames and status cleanse plus its extra-life effect. It fails if you are caught
+with no satellite down and the gate expired, and to toxin.
+
+**Energy.** Arcane Sculptor's lock. A non-issue.
+
+**Where it struggles.** The rotation is genuinely complex and the rewind is
+disorienting. Blaze Artillery's short duration means constant recasting. Bosses
+need the banked-damage nuke or the weapon.
+
+**Variants.** A semi-AFK Mecha Roar build.
+
+**Strengths and weaknesses.** Strong: strong ramping turret damage, a flexible
+strip that hits everything, a scaling banked nuke, a long shield gate. Weak:
+high complexity, constant turret upkeep, rewind nausea.
+
+**Who runs this.** Players who want a busy, high-ceiling turret frame with a strip
+and a panic-proof gate.
+
+---
+
+### Endless Fist
+**Baruuk Prime. Exalted Desert Wind influence clear behind stacked, multiplying damage reduction.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Exalted-melee influence clear, near-immortal bruiser |
+| Difficulty | Beginner to intermediate |
+| Investment | Medium. 3 forma, violet melee crit-damage shards |
+| Weapon reliance | Low. Desert Wind is the damage; a companion primes |
+
+> Tenno. Baruuk does not want to fight, and that is his defense. Elude dodges
+> every attack from any direction while you are not attacking. Desolate Hands
+> throws daggers that disarm and stack 90% damage reduction. Serene Storm arms
+> Desert Wind, a fist exalted that with Reactive Storm and Melee Influence clears
+> rooms on light attacks. Elusive Retribution rewards dodging with crit damage and
+> speed. Stand still to reset, then wade in.
+
+**The build**
+
+- Reactive Storm, rank 3, unpolarised — augment. Desert Wind gains status chance and matches enemy weakness
+- Precision Intensify, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Overextended, rank 5, Vazarin polarity
+- Elusive Retribution, rank 3, unpolarised — augment. Dodging grants attack speed and crit damage
+- Blind Rage, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Cunning Drift, Naramon polarity
+- Arcanes: Arcane Fury, Molt Augmented
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 200% Range, 45%
+Efficiency, with 280 health, 465 shield, 240 armor and an 855 energy pool.
+
+**How it works.** Elude needs exactly 200% Range for a 360-degree dodge, which is
+total damage immunity while not attacking; Overextended plus rank 3 Cunning Drift
+hits it. Desolate Hands above 9 daggers is 90% damage reduction. Serene Storm adds
+40%. Stacked, that is about 97% before Adaptation, 99.7% with it. Since the 2025
+exalted rework Desert Wind takes acolyte mods and Melee Influence, so it clears
+like a top-tier influence melee. *Confidence: Approximation, per the author's DR
+math.*
+
+**Ability priority.**
+
+1. Activate Elude and Desolate Hands (3); keep daggers above 9.
+2. Stand still and do not attack briefly to build Elusive Retribution.
+3. Use Lull (2) periodically to erode Restraint and crowd-control.
+4. Keep Serene Storm (4) active and spam light melee.
+5. To gate, cast Lull or Desolate Hands, or stop attacking to let shields recover under Elude.
+
+**Duration, Efficiency, Range, Strength.** Duration only reduces Elude's drain;
+Desert Wind and Desolate Hands ignore it. Efficiency does not touch Desert Wind;
+Equilibrium plus a Synth Deconstruct pet plus Seismic Bond covers Lull and the
+daggers. Range is pinned at 200% for the full Elude dodge. Strength boosts Desert
+Wind and Elusive Retribution.
+
+**The mods.** *Blind Rage* is the Strength with *Precision Intensify* adding more.
+*Overextended* is the Range half of the 200% Elude target, with *Cunning Drift*
+finishing it. *Primed Continuity* cuts Elude drain. *Primed Flow* holds energy for
+violet crit-damage shard value. *Equilibrium* is the engine. *Reactive Storm,
+Elusive Retribution* are the augments. *Brief Respite* aura for active gating.
+
+**Flexible slots.** Streamline, Primed Continuity, Umbral Intensify or Augur Reach
+in the flex slot. Rolling Guard or Adaptation for lower content. Endless Lullaby
+for auto-recast Lull. Archon Vitality for doubled Desert Wind heat procs.
+
+**Helminth.** Pick one. Subsume over Lull (if you use Elude and Elusive
+Retribution) or Elude (if you prefer Lull and constant attacking).
+
+- **Nourish** for Elude-sustain energy and free viral on Desert Wind.
+- **Pull** for grouping and manual combo building.
+- **Wrathful Advance** for a flat crit-chance boost so you red-crit without maintaining combo.
+
+**Archon Shards.** One Tauforged Amber cast-speed. Three to four Tauforged Violet
+melee crit-damage (over 225%). Five total.
+
+**Focus.** Naramon to slow combo decay. Vazarin for endurance. Madurai for Strength
+and Cascade.
+
+**Weapon synergy.** Desert Wind is the weapon. A Rauta or Praedos combo statstick
+builds combo onto the exalted. A Panzer Vulpaphyla primes viral and buffs crit
+damage; add Seismic Bond for Efficiency.
+
+**Staying alive.** Elude's directional immunity plus stacked multiplicative DR plus
+Lull and disarm crowd control. It fails only if you must attack while surrounded
+and unshielded in deep endurance, and to toxin ticks.
+
+**Energy.** Equilibrium plus Synth Deconstruct plus Seismic Bond. Desert Wind
+drain is Efficiency-immune, so KPM is the real fuel.
+
+**Where it struggles.** Ranged single targets need you to close. Bosses take
+longer than a nuke. Elude does nothing while you are attacking, so you lean on
+disarm and Lull then.
+
+**Variants.** A Nourish Elusive Retribution build. A Pull grouping build.
+
+**Strengths and weaknesses.** Strong: one of the tankiest frames in the game,
+strong exalted clear, low weapon dependence, cheap forma. Weak: melee range,
+boss-slow, the stand-still-to-reset rhythm is passive.
+
+**Who runs this.** Players who want an exalted-melee frame that clears grouped
+rooms and effectively cannot be killed.
+
+---
+
+### Celestial Monkey
+**Wukong Prime. Iron Staff influence DPS, a level-scaling Defy nuke, and Cloudwalker resets.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Exalted-melee influence clear, scaling reflect nuke, mobile survivor |
+| Difficulty | Beginner to intermediate |
+| Investment | Medium. 3 forma, violet melee crit-damage shards |
+| Weapon reliance | Low. Iron Staff is the damage; Defy scales on its own |
+
+> Tenno. Wukong brings a twin, a cloud, and a staff. Celestial Twin fights
+> alongside you and Celestial Stomp gives wide crowd control. Cloudwalker is a
+> Rolling Guard on tap: travel, heal, cleanse status, reset the shield gate. Defy
+> reflects enemy damage back at their current level, so it only gets stronger the
+> deeper you go. Iron Staff, since the exalted rework, is one of the best standard
+> influence melees in the game.
+
+**The build**
+
+- Celestial Stomp, rank 3, unpolarised — augment. Celestial Twin casts a radial stomp
+- Augur Reach, rank 5, unpolarised
+- Precision Intensify, rank 5, Madurai polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Stretch, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Molt Augmented, Arcane Strike
+
+Arsenal figures land at roughly 115% Strength, 155% Duration, 175% Range, 100%
+Efficiency, with 555 health, 445 shield, 290 armor and a 556 energy pool.
+
+**How it works.** Iron Staff (12m at max combo with Primed Reach, 1 Follow Through)
+takes Blood Rush, Weeping Wounds and Melee Influence since the rework, so it clears
+crowds through influence procs. Defy reflects a portion of current enemy damage, so
+it is an infinite-scaling nuke that eventually one-shots level cap. Strength is low
+because only Iron Staff wants it, so Precision Intensify suffices. Cloudwalker is
+the survival engine. *Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Cast 1 for Celestial Twin; hold 1 to stomp for crowd control.
+2. Tap 2 (Cloudwalker) often to travel, heal, cleanse and reset the gate.
+3. Tap 3 (Defy) to clear surrounding enemies; it scales with their damage.
+4. Enter 4 (Iron Staff) and clear.
+
+**Duration, Efficiency, Range, Strength.** Positive Duration for Cloudwalker, the
+Stomp stun and Primary Fury drain. Some Efficiency so Iron Staff drain is
+reasonable, with Primed Flow plus Equilibrium behind it. Range for Defy and
+Celestial Stomp radius (Narrow Minded instead if you skip both). Strength only for
+Iron Staff.
+
+**The mods.** *Precision Intensify* is the Strength. *Stretch, Augur Reach* set the
+Defy and Stomp Range, with Augur Reach also feeding the gate. *Primed Continuity*
+holds Duration. *Primed Flow, Equilibrium* are the energy base. *Catalyzing
+Shields* makes one Cloudwalker cast a full 1.33s gate. *Celestial Stomp* is the
+Twin's crowd control. *Corrosive Projection* maxes damage on unarmoured targets.
+
+**Flexible slots.** Catalyzing Shields, Celestial Stomp, Enveloping Cloud (keeps
+the Twin alive in endurance) and Primal Rage are all optional; swap for Duration,
+Strength or Range. Brief Respite over Corrosive Projection for augment-free gating.
+
+**Helminth.** Pick one. Subsume over 1 or 3.
+
+- **Wrathful Advance** for a 400% flat crit boost, instant red crits on Iron Staff.
+- **Roar** to triple-dip Melee Influence procs.
+- **Nourish** for viral on you and the Twin plus energy.
+- **Pillage** for a strip and shields.
+
+**Archon Shards.** One optional Amber cast-speed. Four Violet melee crit-damage for
+Iron Staff. Five total.
+
+**Arcanes.** Arcane Strike to offload attack speed from Iron Staff, Molt Augmented
+for Strength. Arcane Fury as a swap.
+
+**Focus.** Any. Madurai for Strength and cast speed. Naramon for combo.
+
+**Weapon synergy.** A movement-passive melee (Okina Prime Incarnon, Ruvox) speeds
+Cloudwalker. A passive companion primer (Diriga, Nautilus with Tazicor, Panzer)
+primes viral and corrosive and feeds Equilibrium and Seismic Bond.
+
+**Staying alive.** Cloudwalker resets plus shield gating plus Wukong's passive
+death-defy plus crowd control. It fails only if you spend the gap between
+Cloudwalker casts surrounded with the gate down, and to toxin.
+
+**Energy.** Primed Flow plus Equilibrium plus a Synth Deconstruct pet.
+
+**Where it struggles.** Bosses take the Iron Staff, not a nuke. Defy needs enemies
+that actually hit hard to scale. Twin AI can wander.
+
+**Variants.** A low-range pure Iron Staff build. A lazy full-tank build.
+
+**Strengths and weaknesses.** Strong: strong exalted clear, a nuke that scales
+forever, forgiving survival, cheap forma. Weak: boss-slow, Strength-light so
+Iron Staff wants shards, Twin is inconsistent.
+
+**Who runs this.** Players who want a melee frame with a self-scaling panic nuke
+and a one-button reset button.
+
+---
+
+### Hurricane Force
+**Zephyr Prime. Tornadoes that multiply your weapon's hits, behind Turbulence bullet immunity.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Area nuke, grouping, objective defense, projectile immunity |
+| Difficulty | Intermediate |
+| Investment | Medium. 4 forma, duration and cast-speed shards |
+| Weapon reliance | High. Tornadoes redistribute your weapon's damage; the gun does the killing |
+
+> Tenno. Turbulence deflects every bullet aimed at you, so on defense you just
+> stand next to the objective. Tornadoes are damage multipliers: shoot an
+> electric or gas weapon into them and every enemy caught inside eats your hit
+> three times, or eleven with Funnel Clouds. Airburst vacuums a crowd into the
+> funnels from 40m out. Float with Tailwind for a crit bonus and to stay off the
+> ground.
+
+**The build**
+
+- Overextended, rank 5, Vazarin polarity
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Streamline, rank 5, unpolarised
+- Augur Reach, rank 5, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Concentration, Arcane Circumvent
+
+Arsenal figures land at roughly 40% Strength, 254% Duration, 214% Range, 130%
+Efficiency, with 555 health, 555 shield, 135 armor and a 641 energy pool.
+
+**How it works.** Tornado's pull and damage radius is locked at 10m regardless of
+Range; three stationary tornadoes make a ~20m overlapping cluster. Range instead
+boosts Airburst to ~20m so you can pull enemies from 40m+ into the cluster, and
+boosts Turbulence coverage. An AoE crit weapon hitting all three tornadoes and the
+enemy inside is roughly a 19x multiplier, or up to 67x with the 11-tornado Funnel
+Clouds augment. Strength is dumped because it only affects the frame's own tornado
+damage, not the redistributed weapon damage. *Confidence: Approximation, per the
+author.*
+
+**Playstyle.**
+
+1. Keep Turbulence up on cooldown; stand it over defense objects.
+2. Hold 4 for three stationary tornadoes, tap 4 for three homing ones.
+3. Jump and hold 1 to hover for a +150% additive crit bonus and to stay off the ground.
+4. Tap 2 (Airburst) near a tornado's edge to vacuum enemies in.
+5. Shoot the tornadoes with an electric or gas weapon.
+
+**Duration, Efficiency, Range, Strength.** Duration for comfortable Turbulence
+uptime and faster Tailwind; Tornado's base is long and Airburst ignores it.
+Efficiency from Streamline plus Primed Flow plus Equilibrium plus Archon Stretch.
+Range for Airburst and Turbulence, not Tornado. Strength is irrelevant and floored.
+
+**The mods.** *Narrow Minded, Primed Continuity* are the Duration. *Overextended,
+Archon Stretch, Augur Reach* set the Range, with Archon Stretch feeding passive
+energy off electric weapons in the tornadoes and Augur Reach feeding the gate.
+*Streamline* is Efficiency. *Primed Flow, Equilibrium* are the energy base.
+*Brief Respite* aura is backup gating.
+
+**Flexible slots.** Funnel Clouds over Augur Message for AoE and high-spread
+weapons (11 tornadoes, up to 67x). Natural Talent if you skip cast-speed shards.
+Rolling Guard for the vulnerable window between Turbulence recasts. Target Fixation
+for a Tailwind-slam meme.
+
+**Helminth.** Pick one. Subsume over Tailwind or Airburst.
+
+- **Silence** to stop Violence dispelling Turbulence and to block Eximus abilities.
+- **Tempest Barrage** for a corrosive-and-viral zone that tornadoes multiply up to ~34x.
+- **Nourish** for low-Strength viral on weapons without overweighting status.
+- **Spectrorage** with Spectrosiphon for squad energy if you lack Arcane Energize.
+
+**Archon Shards.** Three or more Crimson Duration. Two Amber cast-speed to drop
+Natural Talent. Parkour optional. Five total.
+
+**Arcanes.** Arcane Concentration for the Duration spread, Arcane Circumvent for a
+roll-strip that pairs with grouping. Molt Efficiency or Aegis as swaps.
+
+**Focus.** Unairu for a full armour and shield strip on a grouped tornado cluster,
+which is exactly what electric and gas want at high levels. Madurai for cast speed.
+Zenurik for energy.
+
+**Weapon synergy.** AoE and high-spread weapons that hit multiple tornadoes at
+once: Trumna, Kuva Zarr, Tenet Arca Plasmor, Bubonico alt-fire. Electric if the
+weapon has no innate element, gas or blast if it has heat or toxin. Galvanized and
+Condition Overload mods do nothing (tornadoes hold no status), so run flat damage
+instead.
+
+**Staying alive.** Turbulence blocks all projectiles; the rest is the ~30s recast
+window covered by Rolling Guard and Brief Respite. It fails to melee, AoE and
+environmental status that bypass Turbulence, and to a Violence dispel (bring
+Silence).
+
+**Energy.** Primed Flow plus Equilibrium plus Archon Stretch at 130% Efficiency.
+
+**Where it struggles.** Melee enemies ignore Turbulence, so hover. The recast
+window is a real vulnerability. Bosses. Single-target weapons waste the tornado
+multiplier.
+
+**Variants.** A zero-forma budget non-Prime build. A Jet Stream speedrun and
+open-world build.
+
+**Strengths and weaknesses.** Strong: near-total projectile immunity, a huge
+weapon multiplier, strong grouping and defense, scales to level cap. Weak: melee-
+vulnerable, recast gaps, weapon-carried, no Strength scaling.
+
+**Who runs this.** Players who want a defense and survival frame that ignores
+gunfire and turns any AoE weapon into a room-clearing nuke.
+
+---
+
+### Indestructible Diamond
+**Citrine. A million effective HP, squad status priming, and a companion-nuke package.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Support |
+| Role | Casual tank, team status prime and heal, companion DPS enabler |
+| Difficulty | Beginner |
+| Investment | Medium. 4 forma, cast-speed shards near-mandatory |
+| Weapon reliance | Low for the frame. Damage comes from a companion or a crystal-crit weapon |
+
+> Tenno. Citrine stacks damage reduction until nothing matters. Fractured Blast
+> makes health orbs that feed Arcane Blessing's health, Health Conversion's
+> armour, and Equilibrium's energy. Preserving Shell adds 90% DR for you and the
+> squad, and Prismatic Gem primes status for everyone's Condition Overload. With
+> the Prismatic Companion augment and Summoner's Wrath, your pet becomes a
+> self-spreading nuke.
+
+**The build**
+
+- Equilibrium, rank 10, Naramon polarity
+- Prismatic Companion, rank 3, unpolarised — augment. Prismatic Gem effects apply to a free-moving companion
+- Primed Flow, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Recrystalize, rank 3, unpolarised — augment. Crystallize can be re-triggered
+- Stretch, rank 5, unpolarised
+- Adaptation, rank 10, Vazarin polarity
+- Aura: Summoner's Wrath, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Blessing, Arcane Guardian
+
+Arsenal figures land at roughly 199% Strength, 155% Duration, 160% Range, 45%
+Efficiency, with 500 health, 370 shield, 265 armor and a 513 energy pool.
+
+**How it works.** Stacked and multiplied: Arcane Blessing (~1605 health), Health
+Conversion (~1600 armour, 84% DR), Adaptation (90% DR to a type), Preserving Shell
+(90% DR). Multiplied out that is about 99.84% DR and roughly one million effective
+HP, enough for Steel Path to around level 500 to 1000. Fractured Blast (spam 1)
+makes the orbs that fund all of it. Prismatic Gem primes status for the squad and
+buffs status weapons; with Prismatic Companion and Summoner's Wrath a Kubrow or
+Moa becomes a Contagious Bond feedback nuke. *Confidence: Approximation, per the
+author's EHP math.*
+
+**Playstyle.**
+
+1. Spam 1 (Fractured Blast) everywhere for orbs, armour, health and energy.
+2. Keep Preserving Shell (4) up for the 90% squad DR.
+3. Keep Prismatic Gem (3) up for status priming and the weapon status buff.
+4. Optionally cast Crystallize (2) and shoot the crystals for forced red crits (not with AoE weapons).
+
+**Survivability.** EHP tanking as above, or swap Adaptation for Catalyzing Shields
+plus Augur mods for a shield-gate-plus-Huras-invisibility endurance route where
+spamming 1 makes you effectively unkillable.
+
+**Duration, Efficiency, Range, Strength.** Positive Duration for Preserving Shell,
+3 and 4. Efficiency dumped because 1 plus Equilibrium funds it. Range 145% to 175%
+for Fractured Blast, Prismatic Gem and Crystallize. Strength wants 200% so
+Fractured Blast is a guaranteed health-orb drop; beyond that it adds a second orb
+and energy orbs.
+
+**The mods.** *Blind Rage* is the Strength toward the 200% orb threshold.
+*Stretch* is the Range. *Archon Continuity* is Duration plus corrosive procs for
+Condition Overload. *Adaptation* is a DR layer. *Primed Flow, Equilibrium* are the
+energy base. *Prismatic Companion, Recrystalize* are the augments. *Summoner's
+Wrath* aura is +75% companion damage that double-dips DoTs.
+
+**Flexible slots.** Recrystalize drops if you do not use a crystal-crit weapon.
+Natural Talent is strongly recommended without cast-speed shards (3 and 4 are very
+slow). Archon Vitality over Health Conversion if you lack Arcane Blessing. Mecha
+Pulse for a Kubrow Mecha nuke.
+
+**Helminth.** Pick one. Subsume over Crystallize (slow and clunky).
+
+- **Roar** for team damage and to make Fractured Blast kill Steel Path enemies.
+- **Expedite Suffering** to compress slash and toxin-heat procs for fast kills.
+- **Pillage** for a full strip, shields and status cleanse.
+- **Terrify** with Creeping Terrify for crowd control, slow and strip.
+- **Ensnare** for grouping. **Nourish** for viral and energy.
+
+**Archon Shards.** Two Amber cast-speed (near-mandatory for Crystallize). The rest
+flexible: two violet Equilibrium to free the mod, parkour, or one Tauforged
+Emerald corrosive for Archon Continuity's 13-stack 98% strip. Five total.
+
+**Arcanes.** Arcane Blessing for health, Arcane Guardian for armour. Arcane Impetus
+or Molt Augmented as swaps.
+
+**Focus.** Any. Madurai Power Transfer helps the slow cast times. Vazarin for a
+panic i-frame.
+
+**Weapon synergy.** Crystallize red-crits favour low-crit, high-multiplier weapons
+or weapons with no headshot multiplier (Nataruk, Dread Incarnon, Paris Prime
+Incarnon, Kuva Nukor). For the companion nuke, a Huras Kubrow with a Paris Prime
+Incarnon statstick, or a Moa with Verglas.
+
+**Staying alive.** The DR stack, or the shield-gate route. The EHP route fails past
+roughly level 1000 where hits exceed a million; toxin bypasses armour but not the
+other layers.
+
+**Energy.** Fractured Blast orbs through Equilibrium. A non-issue.
+
+**Where it struggles.** The frame itself does almost no damage; it is a tank and
+an enabler. Deep endurance outscales even a million EHP. Slow cast times without
+shards.
+
+**Variants.** A shield-gating endurance build. A Prismatic Gem DPS full-strip
+Pillage build.
+
+**Strengths and weaknesses.** Strong: enormous survivability, strong squad support
+and priming, a hands-off companion nuke option, beginner-friendly. Weak: no self
+damage, EHP route has a ceiling, painfully slow casts without investment.
+
+**Who runs this.** Players who want a near-unkillable support that primes and heals
+the squad while a pet does the killing.
+
+---
