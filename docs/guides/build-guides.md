@@ -20482,3 +20482,467 @@ wants a primed crowd.
 **Who runs this.** Players who want a fast, forgiving influence tonfa.
 
 ---
+
+### The Twin Poison
+**Dual Ichor. A low-MR electric-influence nuke that spreads status through a crowd.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Influence nuke, crowd clear |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma, MR 6 |
+| Weapon reliance | Standalone |
+
+> Tenno. Dual Ichor is cheap to build and swings fast. Modded for electric with
+> Melee Influence, one light attack into a primed pack chains the status kill
+> outward across the room.
+
+**The build**
+
+- Shocking Touch, rank 5, unpolarised
+- Vicious Frost, rank 0, unpolarised
+- Virulent Scourge, rank 0, unpolarised
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Blood Rush, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, unpolarised
+- Galvanized Steel, rank 10, unpolarised
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Crossing Snakes, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 53% base crit chance and 3x crit damage, both climbing
+with Blood Rush and Weeping Wounds as combo builds. Confidence: Approximation,
+per the author.
+
+**Evolutions.** Ronin's Rush at II for +30% attack speed on the last neutral-combo
+hit. Orokin Reach at III with Dexterity arcanes. Absolute Valor at IV for +34%
+base status.
+
+**The mods.** Condition Overload is +80% per status; Blood Rush plus Weeping
+Wounds scale crit and status with combo; Galvanized Steel is the crit numbers;
+Shocking Touch builds the electric for Melee Influence. Use the Crossing Snakes
+neutral combo.
+
+**Where it struggles.** Short range. Influence needs a primed crowd to chain.
+
+**Who runs this.** New players who want a cheap influence melee.
+
+---
+
+### The Feral Claws
+**Valkyr Prime Talons. A red-crit raw-damage exalted claw build.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Hysteria DPS |
+| Difficulty | Advanced |
+| Investment | Heavy. 7 forma, Valkyr only |
+| Weapon reliance | High. Valkyr-locked |
+
+> Tenno. Valkyr Prime's exalted Talons already crit hard. Stack Blood Rush,
+> Galvanized Steel and Primed Pressure Point for raw red crits while Hysteria
+> keeps you alive.
+
+**The build**
+
+- Galvanized Steel, rank 10, Madurai polarity
+- Blood Rush, rank 10, Madurai polarity
+- Primed Reach, rank 10, Madurai polarity
+- Primed Fever Strike, rank 10, Naramon polarity
+- Gladiator Might, rank 5, Madurai polarity
+- Organ Shatter, rank 5, Madurai polarity
+- Spring-Loaded Blade, rank 5, Vazarin polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Exposure
+
+Weapon figures land near 105% base crit chance and 5x crit damage, climbing with
+Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**The mods.** Primed Pressure Point plus Galvanized Steel plus Organ Shatter are
+the damage and crit core; Blood Rush scales crit with combo; Primed Fever Strike
+is toxin. Organ Shatter is flexible for Condition Overload with a primer or
+Gladiator Rush without a Dexterity arcane. Melee Exposure needs occasional
+ability casts to keep up.
+
+**Where it struggles.** Valkyr-locked. Melee Exposure upkeep. Short base range.
+
+**Variants.** The Live Claws (#310) is the electric-influence Talons variant.
+
+**Who runs this.** Valkyr players who want the biggest Hysteria hit.
+
+---
+
+### The Duet Heavy
+**Harmony. A five-combo heavy-spam build leaning on Expedite and Melee Afflictions.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heavy-attack DPS, damage-over-time |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, MR 10 |
+| Weapon reliance | High. Best with Roar |
+
+> Tenno. Harmony's Expedite passive plus Melee Afflictions builds lingering
+> status zones, and a faction-damage bonus from Roar scales the combination
+> exponentially. Spam five-combo heavies.
+
+**The build**
+
+- Galvanized Reflex, rank 10, Madurai polarity
+- Primed Smite Grineer, rank 10, Madurai polarity
+- Lasting Sting, rank 10, Madurai polarity
+- Killing Blow, rank 5, Madurai polarity
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Sacrificial Steel, rank 10, unpolarised
+- Melee Elementalist, rank 5, Vazarin polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Reaping Spiral, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Afflictions
+
+Weapon figures land near 64% base crit chance and 4.06x crit damage, with
+Sacrificial Steel adding 440% crit on heavy attacks. Confidence: Approximation,
+per the author.
+
+**The mods.** Galvanized Reflex holds you at five combo for a 5x heavy
+multiplier; Sacrificial Steel is the heavy-attack crit; Killing Blow is heavy
+damage; Melee Elementalist is a 90% status-damage multiplier; Lasting Sting
+extends the status zones. Primed Pressure Point is flexible for Condition
+Overload with a primer.
+
+**Where it struggles.** Heavy wind-up. Needs the Roar pairing for its ceiling.
+
+**Who runs this.** Players who like heavy-attack spam with a burn behind it.
+
+---
+
+### The Spore Glaive
+**Coda Pathocyst. An electric-influence glaive that winds up, throws and heavy-detonates.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Thrown-glaive influence nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, MR 17 |
+| Weapon reliance | Standalone |
+
+> Tenno. Wind up, throw the glaive at a group, and heavy-detonate as it arrives.
+> Galvanized Reflex keeps you at five combo for a 5x heavy multiplier, and Melee
+> Influence chains electric through the pack.
+
+**The build**
+
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Galvanized Reflex, rank 10, Madurai polarity
+- Voltaic Strike, rank 3, Madurai polarity
+- Sacrificial Steel, rank 10, unpolarised
+- Volatile Quick Return, rank 3, Naramon polarity
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Killing Blow, rank 5, Madurai polarity
+- Aura: Astral Twilight, stance slot
+- Exilus: Whirlwind, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 64% base crit chance and 4.25x crit damage, with
+Sacrificial Steel adding heavy-attack crit. Confidence: Approximation, per the
+author.
+
+**Progenitor.** Electric, for Melee Influence.
+
+**The mods.** Galvanized Reflex holds five combo; Sacrificial Steel plus Amalgam
+Organ Shatter are heavy-attack crit; Killing Blow is heavy damage; Volatile
+Quick Return widens the detonation radius; Galvanized Elementalist plus Voltaic
+Strike build electric.
+
+**Where it struggles.** Glaive throw-and-detonate rhythm. Very short base range
+on the melee. High MR gate.
+
+**Who runs this.** Glaive players who want an influence nuke on a throw.
+
+---
+
+### The Old Blade
+**Ceramic Dagger Incarnon. A twelve-combo heavy-spam blast-electric nuke from a starter dagger.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heavy-attack influence nuke |
+| Difficulty | Intermediate |
+| Investment | Low. 3 forma, MR 3 |
+| Weapon reliance | Standalone |
+
+> Tenno. The Ceramic Dagger transforms after a heavy attack at six combo. Its
+> evolutions grant 120 starting combo after 100 kills, and Galvanized Reflex
+> locks you at eleven or twelve combo permanently.
+
+**The build**
+
+- Galvanized Reflex, rank 10, Madurai polarity
+- Focus Energy, rank 3, unpolarised
+- Vicious Frost, rank 3, unpolarised
+- Volcanic Edge, rank 3, unpolarised
+- Melee Elementalist, rank 5, unpolarised
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Pointed Wind, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 10% base crit chance and 1.5x crit damage; this is a
+status build, not a crit one. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Reflex holds max combo; Condition Overload multiplies
+per status; Weeping Wounds scales status with combo; Melee Elementalist plus
+Vicious Frost plus Volcanic Edge plus Focus Energy build blast and electric for
+Melee Influence.
+
+**Where it struggles.** Low crit, so it lives and dies on status. Needs the
+combo established.
+
+**Who runs this.** Players who want an MR 3 dagger that nukes level cap.
+
+---
+
+### The Ground Breaker
+**Magistar. A slam-spam mace that erases the floor at five to eight combo.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Slam nuke |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 1 |
+| Weapon reliance | Standalone |
+
+> Tenno. Magistar's Incarnon makes its slams enormous. Stack slam radius and
+> damage, hold combo, and every ground pound clears a room in a toxin-corrosive
+> shockwave.
+
+**The build**
+
+- Corrupt Charge, rank 3, unpolarised
+- Galvanized Reflex, rank 10, Madurai polarity
+- Primed Fever Strike, rank 10, Naramon polarity
+- Seismic Wave, rank 3, unpolarised
+- Organ Shatter, rank 5, unpolarised
+- Blood Rush, rank 10, Madurai polarity
+- Galvanized Steel, rank 10, unpolarised
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Shattering Storm, stance slot
+- Exilus: Dispatch Overdrive, Naramon polarity
+- Arcane: Melee Exposure
+
+Weapon figures land near 42% base crit chance and 3.8x crit damage, climbing
+with Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**Evolutions.** Edge of Justice at II, Seismic Slam at III for +100% slam
+radius, Critical Parallel at IV.
+
+**The mods.** Primed Pressure Point plus Galvanized Steel plus Organ Shatter are
+the damage and crit core; Seismic Wave plus Corrupt Charge boost slam; Primed
+Fever Strike is toxin. With external crit damage (violet shards, Arcane
+Crepuscular, Tenacious Bond), swap Organ Shatter for Focus Radon to spam slams
+at max damage more often.
+
+**Where it struggles.** Combo regen between slams. Short range if you miss the
+slam.
+
+**Who runs this.** Players who want an MR 1 slam nuke.
+
+---
+
+### The Live Claws
+**Valkyr Prime Talons. An electric Melee Influence Hysteria variant.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Hysteria influence nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 6 forma, Valkyr only |
+| Weapon reliance | High. Valkyr-locked |
+
+> Tenno. Same exalted claws, tuned for electric and Melee Influence instead of
+> raw crit. Hysteria keeps you alive while the influence chain clears the room.
+
+**The build**
+
+- Voltaic Strike, rank 3, Madurai polarity
+- Primed Reach, rank 10, Madurai polarity
+- Shocking Touch, rank 5, Naramon polarity
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Weeping Wounds, rank 5, Madurai polarity
+- Blood Rush, rank 10, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: open (Zenurik polarity), stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 105% base crit chance and 2x crit damage, climbing with
+Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Elementalist plus Shocking Touch plus Voltaic Strike
+build electric for Melee Influence; Blood Rush plus Weeping Wounds scale with
+combo; Galvanized Steel is the crit numbers; Condition Overload multiplies per
+status. Voltaic Strike is flexible for Primed Smite.
+
+**Where it struggles.** Valkyr-locked. Influence wants a primed crowd.
+
+**Variants.** The Feral Claws (#305) is the raw red-crit Talons build.
+
+**Who runs this.** Valkyr players who want Hysteria to nuke crowds.
+
+---
+
+### The Swamp Slam
+**Coda Mire. A five-combo slam sword that leaves lingering gas zones.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Slam nuke, gas damage-over-time |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, MR 17 |
+| Weapon reliance | Standalone |
+
+> Tenno. Heat progenitor plus Mire's innate toxin procs gas on slam. Melee
+> Afflictions multiplies it roughly sevenfold into lingering gas zones, extended
+> by Lasting Sting.
+
+**The build**
+
+- Primed Fever Strike, rank 10, Naramon polarity
+- Lasting Sting, rank 10, Madurai polarity
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Seismic Wave, rank 3, unpolarised
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Galvanized Reflex, rank 10, Madurai polarity
+- Galvanized Steel, rank 10, unpolarised
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Swooping Falcon, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Afflictions
+
+Weapon figures land near 38% base crit chance and 2.4x crit damage; this is a
+status-and-slam build. Confidence: Approximation, per the author.
+
+**Progenitor.** Heat, so it combines with the innate toxin into gas on slam.
+
+**The mods.** Primed Pressure Point is mandatory base damage (do not use
+Condition Overload, it does not affect slam damage); Galvanized Reflex holds
+five combo; Seismic Wave boosts slam; Primed Fever Strike feeds Mire's forced
+toxin; Lasting Sting extends the gas.
+
+**Where it struggles.** Slam rhythm. Gas immunity. High MR gate.
+
+**Variants.** The Ground Breaker (#309) is the toxin-corrosive Magistar slam
+build.
+
+**Who runs this.** Players who want a slam sword that poisons the whole area.
+
+---
+
+### The Reef Cutter
+**Nami Solo Incarnon. The author's pick for the highest group melee DPS in the game.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Influence nuke, group DPS |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 6 |
+| Weapon reliance | Standalone |
+
+> Tenno. Nami Solo's Incarnon gives it the reach, speed and follow-through to be
+> a premier Melee Influence weapon. Light-attack spam into a primed crowd chains
+> electric kills faster than almost anything else.
+
+**The build**
+
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Shocking Touch, rank 5, unpolarised
+- Primed Reach, rank 10, Madurai polarity
+- Primed Fury, rank 10, Madurai polarity
+- Blood Rush, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, unpolarised
+- Galvanized Steel, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Sundering Weave, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 32% base crit chance and 2x crit damage, climbing with
+Blood Rush and Weeping Wounds as combo builds. Confidence: Approximation, per
+the author.
+
+**The mods.** Galvanized Elementalist plus Shocking Touch build electric for
+Melee Influence; Primed Fury is attack speed; Blood Rush plus Weeping Wounds
+scale with combo; Condition Overload multiplies per status. Primed Smite gives
+the highest DPS boost against a known faction (double-dips standard
+damage-over-time, triple-dips influence), so swap it in over Galvanized
+Elementalist for a fixed-faction endurance run.
+
+**Where it struggles.** Influence needs a primed crowd. Single-target is
+unremarkable.
+
+**Who runs this.** Players who want the fastest room-clear melee.
+
+---
+
+### The Storm Fist
+**Furax Wraith. An electric-influence light-attack nuke on one of the best fist weapons.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Influence nuke, crowd clear |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 9 |
+| Weapon reliance | Standalone |
+
+> Tenno. Furax Wraith has high base stats, a status-chance evolution and 0.9
+> follow-through, which puts it in the top tier for light-attack Melee
+> Influence. Punch a primed pack and watch it chain.
+
+**The build**
+
+- Galvanized Elementalist, rank 10, unpolarised
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Primed Reach, rank 10, Madurai polarity
+- Shocking Touch, rank 5, Naramon polarity
+- Blood Rush, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, unpolarised
+- Galvanized Steel, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Seismic Palm, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 63% base crit chance and 2.7x crit damage, climbing
+with Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**Evolutions.** Killjoy at II (+50% attack speed with five enemies within 6m, so
+no attack-speed mod needed, ideally with Arcane Strike too). Moonrise Velocity
+at III for +1m range or a holster-combo perk.
+
+**The mods.** Galvanized Elementalist plus Shocking Touch build electric for
+Melee Influence; Blood Rush plus Weeping Wounds scale with combo; Galvanized
+Steel is the crit numbers; Condition Overload multiplies per status; Primed
+Smite Orokin is faction damage.
+
+**Where it struggles.** Influence wants a primed crowd. Short base reach without
+Primed Reach.
+
+**Who runs this.** Players who want a fist weapon that clears rooms.
+
+---
