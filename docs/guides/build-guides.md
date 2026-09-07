@@ -23227,3 +23227,506 @@ status. Killing Blow is flexible for Primed Smite for maximum DPS.
 **Who runs this.** Players who want a set-and-forget heavy nikana.
 
 ---
+
+### The Kick Slam
+**Sampotes. A five-combo slam influence build on a low-MR sparring weapon.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heavy-slam influence nuke |
+| Difficulty | Beginner |
+| Investment | Low. 3 forma, MR 0 |
+| Weapon reliance | Standalone |
+
+> Tenno. Sampotes has a strong crit base and a fast slam. Modded electric with
+> Melee Influence, each ground pound into a primed pack chains the status kill
+> outward.
+
+**The build**
+
+- Voltaic Strike, rank 3, Madurai polarity
+- Focus Energy, rank 3, unpolarised
+- Seismic Wave, rank 3, unpolarised
+- Weeping Wounds, rank 5, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Galvanized Reflex, rank 10, unpolarised
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Crushing Ruin, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 63% base crit chance and 3x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Galvanized Reflex holds five combo; Seismic Wave boosts slam;
+Galvanized Elementalist plus Focus Energy plus Voltaic Strike build electric for
+influence; Primed Pressure Point plus Galvanized Steel are damage and crit;
+Weeping Wounds scales status.
+
+**Where it struggles.** Slam-only rhythm. Influence wants a primed crowd.
+
+**Who runs this.** New players who want a cheap slam influence weapon.
+
+---
+
+### The Capped Talons
+**Valkyr Prime Talons. A twelve-combo heavy-spam build that hits the damage cap.**
+
+| | |
+|--|--|
+| Content | Steel Path, Level cap |
+| Role | Damage-cap heavy attacks |
+| Difficulty | Advanced |
+| Investment | Heavy. 7 forma, Valkyr only |
+| Weapon reliance | High. Valkyr-locked |
+
+> Tenno. A meme that works: with twelve combo, full priming and shards, Valkyr's
+> exalted Talons reach the per-hit damage cap on unarmoured enemies. Melee
+> Crescendo carries the buff to your guns too.
+
+**The build**
+
+- Galvanized Steel, rank 10, Madurai polarity
+- Blood Rush, rank 10, Madurai polarity
+- Gladiator Might, rank 5, Madurai polarity
+- Primed Fever Strike, rank 10, Naramon polarity
+- Focus Energy, rank 3, Madurai polarity
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Killing Blow, rank 5, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: open, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Crescendo
+
+Weapon figures land near 105% base crit chance and 4.89x crit damage, climbing
+with Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**The mods.** Killing Blow plus Primed Pressure Point are heavy damage; Blood
+Rush plus Gladiator Might scale crit with combo; Galvanized Steel plus Amalgam
+Organ Shatter are the crit numbers; Melee Crescendo stacks the gun buff.
+
+**Where it struggles.** Valkyr-locked. Armour caps it out much earlier, so bring
+a strip. Heavy forma cost.
+
+**Variants.** The Feral Claws (#305) is the raw red-crit Talons; The Live Claws
+(#310) is the electric influence version.
+
+**Who runs this.** Valkyr players chasing the damage cap number.
+
+---
+
+### The Simple Cutter
+**Nami Solo. A no-frills influence build: no combo scaling, no bane, no conditionals.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Influence nuke, crowd clear |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma, MR 6 |
+| Weapon reliance | Standalone |
+
+> Tenno. The lazy Nami Solo build: unconditional damage and multishot only, so
+> the influence chain fires the same whether combo is full or empty. Good for
+> short missions and quick trash clear.
+
+**The build**
+
+- Spring-Loaded Blade, rank 5, unpolarised
+- Shocking Touch, rank 5, unpolarised
+- Primed Reach, rank 10, Madurai polarity
+- Primed Fury, rank 10, Madurai polarity
+- Voltaic Strike, rank 3, unpolarised
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Sundering Weave, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 32% base crit chance and 2x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Galvanized Elementalist plus Shocking Touch plus Voltaic Strike
+build electric for influence; Primed Pressure Point plus Galvanized Steel are
+damage and crit; Spring-Loaded Blade plus Primed Reach give the sweep width. No
+Blood Rush, no Weeping Wounds, no Bane, no Condition Overload.
+
+**Where it struggles.** Lower ceiling than the full Reef Cutter build. Influence
+wants a primed crowd.
+
+**Variants.** The Reef Cutter (#312) is the full combo-scaling Nami Solo.
+
+**Who runs this.** Players who want a Nami Solo that works from the first swing.
+
+---
+
+### The Shield Toss
+**Tenet Agendus. A five-combo heavy build that fires the shield as an influence projectile.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Ranged heavy influence nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, MR 14 |
+| Weapon reliance | Standalone |
+
+> Tenno. Agendus's heavy attack hurls the shield as a projectile. Held at five
+> combo, that toss is a ranged crit hit that Melee Influence chains from,
+> without needing to close the distance.
+
+**The build**
+
+- Galvanized Reflex, rank 10, Madurai polarity
+- Focus Energy, rank 3, unpolarised
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Voltaic Strike, rank 3, Madurai polarity
+- Sacrificial Steel, rank 10, unpolarised
+- Killing Blow, rank 5, unpolarised
+- Aura: Final Harbinger, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 77% base crit chance and 3.69x crit damage, with
+Sacrificial Steel adding heavy-attack crit. Confidence: Approximation, per the
+author.
+
+**The mods.** Galvanized Reflex holds five combo; Sacrificial Steel plus Amalgam
+Organ Shatter are heavy crit; Killing Blow is heavy damage; Focus Energy plus
+Galvanized Elementalist plus Voltaic Strike build electric for influence.
+
+**Where it struggles.** Shield-toss travel time. Heavy wind-up.
+
+**Variants.** The Thunder Guard (#316) is the hybrid light-and-Tennokai Agendus.
+
+**Who runs this.** Players who want a ranged heavy influence weapon from the
+melee slot.
+
+---
+
+### The Momentum Slam
+**Ruvox. A twelve-combo Crescendo movement stick with slam mobility tech.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Crescendo stacker, movement tool |
+| Difficulty | Advanced |
+| Investment | Medium. 6 forma, MR 14 |
+| Weapon reliance | Low. It stacks Crescendo and moves you |
+
+> Tenno. Ruvox slams carry huge momentum, so this build doubles as a movement
+> tool: slam to reposition fast, stack Melee Crescendo on the kills, and hand a
+> big buff to your guns.
+
+**The build**
+
+- Quickening, rank 3, unpolarised
+- Weeping Wounds, rank 5, unpolarised
+- Focus Energy, rank 3, unpolarised
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Primed Fury, rank 10, Madurai polarity
+- Seismic Wave, rank 3, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Seismic Palm, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Crescendo
+
+Weapon figures land near 55% base crit chance and 2.2x crit damage. Confidence:
+Approximation, per the author.
+
+**Evolutions.** Gathering Momentum at II, Seismic Slam at III, Ternary Vault at
+IV, Vulnerability Serum at V.
+
+**The mods.** Melee Crescendo is the gun buff; Seismic Wave plus Seismic Palm
+boost slam radius and momentum; Primed Fury plus Quickening are attack speed;
+Primed Pressure Point plus Galvanized Steel are damage and crit.
+
+**Where it struggles.** It is a setup and mobility tool, not a standalone
+killer.
+
+**Variants.** The Spear Slam (#317) and The Mind Slam (#339) are the influence
+Ruvox builds.
+
+**Who runs this.** Players who want a Crescendo stacker that also zips them
+around.
+
+---
+
+### The Simple Scythe
+**Hate. A no-Incarnon electric influence scythe on a low-forma budget.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Influence nuke, crowd clear |
+| Difficulty | Beginner |
+| Investment | Low. 5 forma, MR 8 |
+| Weapon reliance | Standalone |
+
+> Tenno. The plain Hate influence build, no Incarnon evolution needed: electric,
+> Blood Rush and Weeping Wounds for combo scaling, Condition Overload for the
+> per-status multiplier. Swing into a primed pack and chain.
+
+**The build**
+
+- Shocking Touch, rank 5, unpolarised
+- Vicious Frost, rank 3, unpolarised
+- Volcanic Edge, rank 3, Madurai polarity
+- Berserker Fury, rank 5, Madurai polarity
+- Blood Rush, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, unpolarised
+- Galvanized Steel, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Reaping Spiral, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 63% base crit chance and 2.5x crit damage, climbing
+with Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**Evolutions.** Take the crit-and-status perk at III.
+
+**The mods.** Blood Rush plus Weeping Wounds scale crit and status with combo;
+Galvanized Steel is the crit numbers; Condition Overload multiplies per status;
+Shocking Touch plus Volcanic Edge plus Vicious Frost build the elements for
+influence; Berserker Fury is attack speed.
+
+**Where it struggles.** Lower ceiling than the Incarnon builds. Influence wants
+a primed crowd.
+
+**Variants.** The Burning Scythe (#301) and The Scythe Fall (#344) are the
+heavier Hate builds.
+
+**Who runs this.** Players who want a straightforward influence scythe.
+
+---
+
+### The Staff Slam
+**Bo Prime Incarnon. A Melee Afflictions slam build for Zephyr with Xata's Whisper.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Slam damage-over-time nuke |
+| Difficulty | Intermediate |
+| Investment | Low. 3 forma, MR 5 |
+| Weapon reliance | High. Best on Zephyr with Xata |
+
+> Tenno. Bo Prime's Incarnon makes its slams huge. On Zephyr running Xata's
+> Whisper, the void procs off the slam and Melee Afflictions turns the status
+> into lingering zones.
+
+**The build**
+
+- Seismic Wave, rank 3, unpolarised
+- Primed Smite The Murmur, rank 10, Madurai polarity
+- Vicious Frost, rank 3, unpolarised
+- Volcanic Edge, rank 3, unpolarised
+- Galvanized Reflex, rank 10, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Aura: Flailing Branch, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Afflictions
+
+Weapon figures land near 50% base crit chance and 2.6x crit damage. Confidence:
+Approximation, per the author.
+
+**Evolutions.** Stalwart Oak at II (+30 base), Swordsman's Celerity at III (+20%
+movement), Absolute Dominion at IV (+30% base status, to 62%).
+
+**The mods.** Galvanized Reflex holds combo for the heavy multiplier; Seismic
+Wave boosts slam; Melee Afflictions multiplies the status into zones; Volcanic
+Edge plus Vicious Frost build blast; Galvanized Elementalist adds status damage.
+Use Melee Duplicate instead of Afflictions for Necramechs and Demolysts that
+are immune to Afflictions.
+
+**Where it struggles.** Best on Zephyr with Xata. Slam rhythm.
+
+**Who runs this.** Zephyr players who want a slam damage-over-time weapon.
+
+---
+
+### The First Staff
+**Iron Staff Prime. A zero-forma-friendly beginner build for the exalted staff.**
+
+| | |
+|--|--|
+| Content | Star Chart, early Steel Path, Beginner |
+| Role | Learning-friendly melee |
+| Difficulty | Beginner |
+| Investment | None to low. 1 forma, MR 0 |
+| Weapon reliance | High. Wukong-locked |
+
+> Tenno. A first Iron Staff Prime: common damage, crit and elemental mods, no
+> primed cards, no arcane. It teaches the frame while you farm the rest.
+
+**The build**
+
+- Fury, rank 5, unpolarised
+- Gladiator Rush, rank 5, unpolarised
+- Shocking Touch, rank 5, Naramon polarity
+- Fever Strike, rank 5, Naramon polarity
+- Reach, rank 3, unpolarised
+- Organ Shatter, rank 5, unpolarised
+- True Steel, rank 5, Madurai polarity
+- Pressure Point, rank 5, Madurai polarity
+- Aura: open (Zenurik polarity), stance slot
+- Exilus: open
+- Arcane: none yet
+
+Weapon figures land near 55% base crit chance and 3.8x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Pressure Point plus True Steel plus Organ Shatter are the damage
+and crit basics; Fever Strike plus Shocking Touch add elements; Gladiator Rush
+builds combo; Fury is attack speed. Upgrade path is The Charged Pole (#330).
+
+**Where it struggles.** No primed mods or arcane, so the ceiling is modest.
+Wukong-locked.
+
+**Variants.** The Charged Pole (#330) is the invested electric influence Iron
+Staff Prime.
+
+**Who runs this.** New Wukong players building their first exalted staff.
+
+---
+
+## Archwing weapons
+
+### The Rainbow Spores
+**Arbucep. A homing electric spore launcher for Archwing.**
+
+| | |
+|--|--|
+| Content | Archwing, Railjack, open-world combat |
+| Role | Archwing DPS |
+| Difficulty | Beginner |
+| Investment | Low. 3 forma, MR 0 |
+| Weapon reliance | Standalone |
+
+> Tenno. Arbucep fires spores that home onto targets and burst. Modded electric
+> with the Archwing crit and multishot core, it clears Archwing fights and
+> Railjack boarders without much aim.
+
+**The build**
+
+- Automatic Trigger, rank 5, Madurai polarity
+- Magnetized Cycle, rank 3, unpolarised
+- Critical Focus, rank 5, Madurai polarity
+- Primed Dual Rounds, rank 10, Madurai polarity
+- Hollowed Bullets, rank 3, unpolarised
+- Charged Bullets, rank 3, unpolarised
+- Electrified Barrel, rank 5, Naramon polarity
+- Primed Rubedo-Lined Barrel, rank 10, Madurai polarity
+- Exilus: open
+- Arcane: Primary Merciless (or Secondary Enervate for the flat crit)
+
+Weapon figures land near 10% crit chance with a roughly 2.87x Archwing damage
+multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Primed Rubedo-Lined Barrel plus Primed Dual Rounds are the base
+damage and multishot; Critical Focus plus Hollowed Bullets are crit; Charged
+Bullets plus Electrified Barrel build electric; Automatic Trigger is fire rate.
+
+**Arcanes.** Primary Merciless for damage and reload, or Primary Crux for ammo
+economy. Secondary Enervate gives a flat crit boost that pairs well with the
+high base multiplier.
+
+**Where it struggles.** Archwing-only. Homing needs a target to lock.
+
+**Who runs this.** Players clearing Archwing and Railjack content.
+
+---
+
+### The Space Beam
+**Larkspur Prime. A viral-heat beam archgun that doubles as a ground Nukor.**
+
+| | |
+|--|--|
+| Content | Archwing, Railjack, Steel Path (as an archgun on foot) |
+| Role | Beam DPS, on-foot heavy weapon |
+| Difficulty | Beginner |
+| Investment | Low. 3 forma, MR 8 |
+| Weapon reliance | Standalone |
+
+> Tenno. Larkspur Prime's beam is like an oversized Kuva Nukor with a wide
+> auto-aim cone. Viral-heat plus the Archwing damage core makes it a strong
+> pick both in space and as a summoned archgun on the ground.
+
+**The build**
+
+- Combustion Rounds, rank 5, Madurai polarity
+- Magma Chamber, rank 3, unpolarised
+- Hypothermic Shell, rank 3, unpolarised
+- Contamination Casing, rank 3, Madurai polarity
+- Primed Dual Rounds, rank 10, Madurai polarity
+- Sabot Rounds, rank 5, Naramon polarity
+- Automatic Trigger, rank 5, Madurai polarity
+- Primed Rubedo-Lined Barrel, rank 10, Madurai polarity
+- Exilus: open
+- Arcane: Primary Crux (Cascadia Flare as the secondary arcane)
+
+Weapon figures land near 14% crit chance and 1.6x crit damage with a roughly
+3.47x Archwing damage multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Primed Rubedo-Lined Barrel plus Primed Dual Rounds are base damage
+and multishot; Combustion Rounds plus Magma Chamber build heat; Hypothermic
+Shell plus Contamination Casing add cold and toxin for viral; Automatic Trigger
+is fire rate; Sabot Rounds is punch-through.
+
+**Where it struggles.** Low crit, so it leans on status. Beam range in the open.
+
+**Who runs this.** Players who want one archgun for space and ground.
+
+---
+
+### The Void Cannon
+**Mausolon. A viral crit archgun with a charged void alt-fire.**
+
+| | |
+|--|--|
+| Content | Archwing, Railjack, Steel Path (as an archgun on foot) |
+| Role | Sustained DPS, on-foot heavy weapon |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma, MR 14 |
+| Weapon reliance | Standalone |
+
+> Tenno. Mausolon is the all-round archgun: a fast auto primary plus a charged
+> void beam alt-fire, a huge magazine, and a solid crit base. Viral carries the
+> primary, the alt-fire deletes single targets.
+
+**The build**
+
+- Automatic Trigger, rank 5, Madurai polarity
+- Magnetized Cycle, rank 3, unpolarised
+- Polar Magazine, rank 5, unpolarised
+- Venomous Clip, rank 5, unpolarised
+- Hollowed Bullets, rank 3, Madurai polarity
+- Critical Focus, rank 5, Madurai polarity
+- Primed Dual Rounds, rank 10, Madurai polarity
+- Primed Rubedo-Lined Barrel, rank 10, Madurai polarity
+- Exilus: open
+- Arcane: Primary Deadhead (Secondary Enervate as the secondary arcane)
+
+Weapon figures land near 30% crit chance and 3.96x crit damage with a roughly
+2.87x Archwing damage multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Primed Rubedo-Lined Barrel plus Primed Dual Rounds are base damage
+and multishot; Critical Focus plus Hollowed Bullets are crit; Venomous Clip
+plus a cold source build viral; Polar Magazine plus Magnetized Cycle keep the
+big magazine fed.
+
+**Where it struggles.** Archgun ammo pool on the ground. Alt-fire charge time.
+
+**Who runs this.** Players who want a do-everything archgun.
+
+---
