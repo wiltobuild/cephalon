@@ -16824,3 +16824,451 @@ Prime.
 strip.
 
 ---
+
+### The Quad Slug
+**Kuva Hek. A raw cold-corrosive alt-fire that one-shots on the four-barrel blast.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Single-target and small-crowd one-shot |
+| Difficulty | Advanced |
+| Investment | Medium. 6 forma, MR 15 |
+| Weapon reliance | Standalone |
+
+> Tenno. Kuva Hek's alt-fire dumps all four barrels in one deafening slug. Build
+> raw cold and corrosive, keep the crit high, and it deletes what it points at.
+
+**The build**
+
+- Primed Tactical Pump, rank 10, Naramon polarity
+- Critical Deceleration, rank 5, unpolarised
+- Primed Chilling Grasp, rank 10, Vazarin polarity
+- Primed Charged Shell, rank 10, Naramon polarity
+- Contagious Spread, rank 5, unpolarised
+- Primed Ravage, rank 10, unpolarised
+- Primed Point Blank, rank 10, Madurai polarity
+- Galvanized Hell, rank 10, Madurai polarity
+- Galvanized Acceleration, rank 10, Madurai polarity
+- Arcane: Primary Deadhead
+
+Weapon figures land near 69% crit chance and 4.41x crit damage with a roughly
+2.65x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Primed Point Blank is the unconditional damage; Galvanized Hell is
+multishot; Primed Ravage plus Critical Deceleration are crit. Primed Chilling
+Grasp and the toxin mods make cold and corrosive; Primed Charged Shell adds raw
+damage. Primed Tactical Pump speeds the slow reload.
+
+**Where it struggles.** Tiny four-round magazine and a long reload. Spread means
+range matters.
+
+**Who runs this.** Players who want a hand cannon for eximus and Thrax.
+
+---
+
+### The Wide Flame
+**Ignis Wraith. The standard viral-heat beam that hoses a whole room.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Crowd clear, status DPS |
+| Difficulty | Beginner |
+| Investment | Medium. 7 forma, MR 9 |
+| Weapon reliance | Standalone |
+
+> Tenno. Ignis Wraith is still the benchmark for point-and-hold clear. Viral-heat
+> covers Grineer, Corrupted and Infested; the beam finds every target in the
+> cone with no aim required.
+
+**The build**
+
+- Hellfire, rank 5, Naramon polarity
+- Rime Rounds, rank 3, unpolarised
+- Malignant Force, rank 3, Madurai polarity
+- Primed Shred, rank 10, Madurai polarity
+- Primed Bane of Grineer, rank 10, Madurai polarity
+- Vital Sense, rank 5, Madurai polarity
+- Point Strike, rank 5, unpolarised
+- Galvanized Chamber, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Merciless
+
+Weapon figures land near 42% crit chance and 5.5x crit damage at a 12.4 fire
+rate. Confidence: Approximation, per the author.
+
+**The mods.** Primary Merciless is mandatory for the base damage; without it,
+swap Primed Shred or Primed Bane for Serration. Galvanized Chamber is multishot;
+Point Strike and Vital Sense are crit; Malignant Force plus Rime Rounds plus
+Hellfire build viral and heat. Primed Bane matches the faction; Primed Shred
+adds punch-through for the spread.
+
+**Where it struggles.** Short range. Single targets are slow. Ammo economy on
+sustained fire.
+
+**Who runs this.** Anyone who wants a no-fuss crowd eraser.
+
+---
+
+### The Acid Chain
+**Kuva Sobek. Acid Shells chain-detonations, tuned to one-shot level-cap Thrax with Saryn.**
+
+| | |
+|--|--|
+| Content | Steel Path, Void Cascade, Level cap |
+| Role | Chain-detonation nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 4 forma, MR 15 |
+| Weapon reliance | High. Saryn-only |
+
+> Tenno. Acid Shells makes a killed enemy explode for a share of its health,
+> chaining across the pack. It is weak alone in Steel Path, so this pairs it with
+> Saryn's Toxic Lash plus Roar or a full Spores strip to force the one-shots.
+
+**The build**
+
+- Acid Shells, rank 5, unpolarised
+- Magnetic Strafe, rank 3, unpolarised
+- Clip Delegation, rank 5, Vazarin polarity
+- Critical Deceleration, rank 5, unpolarised
+- Contagious Spread, rank 5, Naramon polarity
+- Shotgun Elementalist, rank 5, unpolarised
+- Galvanized Savvy, rank 10, unpolarised
+- Galvanized Hell, rank 10, Madurai polarity
+- Narrow Barrel, rank 5, Madurai polarity
+- Arcane: Primary Blight
+
+Weapon figures land near 63% crit chance and 2.3x crit damage at a 3 fire rate.
+Confidence: Approximation, per the author.
+
+**How it works.** Acid Shells scales with the target's max health and detonates
+corrosive-blast in an area, so it needs a full armour strip to matter. It also
+ignores Steel Path modifiers and scales off non-Steel-Path health, making it
+about 2.5x weaker than it reads. Saryn's Toxic Lash plus Roar or Spores strip
+bridge that gap for guaranteed Thrax kills.
+
+**Where it struggles.** Locked to Saryn. Falls apart without the strip. Bad on
+single unarmoured targets.
+
+**Variants.** The Demon Shell (#228) is the Uriel heat version; The Napalm Lob
+(#231) uses Ogris with Roar Saryn.
+
+**Who runs this.** Cascade duos with a Saryn stripping for the Sobek.
+
+---
+
+### The Beam Fan
+**Phage. A viral-electric beam shotgun that sprays status across a cone.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Crowd clear, status DPS |
+| Difficulty | Intermediate |
+| Investment | Heavy. 7 forma, MR 11 |
+| Weapon reliance | Standalone |
+
+> Tenno. Phage fires a fan of beams you can tighten to a single line. Multishot
+> double-dips status damage on beams, so it stacks viral and electric fast and
+> deep.
+
+**The build**
+
+- Primed Charged Shell, rank 10, Naramon polarity
+- Shotgun Elementalist, rank 5, unpolarised
+- Primed Cleanse Grineer, rank 10, Madurai polarity
+- Magnetic Strafe, rank 3, Madurai polarity
+- Critical Deceleration, rank 5, Madurai polarity
+- Primed Ravage, rank 10, Madurai polarity
+- Galvanized Hell, rank 10, Madurai polarity
+- Galvanized Savvy, rank 10, Vazarin polarity
+- Galvanized Acceleration, rank 10, Madurai polarity
+- Arcane: Primary Crux
+
+Weapon figures land near 57% crit chance and 4.2x crit damage at a 14.4 fire
+rate. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Savvy is +80% per status uncapped, plus status chance;
+Galvanized Hell is multishot and double-dips status on the beams; Critical
+Deceleration plus Primed Ravage are crit. Primed Charged Shell adds an instant
+electric tick with a small area; Magnetic Strafe adds fire rate and magnetic for
+overguard.
+
+**Where it struggles.** Short range. Cone spread wastes damage on single
+targets unless you tighten it.
+
+**Who runs this.** Players who want a beam that clears a hallway.
+
+---
+
+### The Demon Shell
+**Kuva Sobek. Heat Acid Shells for Uriel with Arcane Hot Shot and the Demonium buff.**
+
+| | |
+|--|--|
+| Content | Steel Path, Level cap |
+| Role | Chain-detonation nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 4 forma, MR 15 |
+| Weapon reliance | High. Uriel-only |
+
+> Tenno. Same Acid Shells chain nuke, tuned for Uriel: Arcane Hot Shot supplies
+> the crit chance and the Demonium heat buff plus Incendiary Coat carries the
+> element.
+
+**The build**
+
+- Acid Shells, rank 5, unpolarised
+- Shotgun Elementalist, rank 5, unpolarised
+- Primed Ravage, rank 10, Madurai polarity
+- Blaze, rank 3, unpolarised
+- Incendiary Coat, rank 5, Naramon polarity
+- Primed Cleanse Grineer, rank 10, Madurai polarity
+- Galvanized Savvy, rank 10, unpolarised
+- Galvanized Hell, rank 10, Madurai polarity
+- Narrow Barrel, rank 5, Naramon polarity
+- Arcane: Primary Merciless
+
+Weapon figures land near 21% crit chance before Arcane Hot Shot and 4.83x crit
+damage with a roughly 1.6x Incarnon multiplier. Confidence: Approximation, per
+the author.
+
+**How it works.** As The Acid Chain (#226), but the strip and crit come from
+Uriel's Demonium heat buff and Arcane Hot Shot rather than Saryn. Blaze and
+Incendiary Coat build the heat; Primed Cleanse Grineer is faction damage.
+
+**Where it struggles.** Uriel-locked. Needs Arcane Hot Shot. Acid Shells' usual
+Steel Path scaling caveats apply.
+
+**Variants.** The Acid Chain (#226) is the Saryn version.
+
+**Who runs this.** Uriel players who want a matched nuke shotgun.
+
+---
+
+### The Current Hose
+**Enkaus. An electric status beam with multiplicative damage per status.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Crowd clear, status DPS |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma, MR 12 |
+| Weapon reliance | Standalone |
+
+> Tenno. Enkaus is a fast electric beam. Galvanized Aptitude gives +320% at four
+> statuses, multishot double-dips the status damage, and the electric procs chain
+> in a small area to clean up.
+
+**The build**
+
+- Stormbringer, rank 5, Naramon polarity
+- High Voltage, rank 3, unpolarised
+- Malignant Force, rank 3, Madurai polarity
+- Rime Rounds, rank 3, unpolarised
+- Primed Shred, rank 10, Madurai polarity
+- Rifle Elementalist, rank 5, unpolarised
+- Galvanized Chamber, rank 10, Madurai polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Exilus: Sinister Reach, Naramon polarity
+- Arcane: Primary Overcharge
+
+Weapon figures land near 16% crit chance and 1.8x crit damage at an 18.6 fire
+rate; this is a status weapon, not a crit one. Confidence: Approximation, per
+the author.
+
+**The mods.** Galvanized Aptitude is the multiplicative damage-per-status mod;
+Galvanized Chamber is multishot; Rifle Elementalist boosts status damage and
+adds punch-through (flexible for Primed Bane or Hammer Shot); Primed Shred is
+fire rate plus punch-through for the spread. Malignant Force plus Rime Rounds
+plus High Voltage plus Stormbringer build viral and a weighted electric.
+
+**Where it struggles.** Short range, no crit ceiling. Overcharge ramps from
+cold.
+
+**Who runs this.** Players who want a cheap electric crowd-clear beam.
+
+---
+
+### The Blood Tax
+**Coda Hema. A viral-corrosive-heat rifle where Galvanized Aptitude multiplies Serration.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Sustained DPS |
+| Difficulty | Advanced |
+| Investment | Low. 2 forma, MR 17 |
+| Weapon reliance | High. Needs a health-cost reload |
+
+> Tenno. On Hema and Coda Hema, Galvanized Aptitude is multiplicative with
+> Serration, so three statuses already give a big compounding boost.
+> Necrophagic Vigor adds +360% crit if you reload from a health cost.
+
+**The build**
+
+- Primed Shred, rank 10, Madurai polarity
+- Hellfire, rank 5, unpolarised
+- Stormbringer, rank 5, unpolarised
+- Infected Clip, rank 5, unpolarised
+- Necrophagic Vigor, rank 5, unpolarised
+- Galvanized Chamber, rank 10, Madurai polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Amalgam Serration, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Crux
+
+Weapon figures land near 20% base crit chance (much higher with Necrophagic
+Vigor) and 2.3x crit damage with a roughly 2.55x Incarnon multiplier.
+Confidence: Approximation, per the author.
+
+**The mods.** Amalgam Serration and Galvanized Aptitude compound multiplicatively
+here; Galvanized Chamber is multishot; Necrophagic Vigor is the mandatory
+crit-on-health-reload augment. Infected Clip plus Hellfire plus Stormbringer
+build viral, corrosive and heat.
+
+**Where it struggles.** The health-cost reload needs a tank frame or a heal
+loop. High MR gate.
+
+**Who runs this.** Players on a durable frame who want a compounding rifle.
+
+---
+
+### The Napalm Lob
+**Kuva Ogris. A viral rocket with lingering Nightwatch Napalm fields, Roar Saryn only.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Area denial, crowd nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 6 forma, MR 15 |
+| Weapon reliance | High. Roar Saryn-only |
+
+> Tenno. Nightwatch Napalm leaves a burning field where each rocket lands. With
+> Roar Saryn behind it and Primed Firestorm widening the blast, one lob covers a
+> choke point.
+
+**The build**
+
+- Malignant Force, rank 3, unpolarised
+- Primed Firestorm, rank 10, Madurai polarity
+- Primed Bane of Orokin, rank 10, Madurai polarity
+- Infected Clip, rank 5, unpolarised
+- Heavy Caliber, rank 10, Madurai polarity
+- Serration, rank 10, unpolarised
+- Nightwatch Napalm, rank 5, Madurai polarity. Augment. Napalm leaves a lasting fire field on impact
+- Galvanized Chamber, rank 10, Madurai polarity
+- Exilus: Adhesive Blast, unpolarised
+- Arcane: Primary Merciless
+
+Weapon figures land near 9% crit chance and 2x crit damage with a roughly 4.3x
+Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Nightwatch Napalm is the field augment; Primed Firestorm widens
+the blast; Galvanized Chamber is multishot; Serration plus Heavy Caliber plus
+Primed Bane are the raw damage stack. Malignant Force plus Infected Clip build
+viral. A rank-2 Adhesive Blast in the exilus delays half the detonations by four
+seconds to stagger the field instances.
+
+**Where it struggles.** Self-stagger. Locked to Roar Saryn. Tiny magazine.
+
+**Variants.** The Acid Chain (#226) is the Sobek chain nuke for Saryn.
+
+**Who runs this.** Saryn players holding a Survival life-support with fire.
+
+---
+
+### The Plague Primer
+**Bubonico. A viral-radiation-magnetic alt-fire primer, minimal damage.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Dedicated status primer |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma, MR 13 |
+| Weapon reliance | Low. It is a support tool |
+
+> Tenno. Bubonico's alt-fire lobs an area burst. Modded for status chance, not
+> damage, it blankets a crowd with viral, radiation and magnetic for your real
+> weapon or the squad.
+
+**The build**
+
+- Primed Tactical Pump, rank 10, Naramon polarity
+- Magnetic Strafe, rank 3, Madurai polarity
+- Hell's Chamber, rank 5, Madurai polarity
+- Atomic Fallout, rank 3, Madurai polarity
+- Motus Setup, rank 3, unpolarised
+- Shotgun Savvy, rank 5, unpolarised
+- Toxic Barrage, rank 3, unpolarised
+- Frigid Blast, rank 3, Madurai polarity
+- Galvanized Acceleration, rank 10, Madurai polarity
+- Arcane: Primary Exhilarate
+
+Weapon figures land near 25% crit chance and 2.3x crit damage; the build is
+tuned entirely for status output. Confidence: Approximation, per the author.
+
+**How it works.** Atomic Fallout adds radiation and magazine; Toxic Barrage plus
+Frigid Blast plus the innate build viral; Magnetic Strafe adds magnetic.
+Shotgun Savvy and Hell's Chamber push status chance and multishot so each burst
+lands many procs.
+
+**Where it struggles.** Almost no damage. Slow reload without the pump mod.
+
+**Variants.** The Split Plague (#214) is the full-damage Coda Bubonico.
+
+**Who runs this.** Players who want a primer that also covers radiation and
+magnetic.
+
+---
+
+### The Shock Sniper
+**Neutralizer. A silent electric damage-over-time sniper with red crits.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Single-target DPS, priority kills |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, no MR requirement |
+| Weapon reliance | Standalone. Pairs with a stealth frame |
+
+> Tenno. Where the raw build one-shots, this one leans on a stacking electric
+> damage-over-time that Target Acquired and the resupply mechanic double-dip on
+> headshots. Red crits carry the direct hit.
+
+**The build**
+
+- Rifle Elementalist, rank 5, unpolarised
+- Stormbringer, rank 5, Naramon polarity
+- Target Acquired, rank 5, Madurai polarity
+- Primed Bane of Orokin, rank 10, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Vital Sense, rank 5, Madurai polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Semi-Rifle Cannonade, rank 5, Vazarin polarity
+- Exilus: Hush, unpolarised
+- Arcane: Primary Deadhead
+
+Weapon figures land near 135% crit chance and 6.6x crit damage with a roughly
+3.4x multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Chamber is multishot; Critical Delay and Vital Sense
+are crit; Semi-Rifle Cannonade adds damage and cancels the fire-rate penalty.
+Stormbringer weights the electric and boosts its damage-over-time; Rifle
+Elementalist multiplies it further; Target Acquired is a 1.6x headshot
+multiplier that also double-dips the electric tick. Primed Bane is flexible for
+Spectral Serration.
+
+**Where it struggles.** Slow fire rate. Damage-over-time ramp on tanky single
+targets.
+
+**Variants.** The Silent Slug (#217) is the raw one-shot Neutralizer.
+
+**Who runs this.** Snipers who want statuses that keep working after the shot.
+
+---
