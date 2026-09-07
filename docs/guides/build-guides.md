@@ -2060,3 +2060,689 @@ toxin-vulnerable, setup ritual, no regen so the pool is a countdown.
 carry a weapon, plus a Roar for the squad.
 
 ---
+
+### Gloom Reaper
+**Sevagoth Prime. A Sow-and-Reap current-health nuke, a near-total slow, and a spare frame in reserve.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Zero-effort nuke, crowd control, primary crit buff, panic button |
+| Difficulty | Intermediate. The Sow-then-Reap order and the shield-gate rhythm |
+| Investment | Medium. 4 forma, four Tauforged strength shards if you want the no-priming one-shot |
+| Weapon reliance | Medium. Shadow Haze buffs your primary; a viral primer replaces heavy Strength investment |
+
+> Tenno. Reap deals true damage equal to a quarter of an enemy's current health,
+> and it does not care about their level or armour. Sow marks them so Reap also
+> blasts the neighbours. Stack a debuff, a viral prime or a Roar on top and that
+> quarter becomes a whole: everything in the room dies at once. Gloom slows the
+> survivors almost to a standstill. If it all goes wrong, your Shadow steps out
+> and fights while you recover.
+
+**The build**
+
+- Shadow Haze, rank 3, unpolarised — augment. Spawns multiple Reap shadows and grants a flat crit-chance debuff
+- Dark Propagation, rank 3, Zenurik polarity — augment. Sow self-propagates and spreads the nuke
+- Stretch, rank 5, Naramon polarity
+- Umbral Intensify, rank 10, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Molt Augmented, Arcane Concentration
+
+Arsenal figures land at roughly 214% Strength, 72% Duration, 145% Range, 100%
+Efficiency, with 370 health, 370 shield, 185 armor and a 641 energy pool.
+
+**How it works.** Reap does 25% of current health as true damage to the direct
+target plus 25% as radial blast to nearby enemies, none of it scaled by Strength.
+It is amplified by Reap's own vulnerability debuff, viral (up to 4.25x at 10
+stacks) and Roar. To one-shot a lone enemy you need to reach 100% of current
+health through some combination of those. Packed crowds one-shot at lower numbers
+because each nearby corpse adds its blast. Dark Propagation lets Sow spread the
+mark itself; Shadow Haze spawns extra Reap shadows and adds the flat crit-chance
+buff to your primary. *Confidence: Approximation, per the author's mechanics
+notes.*
+
+**Ability priority.**
+
+1. Activate Gloom for the slow.
+2. Cast Sow to mark enemies.
+3. Cast Reap to kill the marked and debuff the survivors. With Roar active, the combo is 1-2-1 or 2-1-1.
+4. Sow and Reap kills fill the Death Well. When full you can enter Shadow at any time.
+5. Optional: enter Shadow to group with 1 and DPS with the claws. If Shadow dies you just Sow-Reap to recharge and re-enter.
+6. If you die as Sevagoth, aim at enemies and spam 2 to consume five souls and revive.
+
+**One-shot thresholds (author's figures).**
+
+- With Roar and Reap's vulnerability, no viral: about 255% Strength.
+- With Roar, no vulnerability: about 3 viral stacks at 255% Strength.
+- Without Roar: 200% Strength on the vulnerability plus one viral stack.
+
+Gloom's 95% slow cap is reached at 272% Strength. The listed 214% arsenal Strength
+plus Molt Augmented, Madurai and shards climbs to both thresholds in a mission.
+
+**Duration, Efficiency, Range, Strength.** Duration barely matters because Dark
+Propagation carries Sow; keep it 80% to 130% so Gloom's drain stays sane. Neutral
+Efficiency is fine with Equilibrium plus a Synth Deconstruct pet feeding Gloom.
+Range 145% to 175% for Gloom, no higher or enemies get stuck slowed in the next
+room draining your energy. Strength drives the vulnerability, the crit buff and
+the Gloom slow.
+
+**The mods.** *Transient Fortitude, Umbral Intensify* are the Strength, with Molt
+Augmented and shards behind them. *Stretch* is Gloom range. *Primed Flow* is the
+pool. *Equilibrium* is the energy. *Catalyzing Shields* shrinks the shield pool
+for the Reap and Sow gate loop. *Brief Respite* aura feeds that gate. *Shadow
+Haze, Dark Propagation* are the augments that make the nuke self-spreading.
+
+**Flexible slots.** Transient Fortitude becomes Rolling Guard if you own four
+Tauforged strength shards. The aura and exilus are open. Molt Vigor over an
+arcane if you have no shards yet.
+
+**Survivability.** Reap costs 25 energy and Brief Respite alone gives about 0.7s of
+gate off it; Sow costs 50 and gives the full 1.33s. Just spamming Sow and Reap
+keeps you alive. Secondary Fortifier on a primer steals overguard for status
+immunity. Gloom near the slow cap stops enemies shooting at all. Shadow is a free
+extra shield-gate and health bar with no energy cost. *Confidence: Approximation,
+per the author.*
+
+**Helminth.** Pick one.
+
+- If you do not use Shadow, subsume over 4: **Roar** for the no-viral one-shot, **Silence** for a Gloom-extended 40s stun and Acolyte lockout, **Nourish** for viral and Gloom energy.
+- If you do use Shadow, subsume over 3, and only passive-aura abilities work while Shadow is out: **Silence** with Savage Silence (700% stealth multiplier on the claws), or **Eclipse** with Total Eclipse (aura buff reaches Shadow).
+
+**Archon Shards.** One Tauforged Amber cast-speed. Four Tauforged Crimson strength
+to clear both the Gloom cap and the one-shot threshold with Roar, freeing the
+Transient Fortitude slot. Five total.
+
+**Arcanes.** Molt Augmented for Strength, Arcane Concentration for the Duration a
+low-Duration build wants back. Arcane Energize is a strong swap for Gloom's drain.
+
+**Focus.** Madurai for 40% Strength and cast speed, and it is the Cascade meta.
+Vazarin for endurance i-frames.
+
+**Weapon synergy.** Shadow Haze's flat crit chance suits low-crit, high-multiplier
+weapons: Sporothrix, Kuva Nukor, Ocucor. Epitaph is the signature weapon and works
+as a primer with Secondary Fortifier.
+
+**Staying alive.** The Sow and Reap shield-gate loop, Gloom's slow, and Shadow as
+the failsafe. It fails if you run out of energy with Gloom down and no Shadow
+charge, and to Eximus and Thrax who ignore Gloom through overguard.
+
+**Energy.** Equilibrium plus a Synth Deconstruct pet covers Gloom's ~240
+energy/min drain. Arcane Energize is the backup.
+
+**Where it struggles.** Bosses and single Eximus without priming. The nuke wants
+density. Managing Gloom drain plus the gate plus the Sow-Reap order is a lot at
+once for a new pilot.
+
+**Variants.** A max-shard endurance pure-nuke build with Roar. A dedicated Shadow
+claws build. A shield-tank Adaptation variant for sub-level-500.
+
+**Strengths and weaknesses.** Strong: level-independent nuke, top-tier slow, a
+free second health bar, buffs your primary. Weak: density-dependent, boss-blind,
+Shadow interrupts the combo flow and costs extra forma to build.
+
+**Who runs this.** Players who want a nuke that ignores enemy scaling entirely and
+a built-in revive.
+
+---
+
+### The Broken Void
+**Xaku Prime. Level-scaling stolen turrets, a passive armour strip, and a 75% dodge.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Hands-off turret DPS, armour strip, crowd control, durable caster |
+| Difficulty | Beginner to intermediate |
+| Investment | Low. 2 forma, cast-speed shards optional |
+| Weapon reliance | Low. Grasp of Lohk scales with enemy level and does the killing |
+
+> Tenno. Xaku steals the enemy's guns. Grasp of Lohk pulls up to sixteen turrets
+> off nearby enemies and they fire back, and their damage scales with enemy level,
+> so the deeper you go the harder they hit. Gaze lays down a passive armour-strip
+> zone. Accuse turns a crowd into your allies. Vast Untime freezes all your ability
+> timers and gives you a 75% dodge. You cast four things and the mission plays
+> itself.
+
+**The build**
+
+- Primed Flow, rank 10, Naramon polarity
+- Equilibrium, rank 10, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Augur Reach, rank 5, unpolarised
+- Stretch, rank 5, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Overextended, rank 5, Vazarin polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Molt Augmented, Arcane Concentration
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 280% Range, 45%
+Efficiency, with 359 health, 353 shield, 167 armor and a 715 energy pool.
+
+**How it works.** Range is the priority stat: it sets the turret count (about 15
+guns at 250%, 16 at 267%), Gaze's radius, and Vast Untime's radius. Each turret
+deals roughly 50 times Strength times enemy level per second, so at high levels the
+turrets alone clear crowds. Gaze full-strips at 200% Strength, or 164% with
+Corrosive Projection. Vast Untime freezes every ability timer, so you cast 4 first,
+then everything else, and only refresh 4 every 30 to 40 seconds. *Confidence:
+Approximation, per the author.*
+
+**Ability priority.**
+
+1. Tap 4 (Vast Untime) first to freeze timers and apply the slow and void vulnerability.
+2. Activate 1 (Xata's Whisper) to add void damage to your weapons, strong against Thrax and overguard.
+3. Cast 2 (Grasp of Lohk) with enemies around to steal the turrets.
+4. Invert tap/hold. Hold 3 to Accuse, tap 3 to convert a crowd to allies.
+5. Hold 3 to Gaze, tap on one or two Accused enemies 15 to 20m apart for the strip zone.
+6. On shield loss, tap 1 for a small gate or tap 4 for a bigger one.
+
+**Survivability.** Innate 75% dodge while Vast Untime is up, plus shield gating:
+Catalyzing Shields makes one Xata's Whisper cast give the full 1.33s with a single
+Augur Reach mod. Accuse converting a crowd to allies means almost nothing shoots
+at you. *Confidence: Approximation, per the author.*
+
+**Duration, Efficiency, Range, Strength.** Duration reduces how often you recast 4.
+Efficiency sits between 45% and 100% depending on how much you shield-gate; the
+build lists 45% and covers it with Primed Flow plus Equilibrium. Range is maxed.
+Strength is for Gaze's strip and the turret damage.
+
+**The mods.** *Blind Rage* is the Strength, viable at 45% Efficiency thanks to
+*Primed Flow* and *Equilibrium*. *Overextended, Stretch, Augur Reach* set the
+Range, with Augur Reach also feeding the shield gate. *Primed Continuity* holds
+Vast Untime's timer. *Catalyzing Shields* is the gate lock. *Corrosive Projection*
+lowers the strip threshold to 164%.
+
+**Flexible slots.** Blind Rage to Transient Fortitude if energy is tight.
+Catalyzing Shields is optional or swappable for passive-regen mods with an Omamori
+subsume. Natural Talent if you skip cast-speed shards. The exilus is open.
+
+**Helminth.** Pick one.
+
+- **Quiver** over 1 for an AFK camping style: Cloak Arrow makes a bubble that hides everything inside, even from Acolytes and Eximus.
+- **Pillage** over 3 for a mobile strip on the move plus survival and status cleanse.
+- **Nourish** over 1 or 3 for energy and a buff that reaches Accused allies.
+- **Roar** (over 1 only) is the only buff that boosts Grasp of Lohk.
+- **Omamori** for the laziest possible survival with passive-regen mods.
+
+**Archon Shards.** Two Amber cast-speed for Vast Untime. Three Crimson strength for
+turret damage, Accuse count and Xata's buff. Five total.
+
+**Arcanes.** Molt Augmented for Strength, Arcane Concentration for Duration. Arcane
+Aegis or Energize as survival or economy swaps.
+
+**Focus.** Any. Vazarin Sling reduces how much you need to gate. Madurai for
+Strength and cast speed on the slow Vast Untime animation.
+
+**Weapon synergy.** Xata's Whisper's void bubbles suck bouncing or splitting
+projectiles back into a target: Miter Incarnon, Latron Incarnon, Prisma Angstrum.
+A viral-radiation primer (Kuva Nukor, Epitaph) primes for the turrets and converts
+Accused allies back to targetable enemies.
+
+**Staying alive.** The dodge, shield gating, and Accuse pulling aggro. It fails if
+Vast Untime lapses (no dodge) while your gate is down, and to toxin.
+
+**Energy.** Primed Flow plus Equilibrium, with a Synth Deconstruct pet. Archon
+Stretch is an optional passive trickle.
+
+**Where it struggles.** Turret damage is weak at low levels, so early Steel Path
+feels slow until enemies scale up. Bosses. Open tiles can scatter enemies out of
+Lohk range.
+
+**Variants.** A Nourish or Quiver subsume version. A comfortable 100% Efficiency
+version. A Pillage mobile version.
+
+**Strengths and weaknesses.** Strong: damage that scales with the enemy so it
+never falls off, passive strip, very durable, cheap on forma. Weak: slow start,
+boss-blind, several abilities to set up before it comes online.
+
+**Who runs this.** Players who want a frame that gets stronger the deeper the
+endurance run goes, with almost no weapon investment.
+
+---
+
+### Surging Avalanche
+**Frost Prime. A one-cast 100% armour strip and red-crit Breach Surge sparks.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Full armour strip, crowd control, spark nuke, overguard support |
+| Difficulty | Intermediate |
+| Investment | Medium to high. 4 forma, cast-speed shards |
+| Weapon reliance | Medium. Biting Frost and the sparks scale off your weapon; a strong single hit matters |
+
+> Tenno. Avalanche freezes a room and strips it to zero armour in one cast. Biting
+> Frost then adds 200% crit chance to your weapon against frozen targets, which
+> also pushes Breach Surge sparks into red crits. Icy Avalanche hands you and the
+> squad overguard on top. Snow Globe throws everything away and eats all incoming
+> fire for four seconds. Freeze the room, strip it, and shoot the sparks.
+
+**The build**
+
+- Biting Frost, rank 3, unpolarised — augment. Adds crit chance versus frozen enemies
+- Icy Avalanche, rank 3, unpolarised — augment. Avalanche grants armour-scaled overguard
+- Freeze Force, rank 3, unpolarised — augment. Adds cold damage to weapons
+- Archon Flow, rank 10, Naramon polarity
+- Overextended, rank 5, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Augur Reach, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Truculence, Arcane Sculptor
+
+Arsenal figures land at roughly 139% Strength, 100% Duration, 220% Range, 45%
+Efficiency, with 370 health, 650 shield, 315 armor and a 427 energy pool.
+
+**How it works.** Avalanche needs only 167% Strength for a permanent full strip, or
+137% with Corrosive Projection. Arcane Sculptor triggers off Snow Globe and locks
+you to 175% Efficiency for 12 seconds, which is what lets Blind Rage run at 45%
+arsenal Efficiency and still clear the strip threshold without shards. Biting Frost
+adds 200% crit chance and 3x crit multiplier versus frozen enemies, which on Breach
+Surge's 100% base crit gives roughly an 11.5x damage multiplier on a spark, or far
+more on a headshot. *Confidence: Approximation, per the author's spark math.*
+
+**Playstyle.**
+
+1. Cast Breach Surge to stun and prime line-of-sight enemies for sparks.
+2. Cast Avalanche (4) to freeze, strip, and set up Biting Frost, and to gain the Icy Avalanche overguard.
+3. Cast Snow Globe to push enemies away and block fire; it is invulnerable for four seconds. Break your own globes with 1.
+4. Shoot frozen enemies to kill and generate red-crit sparks.
+5. Optional: viral-prime and shove enemies into walls with Snow Globe for a true-damage one-shot.
+
+**Duration, Efficiency, Range, Strength.** Duration is unimportant; Avalanche and
+Breach Surge have long base timers and Snow Globe ignores Duration. Efficiency is
+solved by Arcane Sculptor. Range spreads Avalanche and Breach Surge; Augur Reach
+also feeds the gate. Strength only needs to clear the strip threshold.
+
+**The mods.** *Blind Rage* is the Strength, covered by *Arcane Sculptor*.
+*Overextended, Augur Reach* set the Range. *Archon Flow* is the energy pool with a
+bonus large orb on cold-ability kills. *Equilibrium* converts orbs. *Corrosive
+Projection* drops the strip threshold to 137%. The three augments are all flexible.
+
+**Flexible slots.** Biting Frost drops if you use a self-sufficient crit weapon
+like Phenmor or Laetum. Freeze Force is optional raw damage. Archon Flow swaps
+freely with Primed Flow. Rolling Guard or Catalyzing Shields for more gate safety.
+Natural Talent if you skip cast-speed shards.
+
+**Helminth.** Pick one.
+
+- **Breach Surge** is the default: the spark engine that Biting Frost multiplies.
+- **Nourish** for viral and energy (see the dedicated variant).
+- **Ensnare** to pull frozen enemies together.
+- An energy option (**Spellbind** with Spellbound Harvest, **Spectrorage** with Spectrosiphon) if Avalanche's cost is a problem.
+
+**Archon Shards.** At least two Amber cast-speed. Two to three Crimson strength to
+free the Augur Secrets or Power Drift slot. The rest Azure energy-max. Five total.
+
+**Arcanes.** Arcane Truculence for free area viral on overguard gain, Arcane
+Sculptor for the Efficiency lock. Arcane Arachne (2.5x sparks, bypasses the cap) or
+Arcane Ice Storm (Strength and Duration) as swaps.
+
+**Focus.** Any. Madurai for cast speed on Avalanche. Vazarin for backup i-frames.
+
+**Weapon synergy.** Breach Surge wants a weapon that lands one huge hit near the
+5-million spark cap: Xoris, Coda Pathocyst, Exodia Contagion, slam Magistar,
+Daikyu. Biting Frost wants decent crit stats, and the strip makes even weak weapons
+work against armour.
+
+**Staying alive.** Shield gating plus Avalanche's freeze plus the Icy Avalanche
+overguard. It fails to Eximus that ignore the freeze (Breach Surge no longer works
+on them through overguard), and to toxin.
+
+**Energy.** Arcane Sculptor's lock plus Equilibrium plus Archon Flow's cold-kill
+orbs.
+
+**Where it struggles.** Eximus and Thrax resist the freeze and Breach Surge.
+Strong single-hit weapons hit the spark cap and stop benefiting from the
+multiplier, so the spark nuke is more a low-investment weapon booster than a
+scaling tool. Bosses.
+
+**Variants.** A Precision Intensify plus Arcane Ice Storm build that full-strips
+from 40% Strength. A Health Conversion plus Arcane Battery armour-and-energy
+variant. A Nourish variant.
+
+**Strengths and weaknesses.** Strong: reliable one-cast full strip, strong crowd
+control and overguard, turns weak weapons into armour-killers. Weak: does not touch
+Eximus abilities, spark scaling caps out, boss-blind.
+
+**Who runs this.** Players who want a defensive frame that also removes armour for
+the whole squad and makes a mediocre weapon viable.
+
+---
+
+### Rip and Tear
+**Valkyr Prime. Exalted Talons DPS with Ripline grouping and a 1000-armour tank underneath.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Melee exalted DPS, grouping, near-immortal bruiser |
+| Difficulty | Beginner to intermediate |
+| Investment | Medium. 3 forma, violet melee crit-damage shards |
+| Weapon reliance | Low. Talons are the damage; a primer or companion adds status |
+
+> Tenno. Hysteria arms the Talons and Valkyr does the rest with her body. 1000
+> base armour, over a thousand health, and a death-gate passive that saves you at
+> 150% Rage. Ripline yanks a crowd together and swings you across the map. Warcry
+> speeds your attacks and doubles your armour. Paralysis slows and marks a group
+> for extra damage. Slide attacks through the pile and everything shreds.
+
+**The build**
+
+- Gladiator Resolve, rank 5, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Overextended, rank 5, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Eternal War, rank 3, unpolarised — augment. Warcry duration extends on kills
+- Archon Intensify, rank 10, Madurai polarity
+- Stretch, rank 5, unpolarised
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Hysterical Assault, unpolarised
+- Arcanes: Arcane Battery, Arcane Persistence
+
+Arsenal figures land at roughly 169% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with 1050 health, 1000 armor, 185 shield and a 225 energy pool (Arcane
+Battery raises the effective pool past 1000 at high armour).
+
+**How it works.** Hysteria no longer grants permanent invulnerability. Instead,
+above 150% Rage a fatal hit is negated for 5s and drains your Rage, and Arcane
+Persistence caps damage at 500/s while armour is above 700, which Valkyr clears at
+base and doubles under Warcry. Talons lifesteal refills health instantly. Ripline
+now groups on cast and auto-attacks, so Prolonged Paralysis grouping is redundant.
+Arcane Battery converts the huge armour value into a large energy pool.
+*Confidence: Approximation, per the author.*
+
+**Ability priority.**
+
+1. Activate Hysteria and use slide attacks (about 2250% per second across a group) or the neutral block combo. If running Archon Intensify, exit and re-enter Hysteria within 10s to snapshot the 30% Strength.
+2. Tap 2 for Warcry, recast as needed. It is recastable now, so Eternal War is optional.
+3. Tap 3 (Paralysis) for the slow and 50% damage vulnerability.
+4. Tap 1 (Ripline) on enemies to group and auto-attack, or on a surface to swing across the map.
+
+**Survivability.** Two routes. Invulnerability-frame abuse: stay above 150% Rage,
+let the death gate catch fatal hits, kill a couple of enemies inside the 5s to
+top Rage back up, with Arcane Persistence as the buffer if the window closes.
+Or straight EHP tanking with Adaptation and Umbral Vitality, comfortable past
+level 1000. *Confidence: Approximation, per the author.*
+
+**Duration, Efficiency, Range, Strength.** Neutral to positive Duration reduces
+Hysteria drain and holds Warcry. Efficiency at 45% is fine with high enemy density
+or a Seismic Bond pet; go above 100% (Transient Fortitude over Blind Rage) if you
+cast a lot. Max Range for Ripline grouping and Paralysis. Strength boosts Warcry
+speed, Hysteria damage, and indirectly energy through armour and Arcane Battery.
+
+**The mods.** *Blind Rage* is the Strength with *Archon Intensify* adding a
+snapshot 30% and *Primed Continuity* holding Duration. *Overextended, Stretch* set
+the grouping Range. *Hunter Adrenaline* is the Rage and energy engine.
+*Gladiator Resolve* adds combo duration. *Eternal War* is an optional Warcry
+extender.
+
+**Flexible slots.** Eternal War drops now that Warcry is recastable. Adaptation and
+Umbral Vitality for the tank route. Arcane Blessing or Arcane Reaper over Molt
+Augmented. The aura and exilus are open.
+
+**Helminth.** Pick one. Subsume over 3 (Ripline already groups).
+
+- **Roar** for damage and a status double-dip, triple-dip on electric influence.
+- **Nourish** for viral Talons and Hysteria energy.
+- **Lycath's Hunt** for the most consistent energy via orbs and Equilibrium.
+- **Silence** against Infested to block Ancient Disruptors draining your energy in Hysteria.
+- **Tharros Strike** for a cheap one-cast full shield and armour strip that works on Acolytes and Demolysts.
+
+**Archon Shards.** One Amber cast-speed. The rest Tauforged Violet melee
+crit-damage. Parkour optional. Five total.
+
+**Arcanes.** Arcane Battery for the energy pool from armour, Arcane Persistence for
+the 500/s cap. Arcane Fury or Strike for melee output once survival is settled.
+
+**Focus.** Any. Vazarin Sling for a 5s panic i-frame. Naramon for combo. Madurai
+for Strength.
+
+**Weapon synergy.** Talons benefit from an external status source. A primer (Cedo,
+Kuva Nukor, Epitaph) or a Diriga with Seismic Bond stacks 5 to 9 elements for a
+400% to 720% Condition Overload boost, plus Seismic Bond's free Efficiency.
+
+**Staying alive.** The death gate plus Arcane Persistence plus Talons lifesteal, or
+raw EHP. It fails to Ancient Disruptors in Hysteria (bring Silence), and to a hit
+that exceeds your health inside a single Persistence tick in deep endurance.
+
+**Energy.** Hunter Adrenaline from the damage you take, plus Arcane Battery's large
+pool. Nourish or Lycath's Hunt if it still runs thin.
+
+**Where it struggles.** Infested energy drain without Silence. Ranged single
+targets, since Talons are melee range without a Ripline pull. Bosses take longer
+than a nuke frame.
+
+**Variants.** A low-range influence Talons build. A Prolonged Paralysis Crescendo
+heavy-slam damage-cap build.
+
+**Strengths and weaknesses.** Strong: very hard to kill, strong grouped melee DPS,
+great mobility, low weapon dependence. Weak: melee range, Infested-vulnerable
+without Silence, slower on bosses.
+
+**Who runs this.** Players who want a melee frame that clears grouped rooms and
+essentially cannot die.
+
+---
+
+### Surging Tempest
+**Hydroid Prime. A stackable Tempest Barrage nuke that also strips armour and loots the corpses.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Looting |
+| Role | Camp nuke, armour strip, loot multiplier, objective hold |
+| Difficulty | Beginner to intermediate |
+| Investment | Low. 2 forma |
+| Weapon reliance | Low to medium. Tempest Barrage carries; a viral or corrosive weapon adds status |
+
+> Tenno. Tempest Barrage rains on a fixed 10m circle and you can stack it on the
+> same spot forever. Viral Tempest makes every drop apply viral. Plunder coats
+> your barrage and your weapon in corrosive. Tentacle Swarm cages a chokepoint,
+> and Pilfering Swarm means everything that dies in the tentacles drops extra loot
+> and oxygen. Tidal Surge is your invulnerable, status-cleansing dash out.
+
+**The build**
+
+- Pilfering Swarm, rank 3, unpolarised — augment. Tentacle kills drop bonus loot
+- Viral Tempest, rank 3, unpolarised — augment. Tempest Barrage applies viral
+- Tidal Impunity, rank 3, unpolarised — augment. Tidal Surge grants status immunity and cheap cost
+- Equilibrium, rank 10, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Aegis, Molt Augmented
+
+Arsenal figures land at roughly 170% Strength, 128% Duration, 100% Range, 100%
+Efficiency, with 370 health, 650 shield, 290 armor and a 641 energy pool.
+
+**How it works.** Tempest Barrage's initial radius is fixed at 10m; only the
+per-impact AoE scales with Range, so Range is far less important than it looks,
+especially with enemies bunched in tentacles where the AoE already overlaps. You
+stack Barrage infinitely on one chokepoint for escalating ability DPS plus viral
+plus corrosive from Plunder. Pilfering Swarm is the reason to run this over a plain
+nuke Hydroid. *Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Pick a camp spot with one or two chokepoints and cast Tentacle Swarm.
+2. Cast Plunder (3) with a decent crowd nearby, ideally caught in tentacles.
+3. Spam Tempest Barrage (1) on the chokepoint. Stack it as high as you like.
+4. Cast Tidal Surge (2) to reset the shield gate, go invulnerable, and reposition.
+
+**Duration, Efficiency, Range, Strength.** A little Duration for Barrage, Plunder
+and Tentacle Swarm. Neutral to positive Efficiency for Barrage spam, helped by
+Pilfering Swarm's orb drops. Keep Range 100% to 130% for efficient looting, or
+175%+ if you only want to kill and crowd-control (high Range makes tentacles grab
+enemies outside your area and choke new spawns). Strength boosts Barrage damage and
+Plunder's corrosive.
+
+**The mods.** *Transient Fortitude* is the Strength with *Primed Continuity*
+holding Duration. *Primed Flow* is the pool. *Equilibrium* converts orbs.
+*Catalyzing Shields* locks the gate. *Brief Respite* aura feeds it. *Pilfering
+Swarm, Viral Tempest, Tidal Impunity* are the three augments.
+
+**Flexible slots.** Pilfering Swarm becomes Stretch for a non-looting build. Viral
+Tempest becomes Stretch or Augur Message if your weapon already applies viral.
+Catalyzing Shields drops if you accept smaller gates. Corrosive Projection in the
+aura is not useful here, since it does not reduce the corrosive procs needed to
+full-strip.
+
+**Helminth.** Pick one. Subsume over 2 (stationary) or 4 (mobile).
+
+- **Breach Surge** takes the Plunder corrosive bonus and double-dips it, strong on passive-stripped enemies.
+- **Nourish** for Barrage-spam energy plus viral on your weapon, letting you drop all weapon elements alongside Plunder's corrosive.
+- **Roar** for Viral Tempest and weapon damage.
+
+**Archon Shards.** Two Amber cast-speed. Three Crimson corrosive-status ability
+damage for Barrage (and Breach Surge if used). Five total.
+
+**Arcanes.** Molt Augmented for Strength, Arcane Aegis for lazy shield sustain.
+
+**Focus.** Any. Vazarin for i-frames. Zenurik for energy without Energize.
+
+**Weapon synergy.** Pirate-themed and self-stripping weapons: Ocucor and Torid
+both self-strip via Plunder's corrosive while dealing viral. Kuva Zarr pairs with
+Tidal Impunity's self-knockdown immunity.
+
+**Staying alive.** Shield gating off Barrage and Tidal Surge, plus Tentacle Swarm
+crowd control, plus Tidal Surge invulnerability. It fails if you stop spamming
+Barrage and lose the gate refresh, and to toxin.
+
+**Energy.** Pilfering Swarm orbs plus Equilibrium at neutral Efficiency. Add
+Zenurik or a Dethcube if it runs thin.
+
+**Where it struggles.** Open tiles with no chokepoints. Very mobile content. Bosses.
+The fixed 10m Barrage radius means it is a camp tool, not a roaming nuke.
+
+**Variants.** A weapon platform with Roar or Nourish. An AFK looting build with
+Quiver.
+
+**Strengths and weaknesses.** Strong: strong loot multiplier, self-stripping nuke,
+cheap on forma, easy to pilot. Weak: camp-only, boss-blind, Range tuning is
+fiddly if you both loot and kill.
+
+**Who runs this.** Farmers who want a looting frame that also clears the room it is
+looting.
+
+---
+
+### Nourished Gunslinger
+**Mesa Prime. Peacemaker DPS with a viral overbuff and a blind-stun survival loop.**
+
+| | |
+|--|--|
+| Content | Steel Path, Level cap |
+| Role | Automatic-aim single-target and clear DPS, self survival |
+| Difficulty | Beginner to intermediate |
+| Investment | Medium. 3 forma, Topaz secondary crit-chance shards |
+| Weapon reliance | Low. Regulators are the damage; a pistol only needs one Augur mod for the gate |
+
+> Tenno. Peacemaker auto-aims and deletes anything in the cone. Nourish paints the
+> Regulators viral and multiplies your energy so you can hold the trigger longer.
+> Muzzle Flash blinds a 20m sphere every few kills, which is most of your
+> survival. Shatter Shield covers the rest. Point at the room and let go.
+
+**The build**
+
+- Primed Continuity, rank 10, Madurai polarity
+- Umbral Intensify, rank 10, unpolarised
+- Augur Reach, rank 5, unpolarised
+- Stretch, rank 5, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Muzzle Flash, rank 3, unpolarised — augment. Shooting Gallery blinds in a radius on kills
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Hot Shot, Arcane Velocity
+
+Arsenal figures land at roughly 144% Strength, 155% Duration, 175% Range, 100%
+Efficiency, with 500 health, 280 shield, 135 armor and a 541 energy pool.
+
+**How it works.** Regulator damage is `1 + 1.5 x (1 + 1.5 x Strength + Peacemaker
+damage mods + Shooting Gallery buff x Strength)`, so Strength is additive with
+damage mods. Running Galvanized Shot (up to 600% at five statuses) is already like
+carrying 400% Strength, which is why extra Strength mods on the frame add little
+relative DPS and Precision Intensify (pure ability damage, no Efficiency cost) is
+often the better pick. Nourish supplies viral plus the energy multiplier that
+sustains Peacemaker drain. *Confidence: Approximation, per the author's DPS
+formula.*
+
+**Survivability.** Muzzle Flash's roughly 20m non-line-of-sight blind every few
+kills is the main defense. Catalyzing Shields drops max shields to 56 and (via the
+current any-shield-gained bug) gives the full 1.33s gate; going in and out of 4
+keeps it refreshed. You must have an Augur mod on a pistol or Burst Laser for full
+gating. Shatter Shield adds 95% damage reduction in lower content.
+
+**Duration, Efficiency, Range, Strength.** Duration holds Nourish and Shatter
+Shield and reduces Peacemaker drain. Efficiency covers the Peacemaker activation
+and drain; Seismic Bond on a pet gives a free 30%. Range is for Muzzle Flash's
+stun radius and Nourish retaliation; it does not affect how far Regulators shoot.
+Strength scales Regulator damage but with sharp diminishing returns.
+
+**The mods.** *Umbral Intensify* is the Strength, which also feeds Nourish
+consistency. *Primed Continuity* holds Duration. *Augur Reach, Stretch* set Muzzle
+Flash range, with Augur Reach also feeding the gate. *Primed Flow, Equilibrium*
+are the energy base under Nourish. *Catalyzing Shields* is the gate lock.
+*Muzzle Flash* is the blind.
+
+**Flexible slots.** Umbral Intensify to Precision Intensify for more raw Peacemaker
+DPS. Rolling Guard for extra gate safety. Mesa's Waltz in the exilus if you want to
+move while firing. The exilus is otherwise open.
+
+**Helminth.** Pick one. Subsume over 1 for casual content where Shatter Shield is
+comfortable, or over 3 for level cap where casting 1 in Peacemaker lets you gate
+without exiting.
+
+- **Nourish** is the default: energy multiplier and viral Regulators.
+- **Roar** or **Eclipse** for a similar flat damage bonus.
+- **Xata's Whisper** for slightly less damage but overguard bonus and bullet-attract bubbles.
+- **Pillage** for a full armour strip (10x versus armour) plus shield regen and status cleanse.
+
+**Archon Shards.** Three to five Tauforged Topaz secondary crit-chance for the
+highest DPS gain. One to two parkour. Five total.
+
+**Arcanes.** Arcane Velocity for a large fire-rate DPS boost, Arcane Hot Shot for
+300% crit chance at stacks. Arcane Avenger or Molt Augmented as smaller swaps.
+
+**Focus.** Vazarin Protective Sling for a 5s window to stand still and fire without
+dying.
+
+**Weapon synergy.** Regulators want a Corrosive-Heat build since Nourish already
+supplies viral. Grimoire with Xata Invocation for passive energy while not in
+Peacemaker.
+
+**Staying alive.** The Muzzle Flash blind loop plus the shield gate plus Shatter
+Shield. It fails if the blind cannot keep up with incoming fire in a large open
+room, and to toxin.
+
+**Energy.** Nourish's multiplier plus Primed Flow plus Equilibrium. Seismic Bond
+and Grimoire Xata Invocation are backups.
+
+**Where it struggles.** Peacemaker roots you in place, so open arenas with fire
+from all angles are dangerous without Vazarin. It has no grouping. Enemies behind
+cover need you to reposition.
+
+**Variants.** A low-range max-Strength variant. A low-range open-world tank
+variant.
+
+**Strengths and weaknesses.** Strong: effortless auto-aim DPS, strong energy
+economy, good self survival, cheap forma. Weak: stationary while firing, no
+grouping, toxin-vulnerable, open arenas are risky.
+
+**Who runs this.** Players who want to hold one button and watch a cone of the
+room disappear.
+
+---
