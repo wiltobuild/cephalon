@@ -15878,3 +15878,483 @@ faction swap.
 **Who runs this.** Players who like a magazine they never seem to empty.
 
 ---
+
+### The Ricochet Strip
+**Latron Prime Incarnon. Bouncing blasts that puncture-strip a whole pack.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Status DPS, self armour strip |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 10 |
+| Weapon reliance | Standalone |
+
+> Tenno. Latron Prime's Incarnon fires bouncing rounds, and Flensing Spikes
+> shaves 20% armour per puncture status. One or two Incarnon shots strip a
+> target outright, then blast and heat finish it.
+
+**The build**
+
+- Primed Bane of Orokin, rank 10, Madurai polarity
+- Primed Cryo Rounds, rank 10, Vazarin polarity
+- Rifle Elementalist, rank 5, unpolarised
+- Hammer Shot, rank 3, unpolarised
+- Vital Sense, rank 5, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Semi-Rifle Cannonade, rank 5, Vazarin polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Merciless
+
+Weapon figures land near 66% crit chance and 7.84x crit damage with a roughly
+3.4x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**Evolutions.** Riddled Target at II raises multishot by 100% for eight seconds
+off a puncture proc. Any option works at III; zoom is the author's pick.
+Flensing Spikes at IV is the additive 20%-per-puncture armour strip.
+
+**The mods.** Galvanized Chamber is multishot; Critical Delay and Vital Sense
+are crit; Hammer Shot adds crit and status. Primed Cryo Rounds plus Rifle
+Elementalist build the blast or heat element. Semi-Rifle Cannonade is faction
+and reload help.
+
+**Where it struggles.** Charge uptime. Latron Wraith out-damages it on pure
+non-status hits.
+
+**Variants.** A viral-heat non-strip Latron Prime and a viral armour-strip
+primer version cover other roles.
+
+**Who runs this.** Players who want a rifle that strips its own targets.
+
+---
+
+### The Red Standard
+**Braton Prime Incarnon. A raw-damage red-crit rifle with a heat impact burst.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | All-round DPS |
+| Difficulty | Intermediate |
+| Investment | Heavy. 7 forma, MR 8 |
+| Weapon reliance | Standalone |
+
+> Tenno. Braton Prime's Incarnon has 30% base crit, a 3x multiplier and a small
+> heat area on impact. Build raw viral-heat, push crit into the red, and it is a
+> clean all-purpose rifle.
+
+**The build**
+
+- Primed Shred, rank 10, Madurai polarity
+- Primed Cryo Rounds, rank 10, Vazarin polarity
+- Malignant Force, rank 3, unpolarised
+- Galvanized Scope, rank 10, Madurai polarity
+- Vital Sense, rank 5, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Amalgam Serration, rank 10, Madurai polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Deadhead
+
+Weapon figures land near 36% crit chance and 4.4x crit damage with a roughly
+2.55x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**Evolutions.** Daring Reverie at II adds pre-mod base damage, much more while a
+channelled ability like Gloom is active, plus ammo efficiency in non-Incarnon
+mode. Critical Parallel at III is the crit pick since Prelude of Might was
+fixed.
+
+**The mods.** Amalgam Serration is base damage plus sprint speed; Galvanized
+Chamber is multishot; Galvanized Scope and Vital Sense are the crit core.
+Malignant Force plus Primed Cryo Rounds are viral, with heat from the innate
+Incarnon area.
+
+**Where it struggles.** Braton Vandal edges it on pure raw DPS. Charge uptime.
+
+**Variants.** A raw-damage red-crit meme build pushes the numbers further with
+external buffs.
+
+**Who runs this.** Low-MR players who want a do-everything Incarnon rifle.
+
+---
+
+### The Wide Barrel
+**Strun Prime Incarnon. An area launcher that hits 400% status a shot.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Area status clear |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma, MR 14 |
+| Weapon reliance | Standalone |
+
+> Tenno. Strun's Incarnon form is an area launcher, and its Elemental Balance
+> perk lets it hit 400% status per shot. Viral-electric hoses crowds; corrosive
+> blast is the newer alternative with strong group clear.
+
+**The build**
+
+- Primed Cleanse Orokin, rank 10, Madurai polarity
+- Primed Charged Shell, rank 10, Naramon polarity
+- Frigid Blast, rank 3, Madurai polarity
+- Toxic Barrage, rank 3, Madurai polarity
+- Primed Ravage, rank 10, Madurai polarity
+- Critical Deceleration, rank 5, Madurai polarity
+- Galvanized Hell, rank 10, Madurai polarity
+- Semi-Shotgun Cannonade, rank 5, unpolarised
+- Galvanized Acceleration, rank 10, Madurai polarity
+- Arcane: Primary Merciless
+
+Weapon figures land near 72% crit chance and 4.62x crit damage with a roughly
+3.4x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**Evolutions.** Blazing Barrel at II for multishot. Rapid Reinforcement at III
+for +60% reload, which the 4.6-second base reload badly needs.
+
+**The mods.** Galvanized Hell is multishot; Galvanized Acceleration is fire
+rate; Primed Ravage plus Critical Deceleration are crit. Primed Charged Shell
+with the toxin and cold mods make viral-electric. Primed Cleanse Orokin is
+faction damage.
+
+**Where it struggles.** Brutal base reload outside Incarnon mode. Self-stagger
+at point blank.
+
+**Variants.** Strun Prime is about 13% ahead of Strun Wraith on area DPS; a
+corrosive-blast variant is a strong group-clear option.
+
+**Who runs this.** Players who want a pocket grenade launcher.
+
+---
+
+### The Wave Cutter
+**Dread Incarnon. Horizontal waves with multiplicative status and no headshot need.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Line clear, status DPS |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 5 |
+| Weapon reliance | Standalone |
+
+> Tenno. Dread's Incarnon fires wide waves like Fluctus, with infinite body
+> punch-through and no headshot multiplier, so Galvanized Aptitude goes fully
+> multiplicative. Heat, blast or gas along a whole corridor.
+
+**The build**
+
+- Primed Bane of Orokin, rank 10, Madurai polarity
+- Vile Acceleration, rank 5, unpolarised
+- Unseen Dread, rank 5, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Hellfire, rank 5, Naramon polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Spectral Serration, rank 10, Madurai polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Longbow Sharpshot
+
+Weapon figures land near 150% crit chance and 2x crit damage with a roughly
+0.85x Incarnon multiplier on the wave. Confidence: Approximation, per the
+author.
+
+**Evolutions.** Hitman's Opportunity at II is the main pick: +70 base damage and
++100% damage additive to Galvanized Aptitude, working correctly in Incarnon
+mode.
+
+**The mods.** Galvanized Aptitude is the multiplicative damage-per-status mod;
+Galvanized Chamber is multishot; Spectral Serration and Critical Delay round out
+base and crit. Hellfire is heat; swap for gas or blast mods to taste.
+
+**Where it struggles.** The wave has a fixed height, so vertical spread misses.
+Charge uptime.
+
+**Variants.** A raw-damage red-crit Dread exists for buff-stacked burst.
+
+**Who runs this.** Players clearing tilesets down long lanes.
+
+---
+
+### The Tusk Swap
+**Boar Prime. A hybrid Incarnon-on and Incarnon-off shotgun with consistent damage.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Close-range DPS |
+| Difficulty | Advanced |
+| Investment | Heavy. 7 forma, MR 11 |
+| Weapon reliance | Standalone |
+
+> Tenno. This build swaps constantly between Boar Prime's two modes, and Primary
+> Crux keeps you in Incarnon-off longer. It leans on unconditional damage mods
+> rather than status-scaling ones because of an Incarnon bug.
+
+**The build**
+
+- Magnetic Strafe, rank 3, unpolarised
+- Shotgun Elementalist, rank 5, unpolarised
+- Primed Ravage, rank 10, Madurai polarity
+- Critical Deceleration, rank 5, Madurai polarity
+- Toxic Barrage, rank 3, Madurai polarity
+- Primed Charged Shell, rank 10, Naramon polarity
+- Galvanized Hell, rank 10, Madurai polarity
+- Primed Point Blank, rank 10, Madurai polarity
+- Exilus: Counterbalance, Naramon polarity
+- Arcane: Primary Crux
+
+Weapon figures land near 45% crit chance and 4.2x crit damage with a roughly
+2.65x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Primed Point Blank gives an unconditional 165% damage that never
+fluctuates, which the author prefers over Galvanized Savvy here because the
+Incarnon bug makes Savvy only about 60% effective and it starts at zero until a
+kill. Galvanized Hell is multishot; Primed Ravage plus Critical Deceleration are
+crit. Primed Charged Shell plus Toxic Barrage build the element.
+
+**Where it struggles.** The mode-swap rhythm is fiddly. Heavy forma cost.
+
+**Variants.** Corrosive-heat is the default; other splits work with mod
+rearrangement.
+
+**Who runs this.** Boar Prime mains who want both modes in one loadout.
+
+---
+
+### The Biotic Line
+**AX-52. Viral-corrosive-magnetic red crit with infinite hipfire sustain.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | All-round DPS |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 12 |
+| Weapon reliance | Standalone |
+
+> Tenno. Hipfire ammo efficiency plus Primary Crux reaches 100%, so you can hold
+> the trigger forever as long as you land some headshots. Aiming adds an inbuilt
+> 400% crit chance for red crits.
+
+**The build**
+
+- Primed Shred, rank 10, Madurai polarity
+- Stormbringer, rank 5, Naramon polarity
+- Infected Clip, rank 5, unpolarised
+- Biotic Rounds, rank 5, Madurai polarity
+- Vital Sense, rank 5, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Exilus: Primed Stabilizer, Naramon polarity
+- Arcane: Primary Crux
+
+Weapon figures land near 78% crit chance (130% on aim via the inbuilt bonus) and
+5.28x crit damage at a 13.5 fire rate. Confidence: Approximation, per the
+author.
+
+**The mods.** Galvanized Chamber is multishot; Galvanized Aptitude is +240%
+after three statuses, flexible for Amalgam Serration or Bladed Rounds. Critical
+Delay stacks additively with the 400% aim headshot bonus; Vital Sense is crit
+damage. Biotic Rounds grants free viral and magnetic after weakpoint kills;
+Infected Clip plus the innate build corrosive.
+
+**Where it struggles.** Hipfire crit is lower than aimed. Wants headshots for
+the ammo loop.
+
+**Variants.** Pure electric or heat AX-52 for damage over time with external
+strip.
+
+**Who runs this.** Players who want a rifle they never reload.
+
+---
+
+### The Dragon Leash
+**Lizzie. A heat-blast-toxin flamethrower that leans on Temple and Arcane Hot Shot.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Close-range status DPS, passive strip |
+| Difficulty | Advanced |
+| Investment | Low. 3 forma, no MR requirement |
+| Weapon reliance | High. Needs Temple and Arcane Hot Shot |
+
+> Tenno. Lizzie's toxin procs stack Primary Blight crit damage almost instantly,
+> Arcane Hot Shot on the frame supplies the crit chance, and Temple's third
+> ability layers separate heat. The build looks bare because the frame carries
+> half of it.
+
+**The build**
+
+- Infected Clip, rank 5, Naramon polarity
+- Rifle Elementalist, rank 5, unpolarised
+- Vile Acceleration, rank 5, unpolarised
+- Thermite Rounds, rank 3, unpolarised
+- Rime Rounds, rank 3, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Exilus: Sinister Reach, unpolarised
+- Arcane: Primary Blight
+
+Weapon figures land near 105% crit chance and 2.3x crit damage, with Primary
+Blight adding roughly 144% crit damage as toxin procs land. Confidence:
+Approximation, per the author.
+
+**How it works.** There is no modded crit damage or heat mod because Primary
+Blight and Temple's Ripper's Wail supply both. Galvanized Aptitude and Chamber
+are the damage and multishot core; Infected Clip plus Rime Rounds plus Thermite
+Rounds build toxin, cold and heat for blast and corrosive coverage.
+
+**Where it struggles.** Hard-locked to a Temple loadout and Arcane Hot Shot.
+Very short range.
+
+**Variants.** The author maintains a live DPS calculator for element swaps.
+
+**Who runs this.** Temple players who want a matched primary.
+
+---
+
+### The Spore Rifle
+**Coda Sporothrix. Low crit chance, huge crit damage, near-400% status a shot.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Single-target status DPS, viral primer |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, MR 17 |
+| Weapon reliance | High. Wants an external flat crit buff |
+
+> Tenno. Sporothrix has 1% crit chance and a 3x crit multiplier, so a small
+> flat-crit source flips it into a status monster: over ten procs a shot with
+> multishot, plus a free viral-priming area.
+
+**The build**
+
+- Primed Bane of Orokin, rank 10, Madurai polarity
+- Hammer Shot, rank 3, Vazarin polarity
+- Volatile Variant, rank 5, Madurai polarity
+- Rifle Elementalist, rank 5, unpolarised
+- Rime Rounds, rank 3, unpolarised
+- Thermite Rounds, rank 3, Madurai polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Exilus: Terminal Velocity, Madurai polarity
+- Arcane: Primary Crux
+
+Weapon figures land near 5% base crit chance and 4.8x crit damage; five puncture
+procs add +25% flat crit, enough to make the multiplier matter. Confidence:
+Approximation, per the author.
+
+**How it works.** Direct hits carry the damage; the area primes viral for free.
+Feed it a flat crit source (Arcane Avenger, Harrow, Citrine, Sevagoth, Adarza
+Kavat). Magnetic progenitor is the most flexible, keeping blast, electric, heat
+and toxin variants open.
+
+**Where it struggles.** Needs the external crit buff to reach its ceiling. Slow
+fire rate. High MR gate.
+
+**Variants.** Blast for trash clear; viral-electric, heat or toxin per faction.
+
+**Who runs this.** Players who pair it with a flat-crit frame or arcane.
+
+---
+
+### The Skull Seeker
+**Daikyu Prime. A full-headshot blast or electric bow with a 14x head multiplier.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Precision one-shot, boss killer |
+| Difficulty | Advanced |
+| Investment | Heavy. 6 forma, MR 15 |
+| Weapon reliance | Standalone |
+
+> Tenno. Primary Acuity and the Amalgam Target Acquired mod stack headshot
+> multipliers until a head hit lands at roughly 14x. Blast or electric procs
+> that bounce back into the head can benefit a second time.
+
+**The build**
+
+- Rifle Elementalist, rank 5, Vazarin polarity
+- High Voltage, rank 3, Madurai polarity
+- Hammer Shot, rank 3, Vazarin polarity
+- Vile Acceleration, rank 5, unpolarised
+- Vital Sense, rank 5, Madurai polarity
+- Primary Acuity, rank 10, Naramon polarity
+- Amalgam Daikyu Target Acquired, rank 5, Madurai polarity
+- Amalgam Serration, rank 10, Madurai polarity
+- Exilus: Terminal Velocity, Madurai polarity
+- Arcane: Longbow Sharpshot
+
+Weapon figures land near 40% crit chance and 6.72x crit damage with a roughly
+2.4x Incarnon multiplier; the headshot multiplier compounds to about 14.4x.
+Confidence: Approximation, per the author.
+
+**The mods.** Serration is base damage, multiplicative with Longbow Sharpshot
+(Galvanized Aptitude is buggy with Sharpshot, so it is skipped). Primary Acuity
+adds +350% crit on headshots and a large headshot multiplier; the Amalgam mod
+multiplies that by 1.75. High Voltage plus Rifle Elementalist build electric or
+blast.
+
+**Where it struggles.** Miss the head and the damage collapses. Slow draw.
+
+**Variants.** Blast nuke versus pure electric DPS, per the title.
+
+**Who runs this.** Players who never miss a headshot.
+
+---
+
+### The Frost Beam
+**Tenet Glaxion. A cold beam with Photon Overcharge energy return and multi-status damage.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Sustained beam DPS, energy generation |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma, MR 16 |
+| Weapon reliance | Standalone |
+
+> Tenno. Primary Debilitate procs the four sub-elements of corrosive and blast
+> separately, so you get cold for Photon Overcharge (and its energy orbs) while
+> still stacking damaging statuses. Seven statuses feed Galvanized Aptitude.
+
+**The build**
+
+- Wildfire, rank 3, unpolarised
+- Malignant Force, rank 3, unpolarised
+- High Voltage, rank 3, unpolarised
+- Primed Shred, rank 10, Madurai polarity
+- Photon Overcharge, rank 5, unpolarised
+- Critical Delay, rank 5, Naramon polarity
+- Galvanized Aptitude, rank 10, unpolarised
+- Galvanized Chamber, rank 10, Madurai polarity
+- Exilus: Sinister Reach, unpolarised
+- Arcane: Primary Debilitate
+
+Weapon figures land near 60% crit chance and 4.18x crit damage at a 16.2 fire
+rate. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Chamber is multishot; Galvanized Aptitude is +80% per
+status, reaching +560% with Debilitate's four extra procs on top of three innate
+ones. Critical Delay is crit; Primed Shred is punch-through. Photon Overcharge
+ramps damage as you fire and turns cold procs into energy orbs.
+
+**Progenitor.** Magnetic is the flexible pick (viral-heat, viral-electric,
+corrosive-blast all stay open, plus the overguard damage bonus). Heat saves a
+mod slot but locks you into corrosive-blast and viral-heat.
+
+**Where it struggles.** Short beam range. Overcharge ramp resets if you stop
+firing.
+
+**Variants.** Corrosive-blast, viral-electric and viral-heat per faction.
+
+**Who runs this.** Players who want a beam that also fuels their abilities.
+
+---
