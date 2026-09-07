@@ -2746,3 +2746,679 @@ grouping, toxin-vulnerable, open arenas are risky.
 room disappear.
 
 ---
+
+### Reaper of Shadows
+**Nekros Prime. Desecrate looting and a one-cast full armour strip, on an active shield-gate frame.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Looting |
+| Role | Loot doubler, armour strip, crowd control, shadow summoner |
+| Difficulty | Beginner to intermediate |
+| Investment | Medium. 4 forma, two Tauforged strength shards for the strip threshold |
+| Weapon reliance | High. A slash-bias weapon does the killing and the body-splitting for loot |
+
+> Tenno. Desecrate rips a second drop chance out of every corpse, and a
+> body-splitting weapon gives Desecrate two corpses to work on per kill. Creeping
+> Terrify slows a crowd to a walk and strips it to zero armour. Soul Punch
+> executes low-health heavies and spawns Shadows. Keep Desecrate on, keep the
+> shield gate fed with Terrify casts, and farm the room dry.
+
+**The build**
+
+- Blind Rage, rank 10, Madurai polarity
+- Overextended, rank 5, unpolarised
+- Stretch, rank 5, unpolarised
+- Creeping Terrify, rank 3, unpolarised — augment. Terrified enemies are 80% slowed
+- Primed Flow, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Rolling Guard, rank 10, Vazarin polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Camisado, Arcane Aegis
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with 370 health, 555 shield, 135 armor and a 541 energy pool.
+
+**How it works.** Desecrate rolls an extra loot drop on each corpse, and a weapon
+that splits enemies in two on kill gives it two rolls per enemy. Terrify only
+needs 167% Strength for a full strip (137% with Corrosive Projection), and its
+80% slow via Creeping Terrify keeps enemies in range instead of fleeing. Since
+health orbs can be picked up at full health with Equilibrium equipped, and Eximus
+now drop guaranteed orbs, Despoil is no longer mandatory. *Confidence:
+Approximation, per the author.*
+
+**Ability priority.**
+
+1. Tap 3 (Desecrate) and keep it up. Kills feed health orbs into Equilibrium.
+2. Cast 2 (Terrify) in a crowd for the slow, full strip, and shield-gate reset.
+3. Cast 1 (Soul Punch) on heavies below about 25% health for an instant kill and a Shadow. A kill within 3s of a Soul Punch also spawns one.
+4. Cast 4 to summon all seven Shadows at once, or to heal them when low.
+
+**Duration, Efficiency, Range, Strength.** Duration only affects Shadow decay;
+Terrify's base is long. Efficiency at 45% works with Desecrate orbs plus
+Equilibrium; go to 130% for a cast-heavy style. Range 145% to 235% by tileset, no
+higher or you slow enemies in the next room. Strength only needs to clear the
+Terrify strip threshold.
+
+**The mods.** *Blind Rage* is the Strength, backed by *Arcane Camisado* and shards.
+*Overextended, Stretch* set Terrify's Range. *Primed Continuity* holds Duration.
+*Primed Flow, Equilibrium* are the energy base. *Creeping Terrify* is the slow.
+*Rolling Guard* is the status cleanse. *Brief Respite* aura feeds the gate.
+
+**Flexible slots.** Creeping Terrify becomes a Strength mod if you do not want the
+slow. Rolling Guard is optional. The exilus is open if you lack Primed Sure Footed.
+
+**Helminth.** Pick one. Subsume over 1 or 4 (both make Shadows).
+
+- **Nourish** for viral on weapons and Shadows plus more energy.
+- **Pull** with Greedy Pull to group and vacuum loot straight to you.
+
+**Archon Shards.** One to two Amber cast-speed. Two Tauforged Crimson strength to
+hit the 167% Terrify threshold without conditional buffs. One to two parkour. Five
+total.
+
+**Arcanes.** Arcane Camisado for Strength toward the strip, Arcane Aegis for lazy
+shield sustain. Arcane Eruption (Desecrate orbs knock down enemies) is a fun swap.
+
+**Focus.** Any. Madurai for the Strength and cast speed on Terrify. Vazarin for
+i-frames.
+
+**Weapon synergy.** For double Desecrate rolls, use a weapon that bisects on kill:
+either a raw or physical weapon with over 50% slash bias (Phenmor, Miter Incarnon,
+Dread Incarnon, most slash melees modded raw viral), or any weapon at all with
+Amalgam Ripkas True Steel, which forces the split from any kill source including
+DoTs and abilities. Note slash-proc kills do not split, so avoid high-slash-status
+weapons.
+
+**Staying alive.** Shield gating off Terrify plus the Terrify slow plus Rolling
+Guard. It fails in the gap if there is no crowd to cast Terrify on, and to toxin.
+
+**Energy.** Desecrate orbs through Equilibrium. Nourish if you want a bigger
+buffer.
+
+**Where it struggles.** Bosses. Low-density content starves Desecrate. Terrify has
+a target cap and does not work on Acolytes.
+
+**Variants.** A traditional Shadow-tank build. A Tomb Raider Petrify loot build
+sharing polarities.
+
+**Strengths and weaknesses.** Strong: the best flat loot multiplier in the game, a
+free full strip, cheap and easy. Weak: entirely weapon-carried for damage, boss-
+blind, wants a specific weapon type for the loot mechanic.
+
+**Who runs this.** Farmers who bring Nekros to any long survival for the drops and
+want the strip and crowd control as a bonus.
+
+---
+
+### Archangel of Annihilation
+**Jade. An exalted Glory heat nuke with a damage buff that triple-dips.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Fast area nuke, hybrid primary and alt-fire, mobile survivor |
+| Difficulty | Intermediate. Two aura slots and a buff-cycling system to learn |
+| Investment | High. 5 forma, strength and cast-speed shards |
+| Weapon reliance | Low. Glory is an exalted secondary and does the damage |
+
+> Tenno. Glory is an exalted secondary that carpets an area in heat. Primary fire
+> costs no extra energy and seeds Judgements; alt-fire detonates them. Power of the
+> Seven buffs your Strength, Deathbringer feeds Glory modded base damage, and
+> Ophanim Eyes slows and strips. Because Strength scales Glory's base damage, the
+> Deathbringer buff, and the Power of the Seven buff at once, it nearly triple-dips
+> your DPS. Stay mobile, hold fire, and detonate.
+
+**The build**
+
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Overextended, rank 5, unpolarised
+- Umbral Intensify, rank 10, unpolarised
+- Fast Deflection, rank 5, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura 1: Corrosive Projection, aura slot
+- Aura 2: Growing Power, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Aegis (rank 0), Arcane Velocity
+
+Arsenal figures land at roughly 238% Strength, 128% Duration, 205% Range, 45%
+Efficiency, with 465 health, 550 shield, 135 armor and a 570 energy pool.
+
+**How it works.** Primary fire (150 heat, 1.67 fire rate, 2m) scales with
+multishot, fire rate and base damage and can out-DPS alt-fire in lower density;
+alt-fire (1500 heat, 1 fire rate locked, 4m) ignores those mods but detonates all
+nearby Judgements at once for huge density damage. The author's figures at ~200%
+Strength: primary fire around 14,600 per hit on a tight field, alt-fire around
+3,000 per detonation but up to 60,000 total from 20 stacked Judgements.
+*Confidence: Approximation, per the author's DPS breakdown.*
+
+**Playstyle.** Invert tap/hold so tapping 2 casts a Symphony.
+
+1. Hold 2 to Power of the Seven, tap 2 to cast the Strength buff, which snapshots onto Ophanim Eyes and Glory.
+2. Activate Glory on High, hold primary fire to kill and seed Judgements, and detonate with alt-fire.
+3. Stay in Spirit of Resilience for easy survival, or swap to Deathbringer for more Glory damage.
+4. Cast up to 5 Light's Judgements around the map for guaranteed detonation fuel and healing.
+5. To refresh Ophanim Eyes, cycle to Power of the Seven, cast Ophanim to snapshot, then swap back.
+
+**Survivability.** Spirit of Resilience plus Arcane Aegis plus Fast Deflection makes
+Jade effectively immortal while mobile: the recharge delay drops to about 1s, and
+the buff plus Aegis bridge it. Jade also has innate 50% damage reduction in Glory,
+%HP healing from 1, and shield regen from 2. *Confidence: Approximation, and the
+Spirit of Resilience recharge stack is flagged as a bug.*
+
+**Duration, Efficiency, Range, Strength.** Neutral Duration so Ophanim and Light's
+Judgement do not need frequent recasts; it also cuts Glory channel drain but not
+alt-fire cost. Efficiency to preference: 45% with Equilibrium in dense missions,
+130%+ for alt-fire spam. Time-regen energy (Zenurik, Energy Nexus) does not work
+in Glory. Range scales Glory's radius, Light's Judgement and Ophanim; about 200%
+gives 4m primary and 8m alt-fire, 12m inside a Light's Judgement. Strength is the
+near-triple-dip damage stat.
+
+**The mods.** *Blind Rage, Transient Fortitude, Umbral Intensify* are the Strength
+stack, with *Primed Continuity* holding Duration. *Overextended* is the Range.
+*Primed Flow, Equilibrium* are the energy base. *Fast Deflection* is the passive-
+gate enabler with *Arcane Aegis*.
+
+**Flexible slots.** Streamline or Fleeting Expertise for more Efficiency. Archon
+Vitality is not worth it (Glory's 20% status means heat DoT is only ~10% of DPS);
+Augur Secrets gives more. The two aura slots are flexible: Brief Respite, Combat
+Discipline (to self-proc Avenger and Archon Intensify), Growing Power, Corrosive
+Projection.
+
+**Helminth.** Pick one. Subsume over Light's Judgement (her 1).
+
+- **Nourish** is the default: viral on Glory (build viral-corrosive-heat for Grineer, viral-toxin for Corpus, viral-radiation for Murmur without modding viral) plus an energy multiplier plus Combat Discipline viral retaliation.
+- **Silence** for passive crowd control and Eximus and Acolyte ability lockout.
+- **Airburst** for grouping, though its cast delay and an ability-lockout bug make it risky.
+- **Molt** for movement speed and faster Glory flight.
+
+**Archon Shards.** One to two Amber cast-speed. Three to four Crimson strength
+(triple-dips Glory). Topaz secondary crit optional for alt-fire specifically. Five
+total.
+
+**Arcanes.** Arcane Velocity for fire rate (huge on primary fire), Arcane Aegis for
+the passive gate. Secondary Enervate on Glory itself gives about 80% flat crit
+chance.
+
+**Focus.** Madurai for Strength and cast speed. Vazarin for the Sling if you skip
+the passive-gate setup.
+
+**Weapon synergy.** Deathbringer is a universal weapon buff that double-dips
+Glaives and Exodia Contagion, and is multiplicative to Condition Overload on
+Ceramic Dagger Incarnon heavies and Tenet Grigori.
+
+**Staying alive.** The passive gate while mobile plus Glory's 50% DR plus the
+Ophanim slow. It fails if you stand still and let fire land in the recharge
+window, and to toxin.
+
+**Energy.** Equilibrium plus a Panzer with Synth Deconstruct and Seismic Bond.
+Streamline if 45% is too tight.
+
+**Where it struggles.** Line-of-sight tiles cap Glory's reach. The buff-cycling
+system is fiddly. Bosses need the weapon.
+
+**Variants.** A pure alt-fire high-density camping build. An endurance primary-fire
+build with lower Range and Strength. A non-Glory weapon platform.
+
+**Strengths and weaknesses.** Strong: one of the fastest area nukes, very mobile,
+near-immortal while moving, faction-flexible through Nourish. Weak: line-of-sight
+limited, complex buff management, boss damage on the weapon.
+
+**Who runs this.** Players who want a mobile nuke that clears at speed and almost
+never dies.
+
+---
+
+### The Araneae Queen
+**Oraxia. Wall-latch invisibility, a toxin gun overbuff, and Scuttler minions.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Weapon buff platform, crowd control, minion support, invisible survivor |
+| Difficulty | Intermediate. Latch timing and snapshot mechanics |
+| Investment | Medium to high. 4 forma, Emerald toxin shards |
+| Weapon reliance | High. Silken Stride and Webbed Embrace exist to make your gun kill |
+
+> Tenno. Oraxia latches to walls to vanish for 8 seconds at a time, and Silken
+> Stride wraps your weapon in a scaling toxin buff. Webbed Embrace nets a
+> chokepoint and stacks a damage vulnerability. Mercy's Kiss leaps onto low-health
+> heavies for an execute that showers you in orbs. Widow's Brood marks enemies to
+> spawn spiders that strip armour as they bite. Relatch every 8 seconds and the
+> room never sees you.
+
+**The build**
+
+- Augur Secrets, rank 5, unpolarised
+- Energy Conversion, rank 5, Madurai polarity
+- Stretch, rank 5, Naramon polarity
+- Precision Intensify, rank 5, unpolarised
+- Transient Fortitude, rank 10, Madurai polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Aura: Growing Power, Madurai polarity
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Arachne, Arcane Crepuscular
+
+Arsenal figures land at roughly 194% Strength, 128% Duration, 145% Range, 100%
+Efficiency, with 675 health, 225 shield, 125 armor and a 570 energy pool.
+
+**How it works.** Precision Intensify and Energy Conversion now snapshot onto
+Silken Stride rather than applying dynamically, so you cast 4 with buffs up to lock
+in a high Strength (the author reaches 359% with everything active). Silken Stride
+is a toxin weapon buff; Archon Continuity turns its toxin procs corrosive for a
+passive strip. Mercy's Kiss on a sub-threshold enemy forces health and energy orbs
+scaled by Strength, refilling your bar in one cast. Latching in 4 gives 8s
+invisibility that no mod can extend. *Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Tap 4 (Silken Stride), then dodge toward a wall to sling and latch for 8s invisibility. Relatch every 8s. Melee attacks cast 1 instead in this mode.
+2. Tap 1 (Mercy's Kiss) on low-health enemies to leap, execute, and drop orbs. Impact procs from 3 raise the mercy threshold to 80%.
+3. Tap 2 (Webbed Embrace) where enemies gather for crowd control and a damage vulnerability (up to 150% at 300% Strength). Up to 3 zones.
+4. Tap 3 (Widow's Brood) to mark enemies; kill the marked to spawn Scuttlers.
+
+**Survivability.** Latch invisibility every 8s is the core. Between latches, tap 2
+for a small Augur-mod shield gate. Webbed Embrace crowd-controls and Widow's Brood
+draws aggro. Arcane Escapist, stacked to 9 via Mercy Kills on heavies, gives 12s
+of invulnerability per death for three stacks. *Confidence: Approximation, per the
+author.*
+
+**Duration, Efficiency, Range, Strength.** Duration scales 2 and 3 and Silken
+Stride's drain. Efficiency at 100% is comfortable; 45% with Blind Rage if you
+cast 1 constantly for orbs. Range boosts 2 and 3 radius. Strength is the priority:
+orb drop chance on 1, the vulnerability on 2, the toxin buff on 4.
+
+**The mods.** *Transient Fortitude* is the Strength with *Precision Intensify* and
+*Energy Conversion* snapshotting more. *Archon Continuity* is Duration plus the
+corrosive conversion. *Stretch* is Range. *Primed Flow, Equilibrium* are the
+energy base fed by Mercy's Kiss orbs. *Augur Secrets* adds Strength and a gate
+contribution. *Growing Power* aura for more Strength.
+
+**Flexible slots.** Blind Rage over Transient Fortitude for 45% Efficiency. The
+aura, exilus and one arcane are all open.
+
+**Helminth.** Pick one.
+
+- **Nourish** over 1 or 3 for viral on weapons and Scuttlers plus energy.
+- **Thermal Sunder** with Thermal Transfer for a non-combining blast add.
+- **Shock** with Shock Trooper for a non-combining electric add.
+- **Silence** to block Eximus abilities that target you through invisibility and stop Violence dispelling Silken Stride.
+
+**Archon Shards.** One to two Amber cast-speed. Three to four Emerald toxin-status
+for Silken Stride's toxin. Five total.
+
+**Arcanes.** Arcane Arachne for 150% damage on every wall-latch, Arcane Crepuscular
+for Strength and crit damage while invisible. Arcane Camisado or Arcane Escapist as
+swaps.
+
+**Focus.** Madurai for Strength and cast speed. Any works given the invisibility.
+
+**Weapon synergy.** Silken Stride's toxin DoT chains through Acid Shells on Sobek
+for map-wide spread. Ocucor auto-aims and auto-reloads for a hands-off option.
+Vermisplicer with Combustion Beam for a weaker chain.
+
+**Staying alive.** Latch invisibility plus partial shield gating plus crowd
+control plus optional Arcane Escapist. It fails in the visible windows if you take
+a burst with the gate down, and to toxin.
+
+**Energy.** Mercy's Kiss orbs through Equilibrium refill the bar per cast. Seismic
+Bond on a pet gives free Efficiency in 4.
+
+**Where it struggles.** The 8s relatch cadence is a constant chore. Bosses. Widow's
+Brood Scuttlers do not currently scale, so they are a strip tool, not damage, in
+endurance.
+
+**Variants.** An Arcane Persistence tank variant.
+
+**Strengths and weaknesses.** Strong: strong weapon buff, permanent invisibility,
+passive strip, good orb-based energy. Weak: relatch chore, minion damage falls
+off, boss-blind, weapon-carried.
+
+**Who runs this.** Players who want an invisible weapon-platform frame with a strip
+and some minion crowd control.
+
+---
+
+### Beguiling Butterfly
+**Titania Prime. Razorwing flight and Dex Pixia DPS, with passive shield-gate survival.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Mobile exalted-pistol DPS, self-sufficient survivor |
+| Difficulty | Beginner to intermediate |
+| Investment | Low. 2 forma, strength and cast-speed shards |
+| Weapon reliance | Low. Dex Pixia are the damage; ground weapons vanish in Razorwing |
+
+> Tenno. Razorwing shrinks you, arms Dex Pixia, and lets you fly. Razorwing Blitz
+> speeds the flight and the fire rate. Razorflies are immortal, draw aggro, and
+> mark enemies for extra damage. Spellbind keeps you status-immune. Between the
+> 50% evasion, the flies pulling aggro, and killing things before they fire, very
+> little touches you. Fly, do not sprint, and shoot.
+
+**The build**
+
+- Vigilante Vigor, rank 5, unpolarised
+- Archon Continuity, rank 10, Madurai polarity
+- Fast Deflection, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Precision Intensify, rank 5, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Razorwing Blitz, rank 3, unpolarised — augment. Recasting abilities stacks flight speed and Dex Pixia fire rate
+- Aura: Corrosive Projection, aura slot
+- Exilus: Preparation, unpolarised
+- Arcanes: Arcane Impetus, Arcane Pistoleer
+
+Arsenal figures land at roughly 100% Strength, 254% Duration, 34% Range, 100%
+Efficiency, with 465 health, 370 shield, 135 armor and a 755 energy pool.
+
+**How it works.** Duration plus Efficiency minimise Razorwing's channel drain: at
+254% Duration, exactly 136% Efficiency hits the 25% minimum cost, and Arcane
+Impetus supplies the last 36%. Range is dumped to 34% because Tribute has fixed
+aura range, Spellbind is self-cast, and Razorwing ignores Range. Razorwing Blitz
+turns every ability recast into a flight-speed and fire-rate stack, so you tap
+Spellbind constantly. *Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Enter Razorwing (tap 4).
+2. Cast Spellbind on yourself for status and knockdown immunity (invert tap/hold; tap 1). Keep tapping 1 to gate and hold Razorwing Blitz.
+3. Cycle 2 to cast Tributes on enemies; Razorflies collect them.
+4. Keep Xata's Whisper or Nourish active.
+5. Shoot with Dex Pixia. Fly, do not sprint, or you will hit a wall.
+
+**Survivability.** Passive shield gating: Fast Deflection plus Vigilante Vigor drop
+the recharge delay to about 1s, and five things bridge that 1s: Razorwing's 50%
+evasion, immortal aggro-drawing Razorflies, flight mobility, Dust's 50% enemy
+accuracy debuff, and simply killing fast. Active gating via Spellbind plus Augur
+Secrets on the frame (secondaries vanish in Razorwing) is the alternative.
+*Confidence: Approximation, per the author.*
+
+**Duration, Efficiency, Range, Strength.** Duration is the priority for drain and
+Spellbind uptime. Efficiency pairs with it to hit minimum drain. Range is useless
+here and dumped. Strength boosts Razorwing base damage and the Razorwing Blitz
+buffs, and triple-dips Dex Pixia if you subsume Xata's Whisper, but too much makes
+the flight uncontrollable.
+
+**The mods.** *Precision Intensify* is the Strength. *Narrow Minded* is the
+Duration, and its Range cost is free. *Fast Deflection, Vigilante Vigor* are the
+passive-gate package. *Primed Flow, Equilibrium* are the energy base. *Archon
+Continuity* gives corrosive procs if Dex Pixia is modded blast-toxin. *Razorwing
+Blitz* is the speed and fire rate.
+
+**Flexible slots.** Adaptation plus Aerodynamic plus Aviator for a 98%+ DR tank
+route instead of passive gating. The aura and exilus are open.
+
+**Helminth.** Pick one. Subsume over Lantern (her 3).
+
+- **Xata's Whisper** is the default: raw damage, magnetic bubbles that suck in bullets, headshot double-dip.
+- **Nourish** for viral Dex Pixia and an energy multiplier.
+- **Pull** for the fastest cast animation to stack Razorwing Blitz, plus light crowd control.
+- **Pillage** for a strip that scales with Duration and refills shields.
+
+**Archon Shards.** Two Amber cast-speed for Spellbind and Blitz stacking. Three
+Crimson strength. One optional corrosive shard if running a corrosive Dex Pixia
+build. Five total.
+
+**Arcanes.** Arcane Impetus (up to 7 to 12 status stacks for 42% to 72% Strength
+and 21% to 36% Efficiency with the right elements), Arcane Pistoleer for 100% ammo
+efficiency so you skip the reload. Molt Augmented or Arcane Precision as swaps.
+
+**Focus.** Any. Vazarin for a panic i-frame. Madurai for Strength.
+
+**Weapon synergy.** Dex Pixia want Blast-Toxin for universal trash clear with
+Xata's Whisper. Diwata as a status statstick to feed Arcane Impetus. Duplex Bond
+works in Razorwing for up to three immortal priming sentinel clones.
+
+**Staying alive.** The passive gate plus evasion plus Razorfly aggro plus Dust. It
+fails to toxin and to a heavy burst landing in the recharge window.
+
+**Energy.** Duration and Efficiency keep drain minimal; Primed Flow plus
+Equilibrium refill it.
+
+**Where it struggles.** Bosses. Ground content where you leave Razorwing loses the
+whole kit. Very high endurance where the passive gate window closes.
+
+**Variants.** A high-Strength one-cast Pillage full-strip build.
+
+**Strengths and weaknesses.** Strong: fast, self-sufficient survival, low weapon
+and forma investment, strong sustained DPS. Weak: boss-blind, weak on the ground,
+Dex Pixia reload without Pistoleer is annoying.
+
+**Who runs this.** Players who want a fast, low-effort frame that flies over the
+mission killing everything and barely takes damage.
+
+---
+
+### The Slow Bleed
+**Garuda Prime. Gloom crowd control fed by Bloodletting, with Dread Mirror attenuation on top.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Near-total slow, frontal damage immunity, weapon and Talons platform |
+| Difficulty | Intermediate. The Bloodletting energy loop under Gloom's drain |
+| Investment | Medium to high. 4 forma, strength and energy-max shards |
+| Weapon reliance | Medium. Talons, Glaives or a weapon carry damage; the frame is control and survival |
+
+> Tenno. Garuda pays for her energy in blood. Bloodletting spends half your health
+> for a huge energy return, Gloom heals it back while slowing everything around
+> you almost to a standstill, and that healing refills Bloodletting. Dread Mirror
+> gives you complete frontal damage attenuation and a chargeable nuke. Cast
+> Bloodletting twice, turn on Gloom, and the loop sustains itself.
+
+**The build**
+
+- Primed Flow, rank 10, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Stretch, rank 5, Naramon polarity
+- Augur Reach, rank 5, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Umbral Intensify, rank 10, unpolarised
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Blending Talons, rank 3, unpolarised — augment. Tap 4 for a radial Seeking Talons
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Power Drift, unpolarised
+- Arcanes: Molt Augmented, Arcane Arachne
+
+Arsenal figures land at roughly 214% Strength, 128% Duration, 175% Range, 100%
+Efficiency, with 370 health, 370 shield, 420 armor and a 912 energy pool.
+
+**How it works.** Bloodletting returns more energy at higher Efficiency (about 364
+energy per 50% health at 100%, versus 228 at 45%), so neutral Efficiency means
+fewer, less-vulnerable casts. Gloom slows and heals; Corrosive Projection is in the
+aura and Blending Talons gives a quick radial stun and full shield regen off two
+Augur mods. Dread Mirror grants knockdown immunity and full frontal attenuation.
+*Confidence: Approximation, per the author.*
+
+**Ability priority.**
+
+1. Cast Bloodletting (3) twice to near-max energy. Recast when energy drops below about 300.
+2. Activate Gloom (2). Deal damage to heal, repeat Bloodletting as needed.
+3. On shield break, tap Seeking Talons (4) for full shield regen and a Gloom-extended radial stun.
+4. Keep Dread Mirror (tap 1) up at all times. Hold 1 to charge and release a nuke.
+
+**Duration, Efficiency, Range, Strength.** Positive Duration for Dread Mirror, Gloom
+drain and the Talons mark. Neutral Efficiency for the Bloodletting return.
+Moderate Range for Gloom, Dread Heart and Blending Talons, no higher or you slow
+enemies too far out. Strength only for the Gloom slow; the listed 199% base gives
+about 70% slow, and a Nidus specter, shards or Focus push toward the 95% cap at
+272%.
+
+**The mods.** *Transient Fortitude, Umbral Intensify* are the Strength for Gloom,
+with *Primed Continuity* holding Duration. *Stretch, Augur Reach* set the Range,
+with Augur Reach also feeding the gate. *Primed Flow* is the large pool for
+chaining combos. *Catalyzing Shields* is the gate lock. *Blending Talons* is the
+radial quick-cast.
+
+**Flexible slots.** The augments are all optional over a Natural Talent slot: Blood
+Forge to reload slow weapons via Bloodletting, Dread Ward for an invulnerability
+window, Blending Talons for the radial version. The aura and exilus are open.
+
+**Helminth.** Pick one. Subsume over Blood Altar (her 3).
+
+- **Gloom** is the default: crowd control plus healing that fuels the Bloodletting loop.
+- **Breach Surge** or **Condemn** for crowd control without the healing synergy.
+
+**Archon Shards.** Two Amber cast-speed to drop Natural Talent. One to two Crimson
+strength toward the Gloom cap. The rest Azure energy-max. Five total.
+
+**Arcanes.** Molt Augmented for Strength toward the Gloom cap, Arcane Arachne
+(applies to Dread Mirror). Arcane Avenger with Combat Discipline, or Arcane Strike
+on a Talons build, as swaps.
+
+**Focus.** Any. Madurai or Zenurik help hit the Gloom cap. Vazarin Sling for a
+panic i-frame.
+
+**Weapon synergy.** Garuda's +100% damage passive applies twice to Glaives and
+Exodia Contagion. Talons builds (light combo, heavy spam, hybrid x12) are the
+signature option. Blood Forge pairs with slow-reload weapons like Kuva Zarr,
+Felarx, Tenet Envoy.
+
+**Staying alive.** Dread Mirror frontal attenuation plus the Gloom slow plus
+shield gating off 4 plus Bloodletting's status cleanse. It fails to attacks from
+behind (Dread Mirror is frontal only), and to toxin.
+
+**Energy.** The Bloodletting-Gloom loop is self-sustaining once started. Primed
+Flow holds the buffer.
+
+**Where it struggles.** Attacks from behind bypass Dread Mirror. Bosses. Hitting
+the Gloom cap needs external Strength sources.
+
+**Variants.** A high-range non-helminth nuke build. A run-and-gun weapon platform
+with Molt, Roar or Xata's.
+
+**Strengths and weaknesses.** Strong: top-tier slow, near-immunity from the front,
+self-sustaining energy, flexible damage. Weak: frontal only, boss-blind, Strength-
+starved for the full slow without help.
+
+**Who runs this.** Players who want a control-and-survival frame that slows the
+whole room and shrugs off everything it is looking at.
+
+---
+
+### Day and Night
+**Equinox Prime. Sleep a map in Night form, bank the damage, and release it as a Maim nuke in Day.**
+
+| | |
+|--|--|
+| Content | Steel Path, Level cap |
+| Role | Map nuke, map-wide crowd control, shield-gate survivor |
+| Difficulty | Intermediate. Form switching and the Maim charge mechanic |
+| Investment | Low. 2 forma |
+| Weapon reliance | High. Your weapon banks the Maim charge; the frame just stores and releases it |
+
+> Tenno. Equinox is two frames on one switch. In Night form, Rest sleeps a room
+> through walls and your kills bank 75% of the health you strip as stored damage,
+> while Mend refills your shields. Flip to Day with Energy Transfer holding the
+> charge, drop Maim, and the whole room takes it at once. Sleep, bank, flip,
+> nuke, flip back.
+
+**The build**
+
+- Fleeting Expertise, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Stretch, rank 5, unpolarised
+- Augur Reach, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Energy Transfer, rank 3, unpolarised — augment. Preserves stored damage across a form switch
+- Rolling Guard, rank 10, Vazarin polarity
+- Overextended, rank 5, Vazarin polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Aegis, Molt Augmented
+
+Arsenal figures land at roughly 40% Strength, 40% Duration, 280% Range, 160%
+Efficiency, with 465 health, 370 shield, 160 armor and a 712 energy pool.
+
+**How it works.** Maim stores 75% of the health and shields an enemy loses, not
+the damage number you see, so a huge overkill against an armoured target banks
+little. Strength does not change the stored amount or the release, which is why
+Strength is dumped to 40%. Range is maxed for Maim's 50m radius (with linear
+falloff to 0 at 50m, about 20% at 40m) and Rest's radius. Max Efficiency (190%
+with Fleeting plus Streamline or Seismic Bond) hits the channel drain floor so you
+hold 3 and 4 permanently. *Confidence: Approximation, per the author's Maim
+figures.*
+
+**Playstyle.**
+
+1. Start in Day form, activate 3 then 4, then switch to Night with 1 so the boosted-Strength Maim converts into a stronger Mend. Reactivate 3.
+2. In Night form, crowd-control with Rest (2), castable through walls.
+3. Kill with your weapon to regen shields and bank Maim damage.
+4. Shield gate with Rolling Guard and kill-based shield regen.
+5. When enough is banked and density is good, switch to Day (1) and deactivate 4 to nuke.
+6. Reactivate 3 and 4, switch back to Night, reactivate 3.
+
+**Maim damage (author's figures, level-500 corrupted heavy gunner at 40m).**
+
+- Level 150 (~3.03M EHP): about 15 million banked.
+- Level 500 (~10.3M EHP): about 52 million banked.
+- Level 9999 (~55.7M EHP): about 278 million banked.
+
+An armour strip via Terrify roughly halves those requirements.
+
+**Duration, Efficiency, Range, Strength.** Low Duration is fine; you hit the drain
+floor anyway and Rest's base is long. Max Efficiency for the channel floor.
+Max Range for Maim and Rest. Strength is dumped because it does not touch the nuke;
+Molt Augmented just keeps the Mend shield gain and form buffs reasonable.
+
+**The mods.** *Fleeting Expertise* is the Efficiency toward the drain floor.
+*Overextended, Stretch, Augur Reach* set the maxed Range, with Augur Reach feeding
+the gate. *Primed Flow, Equilibrium* are the energy base. *Energy Transfer* is
+mandatory for a switch build. *Rolling Guard* is the panic i-frame.
+
+**Flexible slots.** Calm and Frenzy for spreading Rest on kills. The exilus is
+open. Catalyzing Shields for a stronger kill-based gate.
+
+**Survivability.** Rest crowd control plus shield gating: in Night form each kill
+gives about 46 shield under Mend, roughly a 1s gate at four kills, or 1.33s at two
+kills with Catalyzing Shields. Releasing the Maim charge in Night form also fully
+restores shields. Arcane Aegis and Vazarin Sling are backups.
+
+**Helminth.** Pick one. Subsume over Pacify and Provoke (her 3), which cancels on
+every form swap anyway.
+
+- **Terrify** is the standout: Maim damage is reduced by armour, so a full strip (137% Strength with Corrosive Projection) roughly doubles Maim's effective damage, and Terrify works through walls at near-Maim radius. This needs Umbral Intensify over Primed Flow or Augur Reach plus Molt Augmented.
+- **Resonator** for turning off enemy AI in a 42m radius so you barely need to cast Rest at all.
+
+**Archon Shards.** Two Amber cast-speed. Crimson strength only if running Terrify
+for the strip threshold. The rest parkour. Five total.
+
+**Arcanes.** Arcane Aegis for a lazy survival layer, Molt Augmented for the small
+amount of Strength the form buffs and Mend want. Arcane Avenger as a swap.
+
+**Focus.** Any. Vazarin Sling for a panic window.
+
+**Weapon synergy.** Strong area weapons that strip health fast to bank Maim
+quickly: slam melees (Magistar, Arca Titron), Incarnon primaries (Torid, Strun,
+Boar), influence melees. Zenith and Sigma and Octantis fit the astronomy theme.
+
+**Staying alive.** Rest map-sleep plus the Mend shield gate plus Rolling Guard. It
+fails if you cannot sleep or kill fast enough to keep the gate fed, and to toxin.
+
+**Energy.** Max Efficiency plus Primed Flow plus Equilibrium; you rarely spend
+much.
+
+**Where it struggles.** Maim's falloff means enemies at 40m+ take a fraction of
+the charge, so you need to bank far more than the raw EHP suggests. Armoured
+targets without a strip eat the charge. Bosses.
+
+**Variants.** A pure Day-form nuke with Terrify. A Gloom time-freeze switch build.
+A pure Night-form crowd-control build with Silence. A Rest XP-farm build.
+
+**Strengths and weaknesses.** Strong: map-wide sleep, a map-wide nuke, cheap on
+forma, strong crowd control. Weak: two-step nuke with a banking delay, falloff and
+armour both cut the payload, boss-blind.
+
+**Who runs this.** Players who want to lock down and then delete an entire tile at
+once.
+
+---
