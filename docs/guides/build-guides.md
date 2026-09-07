@@ -13083,3 +13083,549 @@ refund loop.
 **Who runs this.** Players who want Gyre purely as an unkillable gun stand.
 
 ---
+
+### The Restless Grid
+**Vauban Prime. Photon Strike spam that nukes and shield-gates on the same cast.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Ability nuke, shield-gate tank, crowd control |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma |
+| Weapon reliance | Low. Overdriver mines cover the gun |
+
+> Tenno. Built for high-movement missions like Cascade at level cap. Photon
+> Strike once a second nukes and refills the gate at the same time; Bastille
+> every twenty seconds strips and holds; Flechette mines lock down objectives you
+> leave behind.
+
+**The build**
+
+- Rolling Guard, rank 10, Vazarin polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Umbral Intensify, rank 10, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Fleeting Expertise, rank 5, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Molt Augmented, Arcane Concentration
+
+Arsenal figures land at roughly 144% Strength, 95% Duration, 145% Range, 160%
+Efficiency, with 370 health, 370 shield, 210 armor and 641 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** High efficiency plus Fleeting Expertise makes Photon Strike
+cheap enough to spam; each cast dumps the damage that shield-gates you (via
+Catalyzing Shields and the low shield pool) and clears the pack. Corrosive
+Projection shaves 18% armour immediately so you are not waiting on Bastille's
+slow strip. Drop a few Flechette mines on an exolizer and move on.
+
+**Helminth.** None; the base kit spam is the build.
+
+**Archon Shards.** Cast speed and ability efficiency, then a flex.
+
+**Where it struggles.** Cast-heavy and unforgiving if the rhythm breaks. Energy
+economy needs the orb loop running.
+
+**Variants.** Scaling Ordnance (#037) is the Flechette-camp Vauban; The Objective
+Lock (#093) is the infinite-energy Spectrosiphon build.
+
+**Who runs this.** Level-cap Cascade and Netracell players who like fast hands.
+
+---
+
+### The Idle Coil
+**Gyre. A Nourish gate build tuned for the least possible input.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Weapon platform, shield-gate tank |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma |
+| Weapon reliance | Very high |
+
+> Tenno. The comfort version of the Gyre gun stand: Nourish over the second
+> ability, Fast Deflection and Vigilante Vigor padding the gate, and enough
+> passive shield recovery that you barely touch the keyboard.
+
+**The build**
+
+- Cathode Current, rank 3, Zenurik polarity
+- Conductive Sphere, rank 3, unpolarised. Augment. Cathode Grace also restores energy on the electric proc
+- Augur Reach, rank 5, unpolarised
+- Rolling Guard, rank 10, Vazarin polarity
+- Vigilante Vigor, rank 5, unpolarised
+- Fast Deflection, rank 5, unpolarised
+- Archon Stretch, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Aegis, Molt Augmented
+
+Arsenal figures land at roughly 199% Strength, 100% Duration, 175% Range, 45%
+Efficiency, with 370 health, 650 shield, 105 armor and 240 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Fast Deflection plus Vigilante Vigor and Arcane Aegis rebuild
+shields fast enough that the gate is almost always available without spamming
+the first ability. Nourish (subsumed over the second ability) gives viral and
+an energy return. Rolling Guard is the panic button.
+
+**Helminth.** Omamori over the second ability, for the flat damage reduction; or
+Nourish if you prefer the viral.
+
+**Archon Shards.** At least one Tauforged cast speed; two violet primary
+electric and two parkour velocity are optional.
+
+**Where it struggles.** Slower gate recovery than the active-tap version. No
+ability damage.
+
+**Variants.** The Fed Sphere (#150) is the active-tap Nourish Gyre; The Second
+Current (#118) is the Mecha DPS variant.
+
+**Who runs this.** Players who want a Gyre gun platform they can run half-asleep.
+
+---
+
+### The Warded Fang
+**Voruna Prime. An Arcane Persistence melee platform behind 700-plus armour.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Persistence tank, melee platform |
+| Difficulty | Advanced |
+| Investment | Heavy. 5 forma, three Umbral mods, two drain arcanes |
+| Weapon reliance | Very high. Any influence melee works |
+
+> Tenno. Three Umbral mods push Voruna Prime past 700 armour, which caps Arcane
+> Persistence health loss at 500 per second. Her passive status immunity blocks
+> the heat, corrosive and magnetic that would otherwise break Persistence. Swing
+> whatever you want.
+
+**The build**
+
+- Umbral Intensify, rank 10, Umbral polarity
+- Umbral Vitality, rank 10, Umbral polarity
+- Umbral Fiber, rank 10, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Gladiator Resolve, rank 5, Vazarin polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Blind Rage, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Aura: Physique, Vazarin polarity
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Persistence, Arcane Blessing
+
+Arsenal figures land at roughly 276% Strength, 254% Duration, 34% Range, 45%
+Efficiency, with a 1887 health pool, 742 armor, 370 shield and 513 energy.
+Confidence: Approximation, per the author.
+
+**How it works.** Arcane Blessing plus Physique plus Gladiator Resolve build the
+health pool toward 3000, which is roughly six seconds of buffer before you need
+a heal. That means you can run melee-influence light-attack weapons that break
+invisibility without ever shield-gating. A Lycath sentinel drops a health orb
+per kill, so ten influence kills is ten orbs of healing.
+
+**Helminth.** None; the whole kit stays for the status-immunity passive.
+
+**Archon Shards.** Health and armour, then cast speed.
+
+**Where it struggles.** Needs the armour threshold intact. Nullifiers turn it
+off. No squad utility.
+
+**Variants.** The Blinded Hunt (#077) is the status-taxi Voruna; The Steady Fang
+(#159) is a lower-strength persistence test of the same idea.
+
+**Who runs this.** Influence-melee players who never want to think about
+invisibility timing.
+
+---
+
+### The Rally Line
+**Styanax Prime. A shield-gate weapon platform leaning on Rally Point overshields.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Weapon platform, shield-gate tank, buff |
+| Difficulty | Intermediate |
+| Investment | Medium. 4 forma |
+| Weapon reliance | Very high |
+
+> Tenno. Spam the first two abilities everywhere. Brief Respite and Augur mods
+> on a pistol give a small gate on every cast; Rally Point kills push overshields
+> past 1100 for a long passive gate on top.
+
+**The build**
+
+- Stretch, rank 5, Naramon polarity
+- Precision Intensify, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Augur Reach, rank 5, unpolarised
+- Augur Message, rank 5, unpolarised
+- Tharros Lethality, rank 3, unpolarised. Partial armour strip on cast
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Concentration, Molt Augmented
+
+Arsenal figures land at roughly 199% Strength, 179% Duration, 175% Range, 45%
+Efficiency, with 370 health, 1025 shield, 265 armor and 755 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Casting the second ability grants about a 0.6-second active
+gate through Brief Respite and Augur shields. Rally Point restores shields on
+kills, stacking overshields to roughly 2.5 seconds of gate at over 1100. Move
+the innate Vazarin polarity to the exilus to fit Primed Sure Footed or Ice
+Spring. Catalyzing Shields over Rolling Guard is an option at level cap for a
+consistent on-demand 1.33-second gate instead of the higher but kill-dependent
+Rally Point cap.
+
+**Helminth.** None; the base kit gates itself.
+
+**Archon Shards.** Shield capacity and cast speed.
+
+**Where it struggles.** Gate upkeep depends on staying in the fight. No damage
+of its own.
+
+**Variants.** The Braced Javelin (#142) is the Nourish version; The Iron Volley
+(#046) and The Bristling Volley (#076) are the ability-damage builds.
+
+**Who runs this.** Players who want a tanky Styanax trigger for a strong
+secondary.
+
+---
+
+### The Sleeping Tomb
+**Inaros Prime. A Triumbral health stack tuned to out-heal Arcane Persistence exactly.**
+
+| | |
+|--|--|
+| Content | Steel Path endurance, Level cap |
+| Role | AFK immortal tank |
+| Difficulty | Advanced |
+| Investment | Heavy. 5 forma, Triumbral mods, five shards |
+| Weapon reliance | High. A statstick or AoE gun does the killing |
+
+> Tenno. You need 8334 health so that the 6% health regen lands at 500 per
+> second, which exactly cancels Arcane Persistence's loss rate. Past that number
+> Inaros simply does not die.
+
+**The build**
+
+- Nira's Hatred, rank 5, unpolarised
+- Elemental Sandstorm, rank 3, unpolarised. Augment. Sandstorm pulls in enemies and deals melee-statstick damage
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Umbral Fiber, rank 10, unpolarised
+- Umbral Vitality, rank 10, Umbral polarity
+- Umbral Intensify, rank 10, Umbral polarity
+- Carnis Carapace, rank 5, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Physique, aura slot
+- Exilus: Lightning Dash, Madurai polarity
+- Arcanes: Arcane Grace, Arcane Persistence
+
+Arsenal figures land at roughly 177% Strength, 115% Duration, 100% Range, 100%
+Efficiency, with an 8574 health pool, 804 armor, no shields and 541 energy.
+Confidence: Approximation, per the author.
+
+**How it works.** The whole build exists to clear the 8334-health line where 6%
+regen matches Persistence's 500 per second drain. Above 700 armour, Persistence
+caps incoming health loss, so the two rates cancel and you are effectively
+unkillable while AFK. Elemental Sandstorm plus a statstick gives it something to
+kill with.
+
+**Helminth.** Elemental Sandstorm over the first ability for the passive damage.
+
+**Archon Shards.** Health across the board, one or two toward armour to stay
+above the Persistence threshold.
+
+**Where it struggles.** Zero mobility identity, slow kills, useless against
+nullifiers. It is a camping tool.
+
+**Variants.** The Undying (#064) is the active Inaros; The Grinding Storm (#141)
+is the Sandstorm nuke.
+
+**Who runs this.** Players parking on a Steel Path Survival life-support for
+hours.
+
+---
+
+### The Smite Rifle
+**Oberon Prime. A 185%-Strength Smite that one-shots Thrax at range for Cascade.**
+
+| | |
+|--|--|
+| Content | Steel Path, Void Cascade |
+| Role | Single-target ability nuke, revive support |
+| Difficulty | Intermediate |
+| Investment | Low. 3 forma |
+| Weapon reliance | Low. An AoE weapon is optional trash clear |
+
+> Tenno. Roar plus Smite crosses the 185% Strength threshold to one-shot
+> everything, Thrax included, from up to 75 metres. Phoenix Renewal is a squad
+> safety net out to affinity range.
+
+**The build**
+
+- Phoenix Renewal, rank 3, unpolarised. Augment. Lethal damage is negated once per cooldown, squad-wide
+- Augur Reach, rank 5, unpolarised
+- Umbral Intensify, rank 10, unpolarised
+- Stretch, rank 5, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Lightning Dash, Madurai polarity
+- Arcanes: Arcane Universal Fallout, Arcane Agility
+
+Arsenal figures land at roughly 243% Strength, 155% Duration, 175% Range, 45%
+Efficiency, with 465 health, 370 shield, 450 armor and 755 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Smite fires seeking orbs at a target; at this Strength with
+Roar layered on, the first cast deletes anything without needing viral or
+radiation. Spam it across the map. Phoenix Renewal saves downed allies out to
+affinity range, extended with Fosfors. Lightning Dash and the aura are both
+flexible; swap Lightning Dash for Nira's Anguish on a slam weapon.
+
+**Helminth.** Roar over Hallowed Ground.
+
+**Archon Shards.** One cast speed, four parkour velocity (or two parkour, two
+flex).
+
+**Where it struggles.** Single-target by nature, so bring an AoE weapon or
+influence melee for trash. There is a known Renewal-toggle immortality bug; the
+build does not depend on it.
+
+**Variants.** King's Reckoning (#044) is the Reckoning-nuke Oberon.
+
+**Who runs this.** Cascade runners who want to snipe Thrax and keep the squad
+up.
+
+---
+
+### The Capped Stomp
+**Valkyr Prime. Crescendo-stacked Talons that hit the damage cap on unarmoured targets.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Melee finisher nuke, tank |
+| Difficulty | Advanced |
+| Investment | Heavy. 5 forma, five shards, a Talons build |
+| Weapon reliance | High. Exalted Talons carry |
+
+> Tenno. Wrathful Advance for a teleport and crit angle, Paralysis to group,
+> finishers to stack Crescendo. At twelve combo with full priming and shards the
+> Talons reach the damage cap on anything without armour.
+
+**The build**
+
+- Umbral Vitality, rank 10, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Overextended, rank 5, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Prolonged Paralysis, rank 3, Zenurik polarity. Augment. Paralysis pulls enemies in and extends the stun
+- Umbral Intensify, rank 10, Umbral polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Battery, Arcane Persistence
+
+Arsenal figures land at roughly 249% Strength, 128% Duration, 205% Range, 45%
+Efficiency, with a 1725 health pool, 1000 armor, 185 shield and 225 energy.
+Confidence: Approximation, per the author.
+
+**How it works.** Press the third ability to group, interact for a finisher to
+stack Crescendo, press the first ability (subsumed Wrathful Advance) to teleport
+onto a target and stomp. Each Crescendo stack raises Talons damage; combined
+with a twelve-hit combo and priming it caps out. Armour caps it out earlier, so
+bring corrosive.
+
+**Helminth.** Wrathful Advance over the first ability.
+
+**Archon Shards.** Melee crit damage and combo duration, then a cast-speed
+shard.
+
+**Where it struggles.** Low energy pool; leans on Hunter Adrenaline and Arcane
+Battery. Needs a dedicated Talons build. Armoured targets need a strip first.
+
+**Variants.** The Caged Beast (#020) is the Hysteria DPS Valkyr; The Comfortable
+Rage (#104) is the low-range comfort Hysteria.
+
+**Who runs this.** Melee players chasing the Talons damage ceiling.
+
+---
+
+### The Charged Vial
+**Lavos Prime. A Catalyze nuke on a shield-recharge gate instead of an energy pool.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Ability nuke, shield-gate tank |
+| Difficulty | Intermediate |
+| Investment | Medium. 4 forma |
+| Weapon reliance | Medium |
+
+> Tenno. Lavos has no energy, so this build gates on shields instead: Catalyzing
+> Shields plus Fast Deflection and Vigilante Vigor keep the 1.33-second gate up
+> while Valence Formation and Catalyze do the damage.
+
+**The build**
+
+- Overextended, rank 5, unpolarised
+- Vigilante Vigor, rank 5, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Swift Bite, rank 3, unpolarised
+- Valence Formation, rank 3, Zenurik polarity. Augment. Ability casts add a stacking elemental damage buff
+- Fast Deflection, rank 5, unpolarised
+- Archon Continuity, rank 10, Madurai polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Aura: Mecha Empowered, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Impetus, Arcane Aegis
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 205% Range, 45%
+Efficiency, with 800 health, 410 shield, 675 armor and no energy pool.
+Confidence: Approximation, per the author.
+
+**How it works.** Every ability runs on cooldown, not energy, so the gate has to
+come from shields. Catalyzing Shields caps the pool low for a clean 1.33-second
+gate; Fast Deflection, Vigilante Vigor and Arcane Aegis rebuild it between
+casts. Catalyze combines with whatever element you have primed for the nuke, and
+Valence Formation stacks a damage buff as you cast.
+
+**Helminth.** Omamori over the second ability for flat damage reduction.
+
+**Archon Shards.** Shield capacity and cast speed.
+
+**Where it struggles.** No energy economy to fall back on; if the gate breaks
+you rely on Rolling-Guard-style panic tools, which are not slotted here.
+Cooldowns cap your cast rate.
+
+**Variants.** The Element Engine (#049) and The Alchemist's Forge (#112) are the
+Catalyze scaling builds; Mecha Anvil (#070) is the base-Lavos Mecha tank.
+
+**Who runs this.** Lavos players who prefer a shield gate to juggling Vial
+cooldowns for survivability.
+
+---
+
+### The Steady Fang
+**Voruna. A low-strength Arcane Persistence tank as a proof of the armour threshold.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Persistence tank, melee platform |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma |
+| Weapon reliance | Very high |
+
+> Tenno. The minimal version of the Persistence idea: get armour over 700 with
+> Umbral mods, let the passive status immunity protect the arcane, and swing an
+> influence melee without gating. Low strength, low fuss.
+
+**The build**
+
+- Umbral Intensify, rank 10, Umbral polarity
+- Primed Flow, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Umbral Vitality, rank 10, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Prey of Dynar, rank 3, Zenurik polarity. Augment. Dynar leap grants brief invisibility on landing
+- Umbral Fiber, rank 10, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Steel Charge, aura slot
+- Exilus: Cunning Drift, Madurai polarity
+- Arcanes: Arcane Blessing, Arcane Persistence
+
+Arsenal figures land at roughly 117% Strength, 155% Duration, 205% Range, 100%
+Efficiency, with a 1554 health pool, 560 armor, 370 shield and 427 energy.
+Confidence: Approximation, per the author.
+
+**How it works.** With armour above 700, Arcane Persistence caps health loss at
+500 per second, and Voruna's passive blocks the status types that would break
+it. Arcane Blessing grows the health pool as a buffer. Because strength is low,
+this is more a comfort tank than a nuke, and it leans entirely on the weapon.
+
+**Helminth.** None; the passive is the point.
+
+**Archon Shards.** Armour to hold the threshold, then health and cast speed.
+
+**Where it struggles.** Weak abilities. Needs the armour number intact.
+Nullifiers.
+
+**Variants.** The Warded Fang (#153) is the higher-strength Voruna Prime version
+with a bigger buffer; The Blinded Hunt (#077) is the status-taxi build.
+
+**Who runs this.** Players testing the cheapest entry into a Persistence melee
+tank.
+
+---
+
+### The Burning Pins
+**Vauban Prime. Pyrotechnics plus Flechette orbs for on-demand Vortex kills.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Ability nuke, area denial |
+| Difficulty | Advanced |
+| Investment | Medium. 4 forma, a Mecha companion |
+| Weapon reliance | Low |
+
+> Tenno. Vortex ragdolls a pack, Pyrotechnics (Helminth) hits each ragdolling
+> body several times to clear them fast, and Flechette orbs take over once
+> Pyrotechnics falls off past level 500 to 1000.
+
+**The build**
+
+- Umbral Intensify, rank 10, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Archon Vitality, rank 0, unpolarised
+- Stretch, rank 5, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Mecha Empowered, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Hot Shot, Arcane Crepuscular
+
+Arsenal figures land at roughly 154% Strength, 128% Duration, 235% Range, 100%
+Efficiency, with 404 health, 370 shield, 210 armor and 641 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Pyrotechnics deals repeated hits to any enemy being ragdolled,
+so grouping with Vortex lets it clear packs quicker than Flechette can early on.
+Its heat procs feed Arcane Hot Shot, which pushes Flechette crit chance to 200%.
+Run Huras or Shade for the invisibility that turns on Arcane Crepuscular,
+setting Flechette cooldown to a fifth. Naramon Lethal Levitation adds a 3x
+multiplier to both Pyrotechnics and Flechette.
+
+**Helminth.** Pyrotechnics over Tesla Nervos.
+
+**Archon Shards.** Ability strength and duration, then cast speed.
+
+**Where it struggles.** Pyrotechnics scaling ends in the high hundreds; past
+that it is a pure Flechette build. Setup-heavy.
+
+**Variants.** Scaling Ordnance (#037) is the standard Flechette camp; The
+Restless Grid (#151) is the Photon Strike spam.
+
+**Who runs this.** Vauban players who like the Vortex-plus-Pyrotechnics combo
+for mid-level Steel Path.
+
+---
