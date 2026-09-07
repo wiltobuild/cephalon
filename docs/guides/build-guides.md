@@ -5629,3 +5629,677 @@ dependent, weapon-carried, boss-slow.
 kill box.
 
 ---
+
+### Full Mecha Alchemist
+**Lavos Prime. A Gas-and-Heat Catalyze nuke stacked with the Mecha set, on an energy-free tank.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Status-spread nuke, armour strip, health or shield tank |
+| Difficulty | Advanced. Element infusion, cooldown management, and the status-count multiplier |
+| Investment | High. 5 forma, duration and cast-speed shards, a Mecha-set Kubrow |
+| Weapon reliance | Low to medium. Catalyze nukes; a status primer adds elements that multiply it |
+
+> Tenno. Lavos has no energy bar, only cooldowns, and everything he does applies
+> elements. Catalyze is a through-wall nuke that doubles its damage for every
+> distinct status on the target, so a primer that stacks eight elements is a 256x
+> multiplier. Infuse Gas and the procs linger across the map. The Mecha set marks
+> an enemy for a huge damage multiplier and spreads the kill's statuses to the
+> whole room. Prime, infuse, nuke, tap 1 and 3 to reset the cooldown.
+
+**The build**
+
+- Overextended, rank 5, unpolarised
+- Adaptation, rank 10, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Swift Bite, rank 3, unpolarised — augment. Transmutation Probe reduces ability cooldowns
+- Valence Formation, rank 3, Zenurik polarity — augment. +200% element bonus that also reaches ability statuses
+- Mecha Pulse, rank 3, unpolarised
+- Archon Continuity, rank 10, Madurai polarity
+- Archon Vitality, rank 10, Vazarin polarity — doubles Catalyze heat procs
+- Aura: Mecha Empowered, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Impetus, Arcane Blessing
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 205% Range, 45%
+Efficiency, with a 1600 health pool, 410 shield, 675 armor and no energy bar.
+
+**How it works.** Catalyze scales as 2^(number of distinct statuses), so the whole
+plan is stacking elements: Archon Continuity turns Ophidian Bite's toxin into
+corrosive, a Cedo or Grimoire primer adds the rest, and Valence Formation
+multiplies the resulting status. Gas infusion makes the procs linger and spread.
+The Mecha set's Empowered mark double-dips status for a 6.25x DoT multiplier and
+its bonus spreads statuses to a 30m radius on a marked kill. Efficiency does not
+touch Lavos's cooldowns directly, but it changes how much Swift Bite and
+Transmutation Probe cut them. *Confidence: Approximation, per the author's
+calculations.*
+
+**Playstyle.**
+
+1. Group enemies (Magus Anomaly, Ensnare, Nautilus Cordon, melee vortex).
+2. Infuse Corrosive (hold 1 and 3) and cast Vial Rush (tap 2) through the group to stack corrosive pools.
+3. Shoot a primer for viral and heat, then infuse Gas (hold 1 and 4) and cast Catalyze (4).
+4. Tap 3, then tap 1 into the group, to slash the cooldowns of 4 and 3.
+
+**Duration, Efficiency, Range, Strength.** Duration extends every status's DoT
+(about 9s at 155%, 15s with shards and Ris Invocation). Efficiency at 45% because
+Arcane Impetus gives back 30% and it only affects cooldown reduction. Range for
+all abilities including Catalyze's reach and any grouping subsume. Strength for
+Catalyze's base damage (Precision Intensify if you want it).
+
+**The mods.** *Blind Rage* is the Strength. *Overextended* is the Range. *Archon
+Continuity* is Duration plus the corrosive conversion. *Archon Vitality* doubles
+Catalyze heat procs. *Valence Formation* is the status multiplier. *Swift Bite* is
+the cooldown engine. *Adaptation* is the tank layer. *Mecha Pulse* aura and
+*Mecha Empowered* aura are the Mecha set.
+
+**Survivability.** Lavos cannot shield-gate the normal way (no energy). Health
+tank on his high base armour plus Mecha Pulse (up to ~5850 armour) plus Adaptation
+plus Arcane Blessing health, healed by Ophidian Bite, for ~600k effective HP to
+around level 500. Arcane Persistence (700+ armour) with consistent lifesteal for
+higher. Or a Fast Deflection plus Vigilante Vigor passive-gate build, made
+immortal by the Fass Canticle bug on a Grimoire. *Confidence: Approximation, and
+the Fass Canticle interaction is flagged as a bug.*
+
+**Helminth.** Pick one. Subsume over Vial Rush.
+
+- **Sickening Pulse** for the highest ceiling: it multiplies electric and Gas status 10x and doubles heat and toxin, best on tight-corridor maps with grouping.
+- **Roar** for a passive multiplier that double-dips all DoTs.
+- **Ensnare** or another grouping ability for Gas overlap.
+- **Expedite Suffering** for Disruption with a slash weapon.
+- **Pillage** for shield gating plus a strip.
+- **Omamori** or **Evade** for lazy survival.
+
+**Archon Shards.** One optional Azure armour shard for Arcane Persistence. One to
+two Amber cast-speed. Two to three Crimson Duration for Gas proc length. Note
+Archon Stretch and Archon Flow do nothing (no energy). Five total.
+
+**Arcanes.** Arcane Impetus for 60% Strength and 30% Efficiency from Lavos's ten
+possible elements, Arcane Blessing for the tank health. Molt Augmented or Arcane
+Ice Storm as swaps.
+
+**Focus.** Any. Madurai for cast speed on the slow infusion casts.
+
+**Weapon synergy.** An area primer that procs many distinct statuses: Cedo
+alt-fire, Kuva Ogris, Bubonico (viral plus corrosive), Grimoire. A heat-inherit
+secondary primer (Kompressa, Catabolyst, Dex Furis) multiplies Catalyze's heat
+procs ~5x. Telos Boltace for slide grouping, Dual Ichor for light-attack clear.
+
+**Staying alive.** The tank stack plus Ophidian Bite healing, or Arcane
+Persistence with lifesteal. It fails to Violence, nullifiers, magnetic, and heat
+or corrosive dropping armour below 700 (Hearty Nourishment gives status immunity).
+
+**Energy.** There is none. Cooldowns are the resource, shortened by Swift Bite and
+Transmutation Probe.
+
+**Where it struggles.** The element-and-cooldown system is the most complex of any
+frame here. Overguard (often larger than health) resists Regurgitate-style
+percent-HP effects. Orokin heat resistance. Bosses.
+
+**Variants.** Hybrid weapon and Catalyze builds. Full weapon-platform endurance
+builds (persistence, shield-recharge, invisible Evade).
+
+**Strengths and weaknesses.** Strong: enormous status-nuke ceiling, no energy to
+manage, very tanky, spreads its own kills. Weak: extreme complexity, element-
+infusion busywork, overguard-awkward, forma-hungry, needs a Kubrow.
+
+**Who runs this.** Players who want the deepest ability-scaling puzzle in the game
+and do not mind a busy rotation.
+
+---
+
+### Threads of Fate
+**Koumei. Omikuji decree stacking and Omamori dice-roll immortality, on a lazy shield-gate chassis.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Self-buffing melee or gun platform, gambler's immortality, status priming |
+| Difficulty | Beginner to intermediate |
+| Investment | Low. 3 forma |
+| Weapon reliance | Total. Koumei buffs and primes; the weapon and the decrees do the damage |
+
+> Tenno. Koumei rolls dice. Omikuji hands you a decree each time you complete a
+> small challenge, and the pool leans melee, so over a run your weapon quietly
+> becomes a monster. Omamori is a 50% chance to negate any hit, and a triple six
+> makes it 100% until the charms run out: literal luck-based immortality. Kumihimo
+> and Bunraku spray status for your Condition Overload. Keep 3 up, roll decrees,
+> spam 1.
+
+**The build**
+
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Rolling Guard, rank 10, unpolarised
+- Vigilante Vigor, rank 5, unpolarised
+- Fast Deflection, rank 5, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Omikuji's Fortune, rank 3, unpolarised — augment. Kills with the rotating passive weapon cut Omikuji's cooldown
+- Equilibrium, rank 10, Naramon polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Aura: Aerodynamic, aura slot
+- Exilus: Mobilize, unpolarised
+- Arcanes: Arcane Impetus, Arcane Aegis (rank 0)
+
+Arsenal figures land at roughly 40% Strength, 155% Duration, 190% Range, 100%
+Efficiency, with 444 health, 222 shield, 444 armor and a 222 energy pool.
+
+**How it works.** Most of Koumei's abilities barely use stats, so the build spends
+its slots on lazy survival instead. Fast Deflection plus Vigilante Vigor drop the
+recharge delay to 1s and Catalyzing Shields gives a full 1.33s gate on any shield
+gained, so you passively re-gate as long as you are not hit in the window. Omamori
+(3) makes that window rarely matter. Omikuji's Fortune keeps the decree cooldown
+short. Arcane Impetus gives back 78% Strength and 39% Efficiency from all the
+status. *Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Keep 3 (Omamori) up at all times for the 50% negate.
+2. Press 2 and complete a challenge to unlock a decree; carry utility weapons for the harder challenges.
+3. Spam tap 1 to shield gate and prime status.
+4. Press 4 on cooldown into a crowd to lock it down and stack statuses.
+
+**Duration, Efficiency, Range, Strength.** Duration only affects 1 and 4 (both long
+base). Some Efficiency to cast 1 and 4 on demand before you roll energy decrees.
+200% Range caps the thread count on 1. Strength is dumped; you get it back from
+Arcane Impetus, Fortifier's Will and armour decrees.
+
+**The mods.** *Fast Deflection, Vigilante Vigor, Catalyzing Shields, Rolling Guard*
+are the whole passive-survival package. *Overextended* is the Range. *Equilibrium*
+is energy. *Archon Continuity* adds corrosive procs for Condition Overload.
+*Omikuji's Fortune* is the decree engine. *Aerodynamic* aura helps aim-glide and
+wall-latch decree challenges.
+
+**Flexible slots.** Swap the survival mods for Mecha Pulse, Health Conversion,
+Adaptation, Archon Vitality and Primed Flow for a health-tank Koumei. The aura and
+exilus are open.
+
+**Helminth.** Pick one. Most want a bit of Strength back (drop a survival mod for
+Umbral Intensify or Molt Augmented).
+
+- **Pillage** over 1 for a strip and reliable shield gating even if you roll the free-cast decree.
+- **Wrathful Advance** for flat melee crit chance.
+- **Nourish** for viral and energy.
+- **Sickening Pulse** over 1 to multiply the status from 4.
+- A **grouping** ability over 4.
+
+**Archon Shards.** One to two Amber cast-speed for Bunraku. The rest Azure
+energy-max, parkour, or violet melee crit-damage (needs Primed Flow). Five total.
+
+**Arcanes.** Arcane Impetus for the Strength and Efficiency return, Arcane Aegis
+(any rank) for a gambler's immortality layer. Molt Augmented or a weapon arcane as
+swaps.
+
+**Focus.** Any. Naramon for combo on a melee build.
+
+**Weapon synergy.** Weapons that complete decree challenges fast: a hitscan gun for
+headshot and 20m challenges (Cedo Prime, Dual Toxocyst), a light-attack melee for
+slide, airborne and 10m challenges (Innodem, Nami Solo), Cedo alt-fire for
+status. Condition Overload light-attack and hybrid melees benefit most from the
+status; Rakta Dark Dagger is a strong mid-game pick that also helps shield gating.
+
+**Staying alive.** Passive shield gating plus Omamori's negate plus Rolling Guard
+plus optional Arcane Aegis. It fails to toxin and to a bad-luck string where
+Omamori does not negate during the recharge window.
+
+**Energy.** Equilibrium before you roll energy decrees; trivial afterward.
+
+**Where it struggles.** It is slow to come online; a short mission gets little
+from Omikuji. Decrees are random, so the build's power varies run to run. Bosses
+take the weapon.
+
+**Variants.** A Cold-Ward health-tank build.
+
+**Strengths and weaknesses.** Strong: a weapon that scales over a run, a huge
+lazy-survival slot budget, gambler's immortality, strong priming, cheap forma.
+Weak: slow ramp, RNG-dependent, weapon-carried, boss-slow.
+
+**Who runs this.** Players who want an endurance frame that gets stronger the
+longer they stay and enjoy the dice-roll survival.
+
+---
+
+### The Sanguine Heart
+**Garuda Prime. Aerial Dread Heart nuking and Seeking Talons slash spread, with self-sustaining energy.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Aerial nuke, scaling slash spread, mobile survivor, open-world clear |
+| Difficulty | Intermediate. The aerial ability chains take practice |
+| Investment | Medium. 3 forma, cast-speed shards |
+| Weapon reliance | Low to medium. Dread Heart nukes; a slash weapon feeds Seeking Talons |
+
+> Tenno. Garuda fights from the air. Dread Mirror blocks everything in front and
+> banks the damage it eats. Blood Altar heals and lets you pounce across the map.
+> Bloodletting trades half your health for a wall of energy. Seeking Talons marks
+> a cone so any damage on those enemies becomes a stacking slash proc. Ascend with
+> 3, hover, and drop a charged Dread Heart on the room.
+
+**The build**
+
+- Primed Flow, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Stretch, rank 5, Naramon polarity
+- Overextended, rank 5, Vazarin polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Umbral Intensify, rank 10, unpolarised
+- Blending Talons, rank 3, unpolarised — augment. Tap 4 for a radial Seeking Talons and quick gate
+- Augur Reach, rank 5, unpolarised
+- Aura: Brief Respite, aura slot
+- Exilus: Kavat's Grace, unpolarised
+- Arcanes: Molt Reconstruct, Arcane Arachne
+
+Arsenal figures land at roughly 139% Strength, 128% Duration, 265% Range, 100%
+Efficiency, with 370 health, 370 shield, 420 armor and a 912 energy pool.
+
+**How it works.** Bloodletting returns more energy at higher Efficiency (about 364
+per 50% health at 100%, versus 228 at 45%), so neutral Efficiency means fewer,
+safer casts. Seeking Talons only needs 134% Strength for a 100% slash-proc chance;
+above that Strength does little. Dread Mirror and Seeking Talons both have innate
+i-frames now, so Bloodletting's status cleanse replaces Rolling Guard. Garuda's
++100% passive applies twice to Glaives and Exodia Contagion. *Confidence:
+Approximation, per the author.*
+
+**Playstyle.**
+
+1. Cast Bloodletting (tap 3) twice at mission start; recast below ~300 energy.
+2. Cast up to three Blood Altars for coverage or concentrated healing.
+3. Keep Dread Mirror (tap 1) up, facing enemies; pounce onto heavies to bank Dread Heart.
+4. Charge and release Dread Heart (hold 1) to nuke, keeping ~100 energy for 4.
+5. Tap 4 (Blending Talons) for a radial slash and full shield gate.
+
+**Aerial chains.** Heart to Heart: with Dread Mirror up and airborne, tap 4, aim-
+glide, hold 1 to hover, release Dread Heart, aim-glide, tap 1 on an enemy to
+refresh the mirror. The Ascension: aim down sights and tap 3 to rise without
+bullet-jumping. Clean Energy: cast 4 then tap 3 to fit a Bloodletting inside the
+last i-frames for a safe status cleanse.
+
+**Duration, Efficiency, Range, Strength.** Positive Duration for Dread Mirror,
+Blood Altar and the Seeking Talons mark. Neutral Efficiency for the Bloodletting
+return. High Range for pounce distance, Dread Heart explosion and Blood Altar heal
+radius. Strength only to the 134% slash threshold.
+
+**The mods.** *Transient Fortitude, Umbral Intensify* clear the 134% threshold
+against Overextended. *Primed Continuity* holds Duration. *Overextended, Stretch,
+Augur Reach* set the maxed Range, with Augur Reach feeding the gate. *Primed Flow*
+is the pool for chaining combos. *Blending Talons* is the radial quick-cast.
+*Brief Respite* aura feeds the gate.
+
+**Flexible slots.** The augments are all optional over an Augur Message slot: Blood
+Forge to reload slow weapons, Dread Ward for an invulnerability window. Natural
+Talent without cast-speed shards. Vigorous Swap for a controllable Dread Mirror
+multiplier.
+
+**Helminth.** Pick one. Subsume over Blood Altar (her 2), the weakest ability.
+
+- **Breach Surge** for a blind plus a self-propagating slash loop with Seeking Talons (Garuda's passive double-dips the sparks).
+- **Expedite Suffering** for an infinitely scaling slash feedback loop with Seeking Talons.
+- **Gloom** for infinite-range healing and a 95% slow (see The Slow Bleed).
+- **Nourish** for viral on Dread Mirror and Seeking Talons plus double energy.
+- **Molt** with Regenerative Molt for speedrunning.
+
+**Archon Shards.** Two or more Amber cast-speed to drop Natural Talent. The rest
+Duration, Strength or energy-max. Five total.
+
+**Arcanes.** Molt Reconstruct for healing on energy spend (useful with a non-
+healing subsume), Arcane Arachne for a 2.5x Dread Heart multiplier. Arcane
+Eruption for passive crowd control, which Garuda's kit lacks.
+
+**Focus.** Naramon for Lethal Levitation stacking with Arachne. Madurai for cast
+speed.
+
+**Weapon synergy.** High-base-damage area weapons for Seeking Talons: Proboscis
+Cernos, Zymos, Acid Shells Sobek (infinitely scaling once turned to slash).
+Glaives and Exodia Contagion get Garuda's doubled passive. Bleed procs scale only
+on +damage, +faction and crit.
+
+**Staying alive.** Shield gating off Seeking Talons plus Dread Mirror frontal
+attenuation plus the innate ability i-frames plus Bloodletting cleanse. It fails
+to attacks from behind and to toxin.
+
+**Energy.** The Bloodletting-plus-Blood-Altar loop, held by Primed Flow.
+
+**Where it struggles.** Attacks from behind bypass Dread Mirror. No native crowd
+control (subsume for it). Bosses.
+
+**Variants.** A max-range Breach Surge build. A Gloom high-Strength build. A
+run-and-gun weapon platform.
+
+**Strengths and weaknesses.** Strong: strong aerial nuke, an infinitely scaling
+slash loop, excellent mobility and open-world play, self-sustaining energy. Weak:
+frontal-only defense, no native crowd control, boss-blind.
+
+**Who runs this.** Players who want to fight from the sky, nuking rooms and
+raining slash on everything they mark.
+
+---
+
+### Silent Assassin
+**Banshee Prime. Sonar damage multipliers and a Gloom-stretched Silence stun, for boss and lich kills.**
+
+| | |
+|--|--|
+| Content | Steel Path, Boss and Lich and Sister killer |
+| Role | Weakspot damage multiplier, hard crowd control, single-target deleter |
+| Difficulty | Advanced. You must actually hit the Sonar spots |
+| Investment | Medium. 4 forma, strength and cast-speed shards |
+| Weapon reliance | Total. Banshee multiplies a weapon's weakspot hits; the weapon does everything |
+
+> Tenno. Sonar paints glowing weakspots that multiply your damage, and two
+> overlapping Sonars multiply together, 100x at 200% Strength. Gloom slows the room
+> to a crawl, which stretches Silence's 2-second stun to as long as 40. Land your
+> shots on the spots and a lich folds. Stack Sonar for anything with damage
+> resistance.
+
+**The build**
+
+- Resonance, rank 3, unpolarised — augment. Sonar self-propagates on weakspot kills
+- Stretch, rank 5, unpolarised
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Precision Intensify, rank 5, Madurai polarity
+- Sonic Fracture, rank 3, unpolarised — augment. Sonic Boom strips armour
+- Primed Flow, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Molt Vigor, Molt Augmented
+
+Arsenal figures land at roughly 100% Strength, 155% Duration, 145% Range, 100%
+Efficiency, with 370 health, 370 shield, 135 armor and a 755 energy pool.
+
+**How it works.** Subsume Gloom over 4. Silence's 2s stun stretches to about 8s in
+Gloom and up to 40s at the 95% slow cap (272% Strength). Sonar's multiplier scales
+with Strength, and Precision Intensify plus Molt Vigor plus Molt Augmented plus
+Resonance (which snapshots the initial cast's Strength) locks it high. Sonic
+Fracture full-strips at 143% Strength for priority targets. *Confidence:
+Approximation, per the author.*
+
+**Playstyle.**
+
+1. Activate Gloom and Silence (get a headshot first to snapshot Pax Bolt or Growing Power Strength, then cast Gloom).
+2. Keep Silence up for the stun and ability lockout.
+3. On shield break, roll and cast Sonar to fully regenerate shields and reset the gate.
+4. Stack multiple Sonars on a lich, sister or Acolyte.
+
+**Duration, Efficiency, Range, Strength.** Positive Duration for Sonar and Silence
+length and to cut Gloom drain. Neutral Efficiency for shield gating off Sonic Boom
+(0.7s) and Sonar (1.33s). Range should stay modest: too much Range makes Silence's
+stun expire before enemies re-enter, and Silence out-ranging Gloom weakens the
+stun stretch. Strength wants the 272% Gloom cap.
+
+**The mods.** *Precision Intensify* is the Strength, with Molt Vigor and Molt
+Augmented behind it. *Stretch* is Gloom range. *Primed Continuity* holds Duration.
+*Primed Flow, Equilibrium* are the energy base. *Catalyzing Shields* improves the
+per-cast gate. *Resonance* and *Sonic Fracture* are the augments. *Brief Respite*
+aura feeds the gate.
+
+**Flexible slots.** Catalyzing Shields and Rolling Guard swap for each other.
+Resonance and Sonic Fracture swap for Streamline or Strength. The exilus is
+Preparation for speedrun lich missions.
+
+**Helminth.** Gloom over 4 is the build. Alternatives are limited; the kit wants
+Gloom's slow to stretch Silence.
+
+**Archon Shards.** Two Amber cast-speed for Sonar spam and Silence recasts. Three
+Crimson strength (up to 45% Tauforged) to drop Molt Vigor or Molt Augmented for
+Arcane Aegis or Energize. Five total.
+
+**Arcanes.** Molt Vigor and Molt Augmented for the Strength to hit the Gloom cap
+and boost Sonar. Headshot arcanes (Consequence, Pistoleer, Precision, Rage) also
+fit since Gloom makes headshots trivial.
+
+**Focus.** Any. Madurai for cast speed and Strength.
+
+**Weapon synergy.** Any weapon that can reliably hit the Sonar spots: high-
+precision hitscan or a weapon with a bullet-attractor (Scourge). Kitgun
+secondaries with Pax Bolt for a snapshot Strength boost.
+
+**Staying alive.** Shield gating off Sonar and Sonic Boom plus Gloom's slow plus
+Silence's stun plus Primed Sure Footed. It fails if you cannot land shots to feed
+Resonance and the Sonar lapses, and to toxin.
+
+**Energy.** Equilibrium plus a Dethcube with Energy Generator. Gloom drain is the
+main cost.
+
+**Where it struggles.** It is a marksman frame: if you cannot consistently hit
+weakspots, the whole build does nothing. Crowd clear is weak. It shines on single
+tough targets, not rooms.
+
+**Variants.** None material; the source is a focused single build.
+
+**Strengths and weaknesses.** Strong: the largest weakspot multiplier in the game,
+40-second crowd control, a real lich and boss deleter. Weak: demands precise aim,
+poor at trash clear, entirely weapon-carried.
+
+**Who runs this.** Confident marksmen who want to fold liches, sisters and Acolytes
+with a weapon that would otherwise bounce off them.
+
+---
+
+### The Eternal Hunger
+**Grendel Prime. A Regurgitate percent-health nuke fed by Nourish, on a persistence tank.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Percent-health scaling nuke, armour strip, near-immortal bruiser |
+| Difficulty | Intermediate |
+| Investment | Very high. 6 forma, Umbral forma, strength shards |
+| Weapon reliance | Low. Regurgitate scales on enemy health; Nourish arms your weapon anyway |
+
+> Tenno. Grendel eats the room and spits it back. Feast swallows five enemies to
+> power the kit. Nourish paints everything viral, stuns on hit, and floods your
+> energy. Regurgitate launches a swallowed enemy for a chunk of its current
+> health as gas, and with Gastro it bounces four times. Because it scales on
+> health, not level, it kills anything if you feed it a similar target. Arcane
+> Persistence caps the damage you take.
+
+**The build**
+
+- Umbral Intensify, rank 10, Umbral polarity
+- Umbral Vitality, rank 10, unpolarised
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Blind Rage, rank 10, Madurai polarity
+- Umbral Fiber, rank 10, unpolarised
+- Hearty Nourishment, rank 3, Zenurik polarity — augment. Nourish grants status immunity
+- Gastro, rank 3, Zenurik polarity — augment. Regurgitate bounces up to 4 times
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Growing Power, aura slot
+- Exilus: Catapult, Zenurik polarity — augment. Move fast in Pulverize
+- Arcanes: Arcane Persistence, Arcane Bellicose
+
+Arsenal figures land at roughly 276% Strength, 100% Duration, 100% Range, 45%
+Efficiency, with a 3626 health pool, 1120 armor, 95 shield and a 712 energy pool.
+
+**How it works.** Regurgitate deals 2000 x Strength plus 10% of the launched
+enemy's current health as gas, then two forced gas procs, and Gastro adds bounces
+at 25% and 6.25%. Feed it a level-9999 heavy gunner and it deals over a million
+raw plus millions per second in gas, multiplied 4.25x by Nourish's ten-stack viral
+retaliation. It full-strips at 134% Strength. Arcane Persistence caps damage at
+500/s above 700 armour, which Grendel's base plus his swallow passive clears
+easily. *Confidence: Approximation, per the author's calculations.*
+
+**Playstyle.**
+
+1. Tap 1 (Feast) to ingest five enemies; keep it topped up.
+2. Tap 2 (Nourish) and keep it up for energy, viral, the AoE stun on hit, and as an emergency heal.
+3. Tap 4 (Regurgitate) to slow, strip, and nuke, producing Breach Surge sparks if subsumed.
+4. Optional: hold 1 to expel all five at once for a bigger hit.
+
+**Survivability.** Arcane Persistence (700+ armour, hit with Stand United or one
+armour shard or Unairu) caps damage at 500/s, and Nourish (~2000 on cast) plus
+Pulverize (~400-500/s) heals it back over the ~7s buffer the 3626 health gives.
+Or Catalyzing Shields shield gating (max shields 19, one Nourish cast re-gates).
+*Confidence: Approximation, per the author.*
+
+**Duration, Efficiency, Range, Strength.** Positive Duration for Nourish uptime.
+Negative Efficiency because Nourish multiplies all energy. Range for Nourish
+retaliation and Regurgitate AoE. Strength barely touches Regurgitate damage
+(health-scaled) but wants 134% for the strip and 250% to 500% for Pulverize's
+heal-per-second to match Persistence's drain.
+
+**The mods.** The *Umbral set* (Intensify, Vitality, Fiber) plus *Blind Rage* is
+the Strength-and-tank core. *Hunter Adrenaline* is the energy engine. *Primed
+Flow* is the pool. *Hearty Nourishment* is status immunity. *Gastro* is the 4x
+Regurgitate DPS. *Growing Power* aura for Strength. *Catapult* exilus for
+Pulverize speed.
+
+**Flexible slots.** Hearty Nourishment to more Range if you do not need status
+immunity. Adaptation plus Gourmand plus Vitality for a casual ~300k-EHP tank.
+Mecha Empowered aura plus Mecha Pulse for a Kubrow nuke.
+
+**Helminth.** Pick one. Subsume over Pulverize (heal with Nourish or a weapon
+instead).
+
+- **Breach Surge** for line-of-sight blinds and sparks that scale off Regurgitate's damage.
+- **Roar** to double-dip Regurgitate's forced toxin DoT.
+- **Resonator** for wide crowd control.
+- A **grouping** ability (Pull, Airburst, Ensnare, Larva) to line up Regurgitate.
+
+**Archon Shards.** One optional Amber cast-speed. One optional Tauforged armour
+for the 1400-armour Persistence safety margin. Four Crimson strength toward the
+Pulverize immortality threshold. Five total.
+
+**Arcanes.** Arcane Bellicose for 72% Strength, Arcane Persistence for the damage
+cap. Arcane Arachne for a 2.5x Breach Surge multiplier if you go ability-DPS,
+Arcane Energize for more energy.
+
+**Focus.** Any. Unairu for the passive 200 armour toward Persistence. Madurai for
+Strength.
+
+**Weapon synergy.** Nourish supplies viral, so drop viral mods for damage, crit
+and fire rate: pure-toxin Torid Incarnon, electric Bubonico, Acid Shells Sobek,
+Dual Toxocyst, Ocucor. Pulverize movement speed scales with Amalgam Serration,
+Ceramic Dagger Incarnon, Okina Prime, Ruvox.
+
+**Staying alive.** Arcane Persistence plus Nourish and Pulverize healing, or shield
+gating. It fails to Violence, nullifiers, magnetic, and heat or corrosive dropping
+armour below 700 (Hearty Nourishment covers status).
+
+**Energy.** Nourish's multiplier plus Hunter Adrenaline plus Primed Flow. A flood.
+
+**Where it struggles.** Overguard (usually larger than health) resists the
+percent-health nuke. You must feed Regurgitate enemies of comparable health to the
+target. 6 forma plus Umbral forma is a huge cost. Bosses.
+
+**Variants.** A casual 300k-EHP tank build (0 forma). A Mecha-set nuke build.
+
+**Strengths and weaknesses.** Strong: a nuke that scales with enemy health so it
+never falls off, a full strip, near-immortal, floods its own energy. Weak:
+overguard-awkward, needs to eat comparable enemies, extremely forma-hungry, boss-
+blind.
+
+**Who runs this.** Players who want a bruiser whose spit-nuke kills anything at any
+level, and who have the forma to spare.
+
+---
+
+### Immortal Slumbering Dragon
+**Chroma Prime. Vex Armor damage and a persistence tank, held forever by Guardian Armor.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Weapon platform |
+| Role | Weapon damage buff, set-and-forget tank |
+| Difficulty | Beginner to intermediate |
+| Investment | High. 6 forma, Umbral forma |
+| Weapon reliance | Total. Chroma buffs a weapon and tanks; the weapon does everything |
+
+> Tenno. Vex Armor stacks a large additive weapon damage buff and an armour buff
+> as you take hits and land kills, and Guardian Armor holds it up forever without
+> a recast. Heat Elemental Ward pads your health past the 700-armour line for
+> Arcane Persistence, which caps incoming damage. Turn on 2 and 3, feed the
+> stacks, and carry a gun.
+
+**The build**
+
+- Umbral Intensify, rank 10, Umbral polarity
+- Umbral Vitality, rank 10, unpolarised
+- Guardian Armor, rank 3, Zenurik polarity — augment. Kills heal you and hold Vex Armor indefinitely
+- Primed Flow, rank 10, Naramon polarity
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Blind Rage, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Persistence, Arcane Blessing
+
+Arsenal figures land at roughly 254% Strength, 254% Duration, 34% Range, 45%
+Efficiency, with an 851 health pool, 370 shield, 450 armor and an 855 energy pool.
+
+**How it works.** Vex Armor's damage buff is additive to Serration and Hornet
+Strike, so you can drop base-damage mods on your weapon, and it double-dips on
+Glaives and Exodia Contagion. Guardian Armor prolongs Vex Armor forever, so you
+only ever recast Elemental Ward. Heat Ward adds 370 x 55% x Strength health; at
+221% Strength that plus Umbral Vitality plus Arcane Blessing reaches ~2500 health
+for Arcane Persistence, which is armed by Vex Armor's armour. *Confidence:
+Approximation, per the author.*
+
+**Playstyle.**
+
+1. Activate Heat Elemental Ward (2); set your emissive colour to red first. Recast when it ends.
+2. Activate Vex Armor (3) and get melee and ranged kills to build the armour and damage stacks.
+3. Activate Gloom (if subsumed) so weapon damage heals you.
+4. Optional: Effigy (4) for a speed and credit boost.
+
+**Duration, Efficiency, Range, Strength.** High Duration for Elemental Ward and the
+initial Vex Armor. Efficiency does not matter; Hunter Adrenaline keeps you full
+and you never recast Vex Armor. Range is dumped to 34% (nothing needs it, Gloom
+heal ignores it). Strength is the priority for Vex Armor and the ~221% Heat Ward
+health target.
+
+**The mods.** *Umbral set* plus *Blind Rage* is the Strength core. *Narrow Minded,
+Primed Continuity* are the Duration, and the Range cost is free. *Hunter
+Adrenaline* is energy. *Primed Flow* is the pool for melee crit-damage shard
+value. *Guardian Armor* is the Vex Armor hold plus healing.
+
+**Flexible slots.** Umbral Fiber or two armour shards for a Persistence safety net
+even with Vex Armor down. The aura and exilus are open (Primed Sure Footed if you
+skip Spellbind).
+
+**Helminth.** Pick one. Subsume over Spectral Scream (1). Set emissive to red for
+Heat.
+
+- **Gloom** is the default: it lets any weapon heal you consistently.
+- **Spellbind** for status immunity (blocks the magnetic, heat and corrosive that break Persistence) and self-knockdown immunity for Glaives.
+- **Wrathful Advance** for more melee damage.
+- **Nourish** for viral and energy.
+
+**Archon Shards.** One optional Amber cast-speed. Two parkour. Two to three Violet
+melee crit-damage. Five total.
+
+**Arcanes.** Arcane Persistence for the damage cap (mandatory), Arcane Blessing for
+the health that buys a second of buffer. Molt Augmented as a Strength swap.
+
+**Focus.** Any. Madurai for Strength. Vazarin Sling as a backup.
+
+**Weapon synergy.** Vex Armor's additive buff means you drop Serration and Hornet
+Strike. It double-dips Glaives (Glaive Prime, Xoris, Cerata) and Exodia Contagion.
+Without Gloom, pair a lifesteal weapon: Sancti Magistar, Coda Hirudo, Coda Hema,
+Life Strike Glaives, Daikyu plus Syam. Carnis-set melees give heavy-kill status
+immunity.
+
+**Staying alive.** Arcane Persistence plus Gloom (or weapon lifesteal) healing,
+padded by the health pool. It fails to Violence, nullifiers, and magnetic, heat or
+corrosive dropping armour below 700 (Spellbind covers status).
+
+**Energy.** Hunter Adrenaline keeps you topped; you rarely spend.
+
+**Where it struggles.** The frame does no damage; it is a buff and a tank. Needs a
+healing source (Gloom or lifesteal weapon). 6 forma plus Umbral forma. Bosses take
+the weapon.
+
+**Variants.** The source is a single focused build.
+
+**Strengths and weaknesses.** Strong: one of the largest weapon damage buffs,
+set-and-forget once the stacks build, near-immortal, double-dips Glaives and
+Contagion. Weak: entirely weapon-carried, needs a heal source, forma-hungry,
+boss-blind.
+
+**Who runs this.** Players who want a tank that quietly doubles their favourite
+weapon's damage and never has to think about survival.
+
+---
