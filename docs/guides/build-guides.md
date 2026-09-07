@@ -6303,3 +6303,856 @@ boss-blind.
 weapon's damage and never has to think about survival.
 
 ---
+
+### Disco Ball of Death
+**Mirage Prime. A Prism laser ball that ramps up until it wipes rooms, or a single target, in a second.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Ramping laser nuke, single-target deleter with an attractor |
+| Difficulty | Intermediate. The attractor-bubble trick and the long cast |
+| Investment | Medium. 4 forma, cast-speed shards mandatory |
+| Weapon reliance | Low for clear. A primer or Scourge multiplies it hugely |
+
+> Tenno. Prism throws twenty lasers that track enemies, and every tick they get
+> 25% stronger, 50% under Solar Eclipse, so a Prism that lives ten seconds ends up
+> doing tens of millions per laser. Force the ball through an enemy with an
+> attractor bubble and all twenty lasers hit them at once: a million a second on
+> one target, dead regardless of level. Prism Guard lets you steer the ball.
+
+**The build**
+
+- Prism Guard, rank 3, unpolarised — augment. Steer the Prism ball and enable the attractor interaction
+- Rolling Guard, rank 10, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Overextended, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Concentration, Molt Augmented
+
+Arsenal figures land at roughly 139% Strength, 254% Duration, 124% Range, 45%
+Efficiency, with 300 health, 410 shield, 185 armor and a 641 energy pool.
+
+**How it works.** Each Prism cast fires 20 lasers dealing 250 radiation twice a
+second, and every tick raises all lasers' damage by 25% (50% with Solar Eclipse).
+The author's figure: at ~200% Strength on a dense map, each laser reaches ~180,000
+per tick after 6 seconds, roughly 63 million total across all lasers over a
+10-second Prism. A single laser normally hits one enemy, but an attractor bubble
+(Scourge alt-fire, Xata's Whisper void status, Amp) pulls the ball through a
+target so all 20 land at once, over a million per second, killing anything to
+level cap with no strip. *Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Cast Hall of Mirrors (tap 1) and Solar Eclipse (invert controls, tap 3); keep both up.
+2. Keep Nourish or Pillage active if subsumed.
+3. Fire a Scourge alt-fire attractor bubble.
+4. Cast 4 and run into enemies so the ball is caught by the bubbles.
+
+**Duration, Efficiency, Range, Strength.** High Duration is the priority: it
+extends the very short Prism and cuts its channel drain, and the longer it lives
+the more it ramps. Efficiency at 45% with Primed Flow, Equilibrium and Seismic
+Bond. A little Range for laser and blind radius. Strength boosts Prism damage.
+
+**The mods.** *Narrow Minded, Primed Continuity* are the Duration. *Blind Rage* is
+the Strength. *Overextended* is the Range. *Primed Flow, Equilibrium* are the
+energy base. *Prism Guard* is mandatory for steering and the attractor trick.
+*Rolling Guard* is survival. *Corrosive Projection* helps against armour.
+
+**Flexible slots.** Rolling Guard flexes for Umbral Intensify or Augur Secrets.
+Natural Talent is mandatory without cast-speed shards (Prism's cast is very slow).
+Prism Guard can drop for Fleeting Expertise if you only play tiny rooms.
+
+**Helminth.** Pick one. Subsume over Sleight of Hand (2).
+
+- **Pillage** for survivability plus a strip that helps Prism damage.
+- **Nourish** for energy sustain (does not help Prism damage).
+
+**Archon Shards.** Two to three Tauforged Amber cast-speed (mandatory). The rest
+Duration. Five total.
+
+**Arcanes.** Arcane Concentration (cast Prism right after Pillage for a 60%
+Duration bonus), Molt Augmented for Strength. Arcane Aegis for lazy survival.
+
+**Focus.** Any. Vazarin Sling as a backup. Madurai for cast speed on the slow
+Prism.
+
+**Weapon synergy.** Scourge is the best pairing: its alt-fire makes the headshot
+attractor bubble that sucks in the ball and rapidly accelerates the ramp, ideal
+for Acolytes, Thrax and Demolysts. An area viral or magnetic primer (Epitaph, Kuva
+Nukor, Kuva Ogris) multiplies the lasers up to 4.25x.
+
+**Staying alive.** Hall of Mirrors making enemies miss plus Rolling Guard plus
+Corrosive Projection. Mirage is fragile; this build has no gate, so lean on the
+holograms and Pillage if subsumed. It fails to focused fire and to toxin.
+
+**Energy.** Primed Flow plus Equilibrium plus Seismic Bond at 45% Efficiency.
+
+**Where it struggles.** The ramp means Prism is weak for its first few seconds.
+The cast animation is punishing without shards. Line-of-sight limits the lasers.
+Open tiles dilute the ramp.
+
+**Variants.** The Total Malevolence hologram platform is the other Mirage build.
+
+**Strengths and weaknesses.** Strong: enormous ramping AoE, an instant single-
+target delete with an attractor, scales to level cap. Weak: slow to ramp, slow
+cast, fragile frame, tile-dependent.
+
+**Who runs this.** Players who want a nuke that also folds Acolytes and Demolysts
+by dragging a laser ball through their face.
+
+---
+
+### Danse Danse Revenant
+**Revenant Prime. A Danse Macabre damage-absorb nuke that scales with enemy damage, on a speedrun chassis.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Speedrun |
+| Role | Scaling channelled nuke, fast map traversal, Mesmer Skin survival |
+| Difficulty | Intermediate. The Duration and Efficiency drain brackets |
+| Investment | Medium. 4 forma, strength and cast-speed shards |
+| Weapon reliance | Very low. Danse Macabre nukes; a primer covers non-attacking targets |
+
+> Tenno. Danse Macabre eats enemy damage and pays it back out of nine spinning
+> lasers, so the harder enemies hit, the harder it nukes: at level cap one
+> revolution can deal hundreds of millions. Mesmer Skin keeps you immortal while
+> it spins. Reave is here only as a movement tool, and bugged with Danse it makes
+> you faster than Titania. Prime, spin, absorb, delete.
+
+**The build**
+
+- Mesmer Shield, rank 3, unpolarised — augment. Hands allies Mesmer Skin charges
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Streamline, rank 5, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Umbral Intensify, rank 10, unpolarised
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Power Drift, Zenurik polarity
+- Arcanes: Arcane Concentration, Molt Augmented
+
+Arsenal figures land at roughly 214% Strength, 227% Duration, 34% Range, 130%
+Efficiency, with 370 health, 925 shield, 135 armor and a 641 energy pool.
+
+**How it works.** Danse Macabre deals damage equal to what enemies deal to you,
+decaying fast unless you keep taking hits, plus it procs corrosive on armoured
+enemies for an innate strip. The author's figure: at level cap enemies hit for
+~1 million per shot, so one nine-laser revolution deals ~9 million after a single
+hit, and a few seconds of absorbing pushes a revolution to ~450 million. Strength
+barely matters at high levels because absorbed damage is flat. Duration and
+Efficiency are paired to minimise the channel drain (280% Duration plus 130%
+Efficiency is one valid point). *Confidence: Approximation, per the author and the
+wiki drain table.*
+
+**Playstyle.**
+
+1. Prime a specific tough target (Thrax, or a non-attacking enemy) with viral and magnetic, then Reave it.
+2. Activate Mesmer Skin.
+3. Enter Danse Macabre and let it absorb and pay out.
+4. Spam Reave between engagements for speed.
+
+**Duration, Efficiency, Range, Strength.** Duration and Efficiency are the drain
+brackets and also Roar and Reave uptime. Range does nothing here (Danse's sweep
+radius is fixed, and Reave is not for killing), so it is dumped to 34%. Strength is
+for Mesmer Skin charges and Roar, and helps Danse only at low levels.
+
+**The mods.** *Narrow Minded, Primed Continuity* are the Duration toward the drain
+bracket. *Streamline* is the Efficiency. *Transient Fortitude, Umbral Intensify*
+are the Strength for Mesmer Skin. *Primed Flow, Equilibrium* are the energy base.
+*Mesmer Shield* is the team-share augment. *Corrosive Projection* stacks with
+Danse's own corrosive.
+
+**Flexible slots.** Mesmer Shield can drop for another Strength or Duration mod if
+solo. Natural Talent without cast-speed shards. Seismic Bond on a pet frees the
+Streamline slot.
+
+**Helminth.** Pick one. Subsume over Enthrall (1).
+
+- **Roar** to scale Danse at lower levels.
+- **Nourish** for energy economy and a viral proc.
+
+**Archon Shards.** One Tauforged or two regular Amber cast-speed. One Tauforged
+corrosive-stack shard for a 98% Danse strip. The rest Crimson strength. Five total.
+
+**Arcanes.** Arcane Concentration for Duration (Roar uptime and lower Danse drain),
+Molt Augmented for Strength. Both optional.
+
+**Focus.** Madurai for Strength and cast speed. Any works given Mesmer Skin.
+
+**Weapon synergy.** A viral-magnetic primer (Kuva Nukor, Coda Catabolyst, Kompressa
+Prime) so Reave can delete a tough target before Danse ramps.
+
+**Staying alive.** Mesmer Skin, exactly as in the Enthralled Sovereign build:
+refresh before the charge pool empties, bring Silence if Acolytes dispel it, watch
+toxin in the gaps.
+
+**Energy.** Positive Efficiency plus Equilibrium; the drain brackets are the whole
+point of the stat spread.
+
+**Where it struggles.** Danse is weak at low and mid levels where enemies do not
+hit hard enough to absorb. Non-attacking targets need the Reave-primer workaround.
+Bosses.
+
+**Variants.** The Enthralled Sovereign is the Mesmer-tank-and-Reave build. A
+Reave-nuke marked-for-death build exists.
+
+**Strengths and weaknesses.** Strong: a nuke that scales with enemy damage so it
+never falls off in endurance, immortal, absurd movement speed, low weapon
+investment. Weak: weak below the deep end, needs a primer for stubborn targets,
+boss-blind.
+
+**Who runs this.** Players who want a Revenant that speedruns and gets stronger the
+deeper the endurance run goes.
+
+---
+
+### Well of Death
+**Ivara Prime. A Concentrated Arrow room nuke fired at a floating invulnerable target, from stealth.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Silent ramping bow nuke, status immunity, invisible survival |
+| Difficulty | Intermediate. The Crepuscular activation order |
+| Investment | Low. 1 forma, violet electric shards |
+| Weapon reliance | Total. Artemis Bow with Concentrated Arrow is the entire damage plan |
+
+> Tenno. Concentrated Arrow turns Artemis Bow into an explosion with the biggest
+> radius in the game, and forced impact in that radius, so Internal Bleeding
+> paints the whole room in slash. Well of Life hangs an invulnerable target in the
+> air for you to headshot over and over, nuking the room without chasing a new
+> mark, and it makes you status- and knockdown-immune. Prowl keeps you invisible.
+
+**The build**
+
+- Stretch, rank 5, unpolarised
+- Concentrated Arrow, rank 3, unpolarised — augment. Artemis Bow arrows explode on headshot
+- Pool of Life, rank 3, unpolarised — augment. Well of Life target drops four health orbs
+- Blind Rage, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Overextended, rank 5, Vazarin polarity
+- Augur Reach, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Crepuscular, Arcane Rage
+
+Arsenal figures land at roughly 139% Strength, 100% Duration, 280% Range, 45%
+Efficiency, with 280 health, 555 shield, 135 armor and an 855 energy pool.
+
+**How it works.** Concentrated Arrow's headshot explosion has the largest radius
+in the game (19.6m at max Range, 22.68m with Primed Firestorm), no falloff, is
+silent, and does not stagger you. It forces impact in that radius so Internal
+Bleeding converts it to slash at 70%. Well of Life is a permanent headshot target
+that triggers the explosion repeatedly; Pool of Life turns it into four health
+orbs (220 energy through Equilibrium) when it expires. *Confidence: Approximation,
+per the author.*
+
+**Crepuscular order.** To get both Crepuscular's Strength and Spectral Serration
+onto Artemis Bow: activate Artemis Bow first while visible, then cast Cloak Arrow
+and stand in the bubble, then activate Prowl.
+
+**Playstyle.**
+
+1. Optional: drop an Afentis and stand in the bubble for the reload buff (speeds bow fire rate).
+2. Activate Prowl and Artemis Bow.
+3. Cast Well of Life on an enemy (up to three, one per chokepoint).
+4. Spam headshots onto the Well of Life target to nuke the room.
+
+**Duration, Efficiency, Range, Strength.** Duration is not needed (helps Well of
+Life uptime and Prowl drain). Efficiency dumped because Pool of Life makes 220
+energy per Well. Range is the priority stat, maxed, for the explosion radius.
+Strength scales Prowl's headshot multiplier and the Artemis Bow damage multiplier.
+
+**The mods.** *Blind Rage* is the Strength. *Overextended, Stretch, Augur Reach*
+set the maxed Range. *Primed Flow, Equilibrium* are the energy base. *Concentrated
+Arrow* and *Pool of Life* are the augments. *Corrosive Projection* is a straight
+damage lift against armour.
+
+**Flexible slots.** Precision Intensify over Blind Rage or Augur Reach for a
+no-downside Strength boost. The exilus is open.
+
+**Helminth.** Pick one. Subsume over Navigator (4's replacement) or keep the kit.
+
+- **Well of Life** is the build's engine if you keep it.
+- **Roar** for a status double-dip; swap Pool of Life for Empowered Quiver and shoot from a dashwire.
+
+**Archon Shards.** One to two Amber parkour for roll speed. Three to five Violet
+primary electric-damage for raw electric and area electric status on Artemis Bow.
+Five total.
+
+**Arcanes.** Arcane Crepuscular for 30% Strength and a flat crit-damage add, Arcane
+Rage for +180% Artemis Bow damage.
+
+**Focus.** Any. Madurai for Strength.
+
+**Weapon synergy.** Artemis Bow is the weapon. A non-bow primary statstick lets it
+inherit the Vigilante bonus (Afentis for the reload buff, Mutalist Quanta for crit
+damage, Scourge for a headshot bubble). A Panzer primes viral for the low base
+status chance.
+
+**Staying alive.** Prowl invisibility plus Well of Life's status and knockdown
+immunity within its radius. It fails outside a Well's radius if you take a burst,
+and to enemies that ignore stealth.
+
+**Energy.** Pool of Life orbs through Equilibrium; terminate a Well early for an
+emergency 220 energy.
+
+**Where it struggles.** Bosses. It wants a Well target and a stealth setup, so a
+cold start is slow. Artemis Bow cannot self-proc viral (0% status) so it needs a
+companion primer.
+
+**Variants.** A Roar dashwire variant. An old Spectrorage version.
+
+**Strengths and weaknesses.** Strong: the largest AoE in the game, silent and
+non-staggering, invisible, status-immune, one forma. Weak: weapon-carried, boss-
+blind, needs a primer and a stealth setup.
+
+**Who runs this.** Players who want a silent bow that erases rooms from cover,
+without ever being seen.
+
+---
+
+### Ironclad Rhino
+**Rhino Prime. A non-helminth Iron Skin tank with a strong Roar and Stomp crowd control.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Set-and-forget tank, team damage buff, crowd control |
+| Difficulty | Beginner |
+| Investment | High. 6 forma |
+| Weapon reliance | Total. Rhino tanks and buffs; the weapon does everything |
+
+> Tenno. This is Iron Skin without a subsume. Ironclad Charge inflates your armour
+> when you charge a crowd, Health Conversion stacks more, and casting Iron Skin
+> while the bonus is up locks it all into a health bar in the tens or hundreds of
+> thousands. Reinforcing Stomp tops it back up on every cast without redoing the
+> setup. Keep Roar going for the squad.
+
+**The build**
+
+- Ironclad Charge, rank 3, Zenurik polarity — augment. Charge grants a large temporary total-armour bonus per enemy hit
+- Equilibrium, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Stretch, rank 5, Naramon polarity
+- Reinforcing Stomp, rank 3, unpolarised — augment. Stomp restores 4% of Iron Skin per enemy hit
+- Umbral Intensify, rank 10, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Health Conversion, rank 5, Vazarin polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Molt Augmented, Arcane Battery
+
+Arsenal figures land at roughly 243% Strength, 155% Duration, 145% Range, 45%
+Efficiency, with 370 health, 555 shield, 290 armor and a 150 energy pool (Arcane
+Battery raises the effective pool toward 1000 at high armour).
+
+**How it works.** Iron Skin is base armour times a stack of multipliers, and
+Strength enters twice (via Ironclad Charge's bonus and as a final multiplier).
+Health Conversion at three stacks gives 1350 armour, far more than Umbral Fiber's
+378 on Rhino's tiny 290 base. Reinforcing Stomp restores 4% of the total per enemy
+hit, so you never redo the full combo. Arcane Battery converts the armour into up
+to 1000 energy. The author's figures at ~300% Strength: about 80k Iron Skin after
+charging 20 enemies, about 480k with Health Conversion. *Confidence: Approximation,
+per the author.*
+
+**Playstyle.**
+
+1. Get kills for energy and health orbs; build Health Conversion to three stacks.
+2. Group a crowd (Proboscis Cernos, Magus Anomaly, Vazarin Snare).
+3. Cast Charge through the group for the Ironclad Charge bonus.
+4. Stomp constantly for crowd control and to keep Iron Skin near max.
+5. Keep Roar up.
+
+**Duration, Efficiency, Range, Strength.** Primed Continuity gives Ironclad Charge
+a 15s+ setup window and near-minute Roar. Efficiency at 45% because Arcane Battery
+plus Equilibrium covers it. A little Range gives a 30m+ Stomp and Roar. Strength is
+the whole build.
+
+**The mods.** *Blind Rage, Umbral Intensify* are the Strength, with *Primed
+Continuity* holding Duration. *Ironclad Charge* is the mandatory armour multiplier.
+*Health Conversion* is a large stacking armour source. *Reinforcing Stomp* is the
+top-up. *Equilibrium* converts orbs.
+
+**Flexible slots.** Blind Rage to Transient Fortitude if energy is tight in quick
+missions. The aura and exilus are open.
+
+**Helminth.** Pick one. Subsume over Stomp (unless you keep it, in which case run
+Nourish over Charge).
+
+- **Parasitic Armor** for the biggest armour boost (see Shield of Iron).
+- **Elemental Ward (Cold)** for ~1291 armour plus reflection.
+- **Ensnare, Larva or Airburst** for grouping to feed Ironclad Charge.
+- **Empower** to boost both Iron Skin and Roar.
+
+**Archon Shards.** Two Amber cast-speed for Stomp speed. The rest Crimson strength
+(triple-dips Iron Skin). Five total.
+
+**Arcanes.** Arcane Battery for the energy pool, Molt Augmented for Strength.
+Arcane Guardian now builds Iron Skin on hits taken, a strong swap.
+
+**Focus.** Madurai for a 40% Strength Sling perk. Vazarin for a grouping ability.
+
+**Weapon synergy.** None from the frame beyond Roar. A grouping weapon (Proboscis
+Cernos) helps the Charge setup.
+
+**Staying alive.** Iron Skin, topped by Reinforcing Stomp. No regen otherwise;
+when the pool is gone you redo the combo. Toxin bypasses it.
+
+**Energy.** Arcane Battery plus Equilibrium. Once Iron Skin is huge you only cast
+Roar and Stomp.
+
+**Where it struggles.** Toxin. Deep endurance where a hit exceeds the pool. The
+setup ritual. Does no damage itself.
+
+**Variants.** The Shield of Iron Parasitic Armor build pushes Iron Skin into the
+millions. A Roar buff build. An endurance Nourish non-tank build.
+
+**Strengths and weaknesses.** Strong: near-unkillable in most content, strong team
+Roar, simple, no helminth needed. Weak: zero self damage, toxin-vulnerable, setup
+ritual, no regen, 6 forma.
+
+**Who runs this.** Players who want a no-subsume Iron Skin tank that carries a
+weapon and a Roar.
+
+---
+
+### Lazy Monkey King
+**Wukong Prime. A persistence health-tank that scales to level cap while carrying an Iron Staff.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Speedrun |
+| Role | Effortless health tank, Iron Staff influence clear |
+| Difficulty | Beginner |
+| Investment | High. 5 forma, Umbral forma, violet melee crit-damage shards |
+| Weapon reliance | High. Iron Staff (and any subsumed buff) does the damage; the frame just survives |
+
+> Tenno. This Wukong does almost nothing except not die. Defy stacks 1500 armour,
+> the Umbral set and Arcane Blessing push health past 3000, and Arcane Persistence
+> caps incoming damage at 500 a second above 700 armour. Cloudwalker heals and
+> travels. Enter Iron Staff and hold light attack. That is the whole game.
+
+**The build**
+
+- Umbral Intensify, rank 10, Umbral polarity
+- Umbral Vitality, rank 10, Umbral polarity
+- Umbral Fiber, rank 10, unpolarised
+- Narrow Minded, rank 10, Vazarin polarity
+- Gladiator Resolve, rank 5, Vazarin polarity
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Nira's Hatred, rank 5, Vazarin polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Preparation, unpolarised
+- Arcanes: Arcane Blessing, Arcane Persistence
+
+Arsenal figures land at roughly 177% Strength, 214% Duration, 34% Range, 100%
+Efficiency, with a 1970 health pool, 812 armor, 445 shield and a 556 energy pool.
+
+**How it works.** Arcane Persistence caps damage at 500/s while armour is above
+700, which Defy (1500 armour on cast, over 2000 held) clears with a huge buffer
+against heat and corrosive stripping it. The Umbral set plus Gladiator Resolve plus
+Nira's Hatred plus Arcane Blessing push health past 3000 for a ~5s buffer, and any
+healing over 500/s keeps you alive indefinitely. Gloom is the most consistent
+heal. *Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Activate the Twin (optional if not subsumed).
+2. Press 3 (Defy) to absorb hits and stack 1500 armour.
+3. Use 2 (Cloudwalker) to travel and heal.
+4. Enter 4 (Iron Staff), hold light attack, use Tennokai when it lights up.
+
+**Duration, Efficiency, Range, Strength.** Duration for Cloudwalker range and buff
+length. Efficiency for Cloudwalker and Iron Staff drain. Range is dumped (only
+Defy uses it). Strength scales Iron Staff (and any subsumed buff).
+
+**The mods.** The *Umbral set plus Umbral Fiber* is the health-and-armour core.
+*Narrow Minded* is the Duration with its Range cost free. *Hunter Adrenaline* is
+the energy engine. *Primed Flow* is the pool for melee crit-damage shard value.
+*Gladiator Resolve, Nira's Hatred* push health over 3000 and add combo crit.
+
+**Flexible slots.** Arcane Deflection over Arcane Blessing for Grineer and fissure
+Cascade, where Kuva Trokarian slash procs one-shot through Persistence. The aura
+and exilus are open.
+
+**Helminth.** Pick one. Subsume over the Twin (1) or Defy (3).
+
+- **Gloom** for consistent passive healing while Iron Staff deals damage.
+- **Firewalker** for status immunity (protects against the heat, corrosive, magnetic and slash that break Persistence) plus Cloudwalker speed.
+- **Roar** to triple-dip melee influence.
+- **Wrathful Advance** for flat Iron Staff crit chance.
+- **Molt** for the biggest Cloudwalker speed boost.
+
+**Archon Shards.** Five Tauforged Violet melee crit-damage for a full Iron Staff
+commitment. Or split with cast-speed and parkour. Five total.
+
+**Arcanes.** Arcane Persistence (mandatory for the tank), Arcane Blessing for the
+health buffer. Arcane Strike for Iron Staff attack speed if you skip Arcane Strike
+on a subsume.
+
+**Focus.** Any. Madurai for Strength.
+
+**Weapon synergy.** Dexterity arcanes on a primary, secondary and archgun give ~30s
+combo duration so Iron Staff never drops combo. Okina Prime with Condition
+Perfection gives Iron Staff a 4s Tennokai window.
+
+**Staying alive.** Arcane Persistence plus a healing source, padded by the health
+pool. It fails to Violence, nullifiers, magnetic, slash procs that bypass the cap
+(Arcane Deflection), and heat or corrosive dropping armour below 700.
+
+**Energy.** Hunter Adrenaline keeps you topped.
+
+**Where it struggles.** The frame does no damage. It needs a heal source. Slash
+procs (Kuva Trokarians) bypass Persistence. 5 forma plus Umbral forma. Bosses.
+
+**Variants.** The Celestial Monkey build is the active Iron Staff and Defy-nuke
+version. A low-range pure Iron Staff build.
+
+**Strengths and weaknesses.** Strong: effectively unkillable to level cap with
+minimal input, strong Iron Staff clear, great for speedruns. Weak: no self damage,
+needs a heal, slash-proc vulnerability, forma-hungry.
+
+**Who runs this.** Players who want to stop thinking about survival entirely and
+just hold light attack.
+
+---
+
+### Shadow Realm
+**Sevagoth Prime. A min-maxed Sow-and-Reap build tuned to one-shot to level cap with no viral.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Pure zero-effort nuke |
+| Difficulty | Intermediate |
+| Investment | Medium. 4 forma, three to four Tauforged strength shards mandatory |
+| Weapon reliance | Very low. Sow-and-Reap is the whole plan |
+
+> Tenno. This is the Gloom Reaper stripped to just the nuke. Both augments are
+> mandatory: Shadow Haze spawns three Reap shadows, Dark Propagation spreads Sow
+> for you. Roar is mandatory too. Hit exactly 255% Strength on Reap and Roar and
+> the Sow-then-Reap combo one-shots any non-boss enemy to level cap with no viral
+> at all. Spam 1, occasionally 2, and the room dies.
+
+**The build**
+
+- Shadow Haze, rank 3, Zenurik polarity — augment. Spawns three Reap shadows and a flat crit-chance debuff
+- Dark Propagation, rank 3, unpolarised — augment. Sow self-propagates
+- Stretch, rank 5, Naramon polarity
+- Umbral Intensify, rank 10, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Energize, Arcane Concentration
+
+Arsenal figures land at roughly 214% Strength, 72% Duration, 145% Range, 100%
+Efficiency, with 370 health, 370 shield, 185 armor and a 641 energy pool.
+
+**How it works.** Reap deals 25% of an enemy's current health as true damage, not
+scaled by Strength, multiplied by viral and Roar. The threshold to one-shot with
+no viral is exactly 255% Strength on both Reap and Roar, which the listed 214%
+arsenal plus three or four Tauforged strength shards reaches. Dark Propagation
+spreads Sow so you rarely recast it. *Confidence: Approximation, per the author's
+spreadsheet.*
+
+**Playstyle.**
+
+1. Cast Sow to mark enemies (self-spreads).
+2. Cast Reap to delete the marked and debuff survivors.
+3. Recast Sow occasionally when new enemies spawn (25 energy).
+4. Keep Roar up.
+
+**Survivability.** Catalyzing Shields shield gating off constant Sow and Reap casts
+plus Brief Respite, backed by Vazarin Protective Sling for a 5s panic i-frame.
+*Confidence: Approximation, per the author.*
+
+**Duration, Efficiency, Range, Strength.** Low Duration is fine (Dark Propagation
+carries Sow); keep enough for Roar uptime. Neutral Efficiency with Equilibrium.
+Range for Sow spread and Gloom if you keep it. Strength does not affect Reap
+damage but is needed for the Reap debuff, the Shadow Haze crit buff, and Roar.
+
+**The mods.** *Transient Fortitude, Umbral Intensify* plus shards are the Strength
+toward 255%. *Stretch* is the spread Range. *Primed Flow, Equilibrium* are the
+energy base. *Catalyzing Shields* locks the gate. *Shadow Haze, Dark Propagation*
+are the mandatory augments. *Brief Respite* aura feeds the gate.
+
+**Flexible slots.** Precision Intensify over Umbral Intensify if you have enough
+Strength on Reap. Power Drift can become Primed Sure Footed with a fourth strength
+shard. Rolling Guard if you swap an arcane.
+
+**Helminth.** **Roar is mandatory** for the one-shot threshold. Subsume it over
+Gloom or Shadow depending on whether you want the Shadow form available.
+
+**Archon Shards.** One Tauforged Amber cast-speed. Three to four Tauforged Crimson
+strength (mandatory for the threshold). One flexible. Five total.
+
+**Arcanes.** Arcane Energize or Steadfast for energy (Steadfast breaks consistent
+shield gating), Arcane Concentration for Roar uptime. Molt Augmented as a swap that
+frees a shard or a mod slot.
+
+**Focus.** Vazarin for the panic Sling. Madurai for Strength toward the threshold.
+
+**Weapon synergy.** Energy-generating weapons only (Tenet Glaxion, Miter Incarnon,
+Grimoire), since the build barely uses a weapon for damage.
+
+**Staying alive.** The Sow-and-Reap shield-gate loop plus Vazarin Sling. It fails
+if you run out of energy with Roar down, and to toxin.
+
+**Energy.** Equilibrium plus Arcane Energize; casts are infrequent.
+
+**Where it struggles.** Bosses and Acolytes resist Reap. It wants density. It is a
+one-trick build with almost no weapon damage.
+
+**Variants.** The Gloom Reaper build is the general-use version with a slow field
+and a spare frame.
+
+**Strengths and weaknesses.** Strong: a true level-cap one-shot with no priming,
+zero effort to pilot. Weak: boss-blind, density-dependent, shard-gated, does
+nothing else.
+
+**Who runs this.** Players who want the purest possible point-and-delete nuke and
+have the shards to feed it.
+
+---
+
+### Through the Fire and Flames
+**Temple. A backbeat-timed exalted flamethrower with a red-crit weapon buff.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Weapon platform |
+| Role | Exalted solo DPS, flat crit-chance and heat weapon buff, on-beat invulnerability |
+| Difficulty | Advanced. Everything keys off hitting the "backbeat" timing |
+| Investment | Medium to high. 4 forma, primary status and cast-speed shards |
+| Weapon reliance | High. Lizzie the exalted, or your own weapon, does the damage; Temple buffs it |
+
+> Tenno. Temple fights on rhythm. Tap 1 and 2 on the backbeat, the sweet spot on
+> the pendulum, and you fuel Lizzie the exalted flamethrower, extend Ripper's Wail
+> for up to 750% heat, and double Overdrive's flat crit chance. Tap 3 on a
+> backbeat for invulnerability and a heat buff. Cast 4 on a backbeat for a free
+> exalted. Miss the beats and the whole kit sputters.
+
+**The build**
+
+- Rolling Guard, rank 10, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Archon Vitality, rank 0, unpolarised — doubles Lizzie's heat procs
+- Equilibrium, rank 10, Naramon polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Stretch, rank 5, unpolarised
+- Transient Fortitude, rank 10, Madurai polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Firewalker, unpolarised
+- Arcanes: Arcane Hot Shot, Arcane Impetus
+
+Arsenal figures land at roughly 254% Strength, 128% Duration, 145% Range, 45%
+Efficiency, with about 551 health, 325 shield, 325 armor and a 613 energy pool.
+
+**How it works.** Hitting a backbeat on 1 or 2 cuts that cast's energy cost by
+50%, fuels Lizzie (which runs on fuel, not energy), extends and grows Ripper's
+Wail's heat bonus (capped at 750%), and doubles Overdrive's flat crit chance
+(175% at 350% Strength). Strength acts as a +damage mod for Lizzie at 1.25x
+Strength, so ~350% Strength is roughly a 337% damage mod, additive with Serration
+and Merciless. *Confidence: Approximation, per the author's formulas.*
+
+**Playstyle.**
+
+1. Tap 1 and 2 on crowds, hitting backbeats as often as possible to fuel Lizzie.
+2. Tap 3 on a backbeat for ~7s invulnerability, a shield refill (2.5s gate), and a heat buff.
+3. Cast 4 on a backbeat (0 energy) to summon Lizzie, then shoot.
+
+**Duration, Efficiency, Range, Strength.** Duration is minor: Ripper's Wail has a
+30s base extended by backbeats, Exalted Solo ignores Duration, Overdrive is 20s
+base. Efficiency is not needed because backbeat casts halve costs and 4 on-beat is
+free. Range for 1 and 2 (~145 to 175 covers Lizzie's reach). Strength is the
+priority, scaling 1, 2, 4 and the crit buff.
+
+**The mods.** *Blind Rage, Transient Fortitude* are the Strength. *Stretch* is
+Range. *Primed Flow, Equilibrium* are the energy base. *Archon Continuity* adds
+corrosive off a Blast-Toxin Lizzie. *Rank 0 Archon Vitality* doubles Lizzie heat
+procs. *Rolling Guard* is status cleanse for the 1-and-2 spam. *Corrosive
+Projection* helps against armour.
+
+**Flexible slots.** Archon Vitality drops if you do not use Lizzie. Rolling Guard
+swaps for Catalyzing Shields (active gating off 1 and 2) or more Strength. The
+exilus is open.
+
+**Survivability.** Backbeat 3 gives ~7s invulnerability plus a 2.5s shield gate,
+backed by Rolling Guard and heat crowd control from 1. Or health-tank with
+Adaptation, Health Conversion and a full-rank Archon Vitality for lower content.
+
+**Helminth.** Pick one. Subsume over 1 (Lizzie focus) or 4 (Pyrotechnics or
+non-Lizzie platform).
+
+- **Nourish** for passive viral and energy without needing alt-fire.
+- **Silence** for passive crowd control and Eximus and Acolyte lockout.
+- **Omamori** for a lazy-gate layer.
+- **Resonator** for passive area crowd control (fits the theme).
+
+**Archon Shards.** One Amber cast-speed for Ripper's Wail and 2. Up to three
+Crimson primary status-chance and one Tauforged corrosive-stack for Lizzie DPS,
+or energy-max and parkour for general use. Five total.
+
+**Arcanes.** Arcane Hot Shot for 300% weapon crit chance, Arcane Impetus for 54%
+Strength and 27% Efficiency from Lizzie's status spread. Arcane Acceleration for
+Lizzie fire rate, Molt Augmented for Strength, as swaps.
+
+**Focus.** Any. Madurai for Strength and cast speed on Ripper's Wail.
+
+**Weapon synergy.** Lizzie builds: Blast-Toxin for general clear, pure Heat for
+single-target Disruption. A heat-inherit primer (Epitaph, Kompressa, Cedo)
+multiplies Lizzie's heat procs. A Wyrm Prime with Reinforced and Tenacious Bond
+buffs Lizzie's fire rate and crit.
+
+**Staying alive.** On-beat 3 invulnerability plus the shield gate plus Rolling
+Guard plus heat crowd control. It fails if you cannot hit backbeats to trigger 3,
+and to toxin.
+
+**Energy.** Backbeat cost reduction plus Equilibrium plus Seismic Bond. A non-issue
+if your rhythm is good.
+
+**Where it struggles.** The entire kit depends on backbeat timing, which is a real
+skill barrier. No native crowd control (subsume for it). Bosses take Lizzie or the
+weapon.
+
+**Variants.** A lazy-gating exalted DPS build with Silence, Omamori or Nourish.
+A Mecha Roar Pyrotechnics nuke.
+
+**Strengths and weaknesses.** Strong: a strong exalted flamethrower, a large flat
+crit and heat weapon buff, on-demand invulnerability, good energy economy. Weak:
+timing-dependent to the point of frustration, no native crowd control, boss damage
+on the weapon.
+
+**Who runs this.** Players who enjoy a rhythm mechanic and want an exalted platform
+that rewards hitting the beat.
+
+---
+
+### Critical Mass
+**Qorvex. A Crucible Blast chain nuke off Chyrinka Pillars, from inside invulnerable Fused Crucible.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Beam chain nuke, armour strip, status immunity, high-armour tank |
+| Difficulty | Intermediate |
+| Investment | Medium. 4 forma, Topaz radiation shards |
+| Weapon reliance | Low. Crucible Blast nukes; a strip and grouping subsume feed it |
+
+> Tenno. Qorvex plants Chyrinka Pillars, then beams Crucible Blast through a
+> grouped line of enemies while clipping the Pillars, which inherit the chain
+> reaction and pulse it out to everything in their radius. Fused Crucible lets him
+> walk around beaming while completely invulnerable and status-immune. Grouping
+> and armour strip are what turn the beam from a poke into a nuke.
+
+**The build**
+
+- Wrecking Wall, rank 3, unpolarised — augment. Containment Wall full-strips at 200% Strength and refreshes Pillars
+- Primed Flow, rank 10, Naramon polarity
+- Fused Crucible, rank 3, unpolarised — augment. Walk while beaming, fully invulnerable
+- Precision Intensify, rank 5, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Stretch, rank 5, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Universal Fallout, Molt Augmented
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 250% Range, 45%
+Efficiency, with 700 health, 875 armor, 300 shield and a 570 energy pool.
+
+**How it works.** Crucible Blast wants both grouping (so one beam hits many) and
+armour strip (so its damage lands), neither of which Qorvex's own kit does well,
+so both come from a subsume or a companion. Hitting a Chyrinka Pillar with the beam
+empowers it for 5s, letting its pulses carry the chain reaction to enemies you are
+not aiming at. Fused Crucible makes you invulnerable and status-immune while
+beaming. Arcane Universal Fallout floods energy off radiation kills. *Confidence:
+Approximation, per the author.*
+
+**Playstyle.**
+
+1. Tap 1 to plant two Chyrinka Pillars in separate areas but within line of sight.
+2. Tap 3 (Disometric Guard) for status immunity, or keep a subsume up.
+3. Tap 2 (Containment Wall) to group enemies in a line and strip (with Wrecking Wall).
+4. Tap 4 and beam the group while clipping both Pillars each pass.
+
+**Duration, Efficiency, Range, Strength.** Chyrinka Pillar's 35s base tolerates
+negative Duration; Duration also affects Fused Crucible drain. Efficiency at 45%
+because Universal Fallout floods energy on radiation kills. Range is maxed for
+Pillar radius, Containment Wall grouping and beam explosions. Strength scales the
+beam and the Containment Wall strip (200%, or 164% with Corrosive Projection).
+
+**The mods.** *Blind Rage, Precision Intensify* are the Strength. *Overextended,
+Stretch* set the maxed Range. *Primed Continuity* holds Duration. *Primed Flow* is
+the pool. *Wrecking Wall* is the strip. *Fused Crucible* is the invulnerable beam.
+*Corrosive Projection* lowers the strip threshold.
+
+**Flexible slots.** Precision Intensify to Umbral Intensify if you lack it.
+Wrecking Wall drops for Streamline or Transient Fortitude if you subsume Ophanim
+Eyes for the strip. Umbral Fiber for a casual EHP tank (~146k). The exilus is open.
+
+**Survivability.** Fused Crucible is total invulnerability while beaming. Between
+beams, shield gate off Containment Wall with an Augur mod. Or casual-tank on
+Qorvex's 875 base armour plus an armour mod plus Adaptation for ~146k EHP to about
+level 300. *Confidence: Approximation, per the author.*
+
+**Helminth.** Pick one. Subsume over Disometric Guard (Fused Crucible already
+covers invulnerability and status).
+
+- **Ophanim Eyes** for a slower strip that works without leaving Fused Crucible, freeing the Wrecking Wall slot.
+- **Roar** to boost the beam and weapons.
+- **Nourish** for extra energy sustain.
+- **Breach Surge** for blinds and radiation sparks (thematic).
+- A **grouping** ability (Airburst, Larva, Pull, Coil Horizon) if Containment Wall's line grouping is not enough.
+
+**Archon Shards.** One to two Amber cast-speed. Three to four Topaz radiation
+ability-damage for the beam. Five total.
+
+**Arcanes.** Arcane Universal Fallout is near-mandatory for energy (Equilibrium
+otherwise). Molt Augmented for Strength. Molt Efficiency or Arcane Energize as
+swaps.
+
+**Focus.** Any. Madurai for Strength and cast speed.
+
+**Weapon synergy.** Qorvex's passive gives +3 punch-through to all weapons, so
+drop punch-through mods on weapons that want it (Dual Toxocyst Incarnon, Soma Prime
+Incarnon). A Grimoire for viral priming, passive energy and passive strip. A
+Nautilus with Cordon for grouping.
+
+**Staying alive.** Fused Crucible invulnerability while beaming, plus shield gating
+between, plus the casual armour tank. It fails to toxin in the gaps and to being
+caught out of Fused Crucible with no gate.
+
+**Energy.** Arcane Universal Fallout floods it on radiation kills; add Equilibrium
+or Streamline if it runs thin.
+
+**Where it struggles.** Its own grouping and strip are weak, so it leans on a
+subsume or companion for both. Line-of-sight tiles. Bosses. Movement in Fused
+Crucible is very slow.
+
+**Variants.** An Ophanim Eyes strip variant. A casual EHP-tank variant.
+
+**Strengths and weaknesses.** Strong: a strong chain nuke, total invulnerability
+while beaming, status immunity, high base armour. Weak: depends on external
+grouping and strip, slow in Fused Crucible, boss-blind.
+
+**Who runs this.** Players who want a caster that stands invulnerable and beams a
+grouped, stripped room into a chain reaction.
+
+---
