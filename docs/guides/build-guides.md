@@ -24175,3 +24175,440 @@ to proc Archon Stretch. Elements are flexible to whatever the build needs.
 **Who runs this.** Players running a Manifold Bond Diriga.
 
 ---
+
+### The Cloak Claws
+**Huras Claws. A pure-DPS claw build with a huge crit multiplier and Mecha inherit.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Companion DPS |
+| Difficulty | Intermediate |
+| Investment | Low. 2 forma |
+| Weapon reliance | Standalone (it is the pet weapon), but needs a primary statstick |
+
+> Tenno. Huras claws have a 14x crit multiplier. Hunter Synergy and Mecha
+> Overdrive inherit crit and status from your primary, so a high-crit primary
+> statstick makes the pet red-crit everything.
+
+**The build**
+
+- Shocking Claws, rank 10, unpolarised. Converts innate toxin damage to electric
+- Radon Claws, rank 3, unpolarised
+- Immunity Resistance, rank 3, unpolarised
+- Mecha Overdrive, rank 5, unpolarised
+- Hunter Synergy, rank 5, unpolarised
+- Precision Conditioning, rank 10, Madurai polarity
+- Maul, rank 10, Madurai polarity
+- Bite, rank 10, Madurai polarity
+- Frenzied Posture, rank 3, Precept polarity
+
+Weapon figures land near 86% crit chance and 14x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Bite plus Maul plus Precision Conditioning are the crit and damage
+core; Shocking Claws makes it electric; Hunter Synergy and Mecha Overdrive
+inherit crit and status from your primary (a Paris Prime Incarnon or Boar works
+well as the statstick).
+
+**Where it struggles.** Needs the primary statstick to reach its ceiling. The
+pet chooses its own targets.
+
+**Variants.** The Cloak Hound (#378) is the Huras support and invisibility
+build.
+
+**Who runs this.** Players who want the Kubrow as a damage pet alongside a
+statstick primary.
+
+---
+
+### The Multi Primer
+**Tazicor. A sentinel weapon that stacks viral, magnetic, radiation and electric.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Multi-status primer |
+| Difficulty | Beginner |
+| Investment | Low. 2 forma, MR 3 |
+| Weapon reliance | Standalone (it is the sentinel weapon) |
+
+> Tenno. Tazicor is a fast sentinel beam. Modded for status across four types, it
+> paints a whole room with viral, magnetic, radiation and electric for your main
+> weapon or the squad.
+
+**The build**
+
+- Primed Shred, rank 10, Madurai polarity
+- Split Chamber, rank 5, Madurai polarity
+- Vigilante Armaments, rank 5, unpolarised
+- Magnetic Capacity, rank 3, unpolarised
+- Radiated Reload, rank 3, unpolarised
+- Malignant Force, rank 3, unpolarised
+- Rime Rounds, rank 3, Madurai polarity
+- Rifle Aptitude, rank 5, unpolarised
+
+Weapon figures land near 5% crit chance and 1.5x crit damage at an 18.6 fire
+rate; this is a pure status tool. Confidence: Approximation, per the author.
+
+**The mods.** Split Chamber plus Vigilante Armaments are multishot; Malignant
+Force plus Rime Rounds build viral; Magnetic Capacity plus Radiated Reload add
+magnetic and radiation; Rifle Aptitude is status chance. Swap to corrosive-cold
+with Shivering Contagion if running Nourish or wanting maximum crowd control.
+
+**Where it struggles.** Near-zero damage. The sentinel picks its own targets.
+
+**Variants.** The Heat Primer (#394) is a Tazicor built for heat inherit.
+
+**Who runs this.** Players who want a broad multi-status primer from the pet
+slot.
+
+---
+
+### The Shield Hound
+**Raksa Kubrow. A shield buffer for Hildryn's Aegis Gale.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Shield sustain, squad support |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma, Hildryn only |
+| Weapon reliance | Low |
+
+> Tenno. Protect replenishes 300 shields when you hit zero and boosts shield
+> regen for three seconds, scaling off the Kubrow's own regen rate. Hastened
+> Deflection and Mecha Recharge pump that rate, so Hildryn's shields never
+> bottom out.
+
+**The build**
+
+- Mecha Recharge, rank 5, Madurai polarity
+- Reinforced Bond, rank 5, Naramon polarity
+- Link Redirection, rank 10, Vazarin polarity
+- Hastened Deflection, rank 5, unpolarised
+- Seismic Bond, rank 5, Madurai polarity
+- Fetch, rank 5, unpolarised
+- Tenacious Bond, rank 5, unpolarised
+- Mystic Bond, rank 5, Naramon polarity
+- Aerial Bond, rank 5, unpolarised
+- Protect, rank 5, Precept polarity
+
+Raksa Kubrow has 750 health, 300 armor and a 390 shield pool. Confidence:
+Approximation, per the author.
+
+**Mandatory mods.** Protect is the shield refill; Hastened Deflection plus Mecha
+Recharge boost the regen rate that Protect scales off; Reinforced Bond boosts
+Balefire fire rate; Link Redirection keeps the dog alive.
+
+**Where it struggles.** Hildryn-locked. No offense.
+
+**Variants.** The Shield Claws (#392) is a Raksa built as a DPS pet.
+
+**Who runs this.** Hildryn players running the Aegis Gale nuke.
+
+---
+
+### The Cat Claws
+**Venari Prime Claws. An electric DPS build for Khora's companion, riding a primary statstick.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Companion DPS |
+| Difficulty | Intermediate |
+| Investment | Low. 2 forma, Khora only |
+| Weapon reliance | Standalone (it is the pet weapon), needs a primary statstick |
+
+> Tenno. Venari's claws have an 86% crit base and a 6.4x multiplier. Hunter
+> Synergy inherits your primary's crit and status, so a high-crit primary
+> statstick pushes the cat into red crits.
+
+**The build**
+
+- Shocking Claws, rank 10, unpolarised. Converts innate toxin damage to electric
+- Shock Collar, rank 3, unpolarised
+- Immunity Resistance, rank 3, unpolarised
+- Hunter Synergy, rank 5, unpolarised
+- Swipe, rank 3, unpolarised
+- Maul, rank 10, Madurai polarity
+- Bite, rank 10, Madurai polarity
+- Precision Conditioning, rank 10, Madurai polarity
+- Assassin Posture, rank 3, Precept polarity
+
+Weapon figures land near 86% crit chance and 6.4x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Bite plus Maul plus Precision Conditioning are the crit and damage
+core; Shocking Claws makes it electric; Shock Collar adds a ranged zap; Hunter
+Synergy inherits crit and status from a high-crit primary statstick (Paris Prime
+Incarnon, Kuva Chakkhurr, Lenz).
+
+**Where it struggles.** Khora-locked. Needs the primary statstick. Venari picks
+its own targets.
+
+**Variants.** The Bonded Cat (#376) is the Venari support build.
+
+**Who runs this.** Khora players who want Venari as a damage pet.
+
+---
+
+### The Utility Moa
+**Nychus Moa. Grouping, a fire-rate buff, priming and a free shield-gate refill.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Grouping, squad buff, priming, shield-gate support |
+| Difficulty | Beginner |
+| Investment | Low. 2 forma |
+| Weapon reliance | Low |
+
+> Tenno. Whiplash Mine drags enemies together in 20m; Guardian refills your
+> shields for the gate; Contagious Bond plus Manifold Bond spread status; the
+> Bond mods add squad fire rate and crit. One companion covers four jobs.
+
+**The build**
+
+- Manifold Bond, rank 5, unpolarised
+- Contagious Bond, rank 5, Madurai polarity
+- Blast Shield, rank 5, Precept polarity
+- Momentous Bond, rank 5, unpolarised
+- Calculated Redirection, rank 10, Vazarin polarity
+- Vacuum, rank 5, Precept polarity
+- Reinforced Bond, rank 5, Naramon polarity
+- Aerial Bond, rank 5, unpolarised
+- Guardian, rank 5, unpolarised
+- Whiplash Mine, rank 3, Precept polarity
+
+The Moa runs on 50 armor with no health or shield bar of its own. Confidence:
+Approximation, per the author.
+
+**The mods.** Whiplash Mine is the grouping (Manifold Bond cuts its cooldown);
+Guardian is the free shield-gate refill; Blast Shield restores Moa overshield
+and knocks down nearby enemies; Contagious Bond plus Manifold Bond spread your
+weapon's status; Reinforced Bond is squad fire rate.
+
+**Where it struggles.** No damage of its own. Grouping is slow.
+
+**Who runs this.** Players who want one companion doing grouping, buffs and
+gate support.
+
+---
+
+### The Mecha Predasite
+**Pharaoh Predasite. A Mecha-set support pet with debuffs and orb drops.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Mecha mark and amplify, debuff, orbs |
+| Difficulty | Beginner |
+| Investment | Low. 2 forma |
+| Weapon reliance | Low |
+
+> Tenno. Pharaoh Predasite carries the Mecha set to mark and amplify targets,
+> plus Endoparasitic Vector and Anabolic Pollination for a damage-vulnerability
+> debuff and healing spores. Synth Deconstruct drops health orbs.
+
+**The build**
+
+- Tenacious Bond, rank 5, unpolarised
+- Mecha Recharge, rank 5, unpolarised
+- Contagious Bond, rank 5, Madurai polarity
+- Synth Deconstruct, rank 5, Madurai polarity
+- Momentous Bond, rank 5, Madurai polarity
+- Reinforced Bond, rank 5, unpolarised
+- Calculated Redirection, rank 10, Vazarin polarity
+- Fetch, rank 5, Precept polarity
+- Anabolic Pollination, rank 3, unpolarised
+- Endoparasitic Vector, rank 3, unpolarised
+
+Pharaoh Predasite has 710 health, 300 armor and a 1225 shield pool. Confidence:
+Approximation, per the author.
+
+**The mods.** Endoparasitic Vector is the damage-vulnerability debuff; Anabolic
+Pollination heals; Mecha Recharge plus the set mark and amplify; Contagious Bond
+spreads status; Synth Deconstruct drops health orbs. Calculated Redirection plus
+Reinforced Bond add fire rate; Tenacious Bond adds crit damage if you also run
+Bite and Hunter Synergy on the claws.
+
+**Where it struggles.** No offense on its own without the claw pairing.
+
+**Variants.** The Predasite Claws (#393) is a Pharaoh built as a DPS pet.
+
+**Who runs this.** Players who want a Mecha-set support Predasite.
+
+---
+
+### The Heat Missiles
+**Helstrum. A heat-inherit primer that seeds a large first heat stack.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heat-inherit primer |
+| Difficulty | Advanced |
+| Investment | Low. 3 forma |
+| Weapon reliance | Standalone (it is the sentinel weapon) |
+
+> Tenno. Helstrum fires a volley of micro-missiles that hit many enemies at
+> once. Loaded with every heat and faction multiplier, that first heat stack is
+> huge, and heat inherit copies it to every later proc from your main weapon.
+
+**The build**
+
+- Primed Bane of Orokin, rank 10, Madurai polarity
+- Hellfire, rank 5, unpolarised
+- Thermite Rounds, rank 3, unpolarised
+- Wildfire, rank 3, unpolarised
+- Rime Rounds, rank 3, Madurai polarity
+- Malignant Force, rank 3, Madurai polarity
+- Rifle Aptitude, rank 5, unpolarised
+- Split Chamber, rank 5, Madurai polarity
+
+Weapon figures land near 5% crit chance and 1.5x crit damage; the build is tuned
+for the heat stack. Confidence: Approximation, per the author.
+
+**The mods.** Hellfire plus Thermite Rounds plus Wildfire load the heat; Primed
+Bane of Orokin adds the faction multiplier that the inherited stack copies;
+Split Chamber is multishot so the missiles blanket the pack. Swap the viral mods
+for Primed Firestorm and Vile Acceleration if you want a wider, faster volley.
+
+**Where it struggles.** The mechanic is faction-specific and fiddly. Near-zero
+direct damage.
+
+**Variants.** The Orb Cube (#383) is a Dethcube built around a Helstrum.
+
+**Who runs this.** Players running a heat-inherit main weapon.
+
+---
+
+### The Shield Claws
+**Raksa Claws. A DPS claw build for Hildryn's Kubrow, riding a primary statstick.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Companion DPS |
+| Difficulty | Intermediate |
+| Investment | Low. 2 forma |
+| Weapon reliance | Standalone (it is the pet weapon), needs a primary statstick |
+
+> Tenno. Raksa claws have a 10x crit multiplier. To hit the 50% crit cutoff for
+> Tenacious Bond you need a primary at 59% or more crit after mods, which Hunter
+> Synergy and Mecha Overdrive then inherit.
+
+**The build**
+
+- Immunity Resistance, rank 3, unpolarised
+- Shocking Claws, rank 10, unpolarised. Converts innate toxin damage to electric
+- Radon Claws, rank 3, unpolarised
+- Precision Conditioning, rank 10, Madurai polarity
+- Maul, rank 10, Madurai polarity
+- Mecha Overdrive, rank 5, unpolarised
+- Hunter Synergy, rank 5, unpolarised
+- Bite, rank 10, Madurai polarity
+- Elusive Posture, rank 3, Precept polarity
+
+Weapon figures land near 32% base crit chance and 10x crit damage, lifted by the
+inherited primary crit. Confidence: Approximation, per the author.
+
+**The mods.** Bite plus Maul plus Precision Conditioning are the crit and damage
+core; Shocking Claws makes it electric; Hunter Synergy and Mecha Overdrive
+inherit crit and status from a high-crit primary statstick.
+
+**Where it struggles.** Needs the primary statstick at 59%-plus crit. The pet
+picks its own targets.
+
+**Variants.** The Shield Hound (#387) is the Raksa shield-buffer support build.
+
+**Who runs this.** Hildryn players who also want the Kubrow to deal damage.
+
+---
+
+### The Predasite Claws
+**Pharaoh Claws. A DPS claw build for the Predasite, riding a primary statstick.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Companion DPS |
+| Difficulty | Intermediate |
+| Investment | Low. 2 forma |
+| Weapon reliance | Standalone (it is the pet weapon), needs a primary statstick |
+
+> Tenno. Pharaoh claws have a 10x crit multiplier. As with the other Mecha
+> claws, Hunter Synergy and Mecha Overdrive inherit crit and status from your
+> primary, so a high-crit statstick does the heavy lifting.
+
+**The build**
+
+- Shocking Claws, rank 10, unpolarised. Converts innate toxin damage to electric
+- Radon Claws, rank 3, unpolarised
+- Immunity Resistance, rank 3, unpolarised
+- Maul, rank 10, Madurai polarity
+- Precision Conditioning, rank 10, Madurai polarity
+- Mecha Overdrive, rank 5, unpolarised
+- Hunter Synergy, rank 5, unpolarised
+- Bite, rank 10, Madurai polarity
+- Frenzied Posture, rank 3, Precept polarity
+
+Weapon figures land near 32% base crit chance and 10x crit damage, lifted by the
+inherited primary crit. Confidence: Approximation, per the author.
+
+**The mods.** Bite plus Maul plus Precision Conditioning are the crit and damage
+core; Shocking Claws makes it electric; Hunter Synergy and Mecha Overdrive
+inherit from a high-crit primary statstick.
+
+**Where it struggles.** Needs the primary statstick. The pet picks its own
+targets.
+
+**Variants.** The Mecha Predasite (#390) is the Pharaoh support build.
+
+**Who runs this.** Players who want the Predasite as a damage pet.
+
+---
+
+### The Heat Primer
+**Tazicor. A heat-inherit primer variant of the sentinel beam.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heat-inherit primer |
+| Difficulty | Advanced |
+| Investment | Low. 4 forma, MR 3 |
+| Weapon reliance | Standalone (it is the sentinel weapon) |
+
+> Tenno. Same Tazicor beam, tuned for heat inherit: load the first heat stack
+> with every heat and faction multiplier so your main weapon's later procs copy
+> a huge value.
+
+**The build**
+
+- Primed Shred, rank 10, Madurai polarity
+- Split Chamber, rank 5, Madurai polarity
+- Hellfire, rank 5, Naramon polarity
+- Thermite Rounds, rank 3, unpolarised
+- Wildfire, rank 3, unpolarised
+- High Voltage, rank 3, unpolarised
+- Malignant Force, rank 3, Madurai polarity
+- Primed Bane of Grineer, rank 10, Madurai polarity
+
+Weapon figures land near 5% crit chance and 1.5x crit damage; the build is tuned
+for the heat stack. Confidence: Approximation, per the author.
+
+**The mods.** Hellfire plus Thermite Rounds plus Wildfire load the heat; Primed
+Bane of Grineer adds the faction multiplier the inherited stack copies; Split
+Chamber plus Primed Shred spread the beam. Swap Primed Bane to match the
+faction.
+
+**Where it struggles.** Faction-specific. Near-zero direct damage.
+
+**Variants.** The Multi Primer (#386) is the broad four-status Tazicor.
+
+**Who runs this.** Players running a heat-inherit main weapon who want the
+primer in the sentinel slot.
+
+---
