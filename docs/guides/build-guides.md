@@ -18189,3 +18189,460 @@ Plague Primer (#232) is the base-Bubonico primer.
 **Who runs this.** Uriel players who fight from the air.
 
 ---
+
+### The Thrax Needle
+**Coda Sporothrix. A magnetic-electric single-shot build for deleting Thrax.**
+
+| | |
+|--|--|
+| Content | Steel Path, Void Cascade, Level cap |
+| Role | Single-target delete, priority kills |
+| Difficulty | Advanced |
+| Investment | Low. 4 forma, MR 17 |
+| Weapon reliance | High. Wants an external flat crit buff |
+
+> Tenno. Same 1%-crit, 3x-multiplier chassis as the trash-clear Sporothrix, but
+> stripped to single-target: Target Acquired for the headshot multiplier,
+> magnetic to shred overguard, and a flat-crit source to make the multiplier
+> land.
+
+**The build**
+
+- Target Acquired, rank 5, unpolarised
+- Hammer Shot, rank 3, Vazarin polarity
+- Stormbringer, rank 5, Naramon polarity
+- Rifle Elementalist, rank 5, unpolarised
+- Magnetic Capacity, rank 3, unpolarised
+- Amalgam Serration, rank 10, Madurai polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Exilus: Terminal Velocity, Madurai polarity
+- Arcane: Primary Crux
+
+Weapon figures land near 5% base crit chance and 4.8x crit damage with a roughly
+2.55x Incarnon multiplier; five puncture procs add flat crit. Confidence:
+Approximation, per the author.
+
+**The mods.** Target Acquired is a 1.6x headshot multiplier that double-dips the
+electric damage-over-time; Galvanized Chamber is multishot; Galvanized Aptitude
+and Amalgam Serration are the damage stack; Stormbringer plus Magnetic Capacity
+make magnetic-electric for overguard.
+
+**Where it struggles.** Needs a flat-crit frame or arcane. Slow fire rate. High
+MR gate.
+
+**Variants.** The Spore Rifle (#211) is the crowd-clear Sporothrix.
+
+**Who runs this.** Cascade players who need to snipe Thrax fast.
+
+---
+
+## Secondary weapons
+
+### The Pocket Truck
+**Laetum. A raw non-crit sidearm that one-shots Steel Path on Devouring Attrition.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Single-target one-shot, small-crowd Incarnon |
+| Difficulty | Advanced |
+| Investment | Medium. 6 forma, MR 14 |
+| Weapon reliance | Standalone |
+
+> Tenno. The primary fire feels like a Lex Prime and hits like a truck; twelve
+> headshots (three or four with multishot) charge the Incarnon into a pocket
+> Acceltra. Built raw non-crit for the 2000% Devouring Attrition roll.
+
+**The build**
+
+- Primed Heated Charge, rank 10, Naramon polarity
+- Pistol Pestilence, rank 3, unpolarised
+- Primed Convulsion, rank 10, Naramon polarity
+- Augur Pact, rank 5, unpolarised
+- Accelerated Isotope, rank 3, Madurai polarity
+- Lethal Torrent, rank 5, Madurai polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Exilus: Lethal Momentum, Madurai polarity
+- Arcane: Secondary Fortifier
+
+Weapon figures land near 22% crit chance and 2.2x crit damage with a roughly
+4.1x Incarnon multiplier; the build ignores crit for the Attrition roll.
+Confidence: Approximation, per the author.
+
+**The mods.** Hornet Strike and Galvanized Diffusion are the base damage and
+multishot core; Primed Heated Charge plus Primed Convulsion plus Pistol
+Pestilence build the raw elements. Secondary Fortifier grants free overguard and
+bonus damage against eximus and Thrax.
+
+**Where it struggles.** Attrition is a coin flip, so damage has variance. Charge
+uptime for the Incarnon.
+
+**Variants.** The Overwhelming Void (#264) is the crit-focused Laetum.
+
+**Who runs this.** Players who want one of the strongest sidearms in the game.
+
+---
+
+### The Frenzy Pistols
+**Dual Toxocyst Incarnon. Raw-damage headshot dual pistols with a ricochet auto mode.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Precision DPS, single target |
+| Difficulty | Advanced |
+| Investment | Heavy. 7 forma, MR 11 |
+| Weapon reliance | Standalone |
+
+> Tenno. A headshot triggers the Frenzy buff: +150% fire rate, +100% toxin and
+> reduced recoil for three seconds. The Incarnon form is full-auto with
+> ricochets that curve back into heads regardless of where you aimed.
+
+**The build**
+
+- Lethal Torrent, rank 5, Madurai polarity
+- Primed Convulsion, rank 10, Naramon polarity
+- Merciless Gunfight, rank 5, Naramon polarity
+- Primed Pistol Gambit, rank 10, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Galvanized Crosshairs, rank 10, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Exilus: Targeting Subsystem, Madurai polarity
+- Arcane: Secondary Deadhead
+
+Weapon figures land near 14% base crit chance and 5.1x crit damage; orange or
+red crits with an arcane, riven or external buff. Confidence: Approximation, per
+the author.
+
+**The mods.** Primed Pistol Gambit and Primed Target Cracker plus Galvanized
+Crosshairs are the crit core; Galvanized Shot is damage-per-status; Galvanized
+Diffusion is multishot. Primed Convulsion is electric. The Frenzy buff's
+infinite-ammo component does not apply to Incarnon ammo.
+
+**Where it struggles.** Keeping Frenzy up needs consistent headshots. Charge
+uptime.
+
+**Who runs this.** Players who chain headshots and want the Frenzy loop.
+
+---
+
+### The Homing Tendrils
+**Ocucor. A viral beam that keeps four homing tendrils alive without reloading.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Crowd clear, autonomous DPS |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 8 |
+| Weapon reliance | Standalone |
+
+> Tenno. Ocucor spawns up to four homing tendrils on kills, and Sentient Surge
+> lets you hold the magazine indefinitely so they never reset. The tendrils
+> clear the room while you aim the main beam.
+
+**The build**
+
+- Primed Heated Charge, rank 10, Naramon polarity
+- Ice Storm, rank 3, unpolarised
+- Pistol Pestilence, rank 3, unpolarised
+- Lethal Torrent, rank 5, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Sentient Surge, rank 5, unpolarised. Augment. Not reloading grants stacking crit and status and keeps tendrils
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Exilus: Ruinous Extension, Naramon polarity
+- Arcane: Cascadia Flare
+
+Weapon figures land near 16% crit chance and 3.78x crit damage at a 19.2 fire
+rate, both rising as Sentient Surge stacks. Confidence: Approximation, per the
+author.
+
+**The mods.** Galvanized Shot is +120% per unique status; Galvanized Diffusion
+is multishot; Sentient Surge is the no-reload augment that keeps the tendrils
+and grants bonus crit and status. Primed Heated Charge plus Pistol Pestilence
+plus Ice Storm build the element.
+
+**Where it struggles.** Tendrils need kills to spawn, so a slow start. Short
+range.
+
+**Who runs this.** Players who want a beam pistol that fights alongside them.
+
+---
+
+### The Charged Fist
+**Balefire Charger Prime. Hildryn's exalted sidearm as an Aegis Gale nuke.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Area nuke |
+| Difficulty | Intermediate |
+| Investment | Heavy. 7 forma, Hildryn only |
+| Weapon reliance | High. Hildryn-locked |
+
+> Tenno. With the Aegis Gale augment, Balefire becomes a spammable area alt-fire.
+> This build stacks raw damage and status so each blast erases a crowd, powered
+> by Hildryn's shields instead of ammo.
+
+**The build**
+
+- Primed Heated Charge, rank 10, Naramon polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Primed Convulsion, rank 10, Naramon polarity
+- Lethal Torrent, rank 5, Madurai polarity
+- Primed Fulmination, rank 10, Madurai polarity
+- Magnum Force, rank 10, Madurai polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Exilus: Lethal Momentum, Madurai polarity
+- Arcane: Secondary Enervate
+
+Weapon figures land near 5% crit chance and 3.15x crit damage with a roughly
+4.85x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Hornet Strike is the mandatory 220% base damage; do not use
+Galvanized Shot, Balefire is 100% area and does not benefit. Primed Fulmination
+widens the blast; Primed Heated Charge plus Primed Convulsion build the element.
+Secondary Enervate adds roughly a flat 80% crit chance for yellow and orange
+crits.
+
+**Elements.** Corrosive-heat for general use, viral-electric for Corrupted and
+Murmur, magnetic-toxin or heat for Corpus.
+
+**Where it struggles.** Hildryn-locked. Slow charge on the alt-fire.
+
+**Variants.** Storm of Shields (#010) and The Drifting Bastion (#078) are the
+Hildryn frame builds this pairs with.
+
+**Who runs this.** Hildryn players who want the exalted pistol as their nuke.
+
+---
+
+### The Odd Tome
+**Grimoire. A viral-radiation-magnetic primer that also regenerates energy and drops orbs.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Dedicated primer, energy support |
+| Difficulty | Intermediate |
+| Investment | Low. 3 forma, MR 10 |
+| Weapon reliance | Low. It is a support tool |
+
+> Tenno. The Grimoire's charged alt-fire is a wide primer that also runs
+> invocation mods: energy regeneration, orb generation, and a status spread of
+> viral, radiation and magnetic across the whole crowd.
+
+**The build**
+
+- Xata Invocation, rank 3, Naramon polarity. Grants energy regeneration while equipped
+- Magnetic Might, rank 3, unpolarised
+- Lethal Torrent, rank 5, Madurai polarity
+- Accelerated Isotope, rank 3, Madurai polarity
+- Frostbite, rank 3, unpolarised
+- Pistol Pestilence, rank 3, Madurai polarity
+- Amalgam Barrel Diffusion, rank 5, Madurai polarity
+- Augur Seeker, rank 5, unpolarised
+- Exilus: Khra Canticle, unpolarised
+- Arcane: Secondary Encumber
+
+Weapon figures land near 20% crit chance and 2.8x crit damage; this is a status
+tool, not a damage one. Confidence: Approximation, per the author.
+
+**How it works.** Magnetic Might procs magnetic for the overguard and shield
+multiplier; Accelerated Isotope adds radiation and fire rate; Pistol Pestilence
+plus Frostbite build viral. Lethal Torrent and Augur mods speed the alt-fire
+charge. Xata Invocation trickles energy back the whole mission.
+
+**Where it struggles.** Almost no damage. Charge time on the alt-fire.
+
+**Who runs this.** Caster frames who want a primer that also feeds their energy
+bar.
+
+---
+
+### The Burning Page
+**Noctua. A heat or electric hybrid crit tome for Dante, with a utility invocation slot.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Hybrid DPS and utility |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 10 |
+| Weapon reliance | Standalone. Best on Dante |
+
+> Tenno. Noctua is a crit-heavy tome. Modded for heat or electric with the
+> Galvanized status core, it is a real damage weapon, and its invocation slot
+> can carry energy regeneration or a utility proc instead.
+
+**The build**
+
+- Vome Invocation, rank 3, Madurai polarity. Grants health regeneration while equipped
+- Primed Convulsion, rank 10, Naramon polarity
+- Pistol Elementalist, rank 5, Vazarin polarity
+- Lethal Torrent, rank 5, Madurai polarity
+- Primed Pistol Gambit, rank 10, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Exilus: Lohk Canticle, unpolarised
+- Arcane: Secondary Encumber
+
+Weapon figures land near 86% crit chance and 4.2x crit damage at a 2.4 fire
+rate. Confidence: Approximation, per the author.
+
+**The mods.** Primed Pistol Gambit plus Primed Target Cracker are the crit core;
+Galvanized Shot is damage-per-status; Galvanized Diffusion is multishot; Pistol
+Elementalist boosts status damage. The invocation slot is flexible: Magnetic
+Might or Accelerated Isotope for DPS, Xata or Vome Invocation for regeneration.
+Pair with external fire rate (Reinforced Bond, Arcane Velocity).
+
+**Where it struggles.** Low base fire rate without buffs. Slow reload.
+
+**Variants.** The Book of Fire (#116) is Dante's pure-Noctua frame build.
+
+**Who runs this.** Dante players who want the tome to actually kill things.
+
+---
+
+### The Gunslinger's Pair
+**Regulators Prime. Mesa's exalted pistols built corrosive-heat for armour.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Peacemaker DPS |
+| Difficulty | Intermediate |
+| Investment | Low. 3 forma, Mesa only |
+| Weapon reliance | High. Mesa-locked |
+
+> Tenno. Regulators Prime is what Peacemaker fires. Corrosive-heat strips and
+> ticks, the crit core keeps the beam red, and the arcane slot is now the main
+> tuning decision.
+
+**The build**
+
+- Primed Heated Charge, rank 10, Naramon polarity
+- Primed Convulsion, rank 10, Naramon polarity
+- Pistol Pestilence, rank 3, unpolarised
+- Lethal Torrent, rank 5, unpolarised
+- Primed Target Cracker, rank 10, Madurai polarity
+- Primed Pistol Gambit, rank 10, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Exilus: open
+- Arcane: Secondary Outburst
+
+Weapon figures land near 72% crit chance and 6.3x crit damage at a 23.7 fire
+rate. Confidence: Approximation, per the author.
+
+**The mods.** Primed Pistol Gambit plus Primed Target Cracker are crit;
+Galvanized Shot is damage-per-status; Galvanized Diffusion is multishot; Primed
+Heated Charge plus Primed Convulsion plus Pistol Pestilence build corrosive and
+heat.
+
+**Arcane.** Secondary Outburst is the highest DPS but needs finisher or
+primary-kill setup (Crescendo Furax Wraith or Ceramic Dagger). Secondary
+Fortifier is the chill pick, generating overguard and shredding eximus overguard
+fast. Cascadia Flare is flat base damage.
+
+**Where it struggles.** Mesa-locked. Peacemaker's aim cone.
+
+**Who runs this.** Mesa players tuning Peacemaker for armoured Steel Path.
+
+---
+
+### The Quick Primer
+**Epitaph Prime. A one-forma quickshot primer that paints a crowd per tap.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Dedicated primer |
+| Difficulty | Beginner |
+| Investment | Low. 1 forma, MR 14 |
+| Weapon reliance | Low. It is a support tool |
+
+> Tenno. Epitaph's uncharged quickshot fires fast and leaves a small area.
+> Modded for status chance and Fulmination width, one tap primes viral, heat,
+> magnetic and more across a group.
+
+**The build**
+
+- Magnetic Might, rank 3, unpolarised
+- Scorch, rank 3, unpolarised
+- Frostbite, rank 3, unpolarised
+- Pistol Pestilence, rank 3, unpolarised
+- Accelerated Isotope, rank 3, unpolarised
+- Primed Fulmination, rank 10, Madurai polarity
+- Sure Shot, rank 5, Vazarin polarity
+- Amalgam Barrel Diffusion, rank 5, Madurai polarity
+- Exilus: Primed Pistol Ammo Mutation, Naramon polarity
+- Arcane: Secondary Fortifier
+
+Weapon figures land near 50% crit chance and 4.2x crit damage; the build is
+tuned for status output. Confidence: Approximation, per the author.
+
+**How it works.** Primed Fulmination widens the quickshot area; Magnetic Might,
+Scorch, Frostbite and Pistol Pestilence stack the statuses; Sure Shot and
+Amalgam Barrel Diffusion push status chance and multishot. Secondary Fortifier
+steals overguard from eximus. Swap elements to your combo: corrosive-heat with
+Nourish, magnetic-heat for Thrax, viral-electric with Conjunction Voltage.
+
+**Where it struggles.** Near-zero damage. It is purely support.
+
+**Who runs this.** Players who want the lightest possible dedicated primer.
+
+---
+
+### The Microwave Beam
+**Kuva Nukor. An Enervated crit beam that primes and kills with viral and a chained element.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Primer and single-target DPS |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 13 |
+| Weapon reliance | Standalone. Doubles as a primer |
+
+> Tenno. Kuva Nukor's beam has a wide auto-aim cone and a huge crit multiplier.
+> Secondary Enervate flips its 7% crit into orange and red territory, while its
+> hidden microwave status stacks four procs for Galvanized Shot.
+
+**The build**
+
+- Primed Convulsion, rank 10, Naramon polarity
+- Lethal Torrent, rank 5, Madurai polarity
+- Pistol Elementalist, rank 5, unpolarised
+- Primed Target Cracker, rank 10, Madurai polarity
+- Pistol Pestilence, rank 3, unpolarised
+- Frostbite, rank 3, unpolarised
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Exilus: Primed Pistol Ammo Mutation, Madurai polarity
+- Arcane: Secondary Enervate
+
+Weapon figures land near 7% base crit chance and 10.5x crit damage, the crit
+lifted hard by Secondary Enervate. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Shot is +120% per status (Kuva Nukor self-procs four);
+Galvanized Diffusion is multishot; Primed Target Cracker is crit damage; Pistol
+Pestilence plus Frostbite build viral. Secondary Enervate is the crit-chance
+arcane that makes the 10.5x multiplier matter.
+
+**Progenitor.** Magnetic, so you can run pure single elements and swap them
+without combining, plus the overguard-break electric proc that scales with enemy
+level.
+
+**Where it struggles.** Short range. Reload speed. Not a crowd nuke on its own.
+
+**Who runs this.** Players who want one sidearm that primes for the squad and
+still deletes eximus.
+
+---
