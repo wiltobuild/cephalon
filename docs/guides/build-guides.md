@@ -4198,3 +4198,776 @@ damage, EHP route has a ceiling, painfully slow casts without investment.
 the squad while a pet does the killing.
 
 ---
+
+### The Razor Storm
+**Caliban Prime. Level-scaling Ortholyst turrets, a Razor Gyre shield engine, and a lingering strip zone.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Summoner DPS that scales with enemy level, crowd control, armour strip, shield tank |
+| Difficulty | Intermediate |
+| Investment | High. 5 forma, strength and cast-speed shards |
+| Weapon reliance | Low. Ortholysts do the killing and get stronger the deeper you go |
+
+> Tenno. Caliban summons Ortholysts, and their damage is multiplied by your
+> Strength and by the enemy's own level, so a level-cap turret hits for numbers a
+> weapon cannot reach. Razor Mortar sets them to mortar mode: three turrets, a
+> storm of electric shells. Razor Gyre is your engine, spin through a crowd for
+> shields and energy. Fusion Strike drops a zone that strips anything walking into
+> it. Sentient Wrath slows and marks. Push Strength as high as it goes.
+
+**The build**
+
+- Umbral Intensify, rank 10, unpolarised
+- Razor Mortar, rank 3, Zenurik polarity — augment. Ortholysts fire scaling electric mortars
+- Blind Rage, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Rolling Guard, rank 10, Vazarin polarity
+- Aura: Summoner's Wrath, aura slot
+- Exilus: Coaction Drift, unpolarised
+- Arcanes: Molt Augmented, Arcane Camisado
+
+Arsenal figures land at roughly 298% Strength, 128% Duration, 145% Range, 45%
+Efficiency, with 370 health, 740 shield, 290 armor and a 641 energy pool.
+
+**How it works.** Ortholyst DPS multiplies through Strength several times over: a
+direct 2.5x, an exponential boost from their level scaling (their level is 30x
+Strength), and Razor Mortar's electric and fire-rate multipliers (each 1 + 0.7x
+Strength). The author's figure: going from 100% to 200% Strength is about 14x
+damage, and 400% is about 282x. With Camisado, Molt Augmented and Madurai you
+reach 400%+, and with shards 500% for roughly 800x. Fusion Strike full-strips at
+200% Strength, 164% with Corrosive Projection. *Confidence: Approximation, per the
+author's damage formulas.*
+
+**Playstyle.** Invert tap/hold.
+
+1. Hold 3 to select Ortholysts, tap 3 to summon; keep them up.
+2. Cast 1 (Razor Gyre) often, and whenever shields break, to restore shields, gain energy, group and trigger Razor Mortar.
+3. Cast 4 (Fusion Strike) for the 20m+ lingering strip zone.
+4. Cast Sentient Wrath frequently for the slow, the damage vulnerability and Tau status.
+
+**Survivability.** Shield tanking for casual and base Steel Path (shields' innate
+50% plus Caliban's passive 50% adaptation, plus Adaptation itself for 95%). Shield
+gating for endurance: overshields from 1 or 3 count for the full 2.5s gate, so
+spinning in Razor Gyre with over 1150 overshield resets it every time. Do not run
+Augur mods; they overwrite the 2.5s gate with a tiny one. *Confidence:
+Approximation, per the author.*
+
+**Duration, Efficiency, Range, Strength.** Positive Duration for Lethal Progeny and
+Razor Mortar uptime. Efficiency at 45% because Razor Gyre nets energy per enemy
+hit; 100% if you drop Blind Rage. Range 145% to 235% for all abilities. Strength
+is the entire build.
+
+**The mods.** *Blind Rage, Transient Fortitude, Umbral Intensify* are the Strength
+stack, with *Primed Continuity* holding Duration. *Archon Stretch* is Range plus
+passive energy off Razor Mortar. *Primed Flow* is the pool. *Rolling Guard* is
+the status cleanse. *Summoner's Wrath* aura is a faction-style buff for the
+Ortholysts that double-dips their electric status. *Razor Mortar* is the turret
+damage form.
+
+**Flexible slots.** Transient Fortitude or Rolling Guard to Overextended for more
+Range. Coaction Drift in the exilus boosts Summoner's Wrath to ~99%. Adaptation
+over Rolling Guard for passive tank.
+
+**Helminth.** Pick one. Subsume over Razor Gyre, Sentient Wrath, Lethal Progeny or
+Fusion Strike depending on focus.
+
+- **Nourish** over 4 for viral on Lethal Progeny and weapons plus an energy multiplier.
+- **Roar** over a slot for status weapons, though Summoner's Wrath is already a large summon buff.
+- **Brightbonnet** for even more Strength and Ortholyst DPS.
+- **Shock** with Shock Trooper for an electric add to Ortholysts out of mortar mode and to influence melees.
+
+**Archon Shards.** One to two Amber cast-speed. Two to three Crimson strength. Two
+parkour. Five total.
+
+**Arcanes.** Arcane Camisado for a fast 60% Strength off the summons, Molt
+Augmented for another 60%. Molt Efficiency as a Duration swap.
+
+**Focus.** Madurai for 50% cast speed on Fusion Strike and 40% Strength.
+
+**Weapon synergy.** Caliban's abilities apply Tau status, a final status-DPS
+multiplier, so status weapons pair best: Torid Incarnon, Boar Incarnon, Strun,
+Kuva Nukor, influence melees. A companion (Diriga, Hound) that primes puncture,
+corrosive and cold buffs the Ortholysts directly.
+
+**Staying alive.** Overshield gating off Razor Gyre plus Sentient Wrath's slow
+plus Rolling Guard. It fails if you stop spinning with the gate down, and to
+Augur mods breaking the long gate.
+
+**Energy.** Razor Gyre nets energy per hit. Arcane Steadfast and Archon Stretch
+back it up.
+
+**Where it struggles.** Slow at low levels where Ortholysts have little to scale
+against. Bosses. The 5-forma cost and the reliance on hitting very high Strength.
+
+**Variants.** A hyper-mobile endurance variant. A Pyrotechnics Flechette variant.
+
+**Strengths and weaknesses.** Strong: damage that scales with the enemy forever,
+strong crowd control and strip, self-sustaining shields, low weapon investment.
+Weak: weak early, boss-blind, forma-hungry, wants extreme Strength to shine.
+
+**Who runs this.** Players who want a summoner whose turrets out-damage weapons the
+deeper the endurance run goes.
+
+---
+
+### Galactic Immunisation Program
+**Vauban Prime. Flechette Orbs that scale with enemy level, plus a Photon Strike nuke.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Scaling ability DPS, grouping, armour strip, damage buff |
+| Difficulty | Advanced. Minelayer, Bastille or Vortex, Photon Strike and a crit-stack setup |
+| Investment | Very high. 6 forma, strength and cast-speed shards |
+| Weapon reliance | Low. Flechette and Photon Strike do the killing |
+
+> Tenno. Vauban lays traps. Flechette Orbs fire nails whose damage is multiplied
+> by enemy level, faster than enemy health scales, so at level cap each nail
+> nearly one-shots a heavy gunner with no priming. Photon Strike is an on-demand
+> blast nuke. Bastille lifts and strips, Vortex groups, Overdriver buffs your
+> damage. Set the orbs on a wall at head height and let the room walk into them.
+
+**The build**
+
+- Umbral Intensify, rank 10, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Molt Augmented, Arcane Sculptor
+
+Arsenal figures land at roughly 183% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with 370 health, 370 shield, 210 armor and a 641 energy pool.
+
+**How it works.** Flechette Orb damage multiplies by `1 + enemy level / 10` on top
+of Strength, Vauban's passive, Overdriver, and optional crit-stack multipliers, so
+it scales past enemy EHP. The author's figure: about 200,000 per nail at level
+101, about 15 million at level 9999, 90 million with 10 viral. Arcane Sculptor
+triggers off multiple abilities and locks 175% Efficiency, letting Blind Rage run
+at 45% arsenal Efficiency. *Confidence: Approximation, per the author's calculator.*
+
+**Playstyle.**
+
+1. Hold 2 for a Vector-Overdriver, step on it for a damage and speed buff.
+2. Tap 2 to lay up to four Flechette-Tether orbs in the area you want to hold, at head height on a wall.
+3. Tap 4 for up to four Bastilles to lift and strip; hold 4 to collapse into a grouping Vortex, or cast Vortex first then Bastilles for both.
+4. Spam tap 3 (Photon Strike) into the group or freely while moving.
+
+**Duration, Efficiency, Range, Strength.** Positive Duration for Minelayer,
+Bastille and Vortex, and buff uptime. Efficiency solved by Sculptor. Range for
+Bastille and Vortex reach, tether grab and Photon Strike radius. Strength for
+Flechette and Photon Strike damage, Overdriver, and the strip speed.
+
+**The mods.** *Blind Rage, Umbral Intensify* are the Strength, covered by *Arcane
+Sculptor*. *Overextended, Archon Stretch* set the Range, with Archon Stretch
+feeding passive energy. *Primed Continuity* holds Duration. *Primed Flow,
+Equilibrium* are the energy base. *Catalyzing Shields* locks the gate. *Brief
+Respite* aura feeds it.
+
+**Flexible slots.** Augur Reach flexes for Rolling Guard, Photon Repeater (Photon
+Strike spam economy), Enduring Bastille, Tesla Bank, or Vigorous Swap. Corrosive
+Projection over Brief Respite with Catalyzing Shields plus one Augur mod
+elsewhere. The exilus is open.
+
+**Helminth.** Pick one. Subsume over 1.
+
+- **Nourish** for viral Flechettes, an energy multiplier, and fast Vortex viral.
+- **Roar** for a smaller multiplier that also hits Photon Strike and double-dips blast.
+
+**Archon Shards.** Two Amber cast-speed. Two Crimson strength. One flexible
+(parkour). Five total.
+
+**Arcanes.** Arcane Sculptor for the Efficiency lock, Molt Augmented for Strength.
+For a max-Flechette build: Arcane Hot Shot plus Arcane Crepuscular for crit, with
+Naramon's Lethal Levitation on top.
+
+**Focus.** Naramon for Lethal Levitation's 300% Flechette buff. Vazarin Sling as a
+backup. Madurai for Strength and cast speed.
+
+**Weapon synergy.** Mutalist Quanta lets Flechettes pass through its orbs for
+electric, flat crit chance and crit damage. Tenet Glaxion or a Grimoire with Xata
+Invocation for energy. A Huras Kubrow or Shade for invisibility to enable Arcane
+Crepuscular on Flechette.
+
+**Staying alive.** Shield gating off 2 and 4 plus Bastille and Vortex crowd
+control. It fails in the gap between casts if you cannot gate, and to toxin.
+
+**Energy.** Arcane Sculptor plus Equilibrium plus Archon Stretch.
+
+**Where it struggles.** Weak at low levels where Flechette has little to scale
+against. The rotation is genuinely busy. Bosses need Photon Strike or the weapon.
+6 forma is a heavy ask.
+
+**Variants.** A hyperactive mobile endurance build. A Pyrotechnics Flechette
+build. A Photon Repeater spam build. An infinite Vortex plus Spectrosiphon build.
+
+**Strengths and weaknesses.** Strong: damage that scales with the enemy, strong
+grouping and strip, an on-demand nuke, low weapon investment. Weak: weak early,
+high complexity, forma-hungry, boss damage needs Photon Strike.
+
+**Who runs this.** Players who want a trap-frame whose orbs get lethal exactly
+when the endurance run gets hard.
+
+---
+
+### Fantastic Funguy
+**Nokko. A bouncing Sporespring toxin nuke launched off a Brightbonnet, cast from immortality.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Toxin room nuke, self-immortal caster, minor squad energy support |
+| Difficulty | Intermediate. The Brightbonnet-then-triple-Sporespring rhythm |
+| Investment | High. 5 forma, toxin and cast-speed shards |
+| Weapon reliance | Very low. Sporespring is the damage; a viral primer helps |
+
+> Tenno. Nokko grows mushrooms. Brightbonnet is a trampoline that pulses energy
+> and doubles your Strength when you throw a Sporespring into it. Sporespring is a
+> ball that bounces ten times, each bounce multiplying its damage and adding crit
+> chance, ending in a forced-toxin nuke. Cast three at the Brightbonnet, dive into
+> Reroot to be immortal and unseen, and wait for the room to dissolve.
+
+**The build**
+
+- Augur Reach, rank 5, unpolarised
+- Umbral Intensify, rank 10, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Blind Rage, rank 10, Madurai polarity
+- Stretch, rank 5, Naramon polarity
+- Overextended, rank 5, Vazarin polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Molt Augmented, Arcane Crepuscular
+
+Arsenal figures land at roughly 238% Strength, 128% Duration, 280% Range, 45%
+Efficiency, with 250 health, 400 shield, 135 armor and a 513 energy pool.
+
+**How it works.** Sporespring deals 2500 base toxin plus a 1250/s forced toxin
+DoT, multiplied by Strength; Brightbonnet adds 30% x Strength, doubled if you
+throw a Sporespring into it first. Each of the 10 bounces multiplies damage by
+1.5x and adds 25% crit chance. While in Reroot (which counts as invisibility)
+Arcane Crepuscular's flat crit-damage add pushes the final bounce to red crits.
+The author's figure: about 677 million lifetime damage per Sporespring with Roar
+and toxin shards, near 3 billion with 10 viral. *Confidence: Approximation, per
+the author's spreadsheet.*
+
+**Playstyle.**
+
+1. Optional: cast Stinkbrains (tap 1) around the map for viral and sleep, or keep your subsume active instead.
+2. Cast a Brightbonnet (tap 2) under you and jump on it for energy and Strength.
+3. Cast Sporespring (tap 4) three times fast at the Brightbonnet.
+4. Enter Reroot to be immortal and unseen; wait for all bounces, then pop out and repeat.
+
+**Survivability.** Reroot is total invulnerability. Between casts, shield gate off
+your constant ability casting (Augur mods or Brief Respite), and if you die you
+revive by touching one of your mushrooms, so always keep a Brightbonnet nearby.
+Huras or Shade keeps you invisible so Reroot is a bonus rather than a crutch.
+*Confidence: Approximation, per the author.*
+
+**Duration, Efficiency, Range, Strength.** Duration only for the 1 and 2 mushrooms
+and Reroot; it does not touch Sporespring. Efficiency negative because Brightbonnet
+pulses energy scaled by Strength. Range is the priority, maxed, so Sporespring's
+zero-falloff explosions hit the whole room. Strength is second, driving the nuke
+and the Brightbonnet boost.
+
+**The mods.** *Blind Rage, Transient Fortitude, Umbral Intensify* are the Strength.
+*Overextended, Stretch, Augur Reach* set the maxed Range, with Augur Reach also
+feeding the gate. *Primed Flow* is the pool. *Archon Continuity* is Duration plus
+corrosive procs off Sporespring's toxin. *Corrosive Projection* helps the early
+bounces.
+
+**Flexible slots.** Precision Intensify over Umbral Intensify if not subsuming
+Roar. The aura and exilus are open.
+
+**Helminth.** Pick one. Subsume over 1 (mobile or endurance) or 3 (stationary).
+
+- **Roar** for Sporespring damage and a toxin double-dip.
+- **Breach Surge** for homing sparks off Sporespring's damage and toxin, double-dipped by Crepuscular.
+
+**Archon Shards.** Two Amber cast-speed for the triple-Sporespring cast. Three
+Emerald toxin-status damage (the highest lifetime-damage shard). Five total.
+
+**Arcanes.** Arcane Crepuscular for the flat crit-damage add in Reroot (this is
+what makes the final bounce red-crit), Molt Augmented for Strength. Note Nourish,
+Camisado, Hotshot and Arachne do not affect Sporespring.
+
+**Focus.** Madurai for Strength and cast speed. Any works given the immortality.
+
+**Weapon synergy.** None specific. Spore-themed weapons (Coda Sporothrix,
+Sporelacer) for flavour and viral spread; a viral primer or Shade with Tazicor
+for the 10-stack multiplier.
+
+**Staying alive.** Reroot immortality plus shield gating plus mushroom revive. It
+fails only if you have no mushroom down when you die.
+
+**Energy.** Brightbonnet pulses cover the 45% Efficiency cost.
+
+**Where it struggles.** Bosses (Sporespring targets centre mass and does not
+special-case them). Very open tiles where enemies spread past even 280% Range's
+bounce reach. The setup rhythm is unforgiving if you fumble the triple cast.
+
+**Variants.** A Precision Intensify non-Roar build. A health-tank build for
+sub-level-500.
+
+**Strengths and weaknesses.** Strong: enormous room-clear numbers, true immortality
+on tap, self-revive, squad energy from Brightbonnet. Weak: boss-blind, setup-
+dependent, wants a primer for the ceiling, 5 forma.
+
+**Who runs this.** Players who want a toxin nuke frame that literally cannot die
+while it waits for the room to melt.
+
+---
+
+### Divine Shield Lotus
+**Nezha Prime. Chakram vulnerability and Divine Retribution status spread, behind Warding Halo.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Status-spread nuke, crowd control, armour strip, near-immortal |
+| Difficulty | Beginner to intermediate |
+| Investment | Very low. 1 forma |
+| Weapon reliance | High. A DoT weapon feeds Divine Retribution; the frame amplifies and spreads it |
+
+> Tenno. Nezha wraps himself in Warding Halo for 90% damage reduction and status
+> immunity, then goes to work. Blazing Chakram tags a crowd with a damage
+> vulnerability and drops health and energy orbs on every kill, so energy is
+> infinite. Divine Spears pins a group and lets Chakram multiply across it. Divine
+> Retribution takes the status your weapon applied and expedites it into a
+> map-wide nuke. Pillage strips and refills your shields.
+
+**The build**
+
+- Stretch, rank 5, unpolarised
+- Fleeting Expertise, rank 5, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Augur Reach, rank 5, unpolarised
+- Divine Retribution, rank 3, unpolarised — augment. Divine Spears expedites weapon status in an area
+- Overextended, rank 5, Vazarin polarity
+- Equilibrium, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Steadfast, Molt Augmented
+
+Arsenal figures land at roughly 139% Strength, 40% Duration, 280% Range, 105%
+Efficiency, with 465 health, 185 shield, 265 armor and a 641 energy pool.
+
+**How it works.** Negative Duration is a feature: Divine Spears ends sooner, which
+expedites all the accumulated weapon status at once, and lets you recast on a new
+group faster; it also speeds Pillage's shield return so it lands inside the 2.5s
+gate. Blazing Chakram's kills drop a guaranteed health orb (55 energy through
+Equilibrium) and a 35% energy orb, so ten kills is 550+ energy. Strength only
+needs the Pillage strip threshold and the Chakram vulnerability. *Confidence:
+Approximation, per the author.*
+
+**Playstyle.**
+
+1. Cast Warding Halo; recast when it breaks.
+2. Cast Divine Spears into a crowd to pin them.
+3. Cast Chakram at a speared enemy so it multiplies and tags the group; kill the tagged for orbs and to spread DoTs.
+4. Spam Pillage to gate and strip.
+
+**Survivability.** Endurance leans on Pillage overshield gating (2.5s over 1150
+overshield), Divine Spears crowd control, Warding Halo's 3s activation and 2s
+break i-frames, and optional Rolling Guard. Base Steel Path just shield-tanks on
+Warding Halo's 90% DR plus Pillage refills. *Confidence: Approximation, per the
+author.*
+
+**Duration, Efficiency, Range, Strength.** Negative Duration as above. Efficiency
+neutral-to-positive via Fleeting Expertise plus the Chakram-Equilibrium loop. Range
+maxed for Divine Retribution's spread (~35m at 250%). Strength for the strip and
+the Chakram vulnerability.
+
+**The mods.** *Blind Rage* is the Strength, offset by *Fleeting Expertise* for
+Efficiency. *Overextended, Stretch, Augur Reach* set the maxed Range, with Augur
+Reach feeding the gate. *Primed Flow* is the pool. *Equilibrium* converts Chakram
+orbs. *Divine Retribution* is the nuke. *Corrosive Projection* lowers the strip
+threshold.
+
+**Flexible slots.** Fleeting Expertise to Transient Fortitude or Augur Reach for a
+45%-Efficiency style. Reaping Chakram for more orbs and Chakram DPS. The exilus is
+open.
+
+**Helminth.** Pick one.
+
+- **Pillage** is the default: strip, shields, status cleanse, and it likes the negative Duration.
+- **Nourish** for viral and energy (add some Duration back).
+- **Breach Surge** to double-dip the Chakram vulnerability on sparks.
+- A **grouping** ability (Pull, Airburst, Ensnare) for high Range and negative Duration.
+- **Reave** for a Chakram-boosted one-shot to level cap.
+
+**Archon Shards.** Two Amber cast-speed. Three Crimson strength, or two parkour.
+Five total.
+
+**Arcanes.** Arcane Steadfast for free casts on a negative-Efficiency high-cost
+ability, Molt Augmented for Strength. Arcane Aegis as a survival swap.
+
+**Focus.** Any. Vazarin Sling as a backup. Madurai for Strength and cast speed.
+
+**Weapon synergy.** Any weapon with strong DoTs feeds Divine Retribution: Paris
+Incarnon, Sporothrix, Torid, Kuva Zarr, influence melees, Kuva Nukor.
+
+**Staying alive.** Pillage overshield gating plus Warding Halo plus Divine Spears
+crowd control. It fails if Warding Halo lapses with the gate down, and to toxin.
+
+**Energy.** The Chakram-Equilibrium loop is a river once it starts.
+
+**Where it struggles.** A cold start before Chakram is up. Bosses. Needs a DoT
+weapon to nuke at all.
+
+**Variants.** A no-helminth Firewalker build. A Reave nuke build.
+
+**Strengths and weaknesses.** Strong: strong status nuke, infinite energy, near-
+immortal, one forma. Weak: weapon-carried, boss-blind, cold start.
+
+**Who runs this.** Players who want a cheap, durable frame that turns a
+status weapon into a map nuke.
+
+---
+
+### Control and Assimilate
+**Nyx Prime. Permanent Assimilate immortality with a banked-damage nuke and a strip.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Immortal caster, banked nuke, armour and shield strip, mind-control buff |
+| Difficulty | Beginner |
+| Investment | Very low. 1 forma |
+| Weapon reliance | Medium. A mind-control weapon or the banked nuke does the damage |
+
+> Tenno. Assimilate is a bubble you carry. Inside it Nyx and her sentinel cannot
+> be hurt, it scales to level cap, and it lasts over six minutes. It costs
+> mobility, but you can roll, and dropping the bubble after banking enough damage
+> nukes 50m and hands you a 400% damage buff. Psychic Bolts strip armour and
+> shields and steal overguard. Mind Control turns a heavy into a damage
+> multiplier.
+
+**The build**
+
+- Assimilate, rank 3, unpolarised — augment. Absorb becomes a mobile, scaling invulnerability
+- Pacifying Bolts, rank 3, unpolarised — augment. Psychic Bolts gain a long stun and forced radiation
+- Mind Freak, rank 3, unpolarised — augment. Mind Control target deals more damage
+- Primed Continuity, rank 10, Madurai polarity
+- Streamline, rank 5, unpolarised
+- Stretch, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Preparation, unpolarised
+- Arcanes: Molt Efficiency, Arcane Consequence
+
+Arsenal figures land at roughly 100% Strength, 155% Duration, 145% Range, 130%
+Efficiency, with 370 health, 465 shield, 135 armor and a 641 energy pool.
+
+**How it works.** Assimilate's drain is set by a Duration-Efficiency pairing: at
+this build's 155% Duration you need about 175% Efficiency (Streamline plus Seismic
+Bond, or Streamline plus Fleeting Expertise) to hit the drain floor and hold it
+indefinitely. Exiting after absorbing 64,000 damage gives 6s of i-frames, a 400%
+additive damage buff for ~12s, and a nuke up to 50m. Psychic Bolts full-strip at
+125% Strength, 103% with Corrosive Projection. *Confidence: Approximation, per the
+author's Duration and Efficiency table.*
+
+**Playstyle.**
+
+1. Tap 4 to enter Assimilate for total immortality. Exit after banking damage to nuke and to move normally with the buff.
+2. Tap 1 on an enemy for Mind Control, then damage it fast to buff its damage.
+3. Tap 2 for Psychic Bolts to strip, steal overguard and spread on kill.
+4. Tap 3 (Chaos) for crowd control if defending an objective.
+
+**Duration, Efficiency, Range, Strength.** Duration and Efficiency are paired to
+the drain floor (see the author's brackets). Range only matters for Chaos, and
+even Assimilate's nuke radius scales with banked damage. Strength only for the
+Psychic Bolts strip threshold and Mind Freak.
+
+**The mods.** *Assimilate* is the whole build. *Streamline* plus the Duration mods
+hit the drain floor. *Primed Flow, Equilibrium* are the energy base. *Stretch* is
+Chaos range. *Pacifying Bolts, Mind Freak* are optional augments. *Corrosive
+Projection* lowers the strip threshold to 103%.
+
+**Flexible slots.** Streamline drops if you run Seismic Bond. Amar's Hatred for
+strength and a heavy-attack teleport for mobility in Assimilate. The exilus is
+open (Preparation for an instant mission-start Assimilate).
+
+**Helminth.** Pick one. Subsume over Chaos (3) unless you need objective crowd
+control.
+
+- **Nourish** for a damage and energy buff that also buffs the Mind Control ally.
+- **Roar** for a damage buff that double-dips status and buffs the Mind Control target.
+- **Xata's Whisper** for raw weapon damage and headshots.
+- **Pillage** for a radial strip.
+
+**Archon Shards.** One Amber cast-speed. Two parkour for rolling speed in
+Assimilate. Two Crimson Duration for the drain brackets. Five total.
+
+**Arcanes.** Molt Efficiency for Mind Control uptime, Arcane Consequence for
+parkour. Arcane Agility or a weapon arcane as swaps.
+
+**Focus.** Any. A robotic companion (sentinel, Hound, Moa) is immortal in
+Assimilate; equip Seismic Bond for the Efficiency threshold.
+
+**Weapon synergy.** Nyx's passive gives up to 200% additive crit chance to
+primaries and secondaries. For Mind Control buffing, a multiplicative Galvanized
+Shot secondary (Ballistica Incarnon, Prisma Angstrum Incarnon, Kuva Seer, Epitaph)
+plus a primer can reach 20,000% to 40,000%. Secondary Irradiate off Chaos's
+radiation.
+
+**Staying alive.** Assimilate is total immortality while active; exiting gives a
+6s i-frame bridge and overguard from Psychic Bolts. It effectively does not fail
+while 4 is up.
+
+**Energy.** The Duration-Efficiency floor plus Equilibrium. A non-issue once tuned.
+
+**Where it struggles.** Mobility is the cost: you roll everywhere or use a teleport
+melee. Damage is entirely on the weapon or the banked nuke. Bosses.
+
+**Variants.** A Nourish Nyx build. A Roar Nyx build.
+
+**Strengths and weaknesses.** Strong: unconditional immortality that scales to
+level cap, a strip, a banked nuke, one forma, beginner-proof. Weak: slow, weapon-
+carried, boss damage on the gun.
+
+**Who runs this.** Players who want to simply not die, ever, and are fine trading
+speed for it.
+
+---
+
+### Loyal Waverider
+**Yareli Prime. Double-stacked Sea Snare vulnerability and a pistol crit passive, off the board.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Weapon platform |
+| Role | Secondary-weapon platform with one of the largest damage debuffs in the game |
+| Difficulty | Beginner to intermediate |
+| Investment | Low. 2 forma |
+| Weapon reliance | Total. Yareli buffs and protects; a secondary weapon does everything |
+
+> Tenno. Loyal Merulina lets you keep normal footing while Merulina floats beside
+> you like a pet, casting its own Sea Snares. Your Sea Snares and Merulina's stack
+> multiplicatively, so a target caught in both takes a 9x hit at 200% Strength, as
+> strong as a 400% Mirage's Eclipse. On top of that, moving gives your pistols a
+> flat 200% crit chance. Double-tap 2 for a 4-second i-frame whenever you need it.
+
+**The build**
+
+- Energy Nexus, rank 5, unpolarised
+- Loyal Merulina, rank 3, unpolarised — augment. Merulina follows you and auto-casts Sea Snares
+- Boreal's Hatred, rank 5, Vazarin polarity
+- Fast Deflection, rank 5, unpolarised
+- Stretch, rank 5, Naramon polarity
+- Umbral Intensify, rank 10, unpolarised
+- Streamline, rank 5, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Precision, Molt Augmented
+
+Arsenal figures land at roughly 144% Strength, 155% Duration, 145% Range, 145%
+Efficiency, with 370 health, a 1073 shield pool, 105 armor and a 315 energy pool.
+
+**How it works.** Max Efficiency is the point: at 175% Efficiency Merulina
+auto-casts Sea Snares every 0.5s instead of every 2s, and every cast costs about 6
+energy. Two overlapping Sea Snares multiply: at 200% Strength that is 3x times 3x
+for 9x, and Strength's effect is magnified through the stacking (300% Strength
+takes it to 16x). Yareli's passive adds a flat 200% pistol crit chance while
+moving. *Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Cast 1 (Sea Snares) whenever enemies are near.
+2. Double-tap 2 whenever shields break or you need cover for the 4s i-frame; keep Merulina up.
+3. Keep a subsumed buff on 3 up if you run one.
+4. Tap 4 (Riptide) occasionally to group.
+
+**Survivability.** Merulina gating: double-tapping 2 with Loyal Merulina active
+gives the full 4s of invulnerability every time. Fast Deflection plus Boreal's
+Hatred shorten the recharge delay so you come out of the i-frame with a shield
+buffer for a second gate. Sea Snares also passively crowd-control. Or just stay in
+Merulina with Adaptation for 99% DR in casual content. *Confidence: Approximation,
+per the author.*
+
+**Duration, Efficiency, Range, Strength.** Efficiency is maxed and is the priority.
+Duration is neutral-to-positive for a subsumed buff and Sea Snare linger. Range
+only for Riptide grouping (Sea Snares' base 30m is plenty). Strength boosts the
+Sea Snare vulnerability, magnified hard by the stacking.
+
+**The mods.** *Umbral Intensify* is the Strength. *Streamline* is the Efficiency
+toward the 175% threshold (with Seismic Bond or Fleeting Expertise filling the
+rest). *Primed Continuity* holds Duration. *Fast Deflection, Boreal's Hatred* are
+the passive-gate package. *Energy Nexus* is a small but now-meaningful energy
+trickle. *Stretch* is Riptide range.
+
+**Flexible slots.** Energy Nexus flexes for Archon Stretch, a Dethcube, or a violet
+Equilibrium shard. More Strength or Duration in the flex. Do not add a cast-speed
+shard if you run Madurai Power Transfer, or the i-frame can cancel itself.
+
+**Helminth.** Pick one. Subsume over Aquablades (3).
+
+- **Roar** to double-dip DoTs.
+- **Xata's Whisper** for raw damage, headshots and Thrax.
+- **Nourish** for viral and energy.
+- **Shock** with Shock Trooper for an electric add.
+- **Silence** or **Omamori** for an even lazier survival layer.
+
+**Archon Shards.** Two to four Crimson strength for the Sea Snare vulnerability.
+Two to four Topaz secondary crit-chance optional. One violet Equilibrium optional.
+Five total.
+
+**Arcanes.** Arcane Precision for a large pistol headshot buff, Molt Augmented for
+Strength. Arcane Pistoleer or Velocity as swaps.
+
+**Focus.** Any. Corrosive Projection aura already covers armour. Avoid a cast-speed
+shard with Madurai.
+
+**Weapon synergy.** High-base-crit secondaries to use the Critical Flow passive:
+Dual Toxocyst Incarnon, Furis Incarnon, Prisma Angstrum Incarnon, Sicarus Prime
+Incarnon. Low-crit options (Kompressa, Kuva Nukor) work through Secondary Enervate
+or raw strength. Furax Wraith Incarnon as a holstered combo melee.
+
+**Staying alive.** The 4s Merulina gate plus the shield buffer plus Sea Snare
+crowd control. It fails only if a very high cast speed cancels the i-frame, and
+to knockdowns Merulina does not block (bring Primed Sure Footed).
+
+**Energy.** Max Efficiency makes casts nearly free; Energy Nexus plus orbs cover it.
+
+**Where it struggles.** Entirely weapon-carried. Bosses need the gun. Knockdowns
+slip through Merulina.
+
+**Variants.** An ultra-comfort Seismic Bond plus Nourish endurance build. A Gloom
+tank Merulina Guardian board build. A Surging Aquablades DPS build.
+
+**Strengths and weaknesses.** Strong: one of the biggest damage multipliers in the
+game, a flat pistol crit passive, a reliable 4s panic i-frame, cheap forma. Weak:
+does no damage itself, boss-blind, knockdown-vulnerable, cast-speed quirk.
+
+**Who runs this.** Players who have a favourite secondary and want a frame that
+makes it hit 9 to 16 times harder while keeping them alive.
+
+---
+
+### The Faceless Rider
+**Dagath. Spectral Spirit immortality feeding a Doom-and-Rakhali strip nuke.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Immortal caster nuke, armour strip, near-total slow, weapon platform |
+| Difficulty | Intermediate |
+| Investment | High. 5 forma, duration and cast-speed shards |
+| Weapon reliance | Low to medium. Rakhali nukes; a crit weapon uses the Grave Spirit buff |
+
+> Tenno. Grave Spirit with the Spectral Spirit augment makes you invulnerable for
+> 30 seconds at a time, and kills cut its cooldown by a second each, so it is
+> effectively always on. Wyrd Scythe throws sickles that slow and apply viral.
+> Doom marks a crowd so damage you deal is banked and dealt again as true damage.
+> Rakhali's Cavalry strips and nukes the marked. Spam 1, 2, 4 and never drop 3.
+
+**The build**
+
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Spectral Spirit, rank 3, unpolarised — augment. Force Spectral Form: invulnerability, orb drops, forced Doom
+- Constitution, rank 3, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Brief Respite, Zenurik polarity
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Concentration, Molt Augmented
+
+Arsenal figures land at roughly 199% Strength, 282% Duration, 34% Range, 45%
+Efficiency, with 666 health, 250 shield, 125 armor and a 641 energy pool.
+
+**How it works.** Max Duration pushes Spectral Spirit to 30s+ of invulnerability
+per activation, and its 25s cooldown drops 1s per kill, so 25 kills (a few
+seconds of Rakhali or gunfire) resets it. It also gives a 100% health-orb drop on
+kill, which Equilibrium turns into 55 energy each, so energy is a flood. Range is
+dumped to 34% because Doom spreads between enemies within 15m of a Wyrd-Scythe hit
+regardless of your Range, and Spectral Spirit lets weapons and Rakhali self-apply
+Doom from any range. *Confidence: Approximation, per the author.*
+
+**Playstyle.**
+
+1. Activate Grave Spirit (tap 3) at mission start and whenever it is off cooldown.
+2. Cast Wyrd Scythe (tap 1): 7 auto-targeting sickles, slow plus forced viral.
+3. Cast Doom (tap 2) within Wyrd Scythe's 1s delay to mark a crowd; it spreads on hit.
+4. Cast Rakhali's Cavalry (tap 4) to strip and nuke the marked.
+5. Rotation: spam 1, 2, 4; keep 3 up.
+
+**Survivability.** Spectral Spirit invulnerability covers most of the mission;
+between activations, Catalyzing Shields (max shields 50) plus Brief Respite plus an
+Augur mod gives a full 1.33s gate off one cast of 2 or 4, and casting 4 is
+preferred for its innate i-frames. Wyrd Scythe's slow means little reaches you
+anyway. *Confidence: Approximation, per the author.*
+
+**Duration, Efficiency, Range, Strength.** Max Duration for Spectral Spirit.
+Efficiency dumped because of the orb flood plus Dagath's passive that quadruples
+orb value 35% of the time. Range dumped as above. Strength for the slow (95% cap
+at 272%), the banked damage (100% at 286%), and the Rakhali strip, though ~140%
+strips consistently since a horse hits multiple times.
+
+**The mods.** *Blind Rage* is the Strength. *Narrow Minded, Primed Continuity,
+Constitution* are the max Duration, and Narrow Minded's Range cost is free.
+*Primed Flow, Equilibrium* are the energy flood. *Catalyzing Shields* is the gate
+lock. *Brief Respite* aura feeds it. *Spectral Spirit* is the immortality.
+
+**Flexible slots.** Natural Talent, Madurai or an Amber shard is mandatory for
+Rakhali's slow cast. Catalyzing Shields and Rolling Guard are optional if you use
+Vazarin Sling. Augur Message or Nira's Hatred for more Duration.
+
+**Helminth.** Pick one. Subsume over 1 or 4, never over Doom (you keep Doom
+application via Spectral Spirit but lose its Strength scaling).
+
+- **Roar** over 1 for Rakhali and weapon damage.
+- **Wrathful Advance**, **Eclipse**, **Energized Munitions**, **Xata's Whisper** or **Nourish** over 4 for a weapon platform.
+- **Breach Surge** to semi-double-dip the Grave Spirit crit buff on sparks.
+- **Reave** over 4: Doom banking drops the one-shot threshold to 181% Strength with 10 viral.
+
+**Archon Shards.** One Amber cast-speed for Rakhali. One to two Tauforged Crimson
+Duration. One Violet Equilibrium to free the mod. Parkour to taste. Five total.
+
+**Arcanes.** Arcane Concentration for more Duration, Molt Augmented for Strength.
+Arcane Ice Storm with a cold weapon as a swap.
+
+**Focus.** Madurai for cast speed and Strength. Vazarin Sling as a backup.
+
+**Weapon synergy.** High-crit weapons for the Grave Spirit crit-damage buff: Torid
+Incarnon, Miter Incarnon, Kuva Chakkhurr, Nataruk, Knell Prime. Note Doom steals
+kills and blocks on-kill effects, so drop Galvanized mods and kill-dependent
+arcanes for the static variants.
+
+**Staying alive.** Spectral Spirit immortality plus the between-activation shield
+gate plus the Wyrd Scythe slow. It effectively does not fail while you keep
+getting kills to reset the cooldown.
+
+**Energy.** The Spectral Spirit orb flood through Equilibrium. A river.
+
+**Where it struggles.** Bosses. Doom stealing kills can disrupt weapon build-up.
+The Rakhali cast is slow without a cast-speed source. 5 forma.
+
+**Variants.** A no-augment shield-gate build. A pure weapon platform. A Reave nuke
+build.
+
+**Strengths and weaknesses.** Strong: near-permanent immortality, a strip nuke,
+a top-tier slow, an energy flood, huge Helminth flexibility. Weak: boss-blind,
+slow Rakhali cast, Doom interferes with kill-based weapon mechanics.
+
+**Who runs this.** Players who want an immortal caster that strips and nukes and
+can be rebuilt into almost any weapon platform.
+
+---
