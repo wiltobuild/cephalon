@@ -10,3 +10,4 @@ vendor/upstream-engine/
 
 # build caches
 *.tsbuildinfo
+.scratch/
