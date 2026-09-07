@@ -14166,3 +14166,532 @@ Trinity; The Reflecting Pool (#130) is the Gloom immortal tank.
 squad.
 
 ---
+
+### The Bounty Ghost
+**Loki Prime. A zero-forma invisibility sprinter for Plague Star and bounty grinds.**
+
+| | |
+|--|--|
+| Content | Events, Steel Path |
+| Role | Invisibility, mobility, objective carry |
+| Difficulty | Beginner |
+| Investment | None. 0 forma |
+| Weapon reliance | Very high |
+
+> Tenno. Permanent invisibility, huge sprint speed, and Savior Decoy as a free
+> get-out. Built to run the boil objective and bounty stages fast, not to
+> survive endless.
+
+**The build**
+
+- Savior Decoy, rank 3, unpolarised. Augment. Decoy swaps places with you and shields you when it dies
+- Streamline, rank 5, unpolarised
+- Rolling Guard, rank 10, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Augur Reach, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Stretch, rank 5, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Aura: Sprint Boost, Naramon polarity
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Velocity, Molt Efficiency
+
+Arsenal figures land at roughly 40% Strength, 155% Duration, 280% Range, 130%
+Efficiency, with 280 health, 280 shield, 135 armor and 755 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Invisibility is cheap and near-permanent with this efficiency
+and duration. Strength is irrelevant so it is dumped. Savior Decoy is an
+instant reposition and damage block. Swap Arcane Velocity for Arcane Tempo on a
+shotgun.
+
+**Helminth.** None; the base kit is enough for the content.
+
+**Archon Shards.** None needed; cast speed or parkour if you have spares.
+
+**Where it struggles.** Paper-thin. Not a Steel Path endurance frame. No damage
+of its own.
+
+**Variants.** The Trickster (#107) is the Steel Path disruption Loki; The Focus
+Shade (#173) is the stealth focus-farm build.
+
+**Who runs this.** Players farming Plague Star, Ghoul Purge or open-world
+bounties.
+
+---
+
+### The Primed Vial
+**Lavos. An influence and gun-buff weapon platform with a shield gate.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Weapon platform, shield-gate tank |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma |
+| Weapon reliance | Very high |
+
+> Tenno. Lavos primes every element on cooldown, Valence Formation stacks a
+> damage buff, and Catalyzing Shields plus Fast Deflection hold the gate. The
+> weapon, usually a melee-influence build, does the rest.
+
+**The build**
+
+- Valence Formation, rank 3, unpolarised. Augment. Ability casts add a stacking elemental damage buff
+- Rolling Guard, rank 10, unpolarised
+- Vigilante Vigor, rank 5, unpolarised
+- Fast Deflection, rank 5, Vazarin polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Precision Intensify, rank 5, Madurai polarity
+- Blind Rage, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Aura: Growing Power, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Molt Augmented, Arcane Aegis
+
+Arsenal figures land at roughly 214% Strength, 199% Duration, 34% Range, 45%
+Efficiency, with 740 health, 370 shield, 675 armor and no energy pool.
+Confidence: Approximation, per the author.
+
+**How it works.** Ophidian Bite and Transmutation Probe prime status on
+everything nearby, which is what an influence melee needs to chain. Valence
+Formation stacks a scaling elemental buff each cast. The shield gate is the
+whole defense, so Catalyzing Shields caps the pool low and Fast Deflection plus
+Arcane Aegis rebuild it.
+
+**Helminth.** None; the priming kit is the point.
+
+**Archon Shards.** Shield capacity and cast speed.
+
+**Where it struggles.** No energy fallback. Cooldowns cap cast rate. Needs a
+built influence weapon.
+
+**Variants.** The Element Engine (#049) and The Alchemist's Forge (#112) are the
+Catalyze scaling builds; The Sealed Vial (#163) is the pure gate platform.
+
+**Who runs this.** Influence-melee players who want Lavos as a primer and buff
+stick.
+
+---
+
+### The Focus Shade
+**Loki Prime. Stealth-finisher focus farming with Savage Silence and Hushed Invisibility.**
+
+| | |
+|--|--|
+| Content | Focus farming, Adaro Steel Path |
+| Role | Invisibility, stealth-finisher farm |
+| Difficulty | Beginner |
+| Investment | Low. 1 forma |
+| Weapon reliance | Medium. A fast finisher weapon |
+
+> Tenno. Permanent silent invisibility, Savage Silence for a wide finisher
+> opener, and Enemy Radar to find every target. Built to farm focus on Adaro or
+> with a Telesto stealth loop.
+
+**The build**
+
+- Savage Silence, rank 3, unpolarised. Augment. Silenced enemies are open to finishers and take bonus finisher damage
+- Natural Talent, rank 3, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Hushed Invisibility, rank 3, unpolarised. Augment. Invisibility makes no sound on cast
+- Primed Flow, rank 10, Naramon polarity
+- Streamline, rank 5, unpolarised
+- Narrow Minded, rank 10, Vazarin polarity
+- Aura: Enemy Radar, Naramon polarity
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Energize, Arcane Consequence
+
+Arsenal figures land at roughly 40% Strength, 254% Duration, 124% Range, 130%
+Efficiency, with 280 health, 280 shield, 135 armor and 755 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Stay invisible, walk into a pack, cast Radial Disarm range
+Silence to open every enemy to a finisher, and clear them for the stealth
+affinity multiplier. Natural Talent speeds the casts. Enemy Radar keeps targets
+on the minimap so you never lose the chain.
+
+**Helminth.** None; the augments are the build.
+
+**Archon Shards.** Cast speed and energy; not required.
+
+**Where it struggles.** Pure farm tool. No scaling damage, no endurance value.
+
+**Variants.** The Trickster (#107) is the disruption Loki; The Bounty Ghost
+(#171) is the mobility grind build.
+
+**Who runs this.** Players grinding focus on Adaro or a Telesto stealth map.
+
+---
+
+### The Guarded Wave
+**Yareli Prime. Evade over Aquablades with a lingering Merulina Guardian buff.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Evasion tank, weapon platform |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma |
+| Weapon reliance | Very high |
+
+> Tenno. Sea Snare and kills turn on Merulina Guardian for a 40-second fire-rate
+> and reload buff you keep even after hopping off Merulina. Evade covers the
+> gaps so you can parkour normally.
+
+**The build**
+
+- Augur Secrets, rank 5, unpolarised
+- Merulina Guardian, rank 3, Zenurik polarity. Augment. Killing snared enemies grants a lasting fire-rate and reload buff
+- Narrow Minded, rank 10, Vazarin polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Stretch, rank 5, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Archon Intensify, rank 10, Madurai polarity
+- Aura: Combat Discipline, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Avenger, Arcane Crepuscular
+
+Arsenal figures land at roughly 209% Strength, 227% Duration, 79% Range, 100%
+Efficiency, with 370 health, 650 shield, 105 armor and 315 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Enter Merulina, Sea Snare a pack, kill the snared enemies to
+proc Merulina Guardian, then hop off and move with parkour while the buff runs
+for 40-plus seconds. Evade (Helminth) is the dodge layer once you are off the
+board. Arcane Crepuscular wants an invisibility pet to stay active.
+
+**Helminth.** Evade over Aquablades.
+
+**Archon Shards.** Cast speed and duration.
+
+**Where it struggles.** Buff needs re-proccing every rotation. Yareli's base
+defenses are thin off Merulina.
+
+**Variants.** The Ghost Ship (#041) is the general-use Yareli; The Water Bombs
+(#105) is the Aquablade spam nuke.
+
+**Who runs this.** Yareli players who want the Guardian buff without staying on
+the board.
+
+---
+
+### The Draining Pulse
+**Trinity Prime. Energy Vampire tuned to deal 100% of enemy health on the first tick.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Single-target delete, energy support |
+| Difficulty | Advanced |
+| Investment | Heavy. 6 forma, shard math |
+| Weapon reliance | Low |
+
+> Tenno. At enough Strength, Energy Vampire's first damage tick is a percentage
+> of max health large enough to one-shot the target. Roar layered on pushes it
+> over the line. The rest of the build is a shield tank.
+
+**The build**
+
+- Constitution, rank 3, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Rolling Guard, rank 10, Vazarin polarity
+- Umbral Intensify, rank 10, Umbral polarity
+- Primed Redirection, rank 10, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Growing Power, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Aegis, Arcane Concentration
+
+Arsenal figures land at roughly 298% Strength, 156% Duration, 100% Range, 45%
+Efficiency, with 370 health, a 1554 shield pool, 135 armor and 641 energy.
+Confidence: Approximation, per the author.
+
+**How it works.** Energy Vampire places pulses on a target that tick over time;
+the first tick deals a share of the target's max health. Push Strength high
+enough (with Roar from Helminth adding a multiplier) and that first tick is
+lethal. Primed Redirection plus the big shield pool is the tank. The author
+maintains a spreadsheet for the exact one-shot threshold per Strength value.
+
+**Helminth.** Roar over Well of Life.
+
+**Archon Shards.** Strength toward the one-shot number, then cast speed.
+
+**Where it struggles.** Single-target only. Boss immunity. The threshold math is
+finicky and shifts with enemy type.
+
+**Variants.** The Blood Chalice (#030) is the armour-strip platform Trinity; The
+Linked Vigil (#170) is the Persistence tank.
+
+**Who runs this.** Players who want Trinity to snipe eximus and Thrax with an
+ability.
+
+---
+
+### The Charged Rotor
+**Gyre Prime. An active-tap shield-gate weapon platform, no written notes.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Weapon platform, shield-gate tank |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma |
+| Weapon reliance | Very high |
+
+> Tenno. Tap the first ability to gate, roll for i-frames, and let Cathode Grace
+> and Archon Stretch pay the energy back. Arcane Rage keeps the gun's crit and
+> damage up on kills.
+
+**The build**
+
+- Conductive Sphere, rank 3, Zenurik polarity. Augment. Cathode Grace also restores energy on the electric proc
+- Cathode Current, rank 3, unpolarised
+- Rolling Guard, rank 10, Vazarin polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Overextended, rank 5, unpolarised
+- Archon Stretch, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Lightning Dash, unpolarised
+- Arcanes: Arcane Rage, Molt Augmented
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with 445 health, 740 shield, 105 armor and 240 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Same loop as the other Gyre gun stands: cheap first ability
+plus Catalyzing Shields and a low pool for a clean gate, Cathode Grace and
+Archon Stretch refunding energy on electric procs. Arcane Rage swaps the
+defensive arcane for weapon crit and damage on kill.
+
+**Helminth.** None slotted; a defensive subsume over Coil Horizon is fine.
+
+**Archon Shards.** Cast speed and primary electric.
+
+**Where it struggles.** No ability damage. Arcane Rage trades away some
+survivability.
+
+**Variants.** The Fed Sphere (#150) and The Idle Coil (#152) are the Nourish
+Gyre platforms; The Gloom Rotor (#177) is the persistence tank.
+
+**Who runs this.** Players who want a more aggressive Gyre gun stand.
+
+---
+
+### The Gloom Rotor
+**Gyre Prime. A Gloom slow plus Arcane Persistence immortal tank.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Persistence tank, slow, weapon platform |
+| Difficulty | Advanced |
+| Investment | Medium. 3 forma, three Tauforged armour shards |
+| Weapon reliance | High |
+
+> Tenno. Three Tauforged armour shards push Gyre past 700, capping Arcane
+> Persistence health loss. Gloom slows everything around you so the incoming
+> damage is trivial to out-heal.
+
+**The build**
+
+- Blind Rage, rank 10, Madurai polarity
+- Conductive Sphere, rank 3, unpolarised. Augment. Cathode Grace also restores energy on the electric proc
+- Reverse Rotorswell, rank 3, unpolarised. Augment. Rotorswell also boosts weapon electric damage and status
+- Vitality, rank 10, Vazarin polarity
+- Cathode Current, rank 3, Zenurik polarity
+- Stretch, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Lightning Dash, unpolarised
+- Arcanes: Arcane Blessing, Arcane Persistence
+
+Arsenal figures land at roughly 199% Strength, 100% Duration, 145% Range, 45%
+Efficiency, with an 890 health pool, 740 shield, 105 armor before shards and 684
+energy. Confidence: Approximation, per the author.
+
+**How it works.** Gloom (Helminth) slows enemies in a radius and heals you on
+kills. Above 700 armour, Arcane Persistence caps health loss, and the Gloom slow
+plus Arcane Blessing means the two rates never catch up to you. Hunter Adrenaline
+funds Gloom's drain from the hits you still take.
+
+**Helminth.** Gloom over Coil Horizon.
+
+**Archon Shards.** Three Tauforged armour to clear 700; the last two flex to
+parkour or cast speed.
+
+**Where it struggles.** Needs the armour threshold and the shard investment.
+Nullifiers turn Gloom and Persistence off.
+
+**Variants.** The Charged Rotor (#176) and The Fed Sphere (#150) are the
+shield-gate Gyre platforms.
+
+**Who runs this.** Players who want an unkillable Gyre that also slows the room.
+
+---
+
+### The Charged Horn
+**Rhino Prime. Shock Trooper and Reinforcing Stomp as a buff-and-control platform.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Weapon platform, buff, crowd control |
+| Difficulty | Intermediate |
+| Investment | Heavy. 7 forma |
+| Weapon reliance | Very high |
+
+> Tenno. Iron Skin for the tank, Roar for the multiplier, Shock Trooper for flat
+> electric on the squad's weapons, and Reinforcing Stomp so a Stomp also armours
+> you. The gun kills.
+
+**The build**
+
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Reinforcing Stomp, rank 3, Zenurik polarity. Augment. Rhino Stomp grants stacking armour per enemy hit
+- Augur Message, rank 5, Naramon polarity
+- Umbral Intensify, rank 10, Umbral polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Shock Trooper, rank 3, Vazarin polarity. Augment. Adds an additive electric damage bonus to weapons
+- Aura: Corrosive Projection, aura slot
+- Exilus: Ice Spring, unpolarised
+- Arcanes: Arcane Truculence, Molt Augmented
+
+Arsenal figures land at roughly 199% Strength, 152% Duration, 100% Range, 100%
+Efficiency, with 370 health, 555 shield, 290 armor and 427 energy. Confidence:
+Approximation, per the author.
+
+**How it works.** Cast Iron Skin, Roar, and Shock Trooper at the start and
+refresh as needed. Rhino Stomp groups and freezes a room, and Reinforcing Stomp
+turns each hit into armour so the Iron Skin recast is huge. Roar multiplies your
+whole weapon output; Shock Trooper adds flat electric on top for the squad.
+
+**Helminth.** None; the buff kit is the build.
+
+**Archon Shards.** One cast speed, two parkour, two primary or melee crit (needs
+one energy-max shard to reach 500 energy).
+
+**Where it struggles.** Buff and Iron Skin upkeep. No ability damage of its own.
+
+**Variants.** The Bulwark (#058) and The Invulnerable Window (#102) are the pure
+Iron Skin Rhino builds; The Passing Blur (#162) is the Reave nuke.
+
+**Who runs this.** Squad players who want Rhino as a buff battery and gun stand.
+
+---
+
+### The Gut Surge
+**Grendel Prime. Breach Surge nuke instead of Pulverize, fed by Feast damage.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Ability nuke, tank |
+| Difficulty | Intermediate |
+| Investment | Low. 3 forma |
+| Weapon reliance | Low |
+
+> Tenno. Swallow a pack with Feast, then Breach Surge (Helminth) blinds and
+> chains sparks off every hit for a room clear. Grendel's belly is the tank.
+
+**The build**
+
+- Gastro, rank 3, unpolarised. Augment. Swallowed enemies take damage and feed energy
+- Blind Rage, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Stretch, rank 5, unpolarised
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Overextended, rank 5, Vazarin polarity
+- Equilibrium, rank 10, Naramon polarity
+- Aura: Worthy Comradery, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Arachne, Molt Augmented
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 250% Range, 45%
+Efficiency, with a 1295 health pool, 400 armor, 95 shield and 712 energy.
+Confidence: Approximation, per the author.
+
+**How it works.** Feast holds enemies inside Grendel, where Gastro and the toxin
+from Archon Continuity chew them down while feeding energy. Breach Surge blinds
+the room and, on each subsequent hit, fires sparks that scale off the damage
+dealt, which the swallowed-enemy damage triggers repeatedly for a chain nuke.
+
+**Helminth.** Breach Surge over Nourish.
+
+**Archon Shards.** One or two amber cast speed, three or four emerald ability
+damage on corrosive.
+
+**Where it struggles.** Setup takes a Feast cast. Toxin-immune enemies slow it
+down.
+
+**Variants.** The Devouring Maw (#053) is the Pulverize DPS Grendel; The Iron
+Gut (#180) is the persistence tank platform.
+
+**Who runs this.** Grendel players who want an ability room-clear without
+rolling around as a ball.
+
+---
+
+### The Iron Gut
+**Grendel Prime. A Nourish persistence tank that eats everything and never dies.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Persistence tank, weapon platform |
+| Difficulty | Advanced |
+| Investment | Heavy. 5 forma, shards, a healing weapon |
+| Weapon reliance | Very high |
+
+> Tenno. Umbral mods plus Grendel's huge base health clear 700 armour and cap
+> Arcane Persistence. Nourish once every seven seconds, or a lifesteal weapon,
+> tops the pool back up. That is the whole loop.
+
+**The build**
+
+- Umbral Vitality, rank 10, Umbral polarity
+- Umbral Fiber, rank 10, unpolarised
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Hearty Nourishment, rank 3, Zenurik polarity. Augment. Nourish also grants a lasting health boost
+- Blind Rage, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Persistence, Arcane Blessing
+
+Arsenal figures land at roughly 199% Strength, 254% Duration, 34% Range, 45%
+Efficiency, with a 2979 health pool, 920 armor, 95 shield and 712 energy.
+Confidence: Approximation, per the author.
+
+**How it works.** Above 700 armour Arcane Persistence caps incoming health loss;
+Grendel's health pool plus Hearty Nourishment gives a deep buffer. Heal by
+casting Nourish every seven seconds or by running a lifesteal weapon (a Hema
+Coda, Hirudo Coda, an amalgam-mod Zaw, a Sancti Magistar Incarnon slam, or any
+glaive with Life Strike).
+
+**Helminth.** Nourish over Regurgitate.
+
+**Archon Shards.** Two parkour velocity, one cast speed, two flex.
+
+**Where it struggles.** Needs a healing weapon or disciplined Nourish casts.
+Nullifiers. No mobility identity.
+
+**Variants.** The Devouring Maw (#053) is the Pulverize DPS Grendel; The Gut
+Surge (#179) is the Breach Surge nuke.
+
+**Who runs this.** Players who want a Grendel that tanks level cap while a gun
+does the work.
+
+---
