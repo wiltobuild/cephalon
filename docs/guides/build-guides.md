@@ -16358,3 +16358,469 @@ firing.
 **Who runs this.** Players who want a beam that also fuels their abilities.
 
 ---
+
+### The Split Plague
+**Coda Bubonico. Electric alt-fire primes and chains, corrosive primary finishes.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Hybrid crowd prime and single-target DPS |
+| Difficulty | Advanced |
+| Investment | Low. 3 forma, MR 17 |
+| Weapon reliance | Standalone. Primes for itself |
+
+> Tenno. The alt-fire lays viral and electric across a crowd and chains an
+> electric damage-over-time that clears the light units. Switch to primary fire
+> for raw corrosive on the heavies.
+
+**The build**
+
+- Primed Charged Shell, rank 10, Naramon polarity
+- Atomic Fallout, rank 3, unpolarised
+- Shotgun Barrage, rank 5, unpolarised
+- Primed Point Blank, rank 10, Madurai polarity
+- Primed Ravage, rank 10, Madurai polarity
+- Critical Deceleration, rank 5, unpolarised
+- Galvanized Hell, rank 10, Madurai polarity
+- Galvanized Savvy, rank 10, Vazarin polarity
+- Galvanized Acceleration, rank 10, Madurai polarity
+- Arcane: Primary Crux
+
+Weapon figures land near 81% crit chance and 4.83x crit damage with a roughly
+2.65x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Hell is multishot; Galvanized Savvy scales with the
+statuses your alt-fire applies; Primed Point Blank and Primed Ravage plus
+Critical Deceleration are the damage and crit core. Primed Charged Shell builds
+the corrosive.
+
+**Progenitor.** Magnetic or radiation, both add an element for Galvanized Savvy
+without clashing with your combos. Magnetic also lets you run Shotgun Barrage
+for fire rate and Atomic Fallout for magazine.
+
+**Where it struggles.** Mode-swapping rhythm. High MR gate.
+
+**Who runs this.** Players who want a self-priming hybrid shotgun.
+
+---
+
+### The Lightning Volley
+**Vadarya Prime. A crit rifle that spawns lightning strikes on hit.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | DPS, crowd and single target |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma, MR 15 |
+| Weapon reliance | Standalone |
+
+> Tenno. Vadarya Prime fires electric rounds that call down bonus lightning
+> strikes. Multishot spawns more strikes; Primary Acuity makes each one hit
+> harder on headshots. Pick your lane.
+
+**The build**
+
+- Stormbringer, rank 5, Naramon polarity
+- High Voltage, rank 3, unpolarised
+- Primed Shred, rank 10, Madurai polarity
+- Vital Sense, rank 5, unpolarised
+- Critical Delay, rank 5, Naramon polarity
+- Galvanized Scope, rank 10, Madurai polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Amalgam Serration, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Deadhead
+
+Weapon figures land near 120% crit chance and 6.16x crit damage with a roughly
+2.55x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Chamber is multishot and is interchangeable with
+Primary Acuity: Acuity delivers a roughly 2.75x headshot multiplier and +350%
+crit on headshots (and on strikes born from a headshot) but punishes body shots;
+multishot spawns more strikes and is steadier for crowds. Stormbringer plus High
+Voltage weight and boost the electric; Galvanized Scope and Vital Sense are
+crit.
+
+**Where it struggles.** Strike targeting is loose in the open. Charge uptime.
+
+**Who runs this.** Players who want a rifle that rains extra hits for free.
+
+---
+
+### The Concentrated Bolt
+**Artemis Bow Prime. A Concentrated Arrow slash-and-electric burst for Ivara.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Ability-weapon burst DPS |
+| Difficulty | Advanced |
+| Investment | Medium. 4 forma, Ivara only |
+| Weapon reliance | High. Needs Concentrated Arrow and electric shards |
+
+> Tenno. This is only for the Concentrated Arrow augment, which turns Artemis
+> Bow's volley into a single crit shot with an area on impact. Stack violet
+> primary-electric shards to feed the burst.
+
+**The build**
+
+- Vile Acceleration, rank 5, unpolarised
+- Rifle Elementalist, rank 5, Vazarin polarity
+- High Voltage, rank 3, Madurai polarity
+- Primed Firestorm, rank 10, Madurai polarity
+- Vital Sense, rank 5, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Spectral Serration, rank 10, Madurai polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Exilus: Terminal Velocity, unpolarised
+- Arcane: Longbow Sharpshot
+
+Weapon figures land near 75% crit chance and 4.4x crit damage with a roughly
+0.85x multiplier on the area. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Chamber is multishot; do not use Primary Acuity, its
+headshot bonus does not touch the Concentrated Arrow area. Spectral Serration is
+base damage while invisible; Critical Delay and Vital Sense are crit; Rifle
+Elementalist adds a 1.9x multiplier to the bleed; Primed Firestorm widens the
+area with warframe range.
+
+**Where it struggles.** Ivara-locked. Needs the shard investment. Draw speed.
+
+**Who runs this.** Ivara players building around Concentrated Arrow.
+
+---
+
+### The Silent Slug
+**Neutralizer. A silent one-shot sniper for level-cap single targets.**
+
+| | |
+|--|--|
+| Content | Steel Path, Level cap |
+| Role | Single-target one-shot |
+| Difficulty | Advanced |
+| Investment | Medium. 6 forma, no MR requirement |
+| Weapon reliance | Standalone. Pairs with a stealth frame |
+
+> Tenno. Neutralizer stacks raw damage, crit and a headshot multiplier into one
+> silent shot that deletes eximus and Thrax. Spectral Serration wants you to
+> draw it first, then go invisible.
+
+**The build**
+
+- Primed Cryo Rounds, rank 10, Vazarin polarity
+- Bladed Rounds, rank 5, Madurai polarity
+- Target Acquired, rank 5, Madurai polarity
+- Spectral Serration, rank 10, Madurai polarity
+- Stormbringer, rank 5, Naramon polarity
+- Vital Sense, rank 5, Madurai polarity
+- Semi-Rifle Cannonade, rank 5, Vazarin polarity
+- Primary Acuity, rank 10, Naramon polarity
+- Exilus: Hush, unpolarised
+- Arcane: Primary Deadhead
+
+Weapon figures land near 45% crit chance and 6.6x crit damage with a roughly
+3.4x multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Primary Acuity boosts headshot damage and crit but removes
+multishot, which fits a one-shot weapon. Spectral Serration is a large raw
+boost, but only if you draw the weapon before turning invisible. Semi-Rifle
+Cannonade adds damage and cancels Critical Delay's fire-rate penalty. Target
+Acquired is a 1.6x headshot multiplier that also double-dips the electric
+damage-over-time. With violet electric shards, swap Stormbringer for Galvanized
+Scope.
+
+**Where it struggles.** One target at a time. Slow fire rate. Needs a stealth
+frame to set up Spectral Serration.
+
+**Who runs this.** Snipers picking off priority targets from stealth.
+
+---
+
+### The Toxic Cloud
+**Torid. A pure-toxin Incarnon variant for primed content with Nourish.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Toxin damage-over-time clear |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 4 |
+| Weapon reliance | High. Wants armour strip and Nourish |
+
+> Tenno. Toxin ignores shields and stacks hard as a damage-over-time. On Torid's
+> chaining Incarnon beam it blankets a crowd. Pair with Nourish for viral on top.
+
+**The build**
+
+- Vile Acceleration, rank 5, unpolarised
+- Infected Clip, rank 5, Naramon polarity
+- Primed Bane of Grineer, rank 10, Madurai polarity
+- Malignant Force, rank 3, unpolarised
+- Rifle Elementalist, rank 5, Vazarin polarity
+- Critical Delay, rank 5, Naramon polarity
+- Amalgam Serration, rank 10, Madurai polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Blight
+
+Weapon figures land near 45% crit chance and 2x crit damage with a roughly 2.4x
+Incarnon multiplier. Confidence: Approximation, per the author.
+
+**Evolutions.** Final Fusillade at II, Swift Deliverance or Extended Volley at
+III, Survivor's Edge at IV.
+
+**The mods.** Infected Clip plus Malignant Force build toxin and viral status;
+Rifle Elementalist multiplies the toxin damage-over-time; Primary Blight adds
+crit damage as toxin procs land. Galvanized Chamber is multishot.
+
+**Where it struggles.** No armour bypass, so bring a strip. Toxin does nothing
+to shields directly.
+
+**Variants.** The Chaining Rot (#194) is the corrosive-blast Torid; The Arc Rot
+(#221) is viral-electric.
+
+**Who runs this.** Players farming primed and Grineer content with a strip
+frame.
+
+---
+
+### The Corroding Arc
+**Coda Synapse. A viral-corrosive-electric crit beam with seven statuses.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Beam DPS, single target and crowd |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma, MR 17 |
+| Weapon reliance | Standalone |
+
+> Tenno. Synapse is a high-crit beam. Stack viral, corrosive and electric, let
+> Galvanized Aptitude scale off the pile, and hold it on whatever needs to die.
+
+**The build**
+
+- Stormbringer, rank 5, unpolarised
+- Primed Shred, rank 10, Madurai polarity
+- Rime Rounds, rank 3, unpolarised
+- Malignant Force, rank 3, unpolarised
+- Vital Sense, rank 5, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+- Exilus: Sinister Reach, Naramon polarity
+- Arcane: Primary Crux
+
+Weapon figures land near 120% crit chance and 5.94x crit damage at a 16.2 fire
+rate. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Chamber is multishot; Galvanized Aptitude is +80% per
+status; Critical Delay and Vital Sense are crit; Primed Shred is punch-through
+(swap for Vile Acceleration on single targets). Malignant Force plus Rime Rounds
+build viral; Stormbringer weights electric.
+
+**Progenitor.** Magnetic, for the extra Aptitude element and overguard damage.
+With Nourish, swap the viral mods for Rifle Elementalist plus Hammer Shot or
+Primed Bane. With violet electric shards, drop Stormbringer for Rifle
+Elementalist.
+
+**Where it struggles.** Short beam range. High MR gate.
+
+**Who runs this.** Players who want a low-forma beam that covers every faction.
+
+---
+
+### The Homing Disc
+**Cedo. A one-forma alt-fire glaive primer that paints crowds with nine statuses.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Dedicated status primer |
+| Difficulty | Beginner |
+| Investment | Low. 1 forma, MR 8 |
+| Weapon reliance | Low. It is a support tool |
+
+> Tenno. This is not a damage build. The alt-fire throws a homing glaive with a
+> 6m area that can leave up to nine statuses on a direct hit, priming everything
+> for your real weapon or your squad.
+
+**The build**
+
+- Magnetic Strafe, rank 3, Madurai polarity
+- Motus Setup, rank 3, Madurai polarity
+- Shotgun Savvy, rank 5, unpolarised
+- Shell Shock, rank 3, unpolarised
+- Scattering Inferno, rank 3, unpolarised
+- Hell's Chamber, rank 5, Madurai polarity
+- Frigid Blast, rank 3, unpolarised
+- Toxic Barrage, rank 3, unpolarised
+- Exilus: Silent Battery, Madurai polarity
+- Arcane: Primary Obstruct
+
+Weapon figures land near 20% crit chance and 2.4x crit damage; this build is
+tuned for status chance, not crit. Confidence: Approximation, per the author.
+
+**How it works.** Do not use Galvanized Acceleration or projectile-speed mods,
+they break the glaive's homing path. Elements are optional: magnetic lets
+Primary Obstruct jam enemy weapons; gas leaves lingering clouds. Viral-radiation
+and corrosive-blast are wasted here (Atomic Fallout covers radiation, blast
+clears itself in 1.5 seconds).
+
+**Where it struggles.** Deals almost no damage on its own. The glaive throw has
+travel time.
+
+**Variants.** The Disc Primer (#201) is the full-damage Cedo Prime build.
+
+**Who runs this.** Players who want a cheap dedicated primer in the primary
+slot.
+
+---
+
+### The Arc Rot
+**Torid Incarnon. Viral-electric on the chaining beam for Murmur and mixed crowds.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Trash clear, status DPS |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 4 |
+| Weapon reliance | Standalone |
+
+> Tenno. Same chaining Incarnon beam as the corrosive build, tuned for
+> viral-electric: electric has a small area and a 50% bonus against Murmur, viral
+> multiplies everything to health.
+
+**The build**
+
+- Vile Acceleration, rank 5, unpolarised
+- Stormbringer, rank 5, unpolarised
+- Rime Rounds, rank 3, unpolarised
+- Malignant Force, rank 3, Madurai polarity
+- Vital Sense, rank 5, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Galvanized Chamber, rank 10, Madurai polarity
+- Amalgam Serration, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Merciless
+
+Weapon figures land near 45% crit chance and 4.4x crit damage with a roughly
+2.4x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**Evolutions.** Final Fusillade at II, Swift Deliverance at III, Survivor's Edge
+at IV.
+
+**The mods.** Galvanized Chamber is multishot; Amalgam Serration is base damage
+plus sprint speed; Critical Delay and Vital Sense are crit. Malignant Force plus
+Rime Rounds are viral; Stormbringer weights and boosts the electric. With
+external fire rate, swap Vile Acceleration for Rifle Elementalist; Magnetic
+Capacity helps against eximus and Thrax.
+
+**Where it struggles.** Charge uptime. Single targets.
+
+**Variants.** The Chaining Rot (#194) is corrosive-blast; The Toxic Cloud (#218)
+is pure toxin.
+
+**Who runs this.** Murmur and mixed-faction players who want one Torid tune.
+
+---
+
+### The Plasma Wall
+**Tenet Arca Plasmor. A viral-electric wall of plasma for close-range clear.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Close-range crowd clear |
+| Difficulty | Intermediate |
+| Investment | Low. 3 forma, MR 16 |
+| Weapon reliance | Standalone |
+
+> Tenno. Arca Plasmor throws a wide plasma bolt that hits everything in a short
+> cone with guaranteed impact and heavy status. Viral-electric turns each bolt
+> into a crowd delete.
+
+**The build**
+
+- Primed Charged Shell, rank 10, unpolarised
+- Critical Deceleration, rank 5, Madurai polarity
+- Primed Ravage, rank 10, Madurai polarity
+- Shotgun Barrage, rank 5, Madurai polarity
+- Toxic Barrage, rank 3, unpolarised
+- Chilling Reload, rank 3, unpolarised
+- Galvanized Savvy, rank 10, Vazarin polarity
+- Galvanized Hell, rank 10, Madurai polarity
+- Galvanized Acceleration, rank 10, Madurai polarity
+- Arcane: Primary Deadhead
+
+Weapon figures land near 66% crit chance and 4.2x crit damage at a 1.7 fire
+rate. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Savvy is +80% per status (up to +400% at five);
+Galvanized Hell is multishot; Critical Deceleration plus Primed Ravage are crit.
+Chilling Reload plus Toxic Barrage build viral and add reload; Primed Charged
+Shell adds raw damage and electric; Shotgun Barrage is fire rate plus magnetic
+for overguard.
+
+**Progenitor.** Magnetic for flexibility, or electric for more damage-over-time
+finishing.
+
+**Where it struggles.** Short range. Low fire rate means each missed bolt hurts.
+
+**Who runs this.** Players who want a shotgun that clears a doorway in one
+trigger pull.
+
+---
+
+### The Marksman's Tap
+**Latron Prime Incarnon. A viral-heat precision build with fast follow-up shots.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Precision DPS, single target |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma, MR 10 |
+| Weapon reliance | Standalone |
+
+> Tenno. No armour strip here, just raw viral-heat and a high crit multiplier.
+> Double Tap rewards a quick second shot, and Semi-Rifle Cannonade is a flex slot
+> for whichever fire-rate style you like.
+
+**The build**
+
+- Hammer Shot, rank 3, unpolarised
+- Double Tap, rank 3, Madurai polarity
+- Primed Cryo Rounds, rank 10, Vazarin polarity
+- Malignant Force, rank 3, unpolarised
+- Vital Sense, rank 5, Madurai polarity
+- Critical Delay, rank 5, Naramon polarity
+- Semi-Rifle Cannonade, rank 5, unpolarised
+- Galvanized Chamber, rank 10, Madurai polarity
+- Exilus: Vigilante Supplies, Naramon polarity
+- Arcane: Primary Merciless
+
+Weapon figures land near 66% crit chance and 7.84x crit damage with a roughly
+3.4x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**Evolutions.** Riddled Target at II for the multishot spike, any pick at III,
+Critical Parallel at IV.
+
+**The mods.** Galvanized Chamber is multishot; Hammer Shot and Vital Sense are
+crit; Malignant Force plus Primed Cryo Rounds are viral, with heat from the
+Incarnon area. Semi-Rifle Cannonade is flexible for Amalgam Serration if you
+prefer fire-rate spam and want to benefit from Reinforced Bond.
+
+**Where it struggles.** No armour strip, so heavy Grineer are slow without an
+external one. Charge uptime.
+
+**Variants.** The Ricochet Strip (#204) is the puncture armour-strip Latron
+Prime.
+
+**Who runs this.** Players who want a clean semi-auto that does not fuss with
+strip.
+
+---
