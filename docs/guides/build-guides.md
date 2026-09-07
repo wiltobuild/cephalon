@@ -8,13 +8,13 @@ move around, and where it stops working.
 
 Every build lists its mods by slot with the polarity the slot is forma'd to:
 
-- **Madurai** — attack slot (`V`)
-- **Vazarin** — defense slot (`D`)
-- **Naramon** — tactic slot (`–`)
-- **Zenurik** — power slot (`=`)
-- **Unairu** — ward slot
+- **Madurai**. Attack slot (`V`)
+- **Vazarin**. Defense slot (`D`)
+- **Naramon**. Tactic slot (`–`)
+- **Zenurik**. Power slot (`=`)
+- **Unairu**. Ward slot
 - **Umbral** and **Aura** slots as marked
-- **unpolarised** — the slot carries no forma
+- **unpolarised**. The slot carries no forma
 
 Slot polarity is a forma choice on the frame and is separate from your Operator
 Focus school. A slot forma'd to Zenurik does not mean the build runs Zenurik
@@ -54,8 +54,8 @@ melee weapons.
 
 **The build**
 
-- Mesmer Shield, rank 3, Zenurik polarity — augment. Adds 50% Strength toward Mesmer Skin only, and lets you hand allies five charges
-- Thrall Pact, rank 3, unpolarised — augment. Enthralled enemies feed a large additive primary-damage buff
+- Mesmer Shield, rank 3, Zenurik polarity. Augment. Adds 50% Strength toward Mesmer Skin only, and lets you hand allies five charges
+- Thrall Pact, rank 3, unpolarised. Augment. Enthralled enemies feed a large additive primary-damage buff
 - Transient Fortitude, rank 10, Madurai polarity
 - Blind Rage, rank 10, Madurai polarity
 - Equilibrium, rank 10, Naramon polarity
@@ -63,7 +63,7 @@ melee weapons.
 - Primed Continuity, rank 10, Madurai polarity
 - Umbral Intensify, rank 10, unpolarised
 - Aura: Corrosive Projection, Naramon polarity
-- Exilus: Ice Spring, Vazarin polarity — placeholder mobility, fully flexible
+- Exilus: Ice Spring, Vazarin polarity. Placeholder mobility, fully flexible
 - Arcanes: Molt Vigor, Molt Augmented
 
 Arsenal figures land at roughly 298% Strength, 128% Duration, 100% Range, 45%
@@ -219,8 +219,8 @@ threshold.
 - Catalyzing Shields, rank 3, Vazarin polarity
 - Primed Continuity, rank 10, Madurai polarity
 - Primed Flow, rank 10, Naramon polarity
-- Accumulating Whipclaw, rank 3, Zenurik polarity — augment. Whipclaw damage stacks up to a capped +350% as you keep casting
-- Pilfering Strangledome, rank 3, unpolarised — augment. Enemies killed while held by the dome drop bonus loot
+- Accumulating Whipclaw, rank 3, Zenurik polarity. Augment. Whipclaw damage stacks up to a capped +350% as you keep casting
+- Pilfering Strangledome, rank 3, unpolarised. Augment. Enemies killed while held by the dome drop bonus loot
 - Aura: Brief Respite, aura slot
 - Exilus: Cunning Drift, Naramon polarity
 - Arcanes: Arcane Aegis, Arcane Fury
@@ -480,7 +480,7 @@ and affinity farmers.
 
 - Umbral Intensify, rank 10, unpolarised
 - Primed Continuity, rank 10, Madurai polarity
-- Venom Dose, rank 3, unpolarised — augment. Adds a toxin damage buff to allies' weapons
+- Venom Dose, rank 3, unpolarised. Augment. Adds a toxin damage buff to allies' weapons
 - Catalyzing Shields, rank 3, Vazarin polarity
 - Equilibrium, rank 10, Naramon polarity
 - Blind Rage, rank 10, Madurai polarity
@@ -986,8 +986,8 @@ clears without relying on a nuke ability alone.
 
 **The build**
 
-- Hall of Malevolence, rank 3, unpolarised — augment. Hologram damage stacks with kills
-- Total Eclipse, rank 3, unpolarised — augment. Extends Eclipse to allies and, notably, buffs the holograms multiplicatively with Hall of Malevolence
+- Hall of Malevolence, rank 3, unpolarised. Augment. Hologram damage stacks with kills
+- Total Eclipse, rank 3, unpolarised. Augment. Extends Eclipse to allies and, notably, buffs the holograms multiplicatively with Hall of Malevolence
 - Vigilante Vigor, rank 5, unpolarised
 - Fast Deflection, rank 5, unpolarised
 - Rolling Guard, rank 10, Vazarin polarity
@@ -1117,8 +1117,8 @@ not fit on screen.
 
 - Stretch, rank 5, unpolarised
 - Streamline, rank 5, unpolarised
-- Thermal Transfer, rank 3, unpolarised — augment. Adds blast status to weapons after a heat-then-cold Sunder
-- Archon Vitality, rank 0, Vazarin polarity — doubles heat procs, which is what scales the Sunder blast
+- Thermal Transfer, rank 3, unpolarised. Augment. Adds blast status to weapons after a heat-then-cold Sunder
+- Archon Vitality, rank 0, Vazarin polarity. Doubles heat procs, which is what scales the Sunder blast
 - Equilibrium, rank 10, unpolarised
 - Primed Flow, rank 10, Naramon polarity
 - Augur Reach, rank 5, unpolarised
@@ -1249,7 +1249,7 @@ survives, and makes any favourite weapon perform.
 **The build**
 
 - Augur Reach, rank 5, unpolarised
-- Aegis Gale, rank 3, unpolarised — augment. Gives Balefire a spammable, area alt-fire
+- Aegis Gale, rank 3, unpolarised. Augment. Gives Balefire a spammable, area alt-fire
 - Primed Continuity, rank 10, Madurai polarity
 - Stretch, rank 5, Naramon polarity
 - Transient Fortitude, rank 10, Madurai polarity
@@ -1374,8 +1374,8 @@ thinks about energy.
 - Primed Flow, rank 10, Naramon polarity
 - Transient Fortitude, rank 10, Madurai polarity
 - Primed Continuity, rank 10, Madurai polarity
-- Shock Trooper, rank 3, unpolarised — augment. Adds an additive electric damage bonus to weapons
-- Capacitance, rank 3, unpolarised — augment. Discharge converts damage dealt into shields
+- Shock Trooper, rank 3, unpolarised. Augment. Adds an additive electric damage bonus to weapons
+- Capacitance, rank 3, unpolarised. Augment. Discharge converts damage dealt into shields
 - Rolling Guard, rank 10, Vazarin polarity
 - Equilibrium, rank 10, Naramon polarity
 - Aura: Growing Power, Madurai polarity
@@ -1488,7 +1488,7 @@ forever and turns an electric weapon into a nuke.
 **The build**
 
 - Umbral Intensify, rank 10, unpolarised
-- Teleport Rush, rank 3, unpolarised — augment. Teleport grants a parkour buff and sets up finishers
+- Teleport Rush, rank 3, unpolarised. Augment. Teleport grants a parkour buff and sets up finishers
 - Stretch, rank 5, Naramon polarity
 - Transient Fortitude, rank 10, Madurai polarity
 - Equilibrium, rank 10, Naramon polarity
@@ -1607,9 +1607,9 @@ dead, while invisible.
 
 **The build**
 
-- Teeming Virulence, rank 3, unpolarised — augment. Mutation stacks grant flat primary crit chance
-- Parasitic Vitality, rank 3, unpolarised — augment. Replaces Vitality; stacks grant large health
-- Larva Burst, rank 3, unpolarised — augment. Larva deals scaling damage
+- Teeming Virulence, rank 3, unpolarised. Augment. Mutation stacks grant flat primary crit chance
+- Parasitic Vitality, rank 3, unpolarised. Augment. Replaces Vitality; stacks grant large health
+- Larva Burst, rank 3, unpolarised. Augment. Larva deals scaling damage
 - Stretch, rank 5, unpolarised
 - Hunter Adrenaline, rank 5, Madurai polarity
 - Archon Continuity, rank 10, Madurai polarity
@@ -1726,8 +1726,8 @@ also makes their primary weapon crit.
 
 **The build**
 
-- Archon Vitality, rank 10, Vazarin polarity — doubles heat procs
-- Archon Intensify, rank 10, Madurai polarity — Strength on healing, which is constant here
+- Archon Vitality, rank 10, Vazarin polarity. Doubles heat procs
+- Archon Intensify, rank 10, Madurai polarity. Strength on healing, which is constant here
 - Stretch, rank 5, unpolarised
 - Equilibrium, rank 10, Naramon polarity
 - Overextended, rank 5, unpolarised
@@ -1844,8 +1844,8 @@ platforms at once.
 
 **The build**
 
-- Shattered Storm, rank 3, unpolarised — augment. Spreads Splinter Storm and its damage vulnerability onto enemies
-- Spectrosiphon, rank 3, unpolarised — augment. Spectrorage drops energy orbs for the squad
+- Shattered Storm, rank 3, unpolarised. Augment. Spreads Splinter Storm and its damage vulnerability onto enemies
+- Spectrosiphon, rank 3, unpolarised. Augment. Spectrorage drops energy orbs for the squad
 - Catalyzing Shields, rank 3, Vazarin polarity
 - Primed Continuity, rank 10, Madurai polarity
 - Primed Flow, rank 10, Naramon polarity
@@ -1961,11 +1961,11 @@ by holding one button and stops taking damage.
 
 **The build**
 
-- Ironclad Charge, rank 3, Zenurik polarity — augment. Charge grants a large temporary total-armour bonus per enemy hit
+- Ironclad Charge, rank 3, Zenurik polarity. Augment. Charge grants a large temporary total-armour bonus per enemy hit
 - Health Conversion, rank 5, Vazarin polarity
 - Transient Fortitude, rank 10, Madurai polarity
 - Primed Continuity, rank 10, Madurai polarity
-- Iron Shrapnel, rank 0, unpolarised — augment. Lets you cancel Iron Skin to recast on your timing
+- Iron Shrapnel, rank 0, unpolarised. Augment. Lets you cancel Iron Skin to recast on your timing
 - Umbral Intensify, rank 10, unpolarised
 - Blind Rage, rank 10, Madurai polarity
 - Primed Redirection, rank 10, Vazarin polarity
@@ -2081,8 +2081,8 @@ carry a weapon, plus a Roar for the squad.
 
 **The build**
 
-- Shadow Haze, rank 3, unpolarised — augment. Spawns multiple Reap shadows and grants a flat crit-chance debuff
-- Dark Propagation, rank 3, Zenurik polarity — augment. Sow self-propagates and spreads the nuke
+- Shadow Haze, rank 3, unpolarised. Augment. Spawns multiple Reap shadows and grants a flat crit-chance debuff
+- Dark Propagation, rank 3, Zenurik polarity. Augment. Sow self-propagates and spreads the nuke
 - Stretch, rank 5, Naramon polarity
 - Umbral Intensify, rank 10, unpolarised
 - Equilibrium, rank 10, Naramon polarity
@@ -2325,9 +2325,9 @@ endurance run goes, with almost no weapon investment.
 
 **The build**
 
-- Biting Frost, rank 3, unpolarised — augment. Adds crit chance versus frozen enemies
-- Icy Avalanche, rank 3, unpolarised — augment. Avalanche grants armour-scaled overguard
-- Freeze Force, rank 3, unpolarised — augment. Adds cold damage to weapons
+- Biting Frost, rank 3, unpolarised. Augment. Adds crit chance versus frozen enemies
+- Icy Avalanche, rank 3, unpolarised. Augment. Avalanche grants armour-scaled overguard
+- Freeze Force, rank 3, unpolarised. Augment. Adds cold damage to weapons
 - Archon Flow, rank 10, Naramon polarity
 - Overextended, rank 5, Vazarin polarity
 - Blind Rage, rank 10, Madurai polarity
@@ -2440,7 +2440,7 @@ the whole squad and makes a mediocre weapon viable.
 - Blind Rage, rank 10, Madurai polarity
 - Overextended, rank 5, Vazarin polarity
 - Primed Continuity, rank 10, Madurai polarity
-- Eternal War, rank 3, unpolarised — augment. Warcry duration extends on kills
+- Eternal War, rank 3, unpolarised. Augment. Warcry duration extends on kills
 - Archon Intensify, rank 10, Madurai polarity
 - Stretch, rank 5, unpolarised
 - Hunter Adrenaline, rank 5, Madurai polarity
@@ -2552,9 +2552,9 @@ essentially cannot die.
 
 **The build**
 
-- Pilfering Swarm, rank 3, unpolarised — augment. Tentacle kills drop bonus loot
-- Viral Tempest, rank 3, unpolarised — augment. Tempest Barrage applies viral
-- Tidal Impunity, rank 3, unpolarised — augment. Tidal Surge grants status immunity and cheap cost
+- Pilfering Swarm, rank 3, unpolarised. Augment. Tentacle kills drop bonus loot
+- Viral Tempest, rank 3, unpolarised. Augment. Tempest Barrage applies viral
+- Tidal Impunity, rank 3, unpolarised. Augment. Tidal Surge grants status immunity and cheap cost
 - Equilibrium, rank 10, Naramon polarity
 - Transient Fortitude, rank 10, Madurai polarity
 - Primed Flow, rank 10, Naramon polarity
@@ -2661,7 +2661,7 @@ looting.
 - Augur Reach, rank 5, unpolarised
 - Stretch, rank 5, Naramon polarity
 - Equilibrium, rank 10, Naramon polarity
-- Muzzle Flash, rank 3, unpolarised — augment. Shooting Gallery blinds in a radius on kills
+- Muzzle Flash, rank 3, unpolarised. Augment. Shooting Gallery blinds in a radius on kills
 - Catalyzing Shields, rank 3, Vazarin polarity
 - Primed Flow, rank 10, Naramon polarity
 - Aura: Corrosive Projection, Naramon polarity
@@ -2769,7 +2769,7 @@ room disappear.
 - Blind Rage, rank 10, Madurai polarity
 - Overextended, rank 5, unpolarised
 - Stretch, rank 5, unpolarised
-- Creeping Terrify, rank 3, unpolarised — augment. Terrified enemies are 80% slowed
+- Creeping Terrify, rank 3, unpolarised. Augment. Terrified enemies are 80% slowed
 - Primed Flow, rank 10, Naramon polarity
 - Primed Continuity, rank 10, Madurai polarity
 - Equilibrium, rank 10, Naramon polarity
@@ -3112,7 +3112,7 @@ and some minion crowd control.
 - Precision Intensify, rank 5, Madurai polarity
 - Primed Flow, rank 10, Naramon polarity
 - Narrow Minded, rank 10, Vazarin polarity
-- Razorwing Blitz, rank 3, unpolarised — augment. Recasting abilities stacks flight speed and Dex Pixia fire rate
+- Razorwing Blitz, rank 3, unpolarised. Augment. Recasting abilities stacks flight speed and Dex Pixia fire rate
 - Aura: Corrosive Projection, aura slot
 - Exilus: Preparation, unpolarised
 - Arcanes: Arcane Impetus, Arcane Pistoleer
@@ -3224,7 +3224,7 @@ mission killing everything and barely takes damage.
 - Primed Continuity, rank 10, Madurai polarity
 - Umbral Intensify, rank 10, unpolarised
 - Catalyzing Shields, rank 3, Vazarin polarity
-- Blending Talons, rank 3, unpolarised — augment. Tap 4 for a radial Seeking Talons
+- Blending Talons, rank 3, unpolarised. Augment. Tap 4 for a radial Seeking Talons
 - Aura: Corrosive Projection, Naramon polarity
 - Exilus: Power Drift, unpolarised
 - Arcanes: Molt Augmented, Arcane Arachne
@@ -3329,7 +3329,7 @@ whole room and shrugs off everything it is looking at.
 - Stretch, rank 5, unpolarised
 - Augur Reach, rank 5, unpolarised
 - Primed Flow, rank 10, Naramon polarity
-- Energy Transfer, rank 3, unpolarised — augment. Preserves stored damage across a form switch
+- Energy Transfer, rank 3, unpolarised. Augment. Preserves stored damage across a form switch
 - Rolling Guard, rank 10, Vazarin polarity
 - Overextended, rank 5, Vazarin polarity
 - Aura: Corrosive Projection, Naramon polarity
@@ -3444,11 +3444,11 @@ once.
 
 - Blind Rage, rank 10, Madurai polarity
 - Overextended, rank 5, Vazarin polarity
-- Molecular Fission, rank 3, unpolarised — augment. Null Stars apply Molecular Prime on hit
+- Molecular Fission, rank 3, unpolarised. Augment. Null Stars apply Molecular Prime on hit
 - Primed Continuity, rank 10, Madurai polarity
 - Equilibrium, rank 10, Naramon polarity
 - Stretch, rank 5, unpolarised
-- Neutron Star, rank 3, unpolarised — augment. Recasting 1 fires all stars; adds forced heat and a partial strip
+- Neutron Star, rank 3, unpolarised. Augment. Recasting 1 fires all stars; adds forced heat and a partial strip
 - Primed Flow, rank 10, Naramon polarity
 - Aura: Brief Respite, aura slot
 - Exilus: Power Drift, unpolarised
@@ -3558,14 +3558,14 @@ room to a crawl.
 
 **The build**
 
-- Vampire Leech, rank 3, unpolarised — augment. Energy Vampire also grants shields
+- Vampire Leech, rank 3, unpolarised. Augment. Energy Vampire also grants shields
 - Primed Continuity, rank 10, Madurai polarity
 - Primed Flow, rank 10, Naramon polarity
 - Narrow Minded, rank 10, Vazarin polarity
-- Abating Link, rank 3, unpolarised — augment. Link strips linked enemies' armour
+- Abating Link, rank 3, unpolarised. Augment. Link strips linked enemies' armour
 - Overextended, rank 5, Vazarin polarity
 - Blind Rage, rank 10, Madurai polarity
-- Champion's Blessing, rank 3, unpolarised — augment. Bless grants a health-scaled crit-chance buff
+- Champion's Blessing, rank 3, unpolarised. Augment. Bless grants a health-scaled crit-chance buff
 - Aura: Combat Discipline, Vazarin polarity
 - Exilus: Power Drift, unpolarised
 - Arcanes: Arcane Concentration, Arcane Avenger
@@ -3669,10 +3669,10 @@ hard-support the squad's energy.
 
 - Equilibrium, rank 10, Naramon polarity
 - Overextended, rank 5, unpolarised
-- Temporal Erosion, rank 3, unpolarised — augment. Damage during Temporal Anchor strips armour
-- Temporal Artillery, rank 3, unpolarised — augment. Blaze Artillery deals more damage
+- Temporal Erosion, rank 3, unpolarised. Augment. Damage during Temporal Anchor strips armour
+- Temporal Artillery, rank 3, unpolarised. Augment. Blaze Artillery deals more damage
 - Primed Flow, rank 10, Naramon polarity
-- Archon Vitality, rank 0, unpolarised — doubles Blaze Artillery heat procs
+- Archon Vitality, rank 0, unpolarised. Doubles Blaze Artillery heat procs
 - Blind Rage, rank 10, Madurai polarity
 - Primed Continuity, rank 10, Madurai polarity
 - Aura: Growing Power, aura slot
@@ -3778,11 +3778,11 @@ and a panic-proof gate.
 
 **The build**
 
-- Reactive Storm, rank 3, unpolarised — augment. Desert Wind gains status chance and matches enemy weakness
+- Reactive Storm, rank 3, unpolarised. Augment. Desert Wind gains status chance and matches enemy weakness
 - Precision Intensify, rank 5, unpolarised
 - Primed Flow, rank 10, Naramon polarity
 - Overextended, rank 5, Vazarin polarity
-- Elusive Retribution, rank 3, unpolarised — augment. Dodging grants attack speed and crit damage
+- Elusive Retribution, rank 3, unpolarised. Augment. Dodging grants attack speed and crit damage
 - Blind Rage, rank 10, Madurai polarity
 - Equilibrium, rank 10, Naramon polarity
 - Primed Continuity, rank 10, Madurai polarity
@@ -3884,7 +3884,7 @@ rooms and effectively cannot be killed.
 
 **The build**
 
-- Celestial Stomp, rank 3, unpolarised — augment. Celestial Twin casts a radial stomp
+- Celestial Stomp, rank 3, unpolarised. Augment. Celestial Twin casts a radial stomp
 - Augur Reach, rank 5, unpolarised
 - Precision Intensify, rank 5, Madurai polarity
 - Catalyzing Shields, rank 3, Vazarin polarity
@@ -4103,11 +4103,11 @@ gunfire and turns any AoE weapon into a room-clearing nuke.
 **The build**
 
 - Equilibrium, rank 10, Naramon polarity
-- Prismatic Companion, rank 3, unpolarised — augment. Prismatic Gem effects apply to a free-moving companion
+- Prismatic Companion, rank 3, unpolarised. Augment. Prismatic Gem effects apply to a free-moving companion
 - Primed Flow, rank 10, Naramon polarity
 - Blind Rage, rank 10, Madurai polarity
 - Archon Continuity, rank 10, Madurai polarity
-- Recrystalize, rank 3, unpolarised — augment. Crystallize can be re-triggered
+- Recrystalize, rank 3, unpolarised. Augment. Crystallize can be re-triggered
 - Stretch, rank 5, unpolarised
 - Adaptation, rank 10, Vazarin polarity
 - Aura: Summoner's Wrath, aura slot
@@ -4220,7 +4220,7 @@ the squad while a pet does the killing.
 **The build**
 
 - Umbral Intensify, rank 10, unpolarised
-- Razor Mortar, rank 3, Zenurik polarity — augment. Ortholysts fire scaling electric mortars
+- Razor Mortar, rank 3, Zenurik polarity. Augment. Ortholysts fire scaling electric mortars
 - Blind Rage, rank 10, Madurai polarity
 - Primed Continuity, rank 10, Madurai polarity
 - Primed Flow, rank 10, Naramon polarity
@@ -4555,7 +4555,7 @@ while it waits for the room to melt.
 - Blind Rage, rank 10, Madurai polarity
 - Primed Flow, rank 10, Naramon polarity
 - Augur Reach, rank 5, unpolarised
-- Divine Retribution, rank 3, unpolarised — augment. Divine Spears expedites weapon status in an area
+- Divine Retribution, rank 3, unpolarised. Augment. Divine Spears expedites weapon status in an area
 - Overextended, rank 5, Vazarin polarity
 - Equilibrium, rank 10, Naramon polarity
 - Aura: Corrosive Projection, Naramon polarity
@@ -4658,9 +4658,9 @@ status weapon into a map nuke.
 
 **The build**
 
-- Assimilate, rank 3, unpolarised — augment. Absorb becomes a mobile, scaling invulnerability
-- Pacifying Bolts, rank 3, unpolarised — augment. Psychic Bolts gain a long stun and forced radiation
-- Mind Freak, rank 3, unpolarised — augment. Mind Control target deals more damage
+- Assimilate, rank 3, unpolarised. Augment. Absorb becomes a mobile, scaling invulnerability
+- Pacifying Bolts, rank 3, unpolarised. Augment. Psychic Bolts gain a long stun and forced radiation
+- Mind Freak, rank 3, unpolarised. Augment. Mind Control target deals more damage
 - Primed Continuity, rank 10, Madurai polarity
 - Streamline, rank 5, unpolarised
 - Stretch, rank 5, unpolarised
@@ -4765,7 +4765,7 @@ speed for it.
 **The build**
 
 - Energy Nexus, rank 5, unpolarised
-- Loyal Merulina, rank 3, unpolarised — augment. Merulina follows you and auto-casts Sea Snares
+- Loyal Merulina, rank 3, unpolarised. Augment. Merulina follows you and auto-casts Sea Snares
 - Boreal's Hatred, rank 5, Vazarin polarity
 - Fast Deflection, rank 5, unpolarised
 - Stretch, rank 5, Naramon polarity
@@ -4879,7 +4879,7 @@ makes it hit 9 to 16 times harder while keeping them alive.
 **The build**
 
 - Catalyzing Shields, rank 3, Vazarin polarity
-- Spectral Spirit, rank 3, unpolarised — augment. Force Spectral Form: invulnerability, orb drops, forced Doom
+- Spectral Spirit, rank 3, unpolarised. Augment. Force Spectral Form: invulnerability, orb drops, forced Doom
 - Constitution, rank 3, unpolarised
 - Equilibrium, rank 10, Naramon polarity
 - Primed Flow, rank 10, Naramon polarity
@@ -4992,8 +4992,8 @@ can be rebuilt into almost any weapon platform.
 
 **The build**
 
-- Conductive Sphere, rank 3, Zenurik polarity — augment. Shots through the orb gain forced electric and a damage bonus
-- Cathode Current, rank 3, unpolarised — augment. Rotorswell duration extends on kills, plus an extra discharge
+- Conductive Sphere, rank 3, Zenurik polarity. Augment. Shots through the orb gain forced electric and a damage bonus
+- Cathode Current, rank 3, unpolarised. Augment. Rotorswell duration extends on kills, plus an extra discharge
 - Overextended, rank 5, Vazarin polarity
 - Catalyzing Shields, rank 3, Vazarin polarity
 - Vigilante Vigor, rank 5, unpolarised
@@ -5225,7 +5225,7 @@ scaling and keeps the squad status-immune.
 - Umbral Intensify, rank 10, unpolarised
 - Blind Rage, rank 10, Madurai polarity
 - Equilibrium, rank 10, Naramon polarity
-- Volatile Recompense, rank 3, Zenurik polarity — augment. Overguard is refunded when it breaks, on a timer
+- Volatile Recompense, rank 3, Zenurik polarity. Augment. Overguard is refunded when it breaks, on a timer
 - Primed Continuity, rank 10, Madurai polarity
 - Augur Reach, rank 5, unpolarised
 - Primed Flow, rank 10, Naramon polarity
@@ -5332,7 +5332,7 @@ swing and blinks around a room sharing one hit to everything.
 - Umbral Intensify, rank 10, unpolarised
 - Overextended, rank 5, Vazarin polarity
 - Stretch, rank 5, Naramon polarity
-- Intrepid Stand, rank 3, unpolarised — augment. Final Stand grants overguard per enemy hit
+- Intrepid Stand, rank 3, unpolarised. Augment. Final Stand grants overguard per enemy hit
 - Blind Rage, rank 10, Madurai polarity
 - Aura: Corrosive Projection, Naramon polarity
 - Exilus: Cunning Drift, unpolarised
@@ -5435,7 +5435,7 @@ energy full and rarely dies.
 - Equilibrium, rank 10, Naramon polarity
 - Overextended, rank 5, unpolarised
 - Stretch, rank 5, unpolarised
-- Rift Torrent, rank 3, unpolarised — augment. Weapon damage bonus per Rift-Surged enemy
+- Rift Torrent, rank 3, unpolarised. Augment. Weapon damage bonus per Rift-Surged enemy
 - Primed Continuity, rank 10, Madurai polarity
 - Aura: Brief Respite, aura slot
 - Exilus: Primed Sure Footed, Vazarin polarity
@@ -5539,11 +5539,11 @@ delete rooms with wrapped-integer sparks.
 
 **The build**
 
-- Magnetized Discharge, rank 3, unpolarised — augment. Bigger Magnetize radius, detonate on demand, disarm
-- Counter Pulse, rank 3, unpolarised — augment. Polarize jams enemy guns through walls
+- Magnetized Discharge, rank 3, unpolarised. Augment. Bigger Magnetize radius, detonate on demand, disarm
+- Counter Pulse, rank 3, unpolarised. Augment. Polarize jams enemy guns through walls
 - Stretch, rank 5, Naramon polarity
 - Primed Flow, rank 10, Naramon polarity
-- Fracturing Crush, rank 3, unpolarised — augment. Permanent full strip at 134% Strength, plus cast speed
+- Fracturing Crush, rank 3, unpolarised. Augment. Permanent full strip at 134% Strength, plus cast speed
 - Overextended, rank 5, unpolarised
 - Equilibrium, rank 10, Naramon polarity
 - Transient Fortitude, rank 10, Madurai polarity
@@ -5653,11 +5653,11 @@ kill box.
 - Overextended, rank 5, unpolarised
 - Adaptation, rank 10, Vazarin polarity
 - Blind Rage, rank 10, Madurai polarity
-- Swift Bite, rank 3, unpolarised — augment. Transmutation Probe reduces ability cooldowns
-- Valence Formation, rank 3, Zenurik polarity — augment. +200% element bonus that also reaches ability statuses
+- Swift Bite, rank 3, unpolarised. Augment. Transmutation Probe reduces ability cooldowns
+- Valence Formation, rank 3, Zenurik polarity. Augment. +200% element bonus that also reaches ability statuses
 - Mecha Pulse, rank 3, unpolarised
 - Archon Continuity, rank 10, Madurai polarity
-- Archon Vitality, rank 10, Vazarin polarity — doubles Catalyze heat procs
+- Archon Vitality, rank 10, Vazarin polarity. Doubles Catalyze heat procs
 - Aura: Mecha Empowered, aura slot
 - Exilus: Cunning Drift, unpolarised
 - Arcanes: Arcane Impetus, Arcane Blessing
@@ -5774,7 +5774,7 @@ and do not mind a busy rotation.
 - Vigilante Vigor, rank 5, unpolarised
 - Fast Deflection, rank 5, unpolarised
 - Overextended, rank 5, Vazarin polarity
-- Omikuji's Fortune, rank 3, unpolarised — augment. Kills with the rotating passive weapon cut Omikuji's cooldown
+- Omikuji's Fortune, rank 3, unpolarised. Augment. Kills with the rotating passive weapon cut Omikuji's cooldown
 - Equilibrium, rank 10, Naramon polarity
 - Archon Continuity, rank 10, Madurai polarity
 - Aura: Aerodynamic, aura slot
@@ -5884,7 +5884,7 @@ longer they stay and enjoy the dice-roll survival.
 - Overextended, rank 5, Vazarin polarity
 - Transient Fortitude, rank 10, Madurai polarity
 - Umbral Intensify, rank 10, unpolarised
-- Blending Talons, rank 3, unpolarised — augment. Tap 4 for a radial Seeking Talons and quick gate
+- Blending Talons, rank 3, unpolarised. Augment. Tap 4 for a radial Seeking Talons and quick gate
 - Augur Reach, rank 5, unpolarised
 - Aura: Brief Respite, aura slot
 - Exilus: Kavat's Grace, unpolarised
@@ -5994,11 +5994,11 @@ raining slash on everything they mark.
 
 **The build**
 
-- Resonance, rank 3, unpolarised — augment. Sonar self-propagates on weakspot kills
+- Resonance, rank 3, unpolarised. Augment. Sonar self-propagates on weakspot kills
 - Stretch, rank 5, unpolarised
 - Catalyzing Shields, rank 3, Vazarin polarity
 - Precision Intensify, rank 5, Madurai polarity
-- Sonic Fracture, rank 3, unpolarised — augment. Sonic Boom strips armour
+- Sonic Fracture, rank 3, unpolarised. Augment. Sonic Boom strips armour
 - Primed Flow, rank 10, Naramon polarity
 - Equilibrium, rank 10, Naramon polarity
 - Primed Continuity, rank 10, Madurai polarity
@@ -6103,11 +6103,11 @@ with a weapon that would otherwise bounce off them.
 - Hunter Adrenaline, rank 5, Madurai polarity
 - Blind Rage, rank 10, Madurai polarity
 - Umbral Fiber, rank 10, unpolarised
-- Hearty Nourishment, rank 3, Zenurik polarity — augment. Nourish grants status immunity
-- Gastro, rank 3, Zenurik polarity — augment. Regurgitate bounces up to 4 times
+- Hearty Nourishment, rank 3, Zenurik polarity. Augment. Nourish grants status immunity
+- Gastro, rank 3, Zenurik polarity. Augment. Regurgitate bounces up to 4 times
 - Primed Flow, rank 10, Naramon polarity
 - Aura: Growing Power, aura slot
-- Exilus: Catapult, Zenurik polarity — augment. Move fast in Pulverize
+- Exilus: Catapult, Zenurik polarity. Augment. Move fast in Pulverize
 - Arcanes: Arcane Persistence, Arcane Bellicose
 
 Arsenal figures land at roughly 276% Strength, 100% Duration, 100% Range, 45%
@@ -6217,7 +6217,7 @@ level, and who have the forma to spare.
 
 - Umbral Intensify, rank 10, Umbral polarity
 - Umbral Vitality, rank 10, unpolarised
-- Guardian Armor, rank 3, Zenurik polarity — augment. Kills heal you and hold Vex Armor indefinitely
+- Guardian Armor, rank 3, Zenurik polarity. Augment. Kills heal you and hold Vex Armor indefinitely
 - Primed Flow, rank 10, Naramon polarity
 - Hunter Adrenaline, rank 5, Madurai polarity
 - Blind Rage, rank 10, Madurai polarity
@@ -6323,7 +6323,7 @@ weapon's damage and never has to think about survival.
 
 **The build**
 
-- Prism Guard, rank 3, unpolarised — augment. Steer the Prism ball and enable the attractor interaction
+- Prism Guard, rank 3, unpolarised. Augment. Steer the Prism ball and enable the attractor interaction
 - Rolling Guard, rank 10, Vazarin polarity
 - Blind Rage, rank 10, Madurai polarity
 - Primed Continuity, rank 10, Madurai polarity
@@ -6427,7 +6427,7 @@ by dragging a laser ball through their face.
 
 **The build**
 
-- Mesmer Shield, rank 3, unpolarised — augment. Hands allies Mesmer Skin charges
+- Mesmer Shield, rank 3, unpolarised. Augment. Hands allies Mesmer Skin charges
 - Narrow Minded, rank 10, Vazarin polarity
 - Primed Continuity, rank 10, Madurai polarity
 - Transient Fortitude, rank 10, Madurai polarity
@@ -6534,8 +6534,8 @@ deeper the endurance run goes.
 **The build**
 
 - Stretch, rank 5, unpolarised
-- Concentrated Arrow, rank 3, unpolarised — augment. Artemis Bow arrows explode on headshot
-- Pool of Life, rank 3, unpolarised — augment. Well of Life target drops four health orbs
+- Concentrated Arrow, rank 3, unpolarised. Augment. Artemis Bow arrows explode on headshot
+- Pool of Life, rank 3, unpolarised. Augment. Well of Life target drops four health orbs
 - Blind Rage, rank 10, Madurai polarity
 - Primed Flow, rank 10, Naramon polarity
 - Overextended, rank 5, Vazarin polarity
@@ -6640,11 +6640,11 @@ without ever being seen.
 
 **The build**
 
-- Ironclad Charge, rank 3, Zenurik polarity — augment. Charge grants a large temporary total-armour bonus per enemy hit
+- Ironclad Charge, rank 3, Zenurik polarity. Augment. Charge grants a large temporary total-armour bonus per enemy hit
 - Equilibrium, rank 10, Naramon polarity
 - Blind Rage, rank 10, Madurai polarity
 - Stretch, rank 5, Naramon polarity
-- Reinforcing Stomp, rank 3, unpolarised — augment. Stomp restores 4% of Iron Skin per enemy hit
+- Reinforcing Stomp, rank 3, unpolarised. Augment. Stomp restores 4% of Iron Skin per enemy hit
 - Umbral Intensify, rank 10, unpolarised
 - Primed Continuity, rank 10, Madurai polarity
 - Health Conversion, rank 5, Vazarin polarity
@@ -6847,8 +6847,8 @@ just hold light attack.
 
 **The build**
 
-- Shadow Haze, rank 3, Zenurik polarity — augment. Spawns three Reap shadows and a flat crit-chance debuff
-- Dark Propagation, rank 3, unpolarised — augment. Sow self-propagates
+- Shadow Haze, rank 3, Zenurik polarity. Augment. Spawns three Reap shadows and a flat crit-chance debuff
+- Dark Propagation, rank 3, unpolarised. Augment. Sow self-propagates
 - Stretch, rank 5, Naramon polarity
 - Umbral Intensify, rank 10, unpolarised
 - Equilibrium, rank 10, Naramon polarity
@@ -6950,7 +6950,7 @@ have the shards to feed it.
 
 - Rolling Guard, rank 10, Vazarin polarity
 - Primed Flow, rank 10, Naramon polarity
-- Archon Vitality, rank 0, unpolarised — doubles Lizzie's heat procs
+- Archon Vitality, rank 0, unpolarised. Doubles Lizzie's heat procs
 - Equilibrium, rank 10, Naramon polarity
 - Archon Continuity, rank 10, Madurai polarity
 - Stretch, rank 5, unpolarised
@@ -7062,9 +7062,9 @@ that rewards hitting the beat.
 
 **The build**
 
-- Wrecking Wall, rank 3, unpolarised — augment. Containment Wall full-strips at 200% Strength and refreshes Pillars
+- Wrecking Wall, rank 3, unpolarised. Augment. Containment Wall full-strips at 200% Strength and refreshes Pillars
 - Primed Flow, rank 10, Naramon polarity
-- Fused Crucible, rank 3, unpolarised — augment. Walk while beaming, fully invulnerable
+- Fused Crucible, rank 3, unpolarised. Augment. Walk while beaming, fully invulnerable
 - Precision Intensify, rank 5, unpolarised
 - Overextended, rank 5, Vazarin polarity
 - Stretch, rank 5, Naramon polarity
@@ -7182,7 +7182,7 @@ grouped, stripped room into a chain reaction.
 - Narrow Minded, rank 10, Vazarin polarity
 - Equilibrium, rank 10, Naramon polarity
 - Blind Rage, rank 10, Madurai polarity
-- Venom Dose, rank 3, unpolarised — augment. Adds a toxin damage buff to weapons
+- Venom Dose, rank 3, unpolarised. Augment. Adds a toxin damage buff to weapons
 - Primed Continuity, rank 10, Madurai polarity
 - Aura: Corrosive Projection, aura slot
 - Exilus: Toxic Flight, unpolarised
@@ -7283,7 +7283,7 @@ not mind babysitting three buffs and a shield gate.
 **The build**
 
 - Blind Rage, rank 10, Madurai polarity
-- Elemental Sandstorm, rank 3, Zenurik polarity — augment. Sandstorm inherits your melee's elements and status
+- Elemental Sandstorm, rank 3, Zenurik polarity. Augment. Sandstorm inherits your melee's elements and status
 - Umbral Fiber, rank 10, Umbral polarity
 - Hunter Adrenaline, rank 5, Madurai polarity
 - Umbral Intensify, rank 10, Umbral polarity
@@ -7386,9 +7386,9 @@ have the forma to build it properly.
 
 **The build**
 
-- Healing Flame, rank 3, unpolarised — augment. Fire Blast heals and grants overguard
-- Fireball Frenzy, rank 3, unpolarised — augment. Fireball grants a heat weapon buff
-- Exothermic, rank 3, unpolarised — augment. Inferno kills make energy orbs
+- Healing Flame, rank 3, unpolarised. Augment. Fire Blast heals and grants overguard
+- Fireball Frenzy, rank 3, unpolarised. Augment. Fireball grants a heat weapon buff
+- Exothermic, rank 3, unpolarised. Augment. Inferno kills make energy orbs
 - Umbral Intensify, rank 10, unpolarised
 - Primed Flow, rank 10, Naramon polarity
 - Catalyzing Shields, rank 3, Vazarin polarity
@@ -7489,10 +7489,10 @@ a one-slot survival answer.
 
 - Blind Rage, rank 10, Madurai polarity
 - Primed Flow, rank 10, Naramon polarity
-- Ore Gaze, rank 3, unpolarised — augment. Petrified enemies drop bonus loot
+- Ore Gaze, rank 3, unpolarised. Augment. Petrified enemies drop bonus loot
 - Overextended, rank 5, Vazarin polarity
-- Path of Statues, rank 3, unpolarised — augment. Petrifies enemies that cross your Landslide path
-- Rubble Heap, rank 3, unpolarised — augment. Free Landslide and more damage at max rubble
+- Path of Statues, rank 3, unpolarised. Augment. Petrifies enemies that cross your Landslide path
+- Rubble Heap, rank 3, unpolarised. Augment. Free Landslide and more damage at max rubble
 - Archon Stretch, rank 10, Naramon polarity
 - Adaptation, rank 10, unpolarised
 - Aura: Steel Charge, Madurai polarity
@@ -7692,7 +7692,7 @@ weakpoint and never runs out of ammo or invisibility.
 **The build**
 
 - Blind Rage, rank 10, Madurai polarity
-- Lasting Covenant, rank 3, unpolarised — augment. Covenant's crit buff becomes permanent, no i-frames
+- Lasting Covenant, rank 3, unpolarised. Augment. Covenant's crit buff becomes permanent, no i-frames
 - Stretch, rank 5, unpolarised
 - Narrow Minded, rank 10, Vazarin polarity
 - Primed Flow, rank 10, Naramon polarity
@@ -7790,10 +7790,10 @@ crit-carry and do not need Harrow's team energy.
 - Equilibrium, rank 10, Naramon polarity
 - Narrow Minded, rank 10, Vazarin polarity
 - Overextended, rank 5, unpolarised
-- Temporal Artillery, rank 3, unpolarised — augment. Blaze Artillery deals more damage
+- Temporal Artillery, rank 3, unpolarised. Augment. Blaze Artillery deals more damage
 - Primed Flow, rank 10, Naramon polarity
-- Archon Vitality, rank 0, unpolarised — doubles Blaze Artillery heat procs
-- Temporal Erosion, rank 3, unpolarised — augment. Damage during Temporal Anchor strips armour
+- Archon Vitality, rank 0, unpolarised. Doubles Blaze Artillery heat procs
+- Temporal Erosion, rank 3, unpolarised. Augment. Damage during Temporal Anchor strips armour
 - Blind Rage, rank 10, Madurai polarity
 - Aura: Mecha Empowered, aura slot
 - Exilus: Primed Sure Footed, Vazarin polarity
@@ -7888,14 +7888,14 @@ endurance survival while they barely touch the controls.
 
 **The build**
 
-- Lingering Transmutation, rank 3, unpolarised — augment. Transmutation Probe lasts longer
-- Valence Formation, rank 3, unpolarised — augment. +200% element bonus (weapons; DoT interaction is bugged)
+- Lingering Transmutation, rank 3, unpolarised. Augment. Transmutation Probe lasts longer
+- Valence Formation, rank 3, unpolarised. Augment. +200% element bonus (weapons; DoT interaction is bugged)
 - Adaptation, rank 10, Vazarin polarity
 - Mecha Pulse, rank 3, unpolarised
 - Stretch, rank 5, unpolarised
 - Precision Intensify, rank 5, Madurai polarity
 - Archon Continuity, rank 10, Madurai polarity
-- Archon Vitality, rank 10, Vazarin polarity — doubles Catalyze heat procs
+- Archon Vitality, rank 10, Vazarin polarity. Doubles Catalyze heat procs
 - Aura: Mecha Empowered, Naramon polarity
 - Exilus: Cunning Drift, unpolarised
 - Arcanes: Arcane Impetus, Arcane Guardian
@@ -8003,7 +8003,7 @@ tank chassis for sub-endurance content.
 - Blind Rage, rank 10, aura slot
 - Umbral Intensify, rank 10, unpolarised
 - Equilibrium, rank 10, Naramon polarity
-- Archon Vitality, rank 0, Vazarin polarity — doubles Celestial Clash heat procs
+- Archon Vitality, rank 0, Vazarin polarity. Doubles Celestial Clash heat procs
 - Transient Fortitude, rank 10, Madurai polarity
 - Stretch, rank 5, unpolarised
 - Primed Continuity, rank 10, Madurai polarity
@@ -8113,7 +8113,7 @@ game and will learn the combo order to make it sing.
 - Umbral Vitality, rank 10, unpolarised
 - Umbral Fiber, rank 10, unpolarised
 - Hunter Adrenaline, rank 5, Madurai polarity
-- Venom Dose, rank 3, Zenurik polarity — augment. Adds a toxin weapon buff
+- Venom Dose, rank 3, Zenurik polarity. Augment. Adds a toxin weapon buff
 - Primed Continuity, rank 10, Madurai polarity
 - Stretch, rank 5, Naramon polarity
 - Augur Reach, rank 5, Naramon polarity
@@ -8305,7 +8305,7 @@ rotation as fast as the timer allows.
 
 - Stretch, rank 5, unpolarised
 - Fast Deflection, rank 5, unpolarised
-- Archon Vitality, rank 0, unpolarised — doubles Thermal Sunder heat procs
+- Archon Vitality, rank 0, unpolarised. Doubles Thermal Sunder heat procs
 - Overextended, rank 5, Vazarin polarity
 - Equilibrium, rank 10, Naramon polarity
 - Primed Flow, rank 10, Naramon polarity
@@ -8405,10 +8405,10 @@ level cap and does not think about survival.
 **The build**
 
 - Umbral Intensify, rank 10, Umbral polarity
-- Parasitic Vitality, rank 3, unpolarised — augment. Stacks grant large health
+- Parasitic Vitality, rank 3, unpolarised. Augment. Stacks grant large health
 - Stretch, rank 5, unpolarised
 - Primed Flow, rank 10, Naramon polarity
-- Teeming Virulence, rank 3, unpolarised — augment. Stacks grant flat primary crit chance
+- Teeming Virulence, rank 3, unpolarised. Augment. Stacks grant flat primary crit chance
 - Constitution, rank 3, Naramon polarity
 - Blind Rage, rank 10, Madurai polarity
 - Primed Continuity, rank 10, Madurai polarity
@@ -8502,9 +8502,9 @@ primary weapon crit and hit harder.
 **The build**
 
 - Equilibrium, rank 10, Naramon polarity
-- Intrepid Stand, rank 3, unpolarised — augment. Final Stand grants overguard per enemy hit
+- Intrepid Stand, rank 3, unpolarised. Augment. Final Stand grants overguard per enemy hit
 - Primed Flow, rank 10, Naramon polarity
-- Tharros Lethality, rank 3, unpolarised — augment. Tharros Strike buffs weapon crit damage
+- Tharros Lethality, rank 3, unpolarised. Augment. Tharros Strike buffs weapon crit damage
 - Overextended, rank 5, Vazarin polarity
 - Stretch, rank 5, Naramon polarity
 - Primed Continuity, rank 10, Madurai polarity
@@ -8603,10 +8603,10 @@ on a crit weapon after the strip.
 
 **The build**
 
-- Muzzle Flash, rank 3, unpolarised — augment. Shooting Gallery blinds in a radius on kills
+- Muzzle Flash, rank 3, unpolarised. Augment. Shooting Gallery blinds in a radius on kills
 - Primed Flow, rank 10, Naramon polarity
 - Equilibrium, rank 10, Naramon polarity
-- Prey of Dynar, rank 3, unpolarised — augment. Marks an enemy for a 2.5x Fangs spread
+- Prey of Dynar, rank 3, unpolarised. Augment. Marks an enemy for a 2.5x Fangs spread
 - Overextended, rank 5, Vazarin polarity
 - Blind Rage, rank 10, Madurai polarity
 - Archon Stretch, rank 10, Naramon polarity
@@ -8712,7 +8712,7 @@ sprays one strong proc across 44 metres.
 
 - Augur Reach, rank 5, Naramon polarity
 - Umbral Intensify, rank 10, unpolarised
-- Aegis Gale, rank 3, unpolarised — augment. Balefire gains a spammable area alt-fire
+- Aegis Gale, rank 3, unpolarised. Augment. Balefire gains a spammable area alt-fire
 - Stretch, rank 5, Naramon polarity
 - Blind Rage, rank 10, Madurai polarity
 - Primed Continuity, rank 10, Madurai polarity
@@ -8788,9 +8788,9 @@ drain solved.
 
 **The build**
 
-- Cathode Current, rank 3, unpolarised — augment. Rotorswell duration extends on kills, plus a discharge
+- Cathode Current, rank 3, unpolarised. Augment. Rotorswell duration extends on kills, plus a discharge
 - Equilibrium, rank 10, Naramon polarity
-- Conductive Sphere, rank 3, unpolarised — augment. Shots through the orb gain forced electric
+- Conductive Sphere, rank 3, unpolarised. Augment. Shots through the orb gain forced electric
 - Catalyzing Shields, rank 3, Vazarin polarity
 - Primed Flow, rank 10, Naramon polarity
 - Overextended, rank 5, Vazarin polarity
@@ -8887,7 +8887,7 @@ rooms once the armour is off.
 - Fast Deflection, rank 5, unpolarised
 - Overextended, rank 5, Vazarin polarity
 - Blind Rage, rank 10, Madurai polarity
-- Rubble Heap, rank 3, unpolarised — augment. Free Landslide and more damage at max rubble
+- Rubble Heap, rank 3, unpolarised. Augment. Free Landslide and more damage at max rubble
 - Archon Stretch, rank 10, Naramon polarity
 - Primed Flow, rank 10, Naramon polarity
 - Aura: Corrosive Projection, aura slot
@@ -9081,11 +9081,11 @@ do not mind the teleport-detonate rhythm.
 
 **The build**
 
-- Ulfrun's Endurance, rank 3, Zenurik polarity — augment. Slash-proc kills refill Ulfrun's Descent charges
+- Ulfrun's Endurance, rank 3, Zenurik polarity. Augment. Slash-proc kills refill Ulfrun's Descent charges
 - Equilibrium, rank 10, Naramon polarity
 - Overextended, rank 5, Vazarin polarity
 - Blind Rage, rank 10, Madurai polarity
-- Prey of Dynar, rank 3, unpolarised — augment. Marks an enemy for a wider Fangs spread
+- Prey of Dynar, rank 3, unpolarised. Augment. Marks an enemy for a wider Fangs spread
 - Primed Continuity, rank 10, Madurai polarity
 - Archon Stretch, rank 10, Naramon polarity
 - Primed Flow, rank 10, Naramon polarity
@@ -9172,7 +9172,7 @@ else.
 **The build**
 
 - Health Conversion, rank 5, Vazarin polarity
-- Shield of Shadows, rank 3, unpolarised — augment. Redirects damage to shadows
+- Shield of Shadows, rank 3, unpolarised. Augment. Redirects damage to shadows
 - Primed Continuity, rank 10, Madurai polarity
 - Blind Rage, rank 10, Madurai polarity
 - Equilibrium, rank 10, Naramon polarity
@@ -9267,9 +9267,9 @@ regular Steel Path.
 - Blind Rage, rank 10, Madurai polarity
 - Overextended, rank 5, unpolarised
 - Equilibrium, rank 10, Naramon polarity
-- Reaping Chakram, rank 3, unpolarised — augment. Chakram doubles damage per hit and drops more orbs
-- Divine Retribution, rank 3, unpolarised — augment. Divine Spears expedites accumulated status
-- Archon Vitality, rank 10, Vazarin polarity — doubles heat procs
+- Reaping Chakram, rank 3, unpolarised. Augment. Chakram doubles damage per hit and drops more orbs
+- Divine Retribution, rank 3, unpolarised. Augment. Divine Spears expedites accumulated status
+- Archon Vitality, rank 10, Vazarin polarity. Doubles heat procs
 - Primed Flow, rank 10, Naramon polarity
 - Aura: Brief Respite, aura slot
 - Exilus: Cunning Drift, unpolarised
@@ -9461,7 +9461,7 @@ near them.
 
 **The build**
 
-- Reactive Storm, rank 3, Zenurik polarity — augment. Desert Wind gains status chance
+- Reactive Storm, rank 3, Zenurik polarity. Augment. Desert Wind gains status chance
 - Blind Rage, rank 10, Madurai polarity
 - Transient Fortitude, rank 10, Madurai polarity
 - Overextended, rank 5, Vazarin polarity
@@ -9554,7 +9554,7 @@ its exalted fists faster.
 
 **The build**
 
-- Peaceful Provocation, rank 3, unpolarised — augment. Day 3 grants a stacking Strength buff
+- Peaceful Provocation, rank 3, unpolarised. Augment. Day 3 grants a stacking Strength buff
 - Fleeting Expertise, rank 5, Naramon polarity
 - Augur Reach, rank 5, unpolarised
 - Primed Continuity, rank 10, Madurai polarity
@@ -9649,7 +9649,7 @@ frozen room.
 
 - Equilibrium, rank 10, Naramon polarity
 - Blind Rage, rank 10, Madurai polarity
-- Prey of Dynar, rank 3, Zenurik polarity — augment. Marks an enemy for a 49m Fangs spread
+- Prey of Dynar, rank 3, Zenurik polarity. Augment. Marks an enemy for a 49m Fangs spread
 - Augur Reach, rank 5, unpolarised
 - Overextended, rank 5, Vazarin polarity
 - Archon Continuity, rank 10, Madurai polarity
@@ -9746,9 +9746,9 @@ with a bigger radius and no energy-max shard needed.
 **The build**
 
 - Vigorous Swap, rank 10, unpolarised
-- Archon Vitality, rank 0, unpolarised — doubles Sol Gate heat procs
+- Archon Vitality, rank 0, unpolarised. Doubles Sol Gate heat procs
 - Archon Stretch, rank 10, Naramon polarity
-- Cataclysmic Gate, rank 3, unpolarised — augment. Sol Gate becomes a Range-scaling area nuke
+- Cataclysmic Gate, rank 3, unpolarised. Augment. Sol Gate becomes a Range-scaling area nuke
 - Overextended, rank 5, Vazarin polarity
 - Blind Rage, rank 10, Madurai polarity
 - Primed Flow, rank 10, Naramon polarity
@@ -10010,7 +10010,7 @@ form-switching.
 **The build**
 
 - Streamline, rank 5, unpolarised
-- Chromatic Blade, rank 3, unpolarised — augment. Exalted Blade gains status chance and becomes electric
+- Chromatic Blade, rank 3, unpolarised. Augment. Exalted Blade gains status chance and becomes electric
 - Primed Flow, rank 10, Naramon polarity
 - Equilibrium, rank 10, Naramon polarity
 - Fast Deflection, rank 5, unpolarised
@@ -10092,11 +10092,11 @@ clears rooms and never checks its shields.
 
 **The build**
 
-- Spectrosiphon, rank 3, unpolarised — augment. Spectrorage drops energy orbs
+- Spectrosiphon, rank 3, unpolarised. Augment. Spectrorage drops energy orbs
 - Overextended, rank 5, Vazarin polarity
 - Stretch, rank 5, Naramon polarity
 - Primed Flow, rank 10, Naramon polarity
-- Enduring Bastille, rank 3, unpolarised — augment. Kills in Bastille extend its duration
+- Enduring Bastille, rank 3, unpolarised. Augment. Kills in Bastille extend its duration
 - Augur Reach, rank 5, unpolarised
 - Rolling Guard, rank 10, unpolarised
 - Primed Continuity, rank 10, Madurai polarity
@@ -10153,13 +10153,13 @@ keep the squad's energy full.
 
 **The build**
 
-- Neutron Star, rank 3, Zenurik polarity — augment
+- Neutron Star, rank 3, Zenurik polarity. Augment
 - Overextended, rank 5, unpolarised
 - Blind Rage, rank 10, Madurai polarity
 - Primed Continuity, rank 10, Madurai polarity
-- Molecular Fission, rank 3, unpolarised — augment
+- Molecular Fission, rank 3, unpolarised. Augment
 - Mecha Pulse, rank 3, unpolarised
-- Archon Vitality, rank 10, Vazarin polarity — doubles Neutron Star heat procs
+- Archon Vitality, rank 10, Vazarin polarity. Doubles Neutron Star heat procs
 - Primed Flow, rank 10, Naramon polarity
 - Aura: Mecha Empowered, aura slot
 - Exilus: Primed Sure Footed, Vazarin polarity
@@ -10268,9 +10268,9 @@ Wukong.
 
 **The build**
 
-- Assimilate, rank 3, Zenurik polarity — augment. Mobile, scaling invulnerability
-- Mind Freak, rank 3, unpolarised — augment. Mind Control target deals more damage
-- Pacifying Bolts, rank 3, unpolarised — augment
+- Assimilate, rank 3, Zenurik polarity. Augment. Mobile, scaling invulnerability
+- Mind Freak, rank 3, unpolarised. Augment. Mind Control target deals more damage
+- Pacifying Bolts, rank 3, unpolarised. Augment
 - Primed Continuity, rank 10, Madurai polarity
 - Umbral Intensify, rank 10, unpolarised
 - Equilibrium, rank 10, Naramon polarity
@@ -10340,7 +10340,7 @@ map nuke.
 
 **The build**
 
-- Cathode Current, rank 3, Zenurik polarity — augment
+- Cathode Current, rank 3, Zenurik polarity. Augment
 - Mecha Pulse, rank 3, unpolarised
 - Augur Reach, rank 5, unpolarised
 - Overextended, rank 5, Vazarin polarity
@@ -10394,9 +10394,9 @@ weapon investment, invisible. Weak: fragile, boss-blind, needs a Kubrow.
 
 **The build**
 
-- Teleport Rush, rank 3, unpolarised — augment
+- Teleport Rush, rank 3, unpolarised. Augment
 - Equilibrium, rank 10, Naramon polarity
-- Smoke Shadow, rank 3, unpolarised — augment
+- Smoke Shadow, rank 3, unpolarised. Augment
 - Precision Intensify, rank 5, Madurai polarity
 - Stretch, rank 5, unpolarised
 - Flow, rank 5, unpolarised
@@ -10503,7 +10503,7 @@ alt-fire density damage.
 **The build**
 
 - Fast Deflection, rank 5, unpolarised
-- Thermal Transfer, rank 3, unpolarised — augment
+- Thermal Transfer, rank 3, unpolarised. Augment
 - Constitution, rank 3, unpolarised
 - Narrow Minded, rank 10, Vazarin polarity
 - Augur Message, rank 5, unpolarised
@@ -10609,7 +10609,7 @@ weapon-light for bosses, needs cast-speed to feel good.
 
 - Equilibrium, rank 10, Naramon polarity
 - Primed Flow, rank 10, Naramon polarity
-- Reinforcing Stomp, rank 3, Zenurik polarity — augment. Stomp restores Iron Skin per enemy hit
+- Reinforcing Stomp, rank 3, Zenurik polarity. Augment. Stomp restores Iron Skin per enemy hit
 - Archon Stretch, rank 10, Naramon polarity
 - Umbral Intensify, rank 10, Umbral polarity
 - Transient Fortitude, rank 10, Madurai polarity
@@ -10676,7 +10676,7 @@ windows rather than a health number.
 **The build**
 
 - Umbral Intensify, rank 10, unpolarised
-- Empowered Quiver, rank 3, Zenurik polarity — augment. Cloak Arrow grants a damage buff
+- Empowered Quiver, rank 3, Zenurik polarity. Augment. Cloak Arrow grants a damage buff
 - Narrow Minded, rank 10, Vazarin polarity
 - Primed Continuity, rank 10, Madurai polarity
 - Fleeting Expertise, rank 5, Naramon polarity
@@ -10738,7 +10738,7 @@ primary.
 
 **The build**
 
-- Eternal War, rank 3, unpolarised — augment
+- Eternal War, rank 3, unpolarised. Augment
 - Stretch, rank 5, Naramon polarity
 - Hunter Adrenaline, rank 5, Madurai polarity
 - Gladiator Resolve, rank 5, unpolarised
@@ -10800,7 +10800,7 @@ clear, cheap. Weak: melee range, Infested-vulnerable, boss-slow.
 **The build**
 
 - Mecha Pulse, rank 3, unpolarised
-- Surging Blades, rank 3, Zenurik polarity — augment. Aquablades bank damage
+- Surging Blades, rank 3, Zenurik polarity. Augment. Aquablades bank damage
 - Narrow Minded, rank 10, Vazarin polarity
 - Primed Continuity, rank 10, Madurai polarity
 - Constitution, rank 3, Naramon polarity
@@ -10860,11 +10860,11 @@ Kubrow.
 
 **The build**
 
-- Seeking Shuriken, rank 3, unpolarised — augment. Strips a single target's armour
+- Seeking Shuriken, rank 3, unpolarised. Augment. Strips a single target's armour
 - Primed Flow, rank 10, Naramon polarity
 - Rolling Guard, rank 10, Vazarin polarity
 - Blind Rage, rank 10, Madurai polarity
-- Smoke Shadow, rank 3, unpolarised — augment
+- Smoke Shadow, rank 3, unpolarised. Augment
 - Equilibrium, rank 10, Naramon polarity
 - Narrow Minded, rank 10, Vazarin polarity
 - Primed Continuity, rank 10, Madurai polarity
@@ -10928,7 +10928,7 @@ bring.
 - Precision Intensify, rank 5, unpolarised
 - Primed Flow, rank 10, Naramon polarity
 - Equilibrium, rank 10, Naramon polarity
-- Safeguard Switch, rank 3, unpolarised — augment. Switch Teleport shields the target
+- Safeguard Switch, rank 3, unpolarised. Augment. Switch Teleport shields the target
 - Aura: Brief Respite, aura slot
 - Exilus: Primed Sure Footed, Vazarin polarity
 - Arcanes: Arcane Crepuscular, Molt Efficiency
@@ -11029,11 +11029,11 @@ weapon-carried.
 
 - Overextended, rank 5, unpolarised
 - Rolling Guard, rank 10, Vazarin polarity
-- Molecular Fission, rank 3, unpolarised — augment
+- Molecular Fission, rank 3, unpolarised. Augment
 - Blind Rage, rank 10, Madurai polarity
 - Primed Continuity, rank 10, Madurai polarity
 - Stretch, rank 5, unpolarised
-- Neutron Star, rank 3, unpolarised — augment
+- Neutron Star, rank 3, unpolarised. Augment
 - Primed Flow, rank 10, Naramon polarity
 - Aura: Brief Respite, aura slot
 - Exilus: Primed Sure Footed, Vazarin polarity
@@ -11095,7 +11095,7 @@ automatically and hands their weapon a doubled, slowed target.
 **The build**
 
 - Archon Stretch, rank 10, Naramon polarity
-- Critical Surge, rank 1, unpolarised — augment. Teleport to a mote grants crit chance
+- Critical Surge, rank 1, unpolarised. Augment. Teleport to a mote grants crit chance
 - Blind Rage, rank 10, Madurai polarity
 - Primed Flow, rank 10, Naramon polarity
 - Narrow Minded, rank 10, Vazarin polarity
@@ -11153,8 +11153,8 @@ enjoy the mote ping-pong.
 
 **The build**
 
-- Chromatic Blade, rank 3, unpolarised — augment
-- Furious Javelin, rank 3, unpolarised — augment
+- Chromatic Blade, rank 3, unpolarised. Augment
+- Furious Javelin, rank 3, unpolarised. Augment
 - Primed Flow, rank 10, unpolarised
 - Primed Continuity, rank 10, Madurai polarity
 - Equilibrium, rank 10, Naramon polarity
@@ -11207,9 +11207,9 @@ platform.
 - Umbral Intensify, rank 10, unpolarised
 - Umbral Vitality, rank 10, unpolarised
 - Nira's Hatred, rank 5, Vazarin polarity
-- Valence Formation, rank 3, Zenurik polarity — augment. Adds a separate element hit to weapons
+- Valence Formation, rank 3, Zenurik polarity. Augment. Adds a separate element hit to weapons
 - Blind Rage, rank 10, Madurai polarity
-- Piercing Roar, rank 0, Zenurik polarity — augment. Recast Roar with no cooldown gap
+- Piercing Roar, rank 0, Zenurik polarity. Augment. Recast Roar with no cooldown gap
 - Primed Continuity, rank 10, Madurai polarity
 - Narrow Minded, rank 10, Vazarin polarity
 - Aura: Corrosive Projection, Naramon polarity
@@ -11262,7 +11262,7 @@ tanks to level cap.
 - Adaptation, rank 10, unpolarised
 - Health Conversion, rank 5, Vazarin polarity
 - Primed Continuity, rank 10, Madurai polarity
-- Molecular Fission, rank 3, unpolarised — augment. Null Stars auto-seek and re-apply
+- Molecular Fission, rank 3, unpolarised. Augment. Null Stars auto-seek and re-apply
 - Primed Flow, rank 10, Naramon polarity
 - Precision Intensify, rank 5, Madurai polarity
 - Equilibrium, rank 10, Naramon polarity
@@ -11304,8 +11304,8 @@ zero attention.
 
 **The build**
 
-- Jet Stream, rank 3, unpolarised — augment. Speed and projectile-speed buff
-- Airburst Rounds, rank 3, unpolarised — augment. Airburst groups and buffs weapon damage
+- Jet Stream, rank 3, unpolarised. Augment. Speed and projectile-speed buff
+- Airburst Rounds, rank 3, unpolarised. Augment. Airburst groups and buffs weapon damage
 - Equilibrium, rank 10, Naramon polarity
 - Augur Reach, rank 5, unpolarised
 - Stretch, rank 5, Naramon polarity
@@ -11405,7 +11405,7 @@ active-gate rhythm.
 - Equilibrium, rank 10, Naramon polarity
 - Primed Continuity, rank 10, Madurai polarity
 - Transient Fortitude, rank 10, Madurai polarity
-- Archon Vitality, rank 0, unpolarised — doubles Noctua heat procs
+- Archon Vitality, rank 0, unpolarised. Doubles Noctua heat procs
 - Primed Flow, rank 10, Naramon polarity
 - Narrow Minded, rank 10, Vazarin polarity
 - Augur Message, rank 5, Naramon polarity
@@ -11452,7 +11452,7 @@ Line-of-sight for the beam.
 - Equilibrium, rank 10, Naramon polarity
 - Augur Reach, rank 5, Naramon polarity
 - Stretch, rank 5, Naramon polarity
-- Target Fixation, rank 3, unpolarised — augment. Dive Bomb banks damage per hit
+- Target Fixation, rank 3, unpolarised. Augment. Dive Bomb banks damage per hit
 - Primed Continuity, rank 10, Madurai polarity
 - Aura: Corrosive Projection, aura slot
 - Exilus: Primed Sure Footed, Vazarin polarity
@@ -11493,7 +11493,7 @@ one-shot after a long ramp.
 **The build**
 
 - Mecha Pulse, rank 3, unpolarised
-- Cathode Current, rank 3, unpolarised — augment
+- Cathode Current, rank 3, unpolarised. Augment
 - Primed Flow, rank 10, Naramon polarity
 - Catalyzing Shields, rank 3, Vazarin polarity
 - Primed Continuity, rank 10, Madurai polarity
@@ -11540,7 +11540,7 @@ the other Gyre builds.
 - Archon Intensify, rank 10, Madurai polarity
 - Primed Continuity, rank 10, Madurai polarity
 - Transient Fortitude, rank 10, Madurai polarity
-- Thermal Transfer, rank 3, unpolarised — augment
+- Thermal Transfer, rank 3, unpolarised. Augment
 - Equilibrium, rank 10, Naramon polarity
 - Primed Flow, rank 10, Naramon polarity
 - Blind Rage, rank 10, Madurai polarity
@@ -11589,7 +11589,7 @@ Bosses.
 
 - Augur Reach, rank 5, unpolarised
 - Overextended, rank 5, Vazarin polarity
-- Photon Repeater, rank 3, unpolarised — augment. Photon Strike spam refunds energy
+- Photon Repeater, rank 3, unpolarised. Augment. Photon Strike spam refunds energy
 - Primed Flow, rank 10, Naramon polarity
 - Stretch, rank 5, unpolarised
 - Equilibrium, rank 10, Naramon polarity
@@ -11635,7 +11635,7 @@ falls off in deep endurance. Bosses.
 - Mecha Pulse, rank 3, unpolarised
 - Blind Rage, rank 10, Madurai polarity
 - Archon Continuity, rank 10, Madurai polarity
-- Prismatic Companion, rank 3, unpolarised — augment
+- Prismatic Companion, rank 3, unpolarised. Augment
 - Archon Stretch, rank 10, Naramon polarity
 - Equilibrium, rank 10, Naramon polarity
 - Archon Vitality, rank 10, Vazarin polarity
@@ -11682,7 +11682,7 @@ Prismatic Gem to nuke with 18 beams.
 - Blind Rage, rank 10, Madurai polarity
 - Fleeting Expertise, rank 5, unpolarised
 - Equilibrium, rank 10, Naramon polarity
-- Divine Retribution, rank 3, unpolarised — augment
+- Divine Retribution, rank 3, unpolarised. Augment
 - Archon Vitality, rank 10, Vazarin polarity
 - Overextended, rank 5, Vazarin polarity
 - Primed Flow, rank 10, Naramon polarity
@@ -11725,7 +11725,7 @@ weapon-status and Chakram builds.
 - Fleeting Expertise, rank 5, unpolarised
 - Primed Continuity, rank 10, Madurai polarity
 - Overextended, rank 5, Vazarin polarity
-- Razorwing Blitz, rank 3, unpolarised — augment
+- Razorwing Blitz, rank 3, unpolarised. Augment
 - Transient Fortitude, rank 10, Madurai polarity
 - Primed Flow, rank 10, Naramon polarity
 - Primed Sure Footed, rank 10, Vazarin polarity
@@ -11768,7 +11768,7 @@ Razorwing Blitz plus low Duration and high Efficiency makes flight cheap and fas
 - Blind Rage, rank 10, Madurai polarity
 - Primed Continuity, rank 10, Madurai polarity
 - Narrow Minded, rank 10, Vazarin polarity
-- Shock Trooper, rank 3, unpolarised — augment
+- Shock Trooper, rank 3, unpolarised. Augment
 - Augur Message, rank 5, Naramon polarity
 - Energy Nexus, rank 5, Naramon polarity
 - Augur Secrets, rank 5, unpolarised
@@ -11813,7 +11813,7 @@ weapon rather than the exalted sniper.
 - Umbral Vitality, rank 10, Umbral polarity
 - Umbral Fiber, rank 10, unpolarised
 - Primed Continuity, rank 10, Madurai polarity
-- Tidal Impunity, rank 3, Zenurik polarity — augment. Status immunity, cheap cost
+- Tidal Impunity, rank 3, Zenurik polarity. Augment. Status immunity, cheap cost
 - Primed Flow, rank 10, Naramon polarity
 - Narrow Minded, rank 10, Vazarin polarity
 - Hunter Adrenaline, rank 5, Madurai polarity
@@ -11903,9 +11903,9 @@ not just dense solo survival.
 
 **The build**
 
-- Assimilate, rank 3, unpolarised — augment
-- Mind Freak, rank 3, unpolarised — augment
-- Pacifying Bolts, rank 3, unpolarised — augment
+- Assimilate, rank 3, unpolarised. Augment
+- Mind Freak, rank 3, unpolarised. Augment
+- Pacifying Bolts, rank 3, unpolarised. Augment
 - Blind Rage, rank 10, Madurai polarity
 - Narrow Minded, rank 10, Vazarin polarity
 - Primed Continuity, rank 10, Madurai polarity
@@ -11957,7 +11957,7 @@ and mobile i-frame carry.
 - Primed Continuity, rank 10, unpolarised
 - Blind Rage, rank 10, Madurai polarity
 - Equilibrium, rank 10, Naramon polarity
-- Guardian Armor, rank 3, unpolarised — augment. Holds Vex Armor indefinitely
+- Guardian Armor, rank 3, unpolarised. Augment. Holds Vex Armor indefinitely
 - Catalyzing Shields, rank 3, Vazarin polarity
 - Stretch, rank 5, Naramon polarity
 - Aura: Corrosive Projection, aura slot
@@ -12003,7 +12003,7 @@ survives.
 - Vigilante Vigor, rank 5, unpolarised
 - Rolling Guard, rank 10, Vazarin polarity
 - Catalyzing Shields, rank 3, Vazarin polarity
-- Guardian Armor, rank 3, unpolarised — augment
+- Guardian Armor, rank 3, unpolarised. Augment
 - Blind Rage, rank 10, Madurai polarity
 - Narrow Minded, rank 10, Vazarin polarity
 - Primed Flow, rank 10, Naramon polarity
@@ -12052,7 +12052,7 @@ endurance.
 - Overextended, rank 5, unpolarised
 - Hunter Adrenaline, rank 5, unpolarised
 - Blind Rage, rank 10, Madurai polarity
-- Abating Link, rank 3, unpolarised — augment. Link strips armour
+- Abating Link, rank 3, unpolarised. Augment. Link strips armour
 - Primed Continuity, rank 10, Madurai polarity
 - Primed Flow, rank 10, Naramon polarity
 - Aura: Corrosive Projection, aura slot
@@ -12103,7 +12103,7 @@ Gloom and Link are up.
 - Catalyzing Shields, rank 3, Vazarin polarity
 - Umbral Intensify, rank 10, unpolarised
 - Equilibrium, rank 10, Naramon polarity
-- Smite Infusion, rank 3, unpolarised — augment
+- Smite Infusion, rank 3, unpolarised. Augment
 - Fast Deflection, rank 5, unpolarised
 - Rolling Guard, rank 10, Vazarin polarity
 - Aura: Summoner's Wrath, aura slot
@@ -12247,7 +12247,7 @@ Efficiency, with 370 health, 370 shield, 135 armor and a 755 energy pool.
 - Natural Talent, rank 3, Naramon polarity
 - Transient Fortitude, rank 10, Madurai polarity
 - Narrow Minded, rank 10, Vazarin polarity
-- Rumbled, rank 3, unpolarised — augment. Throw rocks for 0 energy
+- Rumbled, rank 3, unpolarised. Augment. Throw rocks for 0 energy
 - Precision Intensify, rank 5, unpolarised
 - Primed Flow, rank 10, Naramon polarity
 - Primed Continuity, rank 10, Madurai polarity
@@ -12296,8 +12296,8 @@ punching.
 
 **The build**
 
-- Teleport Rush, rank 3, unpolarised — augment
-- Savage Silence, rank 3, unpolarised — augment. 700% stealth multiplier on stunned enemies
+- Teleport Rush, rank 3, unpolarised. Augment
+- Savage Silence, rank 3, unpolarised. Augment. 700% stealth multiplier on stunned enemies
 - Stretch, rank 5, Naramon polarity
 - Transient Fortitude, rank 10, Madurai polarity
 - Equilibrium, rank 10, Naramon polarity
@@ -12340,8 +12340,8 @@ gear.
 
 **The build**
 
-- Jet Stream, rank 3, unpolarised — augment
-- Funnel Clouds, rank 3, unpolarised — augment. 11 small tornadoes
+- Jet Stream, rank 3, unpolarised. Augment
+- Funnel Clouds, rank 3, unpolarised. Augment. 11 small tornadoes
 - Nira's Hatred, rank 5, unpolarised
 - Primed Flow, rank 10, Naramon polarity
 - Narrow Minded, rank 10, Vazarin polarity
@@ -12388,7 +12388,7 @@ slam-spam influence).
 - Primed Flow, rank 10, Naramon polarity
 - Umbral Intensify, rank 10, unpolarised
 - Primed Continuity, rank 10, Madurai polarity
-- Creeping Terrify, rank 3, unpolarised — augment. 80% slow plus a strip
+- Creeping Terrify, rank 3, unpolarised. Augment. 80% slow plus a strip
 - Stretch, rank 5, unpolarised
 - Augur Secrets, rank 5, Naramon polarity
 - Equilibrium, rank 10, Naramon polarity
@@ -12429,7 +12429,7 @@ Nova for a squad.
 
 - Primed Flow, rank 10, Naramon polarity
 - Blind Rage, rank 10, Madurai polarity
-- Blending Talons, rank 3, unpolarised — augment
+- Blending Talons, rank 3, unpolarised. Augment
 - Overextended, rank 5, Vazarin polarity
 - Primed Continuity, rank 10, Madurai polarity
 - Stretch, rank 5, unpolarised
@@ -12479,7 +12479,7 @@ percent-health Dread Heart.
 - Blind Rage, rank 10, Madurai polarity
 - Overextended, rank 5, Vazarin polarity
 - Primed Continuity, rank 10, Madurai polarity
-- Reactive Storm, rank 3, unpolarised — augment
+- Reactive Storm, rank 3, unpolarised. Augment
 - Equilibrium, rank 10, Naramon polarity
 - Primed Flow, rank 10, Naramon polarity
 - Aura: Corrosive Projection, Naramon polarity
@@ -12524,7 +12524,7 @@ shields.
 
 **The build**
 
-- Primal Rage, rank 3, unpolarised — augment. Crit chance and health on kill
+- Primal Rage, rank 3, unpolarised. Augment. Crit chance and health on kill
 - Vitality, rank 10, unpolarised
 - Precision Intensify, rank 5, Madurai polarity
 - Narrow Minded, rank 10, Vazarin polarity
