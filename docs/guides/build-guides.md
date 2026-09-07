@@ -21403,3 +21403,463 @@ which case use Melee Exposure. Melee Duplicate plus subsumed Eclipse is about
 **Who runs this.** Zaw players who want an Exodia Contagion bomb for Grineer.
 
 ---
+
+### The Ricochet Wing
+**Kestrel Prime. A throw-and-forget glaive that bounces eight times spreading influence.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Thrown-glaive influence nuke |
+| Difficulty | Intermediate |
+| Investment | Low. 3 forma, MR 11 |
+| Weapon reliance | Standalone |
+
+> Tenno. Kestrel Prime bounces eight times where most glaives bounce three. Do
+> not heavy-detonate: just keep throwing and let it carom around a room,
+> chaining electric influence off every bounce.
+
+**The build**
+
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Shocking Touch, rank 5, Naramon polarity
+- Melee Elementalist, rank 5, unpolarised
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Volatile Rebound, rank 3, Naramon polarity
+- Blood Rush, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, unpolarised
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Astral Twilight, stance slot
+- Exilus: Whirlwind, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 20% base crit chance and 4.06x crit damage, climbing
+with Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**The mods.** Volatile Rebound and Whirlwind extend the bounce count and travel;
+Primed Pressure Point plus Amalgam Organ Shatter are damage and crit; Blood Rush
+plus Weeping Wounds scale with combo; Shocking Touch plus Melee Elementalist
+build electric for influence.
+
+**Where it struggles.** Bounce pathing is chaotic in open spaces. No heavy
+burst.
+
+**Who runs this.** Players who want to throw a glaive and let it clean up.
+
+---
+
+### The Quick Step
+**Ceramic Dagger Incarnon. A heavy-attack acolyte killer and movement stick.**
+
+| | |
+|--|--|
+| Content | Steel Path, acolyte and Demolyst kills |
+| Role | Heavy-attack burst, mobility |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 3 |
+| Weapon reliance | Standalone |
+
+> Tenno. After 100 primary kills, Ceramic Dagger holds 120 starting combo for a
+> permanent 7x heavy multiplier. Keep Incarnon mode up for +25% sprint, +25%
+> parkour and +100% damage, and use the three attack-speed mods for stance
+> momentum tech.
+
+**The build**
+
+- Quickening, rank 3, Madurai polarity
+- Magnetic Rush, rank 3, unpolarised
+- Primed Fever Strike, rank 10, Naramon polarity
+- Killing Blow, rank 5, Madurai polarity
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Primed Fury, rank 10, Madurai polarity
+- Sacrificial Steel, rank 10, unpolarised
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Stinging Thorn, stance slot
+- Exilus: Dispatch Overdrive, Naramon polarity
+- Arcane: Melee Exposure
+
+Weapon figures land near 32% base crit chance and 2.77x crit damage, with
+Sacrificial Steel adding heavy-attack crit. Confidence: Approximation, per the
+author.
+
+**Evolutions.** Gun and Blade at II (+100 starting combo after 100 primary
+kills), Adept Reflexes at III (+20), Absolute Valor at IV (+30% crit).
+
+**The mods.** Killing Blow plus Primed Pressure Point are heavy damage;
+Sacrificial Steel plus Amalgam Organ Shatter are heavy crit; Quickening, Primed
+Fury and Magnetic Rush are the attack-speed trio for momentum tech.
+
+**Where it struggles.** The 100-kill setup. Short reach. Body-shot playstyle
+does nothing.
+
+**Variants.** The Old Blade (#308) is the influence-nuke Ceramic Dagger.
+
+**Who runs this.** Players who want a fast pocket weapon for acolyte spawns.
+
+---
+
+### The Impetus Anchor
+**Diwata Prime. An Impetus statstick built for status chance and range.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Status statstick |
+| Difficulty | Beginner |
+| Investment | Low. 2 forma, MR 0 |
+| Weapon reliance | Low. It is a statstick |
+
+> Tenno. Diwata Prime is a Titania-only sword, useful here as a statstick: its
+> modded status and elements feed whatever ability or set reads the equipped
+> melee.
+
+**The build**
+
+- Melee Prowess, rank 5, Naramon polarity
+- Magnetic Rush, rank 3, Madurai polarity
+- Focus Radon, rank 3, Madurai polarity
+- Drifting Contact, rank 3, unpolarised
+- Primed Fury, rank 10, unpolarised
+- Volcanic Edge, rank 3, Madurai polarity
+- Vicious Frost, rank 3, unpolarised
+- Virulent Scourge, rank 3, Madurai polarity
+- Aura: open (Zenurik polarity), stance slot
+- Exilus: open
+- Arcane: Melee Careen
+
+Weapon figures land near 20% base crit chance and 2x crit damage; the build is
+tuned for status chance and elements. Confidence: Approximation, per the author.
+
+**The mods.** Melee Prowess plus Drifting Contact push status chance; Vicious
+Frost plus Volcanic Edge plus Virulent Scourge stack elements; Focus Radon adds
+crit damage; Primed Fury is attack speed.
+
+**Where it struggles.** Titania-locked. It does not kill on its own. Statsticks
+were pared back in 2025, so its value is narrower now.
+
+**Who runs this.** Titania players running an ability or set that reads the
+melee.
+
+---
+
+### The Capacitor Slam
+**Arca Titron. A five-combo heavy-slam influence build feeding the slam capacitor.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heavy-slam influence nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 4 forma, MR 10 |
+| Weapon reliance | Standalone |
+
+> Tenno. Arca Titron builds slam-capacitor stacks from kills, up to +1250%
+> additive slam damage. At 100% status chance every slam forces electric plus a
+> second status, so Melee Influence chains hard.
+
+**The build**
+
+- Galvanized Reflex, rank 10, Madurai polarity
+- Seismic Wave, rank 3, Madurai polarity
+- Galvanized Elementalist, rank 10, unpolarised
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Focus Energy, rank 3, unpolarised
+- Shocking Touch, rank 5, Naramon polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Crushing Ruin, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 50% base crit chance and 2x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Galvanized Reflex holds five combo; Seismic Wave boosts slam
+radius; Primed Pressure Point plus Galvanized Steel are damage and crit; Focus
+Energy plus Shocking Touch plus Galvanized Elementalist build electric for
+influence. Slam-capacitor stacks build from damage-over-time kills, not raw slam
+kills; carrying one blast onboard helps the second-status roll.
+
+**Where it struggles.** Capacitor stacks take time to build and drop on
+downtime. Slow base attack speed.
+
+**Who runs this.** Players who want a slam hammer that ramps into a nuke.
+
+---
+
+### The Bouncing Disc
+**Falcor. A twelve-combo rebound glaive influence build.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Thrown-glaive influence nuke |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 8 |
+| Weapon reliance | Standalone |
+
+> Tenno. Falcor holds combo indefinitely like Xoris. This build throws it into a
+> group and lets it rebound, chaining electric influence off each bounce rather
+> than heavy-detonating.
+
+**The build**
+
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Shocking Touch, rank 5, unpolarised
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Melee Elementalist, rank 5, unpolarised
+- Volatile Rebound, rank 3, Naramon polarity
+- Weeping Wounds, rank 5, Madurai polarity
+- Blood Rush, rank 10, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Gleaming Talon, stance slot
+- Exilus: Whirlwind, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 12% base crit chance and 2.95x crit damage, climbing
+with Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**The mods.** Volatile Rebound and Whirlwind extend the bounces; Primed Pressure
+Point plus Amalgam Organ Shatter are damage and crit; Blood Rush plus Weeping
+Wounds scale with combo; Shocking Touch plus Melee Elementalist build electric.
+On Chroma, Octavia or Limbo with additive damage buffs, swap Primed Pressure
+Point for Killing Blow or Power Throw.
+
+**Where it struggles.** Bounce pathing. Low base crit.
+
+**Variants.** The Galvanized Falcor (#338) is the heavy-spam nuke version; The
+Void Disc (#318) is the Xoris equivalent.
+
+**Who runs this.** Players who want a rebound glaive that clears rooms.
+
+---
+
+### The Poison Pools
+**Dual Ichor. Incarnon toxin fields for Saryn, no crit, no Condition Overload.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Toxin-field nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 6 forma, MR 6 |
+| Weapon reliance | High. Saryn-only |
+
+> Tenno. Dual Ichor's Incarnon passive drops toxin damage fields. With Saryn's
+> Toxic Lash and Roar behind it, those pools erase a pack. The fields ignore
+> crit, status and Condition Overload, so the build is all elemental damage and
+> Primed Pressure Point.
+
+**The build**
+
+- Shocking Touch, rank 5, unpolarised
+- Weeping Wounds, rank 5, unpolarised
+- Primed Fever Strike, rank 10, Naramon polarity
+- North Wind, rank 5, Vazarin polarity
+- Primed Reach, rank 10, Madurai polarity
+- Primed Fury, rank 10, Madurai polarity
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Crossing Snakes, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 25% base crit chance and 3x crit damage; the fields
+scale off elemental damage and Primed Pressure Point only. Confidence:
+Approximation, per the author.
+
+**The mods.** Primed Pressure Point plus Primed Fever Strike plus North Wind
+scale the field damage; Primed Smite Orokin is faction; Primed Reach and Primed
+Fury are quality of life. Crit and status mods are skipped because the fields
+ignore them.
+
+**Where it struggles.** Saryn-locked. The fields are stationary, so mobile
+enemies escape. No burst.
+
+**Variants.** The Twin Poison (#304) is the crit-influence Dual Ichor.
+
+**Who runs this.** Saryn players who want a paint-the-floor toxin weapon.
+
+---
+
+### The Charged Pole
+**Iron Staff Prime. Wukong's exalted staff as an electric influence nuke.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Influence nuke, crowd clear |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, Wukong only |
+| Weapon reliance | High. Wukong-locked |
+
+> Tenno. Iron Staff Prime has huge reach and a strong crit base. Modded electric
+> with Melee Influence, one sweep through a primed crowd chains the status kill
+> across the room.
+
+**The build**
+
+- Blood Rush, rank 10, Madurai polarity
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Weeping Wounds, rank 5, Madurai polarity
+- Shocking Touch, rank 5, Naramon polarity
+- Primed Reach, rank 10, Madurai polarity
+- Berserker Fury, rank 5, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: open (Zenurik polarity), stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 53% base crit chance and 2x crit damage, climbing with
+Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Elementalist plus Shocking Touch build electric for
+influence; Blood Rush plus Weeping Wounds scale with combo; Galvanized Steel is
+the crit numbers; Condition Overload multiplies per status; Primed Reach makes
+the already-long staff enormous.
+
+**Where it struggles.** Wukong-locked. Influence wants a primed crowd.
+
+**Who runs this.** Wukong players who want the exalted staff to nuke.
+
+---
+
+### The Slam Verdict
+**Praedos. A three-to-twelve heavy-slam acolyte and trash killer.**
+
+| | |
+|--|--|
+| Content | Steel Path, acolyte kills, Level cap |
+| Role | Heavy-slam burst |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 14 |
+| Weapon reliance | Standalone |
+
+> Tenno. Pulled out to slam acolytes and trash, not to hold combo. Heavy attack
+> at five combo enters Incarnon mode; from there the slams scale hard with
+> Sacrificial Steel and Seismic Wave.
+
+**The build**
+
+- Corrupt Charge, rank 3, unpolarised
+- Primed Fever Strike, rank 10, Naramon polarity
+- Gladiator Might, rank 5, Madurai polarity
+- Sacrificial Steel, rank 10, unpolarised
+- Organ Shatter, rank 5, Madurai polarity
+- Seismic Wave, rank 3, Madurai polarity
+- Killing Blow, rank 5, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Sovereign Outcast, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Exposure
+
+Weapon figures land near 64% base crit chance and 5x crit damage, with
+Sacrificial Steel adding heavy-attack crit. Confidence: Approximation, per the
+author.
+
+**The mods.** Killing Blow plus Primed Pressure Point are heavy damage;
+Sacrificial Steel plus Organ Shatter are heavy crit; Seismic Wave boosts slam
+radius; Corrupt Charge gives starting combo. Sacrificial Steel is optional for
+Galvanized Steel if you slam more continuously.
+
+**Where it struggles.** Not a sustained-combo weapon. Short reach on normal
+swings.
+
+**Variants.** The Void Cadence (#300) is the hybrid influence Praedos; The
+Afflicted Blade (#320) is the Melee Afflictions version.
+
+**Who runs this.** Players who bring a weapon out just to slam acolytes.
+
+---
+
+### The Acid Whip
+**Caustacyst. A twelve-heavy hybrid that paints the room corrosive and electric.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Hybrid influence nuke |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 7 |
+| Weapon reliance | Standalone |
+
+> Tenno. Spam light attacks until Tennokai, then twelve-combo heavy while
+> spreading corrosive and electric everywhere. Best on a frame with two green
+> shards for the strip.
+
+**The build**
+
+- Shocking Touch, rank 5, Naramon polarity
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Primed Reach, rank 10, Madurai polarity
+- Primed Fury, rank 10, Madurai polarity
+- Blood Rush, rank 10, Madurai polarity
+- Galvanized Steel, rank 10, unpolarised
+- Weeping Wounds, rank 5, unpolarised
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Stalking Fan, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 19% base crit chance and 2x crit damage, climbing with
+Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**The mods.** Condition Overload is +80% per status (+400% at five); Weeping
+Wounds pushes status to about 200% at twelve combo; Blood Rush scales crit;
+Shocking Touch builds electric for influence. Caustacyst's innate toxin plus
+electric make corrosive.
+
+**Where it struggles.** Low crit ceiling. Needs the shard strip for its ceiling.
+
+**Who runs this.** Players who want a corrosive-and-electric influence whip.
+
+---
+
+### The Impact Hammer
+**Coda Motovore. A five-combo slam sword built around a 6x impact passive.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Slam nuke |
+| Difficulty | Intermediate |
+| Investment | Low. 2 forma, MR 17 |
+| Weapon reliance | Standalone |
+
+> Tenno. Coda Motovore's passive makes physical mods apply 6x, so Primed Heavy
+> Trauma reads as +990% impact. Impact progenitor puts 60% of base damage into
+> impact, and the slams hit like a truck.
+
+**The build**
+
+- Primed Fever Strike, rank 10, unpolarised
+- Collision Force, rank 5, unpolarised
+- Galvanized Reflex, rank 10, Madurai polarity
+- Primed Heavy Trauma, rank 10, Naramon polarity
+- Galvanized Steel, rank 10, unpolarised
+- Seismic Wave, rank 3, unpolarised
+- Blood Rush, rank 10, unpolarised
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Crushing Ruin, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Duplicate
+
+Weapon figures land near 53% base crit chance and 2.3x crit damage. Confidence:
+Approximation, per the author.
+
+**Progenitor.** Impact, which adds 60% of base damage into impact where the
+passive multiplies it 6x.
+
+**The mods.** Primed Heavy Trauma plus Collision Force are the impact stack
+(hugely amplified by the passive); Galvanized Reflex holds five combo; Seismic
+Wave boosts slam; Primed Pressure Point plus Galvanized Steel are damage and
+crit.
+
+**Where it struggles.** Impact does nothing to overguard directly. Slow slam
+rhythm. High MR gate.
+
+**Who runs this.** Players who want the novelty of a genuinely strong impact
+weapon.
+
+---
