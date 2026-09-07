@@ -20946,3 +20946,460 @@ Primed Reach.
 **Who runs this.** Players who want a fist weapon that clears rooms.
 
 ---
+
+### The Copied Blades
+**Shadow Clones Prime. Ash's exalted daggers tuned to one-shot level cap with Bladestorm.**
+
+| | |
+|--|--|
+| Content | Steel Path, Level cap |
+| Role | Bladestorm one-shot |
+| Difficulty | Intermediate |
+| Investment | Low. 1 forma, Ash only |
+| Weapon reliance | High. Ash-locked |
+
+> Tenno. Bladestorm's true-damage component bypasses armour, and this build
+> stacks the multipliers that feed it: Covert Lethality, Finishing Touch,
+> Condition Overload and Melee Crescendo, so one mark deletes a level-cap enemy.
+
+**The build**
+
+- Primed Fever Strike, rank 10, Naramon polarity
+- Galvanized Steel, rank 10, unpolarised
+- Finishing Touch, rank 3, unpolarised
+- Covert Lethality, rank 3, unpolarised
+- Berserker Fury, rank 5, unpolarised
+- Spoiled Strike, rank 3, unpolarised
+- Primed Pressure Point, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Blade Storm, stance slot
+- Exilus: open
+- Arcane: Melee Crescendo
+
+Weapon figures land near 53% base crit chance and 2x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Elemental damage bonuses (Primed Fever Strike, Melee Exposure) do
+not touch Bladestorm's armour-bypassing true damage; they only add attenuated
+bonus damage, full against unarmoured targets and overguard. Covert Lethality
+plus Finishing Touch drive the finisher damage; Condition Overload multiplies
+per status; Melee Crescendo stacks on kills.
+
+**Where it struggles.** Ash-locked. Bladestorm marking rhythm. Armoured targets
+get less from the elemental component.
+
+**Who runs this.** Ash players who want Bladestorm to one-shot level cap.
+
+---
+
+### The Rolling Fist
+**Landslide Fists Prime. Atlas's exalted punch as an electric influence nuke.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Influence nuke, crowd clear |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma, Atlas only |
+| Weapon reliance | High. Atlas-locked |
+
+> Tenno. Landslide is a free, spammable dash-punch. Modded electric with Melee
+> Influence, each punch into a primed pack chains a status kill across the room.
+
+**The build**
+
+- Shocking Touch, rank 5, unpolarised
+- Voltaic Strike, rank 3, unpolarised
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Blood Rush, rank 10, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: open (Zenurik polarity), stance slot
+- Exilus: open
+- Arcane: Melee Influence
+
+Weapon figures land near 0% base crit chance and 2x crit damage, with Blood Rush
+climbing crit as combo builds. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Elementalist plus Shocking Touch plus Voltaic Strike
+build electric for Melee Influence; Blood Rush plus Weeping Wounds scale with
+combo; Condition Overload multiplies per status. Primed Smite Orokin is flexible
+for Primed Pressure Point, Drifting Contact or Primed Reach.
+
+**Where it struggles.** Atlas-locked. Landslide's fixed short range. Influence
+wants a primed crowd.
+
+**Who runs this.** Atlas players who want Landslide to nuke crowds.
+
+---
+
+### The Thunder Guard
+**Tenet Agendus. A pure-electric sword-and-shield hybrid influence nuke.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Hybrid combo plus twelve-heavy influence nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, MR 14 |
+| Weapon reliance | Standalone |
+
+> Tenno. Build combo with light attacks, then at twelve combo use the Tennokai
+> heavy while standing to release a big shockwave. Electric procs headshot more
+> often against grouped, non-ragdolled enemies, so pair with Ensnare.
+
+**The build**
+
+- Berserker Fury, rank 5, Madurai polarity
+- Shocking Touch, rank 5, unpolarised
+- Galvanized Elementalist, rank 10, unpolarised
+- Primed Smite Orokin, rank 10, unpolarised
+- Blood Rush, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Final Harbinger, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 50% base crit chance and 2x crit damage, climbing with
+Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**Progenitor.** 60% electric, to maximise electric weighting.
+
+**The mods.** Galvanized Elementalist plus Shocking Touch build electric for
+Melee Influence; Blood Rush plus Weeping Wounds scale with combo; Condition
+Overload multiplies per status; Berserker Fury is attack speed. Swap the Smite
+mod to match the faction.
+
+**Where it struggles.** Needs enemies grouped for the electric headshots. Combo
+upkeep.
+
+**Who runs this.** Players who want a sword-and-shield influence nuke with a
+Tennokai payoff.
+
+---
+
+### The Spear Slam
+**Ruvox. A hybrid light-spam and twelve-heavy slam that impales enemies for a status bonus.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Hybrid influence nuke, heavy slam |
+| Difficulty | Advanced |
+| Investment | Medium. 6 forma, MR 14 |
+| Weapon reliance | Standalone |
+
+> Tenno. Spam light attacks until the Tennokai symbol shows, then jump and heavy
+> attack aiming slightly down. In Incarnon mode the heavy slam impales enemies
+> on spears, and hitting speared enemies grants +35% status chance, which
+> supercharges Melee Influence.
+
+**The build**
+
+- Shocking Touch, rank 5, Naramon polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Seismic Wave, rank 3, unpolarised
+- Primed Fury, rank 10, Madurai polarity
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, unpolarised
+- Blood Rush, rank 10, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Gaia's Tragedy, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 55% base crit chance and 2.2x crit damage, climbing
+with Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**The mods.** Primed Pressure Point plus Galvanized Steel are the damage and
+crit core; Blood Rush plus Weeping Wounds scale with combo; Primed Fury is
+attack speed; Seismic Wave boosts the slam; Shocking Touch builds electric for
+Melee Influence.
+
+**Where it struggles.** The jump-and-heavy timing. Very short base reach.
+
+**Who runs this.** Players who like a light-spam-then-slam rhythm.
+
+---
+
+### The Void Disc
+**Xoris. A five-combo heavy-detonation glaive influence build.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Thrown-glaive influence nuke |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma, MR 4 |
+| Weapon reliance | Standalone |
+
+> Tenno. Xoris has an infinite combo duration, so it holds five combo forever.
+> Throw it into a group, heavy-detonate, and Melee Influence chains the electric
+> kill across the pack. Falcor works the same way.
+
+**The build**
+
+- Melee Elementalist, rank 5, unpolarised
+- Shocking Touch, rank 5, unpolarised
+- Volatile Quick Return, rank 3, unpolarised
+- Primed Smite Grineer, rank 10, Madurai polarity
+- Amalgam Organ Shatter, rank 5, unpolarised
+- Galvanized Steel, rank 10, Madurai polarity
+- Galvanized Reflex, rank 10, Madurai polarity
+- Killing Blow, rank 5, Madurai polarity
+- Aura: Astral Twilight, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 42% base crit chance and 4.43x crit damage, with
+Sacrificial Steel or Galvanized Steel lifting heavy-attack crit. Confidence:
+Approximation, per the author.
+
+**The mods.** Galvanized Reflex holds five combo for the 5x heavy multiplier;
+Killing Blow is heavy damage (Primed Pressure Point is the alternative, slightly
+more damage but worse feel); Volatile Quick Return widens the detonation;
+Shocking Touch plus Melee Elementalist build electric. Without Galvanized
+versions, use Sacrificial Steel and Corrupt Charge.
+
+**Where it struggles.** Throw-and-detonate rhythm. Very short melee range.
+
+**Who runs this.** Players who want a glaive influence nuke that never loses
+combo.
+
+---
+
+### The Rush Blade
+**Innodem. A finisher dagger for Ash's Teleport Rush, statsticks now gone.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Finisher spam |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma, Ash only |
+| Weapon reliance | High. Ash-locked |
+
+> Tenno. With statsticks removed, Innodem is just a strong finisher weapon for
+> Teleport Rush: Covert Lethality and Finishing Touch drive the finisher
+> damage, and its evolutions add sprint speed and a stun on execute.
+
+**The build**
+
+- Primed Fever Strike, rank 10, Naramon polarity
+- Finishing Touch, rank 3, unpolarised
+- Covert Lethality, rank 3, Madurai polarity
+- Gladiator Might, rank 5, Madurai polarity
+- Primed Fury, rank 10, Madurai polarity
+- Organ Shatter, rank 5, Madurai polarity
+- Sacrificial Steel, rank 10, unpolarised
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Pointed Wind, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Exposure
+
+Weapon figures land near 70% base crit chance and 5x crit damage. Confidence:
+Approximation, per the author.
+
+**Evolutions.** Striking Swiftness at II (+30% sprint), Blade Twister at III
+(+60% finisher damage), Protracted Execution at IV (20 combo on finisher),
+Stunning Brutality at V (10m stun on finisher).
+
+**The mods.** Covert Lethality plus Finishing Touch are the finisher core;
+Primed Pressure Point plus Sacrificial Steel plus Organ Shatter are the damage
+and crit stack. Innodem also gives a 10% movement-speed bonus while held.
+
+**Where it struggles.** Ash-locked. Finisher-only playstyle. Short reach for
+normal swings.
+
+**Variants.** The Sky Daggers (#302) is the aerial influence Innodem.
+
+**Who runs this.** Ash players spamming Teleport Rush finishers.
+
+---
+
+### The Afflicted Blade
+**Praedos. A Melee Afflictions damage-over-time nuke for Voruna's Dynar.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Damage-over-time nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, MR 14 |
+| Weapon reliance | High. Best on Voruna |
+
+> Tenno. Voruna's Dynar leap breaks stealth on the first hit; this Praedos build
+> pairs that with Melee Afflictions to seed lingering status zones, extended by
+> Lasting Sting, that clear the pack.
+
+**The build**
+
+- Volcanic Edge, rank 3, unpolarised
+- Primed Fever Strike, rank 10, Naramon polarity
+- Primed Reach, rank 10, Madurai polarity
+- Lasting Sting, rank 10, Madurai polarity
+- Melee Elementalist, rank 5, Vazarin polarity
+- Galvanized Reflex, rank 10, Madurai polarity
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Killing Blow, rank 5, unpolarised
+- Aura: Sovereign Outcast, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Afflictions
+
+Weapon figures land near 20% base crit chance and 3.69x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Melee Afflictions multiplies the status damage-over-time into
+zones; Lasting Sting extends them; Galvanized Reflex holds combo for the heavy
+multiplier; Melee Elementalist is a status-damage multiplier; Volcanic Edge plus
+Primed Fever Strike build heat and toxin.
+
+**Where it struggles.** Best on Voruna. Zone-seeding takes a few hits. Short
+base reach.
+
+**Variants.** The Void Cadence (#300) is the hybrid crit Praedos; The Permanent
+Void (#331) is the heavy-slam acolyte killer.
+
+**Who runs this.** Voruna players who want a burn-everything melee.
+
+---
+
+### The Crescendo Fist
+**Furax Wraith. An Amalgam Body Count Crescendo statstick for Mesa.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Crescendo stacker for Peacemaker |
+| Difficulty | Intermediate |
+| Investment | Low. 5 forma, MR 9 |
+| Weapon reliance | Low. It builds Crescendo, it does not kill |
+
+> Tenno. Melee Crescendo stacks a damage buff on finishers and kills that
+> carries to your guns. Amalgam Furax Body Count gives Furax Wraith the combo
+> duration to hold it, so a few punches set up a huge Peacemaker.
+
+**The build**
+
+- Primed Fever Strike, rank 10, Naramon polarity
+- Shocking Touch, rank 5, unpolarised
+- Amalgam Furax Body Count, rank 5, Naramon polarity
+- Finishing Touch, rank 3, unpolarised
+- Blood Rush, rank 10, Madurai polarity
+- Gladiator Might, rank 5, unpolarised
+- Galvanized Steel, rank 10, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Seismic Palm, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Crescendo
+
+Weapon figures land near 63% base crit chance and 4.32x crit damage. Confidence:
+Approximation, per the author.
+
+**Evolutions.** Swordsman's Flourish at II, any at III, Absolute Dominion at IV.
+
+**The mods.** Melee Crescendo is the buff that carries to your guns; Amalgam
+Furax Body Count is the combo-duration engine; Finishing Touch speeds the
+finisher setup; Primed Pressure Point plus Galvanized Steel plus Blood Rush are
+the melee damage and crit stack.
+
+**Where it struggles.** It is a setup tool, not a killer. Needs finishers or
+kills to stack.
+
+**Variants.** The Storm Fist (#313) is the standalone influence Furax Wraith.
+
+**Who runs this.** Mesa players front-loading Crescendo before Peacemaker.
+
+---
+
+### The Toxin Volley
+**Verdilac. A Tactical Combo toxin-projectile influence nuke that scales off combo.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Ranged influence nuke |
+| Difficulty | Advanced |
+| Investment | Heavy. 7 forma, MR 13 |
+| Weapon reliance | Standalone |
+
+> Tenno. Verdilac's block-plus-melee Tactical Combo fires innate toxin
+> projectiles with an unusual quirk: Condition Overload is multiplicative with
+> your other damage sources, and the projectile scales off your combo counter.
+
+**The build**
+
+- Shocking Touch, rank 5, unpolarised
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Primed Fury, rank 10, Madurai polarity
+- Blood Rush, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Burning Wasp, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 63% base crit chance and 2.5x crit damage, climbing
+with Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**The mods.** Condition Overload is multiplicative here with Primed Pressure
+Point, Nira's mods and Arcane Fury, so it is a large boost; Blood Rush plus
+Weeping Wounds scale with combo; Shocking Touch builds electric for Melee
+Influence via the projectiles.
+
+**Where it struggles.** The Tactical Combo input. Combo upkeep. Heavy forma
+cost.
+
+**Who runs this.** Players who want a ranged influence nuke from a melee slot.
+
+---
+
+### The Thrown Scythe
+**Dokrahm (Zaw). An Exodia Contagion projectile build for Grineer.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Aerial thrown-projectile nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, no MR requirement (Zaw) |
+| Weapon reliance | Standalone |
+
+> Tenno. Exodia Contagion fires a projectile when you melee out of a bullet
+> jump. On a Dokrahm Zaw with a high crit base, each throw is a crit bomb; this
+> tune is built for Grineer with Primed Smite Grineer.
+
+**The build**
+
+- Shocking Touch, rank 5, unpolarised
+- Primed Fever Strike, rank 10, Naramon polarity
+- Gladiator Might, rank 5, unpolarised
+- Primed Smite Grineer, rank 10, Madurai polarity
+- Primed Fury, rank 10, Madurai polarity
+- Organ Shatter, rank 5, Madurai polarity
+- Sacrificial Steel, rank 10, unpolarised
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Rending Crane, stance slot
+- Exilus: Exodia Contagion, unpolarised. Arcane. Bullet-jump melee fires a projectile
+- Arcane: Melee Duplicate
+
+Weapon figures land near 102% base crit chance and 5x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Primed Pressure Point plus Sacrificial Steel plus Organ Shatter
+are the damage and crit core; Primed Fever Strike is toxin; Primed Smite Grineer
+is the faction. Melee Duplicate is ideal unless you run Wrathful Advance, in
+which case use Melee Exposure. Melee Duplicate plus subsumed Eclipse is about
+20% ahead of Melee Exposure plus Wrathful Advance on most frames.
+
+**Where it struggles.** The bullet-jump-then-melee input. Faction-locked tune.
+
+**Who runs this.** Zaw players who want an Exodia Contagion bomb for Grineer.
+
+---
