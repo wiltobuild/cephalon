@@ -21863,3 +21863,459 @@ rhythm. High MR gate.
 weapon.
 
 ---
+
+### The Glass Whip
+**Shattered Lash Prime. Gara's exalted lash as a low-forma electric influence nuke.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Influence nuke, crowd clear |
+| Difficulty | Beginner |
+| Investment | Low. 2 forma, Gara only |
+| Weapon reliance | High. Gara-locked |
+
+> Tenno. Shattered Lash sweeps a wide arc of glass. Modded electric with Melee
+> Influence, one lash through a primed crowd chains the status kill outward.
+
+**The build**
+
+- Shocking Touch, rank 5, Naramon polarity
+- Voltaic Strike, rank 3, unpolarised
+- Galvanized Elementalist, rank 10, unpolarised
+- Galvanized Steel, rank 10, unpolarised
+- Primed Smite Grineer, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, unpolarised
+- Blood Rush, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Shattered Lash, stance slot
+- Exilus: open
+- Arcane: Melee Influence
+
+Weapon figures land near 0% base crit chance and 2x crit damage, with Blood Rush
+climbing crit as combo builds. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Elementalist plus Shocking Touch plus Voltaic Strike
+build electric for influence; Blood Rush plus Weeping Wounds scale with combo;
+Condition Overload multiplies per status. Primed Smite Grineer is flexible for
+Primed Pressure Point, Drifting Contact, Gladiator Might or Focus Energy.
+
+**Where it struggles.** Gara-locked. Influence wants a primed crowd.
+
+**Variants.** The One-Button Sweep (#101) is the Shattered Lash frame build; a
+raw Shattered Lash (#352) exists for Splinter Storm stacking.
+
+**Who runs this.** Gara players who want the exalted lash to nuke.
+
+---
+
+### The Hurled Hammer
+**Rabvee (Zaw). An Exodia Contagion projectile bomb from a heavy Zaw.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Aerial thrown-projectile nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 6 forma, no MR requirement (Zaw) |
+| Weapon reliance | Standalone |
+
+> Tenno. Rabvee is a high-crit heavy Zaw. With Exodia Contagion, a bullet-jump
+> melee fires a crit-bomb projectile, and this raw tune stacks damage and crit
+> to make each throw land hard.
+
+**The build**
+
+- Shocking Touch, rank 5, unpolarised
+- Primed Fever Strike, rank 10, Naramon polarity
+- Condition Overload, rank 5, Madurai polarity
+- Primed Fury, rank 10, Madurai polarity
+- Gladiator Might, rank 5, Madurai polarity
+- Organ Shatter, rank 5, Madurai polarity
+- Sacrificial Steel, rank 10, unpolarised
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Crushing Ruin, stance slot
+- Exilus: Exodia Contagion, unpolarised. Arcane. Bullet-jump melee fires a projectile
+- Arcane: Melee Duplicate
+
+Weapon figures land near 102% base crit chance and 5x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Primed Pressure Point plus Sacrificial Steel plus Organ Shatter
+are the damage and crit core; Primed Fever Strike is toxin; Condition Overload
+multiplies per status. Melee Duplicate is ideal unless you run Wrathful Advance,
+then use Melee Exposure. Melee Duplicate plus subsumed Eclipse is about 20%
+ahead of Melee Exposure plus Wrathful Advance on most frames.
+
+**Where it struggles.** Bullet-jump-then-melee input. Nothing on the ground.
+
+**Variants.** The Contagion Zaw list also includes a Dokrahm (#323) and a Balla
+(#359).
+
+**Who runs this.** Zaw players who want an Exodia Contagion bomb.
+
+---
+
+### The Umbral Edge
+**Exalted Umbra Blade. Excalibur Umbra's exalted blade as an electric influence nuke with self-heal.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Influence nuke, self-sustain |
+| Difficulty | Intermediate |
+| Investment | Heavy. 8 forma, Excalibur Umbra only |
+| Weapon reliance | High. Umbra-locked |
+
+> Tenno. Exalted Blade fires energy waves and hits wide. Modded electric with
+> Melee Influence, it clears rooms, and Healing Return keeps Umbra topped off.
+> Use the blue emissive for electric.
+
+**The build**
+
+- Shocking Touch, rank 5, Naramon polarity
+- Berserker Fury, rank 5, Madurai polarity
+- Healing Return, rank 10, Vazarin polarity
+- Blood Rush, rank 10, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Voltaic Strike, rank 3, Umbral polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: open (Zenurik polarity), stance slot
+- Exilus: Discipline's Merit, Naramon polarity
+- Arcane: Melee Influence
+
+Weapon figures land near 32% base crit chance and 2x crit damage, climbing with
+Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Elementalist plus Shocking Touch plus Voltaic Strike
+build electric for influence; Blood Rush is crit; Condition Overload multiplies
+per status; Berserker Fury is attack speed. Healing Return is flexible for Life
+Strike, which heals far more but needs a Tennokai heavy.
+
+**Where it struggles.** Umbra-locked. Influence wants a primed crowd. Heavy
+forma cost.
+
+**Who runs this.** Excalibur Umbra players who want the exalted blade to nuke
+and heal.
+
+---
+
+### The Fang Slam
+**Sarofang Prime. A slam influence build that leans on Voruna's Dynar crit and status.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heavy-slam influence nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, MR 16 |
+| Weapon reliance | High. Best on Voruna |
+
+> Tenno. Voruna's Dynar grants a flat 100% crit and status chance, which pushes
+> Sarofang Prime to roughly 196% crit and 184% status, making Melee Influence
+> land on almost every slam hit.
+
+**The build**
+
+- Voltaic Strike, rank 3, unpolarised
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Galvanized Elementalist, rank 10, unpolarised
+- Seismic Wave, rank 3, Madurai polarity
+- Galvanized Reflex, rank 10, Madurai polarity
+- Shocking Touch, rank 5, Naramon polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Rending Crane, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 63% base crit chance (196% with Dynar) and 3x crit
+damage. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Reflex holds five combo; Seismic Wave boosts slam;
+Primed Pressure Point plus Galvanized Steel are damage and crit; Shocking Touch
+plus Galvanized Elementalist plus Voltaic Strike build electric. Without Voruna,
+swap Primed Smite for Weeping Wounds.
+
+**Where it struggles.** Best on Voruna. Slam rhythm. High MR gate.
+
+**Who runs this.** Voruna players who want a slam influence weapon.
+
+---
+
+### The Heavy Disc
+**Falcor. A five-combo heavy-detonation glaive influence nuke, riven-friendly.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Thrown-glaive heavy influence nuke |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 8 |
+| Weapon reliance | Standalone |
+
+> Tenno. Where the rebound Falcor lets the glaive bounce, this one throws and
+> immediately heavy-detonates at five combo for a bigger single hit that Melee
+> Influence chains from.
+
+**The build**
+
+- Primed Smite Grineer, rank 10, Madurai polarity
+- Shocking Touch, rank 5, Naramon polarity
+- Galvanized Reflex, rank 10, Madurai polarity
+- Volatile Quick Return, rank 3, unpolarised
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Melee Elementalist, rank 5, unpolarised
+- Galvanized Steel, rank 10, unpolarised
+- Killing Blow, rank 5, unpolarised
+- Aura: Gleaming Talon, stance slot
+- Exilus: Dispatch Overdrive, Naramon polarity
+- Arcane: Melee Influence
+
+Weapon figures land near 25% base crit chance and 2.95x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Galvanized Reflex holds five combo for the 5x heavy multiplier;
+Killing Blow is heavy damage (flexible for Power Throw or Focus Energy);
+Volatile Quick Return widens the detonation; Shocking Touch plus Melee
+Elementalist build electric. Best riven roll is crit chance, damage and
+electric, slotted over Shocking Touch.
+
+**Where it struggles.** Throw-and-detonate rhythm. Short melee range.
+
+**Variants.** The Bouncing Disc (#328) is the rebound Falcor; The Void Disc
+(#318) is the Xoris equivalent.
+
+**Who runs this.** Players who want a heavy-detonation glaive nuke.
+
+---
+
+### The Mind Slam
+**Ruvox. A pure heavy-slam influence build for Nyx Mind Control setups.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heavy-slam influence nuke |
+| Difficulty | Advanced |
+| Investment | Medium. 6 forma, MR 14 |
+| Weapon reliance | High. Best on Nyx |
+
+> Tenno. Ruvox spammed as a pure heavy slam with Melee Influence. Multiple
+> status-chance mods push it to 88% for consistent slam procs, so the influence
+> chain fires every time.
+
+**The build**
+
+- Voltaic Strike, rank 3, Naramon polarity
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Weeping Wounds, rank 5, unpolarised
+- Galvanized Reflex, rank 10, Madurai polarity
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Seismic Wave, rank 3, unpolarised
+- Galvanized Steel, rank 10, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Seismic Palm, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 55% base crit chance and 2.2x crit damage. Confidence:
+Approximation, per the author.
+
+**Evolutions.** Gathering Momentum at II, Seismic Slam at III, Ternary Vault at
+IV, Vulnerability Serum at V.
+
+**The mods.** Galvanized Reflex holds combo; Seismic Wave boosts slam; Weeping
+Wounds plus Galvanized Elementalist plus Voltaic Strike push status and build
+electric for influence; Primed Pressure Point plus Galvanized Steel are damage
+and crit.
+
+**Where it struggles.** Slam-only rhythm. Best on Nyx. High MR gate.
+
+**Variants.** The Spear Slam (#317) is the hybrid light-and-slam Ruvox.
+
+**Who runs this.** Nyx players who want a slam influence weapon.
+
+---
+
+### The Charged Nikana
+**Syam. A five-combo electric influence nikana that needs an electric buff source.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Influence nuke, crowd clear |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, MR 0 |
+| Weapon reliance | High. Needs Shock Trooper or Conductive Sphere |
+
+> Tenno. Syam has no innate electric, so this build relies on an external
+> electric-damage buff (Shock Trooper on Volt or any Shock-subsumed frame, or
+> firing through a Gyre Conductive Sphere) to proc Melee Influence.
+
+**The build**
+
+- Galvanized Reflex, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, Madurai polarity
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Sacrificial Steel, rank 10, unpolarised
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Killing Blow, rank 5, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Blind Justice, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 70% base crit chance and 3.69x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Galvanized Reflex holds five combo; Sacrificial Steel plus Amalgam
+Organ Shatter are heavy crit; Killing Blow is heavy damage; Condition Overload
+multiplies per status; the electric for Melee Influence comes entirely from the
+external buff.
+
+**Where it struggles.** Dead without the electric buff pairing. Combo upkeep.
+
+**Who runs this.** Volt, Gyre or Shock-subsume players who want a nikana
+influence weapon.
+
+---
+
+### The Reaper's Toll
+**Corufell. A raw five-combo heavy-spam scythe-gun build.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heavy-attack DPS |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 8 |
+| Weapon reliance | Standalone |
+
+> Tenno. Corufell's heavy attack fires a ranged void shot. Held at five combo
+> with Galvanized Reflex, each heavy is a 5x-multiplied ranged crit hit.
+
+**The build**
+
+- Killing Blow, rank 5, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Primed Fever Strike, rank 10, Naramon polarity
+- Focus Energy, rank 3, Madurai polarity
+- Galvanized Reflex, rank 10, unpolarised
+- Galvanized Steel, rank 10, Madurai polarity
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Galeforce Dawn, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Exposure
+
+Weapon figures land near 55% base crit chance and 4.43x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Killing Blow plus Primed Pressure Point are heavy damage;
+Galvanized Reflex holds five combo; Galvanized Steel plus Amalgam Organ Shatter
+are crit; Condition Overload multiplies per status; Focus Energy plus Primed
+Fever Strike build the element.
+
+**Where it struggles.** Heavy wind-up. Combo drops on downtime.
+
+**Variants.** A Corufell influence build (#347) exists for Gyre.
+
+**Who runs this.** Players who want a ranged heavy-attack scythe.
+
+---
+
+### The Shocked Scythe
+**Hate Incarnon. A heat-electric influence scythe for Volt, Lavos or Gyre only.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Influence nuke, crowd clear |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, MR 8 |
+| Weapon reliance | High. Needs an electric buff augment |
+
+> Tenno. Hate has no innate electric, so this build only works with Shock
+> Trooper (Volt or Shock subsume), Conductive Sphere (Gyre) or Valence Formation
+> (Lavos) supplying the electric for Melee Influence. Burning Hate and Molten
+> Impact carry the heat.
+
+**The build**
+
+- Burning Hate, rank 5, unpolarised. Augment. Heat-affected enemies take +120% status damage
+- Galvanized Elementalist, rank 10, unpolarised
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Molten Impact, rank 5, unpolarised
+- Blood Rush, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Reaping Spiral, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 63% base crit chance and 2.5x crit damage, climbing
+with Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**The mods.** Burning Hate plus Molten Impact plus Galvanized Elementalist stack
+heat and the status-damage vulnerability; Blood Rush plus Weeping Wounds scale
+with combo; Condition Overload multiplies per status; the electric comes from
+the external augment.
+
+**Where it struggles.** Locked to three frames. Influence wants a primed crowd.
+
+**Variants.** The Burning Scythe (#301) is the standalone slash-heat Hate.
+
+**Who runs this.** Volt, Lavos or Gyre players who want a heat-electric scythe.
+
+---
+
+### The Outburst Stick
+**Ceramic Dagger. An acolyte killer and Secondary Outburst statstick.**
+
+| | |
+|--|--|
+| Content | Steel Path, acolyte kills |
+| Role | Heavy-attack burst, Outburst statstick |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 3 |
+| Weapon reliance | Low. It supports the secondary |
+
+> Tenno. Stacking sources of starting combo (100 from primary kills, 20 from an
+> evolution, 30 from Corrupt Charge, 80 from Galvanized Reflex after four melee
+> kills) reaches 230, which is twelve combo, so Secondary Outburst stays lit
+> for your pistol.
+
+**The build**
+
+- Primed Fever Strike, rank 10, Naramon polarity
+- Corrupt Charge, rank 3, Madurai polarity
+- Focus Radon, rank 3, Madurai polarity
+- Killing Blow, rank 5, Madurai polarity
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Galvanized Reflex, rank 10, Madurai polarity
+- Sacrificial Steel, rank 10, unpolarised
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Pointed Wind, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Exposure
+
+Weapon figures land near 32% base crit chance and 2.77x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** The starting-combo stack (Corrupt Charge, Galvanized Reflex, plus
+the evolutions) is the point, keeping twelve combo for Secondary Outburst.
+Killing Blow plus Primed Pressure Point plus Sacrificial Steel handle acolyte
+kills. Melee Exposure is flexible for Melee Careen.
+
+**Where it struggles.** The 100-kill setup. Niche support role.
+
+**Variants.** The Quick Step (#325) is the movement-focused Ceramic Dagger; The
+Old Blade (#308) is the influence nuke.
+
+**Who runs this.** Players running Secondary Outburst on a pistol.
+
+---
