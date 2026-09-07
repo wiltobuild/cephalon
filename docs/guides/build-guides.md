@@ -193,7 +193,7 @@ threshold.
 
 ---
 
-### The Collector's Thunderdome
+### The Debtor's Cage
 **Khora Prime. A caged room, a Whipclaw nuke, and loot pulled off the corpses.**
 
 | | |
@@ -458,7 +458,7 @@ and affinity farmers.
 
 ---
 
-### Venomous Bloom
+### The Spreading Rot
 **Saryn Prime. Spores strip armor and spread the kill; a toxin weapon overbuff does the rest.**
 
 | | |
@@ -582,7 +582,7 @@ speedruns and general Steel Path without swapping.
 
 ---
 
-### Infernal Symphony
+### Verse of Ruin
 **Dante. Slash-status Tragedy nuke behind overguard that never lets go.**
 
 | | |
@@ -718,7 +718,7 @@ who do not mind memorising three combos.
 
 ---
 
-### Preacher of Pain
+### The Red Sermon
 **Harrow Prime. A headshot energy engine feeding Covenant crit immortality.**
 
 | | |
@@ -843,7 +843,7 @@ crit while never dying.
 
 ---
 
-### Ravenous Wraith
+### The Hungering Light
 **Wisp Prime. Mote buffs and a Breach Surge radiation nuke, under shield-gate invisibility.**
 
 | | |
@@ -966,7 +966,7 @@ clears without relying on a nuke ability alone.
 
 ---
 
-### Total Malevolence
+### Hall of Ruin
 **Mirage Prime. A dual-augment hologram weapon platform.**
 
 | | |
@@ -1095,7 +1095,7 @@ not fit on screen.
 
 ---
 
-### The Electromagnetic Accelerator
+### Redline Runner
 **Gauss Prime. A battery-gated weapon platform with a Thermal Sunder strip-nuke bolted on.**
 
 | | |
@@ -1229,7 +1229,7 @@ survives, and makes any favourite weapon perform.
 
 ---
 
-### The Aegis Gale
+### Storm of Shields
 **Hildryn Prime. A shield-fuelled Balefire nuke with a spammable armor strip.**
 
 | | |
@@ -1350,7 +1350,7 @@ thinks about energy.
 
 ---
 
-### Capacitance Bulwark
+### Grounding Field
 **Volt Prime. Discharge crowd control that refills your shields, plus an electric weapon overbuff.**
 
 | | |
@@ -1468,7 +1468,7 @@ forever and turns an electric weapon into a nuke.
 
 ---
 
-### Wrathful Blades
+### The Silent Verdict
 **Ash Prime. A red-crit Bladestorm that one-shots to level cap, plus a melee platform.**
 
 | | |
@@ -1587,7 +1587,7 @@ dead, while invisible.
 
 ---
 
-### Critical Infestation
+### The Feeding Frenzy
 **Nidus Prime. A Virulence crit engine, Larva grouping, and a parasitic tank that cannot be status-locked.**
 
 | | |
@@ -1705,7 +1705,7 @@ also makes their primary weapon crit.
 
 ---
 
-### Fire and Brimstone
+### The Three Demons
 **Uriel. Three demon passives that feed a Brimstone nuke and a heat weapon platform.**
 
 | | |
@@ -1824,7 +1824,7 @@ platforms at once.
 
 ---
 
-### Glass Storm
+### Shattered Reflections
 **Gara Prime. A Shattered Lash influence nuke and a Splinter Storm damage field that follows you.**
 
 | | |
@@ -1941,7 +1941,7 @@ by holding one button and stops taking damage.
 
 ---
 
-### Shield of Iron
+### The Immovable
 **Rhino Prime. Stacked-armour Iron Skin into the millions, with a usable Roar.**
 
 | | |
@@ -2061,7 +2061,7 @@ carry a weapon, plus a Roar for the squad.
 
 ---
 
-### Gloom Reaper
+### The Withering Scythe
 **Sevagoth Prime. A Sow-and-Reap current-health nuke, a near-total slow, and a spare frame in reserve.**
 
 | | |
@@ -2190,7 +2190,7 @@ a built-in revive.
 
 ---
 
-### The Broken Void
+### The Stolen Arsenal
 **Xaku Prime. Level-scaling stolen turrets, a passive armour strip, and a 75% dodge.**
 
 | | |
@@ -2306,7 +2306,7 @@ endurance run goes, with almost no weapon investment.
 
 ---
 
-### Surging Avalanche
+### Killing Frost
 **Frost Prime. A one-cast 100% armour strip and red-crit Breach Surge sparks.**
 
 | | |
@@ -2417,7 +2417,7 @@ the whole squad and makes a mediocre weapon viable.
 
 ---
 
-### Rip and Tear
+### The Caged Beast
 **Valkyr Prime. Exalted Talons DPS with Ripline grouping and a 1000-armour tank underneath.**
 
 | | |
@@ -2533,7 +2533,7 @@ essentially cannot die.
 
 ---
 
-### Surging Tempest
+### The Drowned Vault
 **Hydroid Prime. A stackable Tempest Barrage nuke that also strips armour and loots the corpses.**
 
 | | |
@@ -2638,7 +2638,7 @@ looting.
 
 ---
 
-### Nourished Gunslinger
+### The Viral Duelist
 **Mesa Prime. Peacemaker DPS with a viral overbuff and a blind-stun survival loop.**
 
 | | |
@@ -2747,7 +2747,7 @@ room disappear.
 
 ---
 
-### Reaper of Shadows
+### The Grave Tithe
 **Nekros Prime. Desecrate looting and a one-cast full armour strip, on an active shield-gate frame.**
 
 | | |
@@ -2853,7 +2853,7 @@ want the strip and crowd control as a bonus.
 
 ---
 
-### Archangel of Annihilation
+### Judgement Rain
 **Jade. An exalted Glory heat nuke with a damage buff that triple-dips.**
 
 | | |
@@ -2974,7 +2974,7 @@ never dies.
 
 ---
 
-### The Araneae Queen
+### The Weaver's Web
 **Oraxia. Wall-latch invisibility, a toxin gun overbuff, and Scuttler minions.**
 
 | | |
@@ -3086,7 +3086,7 @@ and some minion crowd control.
 
 ---
 
-### Beguiling Butterfly
+### Razorwing Waltz
 **Titania Prime. Razorwing flight and Dex Pixia DPS, with passive shield-gate survival.**
 
 | | |
@@ -3198,7 +3198,7 @@ mission killing everything and barely takes damage.
 
 ---
 
-### The Slow Bleed
+### The Crimson Gloom
 **Garuda Prime. Gloom crowd control fed by Bloodletting, with Dread Mirror attenuation on top.**
 
 | | |
@@ -3305,7 +3305,7 @@ whole room and shrugs off everything it is looking at.
 
 ---
 
-### Day and Night
+### The Sleeping Sun
 **Equinox Prime. Sleep a map in Night form, bank the damage, and release it as a Maim nuke in Day.**
 
 | | |
@@ -3423,7 +3423,7 @@ once.
 
 ---
 
-### Event Horizon
+### Molecular Tide
 **Nova Prime. Molecular Prime slow or speed, self-priming Null Stars, and passive orb energy.**
 
 | | |
@@ -3538,7 +3538,7 @@ room to a crawl.
 
 ---
 
-### Avenging Angel
+### The Blood Chalice
 **Trinity Prime. A full armour strip plus a stacking red-crit buff for whatever you are shooting.**
 
 | | |
@@ -3647,7 +3647,7 @@ hard-support the squad's energy.
 
 ---
 
-### The Blazing Lotus
+### The Rewinding Barrage
 **Protea Prime. Blaze Artillery turret damage, a Temporal Anchor strip and rewind, and shield-satellite gating.**
 
 | | |
@@ -3758,7 +3758,7 @@ and a panic-proof gate.
 
 ---
 
-### Endless Fist
+### The Unbroken Calm
 **Baruuk Prime. Exalted Desert Wind influence clear behind stacked, multiplying damage reduction.**
 
 | | |
@@ -3864,7 +3864,7 @@ rooms and effectively cannot be killed.
 
 ---
 
-### Celestial Monkey
+### The Cloud Staff
 **Wukong Prime. Iron Staff influence DPS, a level-scaling Defy nuke, and Cloudwalker resets.**
 
 | | |
@@ -3968,7 +3968,7 @@ and a one-button reset button.
 
 ---
 
-### Hurricane Force
+### The Eye of the Storm
 **Zephyr Prime. Tornadoes that multiply your weapon's hits, behind Turbulence bullet immunity.**
 
 | | |
@@ -4082,7 +4082,7 @@ gunfire and turns any AoE weapon into a room-clearing nuke.
 
 ---
 
-### Indestructible Diamond
+### The Faceted Aegis
 **Citrine. A million effective HP, squad status priming, and a companion-nuke package.**
 
 | | |
@@ -4199,7 +4199,7 @@ the squad while a pet does the killing.
 
 ---
 
-### The Razor Storm
+### The Sentient Swarm
 **Caliban Prime. Level-scaling Ortholyst turrets, a Razor Gyre shield engine, and a lingering strip zone.**
 
 | | |
@@ -4315,7 +4315,7 @@ deeper the endurance run goes.
 
 ---
 
-### Galactic Immunisation Program
+### Scaling Ordnance
 **Vauban Prime. Flechette Orbs that scale with enemy level, plus a Photon Strike nuke.**
 
 | | |
@@ -4420,7 +4420,7 @@ when the endurance run gets hard.
 
 ---
 
-### Fantastic Funguy
+### The Bouncing Bloom
 **Nokko. A bouncing Sporespring toxin nuke launched off a Brightbonnet, cast from immortality.**
 
 | | |
@@ -4530,7 +4530,7 @@ while it waits for the room to melt.
 
 ---
 
-### Divine Shield Lotus
+### The Warded Wildfire
 **Nezha Prime. Chakram vulnerability and Divine Retribution status spread, behind Warding Halo.**
 
 | | |
@@ -4638,7 +4638,7 @@ status weapon into a map nuke.
 
 ---
 
-### Control and Assimilate
+### The Unbreakable Bubble
 **Nyx Prime. Permanent Assimilate immortality with a banked-damage nuke and a strip.**
 
 | | |
@@ -4745,7 +4745,7 @@ speed for it.
 
 ---
 
-### Loyal Waverider
+### The Ghost Ship
 **Yareli Prime. Double-stacked Sea Snare vulnerability and a pistol crit passive, off the board.**
 
 | | |
@@ -4848,7 +4848,7 @@ to knockdowns Merulina does not block (bring Primed Sure Footed).
 slip through Merulina.
 
 **Variants.** An ultra-comfort Seismic Bond plus Nourish endurance build. A Gloom
-tank Merulina Guardian board build. A Surging Aquablades DPS build.
+tank Merulina Guardian board build. An Aquablade-spam DPS build.
 
 **Strengths and weaknesses.** Strong: one of the biggest damage multipliers in the
 game, a flat pistol crit passive, a reliable 4s panic i-frame, cheap forma. Weak:
@@ -4859,7 +4859,7 @@ makes it hit 9 to 16 times harder while keeping them alive.
 
 ---
 
-### The Faceless Rider
+### The Doomed Hunt
 **Dagath. Spectral Spirit immortality feeding a Doom-and-Rakhali strip nuke.**
 
 | | |
@@ -4972,7 +4972,7 @@ can be rebuilt into almost any weapon platform.
 
 ---
 
-### Flux Dancer
+### The Live Wire
 **Gyre Prime. Rotorswell and Conductive Sphere electric spread on a dash-strip weapon platform.**
 
 | | |
@@ -5086,7 +5086,7 @@ strips and survives while dashing around.
 
 ---
 
-### Hallowed Fairy King
+### King's Reckoning
 **Oberon Prime. A percent-health Smite nuke and a Reckoning strip, with orb-fed immortality.**
 
 | | |
@@ -5201,7 +5201,7 @@ scaling and keeps the squad status-immune.
 
 ---
 
-### Flashing Blades
+### The Cursed Chain
 **Kullervo. Wrathful Advance teleport-crits and Collective Curse damage sharing, behind Volatile Recompense.**
 
 | | |
@@ -5307,7 +5307,7 @@ swing and blinks around a room sharing one hit to everything.
 
 ---
 
-### The Spear of Longinus
+### The Iron Volley
 **Styanax. A Final Stand spear nuke and a Tharros Strike strip, immortal through Intrepid Stand overguard.**
 
 | | |
@@ -5410,7 +5410,7 @@ energy full and rarely dies.
 
 ---
 
-### Dual Surge
+### The Rift Multiplier
 **Limbo Prime. Rift Torrent double-dipped into Breach Surge sparks, from inside the safe rift.**
 
 | | |
@@ -5519,7 +5519,7 @@ delete rooms with wrapped-integer sparks.
 
 ---
 
-### Breach and Crush
+### The Kill Box
 **Mag Prime. A Magnetize damage-absorb nuke fed by Breach Surge, plus a one-cast Crush strip.**
 
 | | |
@@ -5630,7 +5630,7 @@ kill box.
 
 ---
 
-### Full Mecha Alchemist
+### The Element Engine
 **Lavos Prime. A Gas-and-Heat Catalyze nuke stacked with the Mecha set, on an energy-free tank.**
 
 | | |
@@ -5749,7 +5749,7 @@ and do not mind a busy rotation.
 
 ---
 
-### Threads of Fate
+### The Loaded Dice
 **Koumei. Omikuji decree stacking and Omamori dice-roll immortality, on a lazy shield-gate chassis.**
 
 | | |
@@ -5859,7 +5859,7 @@ longer they stay and enjoy the dice-roll survival.
 
 ---
 
-### The Sanguine Heart
+### The Skybound Talon
 **Garuda Prime. Aerial Dread Heart nuking and Seeking Talons slash spread, with self-sustaining energy.**
 
 | | |
@@ -5935,7 +5935,7 @@ multiplier.
 
 - **Breach Surge** for a blind plus a self-propagating slash loop with Seeking Talons (Garuda's passive double-dips the sparks).
 - **Expedite Suffering** for an infinitely scaling slash feedback loop with Seeking Talons.
-- **Gloom** for infinite-range healing and a 95% slow (see The Slow Bleed).
+- **Gloom** for infinite-range healing and a 95% slow (see The Crimson Gloom).
 - **Nourish** for viral on Dread Mirror and Seeking Talons plus double energy.
 - **Molt** with Regenerative Molt for speedrunning.
 
@@ -5975,7 +5975,7 @@ raining slash on everything they mark.
 
 ---
 
-### Silent Assassin
+### The Sound Hunter
 **Banshee Prime. Sonar damage multipliers and a Gloom-stretched Silence stun, for boss and lich kills.**
 
 | | |
@@ -6078,7 +6078,7 @@ with a weapon that would otherwise bounce off them.
 
 ---
 
-### The Eternal Hunger
+### The Devouring Maw
 **Grendel Prime. A Regurgitate percent-health nuke fed by Nourish, on a persistence tank.**
 
 | | |
@@ -6196,7 +6196,7 @@ level, and who have the forma to spare.
 
 ---
 
-### Immortal Slumbering Dragon
+### The Sleeping Wyrm
 **Chroma Prime. Vex Armor damage and a persistence tank, held forever by Guardian Armor.**
 
 | | |
@@ -6304,7 +6304,7 @@ weapon's damage and never has to think about survival.
 
 ---
 
-### Disco Ball of Death
+### The Prism Grinder
 **Mirage Prime. A Prism laser ball that ramps up until it wipes rooms, or a single target, in a second.**
 
 | | |
@@ -6397,7 +6397,7 @@ holograms and Pillage if subsumed. It fails to focused fire and to toxin.
 The cast animation is punishing without shards. Line-of-sight limits the lasers.
 Open tiles dilute the ramp.
 
-**Variants.** The Total Malevolence hologram platform is the other Mirage build.
+**Variants.** The Hall of Ruin hologram platform is the other Mirage build.
 
 **Strengths and weaknesses.** Strong: enormous ramping AoE, an instant single-
 target delete with an attractor, scales to level cap. Weak: slow to ramp, slow
@@ -6408,7 +6408,7 @@ by dragging a laser ball through their face.
 
 ---
 
-### Danse Danse Revenant
+### The Absorbing Waltz
 **Revenant Prime. A Danse Macabre damage-absorb nuke that scales with enemy damage, on a speedrun chassis.**
 
 | | |
@@ -6514,7 +6514,7 @@ deeper the endurance run goes.
 
 ---
 
-### Well of Death
+### The Silent Detonation
 **Ivara Prime. A Concentrated Arrow room nuke fired at a floating invulnerable target, from stealth.**
 
 | | |
@@ -6621,7 +6621,7 @@ without ever being seen.
 
 ---
 
-### Ironclad Rhino
+### The Bulwark
 **Rhino Prime. A non-helminth Iron Skin tank with a strong Roar and Stomp crowd control.**
 
 | | |
@@ -6689,7 +6689,7 @@ missions. The aura and exilus are open.
 **Helminth.** Pick one. Subsume over Stomp (unless you keep it, in which case run
 Nourish over Charge).
 
-- **Parasitic Armor** for the biggest armour boost (see Shield of Iron).
+- **Parasitic Armor** for the biggest armour boost (see The Immovable).
 - **Elemental Ward (Cold)** for ~1291 armour plus reflection.
 - **Ensnare, Larva or Airburst** for grouping to feed Ironclad Charge.
 - **Empower** to boost both Iron Skin and Roar.
@@ -6714,7 +6714,7 @@ Roar and Stomp.
 **Where it struggles.** Toxin. Deep endurance where a hit exceeds the pool. The
 setup ritual. Does no damage itself.
 
-**Variants.** The Shield of Iron Parasitic Armor build pushes Iron Skin into the
+**Variants.** The Immovable Parasitic Armor build pushes Iron Skin into the
 millions. A Roar buff build. An endurance Nourish non-tank build.
 
 **Strengths and weaknesses.** Strong: near-unkillable in most content, strong team
@@ -6726,7 +6726,7 @@ weapon and a Roar.
 
 ---
 
-### Lazy Monkey King
+### The Idle Staff
 **Wukong Prime. A persistence health-tank that scales to level cap while carrying an Iron Staff.**
 
 | | |
@@ -6816,7 +6816,7 @@ pool. It fails to Violence, nullifiers, magnetic, slash procs that bypass the ca
 **Where it struggles.** The frame does no damage. It needs a heal source. Slash
 procs (Kuva Trokarians) bypass Persistence. 5 forma plus Umbral forma. Bosses.
 
-**Variants.** The Celestial Monkey build is the active Iron Staff and Defy-nuke
+**Variants.** The The Cloud Staff build is the active Iron Staff and Defy-nuke
 version. A low-range pure Iron Staff build.
 
 **Strengths and weaknesses.** Strong: effectively unkillable to level cap with
@@ -6828,7 +6828,7 @@ just hold light attack.
 
 ---
 
-### Shadow Realm
+### The Culling Number
 **Sevagoth Prime. A min-maxed Sow-and-Reap build tuned to one-shot to level cap with no viral.**
 
 | | |
@@ -6839,7 +6839,7 @@ just hold light attack.
 | Investment | Medium. 4 forma, three to four Tauforged strength shards mandatory |
 | Weapon reliance | Very low. Sow-and-Reap is the whole plan |
 
-> Tenno. This is the Gloom Reaper stripped to just the nuke. Both augments are
+> Tenno. This is The Withering Scythe stripped to just the nuke. Both augments are
 > mandatory: Shadow Haze spawns three Reap shadows, Dark Propagation spreads Sow
 > for you. Roar is mandatory too. Hit exactly 255% Strength on Reap and Roar and
 > the Sow-then-Reap combo one-shots any non-boss enemy to level cap with no viral
@@ -6917,7 +6917,7 @@ if you run out of energy with Roar down, and to toxin.
 **Where it struggles.** Bosses and Acolytes resist Reap. It wants density. It is a
 one-trick build with almost no weapon damage.
 
-**Variants.** The Gloom Reaper build is the general-use version with a slow field
+**Variants.** The The Withering Scythe build is the general-use version with a slow field
 and a spare frame.
 
 **Strengths and weaknesses.** Strong: a true level-cap one-shot with no priming,
@@ -6929,7 +6929,7 @@ have the shards to feed it.
 
 ---
 
-### Through the Fire and Flames
+### The Backbeat
 **Temple. A backbeat-timed exalted flamethrower with a red-crit weapon buff.**
 
 | | |
@@ -7043,7 +7043,7 @@ that rewards hitting the beat.
 
 ---
 
-### Critical Mass
+### The Chain Reaction
 **Qorvex. A Crucible Blast chain nuke off Chyrinka Pillars, from inside invulnerable Fused Crucible.**
 
 | | |
@@ -7157,7 +7157,7 @@ grouped, stripped room into a chain reaction.
 
 ---
 
-### Lashing Venom
+### The Toxic Overbuff
 **Saryn Prime. The strongest weapon buff in the game, Venom Dose plus Toxic Lash plus Roar on one gun.**
 
 | | |
@@ -7251,7 +7251,7 @@ if you cannot cast Molt, and to toxin.
 **Where it struggles.** Entirely weapon-carried. Bosses need the weapon. The
 buff-and-gate juggling is constant.
 
-**Variants.** The Venomous Bloom build is the spore-nuke hybrid. Pure Expedite
+**Variants.** The The Spreading Rot build is the spore-nuke hybrid. Pure Expedite
 Suffering for Disruption.
 
 **Strengths and weaknesses.** Strong: the single largest weapon damage buff in the
@@ -7469,7 +7469,7 @@ a one-slot survival answer.
 
 ---
 
-### Infinite Fists of Ore
+### The Quarry Run
 **Atlas Prime. Free Landslide spam and Ore Gaze looting on a rubble-armour tank.**
 
 | | |
@@ -7570,7 +7570,7 @@ and come out loaded.
 
 ---
 
-### Ghost Recon
+### The Marksman's Eye
 **Cyte-09. A through-wall weakpoint highlighter and a Neutralizer exalted sniper, from permanent stealth.**
 
 | | |
@@ -7673,7 +7673,7 @@ weakpoint and never runs out of ammo or invisibility.
 
 ---
 
-### The Holy Ghost
+### The Effortless Saint
 **Harrow Prime. Permanent Evade invisibility and a flat headshot crit buff, with almost no casting.**
 
 | | |
@@ -7755,9 +7755,9 @@ stripping Evade.
 **Energy.** Primed Flow plus Equilibrium; you barely cast.
 
 **Where it struggles.** Entirely weapon-carried. Bosses take the weapon. It does
-nothing for the squad (unlike Preacher of Pain).
+nothing for the squad (unlike The Red Sermon).
 
-**Variants.** The Preacher of Pain build is the full-kit team-support Harrow.
+**Variants.** The The Red Sermon build is the full-kit team-support Harrow.
 
 **Strengths and weaknesses.** Strong: permanent invisibility, a large permanent
 crit buff, near-zero casting, very comfortable. Weak: selfish, weapon-carried,
@@ -7768,7 +7768,7 @@ crit-carry and do not need Harrow's team energy.
 
 ---
 
-### Siege Tank
+### The Fortified Turret
 **Protea Prime. A semi-AFK Blaze Artillery heat nuke stacked with the Mecha set and Roar.**
 
 | | |
@@ -7802,7 +7802,7 @@ crit-carry and do not need Harrow's team energy.
 Arsenal figures land at roughly 139% Strength, 199% Duration, 124% Range, 45%
 Efficiency, with about 404 health, 555 shield, 185 armor and a 712 energy pool.
 
-**How it works.** This is the camp-focused sibling of The Blazing Lotus. Casting 2
+**How it works.** This is the camp-focused sibling of The Rewinding Barrage. Casting 2
 during Temporal Anchor locks its timer despite the UI ticking down, so the Anchor
 runs indefinitely while its armour-strip and no-decay bank stay active. Roar
 subsumed over 3, snapshotted at ~299% Strength via the fourth-cast passive,
@@ -7858,7 +7858,7 @@ invisibility with the gate down, and to toxin.
 **Where it struggles.** It is a camp build; it does little while moving. Line-of-
 sight tiles. Bosses. Fully armoured targets without a strip eat dozens of casts.
 
-**Variants.** The Blazing Lotus is the active, mobile Temporal Anchor build.
+**Variants.** The Rewinding Barrage is the active, mobile Temporal Anchor build.
 
 **Strengths and weaknesses.** Strong: near-AFK room clear, a strip built into the
 nuke, strong heat scaling, invisible. Weak: camp-only, boss-blind, tile-dependent,
@@ -7880,7 +7880,7 @@ endurance survival while they barely touch the controls.
 | Investment | Medium. 3 forma, a Mecha-set Kubrow |
 | Weapon reliance | Low to medium. Catalyze nukes; a primer stacks the elements |
 
-> Tenno. This is the base-Lavos version of the Full Mecha Alchemist: fewer forma,
+> Tenno. This is the base-Lavos version of The Element Engine: fewer forma,
 > a plain Adaptation-and-Guardian armour tank instead of Arcane Persistence, but
 > the same Catalyze plan. Infuse Gas, prime with elements, and the 2^status
 > multiplier plus the Mecha set does the rest. Lavos has no energy, only
@@ -7903,7 +7903,7 @@ endurance survival while they barely touch the controls.
 Arsenal figures land at roughly 100% Strength, 155% Duration, 160% Range, 100%
 Efficiency, with a 1480 health pool, 370 shield, 675 armor and no energy bar.
 
-**How it works.** Identical Catalyze scaling to the Full Mecha Alchemist: 2^(number
+**How it works.** Identical Catalyze scaling to The Element Engine: 2^(number
 of distinct statuses), Gas infusion for lingering procs, Archon Continuity for
 corrosive off Ophidian Bite, and the Mecha set's Empowered mark (6.25x DoT) plus
 its kill-spread. The difference is the tank: Adaptation plus Mecha Pulse armour
@@ -7957,7 +7957,7 @@ Bubonico, Kuva Ogris, Grimoire), or a heat-inherit secondary for Catalyze's heat
 procs. Telos Boltace or Dual Ichor for a melee-vortex or influence loadout.
 
 **Staying alive.** The armour tank plus Ophidian Bite healing plus Arcane Guardian.
-It falls off past about level 500; use the Full Mecha Alchemist's Arcane
+It falls off past about level 500; use The Element Engine's Arcane
 Persistence build for higher. It fails to Violence, nullifiers, and heat or
 corrosive stripping armour.
 
@@ -7968,7 +7968,7 @@ Probe.
 curve. The tank has a level-500 ceiling. Overguard resists percent-HP effects.
 Bosses.
 
-**Variants.** The Full Mecha Alchemist (Lavos Prime) build is the endurance version
+**Variants.** The Element Engine (Lavos Prime) build is the endurance version
 with Arcane Persistence.
 
 **Strengths and weaknesses.** Strong: the same huge status-nuke ceiling for fewer
@@ -7980,7 +7980,7 @@ tank chassis for sub-endurance content.
 
 ---
 
-### Two Body Problem
+### The Divided Star
 **Sirius and Orion. A Celestial Clash burst that chains between the two brothers, one held permanently invisible.**
 
 | | |
@@ -8090,7 +8090,7 @@ game and will learn the combo order to make it sing.
 
 ---
 
-### Gloom Saryn
+### The Rotting Vigil
 **Saryn Prime. Spores plus Gloom lifesteal: stand still, take fire, out-heal it.**
 
 | | |
@@ -8173,7 +8173,7 @@ pool. It fails the moment spores lapse, and to a single hit that exceeds your po
 **Where it struggles.** Deep endurance one-shots it regardless of heal rate. A
 cold start before spores ramp. Bosses. 6 forma plus Umbral forma for a niche tank.
 
-**Variants.** The Venomous Bloom and Lashing Venom builds are the offensive and
+**Variants.** The Spreading Rot and The Toxic Overbuff builds are the offensive and
 weapon-platform Saryns.
 
 **Strengths and weaknesses.** Strong: genuinely stand-still tanky in mid Steel
@@ -8185,7 +8185,7 @@ regular Steel Path and do not care about level cap.
 
 ---
 
-### Rave Party
+### The Aggro Switch
 **Nova Prime. Max-speed Molecular Prime and a Resonator that switches off the room's aggression.**
 
 | | |
@@ -8271,7 +8271,7 @@ Stars' damage reduction. Overguarded enemies still shoot; watch those.
 **Where it struggles.** Overguarded enemies (Eximus, Thrax, Acolytes) ignore
 Resonator. It is a utility frame, not a damage frame. Bosses.
 
-**Variants.** The Event Horizon build is the general-use Slowva/Speedva. A
+**Variants.** The Molecular Tide build is the general-use Slowva/Speedva. A
 non-helminth tank Speedva. A Silence Slowva.
 
 **Strengths and weaknesses.** Strong: turns long survivals and defenses into quick
@@ -8283,7 +8283,7 @@ rotation as fast as the timer allows.
 
 ---
 
-### Frozen Flames
+### The Compression Blast
 **Gauss Prime. Pure Thermal Sunder heat-and-cold spam to level cap, immortal through an Aegis bug.**
 
 | | |
@@ -8374,7 +8374,7 @@ toxin and if the battery drops far below the red line.
 battery-versus-Redline learning curve is still here. Bosses need the blast-
 expedite.
 
-**Variants.** The Electromagnetic Accelerator is the hybrid weapon-platform Gauss.
+**Variants.** Redline Runner is the hybrid weapon-platform Gauss.
 
 **Strengths and weaknesses.** Strong: an exponential-scaling nuke with a built-in
 strip, immortal via the loop, one forma, extremely fast. Weak: toxin-vulnerable,
@@ -8385,7 +8385,7 @@ level cap and does not think about survival.
 
 ---
 
-### Septic Shock
+### The Infested Platform
 **Nidus Prime. A Roar-buffed gun platform on a Parasitic Vitality persistence tank.**
 
 | | |
@@ -8443,7 +8443,7 @@ Range. *Primed Continuity, Constitution* hold Duration. *Primed Flow* is the poo
 *Teeming Virulence* is the crit buff, *Parasitic Vitality* the health.
 *Corrosive Projection* is a straight damage lift.
 
-**Flexible slots.** The augments are the flex zone as in Critical Infestation.
+**Flexible slots.** The augments are the flex zone as in The Feeding Frenzy.
 Arcane swaps by weapon type (Strike for melee, Precision or Velocity for pistol,
 Rage or Acceleration for rifle).
 
@@ -8472,7 +8472,7 @@ corrosive stripping armour; and if you let stacks decay.
 **Where it struggles.** Density-dependent for stacks. Boss single-target is on the
 weapon. Linking a companion does not give status immunity.
 
-**Variants.** The Critical Infestation build is the general-use bruiser.
+**Variants.** The The Feeding Frenzy build is the general-use bruiser.
 
 **Strengths and weaknesses.** Strong: a large flat primary crit buff plus Roar,
 near-immortal, strong grouping. Weak: weapon-carried, density-dependent, forma-
@@ -8483,7 +8483,7 @@ primary weapon crit and hit harder.
 
 ---
 
-### Spears of Longinus
+### The Bristling Volley
 **Styanax Prime. A Final Stand spear volley and Tharros strip, with a hybrid weapon lean.**
 
 | | |
@@ -8516,7 +8516,7 @@ primary weapon crit and hit harder.
 Arsenal figures land at roughly 139% Strength, 155% Duration, 250% Range, 45%
 Efficiency, with 370 health, 1025 shield, 265 armor and a 755 energy pool.
 
-**How it works.** Identical to The Spear of Longinus: Intrepid Stand overguard
+**How it works.** Identical to The Iron Volley: Intrepid Stand overguard
 (0.5s gate on break) plus Rally Point shield regen plus shield gating is the
 survival stack, and Tharros Strike full-strips at 200% Strength (164% with
 Corrosive Projection). The addition here is Tharros Lethality, which buffs your
@@ -8560,7 +8560,7 @@ swaps.
 speed and Strength. Vazarin as an endurance backup.
 
 **Weapon synergy.** Tharros Lethality's crit-damage buff pairs with a crit weapon
-you lean on between Final Stand casts. Otherwise as The Spear of Longinus: a primer
+you lean on between Final Stand casts. Otherwise as The Iron Volley: a primer
 or Panzer for the Truculence-free viral.
 
 **Staying alive.** Intrepid Stand overguard plus shield gating plus Rally Point
@@ -8572,7 +8572,7 @@ levels, and if you cannot hit enemies to sustain overguard.
 **Where it struggles.** Final Stand DPS per energy is poor since the health and
 armour reworks. Line-of-sight tiles. Bosses need the weapon.
 
-**Variants.** The Spear of Longinus (#046) is the pure Final Stand build. A pure
+**Variants.** The Iron Volley (#046) is the pure Final Stand build. A pure
 non-Final-Stand weapon platform.
 
 **Strengths and weaknesses.** Strong: instant full strip, immortal while firing,
@@ -8584,7 +8584,7 @@ on a crit weapon after the strip.
 
 ---
 
-### Muzzled Wolf
+### The Blinded Hunt
 **Voruna. A Fangs of Raksh status-taxi nuke behind a map-wide Muzzle Flash blind.**
 
 | | |
@@ -8693,8 +8693,8 @@ sprays one strong proc across 44 metres.
 
 ---
 
-### Flying Fortress
-**Hildryn Prime. The Aegis Gale nuke with Molt speed and an Arcane Sculptor efficiency lock.**
+### The Drifting Bastion
+**Hildryn Prime. The Aegis Gale augment nuke with Molt speed and an Arcane Sculptor efficiency lock.**
 
 | | |
 |--|--|
@@ -8725,7 +8725,7 @@ sprays one strong proc across 44 metres.
 Arsenal figures land at roughly 183% Strength, 155% Duration, 280% Range, 45%
 Efficiency, with 370 health, a 5263 shield pool, 315 armor and no energy bar.
 
-**How it works.** Same core as The Aegis Gale: everything costs shields, Aegis
+**How it works.** Same core as Storm of Shields: everything costs shields, Aegis
 Gale's alt-fire nukes with real area, and Pillage refuels you off stripped
 enemies. The difference is Molt subsumed over 3 for movement speed inside Aegis
 Storm, and Arcane Sculptor triggering off Molt to lock 175% Efficiency for 12s, so
@@ -8758,7 +8758,7 @@ endurance.
 **Where it struggles.** Toxin. Very deep endurance. Everything else as The Aegis
 Gale.
 
-**Variants.** The Aegis Gale (#010) is the general-use build with Pillage kept.
+**Variants.** Storm of Shields (#010) is the general-use build with Pillage kept.
 
 **Strengths and weaknesses.** Strong: a spammable area nuke with no energy
 management, mobile inside Aegis Storm, tanky. Weak: toxin-vulnerable, endurance
@@ -8769,7 +8769,7 @@ drain solved.
 
 ---
 
-### Electrolysis
+### The Grounded Chain
 **Gyre. Rotorswell and Coil Horizon electric chaining with a strip subsume.**
 
 | | |
@@ -8851,7 +8851,7 @@ fails to toxin.
 so the strip subsume is close to mandatory. Fragile frame. Bosses. Cold-start
 cooldown risk on 3.
 
-**Variants.** The Flux Dancer build is the weapon-platform lean with passive
+**Variants.** The The Live Wire build is the weapon-platform lean with passive
 gating.
 
 **Strengths and weaknesses.** Strong: strong grouped electric chain damage,
@@ -8863,7 +8863,7 @@ rooms once the armour is off.
 
 ---
 
-### Rock 'n' Rolla
+### The Endless Slide
 **Atlas Prime. Free-Landslide endurance spam with passive shield-gate survival.**
 
 | | |
@@ -8945,7 +8945,7 @@ Efficiency is fine.
 **Where it struggles.** Rubble upkeep is hard outside solo or dense maps. Rubble
 armour falls off past ~level 500 (the passive gate carries it further). Bosses.
 
-**Variants.** The Infinite Fists of Ore build is the casual solo loot farm.
+**Variants.** The The Quarry Run build is the casual solo loot farm.
 
 **Strengths and weaknesses.** Strong: free infinite Landslide, a self-re-
 establishing shield gate, tanky in mid content. Weak: rubble-upkeep-dependent,
@@ -8956,7 +8956,7 @@ never drops its shield gate.
 
 ---
 
-### Shadow Arts
+### The Ink Trap
 **Follie. Shadowgraph barrels and arc traps that scale on enemy health, plus tap-invulnerability.**
 
 | | |
@@ -9062,7 +9062,7 @@ do not mind the teleport-detonate rhythm.
 
 ---
 
-### Descent of Fangs
+### The Endless Descent
 **Voruna. Pure Ulfrun's Descent claw DPS with Fangs slash-taxi refilling charges.**
 
 | | |
@@ -9096,7 +9096,7 @@ do not mind the teleport-detonate rhythm.
 Arsenal figures land at roughly 139% Strength, 155% Duration, 250% Range, 45%
 Efficiency, with 555 health, 370 shield, 200 armor and a 427 energy pool.
 
-**How it works.** Same status-taxi engine as Muzzled Wolf, but the damage output
+**How it works.** Same status-taxi engine as The Blinded Hunt, but the damage output
 is Ulfrun's Descent's claw attacks rather than a melee weapon. Fangs (2) rolls
 five random statuses; a slash in that roll, applied to a Prey of Dynar mark and
 killed, spreads a strong slash proc and triggers Ulfrun's Endurance to refill
@@ -9139,7 +9139,7 @@ Vazarin Sling. It fails to Eximus (no blind) and to toxin.
 **Where it struggles.** RNG on the Fangs slash roll (5/13 chance). Eximus and
 Thrax. Bosses. 7 forma for an ability-only build.
 
-**Variants.** Muzzled Wolf is the melee-platform version. Voruna Prime has a wider
+**Variants.** The Blinded Hunt is the melee-platform version. Voruna Prime has a wider
 spread and hits 500 energy without a shard.
 
 **Strengths and weaknesses.** Strong: self-refilling ability nuke, map-wide status
@@ -9151,7 +9151,7 @@ else.
 
 ---
 
-### Altar of the Dead
+### The Shadow Wall
 **Nekros Prime. A Shield of Shadows health tank with Desecrate energy and a million effective HP.**
 
 | | |
@@ -9233,7 +9233,7 @@ armour). Shadows can confuse allies in public (use a bright energy colour).
 **Where it struggles.** Level-500 ceiling. Shield gating does the same job with
 less investment. The frame does no damage. Bosses.
 
-**Variants.** The Reaper of Shadows build is the active shield-gate looting Nekros.
+**Variants.** The The Grave Tithe build is the active shield-gate looting Nekros.
 
 **Strengths and weaknesses.** Strong: enormous EHP for solo mid-content, a shadow
 army, simple. Weak: hard ceiling, outclassed by gating, no self damage, boss-
@@ -9244,7 +9244,7 @@ regular Steel Path.
 
 ---
 
-### Divine Lotus Flames
+### The Burning Discus
 **Nezha Prime. Reaping Chakram heat stacking and Divine Retribution expedite, behind Warding Halo.**
 
 | | |
@@ -9330,7 +9330,7 @@ Warding Halo lapses with the gate down, and to toxin.
 **Where it struggles.** A cold start before Chakram is up. Bosses. Needs a DoT
 weapon to nuke fully.
 
-**Variants.** The Divine Shield Lotus build leans on the weapon status spread more
+**Variants.** The The Warded Wildfire build leans on the weapon status spread more
 than Chakram.
 
 **Strengths and weaknesses.** Strong: a strong self-contained heat nuke, infinite
@@ -9341,7 +9341,7 @@ lean as hard on a specific weapon.
 
 ---
 
-### The Eternal Storm
+### The Moving Storm
 **Gara Prime. Pure Splinter Storm: stack a moving damage field and run into things.**
 
 | | |
@@ -9430,7 +9430,7 @@ field has stacks, and to toxin.
 to Violence resets minutes of stacking (bring Silence). Bosses. Very open tiles
 where Mass Vitrify cannot corral.
 
-**Variants.** The Glass Storm build is the hybrid Shattered Lash and Splinter Storm
+**Variants.** The Shattered Reflections build is the hybrid Shattered Lash and Splinter Storm
 build. A pure Shattered Lash spam build.
 
 **Strengths and weaknesses.** Strong: a passive damage field with no ceiling that
@@ -9442,7 +9442,7 @@ near them.
 
 ---
 
-### Pillaging Thunder Fist
+### The Grasping Calm
 **Baruuk Prime. Minimum-Duration Lull spam and Pull grouping on the Desert Wind fist.**
 
 | | |
@@ -9524,7 +9524,7 @@ and to toxin.
 **Where it struggles.** The minimum-Duration build makes any duration-based
 subsume useless. Ranged targets. Bosses.
 
-**Variants.** The Endless Fist build is the Elude-and-Elusive-Retribution version.
+**Variants.** The The Unbroken Calm build is the Elude-and-Elusive-Retribution version.
 
 **Strengths and weaknesses.** Strong: fast into Serene Storm, strong grouped
 clear, very tanky, a strip via Pillage. Weak: no duration subsumes, melee range,
@@ -9535,7 +9535,7 @@ its exalted fists faster.
 
 ---
 
-### Longest Day and Eternal Night
+### The Stopped Clock
 **Equinox Prime. Gloom stacked with Peaceful Provocation for a 99% slow, plus a Maim nuke.**
 
 | | |
@@ -9615,9 +9615,9 @@ before the slow is fully stacked, and to toxin.
 **Energy.** The Efficiency floor plus Arcane Energize. A Dethcube helps.
 
 **Where it struggles.** The Day-to-Night stacking sequence is a real skill barrier
-and interrupts DPS. Maim's falloff and banking delay as in Day and Night. Bosses.
+and interrupts DPS. Maim's falloff and banking delay as in The Sleeping Sun. Bosses.
 
-**Variants.** The Day and Night build is the simpler sleep-and-Maim switch.
+**Variants.** The The Sleeping Sun build is the simpler sleep-and-Maim switch.
 
 **Strengths and weaknesses.** Strong: the strongest slow in the game (near time
 freeze), stun-lock nuke, effective immortality in Night form. Weak: complex
@@ -9639,7 +9639,7 @@ frozen room.
 | Investment | Medium. 3 forma (5 with Archon mods for a mission-start Lycath cast) |
 | Weapon reliance | High. A forced-slash or high-status melee is what Fangs taxis |
 
-> Tenno. Voruna Prime is the Muzzled Wolf build with better numbers: the base
+> Tenno. Voruna Prime is the The Blinded Hunt build with better numbers: the base
 > chassis hits 500 energy without a shard, and the Fangs of Raksh spread reaches
 > 20m, or 49m on a Prey of Dynar mark. Same plan: invisible, prime five statuses,
 > land a strong slash or gas proc on the marked target, and taxi it across the
@@ -9662,7 +9662,7 @@ frozen room.
 Arsenal figures land at roughly 139% Strength, 155% Duration, 280% Range, 45%
 Efficiency, with 555 health, 370 shield, 265 armor and a 513 energy pool.
 
-**How it works.** Identical status-taxi engine to Muzzled Wolf. Fangs of Raksh (2)
+**How it works.** Identical status-taxi engine to The Blinded Hunt. Fangs of Raksh (2)
 rolls five random statuses (39% chance one matches your melee); a matching strong
 proc from a heavy attack, applied to a Prey of Dynar mark and killed, is averaged
 with the weaker procs and spread 49m. Dynar also gives the melee a flat 100% crit
@@ -9714,19 +9714,19 @@ toxin.
 
 **Where it struggles.** RNG on the Fangs slash roll. Eximus and Thrax. Bosses.
 
-**Variants.** Muzzled Wolf is the base-Voruna version. Descent of Fangs is the
+**Variants.** The Blinded Hunt is the base-Voruna version. The Endless Descent is the
 Ulfrun's Descent ability build. An Arcane Persistence health-tank variant.
 
 **Strengths and weaknesses.** Strong: map-wide clear via status taxi with a wider
 spread than base Voruna, permanent crowd control, invisible, strong priming. Weak:
 RNG-dependent, Eximus-awkward, boss-blind.
 
-**Who runs this.** Players who own Voruna Prime and want the Muzzled Wolf clear
+**Who runs this.** Players who own Voruna Prime and want The Blinded Hunt clear
 with a bigger radius and no energy-max shard needed.
 
 ---
 
-### Solar Cataclysm
+### The Sunbeam Nuke
 **Wisp Prime. A Cataclysmic Gate Sol Gate area nuke feeding Breach Surge sparks.**
 
 | | |
@@ -9797,7 +9797,7 @@ the spark crit-damage add while airborne-invisible.
 multiplies Sol Gate's heat procs. Shock motes inherit Manifold Bond on a companion
 weapon for a Contagious Bond heat-spread feedback loop with Roar.
 
-**Staying alive.** Mote invisibility and shield gating as in Ravenous Wraith, plus
+**Staying alive.** Mote invisibility and shield gating as in The Hungering Light, plus
 Sol Gate's own crowd control. It fails to toxin.
 
 **Energy.** Arcane Universal Fallout plus Archon Stretch. A flood while Sol Gate is
@@ -9806,7 +9806,7 @@ up.
 **Where it struggles.** Sol Gate roots you while channelling. Line-of-sight tiles.
 Bosses. The heat-inherit setup is a real chore for the ceiling.
 
-**Variants.** The Ravenous Wraith build is the general mote-and-Breach-Surge Wisp.
+**Variants.** The The Hungering Light build is the general mote-and-Breach-Surge Wisp.
 
 **Strengths and weaknesses.** Strong: a strong sustained area nuke, huge spark
 potential, floods its own energy, keeps the team buffs. Weak: channel roots you,
@@ -9817,7 +9817,7 @@ the heat multipliers to get there.
 
 ---
 
-### Mightiest Motes
+### The Overcharged Reservoir
 **Wisp Prime. A pure support build stacking Strength past 500% for maximum mote buffs.**
 
 | | |
@@ -9896,7 +9896,7 @@ them.
 **Where it struggles.** It does no damage. It is a pure team-buff frame for
 coordinated squads; solo it is just an invisible mote dispenser. Bosses.
 
-**Variants.** The Ravenous Wraith build is the self-sufficient survivor-and-buffer
+**Variants.** The The Hungering Light build is the self-sufficient survivor-and-buffer
 Wisp.
 
 **Strengths and weaknesses.** Strong: the largest mote buffs possible, invisible,
@@ -9907,7 +9907,7 @@ theoretical maximum.
 
 ---
 
-### Maim Equinox
+### The Banked Verdict
 **Equinox Prime. A pure Day-form Maim nuke with a Terrify full strip.**
 
 | | |
@@ -9978,7 +9978,7 @@ lands with the gate down.
 **Where it struggles.** Maim's falloff means you must over-bank to kill at range.
 Armoured targets without the strip. Bosses.
 
-**Variants.** Day and Night (#028) is the sleep-and-switch build; Longest Day and
+**Variants.** The Sleeping Sun (#028) is the sleep-and-switch build; Longest Day and
 Eternal Night (#087) is the Gloom time-freeze build.
 
 **Strengths and weaknesses.** Strong: a 50m line-of-sight-ignoring nuke, a
@@ -9989,7 +9989,7 @@ form-switching.
 
 ---
 
-### The Thunderous Blade
+### The Comfortable Edge
 **Excalibur. An electric-influence Exalted Blade and Slash Dash nuke, behind passive shield gating.**
 
 | | |
@@ -10075,7 +10075,7 @@ clears rooms and never checks its shields.
 
 ---
 
-### Infinite Energy Vortex
+### The Objective Lock
 **Vauban Prime. Map-locking vortices sustained forever by Spectrosiphon energy orbs.**
 
 | | |
@@ -10126,7 +10126,7 @@ control. Very safe.
 **Where it struggles.** It does no damage. Overguarded enemies ignore the vortex
 pull less cleanly. Mobile missions.
 
-**Variants.** The Galactic Immunisation Program (#037) is the scaling-DPS Vauban.
+**Variants.** The Scaling Ordnance (#037) is the scaling-DPS Vauban.
 
 **Strengths and weaknesses.** Strong: trivialises objective defense, infinite
 squad energy, safe, cheap. Weak: zero damage, camp-only.
@@ -10136,7 +10136,7 @@ keep the squad's energy full.
 
 ---
 
-### Antimatter Annihilation
+### The Particle Storm
 **Nova Prime. A pure ability build: Neutron Star heat and Antimatter Drop, Mecha-boosted.**
 
 | | |
@@ -10181,7 +10181,7 @@ author.*
 
 **Where it struggles.** Ability damage falls off past level 500. Bosses.
 
-**Variants.** Event Horizon (#029) is the general Slowva/Speedva; Rave Party (#073)
+**Variants.** Molecular Tide (#029) is the general Slowva/Speedva; The Aggro Switch (#073)
 is the speed build.
 
 **Strengths and weaknesses.** Strong: near no weapon investment, self-spreading
@@ -10192,7 +10192,7 @@ abilities alone.
 
 ---
 
-### Ruyi Jingu Bang
+### The Bare Staff
 **Wukong Prime. A pure Iron Staff red-crit build with passive shield gating.**
 
 | | |
@@ -10238,8 +10238,8 @@ parkour). Five total.
 **Where it struggles.** Bosses take the staff. Fragile without the gate. Very
 forma-hungry for a one-note build.
 
-**Variants.** Celestial Monkey (#033) is the active Iron Staff and Defy-nuke build;
-Lazy Monkey King (#059) is the persistence tank.
+**Variants.** The Cloud Staff (#033) is the active Iron Staff and Defy-nuke build;
+The Idle Staff (#059) is the persistence tank.
 
 **Strengths and weaknesses.** Strong: instant red crits, strong influence clear,
 effortless gate. Weak: one-note, boss-slow, forma-hungry.
@@ -10249,7 +10249,7 @@ Wukong.
 
 ---
 
-### Assimilate Annihilation
+### The Banked Bubble
 **Nyx Prime. Immortal Assimilate feeding a Mind-Control-buffed banked-damage nuke.**
 
 | | |
@@ -10313,7 +10313,7 @@ bridge on exit. It effectively does not fail while 4 is up.
 **Where it struggles.** Mobility (you roll everywhere). Boss single-target is on
 the weapon or the buffed Mind Control target.
 
-**Variants.** Control and Assimilate (#040) is the general strip-and-nuke build.
+**Variants.** The Unbreakable Bubble (#040) is the general strip-and-nuke build.
 
 **Strengths and weaknesses.** Strong: unconditional immortality to level cap, a
 scaling nuke, cheap. Weak: slow, weapon-and-buff-dependent, boss setup differs.
@@ -10323,7 +10323,7 @@ map nuke.
 
 ---
 
-### Pure Voltage
+### The Marked Current
 **Gyre Prime. A Mecha-set pure electric ability nuke.**
 
 | | |
@@ -10355,7 +10355,7 @@ map nuke.
 Arsenal figures land at roughly 139% Strength, 155% Duration, 265% Range, 45%
 Efficiency, with 445 health, 740 shield, 105 armor and a 684 energy pool.
 
-**How it works.** As Electrolysis (#079), but with the Mecha set instead of a
+**How it works.** As The Grounded Chain (#079), but with the Mecha set instead of a
 strip subsume: Mecha Empowered's mark multiplies electric DoT, and the kill-spread
 carries it. Roar over 1. Without a Huras, swap the aura for Corrosive Projection
 and Mecha Pulse for Primed Flow, Equilibrium or Rolling Guard.
@@ -10367,7 +10367,7 @@ and Mecha Pulse for Primed Flow, Equilibrium or Rolling Guard.
 **Where it struggles.** Fragile frame; lean on Coil Horizon and Huras. Bosses.
 Cold-start cooldown risk on Cathode Grace.
 
-**Variants.** Flux Dancer (#043) is the weapon platform; Electrolysis (#079) is the
+**Variants.** The Live Wire (#043) is the weapon platform; The Grounded Chain (#079) is the
 strip-subsume ability build.
 
 **Strengths and weaknesses.** Strong: strong grouped electric nuke with almost no
@@ -10377,7 +10377,7 @@ weapon investment, invisible. Weak: fragile, boss-blind, needs a Kubrow.
 
 ---
 
-### Beginner's Blades
+### First Cuts
 **Ash Prime. A zero-forma non-helminth Bladestorm and finisher build.**
 
 | | |
@@ -10430,7 +10430,7 @@ level-cap builds later. Weak: modest damage without investment, boss-slow.
 
 ---
 
-### Glorious Purpose
+### The Detonation Camp
 **Jade. A pure Glory alt-fire nuke for high-density camping.**
 
 | | |
@@ -10474,7 +10474,7 @@ the companion invisibility.
 **Where it struggles.** Camp-only; primary fire is better in lower density.
 Line-of-sight tiles. Bosses.
 
-**Variants.** Archangel of Annihilation (#024) is the primary-and-hybrid general
+**Variants.** Judgement Rain (#024) is the primary-and-hybrid general
 build.
 
 **Strengths and weaknesses.** Strong: enormous stacked-Judgement burst in dense
@@ -10485,7 +10485,7 @@ alt-fire density damage.
 
 ---
 
-### Energized Munitions
+### The Reloadless Platform
 **Gauss Prime. A pure weapon platform: Redline buffs plus Energized Munitions ammo economy.**
 
 | | |
@@ -10519,7 +10519,7 @@ Efficiency, with 370 health, 650 shield, 185 armor and a 225 energy pool. Sprint
 1.5.
 
 **How it works.** Max Duration for the longest Redline uptime. Fast Deflection plus
-Arcane Aegis is the passive-gate immortality loop (as Frozen Flames). Thermal
+Arcane Aegis is the passive-gate immortality loop (as The Compression Blast). Thermal
 Transfer adds weapon blast after a heat-cold Sunder.
 
 **Helminth.** **Energized Munitions** over 3 for infinite ammo on the platform.
@@ -10536,7 +10536,7 @@ for a heavy area weapon.
 
 ---
 
-### Shattering Glass
+### The One-Button Sweep
 **Gara Prime. Pure Shattered Lash influence spam.**
 
 | | |
@@ -10576,9 +10576,9 @@ Catalyzing Shields gates you off casts.
 **Archon Shards.** One to two cast-speed (spam speed). Two parkour. The rest Violet
 melee crit-damage. Five total.
 
-**Where it struggles.** No passive damage field (that is The Eternal Storm). Bosses.
+**Where it struggles.** No passive damage field (that is The Moving Storm). Bosses.
 
-**Variants.** Glass Storm (#015) is the hybrid; The Eternal Storm (#085) is pure
+**Variants.** Shattered Reflections (#015) is the hybrid; The Moving Storm (#085) is pure
 Splinter Storm.
 
 **Strengths and weaknesses.** Strong: one-button clear, cheap to pilot. Weak:
@@ -10588,7 +10588,7 @@ weapon-light for bosses, needs cast-speed to feel good.
 
 ---
 
-### The Stampede
+### The Invulnerable Window
 **Rhino Prime. Endurance Iron Skin i-frame gating plus a Stomp lock, on a Roar or Nourish platform.**
 
 | | |
@@ -10646,7 +10646,7 @@ Stomp lock with Iron Skin down.
 
 **Where it struggles.** Very forma-hungry. Does no damage itself. Bosses.
 
-**Variants.** Ironclad Rhino (#058) and Shield of Iron (#016) are the Iron Skin-
+**Variants.** The Bulwark (#058) and The Immovable (#016) are the Iron Skin-
 value tanks.
 
 **Strengths and weaknesses.** Strong: survives to level cap on i-frames alone,
@@ -10658,7 +10658,7 @@ windows rather than a health number.
 
 ---
 
-### Wire Dancer
+### The Dashwire Platform
 **Ivara Prime. A Prowl-invisible weapon platform on a dashwire, with Empowered Quiver.**
 
 | | |
@@ -10710,7 +10710,7 @@ to AoE that ignores stealth and to toxin.
 **Where it struggles.** Entirely weapon-carried. Bosses take the weapon. Loud
 weapons need silencing.
 
-**Variants.** Well of Death (#057) is the Concentrated Arrow room nuke.
+**Variants.** The Silent Detonation (#057) is the Concentrated Arrow room nuke.
 
 **Strengths and weaknesses.** Strong: permanent stealth, a solid weapon buff,
 silent, comfortable. Weak: selfish, weapon-carried, boss-blind.
@@ -10720,7 +10720,7 @@ primary.
 
 ---
 
-### Eternal Hysteria
+### The Comfortable Rage
 **Valkyr Prime. Low-range comfort Hysteria: Talons lifesteal and Arcane Persistence to level cap.**
 
 | | |
@@ -10772,7 +10772,7 @@ in one Persistence tick.
 
 **Where it struggles.** Melee range. Bosses. Infested without Silence.
 
-**Variants.** Rip and Tear (#020) is the high-range grouping build.
+**Variants.** The Caged Beast (#020) is the high-range grouping build.
 
 **Strengths and weaknesses.** Strong: near-immortal, comfortable, strong Talons
 clear, cheap. Weak: melee range, Infested-vulnerable, boss-slow.
@@ -10781,7 +10781,7 @@ clear, cheap. Weak: melee range, Infested-vulnerable, boss-slow.
 
 ---
 
-### Surging Aquablades
+### The Water Bombs
 **Yareli Prime. A pure Aquablade slash-DoT spam off the Merulina board.**
 
 | | |
@@ -10814,7 +10814,7 @@ clear, cheap. Weak: melee range, Infested-vulnerable, boss-slow.
 Arsenal figures land at roughly 214% Strength, 282% Duration, 34% Range, 45%
 Efficiency, with 370 health, 650 shield, 105 armor and a 315 energy pool.
 
-**How it works.** Max Duration lets Surging Aquablades bank maximum damage and
+**How it works.** Max Duration lets the Surging Blades augment bank maximum damage and
 gives Roar ~2 minutes. Aquablades cost 0 on Merulina, Merulina and Sea Snares are
 cheap, so minimum Efficiency works. The author's figure: ~50,000 banked, Roar
 double-dip (3.31x), Mecha Empowered (6.25x), Sea Snares (3.74x) spreads ~1.28M
@@ -10832,7 +10832,7 @@ invisibility). Off-and-on Merulina twice for i-frames when invisibility ends.
 **Where it struggles.** Personal-range Aquablades need you close. Bosses. Needs a
 Huras for the invisibility.
 
-**Variants.** Loyal Waverider (#041) is the secondary-weapon platform.
+**Variants.** The Ghost Ship (#041) is the secondary-weapon platform.
 
 **Strengths and weaknesses.** Strong: strong spreading slash DoT with near no
 weapon or energy investment, invisible. Weak: close range, boss-blind, needs a
@@ -10842,7 +10842,7 @@ Kubrow.
 
 ---
 
-### Shadow of Death
+### The Adaptive Assassin
 **Ash Prime. An endurance Bladestorm build with a Seeking Shuriken single-target strip.**
 
 | | |
@@ -10892,7 +10892,7 @@ Blades (#012).
 **Where it struggles.** Boss single-target is on the weapon or Seeking Shuriken.
 Open worlds need a Range rebuild.
 
-**Variants.** Wrathful Blades (#012) is the red-crit level-cap build; Beginner's
+**Variants.** The Silent Verdict (#012) is the red-crit level-cap build; Beginner's
 Blades (#098) is the zero-forma starter.
 
 **Strengths and weaknesses.** Strong: flexible endurance assassin, permanent
@@ -10954,7 +10954,7 @@ disarm the room.
 
 ---
 
-### Siege Tank Mesa
+### The Stationary Gun
 **Mesa Prime. A minimum-range Gloom lifesteal tank that stands still in Peacemaker.**
 
 | | |
@@ -10999,7 +10999,7 @@ Azure shards, or Steel Fiber plus two. *Confidence: Approximation, per the autho
 **Where it struggles.** Peacemaker roots you. Toxin bypasses armour but not the
 Gloom heal if it out-paces it. Bosses take longer.
 
-**Variants.** Nourished Gunslinger (#022) is the active shield-gate Mesa.
+**Variants.** The Viral Duelist (#022) is the active shield-gate Mesa.
 
 **Strengths and weaknesses.** Strong: stand-still immortal, free Regulator
 lifesteal, good for open-world bounties. Weak: rooted while firing, no grouping,
@@ -11009,7 +11009,7 @@ weapon-carried.
 
 ---
 
-### The Nourished Horizon
+### The Automatic Debuff
 **Nova Prime. A shard-gated Nourish build that auto-tags enemies with slow, viral and heat.**
 
 | | |
@@ -11064,7 +11064,7 @@ Attrition, Acid Shells, Amalgam Argonak).
 **Where it struggles.** Requires the shards to function. Ability damage is not the
 plan; the weapon carries. Bosses.
 
-**Variants.** Event Horizon (#029) is the no-shard general build.
+**Variants.** Molecular Tide (#029) is the no-shard general build.
 
 **Strengths and weaknesses.** Strong: automatic room-wide slow and 2x debuff plus
 viral, strong weapon amplifier, auto-debuffs Thrax on spawn. Weak: shard-gated,
@@ -11075,7 +11075,7 @@ automatically and hands their weapon a doubled, slowed target.
 
 ---
 
-### Breaching the Redline
+### The Overcrit
 **Wisp Prime. Stacking Critical Surge past the cap for 1000% weapon crit chance.**
 
 | | |
@@ -11126,7 +11126,7 @@ the author.*
 **Where it struggles.** The teleport-distance timing is fiddly and easy to
 overshoot the cap. Bosses take the weapon. Line-of-sight for the mote teleport.
 
-**Variants.** Ravenous Wraith (#007) is the general mote-and-spark Wisp.
+**Variants.** The Hungering Light (#007) is the general mote-and-spark Wisp.
 
 **Strengths and weaknesses.** Strong: the largest weapon crit-chance buff
 possible, keeps Wisp's mote support. Weak: fiddly stacking, weapon-carried, boss-
@@ -11134,5 +11134,1420 @@ blind.
 
 **Who runs this.** Players who want to overcrit a weapon to red every shot and
 enjoy the mote ping-pong.
+
+---
+
+### The Umbral Guardian
+**Excalibur Umbra. A persistence-tank Exalted Blade platform on the Umbral chassis.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Near-immortal exalted-melee platform |
+| Investment | Low. 1 forma (Umbra comes with Umbral polarities) |
+| Weapon reliance | Low. Exalted Blade carries |
+
+> Tenno. Umbra's built-in Umbral set plus Arcane Persistence makes him a tank
+> without armour mods. Chromatic Blade for the influence status, Furious Javelin
+> for a damage buff, and heal through Gloom.
+
+**The build**
+
+- Chromatic Blade, rank 3, unpolarised — augment
+- Furious Javelin, rank 3, unpolarised — augment
+- Primed Flow, rank 10, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Umbral Fiber, rank 10, Umbral polarity
+- Umbral Vitality, rank 10, Umbral polarity
+- Umbral Intensify, rank 10, Umbral polarity
+- Aura: Steel Charge, Madurai polarity
+- Exilus: Warrior's Rest, unpolarised
+- Arcanes: Arcane Persistence, Arcane Blessing
+
+Arsenal figures land at roughly 192% Strength, 155% Duration, 100% Range, 100%
+Efficiency, with a 1036 health pool, 882 armor, 370 shield and a 641 energy pool.
+
+**How it works.** The Umbral set clears 700 armour for Arcane Persistence's 500/s
+cap; Chromatic Blade (blue emissive) makes Exalted Blade electric with high status
+for Melee Influence. Warrior's Rest reduces ability energy cost.
+
+**Helminth.** Subsume over Radial Blind (2): **Gloom** for healing, **Roar** or
+**Nourish** for damage and energy.
+
+**Archon Shards.** One Amber cast-speed, four Violet melee crit-damage.
+
+**Where it struggles.** Needs a heal source. Boss-slow. Melee range.
+
+**Variants.** The Comfortable Edge (#092) is the base Excalibur passive-gate
+version.
+
+**Who runs this.** Umbra owners who want a cheap, near-immortal exalted-blade
+platform.
+
+---
+
+### The Alchemist's Forge
+**Lavos Prime. A persistence-tank melee platform using Valence Formation to arm influence and afflictions weapons.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Melee weapon platform, high-health persistence tank, no energy |
+| Investment | Very high. 6 forma, Umbral forma |
+| Weapon reliance | Total. Lavos buffs and tanks; the melee kills |
+
+> Tenno. This Lavos drops the Catalyze nuke and becomes a melee platform. Valence
+> Formation adds a separate element hit to your weapon, so a single-mod heat weapon
+> can also trigger Melee Influence, and gas builds get afflictions. No energy, just
+> cooldowns, and a huge health pool under Arcane Persistence.
+
+**The build**
+
+- Umbral Intensify, rank 10, unpolarised
+- Umbral Vitality, rank 10, unpolarised
+- Nira's Hatred, rank 5, Vazarin polarity
+- Valence Formation, rank 3, Zenurik polarity — augment. Adds a separate element hit to weapons
+- Blind Rage, rank 10, Madurai polarity
+- Piercing Roar, rank 0, Zenurik polarity — augment. Recast Roar with no cooldown gap
+- Primed Continuity, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Nira's Anguish, Vazarin polarity
+- Arcanes: Arcane Fury, Arcane Persistence
+
+Arsenal figures land at roughly 254% Strength, 269% Duration, 34% Range, 45%
+Efficiency, with a 2120 health pool, 675 armor, 410 shield and no energy bar.
+
+**How it works.** High Duration extends Roar, Valence Formation, and (via Lavos's
+passive) every status duration, which pairs well with gas afflictions. Nira's
+Hatred adds health and Duration and boosts slams. One Azure armour shard reaches
+700 for Arcane Persistence.
+
+**Helminth.** **Roar** over 2 so you can still infuse Electric (influence) or Gas
+(afflictions slam).
+
+**Archon Shards.** One Azure armour, two parkour, two Duration.
+
+**Weapon synergy.** Lifesteal weapons for Persistence healing: Sancti Magistar
+slam, Syam plus Amalgam Daikyu, Winds of Purity Furis.
+
+**Where it struggles.** Very forma-hungry. Needs a lifesteal weapon. Bosses.
+
+**Variants.** The Element Engine (#049) and Mecha Anvil (#070) are the Catalyze
+nuke builds.
+
+**Who runs this.** Lavos Prime owners who want an energy-free melee platform that
+tanks to level cap.
+
+---
+
+### The Padded Star
+**Nova Prime. A casual 99.9% damage-reduction tank on Null Star.**
+
+| | |
+|--|--|
+| Content | Steel Path (casual, to about level 500) |
+| Role | Set-and-forget casual tank |
+| Investment | High. 5 forma |
+| Weapon reliance | Total |
+
+> Tenno. Null Star's 90% damage reduction stacks with Adaptation's 90% and Health
+> Conversion's 89% for close to 99.9% DR. Turn on 1, forget about dying, carry a
+> weapon.
+
+**The build**
+
+- Narrow Minded, rank 10, Vazarin polarity
+- Adaptation, rank 10, unpolarised
+- Health Conversion, rank 5, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Molecular Fission, rank 3, unpolarised — augment. Null Stars auto-seek and re-apply
+- Primed Flow, rank 10, Naramon polarity
+- Precision Intensify, rank 5, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Preparation, unpolarised
+- Arcanes: Arcane Blessing, Arcane Guardian
+
+Arsenal figures land at roughly 100% Strength, 254% Duration, 34% Range, 100%
+Efficiency, with 370 health, 370 shield, 135 armor and a 755 energy pool.
+
+**How it works.** Molecular Fission keeps Null Star topped so the 90% DR is
+permanent; Adaptation and Health Conversion multiply it. High Duration keeps
+Molecular Prime's slow covering the map.
+
+**Where it struggles.** The DR stack falls off past about level 500. Toxin (unless
+Adaptation is on toxin). Does no damage itself.
+
+**Variants.** Molecular Tide (#029) is the general Slowva/Speedva.
+
+**Who runs this.** Players who want a Nova that survives casual Steel Path with
+zero attention.
+
+---
+
+### The Open Sky
+**Zephyr Prime. A mobile no-tornado gun platform with Jet Stream speed and Airburst grouping.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Mobile weapon platform, projectile immunity, grouping |
+| Investment | Medium. 4 forma |
+| Weapon reliance | Total |
+
+> Tenno. This Zephyr skips tornadoes so you never recast them moving between
+> zones. Jet Stream buffs your and the squad's speed and projectile speed,
+> Airburst with Airburst Rounds groups and adds weapon damage, and Turbulence
+> still blocks every bullet.
+
+**The build**
+
+- Jet Stream, rank 3, unpolarised — augment. Speed and projectile-speed buff
+- Airburst Rounds, rank 3, unpolarised — augment. Airburst groups and buffs weapon damage
+- Equilibrium, rank 10, Naramon polarity
+- Augur Reach, rank 5, unpolarised
+- Stretch, rank 5, Naramon polarity
+- Umbral Intensify, rank 10, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Preparation, Zenurik polarity
+- Arcanes: Arcane Concentration, Molt Augmented
+
+Arsenal figures land at roughly 144% Strength, 155% Duration, 175% Range, 100%
+Efficiency, with 555 health, 555 shield, 135 armor and a 641 energy pool.
+
+**How it works.** Jet Stream and Airburst Rounds both want Strength and Duration.
+Turbulence covers projectile fire; Rolling Guard is the flex for the recast gap.
+
+**Helminth.** An ability that wants Strength and Duration: **Nourish**, **Roar**,
+**Pillage**, **Silence**, or a mobility subsume.
+
+**Where it struggles.** Melee ignores Turbulence. The recast gap. Bosses.
+
+**Variants.** The Eye of the Storm (#034) is the tornado-multiplier build.
+
+**Who runs this.** Players who want a fast, projectile-immune Zephyr gun platform
+that does not depend on tornadoes.
+
+---
+
+### The Low Sights
+**Mesa Prime. A low-range Peacemaker platform with a Pillage or Nourish subsume and active shield gating.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Peacemaker DPS with active shield-gate survival |
+| Investment | High. 4 forma, Topaz secondary crit shards |
+| Weapon reliance | Low. Regulators are the damage |
+
+> Tenno. The low-range max-Strength Mesa. Active shield gate with 1 while in
+> Peacemaker, and subsume Pillage for a strip and shields or Nourish for viral and
+> energy.
+
+**The build**
+
+- Primed Continuity, rank 10, Madurai polarity
+- Umbral Intensify, rank 10, unpolarised
+- Transient Fortitude, rank 10, Madurai polarity
+- Fleeting Expertise, rank 5, Naramon polarity
+- Augur Secrets, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Hot Shot, Arcane Velocity
+
+Arsenal figures land at roughly 223% Strength, 167% Duration, 34% Range, 160%
+Efficiency, with 500 health, 280 shield, 135 armor and a 541 energy pool.
+
+**How it works.** Range is dumped (Peacemaker range is fixed). Augur Secrets plus
+casting 1 in Peacemaker is the active gate. Subsume choice sets the survival and
+faction plan.
+
+**Helminth.** **Nourish** (energy plus viral) or **Pillage** (strip plus shield
+gating).
+
+**Archon Shards.** One cast-speed or parkour, four Tauforged Topaz secondary
+crit-chance.
+
+**Where it struggles.** Rooted while firing. No grouping. Toxin.
+
+**Variants.** The Viral Duelist (#022) and The Stationary Gun (#108) are the other
+Mesa builds.
+
+**Who runs this.** Players who want a max-Strength Peacemaker Mesa with an
+active-gate rhythm.
+
+---
+
+### The Book of Fire
+**Dante. A Noctua-only exalted-secondary DPS build.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Exalted-secondary DPS |
+| Investment | Medium. 4 forma, Topaz secondary crit shards |
+| Weapon reliance | Low. Noctua is the damage |
+
+> Tenno. Skip Tragedy and the verse combos; just arm Noctua and shoot. High
+> Strength, high Duration for the invocation and buff uptime, and a status or
+> heat build on the exalted itself.
+
+**The build**
+
+- Umbral Intensify, rank 10, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Archon Vitality, rank 0, unpolarised — doubles Noctua heat procs
+- Primed Flow, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Augur Message, rank 5, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Preparation, unpolarised
+- Arcanes: Arcane Hot Shot, Arcane Velocity
+
+Arsenal figures land at roughly 199% Strength, 250% Duration, 34% Range, 100%
+Efficiency, with about 425 health, 240 shield, 145 armor and a 769 energy pool.
+
+**How it works.** Strength scales Noctua's damage; Archon Vitality (rank 0) doubles
+its heat procs on a heat build. Range is dumped. Two Amber cast-speed and three
+Topaz secondary crit-chance shards.
+
+**Where it struggles.** No area nuke (that is Tragedy). Bosses take the exalted.
+Line-of-sight for the beam.
+
+**Variants.** Verse of Ruin (#005) is the full-kit slash-nuke Dante.
+
+**Who runs this.** Players who want Dante purely as a Noctua DPS chassis.
+
+---
+
+### The Falling Stack
+**Zephyr Prime. A Target Fixation Dive Bomb that stacks to one-shot level cap.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Stacking Dive Bomb nuke |
+| Difficulty | Advanced. It takes 10 to 20 minutes to ramp |
+| Investment | High. 5 forma |
+| Weapon reliance | Very low once ramped |
+
+> Tenno. Target Fixation banks Dive Bomb damage forever, one stack per enemy hit.
+> After ~1000 hits, every Dive Bomb is about 19 million in a 10m radius. Arcane
+> Steadfast currently lets you keep the stack while grounded.
+
+**The build**
+
+- Umbral Intensify, rank 10, unpolarised
+- Streamline, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Augur Reach, rank 5, Naramon polarity
+- Stretch, rank 5, Naramon polarity
+- Target Fixation, rank 3, unpolarised — augment. Dive Bomb banks damage per hit
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Steadfast, Molt Efficiency
+
+Arsenal figures land at roughly 144% Strength, 155% Duration, 175% Range, 130%
+Efficiency, with 555 health, 555 shield, 135 armor and a 641 energy pool.
+
+**How it works.** Dive Bomb base is `4500 x 0.2 x height x Strength` (15m height
+cap), so Strength speeds the ramp but does not touch Target Fixation's percentage.
+The Arcane Steadfast interaction (retain stacks on the ground) is a bug.
+*Confidence: Approximation, per the author.*
+
+**Where it struggles.** The 10-to-20-minute ramp. Bug-dependent stack retention.
+Bosses. Not viable in short missions.
+
+**Variants.** The Eye of the Storm (#034) is the tornado build.
+
+**Who runs this.** Endurance players who want a Dive Bomb that becomes a level-cap
+one-shot after a long ramp.
+
+---
+
+### The Second Current
+**Gyre. A Mecha-set electric ability-DPS variant with a roll strip.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Mecha-set electric ability nuke |
+| Investment | Medium. 4 forma, a Huras Kubrow |
+| Weapon reliance | Very low |
+
+> Tenno. Base-Gyre version of The Marked Current: Rotorswell and Coil Horizon chain
+> electric, the Mecha set spreads the kills, Arcane Circumvent strips on a roll,
+> and Roar over 1 multiplies it.
+
+**The build**
+
+- Mecha Pulse, rank 3, unpolarised
+- Cathode Current, rank 3, unpolarised — augment
+- Primed Flow, rank 10, Naramon polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Overextended, rank 5, unpolarised
+- Archon Stretch, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Mecha Empowered, Naramon polarity
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Circumvent, Molt Augmented
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with 370 health, 650 shield, 105 armor and a 684 energy pool.
+
+**Helminth.** **Roar** over 1.
+
+**Archon Shards.** One cast-speed, four Violet electric ability-damage.
+
+**Where it struggles.** Fragile frame; lean on Coil Horizon and Huras. Bosses.
+
+**Variants.** The Live Wire (#043), The Grounded Chain (#079) and The Marked Current (#097) are
+the other Gyre builds.
+
+**Who runs this.** Base-Gyre owners who want the Mecha-set electric nuke.
+
+---
+
+### The Rune Chaser
+**Uriel. A pure weapon platform maxing the Vythelas heat buff with Thermal Transfer.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Weapon platform |
+| Role | Heat weapon platform |
+| Investment | High. 5 forma |
+| Weapon reliance | Total |
+
+> Tenno. Skip Brimstone; this Uriel just stacks the Vythelas heat buff (the Cyte
+> resupply family) as high as it goes. Thermal Transfer adds a 75% x Strength heat
+> buff that feeds Vythelas twice. Heat mods mandatory, faction mods ideal.
+
+**The build**
+
+- Narrow Minded, rank 10, Vazarin polarity
+- Archon Intensify, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Thermal Transfer, rank 3, unpolarised — augment
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Growing Power, Madurai polarity
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Concentration, Arcane Hot Shot
+
+Arsenal figures land at roughly 299% Strength, 227% Duration, 34% Range, 45%
+Efficiency, with 666 health, 666 shield, 105 armor and a 427 energy pool.
+
+**How it works.** `Vythelas heat DoT = 0.5 x 30% x Strength x base damage x (1 +
+heat mod + other elements) x (1 + heat mod) x (1 + faction)^3`, so heat and faction
+mods multiply hard. Thermal Sunder with Thermal Transfer feeds a further 75% x
+Strength.
+
+**Helminth.** **Thermal Sunder** with Thermal Transfer (double-feeds Vythelas), or
+**Nourish** for viral and energy. Roar loses the Strength scaling.
+
+**Weapon synergy.** Heat weapons with heat and faction mods: Kuva Sobek acid
+shells, Ocucor viral-heat, Detron, heat-modded Phantasma or Nataruk.
+
+**Where it struggles.** Vythelas is inconsistent to keep up (you chase the rune).
+Bosses.
+
+**Variants.** The Three Demons (#014) is the hybrid caster-nuke Uriel.
+
+**Who runs this.** Players who want Uriel purely as a heat weapon amplifier.
+
+---
+
+### The Strike Spam
+**Vauban Prime. A Photon Strike spam nuke with Photon Repeater energy.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | On-demand blast nuke spam |
+| Investment | Low. 3 forma |
+| Weapon reliance | Very low |
+
+> Tenno. Skip the Flechette scaling; this Vauban just spams Photon Strike. Photon
+> Repeater refunds energy on the spam, high Range and Duration cover the radius and
+> the traps.
+
+**The build**
+
+- Augur Reach, rank 5, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Photon Repeater, rank 3, unpolarised — augment. Photon Strike spam refunds energy
+- Primed Flow, rank 10, Naramon polarity
+- Stretch, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Molt Augmented, Arcane Concentration
+
+Arsenal figures land at roughly 95% Strength, 128% Duration, 280% Range, 100%
+Efficiency, with 370 health, 370 shield, 210 armor and a 641 energy pool.
+
+**Archon Shards.** Two cast-speed, two parkour, one strength (or two cast, three
+strength).
+
+**Where it struggles.** Photon Strike damage does not scale like Flechette, so it
+falls off in deep endurance. Bosses.
+
+**Variants.** Scaling Ordnance (#037) is the full scaling-DPS Vauban.
+
+**Who runs this.** Players who want a simple spammable blast-nuke Vauban.
+
+---
+
+### The Beam Choir
+**Citrine. A semi-AFK Prismatic Gem beam nuke that scales with your ally count.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Ability-DPS beam nuke, near-AFK with an invisibility pet |
+| Investment | High. 5 forma, a Huras Kubrow |
+| Weapon reliance | Very low |
+
+> Tenno. Prismatic Gem spawns a beam per active ally, and "ally" is generous:
+> companion plus Duplex Bond clones, Tenno specter, air support, on-call crew,
+> invasion specters, a lich. Stack those and Prismatic Gem fires up to 18 beams.
+> Spam 1, keep 3 up, stay invisible with Huras.
+
+**The build**
+
+- Primed Flow, rank 10, Naramon polarity
+- Mecha Pulse, rank 3, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Prismatic Companion, rank 3, unpolarised — augment
+- Archon Stretch, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Archon Vitality, rank 10, Vazarin polarity
+- Aura: Mecha Empowered, Naramon polarity
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Theorem Infection, Molt Augmented
+
+Arsenal figures land at roughly 199% Strength, 155% Duration, 145% Range, 45%
+Efficiency, with a 1000 health pool, 370 shield, 265 armor and a 513 energy pool.
+
+**How it works.** More allies means more beams. The Mecha set spreads kills;
+Archon Continuity adds corrosive procs. Roar subsumed over 1 buffs the beams and
+Fractured Blast without breaking stealth.
+
+**Helminth.** **Roar** (buffs 1 and 3, does not break stealth), **Expedite
+Suffering** (compress slash or toxin procs), or **Sickening Pulse** (10x status).
+
+**Where it struggles.** Beam count depends on setup. Line-of-sight. Bosses.
+
+**Variants.** The Faceted Aegis (#035) is the tank-and-support Citrine.
+
+**Who runs this.** Players who bring a full roster of specters and want Citrine's
+Prismatic Gem to nuke with 18 beams.
+
+---
+
+### The Expedited Flame
+**Nezha Prime. A Pyrotechnics or Thermal Sunder subsume nuke for sub-endurance.**
+
+| | |
+|--|--|
+| Content | Steel Path (to about level 500 to 1000) |
+| Role | Ability nuke |
+| Investment | Medium. 3 forma |
+| Weapon reliance | Low |
+
+> Tenno. Subsume Pyrotechnics or Thermal Sunder over Firewalker for a nuke that
+> handles non-endurance Steel Path. Pyrotechnics scales higher and stacks with
+> Arcane Arachne, Naramon Lethal Levitation and Vigorous Swap (all additive).
+
+**The build**
+
+- Stretch, rank 5, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Fleeting Expertise, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Divine Retribution, rank 3, unpolarised — augment
+- Archon Vitality, rank 10, Vazarin polarity
+- Overextended, rank 5, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Molt Augmented, Arcane Arachne
+
+Arsenal figures land at roughly 139% Strength, 40% Duration, 250% Range, 105%
+Efficiency, with a 930 health pool, 185 shield, 265 armor and a 641 energy pool.
+
+**How it works.** Negative Duration ends Divine Spears fast for the expedite;
+Pyrotechnics or Thermal Sunder (over 1) is the damage. Run Naramon Lethal
+Levitation for the biggest additive multiplier.
+
+**Where it struggles.** Falls off past level 500 to 1000. Bosses.
+
+**Variants.** The Warded Wildfire (#039) and The Burning Discus (#084) are the
+weapon-status and Chakram builds.
+
+**Who runs this.** Players who want a Nezha ability nuke for regular Steel Path.
+
+---
+
+### The Fissure Sprint
+**Titania Prime. A Razorwing relic-speedrun build with a Thermal Sunder subsume.**
+
+| | |
+|--|--|
+| Content | Steel Path, Relic speedrun, low-level Fissures |
+| Role | Fast Razorwing traversal with a Thermal Sunder nuke |
+| Investment | Low. 2 forma |
+| Weapon reliance | Low |
+
+> Tenno. A speedrun Razorwing: minimum Duration and Efficiency for cheap
+> channelling, Thermal Sunder subsumed for a quick low-level nuke, Razorwing Blitz
+> for flight speed.
+
+**The build**
+
+- Fleeting Expertise, rank 5, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Overextended, rank 5, Vazarin polarity
+- Razorwing Blitz, rank 3, unpolarised — augment
+- Transient Fortitude, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Primed Sure Footed, rank 10, Vazarin polarity
+- Archon Vitality, rank 0, unpolarised
+- Aura: Corrosive Projection, aura slot
+- Exilus: Preparation, unpolarised
+- Arcanes: Arcane Energize, Arcane Steadfast
+
+Arsenal figures land at roughly 95% Strength, 67% Duration, 190% Range, 160%
+Efficiency, with about 507 health, 370 shield, 135 armor and a 755 energy pool.
+
+**How it works.** Thermal Sunder (subsumed) clears low-level Fissure enemies fast;
+Razorwing Blitz plus low Duration and high Efficiency makes flight cheap and fast.
+
+**Where it struggles.** Thermal Sunder does not scale into endurance. Bosses.
+
+**Variants.** Razorwing Waltz (#026) is the general Dex Pixia DPS build.
+
+**Who runs this.** Relic and Fissure speedrunners.
+
+---
+
+### Ghost Armaments
+**Cyte-09. A stripped weapon-platform Cyte with a Shock, Nourish or Energized Munitions subsume.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Weapon platform |
+| Role | Weakpoint weapon platform |
+| Investment | High. 5 forma |
+| Weapon reliance | Total |
+
+> Tenno. The trimmed weapon-platform Cyte: Seek for weakpoint marking, Resupply
+> for the element buff, Arcane Sculptor to lock Efficiency, and a subsume by
+> weapon type.
+
+**The build**
+
+- Umbral Intensify, rank 10, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Shock Trooper, rank 3, unpolarised — augment
+- Augur Message, rank 5, Naramon polarity
+- Energy Nexus, rank 5, Naramon polarity
+- Augur Secrets, rank 5, unpolarised
+- Aura: Corrosive Projection, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Tempo, Arcane Sculptor
+
+Arsenal figures land at roughly 267% Strength, 278% Duration, 34% Range, 45%
+Efficiency, with 325 health, 235 shield, 150 armor and a 230 energy pool.
+
+**Helminth.** **Shock**, **Nourish** or **Energized Munitions** over Neutralizer,
+by weapon.
+
+**Archon Shards.** One to two parkour, the rest Violet primary electric-damage.
+
+**Where it struggles.** Aim-dependent. Bosses. Range-sensitive to tileset.
+
+**Variants.** The Marksman's Eye (#067) is the full Neutralizer exalted-sniper build.
+
+**Who runs this.** Players who want Cyte as a weakpoint buff platform for their own
+weapon rather than the exalted sniper.
+
+---
+
+### The Corrosive Current
+**Hydroid Prime. A persistence-tank Plunder weapon platform.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Weapon platform |
+| Role | Corrosive weapon platform, high-health persistence tank |
+| Investment | Very high. 6 forma, Umbral forma |
+| Weapon reliance | Total. Plunder coats the weapon; the weapon kills |
+
+> Tenno. Plunder wraps your weapon in corrosive and strips armour, so a fast
+> beam self-strips and melts. The Umbral set plus Arcane Persistence tanks it, and
+> Tidal Impunity makes you status-immune.
+
+**The build**
+
+- Umbral Intensify, rank 10, Umbral polarity
+- Umbral Vitality, rank 10, Umbral polarity
+- Umbral Fiber, rank 10, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Tidal Impunity, rank 3, Zenurik polarity — augment. Status immunity, cheap cost
+- Primed Flow, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Hunter Adrenaline, rank 5, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Preparation, Zenurik polarity
+- Arcanes: Arcane Persistence, Arcane Blessing
+
+Arsenal figures land at roughly 177% Strength, 254% Duration, 34% Range, 100%
+Efficiency, with a 1036 health pool, 812 armor, 650 shield and a 641 energy pool.
+
+**How it works.** The Umbral set clears 700 armour for Arcane Persistence's 500/s
+cap; Hunter Adrenaline floods energy from hits. Tidal Impunity cheaply covers the
+statuses that break Persistence.
+
+**Weapon synergy.** Fast high-status beams that self-strip via Plunder and deal
+viral or viral-heat: Ocucor (the standout), Kuva Nukor, pure-viral Torid, Phage,
+Phantasma. Lifesteal weapons (Coda Hema, Coda Hirudo, Sancti Magistar) for the
+Persistence healing.
+
+**Where it struggles.** Very forma-hungry. Needs a heal source. Bosses.
+
+**Variants.** The Drowned Vault (#021) is the looting camp-nuke Hydroid.
+
+**Who runs this.** Players who want a near-immortal Hydroid that turns a beam
+weapon into a self-stripping melter.
+
+---
+
+### The Pool Puncher
+**Atlas Prime. A Landslide spam build that does not need the 1400-rubble threshold.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Everyday Landslide clear without rubble upkeep |
+| Investment | High. 5 forma, melee crit-damage shards |
+| Weapon reliance | Low |
+
+> Tenno. Not everyone can farm 1400 rubble every zone. This Atlas just casts
+> Landslide with a big energy pool: 755 energy is ~75 casts, one orb refuels five,
+> and Seismic Bond plus Archon Stretch push it near free.
+
+**The build**
+
+- Transient Fortitude, rank 10, Madurai polarity
+- Umbral Intensify, rank 10, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Archon Stretch, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Augur Reach, rank 5, Naramon polarity
+- Fleeting Expertise, rank 5, Naramon polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Preparation, unpolarised
+- Arcanes: Arcane Fury, Molt Augmented
+
+Arsenal figures land at roughly 139% Strength, 12.5% Duration, 265% Range, 160%
+Efficiency, with 650 health, 555 shield, 500 armor and a 755 energy pool.
+
+**Archon Shards.** Five Tauforged Violet melee crit-damage.
+
+**Where it struggles.** No rubble armour (relies on Catalyzing Shields gating).
+Bosses.
+
+**Variants.** The Quarry Run (#066), The Endless Slide (#080), The Hurled Boulder
+(#134) and Rumbled Atlas (#134) are the other Atlas builds.
+
+**Who runs this.** Players who want a Landslide Atlas that works in any mission,
+not just dense solo survival.
+
+---
+
+### The Fed Bubble
+**Nyx Prime. A Nourish Assimilate build with a non-Assimilate mobile option.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Immortal caster and banked nuke, with a mobile absorb option |
+| Investment | Medium. 3 forma |
+| Weapon reliance | High |
+
+> Tenno. Nourish over Chaos: free weapon viral, a viral buff to the Mind Control
+> ally that feeds Absorb, and an energy multiplier. Run Assimilate for immortal
+> nuking, or drop the Assimilate augment for a mobile "double-tap Absorb for 6s
+> i-frames" playstyle.
+
+**The build**
+
+- Assimilate, rank 3, unpolarised — augment
+- Mind Freak, rank 3, unpolarised — augment
+- Pacifying Bolts, rank 3, unpolarised — augment
+- Blind Rage, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Ready Steel, aura slot
+- Exilus: Nira's Anguish, unpolarised
+- Arcanes: Arcane Agility, Molt Efficiency
+
+Arsenal figures land at roughly 199% Strength, 254% Duration, 34% Range, 45%
+Efficiency, with 370 health, 465 shield, 135 armor and a 641 energy pool.
+
+**How it works.** As The Unbreakable Bubble, but Nourish over Chaos for viral and
+energy. Non-Assimilate: press Absorb without the bubble for a 6s i-frame and 400%
+damage buff on release, fully mobile. Ready Steel and Nira's are for a Ruvox slam
+Mind-Control-buff setup.
+
+**Helminth.** **Nourish** over Chaos. Roar or a mobility subsume as alternatives.
+
+**Where it struggles.** Mobility in Assimilate. Weapon-carried for bosses.
+
+**Variants.** The Unbreakable Bubble (#040) and The Banked Bubble (#096) are
+the other Nyx builds.
+
+**Who runs this.** Players who want a Nyx that can toggle between immortal nuking
+and mobile i-frame carry.
+
+---
+
+### The Storm Feedback
+**Chroma Prime. Vex Armor's Fury pseudo-double-dipped into Breach Surge sparks.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Spark nuke, passive-gate survivor |
+| Investment | Low. 2 forma |
+| Weapon reliance | Medium. A single-hit weapon feeds the sparks |
+
+> Tenno. Vex Armor's Fury buff is coded as a weapon buff, so it hits both the
+> weapon shot and the Breach Surge spark it makes: a pseudo-double-dip. Toxic
+> Elemental Ward adds a holster-damage bump. Catalyzing Shields plus Fast
+> Deflection passively re-gate you.
+
+**The build**
+
+- Vigilante Vigor, rank 5, unpolarised
+- Fast Deflection, rank 5, unpolarised
+- Primed Continuity, rank 10, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Guardian Armor, rank 3, unpolarised — augment. Holds Vex Armor indefinitely
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Stretch, rank 5, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Aegis, Arcane Concentration
+
+Arsenal figures land at roughly 199% Strength, 155% Duration, 145% Range, 45%
+Efficiency, with 370 health, 370 shield, 450 armor and a 300 energy pool.
+
+**How it works.** Breach Surge (subsumed) sparks scale off the weapon hit that
+made them; Vex Armor's Fury applies to both. Post-nerf the spark caps at 5 million
+before external multipliers, so Vex Armor lifts a capped instance rather than
+reaching damage cap. Set a red emissive for Heat Elemental Ward, or toxin for the
+holster bump.
+
+**Where it struggles.** The spark cap limits the ceiling. Toxin. Bosses.
+
+**Variants.** The Sleeping Wyrm (#054) is the Glaive and Contagion
+platform.
+
+**Who runs this.** Players who want a cheap Chroma spark-nuke that also passively
+survives.
+
+---
+
+### The Glaive Wyrm
+**Chroma Prime. A Vex Armor Glaive and Contagion platform for endurance.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Weapon platform |
+| Role | Glaive and Exodia Contagion damage platform, passive-gate survivor |
+| Investment | Medium. 4 forma |
+| Weapon reliance | Total |
+
+> Tenno. Vex Armor's Fury double-dips Glaives and Exodia Contagion (a 600% buff is
+> ~4800%), and Guardian Armor holds it forever. Passive gate with Catalyzing
+> Shields plus the recharge mods.
+
+**The build**
+
+- Fast Deflection, rank 5, unpolarised
+- Vigilante Vigor, rank 5, unpolarised
+- Rolling Guard, rank 10, Vazarin polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Guardian Armor, rank 3, unpolarised — augment
+- Blind Rage, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Fury, Arcane Aegis
+
+Arsenal figures land at roughly 199% Strength, 199% Duration, 34% Range, 45%
+Efficiency, with 370 health, 370 shield, 450 armor and an 855 energy pool.
+
+**Helminth.** **Omamori**, **Nourish** or **Wrathful Advance** over Spectral
+Scream.
+
+**Weapon synergy.** Glaives (Xoris, Falcor, Coda Pathocyst) and Exodia Contagion,
+which Vex Armor's Fury double-dips.
+
+**Where it struggles.** Needs the specific weapon types. Bosses. Toxin.
+
+**Variants.** The Sleeping Wyrm (#054) is the general persistence-tank
+version; The Storm Feedback (#128) is the spark build.
+
+**Who runs this.** Players who want a Glaive or Contagion Chroma platform for
+endurance.
+
+---
+
+### The Reflecting Pool
+**Trinity Prime. Gloom lifesteal plus Link reflection plus Arcane Persistence: outheal everything.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Effectively immortal tank |
+| Investment | Medium. 4 forma, three mandatory armour shards |
+| Weapon reliance | Total |
+
+> Tenno. Gloom heals off damage dealt, Link reflects enemy damage back (which
+> counts for Gloom's heal), and Arcane Persistence caps your loss at 500/s. So
+> every hit you take, you heal. Hunter Adrenaline keeps energy full without Energy
+> Vampire.
+
+**The build**
+
+- Narrow Minded, rank 10, Vazarin polarity
+- Stretch, rank 5, Naramon polarity
+- Overextended, rank 5, unpolarised
+- Hunter Adrenaline, rank 5, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Abating Link, rank 3, unpolarised — augment. Link strips armour
+- Primed Continuity, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Blessing, Arcane Persistence
+
+Arsenal figures land at roughly 139% Strength, 254% Duration, 169% Range, 45%
+Efficiency, with 370 health, 555 shield, 135 armor and a 641 energy pool.
+
+**How it works.** Three Tauforged armour shards clear 700 armour for Persistence.
+Trinity's passive gives 50% of max energy as health, so Primed Flow alone gives
+~690 health, enough for one Persistence gate, which is all you need since you
+outheal. Gloom subsumed over Energy Vampire (which cannot restore energy under
+Gloom anyway).
+
+**Helminth.** **Gloom** over Energy Vampire.
+
+**Archon Shards.** Three Tauforged armour (mandatory), two parkour.
+
+**Where it struggles.** Does no damage. If Link drops with Gloom down you can be
+caught (Well of Life is a backup life). Bosses.
+
+**Variants.** The Blood Chalice (#030) is the weapon-enabler support Trinity.
+
+**Who runs this.** Players who want a Trinity that literally cannot be killed while
+Gloom and Link are up.
+
+---
+
+### The Two-Tap Execute
+**Nekros Prime. A Smite-then-Soul-Punch execute that turns Thrax into shadows.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Endurance summoner, Thrax and heavy-unit executioner |
+| Investment | High. 5 forma |
+| Weapon reliance | Low. The execute is ability-driven; shadows clear trash |
+
+> Tenno. Cast Smite (subsumed) twice to drop an enemy to 25% health and strip its
+> armour, then Soul Punch executes it and makes a Shadow. On Thrax this skips the
+> spectral phase entirely.
+
+**The build**
+
+- Primed Flow, rank 10, Naramon polarity
+- Stretch, rank 5, Naramon polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Umbral Intensify, rank 10, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Smite Infusion, rank 3, unpolarised — augment
+- Fast Deflection, rank 5, unpolarised
+- Rolling Guard, rank 10, Vazarin polarity
+- Aura: Summoner's Wrath, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Molt Augmented, Theorem Infection
+
+Arsenal figures land at roughly 144% Strength, 100% Duration, 145% Range, 100%
+Efficiency, with 370 health, 555 shield, 135 armor and a 541 energy pool.
+
+**How it works.** 143% Strength makes Smite remove 50% of current health and strip
+armour; two casts take an enemy from 100% to 25%, then Soul Punch executes at 25%.
+Smite Infusion, Summoner's Wrath and Theorem Infection buff the resulting shadows.
+
+**Helminth.** **Smite** over Terrify's slot; Terrify as an AoE strip alternative.
+
+**Archon Shards.** Two Tauforged strength (for the strip), two parkour, one
+cast-speed.
+
+**Where it struggles.** Slow per-target (two Smites plus a Punch). Shadows do not
+scale forever. Bosses.
+
+**Variants.** The Grave Tithe (#023) and The Shadow Wall (#083) are the loot
+and tank Nekros builds.
+
+**Who runs this.** Endurance players who want a Nekros that reliably deletes Thrax
+and builds a shadow army from heavies.
+
+---
+
+### The Ten-Thousand
+**Oraxia. A ~10k-health persistence tank on Silken Stride, AFK-immortal for 20 seconds.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Lazy immortal tank |
+| Investment | Very high. 6 forma, two mandatory armour shards |
+| Weapon reliance | Total |
+
+> Tenno. Silken Stride multiplies your health, so at ~300% Strength on 4 the
+> Arcane Blessing pool of 2550 becomes 10,000+. That is ~20 seconds of AFK
+> immortality to every damage type including toxin, and Silken Stride's status
+> immunity covers the statuses that break Persistence. Only Silence threatens you.
+
+**The build**
+
+- Steel Fiber, rank 10, unpolarised
+- Energy Conversion, rank 5, Madurai polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Vitality, rank 10, Vazarin polarity
+- Precision Intensify, rank 5, Madurai polarity
+- Archon Continuity, rank 10, Madurai polarity
+- Primed Flow, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Aura: Growing Power, Madurai polarity
+- Exilus: Toxic Flight, Naramon polarity
+- Arcanes: Arcane Persistence, Arcane Blessing
+
+Arsenal figures land at roughly 155% Strength (climbing on 4), 128% Duration, 100%
+Range, 100% Efficiency, with a 1350 health pool (10k+ under Silken Stride), 250
+armor and a 570 energy pool.
+
+**How it works.** Two Tauforged Azure armour shards plus Steel Fiber reach 700 for
+Persistence. Recast 4 twice to reset health. Precision Intensify and Energy
+Conversion snapshot onto Silken Stride.
+
+**Helminth.** Subsume over 3: **Gloom** for lazy healing, **Nourish** for viral,
+**Thermal Sunder** with Thermal Transfer for weapon blast.
+
+**Weapon synergy.** Coda Hema is the only ranged lifesteal weapon that benefits
+from Silken Stride.
+
+**Where it struggles.** Silence breaks it. Very forma-hungry. Does no damage
+itself.
+
+**Variants.** The Weaver's Web (#025) is the weapon-platform Oraxia.
+
+**Who runs this.** Players who want an Oraxia that is AFK-immortal to toxin
+included.
+
+---
+
+### The Portal Line
+**Nova Prime. A Plague Star Wormhole-drone speedrun build.**
+
+| | |
+|--|--|
+| Content | Plague Star, drone escort |
+| Role | Fast drone escort via Wormhole |
+| Investment | Medium. 5 forma |
+| Weapon reliance | Total |
+
+> Tenno. A niche Plague Star tool: Wormhole drops portals along the drone route so
+> the drone (and you) cross the map in seconds. Escape Velocity affects the drone
+> speed after the portal.
+
+**The build**
+
+- Overextended, rank 5, Vazarin polarity
+- Stretch, rank 5, Naramon polarity
+- Precision Intensify, rank 5, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Streamline, rank 5, Naramon polarity
+- Augur Reach, rank 5, unpolarised
+- Cunning Drift, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Growing Power, aura slot
+- Exilus: Escape Velocity, unpolarised
+- Arcanes: Arcane Steadfast, Arcane Tempo
+
+Arsenal figures land at roughly 40% Strength, 155% Duration, 280% Range, 130%
+Efficiency, with 370 health, 370 shield, 135 armor and a 755 energy pool.
+
+**Where it struggles.** Extremely niche (Plague Star only). Does nothing else.
+
+**Variants.** The Aggro Switch (#073) is the general speed build.
+
+**Who runs this.** Plague Star drone-run speedrunners.
+
+---
+
+### The Hurled Boulder
+**Atlas Prime. Rumblers' free rock-throw as a crit nuke that one-shots to level cap.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Rumbled rock-throw nuke, invisible |
+| Difficulty | Advanced |
+| Investment | Medium. 3 forma, a Huras or Shade |
+| Weapon reliance | Very low |
+
+> Tenno. The Rumbled augment lets you throw rocks for zero energy, and they take
+> Landslide's mods plus Condition Overload multiplicatively on direct hits. Add
+> flat crit multiplier (Crepuscular while invisible, Tenacious Bond) and it
+> one-shots level cap.
+
+**The build**
+
+- Blind Rage, rank 10, Madurai polarity
+- Natural Talent, rank 3, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Rumbled, rank 3, unpolarised — augment. Throw rocks for 0 energy
+- Precision Intensify, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Corrosive Projection, aura slot
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Fury, Arcane Crepuscular
+
+Arsenal figures land at roughly 269% Strength, 227% Duration, 34% Range, 45%
+Efficiency, with 500 health, 650 shield, 500 armor and a 755 energy pool.
+
+**How it works.** Rocks: 100 direct plus 75 radial (fixed 3m), 35% crit but 1x
+crit multiplier and 15% status, so they need flat crit-multiplier sources.
+Condition Overload is multiplicative to Primed Pressure Point and Arcane Fury on
+the direct hit. Rocks do not break Shade or Huras invisibility, so Crepuscular
+stays on. Precision Intensify boosts the damage.
+
+**Helminth.** A companion primer (Shade with Tazicor) for the multiplicative
+Condition Overload.
+
+**Archon Shards.** Two cast-speed, three Violet melee crit-damage.
+
+**Where it struggles.** Needs an invisibility pet and a primer. Fixed 3m AoE.
+Bosses.
+
+**Variants.** The Quarry Run (#066) and the other Atlas builds use
+Landslide.
+
+**Who runs this.** Players who want to nuke with Atlas's Rumblers' rocks instead of
+punching.
+
+---
+
+### The Quiet Cut
+**Ash Prime. A Savage Silence Bladestorm build paired with an Obex finisher nuke.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Bladestorm plus finisher-nuke assassin |
+| Investment | High. 5 forma |
+| Weapon reliance | Medium. Obex Incarnon finishers are the second damage source |
+
+> Tenno. Savage Silence forces a 700% stealth multiplier on stunned enemies, which
+> boosts both Bladestorm and finishers. Pair with an Obex Incarnon finisher build
+> whose AoE stacks Melee Crescendo for a permanent x12.
+
+**The build**
+
+- Teleport Rush, rank 3, unpolarised — augment
+- Savage Silence, rank 3, unpolarised — augment. 700% stealth multiplier on stunned enemies
+- Stretch, rank 5, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Umbral Intensify, rank 10, unpolarised
+- Narrow Minded, rank 10, Vazarin polarity
+- Aura: Steel Charge, aura slot
+- Exilus: Ice Spring, Vazarin polarity
+- Arcanes: Arcane Crepuscular, Arcane Fury
+
+Arsenal figures land at roughly 199% Strength, 172% Duration, 79% Range, 100%
+Efficiency, with 555 health, 465 shield, 185 armor and a 427 energy pool.
+
+**Helminth.** **Savage Silence** (via subsumed Silence) over 1 or 3.
+
+**Where it struggles.** Silence range management. Bosses. The Obex setup needs 37
+finishers first.
+
+**Variants.** The Silent Verdict (#012), The Adaptive Assassin (#106) and First Cuts
+(#098) are the other Ash builds.
+
+**Who runs this.** Players who want a Bladestorm Ash with a finisher-nuke second
+gear.
+
+---
+
+### The Void Drop
+**Zephyr Prime. A Xata's Whisper heavy-slam one-shot build.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heavy-slam nuke with Funnel Clouds grouping |
+| Investment | Low. 1 forma |
+| Weapon reliance | Total. The slam weapon is the damage |
+
+> Tenno. Xata's Whisper subsumed adds void damage that double-dips heavy-slam
+> multipliers; Funnel Clouds' 11 tornadoes group and multiply the slam hits.
+> Nira's Hatred and Anguish boost slam damage.
+
+**The build**
+
+- Jet Stream, rank 3, unpolarised — augment
+- Funnel Clouds, rank 3, unpolarised — augment. 11 small tornadoes
+- Nira's Hatred, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Preparation, rank 8, unpolarised
+- Transient Fortitude, rank 10, Madurai polarity
+- Aura: Ready Steel, Vazarin polarity
+- Exilus: Nira's Anguish, Vazarin polarity
+- Arcanes: Arcane Energize, Arcane Fury
+
+Arsenal figures land at roughly 254% Strength, 187% Duration, 34% Range, 45%
+Efficiency, with about 749 health, 555 shield, 135 armor and a 641 energy pool.
+
+**Helminth.** **Xata's Whisper** over Tailwind.
+
+**Weapon synergy.** Heavy-slam melees: Magistar, Jat Kittag (x12 Tennokai or x2
+slam-spam influence).
+
+**Where it struggles.** Slam range. Bosses.
+
+**Variants.** The Eye of the Storm (#034) is the tornado weapon-multiplier build.
+
+**Who runs this.** Players who want a slam-nuke Zephyr with tornado grouping.
+
+---
+
+### The Ninety-Five
+**Nova Prime. Creeping Terrify multiplied with Molecular Prime for a 95% slow and a strip.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | 95% squad-wide slow, armour strip |
+| Investment | Very high. 6 forma |
+| Weapon reliance | Total |
+
+> Tenno. Creeping Terrify's slow multiplies with Molecular Prime's for a compound
+> 95%, and Terrify strips armour on top. The room barely moves and takes double
+> damage with no armour.
+
+**The build**
+
+- Overextended, rank 5, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Umbral Intensify, rank 10, unpolarised
+- Primed Continuity, rank 10, Madurai polarity
+- Creeping Terrify, rank 3, unpolarised — augment. 80% slow plus a strip
+- Stretch, rank 5, unpolarised
+- Augur Secrets, rank 5, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Arcane Concentration, Molt Augmented
+
+Arsenal figures land at roughly 108% Strength, 155% Duration, 235% Range, 100%
+Efficiency, with 370 health, 370 shield, 135 armor and a 755 energy pool.
+
+**Helminth.** **Terrify** (Creeping Terrify augment) over 2.
+
+**Where it struggles.** Does no damage. Terrify makes enemies flee, which can hurt
+survival KPM. Bosses.
+
+**Variants.** Molecular Tide (#029) is the general Slowva/Speedva.
+
+**Who runs this.** Players who want the strongest possible slow-and-strip debuff
+Nova for a squad.
+
+---
+
+### The Charged Heart
+**Garuda Prime. A Nourish Dread Heart percent-health nuke.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Charged Dread Heart nuke |
+| Investment | Low. 2 forma |
+| Weapon reliance | Low |
+
+> Tenno. Dread Heart adds 10% of an enemy's health per absorb and multiplies by
+> Nourish (1 + 0.45 x Strength) and weapon-damage buffs like Vigorous Swap
+> (2.65x). Charge it a few seconds and throw.
+
+**The build**
+
+- Primed Flow, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Blending Talons, rank 3, unpolarised — augment
+- Overextended, rank 5, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Stretch, rank 5, unpolarised
+- Vigorous Swap, rank 10, unpolarised
+- Augur Reach, rank 5, unpolarised
+- Aura: Corrosive Projection, aura slot
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Molt Reconstruct, Molt Augmented
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 280% Range, 45%
+Efficiency, with 370 health, 370 shield, 420 armor and a 912 energy pool.
+
+**How it works.** Nourish subsumed. Tap 4 to shield-gate and prime slash; tap 1
+onto an enemy for Dread Mirror, hold 1 to charge Dread Heart, swap weapons just
+before release for Vigorous Swap, then throw.
+
+**Helminth.** **Nourish** over Blood Altar.
+
+**Where it struggles.** Charging is a vulnerable window. Bosses.
+
+**Variants.** The Crimson Gloom (#027) and The Skybound Talon (#051) are the Gloom and
+aerial Garuda builds.
+
+**Who runs this.** Players who want a Garuda that nukes with a Nourish-boosted
+percent-health Dread Heart.
+
+---
+
+### The Dodged Storm
+**Baruuk Prime. An Elude-and-Elusive-Retribution Desert Wind build with Nourish for endurance.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Exalted-fist clear with passive shield gating |
+| Investment | Medium. 3 forma, melee crit-damage shards |
+| Weapon reliance | Low. Desert Wind carries |
+
+> Tenno. This Baruuk pairs Elude's directional immunity with a passive shield
+> gate (Fast Deflection plus Vigilante Vigor) and Nourish for free viral and
+> energy, so you never watch your shields while spamming light attacks.
+
+**The build**
+
+- Fast Deflection, rank 5, unpolarised
+- Vigilante Vigor, rank 5, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Overextended, rank 5, Vazarin polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Reactive Storm, rank 3, unpolarised — augment
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Fury, Arcane Strike
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 205% Range, 45%
+Efficiency, with 280 health, 465 shield, 240 armor and an 855 energy pool.
+
+**How it works.** Elude wants exactly 200% Range for the full 360-degree dodge;
+Nourish subsumed covers energy and viral. Passive gate covers the moments you must
+attack.
+
+**Helminth.** **Nourish** over Lull.
+
+**Archon Shards.** One cast-speed, two Tauforged Violet melee crit-damage, two
+parkour.
+
+**Where it struggles.** Melee range. Bosses. Elude does nothing while attacking.
+
+**Variants.** The Unbroken Calm (#032) and The Grasping Calm (#086) are the other
+Baruuk builds.
+
+**Who runs this.** Players who want an endurance Baruuk that never checks its
+shields.
+
+---
+
+### First Swings
+**Wukong Prime. A zero-forma Iron Staff starter with a Primal Rage crit tank.**
+
+| | |
+|--|--|
+| Content | Steel Path, Beginner |
+| Role | Learning-friendly Iron Staff melee |
+| Investment | None. 0 forma |
+| Weapon reliance | Low. Iron Staff carries |
+
+> Tenno. A first Wukong: Primal Rage for crit chance and health-on-kill,
+> Adaptation and Vitality for a simple tank, Precision Intensify for Iron Staff.
+> Enter 4 and swing.
+
+**The build**
+
+- Primal Rage, rank 3, unpolarised — augment. Crit chance and health on kill
+- Vitality, rank 10, unpolarised
+- Precision Intensify, rank 5, Madurai polarity
+- Narrow Minded, rank 10, Vazarin polarity
+- Adaptation, rank 10, unpolarised
+- Fleeting Expertise, rank 5, Naramon polarity
+- Flow, rank 5, unpolarised
+- Augur Message, rank 5, unpolarised
+- Aura: Steel Charge, Madurai polarity
+- Exilus: Preparation, unpolarised
+- Arcanes: Arcane Fury, Arcane Strike
+
+Arsenal figures land at roughly 100% Strength, 163% Duration, 34% Range, 160%
+Efficiency, with a 1110 health pool, 290 armor, 445 shield and a 390 energy pool.
+
+**How it works.** Primal Rage builds Iron Staff crit chance and heals on kill;
+Adaptation plus Vitality is a beginner tank. Upgrade path is The Cloud Staff
+(#033) or The Idle Staff (#059).
+
+**Where it struggles.** Modest damage without forma. Boss-slow.
+
+**Variants.** The Cloud Staff (#033), The Idle Staff (#059) and The Bare Staff
+(#095) are the invested Wukong builds.
+
+**Who runs this.** New players learning Wukong.
 
 ---
