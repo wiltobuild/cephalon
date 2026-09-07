@@ -20015,3 +20015,470 @@ Magnum Force accuracy penalty.
 **Who runs this.** Titania players on Archon hunts.
 
 ---
+
+### The Fire Field
+**Tenet Detron. Thermagnetic Shells chaining nuke for Uriel with a heat pairing.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Chain nuke, crowd clear |
+| Difficulty | Advanced |
+| Investment | Low. 4 forma, MR 16 |
+| Weapon reliance | High. Uriel-only |
+
+> Tenno. Same Thermagnetic Shells field augment as the Saryn build, tuned for
+> Uriel: Scorch plus Primed Heated Charge carry the heat, the Demonium buff adds
+> more, and killed enemies chain the detonation.
+
+**The build**
+
+- Pistol Elementalist, rank 5, unpolarised
+- Primed Expel Grineer, rank 10, Madurai polarity
+- Primed Heated Charge, rank 10, Naramon polarity
+- Scorch, rank 3, unpolarised
+- Thermagnetic Shells, rank 3, unpolarised. Augment. Blast leaves a lingering damage field
+- Lethal Torrent, rank 5, unpolarised
+- Galvanized Diffusion, rank 10, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Exilus: Primed Pistol Ammo Mutation, Madurai polarity
+- Arcane: Secondary Fortifier
+
+Weapon figures land near 18% crit chance and 2x crit damage at a 5.3 fire rate;
+this is a status weapon. Confidence: Approximation, per the author.
+
+**The mods.** Thermagnetic Shells is the field augment; Galvanized Shot is
+damage-per-status; Galvanized Diffusion is multishot; Pistol Elementalist
+multiplies status; Scorch plus Primed Heated Charge stack heat. Secondary
+Fortifier steals overguard.
+
+**Where it struggles.** Uriel-locked. Short range and blast falloff.
+
+**Variants.** The Shell Chain (#289) is the Saryn version.
+
+**Who runs this.** Uriel players who want a matched chaining shotgun pistol.
+
+---
+
+### The Viral Seed
+**Epitaph Prime. A pure-viral primer with an Embedded Catalyzer explosion.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Dedicated viral primer |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma, MR 14 |
+| Weapon reliance | Low. It is a support tool |
+
+> Tenno. The simplest Epitaph Prime primer: viral only, wide area from Primed
+> Fulmination, and Embedded Catalyzer adding a small burst so the prime also
+> softens the pack.
+
+**The build**
+
+- Lethal Torrent, rank 5, Madurai polarity
+- Scorch, rank 3, unpolarised
+- Frostbite, rank 3, unpolarised
+- Pistol Pestilence, rank 3, unpolarised
+- Embedded Catalyzer, rank 5, Madurai polarity. Charged shots that stick detonate for bonus damage
+- Primed Fulmination, rank 10, Madurai polarity
+- Sure Shot, rank 5, Vazarin polarity
+- Amalgam Barrel Diffusion, rank 5, Madurai polarity
+- Exilus: Lethal Momentum, unpolarised
+- Arcane: Secondary Fortifier
+
+Weapon figures land near 50% crit chance and 3x crit damage; the build is tuned
+for status output. Confidence: Approximation, per the author.
+
+**How it works.** Frostbite plus Pistol Pestilence build viral; Scorch adds a
+heat proc for coverage; Primed Fulmination widens the area; Sure Shot and
+Amalgam Barrel Diffusion push status chance and multishot. Embedded Catalyzer
+detonates a stuck charged shot for a little extra clear.
+
+**Where it struggles.** Near-zero direct damage. Charge time on the primary.
+
+**Variants.** The Quick Primer (#262) and The Heat Seed (#281) are the other
+Epitaph primer tunes.
+
+**Who runs this.** Players who want the lightest possible viral primer on Prime.
+
+---
+
+### The Glob Gun
+**Stug Incarnon. A viral-heat glob lobber that went from joke to genuinely strong.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Area DPS, crowd clear |
+| Difficulty | Intermediate |
+| Investment | Heavy. 7 forma, MR 2 |
+| Weapon reliance | Standalone |
+
+> Tenno. Stug's Incarnon lobs sticky globs that detonate for a blast area. Built
+> viral-heat with unconditional damage mods, it is a surprisingly capable
+> crowd-clear pistol.
+
+**The build**
+
+- Primed Heated Charge, rank 10, Naramon polarity
+- Frostbite, rank 3, unpolarised
+- Pistol Pestilence, rank 3, unpolarised
+- Anemic Agility, rank 5, Naramon polarity
+- Magnetic Might, rank 3, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Primed Pistol Gambit, rank 10, Madurai polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Exilus: Lethal Momentum, unpolarised
+- Arcane: Cascadia Flare
+
+Weapon figures land near 14% base crit chance and 3.75x crit damage with a
+roughly 3.05x Incarnon multiplier. Confidence: Approximation, per the author.
+You can leave the exilus empty and move its polarity elsewhere to save a forma.
+
+**Evolutions.** Overcharge Blast at II (+300 base and +50% radius over 700
+energy). Rapid Reinforcement at III. Deathtrap Trigger at IV (+25% base crit,
+1.5x base crit damage).
+
+**The mods.** Hornet Strike is unconditional base damage (it would be Galvanized
+Diffusion if multishot worked on Stug, which it currently does not); Primed
+Pistol Gambit plus Primed Target Cracker are crit; Frostbite plus Pistol
+Pestilence plus Primed Heated Charge build viral and heat.
+
+**Where it struggles.** The multishot bug. Glob travel and stick time. Self-
+stagger.
+
+**Who runs this.** Players who want to prove the Stug can carry.
+
+---
+
+### The Thrax Rocket
+**Prisma Angstrum. A Cascade-optimised Thrax killer with Xata's Whisper mandatory.**
+
+| | |
+|--|--|
+| Content | Steel Path, Void Cascade, Level cap |
+| Role | Single-target delete, priority kills |
+| Difficulty | Advanced |
+| Investment | Heavy. 9 forma, MR 8 |
+| Weapon reliance | High. Needs Xata's Whisper or Magnetize |
+
+> Tenno. Angstrum's rocket, tuned to one-shot level-cap Thrax in Cascade. Xata's
+> Whisper (or Magnetize) is mandatory: it procs off the blast and multiplies the
+> hit.
+
+**The build**
+
+- Primed Heated Charge, rank 10, Naramon polarity
+- Pistol Pestilence, rank 3, Madurai polarity
+- Primed Convulsion, rank 10, Naramon polarity
+- Lethal Torrent, rank 5, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Primed Pistol Gambit, rank 10, Madurai polarity
+- Amalgam Barrel Diffusion, rank 5, Madurai polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Exilus: Steady Hands, Naramon polarity
+- Arcane: Secondary Fortifier
+
+Weapon figures land near 52% crit chance and 4.62x crit damage with a roughly
+3.2x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**Evolutions.** Haven Foray at II with permanent overshield (via Tenacious
+Bond), else Paladin's Virtue. Lethal Torrent is flexible for Magnetic Might with
+external fire rate.
+
+**The mods.** Hornet Strike is unconditional base damage; Amalgam Barrel
+Diffusion is multishot plus reload; Primed Pistol Gambit plus Primed Target
+Cracker are crit; Primed Convulsion plus Pistol Pestilence plus Primed Heated
+Charge build corrosive-heat.
+
+**Where it struggles.** Dead without Xata or Magnetize. Three-round magazine.
+Heavy forma cost.
+
+**Variants.** The Pocket Ogris (#274) is the general-use Prisma Angstrum.
+
+**Who runs this.** Cascade duos hunting Thrax with a Xata frame.
+
+---
+
+### The Cascade Frenzy
+**Dual Toxocyst. A raw-damage Cascade build with a riven flex slot.**
+
+| | |
+|--|--|
+| Content | Steel Path, Void Cascade, Level cap |
+| Role | Single-target burst, priority kills |
+| Difficulty | Advanced |
+| Investment | Heavy. 6 forma, MR 11 |
+| Weapon reliance | Standalone |
+
+> Tenno. Dual Toxocyst tuned for Cascade single targets: unconditional damage,
+> Magnetic Might for overguard, and a riven slot for whatever roll you have.
+> Frenzy still triggers on headshots.
+
+**The build**
+
+- Lethal Torrent, rank 5, Madurai polarity
+- Primed Convulsion, rank 10, Naramon polarity
+- a pistol riven (empty slot). Prioritise damage, crit chance, crit damage, fire rate, multishot
+- Magnetic Might, rank 3, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Primed Pistol Gambit, rank 10, Madurai polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Amalgam Barrel Diffusion, rank 5, Madurai polarity
+- Exilus: Targeting Subsystem, Madurai polarity
+- Arcane: Secondary Fortifier
+
+Weapon figures land near 14% base crit chance and 5x crit damage with a roughly
+3.2x Incarnon multiplier. Confidence: Approximation, per the author.
+
+**The mods.** Hornet Strike is unconditional base damage; Amalgam Barrel
+Diffusion is multishot plus reload; Primed Pistol Gambit plus Primed Target
+Cracker are crit; Magnetic Might handles overguard. Without a riven, run Anemic
+Agility, Accelerated Isotope or Pistol Pestilence.
+
+**Where it struggles.** Frenzy upkeep needs headshots. Slow fire rate off
+Frenzy.
+
+**Variants.** The Frenzy Pistols (#256) is the general-use Dual Toxocyst.
+
+**Who runs this.** Cascade players with a strong Dual Toxocyst riven.
+
+---
+
+### The Thrall Maker
+**Ballistica Prime. A red-crit headhunter tuned so Nyx keeps Mind Control targets alive.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Precision DPS, Mind Control support |
+| Difficulty | Advanced |
+| Investment | Medium. 6 forma, MR 14 |
+| Weapon reliance | High. Nyx-only |
+
+> Tenno. Ballistica Prime's Incarnon bolts home into heads, so Pistol Acuity and
+> Galvanized Crosshairs stay lit. On Nyx, the controlled precision lets you buff
+> a Mind Control target rather than kill it by accident.
+
+**The build**
+
+- Gunslinger, rank 5, Madurai polarity
+- Primed Target Cracker, rank 10, Madurai polarity
+- Primed Pistol Gambit, rank 10, Madurai polarity
+- Anemic Agility, rank 5, Naramon polarity
+- Pistol Acuity, rank 10, Naramon polarity
+- Galvanized Crosshairs, rank 10, Madurai polarity
+- Galvanized Shot, rank 10, Vazarin polarity
+- Hornet Strike, rank 10, Madurai polarity
+- Exilus: Lethal Momentum, unpolarised
+- Arcane: Secondary Outburst
+
+Weapon figures land near 57% crit chance and 4.2x crit damage with a roughly
+3.05x Incarnon multiplier; Pistol Acuity lifts headshot crit far higher.
+Confidence: Approximation, per the author.
+
+**The mods.** Pistol Acuity plus Galvanized Crosshairs are the headshot crit;
+Hornet Strike is unconditional base damage; Galvanized Shot is
+damage-per-status; Primed Pistol Gambit plus Primed Target Cracker are crit;
+Gunslinger is fire rate.
+
+**Where it struggles.** Nyx-locked framing. Non-Incarnon mode is weak. Charge
+uptime.
+
+**Variants.** The Bolt Fan (#282) is the general-use Ballistica Prime.
+
+**Who runs this.** Nyx players who want to buff a Mind Control thrall with a
+precise gun.
+
+---
+
+## Melee weapons
+
+### The Void Cadence
+**Praedos. A hybrid twelve-combo heavy-attack influence build that feeds on its own passives.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Light-spam plus heavy-hit hybrid DPS |
+| Difficulty | Intermediate |
+| Investment | Medium. 6 forma, MR 14 |
+| Weapon reliance | Standalone |
+
+> Tenno. Praedos has so many innate perks that it frees mod slots. Spam light
+> attacks to build combo, drop a twelve-combo heavy on heavy units, and let
+> Melee Influence chain electric through the crowd.
+
+**The build**
+
+- Shocking Touch, rank 5, unpolarised
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Galvanized Elementalist, rank 10, unpolarised
+- Voltaic Strike, rank 3, Madurai polarity
+- Weeping Wounds, rank 5, Madurai polarity
+- Blood Rush, rank 10, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Sovereign Outcast, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 42% base crit chance and 2x crit damage, both climbing
+hard with Blood Rush and Weeping Wounds as combo builds. Confidence:
+Approximation, per the author.
+
+**The mods.** Blood Rush plus Weeping Wounds scale crit and status with combo;
+Galvanized Steel is +110% crit chance and +120% crit damage; Condition Overload
+multiplies per status; Galvanized Elementalist plus Shocking Touch plus Voltaic
+Strike build the electric for Melee Influence. Primed Smite Orokin is faction
+damage. With priming, a twelve-combo heavy bleeds out a Steel Path Demolyst in
+one hit.
+
+**Where it struggles.** Combo drops on downtime. Influence wants a status-primed
+crowd.
+
+**Who runs this.** Players who want a hybrid melee that clears trash and one-shots
+heavies.
+
+---
+
+### The Burning Scythe
+**Hate Incarnon. A slash-and-heat scythe with explosive light attacks.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Light-spam plus heavy-hit hybrid DPS |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 8 |
+| Weapon reliance | Standalone |
+
+> Tenno. Hate's Incarnon light attacks throw a 5m heat explosion, and the new
+> Burning Hate augment adds a 120% status-damage vulnerability on
+> heat-affected enemies, multiplicative with Melee Elementalist.
+
+**The build**
+
+- Burning Hate, rank 5, unpolarised. Augment. Heat-affected enemies take +120% status damage
+- Galvanized Elementalist, rank 10, unpolarised
+- Primed Reach, rank 10, Madurai polarity
+- Berserker Fury, rank 5, Madurai polarity
+- Blood Rush, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, unpolarised
+- Galvanized Steel, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Reaping Spiral, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Afflictions
+
+Weapon figures land near 63% base crit chance and 2.5x crit damage, both
+climbing with Blood Rush as combo builds. Confidence: Approximation, per the
+author.
+
+**The mods.** Galvanized Steel replaces Organ Shatter for +110% crit and +120%
+crit damage; Blood Rush plus Weeping Wounds scale with combo; Berserker Fury is
+attack speed; Condition Overload multiplies per status; Burning Hate plus
+Galvanized Elementalist stack the heat vulnerability.
+
+**Where it struggles.** Slow base attack speed without Berserker built.
+Combo-dependent.
+
+**Who runs this.** Players who want a scythe that torches whole rooms on light
+attacks.
+
+---
+
+### The Sky Daggers
+**Innodem. An extreme-range aerial light-attack influence build.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Aerial influence nuke |
+| Difficulty | Advanced |
+| Investment | Low. 4 forma, MR 14 |
+| Weapon reliance | Standalone |
+
+> Tenno. Innodem is a top light-attack influence weapon: 360 base damage, huge
+> range (roughly 8.8m airborne with Primed Reach), and 0.9 follow-through so the
+> hit barely decays across a crowd. Stay in the air and spam light attacks.
+
+**The build**
+
+- Shocking Touch, rank 5, Naramon polarity
+- Galvanized Elementalist, rank 10, unpolarised
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Primed Reach, rank 10, Madurai polarity
+- Blood Rush, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, unpolarised
+- Galvanized Steel, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Pointed Wind, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 46% base crit chance and 2x crit damage, climbing with
+Blood Rush and Weeping Wounds as combo builds. Confidence: Approximation, per
+the author.
+
+**The mods.** Primed Reach plus the Incarnon activation and perks give the
+airborne reach; Galvanized Steel is +110% crit and +120% crit damage; Blood
+Rush plus Weeping Wounds scale with combo; Galvanized Elementalist plus Shocking
+Touch build electric for Melee Influence; Condition Overload multiplies per
+status. Build combo with the Pointed Wind or Stinging Thorn neutral combo.
+
+**Where it struggles.** Range is best only while airborne. Influence wants a
+primed crowd.
+
+**Who runs this.** Players who fight from bullet-jump height and want the widest
+influence sweep.
+
+---
+
+### The Storm Tonfas
+**Okina Prime Incarnon. An electric-influence twelve-combo hybrid tonfa.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Light-spam plus heavy-hit hybrid DPS |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma, MR 12 |
+| Weapon reliance | Standalone |
+
+> Tenno. Okina Prime's Incarnon supports a twelve-combo Tennokai hybrid: light
+> attacks to build and clear, a heavy at twelve combo on the heavy units, and
+> Melee Influence chaining electric between them.
+
+**The build**
+
+- Shocking Touch, rank 5, Naramon polarity
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Primed Reach, rank 10, Madurai polarity
+- Quickening, rank 3, unpolarised
+- Galvanized Steel, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, unpolarised
+- Blood Rush, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Spinning Needle, stance slot
+- Exilus: Discipline's Merit, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 63% base crit chance and 2.6x crit damage, climbing
+with Blood Rush as combo builds. Confidence: Approximation, per the author.
+
+**Evolutions.** Synergist Surety at II for +20 base damage and a crit bonus.
+
+**The mods.** Galvanized Steel replaces Organ Shatter for the crit numbers;
+Blood Rush plus Weeping Wounds scale with combo; Condition Overload multiplies
+per status; Shocking Touch builds electric for Melee Influence. Swap Quickening
+for Galvanized Elementalist if you have external attack speed (Arcane Strike).
+
+**Where it struggles.** Attack speed without Quickening or an arcane. Influence
+wants a primed crowd.
+
+**Who runs this.** Players who want a fast, forgiving influence tonfa.
+
+---
