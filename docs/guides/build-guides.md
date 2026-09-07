@@ -23730,3 +23730,448 @@ big magazine fed.
 **Who runs this.** Players who want a do-everything archgun.
 
 ---
+
+## Companions
+
+### The Viral Fox
+**Panzer Vulpaphyla. A viral primer that also heals, buffs crit and revives you.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Viral primer, healer, crit buff, life saver |
+| Difficulty | Beginner |
+| Investment | None. 0 forma |
+| Weapon reliance | Low. The pet primes and supports |
+
+> Tenno. Panzer Vulpaphyla is the default companion for any status build: Viral
+> Quills spreads area viral, Martyr Symbiosis sacrifices the pet to save you, and
+> the Bond mods layer on crit, fire rate and orbs.
+
+**The build**
+
+- Fetch, rank 5, Precept polarity
+- Synth Deconstruct, rank 5, Madurai polarity
+- Reinforced Bond, rank 5, unpolarised
+- Resourceful Retriever, rank 5, unpolarised
+- Tenacious Bond, rank 5, unpolarised
+- Seismic Bond, rank 5, unpolarised
+- Calculated Redirection, rank 10, Vazarin polarity
+- Panzer Devolution, rank 3, unpolarised
+- Viral Quills, rank 3, unpolarised
+- Martyr Symbiosis, rank 3, unpolarised
+
+The Vulpaphyla has 680 health, 300 armor and a 1295 shield pool. Confidence:
+Approximation, per the author.
+
+**Mandatory mods.** Viral Quills spreads area viral procs and minor damage;
+Martyr Symbiosis revives you by sacrificing the pet; Panzer Devolution (or
+Momentous Bond) keeps the pet from staying dead. Reinforced Bond and Tenacious
+Bond give squad fire rate and crit. Synth Deconstruct drops health orbs and adds
+a damage-vulnerability debuff.
+
+**Where it struggles.** The pet's own damage is minor; it is a support unit.
+Devolution downtime.
+
+**Variants.** The Fox Claws (#381) is a Panzer built as a pure DPS pet.
+
+**Who runs this.** Almost every status build wants this companion.
+
+---
+
+### The Bonded Cat
+**Venari Prime. Khora's companion loaded with Bond mods as a support catstick.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Squad buff, revive, loot |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma, Khora only |
+| Weapon reliance | Low |
+
+> Tenno. Since the Bond mods and Pack Leader now work on Venari, Khora's cat can
+> carry a full support suite: crit and fire rate for the squad, a shield gate
+> via Link Redirection, and a Tek Assault revive.
+
+**The build**
+
+- Vicious Bond, rank 5, Madurai polarity
+- Tek Assault, rank 3, Madurai polarity
+- Link Redirection, rank 10, Vazarin polarity
+- Tenacious Bond, rank 5, Vazarin polarity
+- Tandem Bond, rank 5, unpolarised
+- Aerial Bond, rank 5, unpolarised
+- Primed Pack Leader, rank 10, Madurai polarity
+- Primed Animal Instinct, rank 10, Naramon polarity
+- Synth Deconstruct, rank 5, Madurai polarity
+- Fetch, rank 5, Precept polarity
+
+Venari Prime has 1050 health and 450 armor. Confidence: Approximation, per the
+author.
+
+**The mods.** Link Redirection gives Venari a small shield pool so it can shield
+gate; Tek Assault is a revive; the Bond mods (Vicious, Tenacious, Tandem,
+Aerial) stack squad crit and fire rate; Primed Pack Leader heals Khora on
+Venari's melee hits; Primed Animal Instinct is loot radar.
+
+**Where it struggles.** Khora-locked. Venari's damage mode is not the point
+here.
+
+**Variants.** The Charged Claws (#388) is a Venari Prime electric-claws DPS
+build.
+
+**Who runs this.** Khora players who want the cat as a support battery.
+
+---
+
+### The Arc Sentinel
+**Diriga. A priming, orb-generating jellyfish that zaps seven enemies at once.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Primer, crowd control, shield-gate support |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma |
+| Weapon reliance | Low. Arc Coil does the work |
+
+> Tenno. Arc Coil zaps seven enemies in 10m with electric that carries your
+> other elements via Manifold Bond, on almost no cooldown. Guardian refills your
+> shields to refresh the gate. It primes a whole room passively.
+
+**The build**
+
+- Primed Regen, rank 10, Precept polarity
+- Manifold Bond, rank 5, Vazarin polarity
+- Seismic Bond, rank 5, unpolarised
+- Tenacious Bond, rank 5, unpolarised
+- Vacuum, rank 5, Precept polarity
+- Arc Coil, rank 5, Precept polarity
+- Primed Animal Instinct, rank 10, Naramon polarity
+- Momentous Bond, rank 5, Madurai polarity
+- Synth Deconstruct, rank 5, Madurai polarity
+- Guardian, rank 5, Precept polarity
+
+Diriga has 700 health, 80 armor and a 150 shield pool. Confidence: Approximation,
+per the author.
+
+**Mandatory mods.** Arc Coil is the multi-target zap; Guardian refills shields
+for the gate (Manifold Bond cuts its cooldown); Manifold Bond lets Arc Coil
+carry viral or other elements you have on a weapon. Synth Deconstruct drops
+health orbs and a damage-vulnerability debuff.
+
+**Where it struggles.** Fragile if it draws fire. Needs a weapon element for
+Manifold Bond to spread.
+
+**Variants.** The Bond Statstick (#384) is a Burst Laser Prime built to make
+Diriga's numbers work.
+
+**Who runs this.** Players who want a hands-off primer and shield-gate helper.
+
+---
+
+### The Cloak Hound
+**Huras Kubrow. Invisibility plus a Mecha Contagion claws nuke.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Invisibility, standalone claws nuke |
+| Difficulty | Intermediate |
+| Investment | Low. 4 forma |
+| Weapon reliance | Low. The claws nuke on their own |
+
+> Tenno. Stalk keeps you and Huras invisible; it breaks on weapon fire but not
+> on ability use, so it suits ability-damage frames. With the Mecha set and
+> Contagious Bond, the claws can clear maps by themselves.
+
+**The build**
+
+- Duplex Bond, rank 5, unpolarised
+- Restorative Bond, rank 5, unpolarised
+- Medi-Pet Kit, rank 5, unpolarised
+- Mecha Recharge, rank 5, Madurai polarity
+- Contagious Bond, rank 5, Madurai polarity
+- Vicious Bond, rank 5, Madurai polarity
+- Momentous Bond, rank 5, Madurai polarity
+- Synth Deconstruct, rank 5, Madurai polarity
+- Fetch, rank 5, Precept polarity
+- Stalk, rank 5, Precept polarity
+
+Huras has 560 health, 300 armor and a 490 shield pool. Confidence:
+Approximation, per the author.
+
+**Mandatory mods.** Stalk is the shared invisibility; Contagious Bond spreads
+the claws' status; Mecha Recharge plus the Mecha set mark and amplify targets;
+Medi-Pet Kit plus Restorative Bond keep the dog alive.
+
+**Where it struggles.** Invisibility breaks the moment you fire a weapon. The
+Kubrow can die on dense maps without the heal mods.
+
+**Variants.** The Hound Claws (#385) is a Huras built as a pure DPS pet.
+
+**Who runs this.** Ability-damage frames that want free invisibility and a
+self-clearing pet.
+
+---
+
+### The Guardian Coil
+**Wyrm Prime. Status immunity, a passive shield gate, and squad fire-rate and crit buffs.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Defensive sentinel, squad buff |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma |
+| Weapon reliance | Low |
+
+> Tenno. Negate blocks the next status proc on you; Guardian refills your
+> shields to refresh the gate; Coolant Leak crowd-controls and primes. Manifold
+> Bond ties the cooldowns together so all of it stays up.
+
+**The build**
+
+- Vacuum, rank 5, Precept polarity
+- Synth Deconstruct, rank 5, Madurai polarity
+- Calculated Redirection, rank 10, Vazarin polarity
+- Tenacious Bond, rank 5, unpolarised
+- Primed Regen, rank 10, Precept polarity
+- Guardian, rank 5, Precept polarity
+- Coolant Leak, rank 3, unpolarised
+- Reinforced Bond, rank 5, Naramon polarity
+- Manifold Bond, rank 5, Vazarin polarity
+- Negate, rank 5, Precept polarity
+
+Wyrm Prime has 450 health, 150 armor and a 2100 shield pool. Confidence:
+Approximation, per the author.
+
+**Mandatory mods.** Negate blocks a status proc (now on Manifold Bond's cooldown
+reduction); Guardian is the shield refill for the gate; Coolant Leak is a 10m
+cold slow that also primes and benefits from Manifold Bond; Reinforced Bond and
+Tenacious Bond give squad fire rate and crit.
+
+**Where it struggles.** No offense of its own. Relies on a weapon element for
+Manifold Bond.
+
+**Who runs this.** Players who want a pure defensive-and-buff sentinel.
+
+---
+
+### The Frost Turret
+**Verglas. A heat-viral sentinel weapon that melts Steel Path while you AFK.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Companion DPS |
+| Difficulty | Beginner |
+| Investment | Low. 4 forma |
+| Weapon reliance | Standalone (it is the weapon) |
+
+> Tenno. Verglas is a strong sentinel weapon: fast fire rate, wide magazine, and
+> heat-viral scaling that clears Steel Path trash on its own. Note the sentinel
+> cannot build its own Galvanized stacks.
+
+**The build**
+
+- Vigilante Armaments, rank 5, Naramon polarity
+- Thermite Rounds, rank 3, unpolarised
+- Hellfire, rank 5, unpolarised
+- Primed Shred, rank 10, Madurai polarity
+- Malignant Force, rank 3, unpolarised
+- Rime Rounds, rank 3, unpolarised
+- Galvanized Chamber, rank 10, Madurai polarity
+- Galvanized Aptitude, rank 10, Vazarin polarity
+
+Weapon figures land near 8% crit chance and 2x crit damage at an 18.6 fire rate;
+this is a status weapon. Confidence: Approximation, per the author.
+
+**The mods.** Vigilante Armaments is multishot; Primed Shred is fire rate and
+punch-through; Thermite Rounds plus Hellfire build heat; Malignant Force plus
+Rime Rounds build viral. The Galvanized mods only work if you carry a rifle with
+the same mods and get kills manually; otherwise swap them for Serration and a
+faction mod.
+
+**Where it struggles.** Cannot self-stack Galvanized mods. Short range.
+
+**Who runs this.** Players who want the pet to clear trash while they focus
+elsewhere.
+
+---
+
+### The Fox Claws
+**Panzer Claws. A red-crit electric DPS build for the Vulpaphyla's melee.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Companion DPS |
+| Difficulty | Beginner |
+| Investment | Low. 3 forma |
+| Weapon reliance | Standalone (it is the pet weapon) |
+
+> Tenno. Panzer claws have a huge crit base (over 100% chance, 8x multiplier).
+> Shocking Claws converts the innate toxin to electric, so the pet red-crits
+> electric hits across the crowd.
+
+**The build**
+
+- Shocking Claws, rank 10, Madurai polarity. Converts innate toxin damage to electric
+- Radon Claws, rank 3, unpolarised
+- Immunity Resistance, rank 3, unpolarised
+- Hunter Synergy, rank 5, unpolarised
+- Precision Conditioning, rank 10, Madurai polarity
+- Swipe, rank 3, unpolarised
+- Maul, rank 10, Madurai polarity
+- Bite, rank 10, Madurai polarity
+- Frenzied Posture, rank 3, Precept polarity
+
+Weapon figures land near 108% crit chance and 8x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Bite plus Maul plus Precision Conditioning are the crit and damage
+core; Shocking Claws makes the damage electric (ignore the Overframe element
+stats); Swipe adds a cleave; Hunter Synergy scales with your own weapon crit.
+
+**Where it struggles.** The pet picks its own targets. No influence spread
+without a frame source.
+
+**Variants.** The Viral Fox (#375) is the Panzer built as a support primer.
+
+**Who runs this.** Players who want the Vulpaphyla as a damage pet.
+
+---
+
+### The Ghost Sentinel
+**Shade Prime. Invisibility on a timer plus a passive primer, with clone tech.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Invisibility, passive primer |
+| Difficulty | Intermediate |
+| Investment | Low. 3 forma |
+| Weapon reliance | Low |
+
+> Tenno. Ghost cloaks you when enemies get close. With Duplex Bond, casting
+> abilities spawns up to three Shade clones that shoot and prime without breaking
+> your invisibility, as long as you do not fire yourself.
+
+**The build**
+
+- Vacuum, rank 5, Precept polarity
+- Restorative Bond, rank 5, unpolarised
+- Primed Animal Instinct, rank 10, Naramon polarity
+- Momentous Bond, rank 5, Madurai polarity
+- Primed Regen, rank 10, Precept polarity
+- Ghost, rank 5, Precept polarity
+- Aerial Bond, rank 5, unpolarised
+- Sacrifice, rank 3, Precept polarity
+- Duplex Bond, rank 5, Madurai polarity
+- Spare Parts, rank 5, Naramon polarity
+
+Shade Prime has 700 health, 100 armor and a 300 shield pool. Confidence:
+Approximation, per the author.
+
+**The mods.** Ghost is the proximity invisibility; Duplex Bond spawns the
+priming clones on ability cast; Sacrifice plus Restorative Bond keep the
+sentinel alive; the clones carry a primer weapon (a Tazicor build is the
+author's pick).
+
+**Where it struggles.** Invisibility drops if you shoot. Clones need ability
+casts to spawn.
+
+**Who runs this.** Players who want stealth plus passive priming from clones.
+
+---
+
+### The Orb Cube
+**Dethcube Prime. Health and energy orb generation with a multi-target weapon.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Orb generation, energy economy |
+| Difficulty | Beginner |
+| Investment | Low. 3 forma |
+| Weapon reliance | Low. Its weapon just needs to hit many targets |
+
+> Tenno. Energy Generator drops an energy orb on kill; Synth Deconstruct drops
+> health orbs and a debuff. Pair Dethcube with a wide multi-hit weapon so both
+> proc constantly and you never run dry.
+
+**The build**
+
+- Assault Mode, rank 5, Precept polarity
+- Manifold Bond, rank 5, Vazarin polarity
+- Momentous Bond, rank 5, unpolarised
+- Primed Animal Instinct, rank 10, Naramon polarity
+- Primed Regen, rank 10, Precept polarity
+- Energy Generator, rank 5, Precept polarity
+- Synth Deconstruct, rank 5, Madurai polarity
+- Vacuum, rank 5, unpolarised
+- Duplex Bond, rank 5, Madurai polarity
+- Guardian, rank 5, Precept polarity
+
+Dethcube Prime has 600 health, 150 armor and a 300 shield pool. Confidence:
+Approximation, per the author.
+
+**The mods.** Energy Generator plus Synth Deconstruct are the orb engine;
+Guardian refills shields for the gate; Manifold Bond spreads the weapon's
+element. Best weapon is an electric-gas Helstrum, which hits the most enemies
+per shot to proc both drop mods; if you run it, drop Duplex Bond.
+
+**Where it struggles.** Orb output depends on the weapon hitting a lot of
+targets. No offense of its own.
+
+**Variants.** The Heat Seed sentinel weapon (#391) is a Helstrum built for heat
+inherit.
+
+**Who runs this.** Energy-hungry caster frames.
+
+---
+
+### The Bond Statstick
+**Burst Laser Prime. A status statstick that makes Diriga's Manifold Bond and Tenacious Bond work.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance |
+| Role | Element and crit statstick for a sentinel |
+| Difficulty | Beginner |
+| Investment | None. 0 forma |
+| Weapon reliance | Low. It is a statstick for the sentinel |
+
+> Tenno. Burst Laser Prime is not fired for damage; its modded elements and crit
+> are what Manifold Bond spreads and what Tenacious Bond reads. Creeping Bullseye
+> hits the 50% crit cutoff for the Tenacious Bond element.
+
+**The build**
+
+- Magnetic Might, rank 3, unpolarised
+- Accelerated Isotope, rank 3, unpolarised
+- Augur Pact, rank 5, unpolarised
+- Augur Seeker, rank 5, unpolarised
+- Scorch, rank 3, unpolarised
+- Frostbite, rank 3, unpolarised
+- Pistol Pestilence, rank 3, unpolarised
+- Creeping Bullseye, rank 5, unpolarised
+
+Weapon figures land near 60% crit chance and 3.22x crit damage with a roughly
+1.9x multiplier; the build is tuned for elements and the crit cutoff.
+Confidence: Approximation, per the author.
+
+**The mods.** Scorch plus Frostbite plus Pistol Pestilence plus Magnetic Might
+set the elements Manifold Bond will spread; Creeping Bullseye brings crit to the
+50% Tenacious Bond cutoff. Make it viral-electric if you also run Coolant Leak
+to proc Archon Stretch. Elements are flexible to whatever the build needs.
+
+**Where it struggles.** It does nothing on its own; it is pure support wiring.
+
+**Variants.** The Arc Sentinel (#377) is the Diriga build this pairs with.
+
+**Who runs this.** Players running a Manifold Bond Diriga.
+
+---
