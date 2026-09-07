@@ -4971,3 +4971,661 @@ slow Rakhali cast, Doom interferes with kill-based weapon mechanics.
 can be rebuilt into almost any weapon platform.
 
 ---
+
+### Flux Dancer
+**Gyre Prime. Rotorswell and Conductive Sphere electric spread on a dash-strip weapon platform.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Weapon platform |
+| Role | Electric weapon platform, passive area damage, dash strip, passive shield gate |
+| Difficulty | Intermediate |
+| Investment | Low. 3 forma |
+| Weapon reliance | High. Rotorswell falls off; an electric weapon through Conductive Sphere does the work |
+
+> Tenno. Gyre electrifies the room. Cathode Grace self-sustains once you get kills,
+> feeding energy and crit chance. Rotorswell hangs an electric aura on you that
+> chains off every crit you land. Conductive Sphere is an orb you shoot through
+> for forced electric procs and a damage bonus. Dash through enemies with the
+> fluxing animation to strip armour, shields and overguard and steal it. Set 3 and
+> 4, then platform.
+
+**The build**
+
+- Conductive Sphere, rank 3, Zenurik polarity — augment. Shots through the orb gain forced electric and a damage bonus
+- Cathode Current, rank 3, unpolarised — augment. Rotorswell duration extends on kills, plus an extra discharge
+- Overextended, rank 5, Vazarin polarity
+- Catalyzing Shields, rank 3, Vazarin polarity
+- Vigilante Vigor, rank 5, unpolarised
+- Fast Deflection, rank 5, unpolarised
+- Archon Stretch, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Lightning Dash, unpolarised
+- Arcanes: Arcane Aegis, Arcane Circumvent
+
+Arsenal figures land at roughly 139% Strength, 100% Duration, 235% Range, 45%
+Efficiency, with 445 health, 740 shield, 105 armor and a 240 energy pool.
+
+**How it works.** Cathode Grace (3) extends its own duration on kills up to 60s,
+so after ~13 kills you never recast it, and with Archon Stretch it regenerates
+about 300 energy/min. Cathode Current does the same for Rotorswell (4). Conductive
+Sphere adds 75% base electric damage (additive to elementalist for status,
+multiplicative with +electric mods) and a forced electric proc per shot. Arcane
+Circumvent strips 50% of armour, shields and overguard on a dash. *Confidence:
+Approximation, per the author.*
+
+**Playstyle.**
+
+1. Press 3 (Cathode Grace) with enemies around to kill and lock its duration.
+2. Press 4 (Rotorswell) once you have energy; kills keep it up.
+3. Press 2 (throw orb, tap again to group) when a crowd is near.
+4. Press 1 to shield gate and shoot through the orb for the Conductive Sphere buff. Spam it to cover the map.
+
+**Survivability.** Passive shield gating: Fast Deflection plus Vigilante Vigor drop
+the recharge delay to 1s, and Rotorswell's electric procs stun to bridge it;
+Arcane Aegis gives 12s of immortality on proc. Or active gating off tap 1 with
+Catalyzing Shields. Arcane Circumvent gives a full gate whenever you dash through
+Corpus enemies. *Confidence: Approximation, per the author.*
+
+**Duration, Efficiency, Range, Strength.** Neutral Duration (only Cathode Grace's
+8 to 10s initial window matters). Efficiency at 45% because Cathode Grace plus
+Archon Stretch makes ~300 energy/min and 3 and 4 never recast. Range for the
+Rotorswell aura and Coil Horizon grouping. Strength for the electric discharges,
+Cathode Grace's crit and energy, and the Conductive Sphere boost.
+
+**The mods.** *Blind Rage* is the Strength. *Overextended, Archon Stretch* set the
+Range, with Archon Stretch feeding energy. *Catalyzing Shields, Fast Deflection,
+Vigilante Vigor* are the passive-gate package. *Cathode Current* is the Rotorswell
+extender. *Corrosive Projection* helps electric against armour.
+
+**Flexible slots.** If you skip passive gating, drop Fast Deflection and Vigilante
+Vigor for Rolling Guard, Primed Flow, Equilibrium or more Strength. Reverse
+Rotorswell plus Adaptation for a base-Steel-Path tank. The exilus is open.
+
+**Helminth.** Pick one. Subsume over Arcsphere (2) or Coil Horizon.
+
+- **Nourish** over 2 for viral on weapons plus an energy multiplier (~800 energy/min with Cathode Grace and Archon Stretch).
+- **Omamori** over 2 for lazy passive survival.
+- **Roar** over 1 for pure ability DPS, double-dipping the electric DoTs.
+- **Tharros Strike** for a cheap full strip that works on Acolytes, paired with Coil Horizon grouping.
+- **Sickening Pulse** to multiply stacked electric status 10x into a group.
+
+**Archon Shards.** One Amber cast-speed. Parkour, or violet electric-damage on
+primary for a weapon platform, or violet ability-damage on electric for an ability
+build. Five total.
+
+**Arcanes.** Arcane Aegis for the passive-gate immortality, Arcane Circumvent for
+the dash strip. Molt Augmented or a weapon arcane as swaps.
+
+**Focus.** Any. Vazarin Sling as a backup. Madurai for Strength and cast speed.
+
+**Weapon synergy.** Conductive Sphere wants high multishot and mandatory +electric
+mods: Kuva Hek, Cedo, Strun Incarnon, Amprex, Fulmin Prime, Vadarya Prime. Violet
+primary electric-damage shards multiply the electric status hard. Projectile
+melees gain forced influence through the orb.
+
+**Staying alive.** The passive gate plus Rotorswell and Coil Horizon crowd
+control. It fails to toxin and to a burst in the sub-1s recharge window.
+
+**Energy.** Cathode Grace plus Archon Stretch. A non-issue once 3 is locked.
+
+**Where it struggles.** Rotorswell damage falls off hard in Steel Path, so the
+weapon carries. Bosses. A cold start before Cathode Grace is locked (do not cast
+it with no enemies around, or you eat a long cooldown).
+
+**Variants.** A pure ability DPS Mecha build. An active-gate platform build. A
+Gloom persistence-tank build.
+
+**Strengths and weaknesses.** Strong: strong electric weapon buff, self-sustaining
+energy, passive survival, a dash strip, cheap forma. Weak: weapon-carried at high
+levels, boss-blind, cold-start cooldown risk on 3.
+
+**Who runs this.** Players who want a low-maintenance electric weapon platform that
+strips and survives while dashing around.
+
+---
+
+### Hallowed Fairy King
+**Oberon Prime. A percent-health Smite nuke and a Reckoning strip, with orb-fed immortality.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Percent-health nuke, armour strip, status and knockdown immunity aura, near-immortal |
+| Difficulty | Intermediate. Smite's viral and Strength breakpoints |
+| Investment | Medium. 3 forma, cast-speed and Topaz shards |
+| Weapon reliance | Low to medium. A viral primer sets up the Smite AoE one-shot |
+
+> Tenno. Since the rework Smite deals a percentage of an enemy's current health as
+> radiation, up to 75% on the target and up to 30% in an area, ignoring level.
+> Prime with viral, add Roar and a shard, and that area hit becomes 100%: the room
+> dies. Reckoning full-strips and slams. Hallowed Ground carpets the floor in
+> radiation for status immunity and confusion. Righteous Negation turns the orbs
+> your kills drop into passive immortality.
+
+**The build**
+
+- Umbral Intensify, rank 10, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Blind Rage, rank 10, Madurai polarity
+- Augur Reach, rank 5, unpolarised
+- Stretch, rank 5, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Brief Respite, Zenurik polarity
+- Exilus: Power Drift, unpolarised
+- Arcanes: Arcane Universal Fallout, Molt Augmented
+
+Arsenal figures land at roughly 198% Strength, 155% Duration, 265% Range, 45%
+Efficiency, with 465 health, 370 shield, 450 armor and a 755 energy pool.
+
+**How it works.** Smite's AoE base is 10% current HP, capped at 30% at 300%
+Strength. To reach the 100% needed for a room nuke you stack Roar (+30% ability
+damage), Topaz shards (+15% each), and viral (2x at one stack, 4.25x at ten). The
+author's build sits at a 249% Strength breakpoint: one Topaz shard plus one viral
+stack plus Roar. Early game, 185% Strength plus Roar one-shots single targets with
+nothing else. Reckoning full-strips at 167%. *Confidence: Approximation, per the
+author's calculator.*
+
+**Playstyle.**
+
+1. Cast 2 (Hallowed Ground) to carpet the map for status and knockdown immunity and radiation confusion.
+2. Cast 4 (Reckoning) to full-strip, slam, and apply radiation.
+3. Spam 1 (Smite) everywhere for the percent-health nuke.
+4. Keep Roar up if subsumed.
+
+**Survivability.** Righteous Negation gives up to three damage-negating charges
+(1s total i-frames) from picking up health and universal orbs, which Reckoning and
+Universal Fallout spew constantly on kills, so it is passive immortality while you
+keep killing. Shield gating off Reckoning plus Brief Respite is the backup, plus
+the radiation crowd control. Or just health-tank on Oberon's high armour and
+Renewal healing. *Confidence: Approximation, per the author.*
+
+**Duration, Efficiency, Range, Strength.** Positive Duration for Roar and Hallowed
+Ground. Efficiency at 45% is fine because Universal Fallout plus Equilibrium
+returns roughly 1000+ energy per 20 kills. Range maxed for Smite's ~16.8m AoE and
+huge Reckoning and Hallowed Ground coverage (Reckoning is line-of-sight now).
+Strength to the chosen Smite breakpoint.
+
+**The mods.** *Blind Rage, Umbral Intensify* are the Strength. *Overextended,
+Stretch, Augur Reach* set the maxed Range, with Augur Reach feeding the gate.
+*Primed Continuity* holds Duration. *Primed Flow, Equilibrium* are the energy base.
+*Brief Respite* aura is backup gating.
+
+**Flexible slots.** Hallowed Reckoning for a passive damage zone and Arcane Battery
+energy. Smite Infusion for weapon radiation. Natural Talent without cast-speed
+shards. Arcane Battery over a slot for a huge energy pool from Reckoning's armour
+buff (which it overwrites on recast, so be careful). The aura is open.
+
+**Helminth.** Pick one. Subsume over Renewal (3) or Axios Javelin, per the source.
+
+- **Roar** is the default: it lifts Smite and Reckoning and drops the Smite breakpoint.
+- **Breach Surge** for blinds and cascading sparks scaling off Smite damage.
+- **Marked for Death** or **Blood Altar** as alternatives.
+
+**Archon Shards.** One to two Amber cast-speed for Smite and Reckoning spam. One
+to four Tauforged Topaz radiation-ability-damage for the Smite breakpoint.
+Parkour or Equilibrium shards to taste. Five total.
+
+**Arcanes.** Arcane Universal Fallout for the energy flood off radiation kills,
+Molt Augmented for the Strength to reach the breakpoint with less viral. Arcane
+Battery as an energy-pool swap.
+
+**Focus.** Madurai for 50% cast speed on the slow Reckoning and 40% Strength.
+
+**Weapon synergy.** An area viral primer matching Smite's ~16.8m radius: Epitaph
+quickshot (14.4m), Bubonico alt-fire, Cedo alt-fire. Rakta Dark Dagger regenerates
+shields off Oberon's radiation procs.
+
+**Staying alive.** Righteous Negation orb immortality plus shield gating plus
+radiation crowd control, or health tanking on Renewal. It fails if you cannot kill
+fast enough to drop orbs and your gate runs out, and to Orokin enemies halving the
+radiation.
+
+**Energy.** Universal Fallout plus Equilibrium. A flood.
+
+**Where it struggles.** Orokin factions (fissures, Circuit, Conjunction) halve
+Smite's radiation, so you need far more viral there. Line-of-sight tiles cut
+Reckoning. Bosses.
+
+**Variants.** A health-tank Renewal build. A five-Topaz no-viral build.
+
+**Strengths and weaknesses.** Strong: level-independent nuke, a full strip, a
+squad status-immunity aura, passive immortality, cheap forma. Weak: radiation
+penalty vs Orokin, needs a primer for the AoE, line-of-sight Reckoning.
+
+**Who runs this.** Players who want a support-flavoured nuke that ignores enemy
+scaling and keeps the squad status-immune.
+
+---
+
+### Flashing Blades
+**Kullervo. Wrathful Advance teleport-crits and Collective Curse damage sharing, behind Volatile Recompense.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Melee platform with a flat crit buff and crowd-wide damage sharing |
+| Difficulty | Beginner to intermediate |
+| Investment | Medium. 4 forma, one armour shard mandatory for the arcane |
+| Weapon reliance | High. A heavy-attack melee is the whole damage plan |
+
+> Tenno. Wrathful Advance teleports Kullervo to a target, heavy-attacks, and hands
+> him a flat 400%+ additive crit chance for twelve seconds, so every melee red-
+> crits. Collective Curse marks a wide cone of enemies so hitting one transfers
+> the full hit to all of them. Volatile Recompense and Arcane Persistence make him
+> immortal to level cap on overguard alone. Tap 1 to blink around while the buff
+> holds.
+
+**The build**
+
+- Stretch, rank 5, Naramon polarity
+- Umbral Intensify, rank 10, unpolarised
+- Blind Rage, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Volatile Recompense, rank 3, Zenurik polarity — augment. Overguard is refunded when it breaks, on a timer
+- Primed Continuity, rank 10, Madurai polarity
+- Augur Reach, rank 5, unpolarised
+- Primed Flow, rank 10, Naramon polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Ice Spring, unpolarised
+- Arcanes: Arcane Persistence, Arcane Steadfast
+
+Arsenal figures land at roughly 243% Strength, 155% Duration, 175% Range, 45%
+Efficiency, with 1205 health, 650 armor, no shields and a 641 energy pool.
+
+**How it works.** Wrathful Advance's crit-chance buff is flat additive and scales
+with Strength, so higher Strength means a bigger buff on top of the ~400% base.
+Collective Curse transfers 100% of a hit to all cursed enemies at 200% Strength.
+Arcane Persistence caps damage at 500/s while armour is above 700 (one Stand
+United aura or one armour shard gets Kullervo there), giving a ~2s buffer if
+Volatile Recompense has not re-shielded you. *Confidence: Approximation, per the
+author.*
+
+**Playstyle.**
+
+1. Tap 1 (invert tap/hold) to teleport to an enemy, auto heavy-attack, and gain the crit buff. Keep blinking with 1 to stay buffed and mobile.
+2. Tap 3 (Collective Curse) over a wide cone; hitting any cursed enemy with a x12 heavy shares the hit.
+3. Keep 2 active as needed.
+4. Tap 4 (Storm of Ukko) if not subsumed for a slash zone and combo generation.
+
+**Duration, Efficiency, Range, Strength.** Positive Duration for the crit buff and
+2. Efficiency at 45% with Primed Flow plus Equilibrium, plus Volatile Recompense
+saving casts of 2. Range for the teleport, dagger seek, curse spread and 4 radius.
+Strength wants 200% for the full Collective Curse transfer; above that just grows
+the crit buff.
+
+**The mods.** *Blind Rage, Umbral Intensify* are the Strength. *Primed Continuity*
+holds Duration. *Stretch, Augur Reach* set the Range. *Primed Flow, Equilibrium*
+are the energy base. *Volatile Recompense* is the overguard immortality.
+*Corrosive Projection* is a straight damage lift.
+
+**Flexible slots.** Add Vitality for more of a health buffer in deep endurance.
+Streamline or Transient Fortitude over Blind Rage if energy is tight. The aura and
+exilus are open.
+
+**Helminth.** Pick one. Subsume over 4 (Storm of Ukko).
+
+- **Roar** to double-dip status and triple-dip melee influence.
+- **Shock** with Shock Trooper for an electric add to influence melees.
+- **Nourish** for viral and energy on raw-damage melees.
+- **Eclipse** to double-dip Glaives and Exodia Contagion.
+- **Silence** to stop Acolyte Violence stripping your overguard.
+
+**Archon Shards.** One to two Amber cast-speed. One normal armour shard to reach
+700 for Arcane Persistence. The rest Tauforged Violet melee crit-damage or
+parkour. Five total.
+
+**Arcanes.** Arcane Persistence for the damage cap, Arcane Steadfast for energy.
+Arcane Fury or Strike for melee output once survival is settled.
+
+**Focus.** Naramon for combo. Madurai for Strength on the crit buff.
+
+**Weapon synergy.** Heavy-attack melees that fit the Wrathful Advance auto-heavy:
+Syam, Hate Incarnon, Corufell, Ceramic Dagger, heavy-slam Magistar or Arca Titron,
+Glaives, or x12 light-attack hybrids (Nami Solo Incarnon, Innodem, Praedos).
+
+**Staying alive.** Volatile Recompense overguard immortality plus Arcane
+Persistence's buffer. Overguard blocks status, so it rarely fails; it only lapses
+if you are outside Volatile Recompense's range with no enemy to hit.
+
+**Energy.** Primed Flow plus Equilibrium plus Arcane Steadfast.
+
+**Where it struggles.** Ranged targets need a teleport in. Bosses take the melee.
+Being out of range of Volatile Recompense with overguard down.
+
+**Variants.** A pure Mecha 4 ability-DPS build.
+
+**Strengths and weaknesses.** Strong: instant red crits with no combo needed,
+crowd-wide damage sharing, near-immortal on overguard, strong mobility. Weak:
+weapon-carried, boss-slow, overguard gap if you stop hitting things.
+
+**Who runs this.** Players who want a melee frame that red-crits from the first
+swing and blinks around a room sharing one hit to everything.
+
+---
+
+### The Spear of Longinus
+**Styanax. A Final Stand spear nuke and a Tharros Strike strip, immortal through Intrepid Stand overguard.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Spear-volley nuke, full strip, self and squad energy, near-immortal |
+| Difficulty | Beginner to intermediate |
+| Investment | Medium. 4 forma, cast-speed shards |
+| Weapon reliance | Low. Final Stand is coded like a weapon and does the killing |
+
+> Tenno. Styanax throws a wall of spears. Final Stand fires a volley scaled by
+> Duration, and Intrepid Stand puts overguard on every enemy it hits, which means
+> a 0.5s i-frame every time it breaks, so he is immortal while firing. Tharros
+> Strike full-strips armour and shields in a cone. Rally Point regenerates the
+> squad's energy. Strip, then fire.
+
+**The build**
+
+- Primed Flow, rank 10, Naramon polarity
+- Equilibrium, rank 10, Naramon polarity
+- Primed Continuity, rank 10, Madurai polarity
+- Umbral Intensify, rank 10, unpolarised
+- Overextended, rank 5, Vazarin polarity
+- Stretch, rank 5, Naramon polarity
+- Intrepid Stand, rank 3, unpolarised — augment. Final Stand grants overguard per enemy hit
+- Blind Rage, rank 10, Madurai polarity
+- Aura: Corrosive Projection, Naramon polarity
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Truculence, Arcane Arachne
+
+Arsenal figures land at roughly 183% Strength, 155% Duration, 250% Range, 45%
+Efficiency, with 370 health, 925 shield, 265 armor and a 641 energy pool.
+
+**How it works.** Final Stand is coded as a weapon, so Nourish's viral (if
+subsumed) nearly doubles its damage and Arcane Arachne's 2.5x applies. Tharros
+Strike full-strips at 200% Strength, 164% with Corrosive Projection, so it strips
+from mission start with no kills needed. Intrepid Stand overguard plus shield
+gating plus Rally Point's shield regen is the survival stack. *Confidence:
+Approximation, per the author.*
+
+**Playstyle.**
+
+1. Activate Rally Point (and Nourish if subsumed) at mission start for passive energy.
+2. Cast Tharros Strike to full-strip armour and shields.
+3. Cast Final Stand at a group to kill while generating shields and overguard.
+
+**Duration, Efficiency, Range, Strength.** Duration matters for Rally Point and for
+Final Stand's total damage output (more volley time). Efficiency at 45% with
+Nourish, or 75% without; Rally Point regenerates ~6 to 20 energy/s. Extreme Range
+for Tharros Strike, Axios Javelin pull and Final Stand explosions. Strength for
+the strip threshold and ability damage.
+
+**The mods.** *Blind Rage, Umbral Intensify* are the Strength. *Primed Continuity*
+holds Duration. *Overextended, Stretch* set the Range. *Primed Flow, Equilibrium*
+are the energy base. *Intrepid Stand* is the overguard immortality. *Corrosive
+Projection* lowers the strip threshold to 164% for an instant strip.
+
+**Flexible slots.** Natural Talent without cast-speed shards. Rolling Guard for
+status cleanse. Vigorous Swap for a 2.65x Final Stand multiplier (needs a weapon
+swap first). The aura is open.
+
+**Helminth.** Pick one. Subsume over Axios Javelin (1).
+
+- **Nourish** is the default: it applies viral to Final Stand (coded as a weapon, ~2x damage), the occasional viral proc, and multiplies Rally Point energy to ~18/s.
+- **Roar** for a Final Stand spam build (lower raw boost than Nourish, but double-dips slash); pair with Adaptation since you are vulnerable in 4.
+
+**Archon Shards.** Two Amber cast-speed (mandatory for Final Stand's cast time).
+Three Crimson strength or Duration. Five total.
+
+**Arcanes.** Arcane Truculence for area viral (10 stacks in 30m, up to 4.25x),
+Arcane Arachne for a 2.5x Final Stand multiplier after a wall-latch. Molt Augmented
+or Avenger as swaps.
+
+**Focus.** Naramon for Lethal Levitation stacking with Arachne. Madurai for cast
+speed and Strength.
+
+**Weapon synergy.** Styanax's shield-crit passive is weak (only additive), so do
+not build shields for it. Final Stand does the damage; a primer or Panzer for the
+Truculence-free viral is the only real synergy.
+
+**Staying alive.** Intrepid Stand overguard (0.5s gate on break) plus shield
+gating plus Rally Point regen. It effectively does not fail while you are hitting
+enemies with Final Stand; it does fail in the vulnerable window of the cast at
+very high levels (Roar variant wants Adaptation).
+
+**Energy.** Rally Point plus Equilibrium, multiplied by Nourish. Comfortable.
+
+**Where it struggles.** Final Stand DPS is poor for its energy since the health and
+armour reworks, so it is a clear tool, not a boss tool. Line-of-sight tiles. Axios
+Javelin targeting is unreliable (hence the subsume).
+
+**Variants.** A pure weapon platform (non-Final Stand).
+
+**Strengths and weaknesses.** Strong: instant full strip, near-immortal while
+firing, strong squad energy, low weapon investment. Weak: weak Final Stand DPS per
+energy, boss-blind, cast-time dependent.
+
+**Who runs this.** Players who want a strip-and-clear frame that keeps the squad's
+energy full and rarely dies.
+
+---
+
+### Dual Surge
+**Limbo Prime. Rift Torrent double-dipped into Breach Surge sparks, from inside the safe rift.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap, Solo |
+| Role | Extreme spark nuke, total safety in the rift |
+| Difficulty | Advanced. Rift mechanics and the Acolyte exception |
+| Investment | Low. 3 forma |
+| Weapon reliance | High. A heavy single-hit weapon feeds the sparks |
+
+> Tenno. Limbo's rift is a room nobody else can touch. Rift Torrent stacks a weapon
+> damage bonus for every enemy under Rift Surge, and Breach Surge sparks are
+> counted as weapons, so that bonus applies to the shot and again to the spark:
+> the same multiplier, twice. Freeze the room with Stasis and Cataclysm, headshot
+> one enemy, and the sparks do numbers that wrap the integer.
+
+**The build**
+
+- Rolling Guard, rank 10, Vazarin polarity
+- Primed Flow, rank 10, Naramon polarity
+- Blind Rage, rank 10, Madurai polarity
+- Equilibrium, rank 10, Naramon polarity
+- Overextended, rank 5, unpolarised
+- Stretch, rank 5, unpolarised
+- Rift Torrent, rank 3, unpolarised — augment. Weapon damage bonus per Rift-Surged enemy
+- Primed Continuity, rank 10, Madurai polarity
+- Aura: Brief Respite, aura slot
+- Exilus: Primed Sure Footed, Vazarin polarity
+- Arcanes: Molt Efficiency, Molt Augmented
+
+Arsenal figures land at roughly 139% Strength, 155% Duration, 235% Range, 45%
+Efficiency, with 370 health, 370 shield, 135 armor and a 755 energy pool.
+
+**How it works.** Rift Surge 50 enemies for roughly a 3000% Rift Torrent bonus
+(additive to Serration, so you can drop base-damage mods for fire rate).
+Because a Breach Surge spark is itself a weapon, that bonus multiplies the shot
+and then the spark, roughly 900x, times Breach Surge's own ~4x, for ~3600x weapon
+damage per spark. Sparks headshot. Glaives and Exodia Contagion double-dip Rift
+Torrent on top. *Confidence: Approximation, per the author, and post-nerf the spark
+is capped at 5 million before multipliers.*
+
+**Playstyle.**
+
+1. Activate Stasis and keep it up.
+2. Cast Cataclysm over a large group.
+3. Cast Rift Surge for the Rift Torrent stack; shrinking bubble edges banish neighbours so you can hit beyond it.
+4. Cast Breach Surge and headshot a frozen enemy.
+5. Sparks fly.
+
+**Duration, Efficiency, Range, Strength.** Positive Duration so Stasis, Rift Surge
+and Cataclysm do not need frequent recasts. Efficiency negative because Limbo's
+passive returns 10 energy per rift kill (300 for a room of 30). Range for Rift
+Surge and Cataclysm coverage (the Rift Torrent stack) and Breach Surge. Strength is
+the priority: it scales the Breach Surge multiplier and the Rift Torrent bonus,
+which itself feeds the spark, so it double-dips.
+
+**The mods.** *Blind Rage* is the Strength. *Overextended, Stretch* set the Range.
+*Primed Continuity* holds Duration. *Primed Flow, Equilibrium* are the energy base.
+*Rift Torrent* is the multiplier. *Rolling Guard* and *Primed Sure Footed* are
+survival for the moments you leave the rift. *Brief Respite* aura for shield
+gating.
+
+**Flexible slots.** Rolling Guard flexes for Range, Strength or Efficiency. Augur
+Secrets over a slot for more grouping speed and Breach Surge multiplier. The
+exilus is open.
+
+**Helminth.** Pick one. Subsume over Breach Surge's slot only if you do not need
+the extreme damage.
+
+- **Breach Surge** is the whole build.
+- **Ensnare** as the alternative: it locks Acolytes (immune to Stasis) and drags enemies into Cataclysm.
+
+**Archon Shards.** Two or more Amber cast-speed to drop Natural Talent. The rest
+Duration. Five total.
+
+**Arcanes.** Molt Augmented and Molt Efficiency for Strength and Duration. Arcane
+Energize as an energy backup, Arcane Consequence for parkour off the easy frozen
+headshots.
+
+**Focus.** Any. Madurai for Strength and cast speed.
+
+**Weapon synergy.** Heavy single-hit weapons for the biggest spark: Latron
+Incarnon, Miter Incarnon, Tenet Arca Plasmor. Glaives (Falcor, Xoris) double-dip
+Rift Torrent for ~900x. Exodia Contagion also double-dips. Drop Serration on these
+builds for fire rate.
+
+**Staying alive.** The rift is total safety from anything not also in the rift.
+Stasis freezes everything except Acolytes; against those, freeze the adds and use
+Magus Lockdown plus the Rift Torrent damage. Rolling Guard and Primed Sure Footed
+cover the rest.
+
+**Energy.** Limbo's rift-kill passive plus Equilibrium. Kills fuel it, which is the
+whole loop.
+
+**Where it struggles.** Acolytes ignore Stasis and need a workaround. It is a
+solo-oriented build (the rift can inconvenience teammates). Bosses.
+
+**Variants.** An Ensnare utility build.
+
+**Strengths and weaknesses.** Strong: some of the highest spark numbers in the
+game, total safety, easy frozen headshots, cheap forma. Weak: Acolyte-awkward,
+team-unfriendly, boss-blind.
+
+**Who runs this.** Solo players who want to stand in a bubble nothing can touch and
+delete rooms with wrapped-integer sparks.
+
+---
+
+### Breach and Crush
+**Mag Prime. A Magnetize damage-absorb nuke fed by Breach Surge, plus a one-cast Crush strip.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Absorb-and-detonate nuke, grouping, projectile block, full strip |
+| Difficulty | Intermediate |
+| Investment | Very low. 1 forma |
+| Weapon reliance | High. Your weapon's damage is what the Magnetize bubble stores and multiplies |
+
+> Tenno. Magnetize wraps an enemy in a bubble that sucks in bullets and stores a
+> quarter of your weapon's damage, dealing it back as magnetic DoT and then a
+> multiplied explosion when the bubble pops. Breach Surge sparks count as
+> projectiles, so they feed the bubble and the bubble's DoT makes more sparks: a
+> loop that grows itself. Fracturing Crush full-strips at 134% Strength. Cast the
+> bubble in a doorway and shoot slightly off-centre.
+
+**The build**
+
+- Magnetized Discharge, rank 3, unpolarised — augment. Bigger Magnetize radius, detonate on demand, disarm
+- Counter Pulse, rank 3, unpolarised — augment. Polarize jams enemy guns through walls
+- Stretch, rank 5, Naramon polarity
+- Primed Flow, rank 10, Naramon polarity
+- Fracturing Crush, rank 3, unpolarised — augment. Permanent full strip at 134% Strength, plus cast speed
+- Overextended, rank 5, unpolarised
+- Equilibrium, rank 10, Naramon polarity
+- Transient Fortitude, rank 10, Madurai polarity
+- Aura: Growing Power, Madurai polarity
+- Exilus: Cunning Drift, unpolarised
+- Arcanes: Arcane Arachne, Molt Augmented
+
+Arsenal figures land at roughly 95% Strength, 73% Duration, 250% Range, 100%
+Efficiency, with 370 health, 555 shield, 135 armor and a 755 energy pool.
+
+**How it works.** Magnetize absorbs 25% of weapon damage (multishot counts, crits
+and DoT do not), ticks it as magnetic DoT, then on pop multiplies the total by
+roughly 2 x duration x enemies-in-bubble and releases it in a line-of-sight
+explosion. Breach Surge sparks feed the bubble and the DoT makes more sparks, a
+positive loop worth over 10x the no-Surge damage with 20 enemies. Fracturing Crush
+full-strips at 134% Strength (110% with Corrosive Projection). Strength barely
+matters otherwise because the absorb does not scale with it. *Confidence:
+Approximation, per the author.*
+
+**Playstyle.**
+
+1. Cast Breach Surge (1 or 3) to blind and prime for sparks.
+2. Cast Magnetize (2) on an enemy in a corridor so the bubble also blocks fire.
+3. Cast Crush (4) to full-strip and immobilise.
+4. Shoot slightly off-centre so bullets orbit.
+5. Let the bubble expire or recast 2 near it to detonate a 42m explosion.
+
+**Duration, Efficiency, Range, Strength.** Near-neutral Duration (Breach Surge
+blind and Magnetize both ~15s base). Efficiency covered by Equilibrium plus a Synth
+Deconstruct pet plus Arcane Steadfast. Range is the priority stat, maxed;
+Magnetized Discharge adds a further 45% for an 11.2m bubble and 42m explosion.
+Strength only needs the 134% Fracturing Crush threshold (Precision Intensify plus
+Growing Power, or Umbral Intensify plus Molt Augmented against Overextended).
+
+**The mods.** *Transient Fortitude* plus *Growing Power* aura clear the Crush
+threshold. *Overextended, Stretch* set the maxed Range. *Primed Flow, Equilibrium*
+are the energy base. *Magnetized Discharge* is the radius and detonation.
+*Fracturing Crush* is the strip. *Counter Pulse* is wall-piercing crowd control.
+
+**Flexible slots.** The three augments are all swappable for Streamline, Strength,
+Duration or Augur Reach. Rolling Guard for the status cleanse Mag's kit lacks.
+Worthy Comradery aura to make Breach Surge orange-crit.
+
+**Helminth.** Pick one. Subsume over 1 or 3.
+
+- **Breach Surge** is the build's engine if you keep it.
+- **Pull** for longer-range grouping into the bubble.
+- **Polarize** (kept, not subsumed) for shield restore and Counter Pulse.
+- **Ensnare** to lock Acolytes and group.
+
+**Archon Shards.** Two Amber cast-speed to drop Natural Talent. Parkour, or
+strength shards to boost Breach Surge. Azure energy-max to skip Primed Flow. Five
+total.
+
+**Arcanes.** Arcane Arachne for a 2.5x Breach Surge multiplier after a wall-latch,
+Molt Augmented for the Crush threshold. Arcane Steadfast for free casts.
+
+**Focus.** Any. Madurai for cast speed. Vazarin Sling as a backup.
+
+**Weapon synergy.** High raw-damage projectile or punch-through weapons that orbit
+the bubble and store big hits: Tenet Arca Plasmor, Latron Incarnon, Miter Incarnon,
+Felarx, Phenmor. Electric or gas on grouped enemies for the fastest kills (DoT
+does not feed the bubble, but the kills do).
+
+**Staying alive.** The bubble blocks incoming fire, plus shield gating off Polarize
+or Crush, plus Counter Pulse crowd control, plus optional Rolling Guard. It fails
+to status (Mag has no cleanse without Rolling Guard) and to toxin.
+
+**Energy.** Equilibrium plus a Synth Deconstruct pet plus Arcane Steadfast. Mag
+casts constantly, so keep the loop fed.
+
+**Where it struggles.** Line-of-sight tiles cut the explosion. Open areas with no
+corridors to block fire. Strong single-hit weapons hit the 5-million spark cap and
+stop scaling. Bosses take the single-target bubble shred, which is slower.
+
+**Variants.** A triple-augment build with shards.
+
+**Strengths and weaknesses.** Strong: a self-feeding nuke loop, a one-cast full
+strip, projectile immunity, one forma. Weak: no status cleanse, corridor-
+dependent, weapon-carried, boss-slow.
+
+**Who runs this.** Players who want a cheap nuke frame that turns a doorway into a
+kill box.
+
+---
