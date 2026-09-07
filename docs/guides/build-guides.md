@@ -22773,3 +22773,457 @@ gun buff.
 **Who runs this.** Ash players clearing dense Steel Path tilesets.
 
 ---
+
+### The Healing Slam
+**Sancti Magistar. A gas Afflictions slam build for Lavos that heals the squad.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Slam nuke, squad heal |
+| Difficulty | Advanced |
+| Investment | Medium. 5 forma, MR 8 |
+| Weapon reliance | High. Lavos-only |
+
+> Tenno. Sancti Magistar's heavy attack heals nearby allies. On Lavos infusing
+> gas via Valence Formation, this slam build seeds lingering gas zones with Melee
+> Afflictions while topping the squad off.
+
+**The build**
+
+- Primed Fever Strike, rank 10, Naramon polarity
+- Lasting Sting, rank 10, Madurai polarity
+- Seismic Wave, rank 3, unpolarised
+- Galvanized Reflex, rank 10, Madurai polarity
+- Corrupt Charge, rank 3, unpolarised
+- Blood Rush, rank 10, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Aura: Shattering Storm, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Afflictions
+
+Weapon figures land near 63% base crit chance and 2x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Melee Afflictions multiplies the gas damage-over-time into zones;
+Lasting Sting extends them; Galvanized Reflex holds combo; Seismic Wave boosts
+slam; Primed Pressure Point plus Galvanized Steel are damage and crit. The gas
+comes from Lavos's Valence Formation infusion.
+
+**Where it struggles.** Lavos-locked. Gas immunity. Slam rhythm.
+
+**Who runs this.** Lavos players who want a slam weapon that also heals.
+
+---
+
+### The Thrown Charge
+**Rabvee (Zaw). An Exodia Contagion influence build that chains off the projectile.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Aerial thrown-projectile influence nuke |
+| Difficulty | Advanced |
+| Investment | Low. 4 forma, no MR requirement (Zaw) |
+| Weapon reliance | Standalone |
+
+> Tenno. Where the raw Rabvee Contagion build maximises the crit bomb, this one
+> modds electric so the projectile procs Melee Influence and chains a status
+> kill across the pack it lands in.
+
+**The build**
+
+- Shocking Touch, rank 5, unpolarised
+- Voltaic Strike, rank 3, unpolarised
+- Condition Overload, rank 5, Madurai polarity
+- Primed Fury, rank 10, Madurai polarity
+- Galvanized Elementalist, rank 10, unpolarised
+- Melee Prowess, rank 5, unpolarised
+- Galvanized Steel, rank 10, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Crushing Ruin, stance slot
+- Exilus: Exodia Contagion, unpolarised. Arcane. Bullet-jump melee fires a projectile
+- Arcane: Melee Influence
+
+Weapon figures land near 21% base crit chance and 2x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Galvanized Elementalist plus Shocking Touch plus Voltaic Strike
+build electric for influence; Condition Overload multiplies per status; Primed
+Pressure Point plus Galvanized Steel are damage and crit; Melee Prowess is
+status chance, flexible for Weeping Wounds if you sustain twelve combo with
+Rauta and four Dexterity arcanes.
+
+**Where it struggles.** Bullet-jump-then-melee input. Influence wants a primed
+crowd.
+
+**Variants.** The Hurled Hammer (#335) is the raw crit-bomb Rabvee.
+
+**Who runs this.** Zaw players who want a thrown influence nuke.
+
+---
+
+### The Boil Blade
+**Vastilok. A gunblade tuned for Shattering Impact strip and Secondary Outburst combo, for Plague Star.**
+
+| | |
+|--|--|
+| Content | Events, Steel Path |
+| Role | Armour strip, combo builder |
+| Difficulty | Intermediate |
+| Investment | Low. 2 forma, MR 9 |
+| Weapon reliance | Low. It strips and builds combo, guns kill |
+
+> Tenno. Vastilok's Shattering Impact permanently strips armour on hit, and its
+> heavy shot builds combo for Secondary Outburst. Built for the Plague Star grind
+> where the boil objective has to go down fast.
+
+**The build**
+
+- Sacrificial Steel, rank 10, unpolarised
+- Body Count, rank 5, unpolarised
+- True Punishment, rank 3, unpolarised
+- Shattering Impact, rank 5, unpolarised. Each impact hit permanently removes flat armour
+- Quickening, rank 3, unpolarised
+- Gladiator Vice, rank 5, Madurai polarity
+- Primed Fury, rank 10, Madurai polarity
+- Magnetic Rush, rank 3, unpolarised
+- Aura: High Noon, stance slot
+- Exilus: open
+- Arcane: Melee Duplicate
+
+Weapon figures land near 61% base crit chance and 1.7x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Shattering Impact is the strip; Sacrificial Steel plus Melee
+Duplicate give a chance of extra hits that contribute to the strip and to combo
+for Secondary Outburst; Body Count plus Quickening plus Primed Fury are combo
+and speed.
+
+**Where it struggles.** It does not kill; it is a strip-and-build tool. Event
+tuning.
+
+**Who runs this.** Players grinding Plague Star who want fast armour strip.
+
+---
+
+### The Rumbled Rocks
+**Landslide Fists Prime. Electric-rock influence for a Rumbled Atlas.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Influence nuke via Rumbler rocks |
+| Difficulty | Advanced |
+| Investment | Low. 4 forma, Atlas only |
+| Weapon reliance | High. Atlas-locked, needs the Rumbled augment |
+
+> Tenno. With the Rumbled augment, Atlas throws free rocks that take Landslide's
+> mods. Modded electric, each thrown rock procs Melee Influence and chains
+> through the pack.
+
+**The build**
+
+- Shocking Touch, rank 5, unpolarised
+- Voltaic Strike, rank 3, unpolarised
+- Primed Pressure Point, rank 10, Madurai polarity
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Blood Rush, rank 10, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Weeping Wounds, rank 5, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: open (Zenurik polarity), stance slot
+- Exilus: open
+- Arcane: Melee Influence
+
+Weapon figures land near 0% base crit chance and 2x crit damage, with Blood Rush
+climbing crit as combo builds. Confidence: Approximation, per the author.
+
+**The mods.** Galvanized Elementalist plus Shocking Touch plus Voltaic Strike
+build electric for influence; Blood Rush plus Weeping Wounds scale with combo;
+Condition Overload multiplies per status; Primed Pressure Point is base damage.
+
+**Where it struggles.** Atlas-locked and needs the Rumbled augment plus a
+Rumblers uptime. Fixed rock area.
+
+**Variants.** The Rolling Fist (#315) is the Landslide-punch influence build;
+The Hurled Boulder (#134) is the Atlas frame build for this.
+
+**Who runs this.** Atlas players running the Rumbled rock-throw nuke.
+
+---
+
+### The Charged Gunblade
+**Redeemer Prime. A five-combo heavy-spam influence gunblade for Gyre.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heavy blast influence nuke |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 10 |
+| Weapon reliance | High. Best on Gyre |
+
+> Tenno. Redeemer Prime's heavy is a shotgun blast. On Gyre with Conductive
+> Sphere adding electric, that blast procs Melee Influence and chains the status
+> kill across the crowd.
+
+**The build**
+
+- Shocking Touch, rank 5, Naramon polarity
+- Galvanized Reflex, rank 10, Madurai polarity
+- Focus Energy, rank 3, Madurai polarity
+- Primed Smite Grineer, rank 10, Madurai polarity
+- Melee Elementalist, rank 5, Vazarin polarity
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Sacrificial Steel, rank 10, unpolarised
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: High Noon, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 77% base crit chance and 4.06x crit damage, with
+Sacrificial Steel adding heavy-attack crit. Confidence: Approximation, per the
+author.
+
+**The mods.** Galvanized Reflex holds five combo; Sacrificial Steel plus Amalgam
+Organ Shatter are heavy crit; Primed Pressure Point is heavy damage; Focus
+Energy plus Shocking Touch plus Melee Elementalist build electric for influence
+off the Gyre sphere.
+
+**Where it struggles.** Best on Gyre. Heavy blast range falloff.
+
+**Variants.** The Gunblade Sweep (#348) is the standalone twelve-combo Redeemer
+Prime.
+
+**Who runs this.** Gyre players who want a gunblade influence nuke.
+
+---
+
+### The Gas Dagger
+**Balla (Zaw). A gas-electric Exodia Contagion dagger for Voruna.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Aerial thrown-projectile influence nuke |
+| Difficulty | Advanced |
+| Investment | Low. 3 forma, no MR requirement (Zaw) |
+| Weapon reliance | High. Best on Voruna |
+
+> Tenno. Balla is a fast dagger-style Zaw. With Exodia Contagion and a
+> gas-electric split, the thrown projectile clouds the pack and chains Melee
+> Influence, and Voruna's Dynar makes the status land every time.
+
+**The build**
+
+- Shocking Touch, rank 5, unpolarised
+- Volcanic Edge, rank 3, unpolarised
+- Galvanized Elementalist, rank 10, unpolarised
+- Virulent Scourge, rank 3, unpolarised
+- Primed Fury, rank 10, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Pointed Wind, stance slot
+- Exilus: Exodia Contagion, unpolarised. Arcane. Bullet-jump melee fires a projectile
+- Arcane: Melee Influence
+
+Weapon figures land near 21% base crit chance and 2x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Volcanic Edge plus Virulent Scourge build gas; Galvanized
+Elementalist plus Shocking Touch add electric for influence; Condition Overload
+multiplies per status; Primed Pressure Point plus Galvanized Steel are damage
+and crit.
+
+**Where it struggles.** Bullet-jump input. Best on Voruna. Gas immunity.
+
+**Variants.** The Volt Dagger (#362) is a Balla electric Contagion build for
+Volt.
+
+**Who runs this.** Voruna players who want a gas-electric thrown dagger.
+
+---
+
+### The Healing Nikana
+**Sepfahn (Zaw). An Exodia Contagion influence nikana that self-heals via Daikyu.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Thrown-projectile influence nuke, self-sustain |
+| Difficulty | Advanced |
+| Investment | Low. 4 forma, no MR requirement (Zaw) |
+| Weapon reliance | High. Chroma-only, needs a Daikyu amalgam mod |
+
+> Tenno. Sepfahn is a top crit-nikana Zaw. On Arcane Persistence Chroma with
+> Wrathful Advance subsumed, a Daikyu carrying its amalgam heal mod tops your
+> health while this weapon fires Contagion projectiles that chain influence.
+
+**The build**
+
+- Shocking Touch, rank 5, unpolarised
+- Voltaic Strike, rank 3, unpolarised
+- Melee Prowess, rank 5, unpolarised
+- Primed Fury, rank 10, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Galvanized Elementalist, rank 10, Vazarin polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Blind Justice, stance slot
+- Exilus: Exodia Contagion, unpolarised. Arcane. Bullet-jump melee fires a projectile
+- Arcane: Melee Influence (with Dreamer's Wrath as the extra arcane)
+
+Weapon figures land near 25% base crit chance and 2x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Galvanized Elementalist plus Shocking Touch plus Voltaic Strike
+build electric for influence; Condition Overload multiplies per status; Primed
+Pressure Point plus Galvanized Steel are damage and crit; Melee Prowess is
+status chance, flexible for Weeping Wounds with a Rauta plus four Dexterity
+arcanes.
+
+**Where it struggles.** Chroma-locked and needs the Daikyu heal pairing.
+Bullet-jump input.
+
+**Who runs this.** Chroma players who want an influence nikana with a heal loop.
+
+---
+
+### The Charged Dagger
+**Ceramic Dagger. An electric influence nuke that needs an external electric buff.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Influence nuke, crowd clear |
+| Difficulty | Advanced |
+| Investment | Low. 4 forma, MR 3 |
+| Weapon reliance | High. Needs Shock Trooper or Conductive Sphere |
+
+> Tenno. Ceramic Dagger has no innate electric, so this build only works with a
+> frame supplying non-combining electric: Volt or a Shock subsume with Shock
+> Trooper, or a Gyre Conductive Sphere.
+
+**The build**
+
+- Galvanized Reflex, rank 10, Madurai polarity
+- Focus Energy, rank 3, unpolarised
+- Weeping Wounds, rank 5, unpolarised
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Melee Elementalist, rank 5, unpolarised
+- Primed Smite Orokin, rank 10, Madurai polarity
+- Galvanized Steel, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Aura: Pointed Wind, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Influence
+
+Weapon figures land near 21% base crit chance and 2.77x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Galvanized Reflex holds combo; Weeping Wounds scales status;
+Condition Overload multiplies per status; Melee Elementalist boosts status
+damage; the electric for Melee Influence comes from the external buff.
+
+**Where it struggles.** Dead without the electric pairing. Combo upkeep.
+
+**Variants.** The Old Blade (#308) is the self-contained blast-electric Ceramic
+Dagger; The Quick Step (#325) is the movement build.
+
+**Who runs this.** Volt or Gyre players who want a cheap dagger influence nuke.
+
+---
+
+### The Volt Dagger
+**Balla (Zaw). An electric Exodia Contagion dagger for Volt, with passive armour strip.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Thrown-projectile influence nuke |
+| Difficulty | Advanced |
+| Investment | Low. 2 forma, no MR requirement (Zaw) |
+| Weapon reliance | High. Best on Volt, wants an Argonak |
+
+> Tenno. Balla with Exodia Contagion, modded pure electric so the projectile
+> procs Melee Influence off Volt's electric buff. Pair with an Argonak carrying
+> the amalgam Metal Auger mod for a passive strip.
+
+**The build**
+
+- Voltaic Strike, rank 3, unpolarised
+- Volcanic Edge, rank 3, unpolarised
+- Galvanized Elementalist, rank 10, unpolarised
+- Vicious Frost, rank 3, unpolarised
+- Primed Fury, rank 10, unpolarised
+- Galvanized Steel, rank 10, Madurai polarity
+- Condition Overload, rank 5, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Aura: Pointed Wind, stance slot
+- Exilus: Exodia Contagion, unpolarised. Arcane. Bullet-jump melee fires a projectile
+- Arcane: Melee Influence
+
+Weapon figures land near 21% base crit chance and 2x crit damage. Confidence:
+Approximation, per the author.
+
+**The mods.** Galvanized Elementalist plus Voltaic Strike build electric for
+influence; Condition Overload multiplies per status; Primed Pressure Point plus
+Galvanized Steel are damage and crit. The Argonak plus amalgam Metal Auger
+provides the passive armour strip.
+
+**Where it struggles.** Bullet-jump input. Best on Volt. Needs the Argonak
+pairing for its ceiling.
+
+**Variants.** The Gas Dagger (#359) is a Balla gas-electric Contagion build for
+Voruna.
+
+**Who runs this.** Volt players who want a thrown electric dagger.
+
+---
+
+### The Elevens
+**Dex Nikana. An eleven-combo heavy-spam nikana with a special combo trait.**
+
+| | |
+|--|--|
+| Content | Steel Path, Steel Path endurance, Level cap |
+| Role | Heavy-attack DPS, damage-over-time |
+| Difficulty | Intermediate |
+| Investment | Medium. 5 forma, MR 8 |
+| Weapon reliance | Standalone |
+
+> Tenno. Dex Nikana holds a permanent eleven-combo heavy multiplier with just
+> Galvanized Reflex and Corrupt Charge, no other combo upkeep. That makes every
+> heavy an 11x-multiplied crit sweep.
+
+**The build**
+
+- Galvanized Reflex, rank 10, Madurai polarity
+- Corrupt Charge, rank 3, unpolarised
+- Primed Reach, rank 10, Madurai polarity
+- Sacrificial Steel, rank 10, unpolarised
+- Melee Elementalist, rank 5, Vazarin polarity
+- Amalgam Organ Shatter, rank 5, Madurai polarity
+- Primed Pressure Point, rank 10, Madurai polarity
+- Killing Blow, rank 5, Madurai polarity
+- Aura: Blind Justice, stance slot
+- Exilus: Dispatch Overdrive, unpolarised
+- Arcane: Melee Afflictions
+
+Weapon figures land near 77% base crit chance and 4.8x crit damage, with
+Sacrificial Steel adding heavy-attack crit. Confidence: Approximation, per the
+author.
+
+**The mods.** Galvanized Reflex plus Corrupt Charge give the permanent eleven
+combo; Killing Blow plus Primed Pressure Point are heavy damage; Sacrificial
+Steel plus Amalgam Organ Shatter are heavy crit; Melee Elementalist multiplies
+status. Killing Blow is flexible for Primed Smite for maximum DPS.
+
+**Where it struggles.** Heavy wind-up. Long reach helps but the swing is slow.
+
+**Who runs this.** Players who want a set-and-forget heavy nikana.
+
+---
