@@ -119,6 +119,7 @@ export function Arsenal() {
               <button
                 className="gear-tile"
                 key={item.id}
+                data-tier={item.category === "Tauforged" ? "tau" : undefined}
                 onClick={() => setSelected(item)}
               >
                 <span className="tile-index">{item.category}</span>

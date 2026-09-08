@@ -141,6 +141,18 @@
   height: 125px;
   margin: 9px 0;
 }
+.gear-tile[data-tier="tau"] {
+  border-color: #cbaa63;
+}
+.gear-tile[data-tier="tau"] .item-image {
+  background: radial-gradient(ellipse at 50% 45%, #f2c97726, transparent 60%);
+}
+.gear-tile[data-tier="tau"] .item-image img {
+  filter: drop-shadow(0 0 10px #f2c977b0);
+}
+.gear-tile[data-tier="tau"] .tile-index {
+  color: #f0cd80;
+}
 .gear-tile > div {
   display: flex;
   align-items: center;

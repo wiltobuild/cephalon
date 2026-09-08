@@ -215,6 +215,7 @@ export function WarframeEditor(p: EditorProps) {
                 return (
                   <button
                     key={i}
+                    data-tier={def?.tier === 2 ? "tau" : undefined}
                     aria-label={`Shard ${i + 1}: ${def?.name ?? "Flexible"}`}
                     title={s ? label(s.effect) : "Choose a color and effect"}
                     onClick={() => setShardPick(i)}

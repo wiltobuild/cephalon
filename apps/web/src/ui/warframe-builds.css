@@ -278,8 +278,12 @@
 }
 .wf-shard-icons .item-image {
   display: block;
-  width: 65px;
-  height: 70px;
+  width: 78px;
+  height: 82px;
+}
+.wf-shard-icons .item-image img {
+  object-fit: contain;
+  filter: drop-shadow(0 3px 7px #0009);
 }
 .wf-prose {
   font-size: 13px;
@@ -555,15 +559,31 @@
   margin: 12px 0;
 }
 .wf-five-shards button {
+  position: relative;
   min-width: 0;
   background: #101b23;
   border: 1px solid #37535f;
   color: #bed4df;
-  padding: 3px;
+  padding: 6px 3px 4px;
 }
 .wf-five-shards .item-image {
-  height: 48px;
+  height: 62px;
   width: 100%;
+}
+.wf-five-shards .item-image img {
+  object-fit: contain;
+  filter: drop-shadow(0 3px 6px #0008);
+}
+.wf-five-shards button[data-tier="tau"] {
+  border-color: #d8b76a;
+  background:
+    radial-gradient(ellipse at 50% 42%, #f2c97733, transparent 62%), #14110a;
+}
+.wf-five-shards button[data-tier="tau"] .item-image img {
+  filter: drop-shadow(0 0 7px #f2c977cc) drop-shadow(0 3px 5px #0009);
+}
+.wf-five-shards button[data-tier="tau"] small {
+  color: #f0cd80;
 }
 .wf-five-shards small {
   display: block;
@@ -572,7 +592,7 @@
 }
 .wf-flex-shard {
   display: grid;
-  height: 48px;
+  height: 62px;
   place-items: center;
   font-size: 32px;
   color: #829098;
@@ -692,7 +712,11 @@
 .wf-color-options .item-image {
   display: block;
   width: 100%;
-  height: 60px;
+  height: 68px;
+}
+.wf-color-options .item-image img {
+  object-fit: contain;
+  filter: drop-shadow(0 3px 6px #0009);
 }
 .wf-shard-picker label {
   display: block;

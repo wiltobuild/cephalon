@@ -20,17 +20,16 @@ test("ambiguous variants and untrusted kinds never produce a guessed image", asy
   expect(await service.resolve("mod", "A")).toBeUndefined();
   expect(await service.resolve("__proto__", "A")).toBeUndefined();
 });
-test("shards resolve to the composited wiki crystal, not the manifest glow sprite", async () => {
+test("both shard tiers resolve to the crystal art, never the glow sprite", async () => {
   const load = vi.fn(async () => {
     throw new Error("shards must not consult the artwork manifest");
   });
   const service = new AssetService(load);
-  expect(await service.resolve("shard", "Azure Archon Shard")).toBe(
-    "https://wiki.warframe.com/images/AzureArchonShard.png",
+  const crimson = "https://wiki.warframe.com/images/CrimsonArchonShard.png";
+  expect(await service.resolve("shard", "Crimson Archon Shard")).toBe(crimson);
+  expect(await service.resolve("shard", "Tauforged Crimson Archon Shard")).toBe(
+    crimson,
   );
-  expect(
-    await service.resolve("shard", "Tauforged Crimson Archon Shard"),
-  ).toBe("https://wiki.warframe.com/images/TauforgedCrimsonArchonShard.png");
   expect(load).not.toHaveBeenCalled();
 });
 test("an unrecognised shard name still falls through to the manifest", async () => {
