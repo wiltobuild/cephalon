@@ -1,0 +1,20 @@
+.polarity-icon {
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
+  flex: none;
+  /* Glyphs ship white; nudge toward the surrounding metal on themed cards. */
+  opacity: 0.92;
+}
+.polarity-icon.is-none {
+  display: inline-grid;
+  place-items: center;
+  line-height: 1;
+  font-size: 0.85em;
+  color: var(--text-tertiary, #829098);
+  opacity: 1;
+}
+/* On the gold "Primed" mod frame the white reads a touch cold — warm it. */
+.game-mod-card.is-primed .polarity-icon:not(.is-none) {
+  filter: sepia(0.5) saturate(1.4) hue-rotate(-8deg) brightness(1.05);
+}

@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { ModCard } from "./mod-card";
 import { ItemImage } from "./item-image";
+import { Polarity } from "./polarity";
 import { StatRadar } from "./warframe-builds";
 import { Dialog } from "@/ui";
 import type { CompatibleMod, ModSlot } from "@/server/contracts";
@@ -112,7 +113,10 @@ export function WarframeEditor(p: EditorProps) {
           )}
         </button>
         <footer>
-          <span>{mod?.polarity ?? "None"}</span>
+          <span className="wf-slot-polarity">
+            <Polarity polarity={mod?.polarity} size={13} />
+            {mod?.polarity ?? "None"}
+          </span>
           {custom && mod ? (
             <>
               <select

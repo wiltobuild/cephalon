@@ -20,23 +20,24 @@ test("ambiguous variants and untrusted kinds never produce a guessed image", asy
   expect(await service.resolve("mod", "A")).toBeUndefined();
   expect(await service.resolve("__proto__", "A")).toBeUndefined();
 });
-test("normal and Tauforged shards retain separate images", async () => {
-  const service = new AssetService(async () => [
-    {
-      name: "<Shard_blue_simple> Azure Archon Shard",
-      uniqueName: "/a",
-      imageName: "Azure.png",
-    },
-    {
-      name: "Tauforged Azure Archon Shard",
-      uniqueName: "/b",
-      imageName: "Tau.png",
-    },
-  ]);
-  expect(await service.resolve("shard", "Azure Archon Shard")).toContain(
-    "Azure.png",
+test("shards resolve to the composited wiki crystal, not the manifest glow sprite", async () => {
+  const load = vi.fn(async () => {
+    throw new Error("shards must not consult the artwork manifest");
+  });
+  const service = new AssetService(load);
+  expect(await service.resolve("shard", "Azure Archon Shard")).toBe(
+    "https://wiki.warframe.com/images/AzureArchonShard.png",
   );
   expect(
-    await service.resolve("shard", "Tauforged Azure Archon Shard"),
-  ).toContain("Tau.png");
+    await service.resolve("shard", "Tauforged Crimson Archon Shard"),
+  ).toBe("https://wiki.warframe.com/images/TauforgedCrimsonArchonShard.png");
+  expect(load).not.toHaveBeenCalled();
+});
+test("an unrecognised shard name still falls through to the manifest", async () => {
+  const service = new AssetService(async () => [
+    { name: "Archon Shard", uniqueName: "/x", imageName: "ArchonCrystal.png" },
+  ]);
+  expect(await service.resolve("shard", "Archon Shard")).toContain(
+    "ArchonCrystal.png",
+  );
 });

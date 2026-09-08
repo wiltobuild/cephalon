@@ -75,6 +75,19 @@ export class AssetService {
   }
   async resolve(kind: string, name: string): Promise<string | undefined> {
     if (!Object.hasOwn(categories, kind) || name.length > 150) return undefined;
+    if (kind === "shard") {
+      // The artwork manifest points Tauforged shards at a glow-only sprite
+      // (ArchonShard*MythicGlow.png); the wiki carries the composited crystal.
+      // The Archon Shard name set is closed and each URL below is verified.
+      const shard = normalize(name).match(
+        /^(tauforged )?(amber|azure|crimson|emerald|topaz|violet) archon shard$/,
+      );
+      if (shard) {
+        const color = shard[2][0].toUpperCase() + shard[2].slice(1);
+        const file = `${shard[1] ? "Tauforged" : ""}${color}ArchonShard`;
+        return `https://wiki.warframe.com/images/${file}.png`;
+      }
+    }
     const lists = await Promise.all(
       categories[kind as AssetKind].map((category) => this.load(category)),
     );

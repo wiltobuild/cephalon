@@ -1,6 +1,7 @@
 import { catalog } from "@/server/services";
 import { ModCard } from "./mod-card";
 import { ItemImage } from "./item-image";
+import { Polarity } from "./polarity";
 import type { Guide } from "@/server/guide-types";
 export function RichText({ text }: { text: string }) {
   return (
@@ -62,7 +63,10 @@ export function GuideLoadout({ guide: g }: { guide: Guide }) {
                 SLOT {i + 1} · RANK {m.rank}
               </small>
               <h3>{m.name}</h3>
-              <span className="guide-polarity">{m.polarity}</span>
+              <span className="guide-polarity">
+                <Polarity polarity={m.polarity} size={13} />
+                {m.polarity}
+              </span>
               <p>{m.note}</p>
             </div>
           </article>

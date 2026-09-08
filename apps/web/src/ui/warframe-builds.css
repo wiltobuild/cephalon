@@ -827,8 +827,18 @@
   color: var(--text-secondary);
 }
 .guide-polarity {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-size: 11px;
   color: #dec791;
+  text-transform: capitalize;
+}
+.wf-slot-polarity {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  text-transform: capitalize;
 }
 .guide-loadout details {
   margin-top: 20px;

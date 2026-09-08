@@ -1,18 +1,11 @@
 "use client";
 import type { CompatibleMod } from "@/server/contracts";
 import { ItemImage } from "./item-image";
+import { Polarity } from "./polarity";
 import Image from "next/image";
 import { useState } from "react";
 import "./mod-card.css";
 
-const symbols: Record<string, string> = {
-  madurai: "Ⅴ",
-  vazarin: "Ｄ",
-  naramon: "−",
-  zenurik: "＝",
-  umbra: "Ｕ",
-  penjaga: "Ｙ",
-};
 export function ModCard({
   mod,
   rank = mod.maxRank,
@@ -45,9 +38,7 @@ export function ModCard({
       )}
       <span className="game-mod-capacity">
         <b>{mod.drain + rank}</b>
-        <span aria-label={`${mod.polarity} polarity`}>
-          {symbols[mod.polarity] ?? "◇"}
-        </span>
+        <Polarity polarity={mod.polarity} size={15} />
       </span>
       <span className="game-mod-art">
         <ItemImage name={mod.name} kind="mod" />

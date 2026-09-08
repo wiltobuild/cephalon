@@ -24,6 +24,7 @@ import Link from "next/link";
 import { Dialog } from "@/ui";
 import { ItemImage } from "@/ui/item-image";
 import { ModCard } from "@/ui/mod-card";
+import { Polarity } from "@/ui/polarity";
 import { OwnedModPicker } from "@/ui/owned-mod-picker";
 import { buildFragment, parseFragment, saveBuild } from "@/ui/build-storage";
 import type {
@@ -407,7 +408,10 @@ export function WeaponBuilder() {
           )}
         </button>
         <label className={styles.polarityControl}>
-          <span>SLOT POLARITY</span>
+          <span>
+            SLOT POLARITY
+            <Polarity polarity={build.slotPolarities?.[index]} size={13} />
+          </span>
           <select
             aria-label={`Polarity for slot ${index + 1}`}
             value={build.slotPolarities?.[index] ?? ""}
