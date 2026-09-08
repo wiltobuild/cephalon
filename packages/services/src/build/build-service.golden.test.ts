@@ -26,19 +26,51 @@ import { scenarioToSimulationParams } from "./scenario";
 
 const catalog = new CatalogService();
 const svc = new BuildService(catalog, new ConfidenceService());
-const scenario = { faction: "grineer", headshots: true, statusTypesOnTarget: 2, killStacks: 3, arcaneStacks: 12 } as const;
-const slots = (ids: string[]): ModSlot[] => ids.map((modId, i) => ({ modId, rank: 99, slotIndex: i }));
+const scenario = {
+  faction: "grineer",
+  headshots: true,
+  statusTypesOnTarget: 2,
+  killStacks: 3,
+  arcaneStacks: 12,
+} as const;
+// The engine previously clamped rank 99. Public builds now require legal ranks.
+// Use the same effective max ranks and a matching first-slot polarity for capacity.
+const slots = (ids: string[]): ModSlot[] =>
+  ids.map((modId, i) => ({
+    modId,
+    rank: catalog.getModMap().get(modId)!.maxRank,
+    slotIndex: i,
+  }));
 
 const WEAPON_BUILDS: { id: string; mods: string[] }[] = [
-  { id: "braton", mods: ["serration_r3", "split_chamber_r3", "point_strike_r3", "vital_sense_r3"] },
-  { id: "soma", mods: ["serration_r3", "split_chamber_r3", "point_strike_r3", "vital_sense_r3", "heavy_caliber"] },
+  {
+    id: "braton",
+    mods: [
+      "serration_r3",
+      "split_chamber_r3",
+      "point_strike_r3",
+      "vital_sense_r3",
+    ],
+  },
+  {
+    id: "soma",
+    mods: [
+      "serration_r3",
+      "split_chamber_r3",
+      "point_strike_r3",
+      "vital_sense_r3",
+      "heavy_caliber",
+    ],
+  },
   { id: "lex", mods: ["hornet_strike_r3", "barrel_diffusion_r3"] },
   { id: "hek", mods: ["point_blank_r3", "hells_chamber"] },
 ];
 
 describe("BuildService faithful translation (modded)", () => {
   test("maps Scenario.steelPath to the engine SP input", () => {
-    expect(scenarioToSimulationParams({ ...scenario, steelPath: true }).sp).toBe(true);
+    expect(
+      scenarioToSimulationParams({ ...scenario, steelPath: true }).sp,
+    ).toBe(true);
     expect(scenarioToSimulationParams(scenario).sp).toBe(false);
   });
 
@@ -48,10 +80,22 @@ describe("BuildService faithful translation (modded)", () => {
       expect(weapon, `catalog missing weapon ${id}`).toBeTruthy();
       const modSlots = slots(mods);
       const direct = calculateWeaponBuildWithArcanes(
-        weapon, modSlots, catalog.getModMap(), [], undefined,
-        scenarioToSimulationParams(scenario), undefined, undefined, undefined,
+        weapon,
+        modSlots,
+        catalog.getModMap(),
+        [],
+        undefined,
+        scenarioToSimulationParams(scenario),
+        undefined,
+        undefined,
+        undefined,
       );
-      const viaService = svc.calculateWeapon({ weaponId: id, modSlots, scenario }).rawStats;
+      const viaService = svc.calculateWeapon({
+        weaponId: id,
+        modSlots,
+        scenario,
+        slotPolarities: { 0: catalog.getModMap().get(mods[0])!.polarity },
+      }).rawStats;
       expect(viaService).toEqual(direct);
     });
   }
@@ -61,9 +105,14 @@ describe("BuildService faithful translation (modded)", () => {
     const modSlots = slots(["vitality_r3", "redirection_r3", "steel_fiber_r3"]);
     const direct = applyWarframeShardsAndArcanes(
       calculateWarframeBuild(wf, modSlots, catalog.getModMap(), undefined),
-      undefined, [], undefined,
+      undefined,
+      [],
+      undefined,
     );
-    const viaService = svc.calculateWarframe({ warframeId: "rhino", modSlots }).rawStats;
+    const viaService = svc.calculateWarframe({
+      warframeId: "rhino",
+      modSlots,
+    }).rawStats;
     expect(viaService).toEqual(direct);
   });
 });
@@ -71,7 +120,12 @@ describe("BuildService faithful translation (modded)", () => {
 describe("BuildService regression anchors (cited modded builds)", () => {
   for (const { id, mods } of WEAPON_BUILDS.slice(0, 3)) {
     test(`${id} + [${mods.join(", ")}] @ grineer/headshots/2 status/3 kill/12 arcane`, () => {
-      const r = svc.calculateWeapon({ weaponId: id, modSlots: slots(mods), scenario }).rawStats;
+      const r = svc.calculateWeapon({
+        weaponId: id,
+        modSlots: slots(mods),
+        scenario,
+        slotPolarities: { 0: catalog.getModMap().get(mods[0])!.polarity },
+      }).rawStats;
       expect({
         sustainedDps: Math.round(r.sustainedDps),
         burstDps: Math.round(r.burstDps),
@@ -83,7 +137,10 @@ describe("BuildService regression anchors (cited modded builds)", () => {
   }
 
   test("rhino + [vitality, redirection, steel_fiber] durability anchor", () => {
-    const r = svc.calculateWarframe({ warframeId: "rhino", modSlots: slots(["vitality_r3", "redirection_r3", "steel_fiber_r3"]) }).rawStats;
+    const r = svc.calculateWarframe({
+      warframeId: "rhino",
+      modSlots: slots(["vitality_r3", "redirection_r3", "steel_fiber_r3"]),
+    }).rawStats;
     expect({
       effectiveHealth: Math.round(r.effectiveHealth),
       totalHealth: Math.round(r.totalHealth),

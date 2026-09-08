@@ -1,3 +1,14 @@
-import { Panel } from "@/ui";
-import { flattenedNavigation } from "@/ui/shell/navigation";
-export default async function Placeholder({ params }: { params: Promise<{ slug: string[] }> }) { const { slug } = await params; const path = `/${slug.join("/")}`; const name = flattenedNavigation.find((item) => item.href === path)?.label ?? slug.map((part) => part.replaceAll("-", " ")).join(" / "); return <div className="page"><h1 className="page-title">{name}</h1><Panel title={name} chamfer><div className="placeholder">{name} — coming in a later task</div></Panel></div>; }
+import { notFound } from "next/navigation";
+import { Overview, Arsenal, MyBuilds, Mechanics } from "@/ui/workspace-pages";
+export default async function WorkspacePage({
+  params,
+}: {
+  params: Promise<{ slug: string[] }>;
+}) {
+  const { slug } = await params;
+  if (slug[0] === "home") return <Overview />;
+  if (slug[0] === "arsenal") return <Arsenal />;
+  if (slug[0] === "builds") return <MyBuilds />;
+  if (slug[0] === "codex") return <Mechanics />;
+  return notFound();
+}

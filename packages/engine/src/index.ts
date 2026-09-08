@@ -9,16 +9,41 @@ export { calculateTTK, simulateDiscreteTTK, ENEMY_TYPES } from "./calc/ttk";
 export { runDamageSim } from "./calc/damage-sim";
 export type { DamageSimInputs, DamageSimResult } from "./calc/damage-sim";
 export { calculateCompanionBuild } from "./calc/companion-calculator";
-export { calculateArchwingBuild, calculateNecramechBuild } from "./calc/archwing-calculator";
+export {
+  calculateArchwingBuild,
+  calculateNecramechBuild,
+} from "./calc/archwing-calculator";
 export { calculateRailjackBuild } from "./calc/railjack-calculator";
 // Orchestration entry points take an explicit catalogs parameter.
-export { calcLoadoutStats, calcSavedWeaponBuildStats } from "./orchestration/loadout-stats";
-export { resolvePublicBuildWarframePreview, resolvePublicBuildWeaponPreview } from "./orchestration/build-stats";
-export { evaluateRiven, getRivenGrade, getStatsWithDisposition } from "./calc/riven-calculator";
-export { resolveIncarnonActiveWeapon, applyIncarnonFormToWeapon } from "./calc/incarnon-active-weapon";
-export { buildAbilityTTKEntries, calculateAbilityTTK, abilityToPseudoWeaponStats } from "./calc/ability-ttk";
+export {
+  calcLoadoutStats,
+  calcSavedWeaponBuildStats,
+} from "./orchestration/loadout-stats";
+export {
+  resolvePublicBuildWarframePreview,
+  resolvePublicBuildWeaponPreview,
+} from "./orchestration/build-stats";
+export {
+  evaluateRiven,
+  getRivenGrade,
+  getStatsWithDisposition,
+} from "./calc/riven-calculator";
+export {
+  resolveIncarnonActiveWeapon,
+  applyIncarnonFormToWeapon,
+} from "./calc/incarnon-active-weapon";
+export {
+  buildAbilityTTKEntries,
+  calculateAbilityTTK,
+  abilityToPseudoWeaponStats,
+} from "./calc/ability-ttk";
 export { computeDpsContributions } from "./calc/dps-contributions";
-export { mergeIncarnonStatChanges, mergeRivenStatChanges } from "./calc/weapon-stat-merges";
+export { modCapacityAtRank, modSlotCapacityCost } from "./calc/mod-capacity";
+export { MOD_EXCLUSION_GROUPS } from "./data/mod-exclusions";
+export {
+  mergeIncarnonStatChanges,
+  mergeRivenStatChanges,
+} from "./calc/weapon-stat-merges";
 export { DEFAULT_SIM_PARAMS } from "./types";
 export type {
   Ability,
@@ -53,8 +78,12 @@ export { allArchonShards } from "./data/archon-shards";
 export { archwings, necramechs } from "./data/archwing";
 export { enrichWeapon } from "./weapons/weapon-enrich";
 export { modEligibleForWeaponSlot } from "./mods/mod-weapon-eligibility";
-export type { WeaponModSlotType, WeaponModProfile } from "./mods/mod-weapon-eligibility";
+export type {
+  WeaponModSlotType,
+  WeaponModProfile,
+} from "./mods/mod-weapon-eligibility";
 export { getWeaponModProfile } from "./mods/weapon-mod-tags";
+export { modCompatibleWithWeaponProfile } from "./mods/weapon-mod-tags";
 export { rivenDispositions } from "./data/riven-dispositions";
 export {
   getEffectiveArchonShards,
@@ -91,4 +120,8 @@ export type { DataOverride, OverrideSet } from "./overrides/data-overrides";
 // getArcaneEffectDef() with the default empty set — a host wiring real
 // overrides must feed a merged effects map here. See decisions.md 2026-08-30
 // ("arcane-effect overrides not threaded through calculator.ts in Phase 1a").
-export { applyArcaneEffectOverrides, getArcaneEffectDef } from "./overrides/arcane-effect-overrides";
+export {
+  applyArcaneEffectOverrides,
+  getArcaneEffectDef,
+} from "./overrides/arcane-effect-overrides";
+export { isWarframeExilusMod } from "./mods/mod-slot-categories";

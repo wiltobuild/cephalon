@@ -81,5 +81,5 @@ jobs:
       - run: corepack enable
       - run: pnpm install --frozen-lockfile
       - run: pnpm --filter @cephalon/engine build
-      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm --filter web exec playwright install --with-deps chromium
       - run: pnpm --filter web e2e

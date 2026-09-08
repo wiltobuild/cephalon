@@ -1,0 +1,776 @@
+.wf-page {
+  max-width: 1600px;
+  margin: auto;
+  padding: 28px 32px 70px;
+  color: var(--text-primary);
+}
+.wf-page h1 {
+  font: 600 clamp(30px, 3vw, 48px)/1.1 var(--font-display);
+  margin: 10px 0;
+}
+.wf-page h2 {
+  font-size: 12px;
+  letter-spacing: 0.09em;
+}
+.wf-kicker {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+.wf-directory-header,
+.wf-build-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid var(--line);
+  padding: 20px 0 28px;
+}
+.wf-directory-header p,
+.wf-build-header p {
+  color: var(--text-secondary);
+  max-width: 760px;
+}
+.wf-back {
+  color: var(--accent);
+  font-size: 12px;
+}
+.wf-build-header > .item-image {
+  width: 230px;
+  height: 240px;
+  flex: none;
+  filter: drop-shadow(0 15px 20px #0009);
+}
+.wf-approved {
+  display: inline-block;
+  color: #9ed5bc;
+  border: 1px solid #3d6c59;
+  background: #182b24;
+  padding: 5px 8px;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+}
+.wf-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 10px;
+  color: #c7b787;
+}
+.wf-tags span {
+  padding: 7px;
+  border: 1px solid #484331;
+}
+.wf-search {
+  display: flex;
+  align-items: center;
+  margin: 25px 0;
+  background: #142027;
+  border: 1px solid #31434e;
+  padding: 14px;
+  gap: 15px;
+}
+.wf-search input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: 0;
+  color: var(--text-primary);
+  font-size: 15px;
+}
+.wf-search span {
+  font-size: 12px;
+  color: var(--accent);
+}
+.wf-directory {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.wf-guide-tile {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  background: #111920;
+  padding: 20px;
+  transition: border-color 0.2s;
+}
+.wf-guide-tile:hover {
+  border-color: var(--accent);
+}
+.wf-guide-tile > .item-image {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 18px;
+}
+.wf-guide-tile h2 {
+  font: 25px var(--font-display);
+  letter-spacing: 0;
+}
+.wf-guide-tile p,
+.wf-guide-tile small {
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+.wf-layout {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr) 180px;
+  gap: 24px;
+  margin-top: 28px;
+  align-items: start;
+}
+.wf-stats {
+  padding: 18px;
+  background: #131e25;
+  border-top: 2px solid #75b8be;
+}
+.wf-numbered {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 24px 0;
+}
+.wf-numbered span {
+  display: block;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+.wf-numbered strong {
+  font: 27px var(--font-display);
+  color: #b9e8ed;
+}
+.wf-radar {
+  margin: 0 -12px 20px;
+}
+.wf-radar svg {
+  width: 100%;
+  height: auto;
+}
+.wf-radar figcaption {
+  font-size: 9px;
+  text-align: center;
+  color: #bacbd0;
+}
+.wf-radar i {
+  display: inline-block;
+  width: 15px;
+  border-top: 2px dashed #dfc28a;
+  margin-right: 4px;
+}
+.wf-pools > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.wf-stats > small {
+  display: block;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  font-size: 10px;
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+}
+.wf-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+.wf-section-title > span {
+  font-size: 10px;
+  color: var(--text-secondary);
+}
+.wf-special {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.wf-special > div {
+  display: flex;
+  gap: 12px;
+  padding: 10px;
+  border: 1px solid #395460;
+  align-items: center;
+}
+.wf-special .item-image {
+  width: 52px;
+  height: 55px;
+  flex: none;
+}
+.wf-special small {
+  display: block;
+  color: var(--accent);
+  margin-bottom: 5px;
+}
+.wf-special strong {
+  font-size: 11px;
+  font-weight: 500;
+}
+.wf-mod-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px 8px;
+}
+.wf-mod-grid article {
+  min-width: 0;
+  background: #111b22;
+  padding: 5px;
+  border: 1px solid #2e444e;
+}
+.wf-slot {
+  display: block;
+  font: 9px var(--font-mono);
+  color: #96b6bf;
+  margin-bottom: 8px;
+}
+.wf-mod-grid .game-mod-card {
+  height: calc(100% - 60px);
+  min-height: 130px;
+}
+.wf-mod-grid footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  font-size: 10px;
+  color: #abdade;
+  padding: 10px 2px;
+  text-transform: capitalize;
+}
+.wf-arcanes > div {
+  text-align: center;
+  border-bottom: 1px solid var(--line);
+  padding: 16px 0;
+}
+.wf-arcanes .item-image {
+  height: 85px;
+  width: 100%;
+}
+.wf-arcanes strong {
+  display: block;
+  font-size: 12px;
+  margin: 8px 0;
+}
+.wf-arcanes p {
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+.wf-shards {
+  margin-top: 24px;
+  padding: 18px;
+  background: #142029;
+  border-top: 2px solid #879cbd;
+}
+.wf-shard-icons {
+  display: flex;
+  gap: 20px;
+  margin: 15px 0;
+}
+.wf-shard-icons > div {
+  text-align: center;
+  font-size: 11px;
+}
+.wf-shard-icons .item-image {
+  display: block;
+  width: 65px;
+  height: 70px;
+}
+.wf-prose {
+  font-size: 13px;
+  line-height: 1.85;
+  color: #bbcbd3;
+}
+.wf-prose p {
+  white-space: pre-line;
+}
+.wf-prose strong {
+  color: #e0eced;
+}
+.wf-abilities {
+  margin-top: 36px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.wf-passive {
+  padding: 14px;
+  background: #142129;
+  font-size: 12px;
+  line-height: 1.8;
+}
+.wf-passive strong {
+  color: var(--accent);
+  margin-right: 12px;
+}
+.wf-abilities > div:last-child {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+.wf-abilities article {
+  border-top: 2px solid #4c7784;
+  padding: 16px;
+  background: #111a21;
+}
+.wf-abilities article > span {
+  color: var(--accent);
+  font: 22px var(--font-display);
+}
+.wf-abilities h3 {
+  font-size: 16px;
+}
+.wf-abilities article p {
+  font-size: 12px;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+.wf-guide {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 850px);
+  gap: 28px;
+  margin-top: 40px;
+}
+.wf-guide header {
+  grid-column: 1/-1;
+}
+.wf-guide header h2 {
+  font: 32px var(--font-display);
+}
+.wf-guide blockquote {
+  border-left: 2px solid var(--accent);
+  padding: 10px 24px;
+  margin: 20px 0;
+  max-width: 1000px;
+  color: #c0d8df;
+  line-height: 1.8;
+  font-size: 14px;
+}
+.wf-guide nav {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 12px;
+  color: #99bac4;
+}
+.wf-guide section {
+  border-top: 1px solid var(--line);
+  padding: 12px 0 20px;
+  scroll-margin-top: 30px;
+}
+.wf-guide h3 {
+  font: 24px var(--font-display);
+}
+@media (max-width: 1200px) {
+  .wf-layout {
+    grid-template-columns: 210px minmax(0, 1fr);
+  }
+  .wf-arcanes {
+    grid-column: 1/-1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .wf-arcanes > div {
+    min-width: 140px;
+  }
+  .wf-directory {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .wf-mod-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 700px) {
+  .wf-page {
+    padding: 20px 14px;
+  }
+  .wf-build-header {
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .wf-build-header > .item-image {
+    width: 95px;
+    height: 160px;
+  }
+  .wf-layout {
+    display: flex;
+    flex-direction: column;
+  }
+  .wf-stats,
+  .wf-configuration {
+    width: 100%;
+    min-width: 0;
+  }
+  .wf-radar {
+    max-width: 310px;
+    margin: auto;
+  }
+  .wf-directory {
+    grid-template-columns: 1fr;
+  }
+  .wf-abilities > div:last-child {
+    grid-template-columns: 1fr 1fr;
+  }
+  .wf-guide {
+    display: block;
+  }
+  .wf-guide nav {
+    flex-direction: row;
+    overflow: auto;
+    white-space: nowrap;
+    padding-bottom: 20px;
+  }
+  .wf-shard-icons {
+    flex-wrap: wrap;
+  }
+  .wf-special {
+    grid-template-columns: 1fr;
+  }
+  .wf-arcanes p {
+    max-width: 180px;
+  }
+}
+.wf-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+.wf-filter-bar button {
+  --filter: #83cbd1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 14px;
+  border: 1px solid #344550;
+  border-left: 3px solid var(--filter);
+  background: #131e26;
+  color: #c1d6df;
+  font-size: 12px;
+}
+.wf-filter-bar button[data-tone="1"] {
+  --filter: #d79872;
+}
+.wf-filter-bar button[data-tone="2"] {
+  --filter: #c3b576;
+}
+.wf-filter-bar button[data-tone="3"] {
+  --filter: #829ecc;
+}
+.wf-filter-bar button[data-tone="4"] {
+  --filter: #a284b7;
+}
+.wf-filter-bar button[aria-pressed="true"] {
+  background: #243e47;
+  color: #fff;
+  border-color: var(--filter);
+}
+.wf-filter-bar svg {
+  color: var(--filter);
+}
+.wf-filter-bar small {
+  color: #91a5af;
+}
+.wf-directory {
+  gap: 14px;
+}
+.wf-guide-tile {
+  position: relative;
+  display: grid;
+  grid-template-columns: 100px minmax(0, 1fr);
+  padding: 16px;
+  gap: 16px;
+  align-items: center;
+}
+.wf-guide-tile > .item-image {
+  height: 180px;
+  margin: 0;
+}
+.wf-guide-tile .wf-approved {
+  font-size: 8px;
+  padding: 4px 6px;
+  margin-bottom: 6px;
+}
+.wf-guide-tile p.wf-kicker {
+  font: 600 25px var(--font-display);
+  color: #e1ecee;
+  letter-spacing: 0;
+  margin: 6px 0;
+}
+.wf-guide-tile h2 {
+  font: 15px var(--font-body);
+  margin: 7px 0;
+  color: #b7d1dc;
+}
+.wf-guide-tile p:not(.wf-kicker) {
+  font-size: 11px;
+  line-height: 1.5;
+  margin: 8px 0;
+}
+.wf-card-tags {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.wf-card-tags span {
+  font-size: 8px;
+  border: 1px solid #3d555f;
+  color: #a5c8d3;
+  padding: 4px 5px;
+}
+.wf-edit-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 22px 0;
+  color: var(--accent);
+  font-size: 11px;
+}
+.wf-edit-toolbar button,
+.wf-shard-picker > button {
+  background: #2d5964;
+  color: #e9f5f7;
+  border: 1px solid #6196a0;
+  padding: 12px 16px;
+}
+.wf-edit-layout {
+  grid-template-columns: 270px minmax(0, 1fr);
+}
+.wf-edit-layout > aside {
+  min-width: 0;
+}
+.wf-shard-tray {
+  padding: 12px;
+  margin-top: 15px;
+}
+.wf-five-shards {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 5px;
+  margin: 12px 0;
+}
+.wf-five-shards button {
+  min-width: 0;
+  background: #101b23;
+  border: 1px solid #37535f;
+  color: #bed4df;
+  padding: 3px;
+}
+.wf-five-shards .item-image {
+  height: 48px;
+  width: 100%;
+}
+.wf-five-shards small {
+  display: block;
+  font-size: 7px;
+  text-transform: uppercase;
+}
+.wf-flex-shard {
+  display: grid;
+  height: 48px;
+  place-items: center;
+  font-size: 32px;
+  color: #829098;
+}
+.wf-shard-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  margin: 15px 0;
+}
+.wf-shard-toggle input {
+  accent-color: var(--accent);
+}
+.wf-shard-tray details {
+  font-size: 11px;
+  color: #a4bdc6;
+  line-height: 1.65;
+}
+.wf-aura-grid {
+  margin-bottom: 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.wf-mod-pick {
+  background: none;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  color: inherit;
+  text-align: center;
+}
+.wf-mod-pick:disabled {
+  opacity: 1;
+  cursor: default;
+}
+.wf-edit-layout .wf-mod-grid article {
+  display: flex;
+  flex-direction: column;
+}
+.wf-edit-layout .wf-mod-grid .game-mod-card {
+  height: auto;
+  min-height: 150px;
+}
+.wf-edit-layout footer {
+  margin-top: auto;
+  align-items: center;
+}
+.wf-edit-layout footer select {
+  width: 65px;
+  background: #14232b;
+  color: #e8f0f4;
+  padding: 5px;
+  border: 1px solid #436270;
+}
+.wf-edit-layout footer button {
+  color: #dce9ed;
+  background: transparent;
+  border: 0;
+  font-size: 20px;
+}
+.wf-empty {
+  display: block;
+  padding: 45px 5px;
+  color: var(--accent);
+}
+.wf-mod-collection {
+  margin-top: 24px;
+  border-top: 1px solid #375561;
+  padding-top: 15px;
+}
+.wf-mod-collection input {
+  width: 100%;
+  padding: 12px;
+  background: #15252e;
+  color: white;
+  border: 1px solid #3a5966;
+}
+.wf-mod-collection > div {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  max-height: 480px;
+  overflow: auto;
+}
+.wf-mod-collection button {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: inherit;
+}
+.wf-mod-collection button:disabled {
+  opacity: 0.5;
+}
+.wf-mod-collection p {
+  font-size: 12px;
+  color: #9bbcc6;
+}
+.wf-shard-picker {
+  padding: 20px;
+  display: grid;
+  gap: 18px;
+}
+.wf-color-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.wf-color-options button {
+  background: #14252d;
+  border: 1px solid #476978;
+  color: #c5dce5;
+  padding: 10px;
+}
+.wf-color-options button[aria-pressed="true"] {
+  border: 2px solid var(--accent);
+}
+.wf-color-options .item-image {
+  display: block;
+  width: 100%;
+  height: 60px;
+}
+.wf-shard-picker label {
+  display: block;
+  font-size: 13px;
+}
+.wf-shard-picker select {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  background: #15252d;
+  color: #e1ecef;
+  border: 1px solid #3d6170;
+}
+.wf-shard-picker p {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #a6c1cb;
+}
+.wf-equipped-arcanes {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 25px;
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+}
+.wf-equipped-arcanes > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
+.wf-equipped-arcanes .item-image {
+  width: 55px;
+  height: 65px;
+}
+@media (max-width: 1200px) {
+  .wf-directory {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .wf-edit-layout {
+    grid-template-columns: 240px minmax(0, 1fr);
+  }
+}
+@media (max-width: 700px) {
+  .wf-directory {
+    grid-template-columns: 1fr;
+  }
+  .wf-guide-tile {
+    grid-template-columns: 90px minmax(0, 1fr);
+  }
+  .wf-edit-layout {
+    display: flex;
+    flex-direction: column;
+  }
+  .wf-edit-layout > aside {
+    width: 100%;
+  }
+  .wf-filter-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+  }
+  .wf-filter-bar button {
+    padding: 10px 7px;
+    font-size: 10px;
+  }
+  .wf-mod-collection > div {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .wf-aura-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .wf-edit-toolbar {
+    gap: 10px;
+  }
+  .wf-equipped-arcanes {
+    flex-wrap: wrap;
+  }
+}

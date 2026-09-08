@@ -1,0 +1,240 @@
+.game-mod-card {
+  --mod-metal: #c5a964;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+  min-height: 245px;
+  border: 2px solid var(--mod-metal);
+  border-radius: 13px 13px 19px 19px;
+  background: linear-gradient(120deg, #252721, #101412 55%, #37342a);
+  box-shadow:
+    inset 0 0 0 3px #151816,
+    inset 0 0 0 4px #8f804757;
+  color: #f6f1df;
+  padding: 7px 7px 11px;
+  text-align: center;
+}
+.game-mod-card.rarity-common {
+  --mod-metal: #bd906a;
+}
+.game-mod-card.rarity-uncommon {
+  --mod-metal: #b4c2c8;
+}
+.game-mod-card.rarity-legendary {
+  --mod-metal: #eee5d0;
+}
+.game-mod-capacity {
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  font-size: 17px;
+  text-shadow: 0 1px 3px #000;
+  z-index: 2;
+  color: var(--mod-metal);
+}
+.game-mod-art {
+  height: 98px;
+  display: block;
+  position: relative;
+  margin: 0 0 2px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.game-mod-art > .item-image {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute !important;
+  inset: 0;
+}
+.game-mod-art img {
+  object-fit: cover !important;
+  object-position: center;
+}
+.game-mod-title {
+  display: block;
+  font: 600 17px var(--font-display);
+  line-height: 1.15;
+  color: var(--mod-metal);
+  border-top: 1px solid var(--mod-metal);
+  padding: 7px 2px 4px;
+}
+.game-mod-effect {
+  display: block;
+  white-space: pre-line;
+  font-size: 11px;
+  line-height: 1.35;
+  flex: 1;
+  padding: 0 2px 7px;
+}
+.game-mod-rank {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  margin-top: 5px;
+}
+.game-mod-rank i {
+  width: 6px;
+  height: 6px;
+  border: 1px solid var(--mod-metal);
+  transform: rotate(45deg);
+}
+.game-mod-rank i[data-active="true"] {
+  background: var(--mod-metal);
+}
+.game-mod-caption {
+  font-size: 7px;
+  letter-spacing: 0.07em;
+  margin-top: 6px;
+  color: #c9c5b8;
+}
+.game-mod-tooltip {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 0;
+  width: 280px;
+  max-width: 80vw;
+  background: #11191e;
+  color: #e5edf0;
+  border: 1px solid var(--mod-metal);
+  box-shadow: 0 8px 35px #0009;
+  padding: 16px;
+  text-align: left;
+  z-index: 60;
+  white-space: pre-line;
+  pointer-events: none;
+  font: 13px/1.6 var(--font-sans);
+}
+.game-mod-tooltip > b,
+.game-mod-tooltip > span,
+.game-mod-tooltip > small {
+  display: block;
+}
+.game-mod-tooltip > small {
+  font-size: 10px;
+  color: #b3bec5;
+  margin-top: 8px;
+}
+button:hover > .game-mod-card > .game-mod-tooltip,
+button:focus-visible > .game-mod-card > .game-mod-tooltip {
+  display: block;
+}
+@media (max-width: 700px) {
+  .game-mod-card {
+    min-height: 245px;
+  }
+  .game-mod-title {
+    font-size: 15px;
+  }
+  .game-mod-effect {
+    font-size: 10px;
+  }
+  .game-mod-tooltip {
+    display: none !important;
+  }
+}
+.original-mod-card {
+  position: absolute;
+  inset: 0;
+  background: #101412;
+  border-radius: 12px;
+  z-index: 3;
+  overflow: hidden;
+}
+.original-mod-card img {
+  object-fit: contain !important;
+}
+/* Folded upgrade cards retain the game's name, drain, polarity and rank cues. */
+.game-mod-card.is-compact {
+  min-height: 82px;
+  height: 82px;
+  padding: 20px 5px 9px;
+  justify-content: center;
+  border-radius: 9px 9px 15px 15px;
+}
+.is-compact > .original-mod-card,
+.is-compact > .game-mod-effect,
+.is-compact > .game-mod-caption {
+  display: none;
+}
+.is-compact .game-mod-art {
+  position: absolute;
+  inset: 2px;
+  height: auto;
+  margin: 0;
+  opacity: 0.38;
+}
+.is-compact .game-mod-art::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(transparent, #070b10c9);
+}
+.is-compact .game-mod-title {
+  position: relative;
+  border: 0;
+  padding: 0;
+  font: 500 14px/1.15 var(--font-body);
+  color: #fff;
+  text-shadow: 0 2px 3px #000;
+}
+.is-compact .game-mod-capacity {
+  top: 3px;
+  right: 7px;
+  font-size: 11px;
+}
+.is-compact .game-mod-rank {
+  position: relative;
+  margin-top: 7px;
+  gap: 3px;
+}
+.is-compact .game-mod-rank i {
+  width: 4px;
+  height: 4px;
+}
+.is-compact .game-mod-rank i[data-active="true"] {
+  background: #a2e6ff;
+  box-shadow: 0 0 4px #78d4fc;
+}
+@media (max-width: 700px) {
+  button:focus > .is-compact > .game-mod-tooltip {
+    display: block !important;
+    position: fixed;
+    left: 16px;
+    right: 16px;
+    bottom: 90px;
+    width: auto;
+    max-width: none;
+  }
+}
+.game-mod-card.is-primed {
+  --mod-metal: #ecd9a1;
+  border-color: #ffe5a0;
+  background: linear-gradient(125deg, #584423, #151921 50%, #69532b);
+  box-shadow:
+    inset 0 0 0 2px #161c28,
+    inset 0 0 0 4px #e7d6ac,
+    0 0 10px #cfb66c35;
+}
+.is-primed .game-mod-title {
+  color: #fff0c1;
+}
+.game-mod-card.is-compact {
+  height: auto;
+  min-height: 115px;
+}
+.is-compact > .game-mod-effect {
+  display: block;
+  position: relative;
+  flex: none;
+  font-size: 10px;
+  line-height: 1.3;
+  margin-top: 5px;
+  padding: 0 2px;
+  color: #e5e9ec;
+}

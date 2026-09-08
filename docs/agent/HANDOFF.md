@@ -1,5 +1,7 @@
 # Cephalon — Handoff
 
+> Current implementation supersedes this historical snapshot: see `docs/tasks/arsenal-and-optimizer/implementation.md`. The GitHub remote now exists. The builder, navigation, validation and optimizer changed on September 6, 2026; use current code and verification, not the feature claims below.
+
 _Snapshot for a fresh agent picking up this project. Written 2026-08-31 at commit
 `f583a8c`. Read `docs/agent/project-profile.md`, `docs/agent/workflow.md`,
 `docs/agent/decisions.md`, `docs/design/design-language.md`, and
@@ -298,3 +300,5 @@ review of each surface before moving on — that's the established rhythm.
 | `docs/tasks/phase-1c-steel-path/` | Steel Path sourcing + review + verification |
 | `docs/tasks/phase-1c-design-system/` | design-system foundation task trail |
 | `docs/tasks/phase-1c-weapon-builder/` | weapon builder brief + Themis review + fix handoff |
+
+2026-09-07 Warframe sample implementation: 35 guides from build-guide-samples@3b61d7c now live at /warframe-builds; Arsenal links to filtered guides. Temporary mod/rank/shard customization uses server validation and existing BuildService. Shard tray, filters and compact directory cards added. See docs/tasks/arsenal-and-optimizer/warframe-builds.md for scope and verification.

@@ -1,0 +1,5 @@
+# Weapon upgrade layout — 2026-09-07
+
+The builder now follows the user's in-game reference: capacity and scrollable weapon stats on the left, eight compact cards in two rows of four in the middle, weapon arcane above the Exilus slot on the right, and a persistent searchable compatible mod collection underneath. Slot indices and elemental order are unchanged. Selecting a slot filters the collection; Exilus remains utility-only. Compact cards expose names, drain, polarity and rank with effects on hover/keyboard focus. Phones preserve four-column order in a scrollable deck; stats and special slots follow below it. Existing save/share/undo and solver controls remain functional. Configuration A/B/C storage is not introduced by this layout change.
+
+Validation: production build and TypeScript passed; all 12 browser tests passed. Desktop placement and phone overflow tests passed again after the final height correction. Desktop and phone screenshots inspected. No combat formulas changed, and existing model limitations still apply.

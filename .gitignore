@@ -10,3 +10,7 @@ vendor/upstream-engine/
 
 # build caches
 *.tsbuildinfo
+
+# Browser verification artifacts
+apps/web/test-results/
+apps/web/playwright-report/

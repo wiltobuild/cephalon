@@ -257,3 +257,17 @@ with SP-on cases (that extension itself paired with this entry). Elevated Themis
 review; Apollo runs the full suite + SP tests.
 
 **Approved by**: user (Steel Path scaling values, 2026-08-30).
+
+## 2026-09-06 — Arsenal and optimizer implementation
+
+The user approved implementation after reviewing the September 6 audit and plan (message: “implement”). This authorizes the planned builder redesign, authentic image integration, validation, compatibility corrections, and deterministic search foundation. No engine damage formulas changed in this implementation.
+
+Eligibility metadata uses WFCD/warframe-items revision e754da2d337eeaea93773e63cb25e94422567363, from Mods.json. The committed projection contains only 1,343 compatibility labels for existing engine mod IDs and source provenance, not item damage stats or binary art. This corrects observed cross-class illegal builds. Its refresh script requires an explicit reviewed source commit. Artwork remains an independently fetched manifest/CDN integration. See docs/tasks/arsenal-and-optimizer/implementation.md for scope and remaining model limitations.
+
+## 2026-09-07 — Weapon builder corrections
+
+User explicitly requested game-like mod cards, Exilus restrictions, weapon arcanes, better combat assumptions and a broader companion focus. Approved scope includes source-backed slot eligibility and missing ordinary/Primed exclusion corrections. The pinned WFCD projection now includes 1,485 compatibility labels, utility flags, rank display text and arcane classes from Mods.json/Arcanes.json; none of these display fields changes engine damage formulas. See docs/tasks/arsenal-and-optimizer/weapon-builder-followup.md for behavior and verification.
+
+## 2026-09-07 — Elemental combat objective and preference enforcement
+
+The user explicitly requested status-aware elemental scoring and reliable damage preferences. Default search now uses the existing deterministic TTK/status model, adds ordered elemental skeletons and enforces multi-element output constraints. No engine formulas changed. See docs/tasks/arsenal-and-optimizer/elemental-combat.md for sources, bounded-search limits and verification.
