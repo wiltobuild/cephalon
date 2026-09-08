@@ -6,8 +6,10 @@ type AssetKind =
   | "shard"
   | "forma"
   | "arcane"
-  | "companion";
+  | "companion"
+  | "archwing";
 const categories: Record<AssetKind, string[]> = {
+  archwing: ["Archwing"],
   weapon: ["Primary", "Secondary", "Melee", "Arch-Gun"],
   mod: ["Mods"],
   "mod-card": ["Mods"],

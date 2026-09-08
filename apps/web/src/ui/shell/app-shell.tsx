@@ -3,7 +3,7 @@ import { Command } from "cmdk";
 import { Menu, Search, X, Hexagon, ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { type ReactNode, useEffect, useState } from "react";
+import { Fragment, type ReactNode, useEffect, useState } from "react";
 import { Dialog } from "@/ui";
 import { ItemImage } from "@/ui/item-image";
 import type { WeaponListItem } from "@/server/contracts";
@@ -62,36 +62,56 @@ export function AppShell({ children }: { children: ReactNode }) {
         aria-label="Navigation"
       >
         <Link href="/home" className="brand">
-          <Hexagon size={27} strokeWidth={1.4} />
+          <span className="brand-emblem" aria-hidden="true">
+            <Hexagon size={38} strokeWidth={1} />
+            <span>✧</span>
+          </span>
           <span>
             CEPHALON<small>YOUR ARSENAL, UNDERSTOOD</small>
           </span>
         </Link>
-        <div className="nav-heading">WORKSPACE</div>
+        <div className="nav-orbit" aria-hidden="true">
+          <span>✧</span>
+        </div>
         <nav aria-label="Primary navigation">
-          {navigation.map((item) => {
+          {navigation.map((item, index) => {
             const Icon = item.icon;
             const active = isActive(item.href);
             return (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={`nav-link ${active ? "nav-link--active" : ""}`}
-                aria-current={active ? "page" : undefined}
-              >
-                <Icon size={18} />
-                <span>{item.label}</span>
-                {active && <span className="nav-dot" />}
-              </Link>
+              <Fragment key={item.href}>
+                {(index === 0 ||
+                  navigation[index - 1].group !== item.group) && (
+                  <div className="nav-heading">{item.group}</div>
+                )}
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`nav-link ${active ? "nav-link--active" : ""}`}
+                  aria-current={active ? "page" : undefined}
+                >
+                  <span className="nav-icon" aria-hidden="true">
+                    {item.artwork ? (
+                      <ItemImage
+                        name={item.artwork.name}
+                        kind={item.artwork.kind}
+                        className="nav-art"
+                      />
+                    ) : (
+                      <Icon size={21} strokeWidth={1.4} />
+                    )}
+                  </span>
+                  <span>{item.label}</span>
+                  <span className="nav-chevron" aria-hidden="true">
+                    ›
+                  </span>
+                </Link>
+              </Fragment>
             );
           })}
         </nav>
         <div className="sidebar-foot">
           <span className="status-dot" /> ARSENAL WORKSPACE
           <p>Every build. Every tradeoff.</p>
-          <Link href="/codex">
-            Model coverage & sources <ArrowUpRight size={13} />
-          </Link>
           <small>
             Unofficial Warframe companion.
             <br />
