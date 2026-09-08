@@ -42,69 +42,21 @@ export function GuideDirectory({
     ["Melee", Sword],
     ["Looting", Gem],
   ] as const;
-  const groups: Record<string, string[]> = {
-    "Nuke Frames": [
-      "Khora",
-      "Octavia",
-      "Saryn",
-      "Dante",
-      "Wisp",
-      "Gauss",
-      "Hildryn",
-      "Volt",
-      "Uriel",
-      "Gara",
-      "Sevagoth",
-      "Frost",
-      "Equinox",
-      "Garuda",
-    ],
-    "Weapon platforms": [
-      "Revenant",
-      "Harrow",
-      "Wisp",
-      "Mirage",
-      "Gauss",
-      "Volt",
-      "Nidus",
-      "Rhino",
-      "Xaku",
-      "Hydroid",
-      "Trinity",
-      "Zephyr",
-      "Citrine",
-    ],
-    "Shield gate": [
-      "Khora",
-      "Saryn",
-      "Wisp",
-      "Mirage",
-      "Hildryn",
-      "Volt",
-      "Gara",
-      "Garuda",
-      "Protea",
-      "Titania",
-    ],
-    "Health tank": ["Nidus", "Valkyr", "Wukong", "Baruuk", "Citrine"],
-    Support: [
-      "Wisp",
-      "Harrow",
-      "Dante",
-      "Trinity",
-      "Citrine",
-      "Jade",
-      "Rhino",
-      "Frost",
-    ],
-    Melee: ["Ash", "Valkyr", "Baruuk", "Wukong", "Khora", "Gara"],
-    Looting: ["Khora", "Nekros", "Hydroid"],
+  const patterns: Record<string, RegExp> = {
+    "Nuke Frames": /nuke|area damage|aoe|room clear|ability damage|burst/i,
+    "Weapon platforms": /weapon|gun platform|gun buff|self.buff/i,
+    "Shield gate": /shield.?gat/i,
+    "Health tank":
+      /health tank|health.tank|health.based|armor tank|armour tank/i,
+    Support: /support|healing|healer|team buff|squad buff/i,
+    Melee: /melee|exalted|pseudo.exalted/i,
+    Looting: /loot|farm|resource/i,
   };
   const matches = (g: (typeof guides)[number], filter: string) =>
     filter === "All" ||
     (filter === "Steel Path" || filter === "Level cap"
       ? g.content.toLowerCase().includes(filter.toLowerCase())
-      : groups[filter]?.includes(g.frame.replace(/ Prime$/, "")));
+      : patterns[filter]?.test(`${g.role} ${g.subtitle}`));
   const shown = guides.filter(
     (g) =>
       matches(g, active) &&

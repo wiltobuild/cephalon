@@ -1,5 +1,9 @@
+import { calculateWarframeDraft } from "@/server/warframe-draft";
+import aliases from "@/server/guide-aliases.json";
+import { GuideLoadout } from "@/ui/guide-content";
+import { StatRadar } from "@/ui/warframe-builds";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { guideDetails } from "@/server/warframe-guides";
 import { ItemImage } from "@/ui/item-image";
 import { WarframeEditor } from "@/ui/warframe-editor";
@@ -35,18 +39,47 @@ export default async function Page({
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const data = guideDetails((await params).slug);
+  const { slug } = await params;
+  const alias = (aliases as Record<string, string>)[slug];
+  if (alias) permanentRedirect(`/warframe-builds/${alias}`);
+  const data = guideDetails(slug);
   if (!data) notFound();
   const { guide: g, frame, mods } = data;
   const shards = g.sections.find((s) => s.title === "Archon Shards");
-  const colors = [
-    "Amber",
-    "Crimson",
-    "Azure",
-    "Emerald",
-    "Topaz",
-    "Violet",
-  ].filter((c) => shards?.text.toLowerCase().includes(c.toLowerCase()));
+  const initialMods = [
+    ...mods.map((m, i) => ({ modId: m.card.id, rank: m.rank, slotIndex: i })),
+    ...[g.exilus, ...g.auras].flatMap((value, i) => {
+      const mod = [...catalog.getModMap().values()].find(
+        (m) => m.name === value.split(",")[0],
+      );
+      return mod
+        ? [{ modId: mod.id, rank: mod.maxRank, slotIndex: 8 + i }]
+        : [];
+    }),
+  ];
+  let editable = false;
+  if (
+    frame &&
+    [g.exilus, ...g.auras]
+      .filter(Boolean)
+      .every((value) =>
+        [...catalog.getModMap().values()].some(
+          (m) => m.name === value.split(",")[0],
+        ),
+      )
+  ) {
+    try {
+      calculateWarframeDraft({
+        warframeId: frame.id,
+        mods: initialMods,
+        shards: g.shardSlots,
+        includeShards: true,
+      });
+      editable = true;
+    } catch {
+      /* Preserve the authored configuration when it cannot be modeled. */
+    }
+  }
   return (
     <div className="wf-page">
       <Link className="wf-back" href="/warframe-builds">
@@ -67,44 +100,41 @@ export default async function Page({
         </div>
         <ItemImage kind="warframe" name={g.frame} priority />
       </header>
-      <WarframeEditor
-        warframeId={frame!.id}
-        mods={catalog.compatibleWarframeMods(frame!.id)}
-        shards={catalog.getArchonShards()}
-        initialShards={g.shardSlots}
-        sourceStats={{
-          stats: g.stats,
-          pools: Object.fromEntries(
-            Object.entries(g.pools).filter(
-              (entry): entry is [string, number] =>
-                typeof entry[1] === "number",
+      {editable && frame ? (
+        <WarframeEditor
+          warframeId={frame!.id}
+          mods={catalog.compatibleWarframeMods(frame!.id)}
+          shards={catalog.getArchonShards()}
+          initialShards={g.shardSlots}
+          sourceStats={{
+            stats: g.stats,
+            pools: Object.fromEntries(
+              Object.entries(g.pools).filter(
+                (entry): entry is [string, number] =>
+                  typeof entry[1] === "number",
+              ),
             ),
-          ),
-        }}
-        shardText={shards?.text ?? ""}
-        auraCount={g.auras.length}
-        initialMods={[
-          ...mods.map((m, i) => ({
-            modId: m.card.id,
-            rank: m.rank,
-            slotIndex: i,
-          })),
-          ...[g.exilus, ...g.auras].flatMap((value, i) => {
-            const mod = [...catalog.getModMap().values()].find(
-              (m) => m.name === value.split(",")[0],
-            );
-            return mod
-              ? [
-                  {
-                    modId: mod.id,
-                    rank: mod.maxRank,
-                    slotIndex: i === 0 ? 8 : 8 + i,
-                  },
-                ]
-              : [];
-          }),
-        ]}
-      />
+          }}
+          shardText={shards?.text ?? ""}
+          auraCount={g.auras.length}
+          initialMods={initialMods}
+        />
+      ) : (
+        <>
+          <section className="guide-performance">
+            <h2>BUILD PERFORMANCE</h2>
+            <p>{g.statText}</p>
+            <StatRadar stats={g.stats} />
+          </section>
+          <GuideLoadout guide={g} />
+        </>
+      )}
+      {editable && (
+        <details className="guide-loadout">
+          <summary>Author’s full configuration and arsenal figures</summary>
+          <RichText text={g.buildText} />
+        </details>
+      )}
       <section className="wf-equipped-arcanes">
         <h2>ARCANES</h2>
         {g.arcanes.map((a) => (

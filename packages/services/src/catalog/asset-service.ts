@@ -15,7 +15,7 @@ const categories: Record<AssetKind, string[]> = {
   shard: ["Misc"],
   forma: ["Misc"],
   arcane: ["Arcanes"],
-  companion: ["Pets", "Sentinels"],
+  companion: ["Pets", "Sentinels", "Primary", "Secondary", "Melee"],
 };
 type Asset = {
   uniqueName: string;

@@ -239,8 +239,12 @@ test("weapon arcanes update damage and reload and remain equipped after solving"
   ).toContainText("Primary Merciless");
   await page.getByRole("switch", { name: "Conditional damage" }).uncheck();
   await expect
-    .poll(async () => page.locator("[data-metric=sustainedDps]").textContent())
-    .toBe(await page.locator("[data-metric=baseDps]").textContent());
+    .poll(
+      async () =>
+        (await page.locator("[data-metric=sustainedDps]").textContent()) ===
+        (await page.locator("[data-metric=baseDps]").textContent()),
+    )
+    .toBe(true);
   await page.getByRole("switch", { name: "Conditional damage" }).check();
   await expect(page.locator("[data-metric=sustainedDps]")).not.toHaveText(
     (await page.locator("[data-metric=baseDps]").textContent()) ?? "",

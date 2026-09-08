@@ -37,6 +37,11 @@ export function AppShell({ children }: { children: ReactNode }) {
         .then(setWeapons)
         .catch(() => {});
   }, [palette, weapons.length]);
+  const isActive = (href: string) =>
+    path === href ||
+    path.startsWith(`${href}/`) ||
+    (href === "/equipment-builds/weapons" &&
+      /^\/equipment-builds\/(primary|secondary|melee)(\/|$)/.test(path));
   const go = (url: string) => {
     router.push(url);
     setPalette(false);
@@ -65,7 +70,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         <nav aria-label="Primary navigation">
           {navigation.map((item) => {
             const Icon = item.icon;
-            const active = path === item.href;
+            const active = isActive(item.href);
             return (
               <Link
                 key={item.href}
@@ -106,7 +111,7 @@ export function AppShell({ children }: { children: ReactNode }) {
             </button>
             <span className="topbar__context">
               WORKSPACE <span>/</span>{" "}
-              {navigation.find((n) => n.href === path)?.label ?? "Arsenal"}
+              {navigation.find((n) => isActive(n.href))?.label ?? "Arsenal"}
             </span>
           </div>
           <button

@@ -272,6 +272,7 @@ export function Arsenal() {
             <span className="workspace-kicker">{selected.category}</span>
             <p>{selected.description}</p>
             {selected.kind === "warframe" && <Link className="primary-link" href={`/warframe-builds?q=${encodeURIComponent(selected.name.replace(/ Prime$/, ""))}`}>View Warframe builds <ArrowUpRight size={17}/></Link>}
+            {selected.kind === "weapon" && <Link className="primary-link" href={`/equipment-builds/weapons?q=${encodeURIComponent(selected.name)}`}>View weapon guides <ArrowUpRight size={17}/></Link>}
             {selected.kind === "weapon" && (
               <Link
                 className="primary-link"

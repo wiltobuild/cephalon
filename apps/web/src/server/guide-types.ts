@@ -1,0 +1,21 @@
+export type Guide = {
+  category: string;
+  slug: string;
+  title: string;
+  frame: string;
+  subtitle: string;
+  summary: string;
+  meta: Record<string, string>;
+  mods: { name: string; rank: number; polarity: string; note: string }[];
+  auras: string[];
+  aura: string;
+  exilus: string;
+  stance: string;
+  arcanes: string[];
+  stats: Record<string, number>;
+  pools: Record<string, number>;
+  statText: string;
+  buildText: string;
+  sections: { title: string; text: string }[];
+  shardSlots: ({ shardId: string; effect: string } | null)[];
+};

@@ -1,7 +1,8 @@
 import "server-only";
 import samples from "./warframe-guides.json";
 import { catalog } from "./services";
-export const guides = samples;
+import type { Guide } from "./guide-types";
+export const guides: Guide[] = samples as Guide[];
 export function guideDetails(slug: string) {
   const guide = guides.find((g) => g.slug === slug);
   if (!guide) return null;
