@@ -9,6 +9,7 @@ import { ItemImage } from "@/ui/item-image";
 import type { WeaponListItem } from "@/server/contracts";
 import { navigation } from "./navigation";
 import "./shell.css";
+import "../site-polish.css";
 export function AppShell({ children }: { children: ReactNode }) {
   const [mobile, setMobile] = useState(false),
     [palette, setPalette] = useState(false);

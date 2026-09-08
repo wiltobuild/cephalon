@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { PageMasthead } from "@/ui/page-masthead";
 import { guides } from "@/server/warframe-guides";
 import { GuideDirectory } from "@/ui/warframe-builds";
 import "@/ui/warframe-builds.css";
@@ -11,14 +11,7 @@ export default async function Page({
   const { q } = await searchParams;
   return (
     <div className="wf-page">
-      <header className="wf-directory-header">
-        <div>
-          <p className="wf-kicker">ARSENAL / CURATED LOADOUTS</p>
-          <h1>Warframe builds.</h1>
-          <p>Find your frame. Learn the setup. Make it yours.</p>
-        </div>
-        <Link href="/arsenal">Explore arsenal →</Link>
-      </header>
+      <PageMasthead eyebrow="ARSENAL / CURATED LOADOUTS" title="Warframe builds." description="Find your frame. Learn the setup. Make it yours." art="Mesa Prime" action={{href:"/arsenal",label:"Explore arsenal"}}/>
       <GuideDirectory
         initialQuery={q ?? ""}
         guides={guides.map((g) => ({

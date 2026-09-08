@@ -505,11 +505,11 @@
   justify-content: center;
   gap: 9px;
   width: 100%;
-  background: #62b8c1;
-  border: 1px solid #75c6ce;
+  background: var(--accent);
+  border: 1px solid var(--accent);
   border-radius: 2px;
   min-height: 46px;
-  color: #092025;
+  color: var(--accent-contrast);
   font-size: 13px;
   font-weight: 600;
   padding: 10px;
@@ -1631,5 +1631,105 @@
   }
   .statTiles {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Compact editor treatment from the shared arsenal palette. */
+.builder .hero {
+  border: 1px solid var(--line-strong);
+  border-bottom-color: #d7c5a166;
+  background:
+    radial-gradient(ellipse at 85% 50%, #5d725142, transparent 62%),
+    linear-gradient(120deg, #142528, #101d20);
+  padding: 14px 24px;
+  margin-top: 20px;
+}
+.builder .hero h1 {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+.builder .heroArt {
+  filter: drop-shadow(0 10px 15px #0005);
+}
+.builder .toolbar {
+  background: var(--surface-1);
+  border: 1px solid var(--line);
+  padding: 13px 16px;
+}
+.builder .results {
+  background: linear-gradient(145deg, #1b3031, #142326);
+  border: 1px solid var(--line-strong);
+  border-top: 2px solid var(--accent);
+  box-shadow: 0 10px 25px #0003;
+}
+.builder .primaryMetric strong {
+  color: var(--accent);
+}
+.builder .sectionHeader h2 {
+  color: var(--text-primary);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+}
+.builder .modSlot {
+  background: var(--surface-1);
+  border-color: var(--line-strong);
+}
+.builder .selectedSlot {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px #d7c5a155;
+}
+.builder .inventory,
+.builder .calculationPanel {
+  background: linear-gradient(140deg, #1c303144, #132225);
+  border-color: var(--line-strong);
+}
+.builder .inventory .pickerSearch {
+  border-color: var(--line-strong);
+  border-left: 2px solid var(--accent);
+  background: var(--surface-1);
+}
+.builder .statTiles > div {
+  background: var(--surface-1);
+  border-color: var(--line);
+}
+.builder .statTiles strong {
+  color: #dfd4b8;
+}
+.builder .arcanePickerButton {
+  background:
+    radial-gradient(ellipse at 20% 50%, #526d5544, transparent 85%),
+    var(--surface-1);
+  border-color: var(--line-strong);
+}
+.builder .arcanePickerButton:hover {
+  border-color: var(--accent);
+}
+.builder .scenario {
+  border-color: var(--line-strong);
+}
+.builder .controls select,
+.builder .controls input {
+  background: var(--surface-inset);
+  border-color: var(--line-strong);
+  color: var(--text-primary);
+}
+.builder .polarityControl select {
+  border-color: #9d8e67;
+  color: #ead7a6;
+  background: #26312a;
+}
+.builder .slotTools select {
+  background: var(--surface-inset);
+  border-color: var(--line-strong);
+}
+@media (max-width: 760px) {
+  .builder .hero {
+    padding: 14px 16px;
+  }
+  .builder .hero h1 {
+    font-size: 32px;
+  }
+  .builder .toolbar {
+    padding: 12px;
   }
 }

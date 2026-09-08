@@ -13,6 +13,7 @@ import {
   Trash2,
 } from "lucide-react";
 import { Dialog } from "@/ui";
+import { PageMasthead } from "./page-masthead";
 import { ItemImage } from "./item-image";
 import {
   buildFragment,
@@ -23,125 +24,6 @@ import {
 import type { BuildWeaponResponse } from "@/server/contracts";
 import "./workspace.css";
 
-const featured = [
-  { id: "braton_prime", name: "Braton Prime", tag: "RIFLE" },
-  { id: "soma_prime", name: "Soma Prime", tag: "RIFLE" },
-  { id: "lex_prime", name: "Lex Prime", tag: "SECONDARY" },
-  { id: "hek", name: "Hek", tag: "SHOTGUN" },
-];
-export function Overview() {
-  const [saved, setSaved] = useState<SavedBuild[]>([]);
-  useEffect(() => setSaved(readBuilds()), []);
-  return (
-    <div className="workspace-page">
-      <div className="workspace-kicker">
-        <span className="status-dot" /> WELCOME TO YOUR ARSENAL
-      </div>
-      <section className="welcome">
-        <div className="welcome-copy">
-          <p>KNOW YOUR GEAR. FIND YOUR EDGE.</p>
-          <h1>
-            Your Warframe
-            <br />
-            <em>companion.</em>
-          </h1>
-          <div className="welcome-description">
-            Explore your gear, understand your mods, and keep your favorite
-            builds together. Your arsenal is just the beginning.
-          </div>
-          <Link className="primary-link" href="/arsenal">
-            Explore your arsenal <ArrowUpRight size={18} />
-          </Link>
-          <span className="welcome-note">
-            Warframes. Weapons. Mods. Your next idea.
-          </span>
-        </div>
-        <div className="welcome-art">
-          <ItemImage name="Wisp Prime" kind="warframe" priority />
-          <div className="welcome-caption">
-            WISP PRIME <span>THE ARSENAL AWAITS</span>
-          </div>
-        </div>
-      </section>
-      <div className="workspace-section-title">
-        <h2>START WITH A WEAPON</h2>
-        <Link href="/arsenal">
-          Explore the arsenal <ArrowRight size={13} />
-        </Link>
-      </div>
-      <div className="featured-grid">
-        {featured.map((w, index) => (
-          <Link
-            className="gear-tile"
-            href={`/tools/weapon-builder?weapon=${w.id}`}
-            key={w.id}
-          >
-            <span className="tile-index">
-              0{index + 1} / {w.tag}
-            </span>
-            <ItemImage name={w.name} />
-            <div>
-              <h3>{w.name}</h3>
-              <ArrowUpRight size={17} />
-            </div>
-            <p>Make it yours</p>
-          </Link>
-        ))}
-      </div>
-      <section className="workspace-bottom">
-        <div>
-          <div className="workspace-section-title">
-            <h2>PICK UP WHERE YOU LEFT OFF</h2>
-            <Link href="/builds">
-              My builds <ArrowRight size={13} />
-            </Link>
-          </div>
-          {saved.length ? (
-            saved.slice(0, 3).map((s) => (
-              <Link
-                className="recent-build"
-                key={s.id}
-                href={`/tools/weapon-builder#build=${buildFragment(s.build)}`}
-              >
-                <ItemImage name={s.weaponName} className="tiny-art" />
-                <span>
-                  {s.name}
-                  <small>
-                    {s.build.modSlots.length} mods · saved on this device
-                  </small>
-                </span>
-                <ArrowUpRight size={15} />
-              </Link>
-            ))
-          ) : (
-            <div className="workspace-empty">
-              <Bookmark size={22} />
-              <h3>Your first build starts here.</h3>
-              <p>
-                Save a configuration and come back to it anytime. No account
-                needed.
-              </p>
-            </div>
-          )}
-        </div>
-        <div className="principles">
-          <SlidersHorizontal size={22} />
-          <h3>Know what you equip.</h3>
-          <p>
-            Look up Warframes, browse mods and Archon Shards, or work on a
-            weapon build. Cephalon brings your gear into one workspace.
-          </p>
-          <Link href="/arsenal">
-            Browse your gear <ArrowUpRight size={13} />
-          </Link>
-          <div className="principle-note">
-            <ShieldCheck size={14} /> Model assumptions stay visible.
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-}
 type ArsenalItem = {
   id: string;
   name: string;
@@ -183,14 +65,16 @@ export function Arsenal() {
   );
   return (
     <div className="workspace-page">
-      <div className="workspace-kicker">YOUR NEXT POSSIBILITY</div>
-      <div className="page-heading">
-        <div>
-          <h1>Explore the arsenal.</h1>
-          <p>Find your gear. Understand it. Build something better.</p>
-        </div>
-        <Crosshair size={30} strokeWidth={1} />
-      </div>
+      <PageMasthead
+        eyebrow="YOUR NEXT POSSIBILITY"
+        title="Explore the arsenal."
+        description="Find your gear. Understand it. Build something better."
+        art="Gara Prime"
+        action={{
+          href: "/warframe-builds",
+          label: "Explore the build library",
+        }}
+      />
       <div className="arsenal-tabs" role="group" aria-label="Item category">
         {[
           ["weapon", "Weapons"],
@@ -271,8 +155,22 @@ export function Arsenal() {
             <ItemImage name={selected.name} kind={selected.kind} />
             <span className="workspace-kicker">{selected.category}</span>
             <p>{selected.description}</p>
-            {selected.kind === "warframe" && <Link className="primary-link" href={`/warframe-builds?q=${encodeURIComponent(selected.name.replace(/ Prime$/, ""))}`}>View Warframe builds <ArrowUpRight size={17}/></Link>}
-            {selected.kind === "weapon" && <Link className="primary-link" href={`/equipment-builds/weapons?q=${encodeURIComponent(selected.name)}`}>View weapon guides <ArrowUpRight size={17}/></Link>}
+            {selected.kind === "warframe" && (
+              <Link
+                className="primary-link"
+                href={`/warframe-builds?q=${encodeURIComponent(selected.name.replace(/ Prime$/, ""))}`}
+              >
+                View Warframe builds <ArrowUpRight size={17} />
+              </Link>
+            )}
+            {selected.kind === "weapon" && (
+              <Link
+                className="primary-link"
+                href={`/equipment-builds/weapons?q=${encodeURIComponent(selected.name)}`}
+              >
+                View weapon guides <ArrowUpRight size={17} />
+              </Link>
+            )}
             {selected.kind === "weapon" && (
               <Link
                 className="primary-link"
@@ -334,16 +232,14 @@ export function MyBuilds() {
   }
   return (
     <div className="workspace-page">
-      <div className="workspace-kicker">YOUR CONFIGURATIONS</div>
-      <div className="page-heading">
-        <div>
-          <h1>Good builds deserve a home.</h1>
-          <p>Saved on this device. Open, compare, or share a snapshot.</p>
-        </div>
-        <Link className="primary-link" href="/tools/weapon-builder">
-          New build <ArrowUpRight size={17} />
-        </Link>
-      </div>
+      <PageMasthead
+        eyebrow="YOUR CONFIGURATIONS"
+        title="Good builds deserve a home."
+        description="Saved on this device. Open, compare, or share a snapshot."
+        art="Phenmor"
+        kind="weapon"
+        action={{ href: "/tools/weapon-builder", label: "New build" }}
+      />
       <div className="builds-controls">
         <span>{saved.length} SAVED BUILDS</span>
         <button
@@ -478,21 +374,18 @@ export function MyBuilds() {
 export function Mechanics() {
   return (
     <div className="workspace-page mechanics-page">
-      <div className="workspace-kicker">TRUST THROUGH TRANSPARENCY</div>
-      <div className="page-heading">
-        <div>
-          <h1>Know what the numbers mean.</h1>
-          <p>Useful calculations start with visible assumptions.</p>
-        </div>
-        <ShieldCheck size={32} strokeWidth={1} />
-      </div>
+      <PageMasthead
+        eyebrow="THE FIELD MANUAL"
+        title="Know what the numbers mean."
+        description="Useful calculations start with visible assumptions."
+        art="Dante"
+      />
       <section className="mechanics-section">
         <h2>What you can use today</h2>
         <p>
           Build ordinary weapons, configure mod ranks and slot polarities,
-          compare model damage, and run a build search with damage,
-          faction, and investment constraints. Save locally or share a versioned
-          snapshot.
+          compare model damage, and run a build search with damage, faction, and
+          investment constraints. Save locally or share a versioned snapshot.
         </p>
         <div className="coverage-row">
           <Check size={16} />

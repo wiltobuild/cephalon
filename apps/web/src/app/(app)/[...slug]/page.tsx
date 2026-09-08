@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
-import { Overview, Arsenal, MyBuilds, Mechanics } from "@/ui/workspace-pages";
+import { Overview } from "@/ui/overview";
+import { Arsenal, MyBuilds, Mechanics } from "@/ui/workspace-pages";
 export default async function WorkspacePage({
   params,
 }: {

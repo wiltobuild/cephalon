@@ -1,3 +1,4 @@
+import { PageMasthead } from "@/ui/page-masthead";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -20,16 +21,7 @@ export default async function Page({
   const c = category as Category;
   return (
     <div className="wf-page">
-      <header className="wf-directory-header">
-        <div>
-          <p className="wf-kicker">ARSENAL / CURATED LOADOUTS</p>
-          <h1>{categories[c]}.</h1>
-          <p>
-            Proven setups, complete configurations and a field guide for every
-            build.
-          </p>
-        </div>
-      </header>
+      <PageMasthead eyebrow="ARSENAL / CURATED LOADOUTS" title={`${categories[c]}.`} description="Complete configurations and field guides for your next mission." art={{weapons:"Phenmor",primary:"Phenmor",secondary:"Lex Prime",melee:"Hate",archwing:"Mausolon",companions:"Dethcube Prime"}[c]} kind={c==="companions"?"companion":"weapon"} action={{href:"/arsenal",label:"Explore arsenal"}}/>
       <nav className="equipment-categories" aria-label="Build categories">
         <Link href="/warframe-builds">Warframes</Link>
         {Object.entries(categories).map(([key, label]) => (
