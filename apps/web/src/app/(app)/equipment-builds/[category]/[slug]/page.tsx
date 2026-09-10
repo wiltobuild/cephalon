@@ -1,3 +1,4 @@
+import { FormaCost } from "@/ui/forma-cost";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -28,6 +29,7 @@ export default async function Page({
           <span className="wf-approved">✓ Cephalon approved guide</span>
           <p className="wf-kicker">{g.frame}</p>
           <h1>{g.title}</h1>
+          <FormaCost investment={g.meta.Investment} />
           <p>{g.subtitle}</p>
           <div className="wf-tags">
             {Object.entries(g.meta)

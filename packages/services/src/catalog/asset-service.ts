@@ -2,6 +2,7 @@ type AssetKind =
   | "weapon"
   | "mod"
   | "mod-card"
+  | "ability"
   | "warframe"
   | "shard"
   | "forma"
@@ -9,6 +10,7 @@ type AssetKind =
   | "companion"
   | "archwing";
 const categories: Record<AssetKind, string[]> = {
+  ability: ["Abilities"],
   archwing: ["Archwing"],
   weapon: ["Primary", "Secondary", "Melee", "Arch-Gun"],
   mod: ["Mods"],
@@ -40,10 +42,16 @@ export class AssetService {
   private load(category: string): Promise<Asset[]> {
     const cached = this.cache.get(category);
     if (cached) return cached;
-    const pending = this.loader(category)
+    const pending = this.loader(
+      category === "Abilities" ? "Warframes" : category,
+    )
       .then((rows) => {
         if (!Array.isArray(rows)) throw new Error("Invalid artwork manifest");
-        return rows
+        if (category === "Abilities")
+          rows = rows.flatMap((row) =>
+            Array.isArray(row?.abilities) ? row.abilities : [],
+          );
+        return (rows as Asset[])
           .filter(
             (row): row is Asset =>
               !!row &&
@@ -75,6 +83,15 @@ export class AssetService {
   }
   async resolve(kind: string, name: string): Promise<string | undefined> {
     if (!Object.hasOwn(categories, kind) || name.length > 150) return undefined;
+    // Complete game artwork: the export manifest contains only the glow layer.
+    if (kind === "shard") {
+      const color =
+        /^tauforged (crimson|amber|azure|topaz|violet|emerald) archon shard$/.exec(
+          normalize(name),
+        )?.[1];
+      if (color)
+        return `/art/shards/Tauforged${color[0].toUpperCase() + color.slice(1)}ArchonShard.png`;
+    }
     const lists = await Promise.all(
       categories[kind as AssetKind].map((category) => this.load(category)),
     );

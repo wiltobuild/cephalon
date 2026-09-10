@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "exports": { ".": "./src/index.ts" },
+  "exports": {
+    ".": "./src/index.ts",
+    "./capacity": "./src/build/mod-capacity.ts"
+  },
   "scripts": {
     "build:engine": "pnpm --filter @cephalon/engine build",
     "pretest": "pnpm run build:engine",
@@ -11,6 +14,10 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },
-  "dependencies": { "@cephalon/engine": "workspace:*" },
-  "devDependencies": { "vitest": "^3.2.4" }
+  "dependencies": {
+    "@cephalon/engine": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
 }

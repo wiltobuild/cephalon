@@ -50,6 +50,7 @@ export interface WeaponBuildInput {
   linkage?: SetBonusLinkage;
 }
 export interface WarframeBuildInput {
+  form?: "sirius" | "orion";
   warframeId: string;
   modSlots: ModSlot[];
   archonShards?: (EquippedArchonShard | null)[];
@@ -154,7 +155,9 @@ export class BuildService {
     const warframe = this.catalog.getWarframe(input.warframeId);
     if (!warframe) throw new Error(`Unknown warframe: ${input.warframeId}`);
     const base = calculateWarframeBuild(
-      warframe,
+      input.warframeId === "sirius_orion" && input.form === "orion"
+        ? { ...warframe, health: 350, shield: 270, armor: 300, energy: 200 }
+        : warframe,
       input.modSlots,
       this.catalog.getModMap(),
       input.linkage,

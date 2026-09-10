@@ -1,0 +1,919 @@
+{
+  "Wukong": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ]
+  },
+  "Nokko": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Yareli": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Excalibur Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "vazarin",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Nezha": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Limbo Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon",
+      "vazarin"
+    ]
+  },
+  "Volt Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Nyx Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "naramon",
+      "vazarin"
+    ]
+  },
+  "Xaku Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Dante": {
+    "aura": "aura",
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Gauss": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Valkyr": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Octavia": {
+    "aura": "naramon",
+    "polarities": [
+      "naramon",
+      "naramon"
+    ]
+  },
+  "Excalibur Umbra": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "umbra",
+      "umbra",
+      "umbra"
+    ]
+  },
+  "Chroma Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Mirage Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "naramon",
+      "madurai"
+    ]
+  },
+  "Trinity Prime": {
+    "aura": "vazarin",
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Loki": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Inaros": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ]
+  },
+  "Mag Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "naramon",
+      "madurai"
+    ]
+  },
+  "Wisp Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "Zephyr Prime": {
+    "aura": "vazarin",
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "Styanax": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "Excalibur": {
+    "aura": null,
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Helminth": {
+    "aura": null,
+    "polarities": [
+      null
+    ]
+  },
+  "Hydroid Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon",
+      "naramon"
+    ]
+  },
+  "Volt": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "madurai"
+    ]
+  },
+  "Ivara Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "Revenant Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "naramon",
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Mesa Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "naramon",
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Revenant": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Vauban": {
+    "aura": "naramon",
+    "polarities": [
+      "naramon",
+      "madurai"
+    ]
+  },
+  "Styanax Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "naramon"
+    ]
+  },
+  "Cyte-09": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Octavia Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "naramon"
+    ]
+  },
+  "Protea": {
+    "aura": "aura",
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Banshee Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Atlas": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Oraxia": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Nekros": {
+    "aura": null,
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Loki Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Khora": {
+    "aura": "vazarin",
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Citrine": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Lavos": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "Nova Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Zephyr": {
+    "aura": "vazarin",
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Nyx": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Wisp": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Gauss Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "naramon",
+      "vazarin"
+    ]
+  },
+  "Protea Prime": {
+    "aura": "aura",
+    "polarities": [
+      "madurai",
+      "naramon",
+      "naramon"
+    ]
+  },
+  "Frost": {
+    "aura": "vazarin",
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ]
+  },
+  "Gyre": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Nekros Prime": {
+    "aura": null,
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "Khora Prime": {
+    "aura": "vazarin",
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "Nezha Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Saryn Prime": {
+    "aura": "vazarin",
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Sevagoth Prime": {
+    "aura": null,
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "madurai"
+    ]
+  },
+  "Temple": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Frost Prime": {
+    "aura": "vazarin",
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "vazarin"
+    ]
+  },
+  "Jade": {
+    "aura": [
+      "aura",
+      "vazarin"
+    ],
+    "polarities": [
+      "naramon"
+    ]
+  },
+  "Harrow Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "Oberon Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "naramon",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Limbo": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Caliban Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Rhino": {
+    "aura": "madurai",
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ]
+  },
+  "Dagath": {
+    "aura": "zenurik",
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Gara": {
+    "aura": "vazarin",
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Ember Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Lavos Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "naramon"
+    ]
+  },
+  "Sirius & Orion": {
+    "aura": "vazarin",
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "aura"
+    ]
+  },
+  "Mirage": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Caliban": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin"
+    ]
+  },
+  "Titania Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Grendel": {
+    "aura": "naramon",
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "vazarin"
+    ]
+  },
+  "Wukong Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Harrow": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "Ember": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "naramon"
+    ]
+  },
+  "Oberon": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Hydroid": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Hildryn": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ]
+  },
+  "Equinox": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Mag": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "naramon"
+    ]
+  },
+  "Garuda": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ]
+  },
+  "Valkyr Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Ash Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Bonewidow": {
+    "aura": null,
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Xaku": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ]
+  },
+  "Ash": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Kullervo": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Follie": {
+    "aura": "vazarin",
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "Chroma": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "madurai"
+    ]
+  },
+  "Gara Prime": {
+    "aura": "vazarin",
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Sevagoth": {
+    "aura": null,
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Hildryn Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "Trinity": {
+    "aura": "vazarin",
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ]
+  },
+  "Equinox Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Orion & Sirius": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "naramon",
+      "aura"
+    ]
+  },
+  "Uriel": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ]
+  },
+  "Qorvex": {
+    "aura": "vazarin",
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ]
+  },
+  "Koumei": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "naramon"
+    ]
+  },
+  "Yareli Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "naramon",
+      "vazarin"
+    ]
+  },
+  "Nidus Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "naramon",
+      "vazarin"
+    ]
+  },
+  "Garuda Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Gyre Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Mesa": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "naramon"
+    ]
+  },
+  "Banshee": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Vauban Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "naramon",
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Titania": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Grendel Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Voruna Prime": {
+    "aura": "vazarin",
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Nidus": {
+    "aura": "madurai",
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Voidrig": {
+    "aura": null,
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "Voruna": {
+    "aura": "vazarin",
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ]
+  },
+  "Nova": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Inaros Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "vazarin"
+    ]
+  },
+  "Saryn": {
+    "aura": "vazarin",
+    "polarities": [
+      "naramon",
+      "vazarin"
+    ]
+  },
+  "Baruuk Prime": {
+    "aura": "naramon",
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ]
+  },
+  "Atlas Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai",
+      "madurai"
+    ]
+  },
+  "Baruuk": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "vazarin"
+    ]
+  },
+  "Ivara": {
+    "aura": "naramon",
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ]
+  },
+  "Rhino Prime": {
+    "aura": "madurai",
+    "polarities": [
+      "vazarin",
+      "vazarin",
+      "naramon"
+    ]
+  }
+}

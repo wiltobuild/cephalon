@@ -21,7 +21,23 @@ export default async function Page({
   const c = category as Category;
   return (
     <div className="wf-page">
-      <PageMasthead eyebrow="ARSENAL / CURATED LOADOUTS" title={`${categories[c]}.`} description="Complete configurations and field guides for your next mission." art={{weapons:"Phenmor",primary:"Phenmor",secondary:"Lex Prime",melee:"Hate",archwing:"Mausolon",companions:"Dethcube Prime"}[c]} kind={c==="companions"?"companion":"weapon"} action={{href:"/arsenal",label:"Explore arsenal"}}/>
+      <PageMasthead
+        eyebrow="ARSENAL / CURATED LOADOUTS"
+        title={`${categories[c]}.`}
+        description="Complete configurations and field guides for your next mission."
+        art={
+          {
+            weapons: "Phenmor",
+            primary: "Phenmor",
+            secondary: "Lex Prime",
+            melee: "Hate",
+            archwing: "Mausolon",
+            companions: "Dethcube Prime",
+          }[c]
+        }
+        kind={c === "companions" ? "companion" : "weapon"}
+        action={{ href: "/arsenal", label: "Explore arsenal" }}
+      />
       <nav className="equipment-categories" aria-label="Build categories">
         <Link href="/warframe-builds">Warframes</Link>
         {Object.entries(categories).map(([key, label]) => (
@@ -48,6 +64,8 @@ export default async function Page({
       <EquipmentDirectory
         initialQuery={(await searchParams).q ?? ""}
         guides={categoryGuides(c).map((g) => ({
+          investment: g.meta.Investment ?? "",
+          stats: g.stats,
           slug: g.slug,
           title: g.title,
           frame: g.frame,

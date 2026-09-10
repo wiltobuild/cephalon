@@ -1,4 +1,5 @@
 "use client";
+import { PolarityPicker } from "@/ui/polarity";
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import {
@@ -57,15 +58,6 @@ const presetEnemy: Record<string, string> = {
   Corpus: "tech",
   Infested: "ancient_healer",
   Corrupted: "corrupted_heavy",
-};
-const polarityLabels: Record<string, string> = {
-  madurai: "Madurai",
-  vazarin: "Vazarin",
-  naramon: "Naramon",
-  zenurik: "Zenurik",
-  umbra: "Umbra",
-  universal: "Omni",
-  penjaga: "Penjaga",
 };
 const number = (n?: number | null, digits = 1) =>
   n == null || !Number.isFinite(n)
@@ -377,6 +369,7 @@ export function WeaponBuilder() {
       <article
         className={`${styles.modSlot} ${picker === index ? styles.selectedSlot : ""} ${mod ? styles.equipped : ""} ${locked ? styles.locked : ""} ${index === 8 ? styles.exilusSlot : ""}`}
         key={index}
+        data-slot-polarized={Boolean(build.slotPolarities?.[index])}
       >
         <button
           className={styles.modPick}
@@ -406,26 +399,19 @@ export function WeaponBuilder() {
             </>
           )}
         </button>
-        <label className={styles.polarityControl}>
+        <div className={styles.polarityControl}>
           <span>SLOT POLARITY</span>
-          <select
-            aria-label={`Polarity for slot ${index + 1}`}
+          <PolarityPicker
+            label={`Polarity for slot ${index + 1}`}
             value={build.slotPolarities?.[index] ?? ""}
-            onChange={(e) => {
+            onChange={(value) => {
               const polarities = { ...build.slotPolarities };
-              if (e.target.value) polarities[index] = e.target.value;
+              if (value) polarities[index] = value;
               else delete polarities[index];
               change({ ...build, slotPolarities: polarities });
             }}
-          >
-            <option value="">◇ None</option>
-            {Object.entries(polarityLabels).map(([key, label]) => (
-              <option value={key} key={key}>
-                {label}
-              </option>
-            ))}
-          </select>
-        </label>
+          />
+        </div>
         <div className={styles.slotTools}>
           {mod && (
             <>

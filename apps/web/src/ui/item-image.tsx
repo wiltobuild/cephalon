@@ -13,10 +13,13 @@ export function ItemImage({
   className?: string;
   priority?: boolean;
 }) {
-  const source = `/api/item-image?kind=${encodeURIComponent(kind)}&name=${encodeURIComponent(name)}`;
+  const tauforged = kind == "shard" && /^Tauforged /i.test(name);
+  const source = `/api/item-image?kind=${encodeURIComponent(kind)}&name=${encodeURIComponent(name)}${tauforged ? "&v=2" : ""}`;
   const [failed, setFailed] = useState<string | null>(null);
   return (
-    <span className={`item-image ${className}`}>
+    <span
+      className={`item-image ${tauforged ? "is-tauforged" : ""} ${className}`}
+    >
       {failed === source ? (
         <span
           className="item-image-fallback"
@@ -34,7 +37,9 @@ export function ItemImage({
           sizes="(max-width: 700px) 160px, 360px"
           priority={priority}
           onError={() => setFailed(source)}
-          style={{ objectFit: "contain" }}
+          style={{
+            objectFit: "contain",
+          }}
         />
       )}
     </span>

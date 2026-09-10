@@ -1,4 +1,9 @@
 "use client";
+import {
+  modCapacityAtRank,
+  modSlotCapacityCost,
+} from "@cephalon/services/capacity";
+import { PolarityIcon, PolarityPicker } from "./polarity";
 import { useEffect, useState } from "react";
 import { ModCard } from "./mod-card";
 import { ItemImage } from "./item-image";
@@ -20,20 +25,24 @@ type Stats = {
   extras?: Record<string, number>;
 };
 export type EditorProps = {
+  form?: "sirius" | "orion";
   warframeId: string;
   initialMods: ModSlot[];
+  initialPolarities: Record<number, string | null>;
   mods: (CompatibleMod & { slotKind: string })[];
   shards: Shard[];
   initialShards: Choice[];
   sourceStats: Stats;
   shardText: string;
   auraCount: number;
+  arcanes: string[];
 };
 const label = (s: string) =>
   s.replace(/([a-z])([A-Z])/g, "$1 $2").replace(/^./, (c) => c.toUpperCase());
 export function WarframeEditor(p: EditorProps) {
   const [custom, setCustom] = useState(false),
     [mods, setMods] = useState(p.initialMods),
+    [polarities, setPolarities] = useState(p.initialPolarities),
     [shards, setShards] = useState(p.initialShards),
     [include, setInclude] = useState(false),
     [result, setResult] = useState<Stats>(p.sourceStats),
@@ -58,6 +67,7 @@ export function WarframeEditor(p: EditorProps) {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             warframeId: p.warframeId,
+            form: p.form,
             mods,
             shards,
             includeShards: include,
@@ -82,19 +92,52 @@ export function WarframeEditor(p: EditorProps) {
       clearTimeout(timer);
       controller.abort();
     };
-  }, [mods, shards, include, custom, p.sourceStats, p.warframeId]);
+  }, [mods, shards, include, custom, p.sourceStats, p.warframeId, p.form]);
   const update = (slotIndex: number, modId: string, rank: number) =>
     setMods((m) => [
       ...m.filter((s) => s.slotIndex !== slotIndex),
       { slotIndex, modId, rank },
     ]);
+  const costs = new Map(
+    mods.map((entry) => {
+      const mod = p.mods.find((m) => m.id === entry.modId);
+      return [
+        entry.slotIndex,
+        mod
+          ? modSlotCapacityCost(
+              modCapacityAtRank(mod.drain, entry.rank),
+              polarities[entry.slotIndex],
+              mod.polarity,
+            )
+          : 0,
+      ];
+    }),
+  );
+  const used = [...costs.values()].reduce(
+    (sum, cost) => sum + Math.max(0, cost),
+    0,
+  );
+  const auraBonus = [...costs.values()].reduce(
+    (sum, cost) => sum - Math.min(0, cost),
+    0,
+  );
+  const total = 60 + auraBonus;
+  const unspecified = mods.some((m) => polarities[m.slotIndex] == null);
   const slot = (i: number) => {
     const equipped = mods.find((s) => s.slotIndex === i),
       mod = p.mods.find((m) => m.id === equipped?.modId);
     return (
-      <article key={i}>
+      <article key={i} data-slot-polarized={Boolean(polarities[i])}>
         <span className="wf-slot">
           {i < 8 ? `${i + 1}` : i === 8 ? "EXILUS" : `AURA ${i - 8}`}
+          <span className="wf-polarity-badge">
+            <PolarityIcon value={polarities[i] ?? ""} />
+            {polarities[i]
+              ? "POLARIZED"
+              : polarities[i] === null
+                ? "UNSPECIFIED"
+                : "UNPOLARIZED"}
+          </span>
         </span>
         <button
           className="wf-mod-pick"
@@ -106,13 +149,32 @@ export function WarframeEditor(p: EditorProps) {
           }}
         >
           {mod ? (
-            <ModCard mod={mod} rank={equipped!.rank} compact />
+            <ModCard
+              mod={mod}
+              rank={equipped!.rank}
+              capacityCost={costs.get(i)}
+              compact
+            />
           ) : (
             <span className="wf-empty">＋ Add mod</span>
           )}
         </button>
         <footer>
-          <span>{mod?.polarity ?? "None"}</span>
+          {custom ? (
+            <PolarityPicker
+              label={`Polarity for Warframe slot ${i + 1}`}
+              value={polarities[i] ?? ""}
+              onChange={(value) => setPolarities((s) => ({ ...s, [i]: value }))}
+            />
+          ) : (
+            <span className="wf-slot-polarity-caption">
+              {polarities[i]
+                ? "Polarized slot"
+                : polarities[i] === null
+                  ? "Polarity not specified"
+                  : "Unpolarized slot"}
+            </span>
+          )}
           {custom && mod ? (
             <>
               <select
@@ -152,6 +214,7 @@ export function WarframeEditor(p: EditorProps) {
           onClick={() => {
             if (custom) {
               setMods(p.initialMods);
+              setPolarities(p.initialPolarities);
               setShards(p.initialShards);
               setInclude(false);
             }
@@ -252,9 +315,53 @@ export function WarframeEditor(p: EditorProps) {
                 : "Customize to edit mods"}
             </span>
           </div>
-          <div className="wf-mod-grid wf-aura-grid">
-            {Array.from({ length: p.auraCount }, (_, i) => slot(9 + i))}
-            {slot(8)}
+          <section
+            className="wf-capacity"
+            data-over-capacity={used > total}
+            aria-label="Mod capacity"
+          >
+            <div>
+              <h3>MOD CAPACITY</h3>
+              <strong data-capacity-total>
+                {used} / {total}
+              </strong>
+              <span>
+                {used > total
+                  ? `${used - total} over capacity`
+                  : `${total - used} remaining`}
+              </span>
+            </div>
+            <meter
+              min={0}
+              max={total}
+              value={Math.min(used, total)}
+              aria-label="Used capacity"
+            />
+            <p>
+              Rank 30 · Orokin Reactor · 60 base + {auraBonus} aura capacity
+            </p>
+            {unspecified && (
+              <small>
+                Unspecified slot polarities are counted as unpolarized.
+              </small>
+            )}
+          </section>
+          <div className="wf-upper-loadout" data-double-aura={p.auraCount > 1}>
+            <div className="wf-mod-grid wf-aura-grid">
+              {Array.from({ length: p.auraCount }, (_, i) => slot(9 + i))}
+              {slot(8)}
+            </div>
+            <section className="wf-arcane-stack" aria-label="Equipped arcanes">
+              {p.arcanes.filter(Boolean).map((a) => (
+                <div key={a}>
+                  <ItemImage
+                    kind="arcane"
+                    name={a.replace(/\s*\(.*?\)/g, "")}
+                  />
+                  <span>{a}</span>
+                </div>
+              ))}
+            </section>
           </div>
           <div className="wf-mod-grid">
             {Array.from({ length: 8 }, (_, i) => slot(i))}

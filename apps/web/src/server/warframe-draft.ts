@@ -3,10 +3,16 @@ export function calculateWarframeDraft(input: unknown) {
   if (!input || typeof input !== "object") throw new Error("Invalid build.");
   const b = input as {
     warframeId: string;
+    form?: "sirius" | "orion";
     mods: { modId: string; rank: number; slotIndex: number }[];
     shards: ({ shardId: string; effect: string } | null)[];
     includeShards: boolean;
   };
+  if (
+    b.form !== undefined &&
+    (b.warframeId !== "sirius_orion" || !["sirius", "orion"].includes(b.form))
+  )
+    throw new Error("Invalid Warframe form.");
   const frame = catalog.getWarframe(b.warframeId);
   if (!frame) throw new Error("Unknown Warframe.");
   if (
@@ -41,7 +47,9 @@ export function calculateWarframeDraft(input: unknown) {
           ? mod.slotKind !== "exilus"
           : mod.slotKind === "aura"
     )
-      throw new Error(`Mod ${mod.name} (${mod.slotKind}) is not compatible with ${kind}.`);
+      throw new Error(
+        `Mod ${mod.name} (${mod.slotKind}) is not compatible with ${kind}.`,
+      );
     const family = mod.name.replace(/^(Primed|Umbral|Archon) /, "");
     if (seen.has(family) || slots.has(slot.slotIndex))
       throw new Error("Duplicate mods or variants are not allowed.");
@@ -64,6 +72,7 @@ export function calculateWarframeDraft(input: unknown) {
   });
   const raw = builds.calculateWarframe({
     warframeId: frame.id,
+    form: b.form,
     modSlots: b.mods,
     archonShards: b.includeShards ? shards : [],
   }).rawStats;

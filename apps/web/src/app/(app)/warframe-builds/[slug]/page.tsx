@@ -1,6 +1,12 @@
+import { auditedForma, guidePolarities } from "@/server/guide-polarities";
+import type { Guide } from "@/server/guide-types";
+import { equipmentGuides } from "@/server/equipment-guides";
+import { BuildTabs } from "@/ui/build-tabs";
+import { FormaCost } from "@/ui/forma-cost";
+import { linkedExaltedGuides, orionGuide } from "@/server/linked-guides";
 import { calculateWarframeDraft } from "@/server/warframe-draft";
 import aliases from "@/server/guide-aliases.json";
-import { GuideLoadout } from "@/ui/guide-content";
+import { GuideLoadout, GuideSections } from "@/ui/guide-content";
 import { StatRadar } from "@/ui/warframe-builds";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
@@ -34,16 +40,14 @@ function RichText({ text }: { text: string }) {
     </div>
   );
 }
-export default async function Page({
-  params,
+function WarframeGuideView({
+  guide,
+  form,
 }: {
-  params: Promise<{ slug: string }>;
+  guide: Guide;
+  form?: "sirius" | "orion";
 }) {
-  const { slug } = await params;
-  const alias = (aliases as Record<string, string>)[slug];
-  if (alias) permanentRedirect(`/warframe-builds/${alias}`);
-  const data = guideDetails(slug);
-  if (!data) notFound();
+  const data = guideDetails(guide.slug, guide)!;
   const { guide: g, frame, mods } = data;
   const shards = g.sections.find((s) => s.title === "Archon Shards");
   const initialMods = [
@@ -71,6 +75,7 @@ export default async function Page({
     try {
       calculateWarframeDraft({
         warframeId: frame.id,
+        form,
         mods: initialMods,
         shards: g.shardSlots,
         includeShards: true,
@@ -82,14 +87,15 @@ export default async function Page({
   }
   return (
     <div className="wf-page">
-      <Link className="wf-back" href="/warframe-builds">
-        ← Warframe builds
-      </Link>
       <header className="wf-build-header">
         <div>
           <span className="wf-approved">✓ Cephalon approved guide</span>
           <p className="wf-kicker">{g.frame}</p>
-          <h1>{g.title}</h1>
+          <h1>
+            {g.title}
+            {form ? ` · ${form === "sirius" ? "Sirius" : "Orion"}` : ""}
+          </h1>
+          <FormaCost investment={g.meta.Investment} audit={auditedForma(g)} />
           <p>{g.subtitle}</p>
           <div className="wf-tags">
             <span>{g.meta.Role}</span>
@@ -98,26 +104,47 @@ export default async function Page({
             ))}
           </div>
         </div>
-        <ItemImage kind="warframe" name={g.frame} priority />
+        <ItemImage
+          kind="warframe"
+          name={
+            form === "orion"
+              ? "Orion & Sirius"
+              : g.frame.replace("Sirius and Orion", "Sirius & Orion")
+          }
+          priority
+        />
       </header>
       {editable && frame ? (
         <WarframeEditor
+          form={form}
           warframeId={frame!.id}
           mods={catalog.compatibleWarframeMods(frame!.id)}
           shards={catalog.getArchonShards()}
           initialShards={g.shardSlots}
-          sourceStats={{
-            stats: g.stats,
-            pools: Object.fromEntries(
-              Object.entries(g.pools).filter(
-                (entry): entry is [string, number] =>
-                  typeof entry[1] === "number",
-              ),
-            ),
-          }}
+          sourceStats={
+            form === "orion"
+              ? calculateWarframeDraft({
+                  warframeId: frame.id,
+                  form,
+                  mods: initialMods,
+                  shards: g.shardSlots,
+                  includeShards: false,
+                })
+              : {
+                  stats: g.stats,
+                  pools: Object.fromEntries(
+                    Object.entries(g.pools).filter(
+                      (entry): entry is [string, number] =>
+                        typeof entry[1] === "number",
+                    ),
+                  ),
+                }
+          }
           shardText={shards?.text ?? ""}
           auraCount={g.auras.length}
+          arcanes={g.arcanes}
           initialMods={initialMods}
+          initialPolarities={guidePolarities(g)}
         />
       ) : (
         <>
@@ -129,21 +156,18 @@ export default async function Page({
           <GuideLoadout guide={g} />
         </>
       )}
-      {editable && (
-        <details className="guide-loadout">
-          <summary>Author’s full configuration and arsenal figures</summary>
-          <RichText text={g.buildText} />
-        </details>
+
+      {!editable && (
+        <section className="wf-equipped-arcanes">
+          <h2>ARCANES</h2>
+          {g.arcanes.map((a) => (
+            <div key={a}>
+              <ItemImage kind="arcane" name={a.replace(/\s*\(.*?\)/g, "")} />
+              <span>{a}</span>
+            </div>
+          ))}
+        </section>
       )}
-      <section className="wf-equipped-arcanes">
-        <h2>ARCANES</h2>
-        {g.arcanes.map((a) => (
-          <div key={a}>
-            <ItemImage kind="arcane" name={a.replace(/\s*\(.*?\)/g, "")} />
-            <span>{a}</span>
-          </div>
-        ))}
-      </section>
       <section className="wf-abilities">
         <div className="wf-section-title">
           <h2>ABILITIES</h2>
@@ -155,13 +179,31 @@ export default async function Page({
           </p>
         )}
         <div>
-          {frame?.abilities.map((a, i) => (
-            <article key={a.name}>
-              <span>{i + 1}</span>
-              <h3>{a.name}</h3>
-              <p>{a.description.replace(/<[^>]+>/g, "")}</p>
-            </article>
-          ))}
+          {frame?.abilities
+            .filter(
+              (_, i) =>
+                !form ||
+                (form === "sirius" ? [0, 2, 4, 6] : [1, 3, 5, 6]).includes(i),
+            )
+            .map((a, i) => (
+              <article key={a.name}>
+                <header className="wf-ability-heading">
+                  <ItemImage
+                    kind="ability"
+                    name={a.name}
+                    className="wf-ability-icon"
+                  />
+                  <h3>{a.name}</h3>
+                  <span
+                    className="wf-ability-number"
+                    aria-label={`Ability ${i + 1}`}
+                  >
+                    {i + 1}
+                  </span>
+                </header>
+                <p>{a.description.replace(/<[^>]+>/g, "")}</p>
+              </article>
+            ))}
         </div>
         {!frame && (
           <p>
@@ -179,7 +221,7 @@ export default async function Page({
           {g.sections
             .filter((s) => s.title !== "Archon Shards")
             .map((s, i) => (
-              <a key={i} href={`#guide-${i}`}>
+              <a key={i} href={`#${form ?? g.slug}-guide-${i}`}>
                 {s.title}
               </a>
             ))}
@@ -188,13 +230,83 @@ export default async function Page({
           {g.sections
             .filter((s) => s.title !== "Archon Shards")
             .map((s, i) => (
-              <section id={`guide-${i}`} key={i}>
+              <section id={`${form ?? g.slug}-guide-${i}`} key={i}>
                 <h3>{s.title}</h3>
                 <RichText text={s.text} />
               </section>
             ))}
         </div>
       </section>
+    </div>
+  );
+}
+
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const alias = (aliases as Record<string, string>)[slug];
+  if (alias) permanentRedirect(`/warframe-builds/${alias}`);
+  const data = guideDetails(slug);
+  if (!data) notFound();
+  const g = data.guide;
+  const dual = g.frame.includes("Sirius");
+  const tabs = [
+    {
+      label: dual ? "Sirius" : g.frame,
+      content: (
+        <WarframeGuideView guide={g} form={dual ? "sirius" : undefined} />
+      ),
+    },
+    ...(dual
+      ? [
+          {
+            label: "Orion",
+            content: <WarframeGuideView guide={orionGuide(g)} form="orion" />,
+          },
+        ]
+      : []),
+    ...linkedExaltedGuides(g, equipmentGuides).map((e) => ({
+      label: `${e.frame} · ${e.title}`,
+      content: (
+        <div className="wf-page">
+          <header className="wf-build-header">
+            <div>
+              <span className="wf-approved">✓ Cephalon approved</span>
+              <p className="wf-kicker">{e.frame}</p>
+              <h1>{e.title}</h1>
+              <FormaCost investment={e.meta.Investment} />
+              <p>{e.subtitle}</p>
+            </div>
+            <ItemImage name={e.frame} />
+          </header>
+          <section className="guide-performance">
+            <h2>BUILD PERFORMANCE</h2>
+            <p>{e.statText}</p>
+          </section>
+          <GuideLoadout guide={e} />
+          <section className="wf-equipped-arcanes">
+            <h2>ARCANES</h2>
+            {e.arcanes.filter(Boolean).map((a) => (
+              <div key={a}>
+                <ItemImage kind="arcane" name={a.replace(/\s*\(.*?\)/g, "")} />
+                <span>{a}</span>
+              </div>
+            ))}
+          </section>
+          <GuideSections guide={e} />
+        </div>
+      ),
+    })),
+  ];
+  return (
+    <div className="linked-build-page">
+      <Link className="wf-back" href="/warframe-builds">
+        ← Warframe builds
+      </Link>
+      {tabs.length > 1 ? <BuildTabs tabs={tabs} /> : tabs[0].content}
     </div>
   );
 }

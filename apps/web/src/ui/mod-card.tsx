@@ -1,28 +1,26 @@
 "use client";
+import { modCapacityAtRank } from "@cephalon/services/capacity";
+import { PolarityIcon } from "./polarity";
 import type { CompatibleMod } from "@/server/contracts";
 import { ItemImage } from "./item-image";
 import Image from "next/image";
 import { useState } from "react";
 import "./mod-card.css";
 
-const symbols: Record<string, string> = {
-  madurai: "Ⅴ",
-  vazarin: "Ｄ",
-  naramon: "−",
-  zenurik: "＝",
-  umbra: "Ｕ",
-  penjaga: "Ｙ",
-};
 export function ModCard({
   mod,
   rank = mod.maxRank,
   compact = false,
+  capacityCost,
 }: {
   mod: CompatibleMod;
   rank?: number;
   compact?: boolean;
+  capacityCost?: number;
 }) {
   const [failedCard, setFailedCard] = useState<string | null>(null);
+  const baseCost = modCapacityAtRank(mod.drain, rank);
+  const cost = capacityCost ?? baseCost;
   const exactRank = mod.rankText?.[rank];
   const effect = (exactRank ?? mod.primaryEffect)
     .replace(/<[^>]+>/g, "")
@@ -44,9 +42,9 @@ export function ModCard({
         </span>
       )}
       <span className="game-mod-capacity">
-        <b>{mod.drain + rank}</b>
+        <b>{cost < 0 ? `+${-cost}` : cost}</b>
         <span aria-label={`${mod.polarity} polarity`}>
-          {symbols[mod.polarity] ?? "◇"}
+          <PolarityIcon value={mod.polarity} />
         </span>
       </span>
       <span className="game-mod-art">
@@ -71,7 +69,10 @@ export function ModCard({
         <span>{effect}</span>
         <small>
           {exactRank ? `Effects at rank ${rank}` : "Effects shown at max rank"}{" "}
-          · {mod.drain + rank} base drain
+          ·{" "}
+          {baseCost < 0
+            ? `+${-baseCost} base capacity`
+            : `${baseCost} base drain`}
         </small>
       </span>
     </span>

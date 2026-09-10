@@ -1,3 +1,4 @@
+import { auditedForma } from "@/server/guide-polarities";
 import { PageMasthead } from "@/ui/page-masthead";
 import { guides } from "@/server/warframe-guides";
 import { GuideDirectory } from "@/ui/warframe-builds";
@@ -11,10 +12,19 @@ export default async function Page({
   const { q } = await searchParams;
   return (
     <div className="wf-page">
-      <PageMasthead eyebrow="ARSENAL / CURATED LOADOUTS" title="Warframe builds." description="Find your frame. Learn the setup. Make it yours." art="Mesa Prime" action={{href:"/arsenal",label:"Explore arsenal"}}/>
+      <PageMasthead
+        eyebrow="ARSENAL / CURATED LOADOUTS"
+        title="Warframe builds."
+        description="Find your frame. Learn the setup. Make it yours."
+        art="Mesa Prime"
+        action={{ href: "/arsenal", label: "Explore arsenal" }}
+      />
       <GuideDirectory
         initialQuery={q ?? ""}
         guides={guides.map((g) => ({
+          investment: g.meta.Investment ?? "",
+          formaAudit: auditedForma(g),
+          stats: g.stats,
           slug: g.slug,
           title: g.title,
           frame: g.frame,
