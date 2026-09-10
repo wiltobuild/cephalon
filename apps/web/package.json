@@ -8,7 +8,8 @@
     "typecheck": "tsc --noEmit",
     "e2e": "playwright test",
     "pretest": "pnpm --filter @cephalon/engine build",
-    "test": "vitest run"
+    "test": "vitest run",
+    "prebuild": "pnpm --filter @cephalon/engine build"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
