@@ -188,18 +188,18 @@ function WarframeGuideView({
             .map((a, i) => (
               <article key={a.name}>
                 <header className="wf-ability-heading">
-                  <ItemImage
-                    kind="ability"
-                    name={a.name}
-                    className="wf-ability-icon"
-                  />
-                  <h3>{a.name}</h3>
                   <span
                     className="wf-ability-number"
                     aria-label={`Ability ${i + 1}`}
                   >
                     {i + 1}
                   </span>
+                  <h3>{a.name}</h3>
+                  <ItemImage
+                    kind="ability"
+                    name={a.name}
+                    className="wf-ability-icon"
+                  />
                 </header>
                 <p>{a.description.replace(/<[^>]+>/g, "")}</p>
               </article>
