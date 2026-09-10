@@ -1,3 +1,4 @@
+import { ConfidenceBadge } from "@/ui";
 import { auditedForma, guidePolarities } from "@/server/guide-polarities";
 import type { Guide } from "@/server/guide-types";
 import { equipmentGuides } from "@/server/equipment-guides";
@@ -89,7 +90,7 @@ function WarframeGuideView({
     <div className="wf-page">
       <header className="wf-build-header">
         <div>
-          <span className="wf-approved">✓ Cephalon approved guide</span>
+          <span className="wf-approved">Curated build</span>
           <p className="wf-kicker">{g.frame}</p>
           <h1>
             {g.title}
@@ -150,6 +151,8 @@ function WarframeGuideView({
         <>
           <section className="guide-performance">
             <h2>BUILD PERFORMANCE</h2>
+            <ConfidenceBadge tag="pending-verification" />
+            <p>Imported guide figures</p>
             <p>{g.statText}</p>
             <StatRadar stats={g.stats} />
           </section>
@@ -274,7 +277,7 @@ export default async function Page({
         <div className="wf-page">
           <header className="wf-build-header">
             <div>
-              <span className="wf-approved">✓ Cephalon approved</span>
+              <span className="wf-approved">Curated build</span>
               <p className="wf-kicker">{e.frame}</p>
               <h1>{e.title}</h1>
               <FormaCost investment={e.meta.Investment} />
@@ -284,6 +287,8 @@ export default async function Page({
           </header>
           <section className="guide-performance">
             <h2>BUILD PERFORMANCE</h2>
+            <ConfidenceBadge tag="pending-verification" />
+            <p>Imported guide figures</p>
             <p>{e.statText}</p>
           </section>
           <GuideLoadout guide={e} />

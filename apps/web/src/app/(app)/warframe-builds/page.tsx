@@ -1,3 +1,4 @@
+import { BuildLibraryNav } from "@/ui/build-library-nav";
 import { auditedForma } from "@/server/guide-polarities";
 import { PageMasthead } from "@/ui/page-masthead";
 import { guides } from "@/server/warframe-guides";
@@ -19,6 +20,7 @@ export default async function Page({
         art="Mesa Prime"
         action={{ href: "/arsenal", label: "Explore arsenal" }}
       />
+      <BuildLibraryNav />
       <GuideDirectory
         initialQuery={q ?? ""}
         guides={guides.map((g) => ({

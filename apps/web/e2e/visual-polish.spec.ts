@@ -156,7 +156,7 @@ test("aura capacity follows rank and matching, neutral, and mismatched polaritie
     .click();
   await expect(total).toHaveText("73 / 60");
   await page
-    .getByRole("button", { name: "Reset to approved build", exact: true })
+    .getByRole("button", { name: "Reset to curated build", exact: true })
     .click();
   await expect(total).toHaveText("73 / 74");
   await page.setViewportSize({ width: 390, height: 844 });

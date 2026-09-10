@@ -1,8 +1,9 @@
+import { presentGuide } from "./guide-presentation";
 import "server-only";
 import samples from "./warframe-guides.json";
 import { catalog } from "./services";
 import type { Guide } from "./guide-types";
-export const guides: Guide[] = samples as Guide[];
+export const guides: Guide[] = (samples as Guide[]).map(presentGuide);
 export function guideDetails(slug: string, override?: Guide) {
   const source = override ?? guides.find((g) => g.slug === slug);
   const guide =

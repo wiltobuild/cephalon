@@ -173,3 +173,21 @@ describe("legal weapon builds", () => {
     );
   });
 });
+
+test("API validation refuses unsupported mods even when manually submitted", () => {
+  const catalog = new CatalogService();
+  for (const modId of [
+    "wellspring",
+    "rifle_riven_mod",
+    "madurai_transmute_core",
+    "argent_scourge",
+    "phoenix_spirit",
+  ])
+    expect(() =>
+      validateWeaponBuild(catalog, {
+        weaponId: "braton_prime",
+        modSlots: [{ modId, rank: 0, slotIndex: 0 }],
+        scenario: { headshots: false, statusTypesOnTarget: 0 },
+      }),
+    ).toThrow();
+});

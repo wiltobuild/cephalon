@@ -49,7 +49,7 @@ export function EquipmentDirectory({
               name={g.frame.replace(/ Incarnon$/, "").replace(/ \(.*?\)$/, "")}
             />
             <div>
-              <span className="wf-approved">✓ Cephalon approved</span>
+              <span className="wf-approved">Curated build</span>
               <p className="wf-kicker">{g.frame}</p>
               <h2>{g.title}</h2>
               <FormaCost investment={g.investment} />

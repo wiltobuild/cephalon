@@ -1,3 +1,4 @@
+import { ConfidenceBadge } from "@/ui";
 import { FormaCost } from "@/ui/forma-cost";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -26,7 +27,7 @@ export default async function Page({
       </Link>
       <header className="wf-build-header">
         <div>
-          <span className="wf-approved">✓ Cephalon approved guide</span>
+          <span className="wf-approved">Curated build</span>
           <p className="wf-kicker">{g.frame}</p>
           <h1>{g.title}</h1>
           <FormaCost investment={g.meta.Investment} />
@@ -50,6 +51,8 @@ export default async function Page({
       {g.statText && (
         <section className="guide-performance">
           <h2>BUILD PERFORMANCE</h2>
+          <ConfidenceBadge tag="pending-verification" />
+          <p>Imported guide figures</p>
           <p>{g.statText}</p>
         </section>
       )}

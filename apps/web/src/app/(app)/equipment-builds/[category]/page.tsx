@@ -1,3 +1,4 @@
+import { BuildLibraryNav } from "@/ui/build-library-nav";
 import { PageMasthead } from "@/ui/page-masthead";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -61,6 +62,7 @@ export default async function Page({
           </Link>
         ))}
       </nav>
+      <BuildLibraryNav />
       <EquipmentDirectory
         initialQuery={(await searchParams).q ?? ""}
         guides={categoryGuides(c).map((g) => ({

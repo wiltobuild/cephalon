@@ -3,35 +3,420 @@
 import * as DialogPrimitive from "@radix-ui/react-dialog";
 import * as TabsPrimitive from "@radix-ui/react-tabs";
 import * as TooltipPrimitive from "@radix-ui/react-tooltip";
-import { type ButtonHTMLAttributes, type InputHTMLAttributes, type LabelHTMLAttributes, type ReactElement, type ReactNode, useId, useRef } from "react";
+import {
+  type ButtonHTMLAttributes,
+  type InputHTMLAttributes,
+  type LabelHTMLAttributes,
+  type ReactElement,
+  type ReactNode,
+  useId,
+  useRef,
+} from "react";
 import "./ui.css";
 
-export const cx = (...v: Array<string | false | undefined>) => v.filter(Boolean).join(" ");
-export function UiProvider({ children }: { children: ReactNode }) { return <TooltipPrimitive.Provider>{children}</TooltipPrimitive.Provider>; }
-type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & { variant?: "primary" | "secondary" | "ghost" | "danger"; size?: "sm" | "md"; leadingIcon?: ReactNode };
-export function Button({ variant = "primary", size = "sm", leadingIcon, children, className, ...props }: ButtonProps) { return <button className={cx("button", `button--${variant}`, `button--${size}`, className)} {...props}>{leadingIcon}{children}</button>; }
-export function IconButton({ label, children, ...props }: ButtonHTMLAttributes<HTMLButtonElement> & { label: string }) { return <button aria-label={label} className="icon-button" {...props}>{children}</button>; }
-export function Panel({ title, actions, inset, chamfer, children, className }: { title?: ReactNode; actions?: ReactNode; inset?: boolean; chamfer?: boolean; children: ReactNode; className?: string }) { return <section className={cx("panel", inset && "panel--inset", chamfer && "chamfer", className)}>{title && <header className="panel__header"><span className="panel__title">{title}</span>{actions}</header>}<div className="panel__body">{children}</div></section>; }
-export function Card({ children, className }: { children: ReactNode; className?: string }) { return <article className={cx("card", className)}>{children}</article>; }
-export type ConfidenceTag = "verified" | "approximation" | "not-modeled" | "pending-verification";
-const confidence: Record<ConfidenceTag, { label: string; description: string; tone: string }> = { verified: { label: "Verified", description: "Confirmed by tested mechanics.", tone: "positive" }, approximation: { label: "Approximation", description: "A useful estimate; exact behavior may vary.", tone: "warning" }, "not-modeled": { label: "Not modeled", description: "This mechanic is intentionally absent from this result.", tone: "muted" }, "pending-verification": { label: "Pending", description: "Awaiting verification against in-game behavior.", tone: "info" } };
-export function Badge({ children, variant = "muted" }: { children: ReactNode; variant?: "muted" | "positive" | "warning" | "info" | "rare" | "legendary" }) { return <span className={`badge badge--${variant}`}>{children}</span>; }
-export function ConfidenceBadge({ tag }: { tag: ConfidenceTag }) { const item = confidence[tag]; return <Tooltip label={item.description}><span data-confidence={tag}><Badge variant={item.tone as "positive"}>{item.label}</Badge></span></Tooltip>; }
-export function Stat({ label, value, delta, confidence: tag }: { label: string; value: ReactNode; delta?: number; confidence?: ConfidenceTag }) { return <div className="stat"><div className="stat__label">{label}</div><div className="stat__value">{value}</div>{(delta !== undefined || tag) && <div className="stat__meta">{delta !== undefined && <span className={delta >= 0 ? "delta--positive" : "delta--negative"}>{delta >= 0 ? "+" : ""}{delta}%</span>}{tag && <ConfidenceBadge tag={tag} />}</div>}</div>; }
-export function StatGrid({ children }: { children: ReactNode }) { return <div className="stat-grid">{children}</div>; }
-export function StatRow({ children }: { children: ReactNode }) { return <div className="stat-row">{children}</div>; }
-export function Table({ headers, rows, stickyHeader = false }: { headers: string[]; rows: ReactNode[][]; stickyHeader?: boolean }) { return <div className="table-wrap"><table className={cx("table", stickyHeader && "table--sticky")}><thead><tr>{headers.map((h) => <th key={h} scope="col">{h} ↕</th>)}</tr></thead><tbody>{rows.map((row, i) => <tr key={i}>{row.map((cell, j) => <td key={j}>{cell}</td>)}</tr>)}</tbody></table></div>; }
-export function SegmentedControl({ options, value, onChange }: { options: string[]; value: string; onChange: (value: string) => void }) { const id = useId(); const refs = useRef<Array<HTMLButtonElement | null>>([]); const move = (index: number) => { const next = (index + options.length) % options.length; onChange(options[next]); refs.current[next]?.focus(); }; return <div role="radiogroup" aria-label="Segmented control" className="segmented">{options.map((option, index) => <button key={option} ref={(node) => { refs.current[index] = node; }} id={`${id}-${option}`} role="radio" className="segment" aria-checked={option === value} tabIndex={option === value ? 0 : -1} onClick={() => onChange(option)} onKeyDown={(event) => { if (event.key === "ArrowRight" || event.key === "ArrowDown") { event.preventDefault(); move(index + 1); } if (event.key === "ArrowLeft" || event.key === "ArrowUp") { event.preventDefault(); move(index -1); } }}>{option}</button>)}</div>; }
-export function Tabs({ tabs }: { tabs: Array<{ label: string; content: ReactNode }> }) { return <TabsPrimitive.Root defaultValue={tabs[0]?.label}><TabsPrimitive.List className="tabs">{tabs.map((tab) => <TabsPrimitive.Trigger key={tab.label} value={tab.label} className="tab">{tab.label}</TabsPrimitive.Trigger>)}</TabsPrimitive.List>{tabs.map((tab) => <TabsPrimitive.Content key={tab.label} value={tab.label}>{tab.content}</TabsPrimitive.Content>)}</TabsPrimitive.Root>; }
-export function Tooltip({ label, children }: { label: string; children: ReactElement }) { return <TooltipPrimitive.Root><TooltipPrimitive.Trigger asChild>{children}</TooltipPrimitive.Trigger><TooltipPrimitive.Portal><TooltipPrimitive.Content className="tooltip__content" sideOffset={8}>{label}</TooltipPrimitive.Content></TooltipPrimitive.Portal></TooltipPrimitive.Root>; }
-type OverlayProps = { open: boolean; onOpenChange: (value: boolean) => void; title: string; children: ReactNode };
-function OverlayDialog({ open, onOpenChange, title, children, drawer = false }: OverlayProps & { drawer?: boolean }) { return <DialogPrimitive.Root open={open} onOpenChange={onOpenChange}><DialogPrimitive.Portal><DialogPrimitive.Overlay className="overlay" /><DialogPrimitive.Content className={cx("dialog", drawer && "drawer")}><header className="panel__header"><DialogPrimitive.Title className="panel__title">{title}</DialogPrimitive.Title><DialogPrimitive.Close asChild><IconButton label="Close">×</IconButton></DialogPrimitive.Close></header><div className="panel__body">{children}</div></DialogPrimitive.Content></DialogPrimitive.Portal></DialogPrimitive.Root>; }
-export function Dialog(props: OverlayProps) { return <OverlayDialog {...props} />; }
-export function Drawer(props: OverlayProps) { return <OverlayDialog {...props} drawer />; }
-export function Label({ children, ...props }: LabelHTMLAttributes<HTMLLabelElement>) { return <label className="label" {...props}>{children}</label>; }
-export function TextInput(props: InputHTMLAttributes<HTMLInputElement>) { return <input className="input" {...props} />; }
-export function NumberInput(props: InputHTMLAttributes<HTMLInputElement>) { return <input type="number" className="input number" {...props} />; }
-export function Kbd({ children }: { children: ReactNode }) { return <kbd className="kbd">{children}</kbd>; }
-export function Sparkline({ values }: { values: number[] }) { const max = Math.max(...values), min = Math.min(...values), points = values.map((v, i) => `${(i / Math.max(values.length - 1, 1)) * 100},${100 - ((v - min) / Math.max(max - min, 1)) * 100}`).join(" "); return <svg className="viz-line" viewBox="0 0 100 100" preserveAspectRatio="none" aria-label="Trend line"><polyline points={points} fill="none" stroke="var(--accent)" strokeWidth="3" vectorEffect="non-scaling-stroke" /></svg>; }
-export function MiniBar({ value }: { value: number }) { return <div className="mini-bar" aria-label={`${value}%`}><div className="mini-bar__fill" style={{ width: `${Math.max(0, Math.min(100, value))}%` }} /></div>; }
-export function RadialMeter({ value }: { value: number }) { const r = 40, c = 2 * Math.PI * r; return <svg className="radial" viewBox="0 0 100 100" aria-label={`${value}%`}><circle className="radial__track" cx="50" cy="50" r={r} /><circle className="radial__value" cx="50" cy="50" r={r} strokeDasharray={c} strokeDashoffset={c * (1 - value / 100)} /></svg>; }
+export const cx = (...v: Array<string | false | undefined>) =>
+  v.filter(Boolean).join(" ");
+export function UiProvider({ children }: { children: ReactNode }) {
+  return <TooltipPrimitive.Provider>{children}</TooltipPrimitive.Provider>;
+}
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+  variant?: "primary" | "secondary" | "ghost" | "danger";
+  size?: "sm" | "md";
+  leadingIcon?: ReactNode;
+};
+export function Button({
+  variant = "primary",
+  size = "sm",
+  leadingIcon,
+  children,
+  className,
+  ...props
+}: ButtonProps) {
+  return (
+    <button
+      className={cx(
+        "button",
+        `button--${variant}`,
+        `button--${size}`,
+        className,
+      )}
+      {...props}
+    >
+      {leadingIcon}
+      {children}
+    </button>
+  );
+}
+export function IconButton({
+  label,
+  children,
+  ...props
+}: ButtonHTMLAttributes<HTMLButtonElement> & { label: string }) {
+  return (
+    <button aria-label={label} className="icon-button" {...props}>
+      {children}
+    </button>
+  );
+}
+export function Panel({
+  title,
+  actions,
+  inset,
+  chamfer,
+  children,
+  className,
+}: {
+  title?: ReactNode;
+  actions?: ReactNode;
+  inset?: boolean;
+  chamfer?: boolean;
+  children: ReactNode;
+  className?: string;
+}) {
+  return (
+    <section
+      className={cx(
+        "panel",
+        inset && "panel--inset",
+        chamfer && "chamfer",
+        className,
+      )}
+    >
+      {title && (
+        <header className="panel__header">
+          <span className="panel__title">{title}</span>
+          {actions}
+        </header>
+      )}
+      <div className="panel__body">{children}</div>
+    </section>
+  );
+}
+export function Card({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
+}) {
+  return <article className={cx("card", className)}>{children}</article>;
+}
+export type ConfidenceTag =
+  "verified" | "approximation" | "not-modeled" | "pending-verification";
+const confidence: Record<
+  ConfidenceTag,
+  { label: string; description: string; tone: string }
+> = {
+  verified: {
+    label: "Verified",
+    description:
+      "Formula covered by regression tests with a cited source; not independently verified against the live game.",
+    tone: "positive",
+  },
+  approximation: {
+    label: "Approximation",
+    description: "A useful estimate; exact behavior may vary.",
+    tone: "warning",
+  },
+  "not-modeled": {
+    label: "Not modeled",
+    description: "This mechanic is intentionally absent from this result.",
+    tone: "muted",
+  },
+  "pending-verification": {
+    label: "Pending",
+    description: "Awaiting verification against in-game behavior.",
+    tone: "info",
+  },
+};
+export function Badge({
+  children,
+  variant = "muted",
+}: {
+  children: ReactNode;
+  variant?: "muted" | "positive" | "warning" | "info" | "rare" | "legendary";
+}) {
+  return <span className={`badge badge--${variant}`}>{children}</span>;
+}
+export function ConfidenceBadge({ tag }: { tag: ConfidenceTag }) {
+  const item = confidence[tag];
+  return (
+    <Tooltip label={item.description}>
+      <span tabIndex={0} data-confidence={tag}>
+        <Badge variant={item.tone as "positive"}>{item.label}</Badge>
+      </span>
+    </Tooltip>
+  );
+}
+export function Stat({
+  label,
+  value,
+  delta,
+  confidence: tag,
+}: {
+  label: string;
+  value: ReactNode;
+  delta?: number;
+  confidence?: ConfidenceTag;
+}) {
+  return (
+    <div className="stat">
+      <div className="stat__label">{label}</div>
+      <div className="stat__value">{value}</div>
+      {(delta !== undefined || tag) && (
+        <div className="stat__meta">
+          {delta !== undefined && (
+            <span
+              className={delta >= 0 ? "delta--positive" : "delta--negative"}
+            >
+              {delta >= 0 ? "+" : ""}
+              {delta}%
+            </span>
+          )}
+          {tag && <ConfidenceBadge tag={tag} />}
+        </div>
+      )}
+    </div>
+  );
+}
+export function StatGrid({ children }: { children: ReactNode }) {
+  return <div className="stat-grid">{children}</div>;
+}
+export function StatRow({ children }: { children: ReactNode }) {
+  return <div className="stat-row">{children}</div>;
+}
+export function Table({
+  headers,
+  rows,
+  stickyHeader = false,
+}: {
+  headers: string[];
+  rows: ReactNode[][];
+  stickyHeader?: boolean;
+}) {
+  return (
+    <div className="table-wrap">
+      <table className={cx("table", stickyHeader && "table--sticky")}>
+        <thead>
+          <tr>
+            {headers.map((h) => (
+              <th key={h} scope="col">
+                {h} ↕
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row, i) => (
+            <tr key={i}>
+              {row.map((cell, j) => (
+                <td key={j}>{cell}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+export function SegmentedControl({
+  options,
+  value,
+  onChange,
+}: {
+  options: string[];
+  value: string;
+  onChange: (value: string) => void;
+}) {
+  const id = useId();
+  const refs = useRef<Array<HTMLButtonElement | null>>([]);
+  const move = (index: number) => {
+    const next = (index + options.length) % options.length;
+    onChange(options[next]);
+    refs.current[next]?.focus();
+  };
+  return (
+    <div role="radiogroup" aria-label="Segmented control" className="segmented">
+      {options.map((option, index) => (
+        <button
+          key={option}
+          ref={(node) => {
+            refs.current[index] = node;
+          }}
+          id={`${id}-${option}`}
+          role="radio"
+          className="segment"
+          aria-checked={option === value}
+          tabIndex={option === value ? 0 : -1}
+          onClick={() => onChange(option)}
+          onKeyDown={(event) => {
+            if (event.key === "ArrowRight" || event.key === "ArrowDown") {
+              event.preventDefault();
+              move(index + 1);
+            }
+            if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
+              event.preventDefault();
+              move(index - 1);
+            }
+          }}
+        >
+          {option}
+        </button>
+      ))}
+    </div>
+  );
+}
+export function Tabs({
+  tabs,
+}: {
+  tabs: Array<{ label: string; content: ReactNode }>;
+}) {
+  return (
+    <TabsPrimitive.Root defaultValue={tabs[0]?.label}>
+      <TabsPrimitive.List className="tabs">
+        {tabs.map((tab) => (
+          <TabsPrimitive.Trigger
+            key={tab.label}
+            value={tab.label}
+            className="tab"
+          >
+            {tab.label}
+          </TabsPrimitive.Trigger>
+        ))}
+      </TabsPrimitive.List>
+      {tabs.map((tab) => (
+        <TabsPrimitive.Content key={tab.label} value={tab.label}>
+          {tab.content}
+        </TabsPrimitive.Content>
+      ))}
+    </TabsPrimitive.Root>
+  );
+}
+export function Tooltip({
+  label,
+  children,
+}: {
+  label: string;
+  children: ReactElement;
+}) {
+  return (
+    <TooltipPrimitive.Root>
+      <TooltipPrimitive.Trigger asChild>{children}</TooltipPrimitive.Trigger>
+      <TooltipPrimitive.Portal>
+        <TooltipPrimitive.Content className="tooltip__content" sideOffset={8}>
+          {label}
+        </TooltipPrimitive.Content>
+      </TooltipPrimitive.Portal>
+    </TooltipPrimitive.Root>
+  );
+}
+type OverlayProps = {
+  open: boolean;
+  onOpenChange: (value: boolean) => void;
+  title: string;
+  children: ReactNode;
+};
+function OverlayDialog({
+  open,
+  onOpenChange,
+  title,
+  children,
+  drawer = false,
+}: OverlayProps & { drawer?: boolean }) {
+  return (
+    <DialogPrimitive.Root open={open} onOpenChange={onOpenChange}>
+      <DialogPrimitive.Portal>
+        <DialogPrimitive.Overlay className="overlay" />
+        <DialogPrimitive.Content className={cx("dialog", drawer && "drawer")}>
+          <header className="panel__header">
+            <DialogPrimitive.Title className="panel__title">
+              {title}
+            </DialogPrimitive.Title>
+            <DialogPrimitive.Close asChild>
+              <IconButton label="Close">×</IconButton>
+            </DialogPrimitive.Close>
+          </header>
+          <div className="panel__body">{children}</div>
+        </DialogPrimitive.Content>
+      </DialogPrimitive.Portal>
+    </DialogPrimitive.Root>
+  );
+}
+export function Dialog(props: OverlayProps) {
+  return <OverlayDialog {...props} />;
+}
+export function Drawer(props: OverlayProps) {
+  return <OverlayDialog {...props} drawer />;
+}
+export function Label({
+  children,
+  ...props
+}: LabelHTMLAttributes<HTMLLabelElement>) {
+  return (
+    <label className="label" {...props}>
+      {children}
+    </label>
+  );
+}
+export function TextInput(props: InputHTMLAttributes<HTMLInputElement>) {
+  return <input className="input" {...props} />;
+}
+export function NumberInput(props: InputHTMLAttributes<HTMLInputElement>) {
+  return <input type="number" className="input number" {...props} />;
+}
+export function Kbd({ children }: { children: ReactNode }) {
+  return <kbd className="kbd">{children}</kbd>;
+}
+export function Sparkline({ values }: { values: number[] }) {
+  const max = Math.max(...values),
+    min = Math.min(...values),
+    points = values
+      .map(
+        (v, i) =>
+          `${(i / Math.max(values.length - 1, 1)) * 100},${100 - ((v - min) / Math.max(max - min, 1)) * 100}`,
+      )
+      .join(" ");
+  return (
+    <svg
+      className="viz-line"
+      viewBox="0 0 100 100"
+      preserveAspectRatio="none"
+      aria-label="Trend line"
+    >
+      <polyline
+        points={points}
+        fill="none"
+        stroke="var(--accent)"
+        strokeWidth="3"
+        vectorEffect="non-scaling-stroke"
+      />
+    </svg>
+  );
+}
+export function MiniBar({ value }: { value: number }) {
+  return (
+    <div className="mini-bar" aria-label={`${value}%`}>
+      <div
+        className="mini-bar__fill"
+        style={{ width: `${Math.max(0, Math.min(100, value))}%` }}
+      />
+    </div>
+  );
+}
+export function RadialMeter({ value }: { value: number }) {
+  const r = 40,
+    c = 2 * Math.PI * r;
+  return (
+    <svg className="radial" viewBox="0 0 100 100" aria-label={`${value}%`}>
+      <circle className="radial__track" cx="50" cy="50" r={r} />
+      <circle
+        className="radial__value"
+        cx="50"
+        cy="50"
+        r={r}
+        strokeDasharray={c}
+        strokeDashoffset={c * (1 - value / 100)}
+      />
+    </svg>
+  );
+}

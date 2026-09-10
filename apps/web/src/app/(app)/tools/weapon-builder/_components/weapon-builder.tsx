@@ -22,7 +22,7 @@ import {
   X,
 } from "lucide-react";
 import Link from "next/link";
-import { Dialog } from "@/ui";
+import { Dialog, ConfidenceBadge } from "@/ui";
 import { ItemImage } from "@/ui/item-image";
 import { ModCard } from "@/ui/mod-card";
 import { OwnedModPicker } from "@/ui/owned-mod-picker";
@@ -67,6 +67,16 @@ const number = (n?: number | null, digits = 1) =>
       );
 const metric = (result: BuildWeaponResponse | null, key: string) =>
   result?.stats.find((s) => s.key === key)?.value;
+function MetricConfidence({
+  result,
+  metricKey,
+}: {
+  result: BuildWeaponResponse | null;
+  metricKey: string;
+}) {
+  const tag = result?.stats.find((s) => s.key === metricKey)?.confidence;
+  return tag ? <ConfidenceBadge tag={tag} /> : null;
+}
 const damageColors: Record<string, string> = {
   impact: "#94a1af",
   puncture: "#bcae8a",
@@ -657,18 +667,27 @@ export function WeaponBuilder() {
               <div className={styles.statTiles}>
                 <div>
                   <span>Critical chance</span>
+                  <MetricConfidence
+                    result={result}
+                    metricKey="criticalChance"
+                  />
                   <strong>
                     {number((metric(result, "criticalChance") ?? 0) * 100)}%
                   </strong>
                 </div>
                 <div>
                   <span>Critical multiplier</span>
+                  <MetricConfidence
+                    result={result}
+                    metricKey="criticalMultiplier"
+                  />
                   <strong>
                     {number(metric(result, "criticalMultiplier"))}×
                   </strong>
                 </div>
                 <div>
                   <span>Status chance</span>
+                  <MetricConfidence result={result} metricKey="statusChance" />
                   <strong>
                     {number((metric(result, "statusChance") ?? 0) * 100)}%
                   </strong>
@@ -1024,6 +1043,49 @@ export function WeaponBuilder() {
             <h2>BUILD PERFORMANCE</h2>
             <span className={styles.liveDot} />
           </div>
+          <section className="ttk-focus" aria-label="Expected time to kill">
+            <div>
+              <h3>EXPECTED TTK</h3>
+              {result?.ttk && <ConfidenceBadge tag={result.ttk.confidence} />}
+            </div>
+            <strong>
+              {pending
+                ? "…"
+                : result?.ttk
+                  ? result.ttk.value == null
+                    ? result.ttk.outcome === "unsupported"
+                      ? "Unavailable"
+                      : "> 600 s"
+                    : `${number(result.ttk.value)} s`
+                  : "—"}
+            </strong>
+            <label>
+              TTK target
+              <select
+                aria-label="TTK target"
+                value={options.target}
+                onChange={(e) =>
+                  updateTarget(e.target.value as OptimizeOptions["target"])
+                }
+              >
+                <option value="general">
+                  Reference: Heavy Gunner · Grineer
+                </option>
+                {Object.keys(presetEnemy).map((f) => (
+                  <option key={f} value={f}>
+                    {f} · {presetEnemy[f].replaceAll("_", " ")}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <p>
+              {result?.ttk?.target.name ?? "Heavy Gunner"} · Level{" "}
+              {build.scenario.level ?? 100}
+              {options.target === "general"
+                ? " reference target · optimization remains faction agnostic"
+                : " · selected faction target"}
+            </p>
+          </section>
           <label className={styles.conditionalToggle}>
             <input
               type="checkbox"
@@ -1053,6 +1115,13 @@ export function WeaponBuilder() {
           <div className={styles.primaryMetric} data-metric="sustainedDps">
             {number(dps, 0)}
           </div>
+          <MetricConfidence result={result} metricKey="sustainedDps" />
+          {conditional && (
+            <p className="confidence-note">
+              <ConfidenceBadge tag="approximation" /> Conditions and maximum
+              stacks are assumed maintained.
+            </p>
+          )}
           {comparison && beforeDps != null && dps != null && (
             <div className={styles.delta} data-delta>
               {dps >= beforeDps ? "+" : ""}
@@ -1068,6 +1137,7 @@ export function WeaponBuilder() {
             ].map(([key, label, unit]) => (
               <div key={key}>
                 <span>{label}</span>
+                <MetricConfidence result={result} metricKey={key} />
                 <strong data-metric={key}>
                   {number(metric(result, key))}
                   {unit}
@@ -1076,27 +1146,20 @@ export function WeaponBuilder() {
             ))}
             <div>
               <span>Base DPS</span>
+              <MetricConfidence result={baseResult} metricKey="sustainedDps" />
               <strong data-metric="baseDps">
                 {number(metric(baseResult, "sustainedDps"), 0)}
               </strong>
             </div>
             <div>
               <span>Burst DPS</span>
+              <MetricConfidence result={result} metricKey="burstDps" />
               <strong>{number(metric(result, "burstDps"), 0)}</strong>
             </div>
             <div>
               <span>Modded base damage</span>
+              <MetricConfidence result={result} metricKey="totalDamage" />
               <strong>{number(metric(result, "totalDamage"))}</strong>
-            </div>
-            <div>
-              <span>Model TTK</span>
-              <strong>
-                {result?.ttk
-                  ? result.ttk.value == null
-                    ? "> 600 s"
-                    : `${number(result.ttk.value)} s`
-                  : "Choose faction"}
-              </strong>
             </div>
           </div>
           <div className={styles.divider} />
@@ -1124,21 +1187,51 @@ export function WeaponBuilder() {
           <div className={styles.secondaryMetrics}>
             <div>
               <span>Critical chance</span>
+              <MetricConfidence result={result} metricKey="criticalChance" />
               <strong>
                 {number((metric(result, "criticalChance") ?? 0) * 100)}%
               </strong>
             </div>
             <div>
               <span>Critical multiplier</span>
+              <MetricConfidence
+                result={result}
+                metricKey="criticalMultiplier"
+              />
               <strong>{number(metric(result, "criticalMultiplier"))}×</strong>
             </div>
             <div>
               <span>Status chance</span>
+              <MetricConfidence result={result} metricKey="statusChance" />
               <strong>
                 {number((metric(result, "statusChance") ?? 0) * 100)}%
               </strong>
             </div>
           </div>
+          <section
+            className="calculation-confidence"
+            aria-label="Calculation confidence"
+          >
+            <h3>CALCULATION COVERAGE</h3>
+            <p>
+              Verified means a tested, cited formula—not live-game validation.
+            </p>
+            {result?.caveats.map((text) => (
+              <p key={text}>
+                <ConfidenceBadge tag="approximation" /> {text}
+              </p>
+            ))}
+            {result?.ttk?.caveats.map((c) => (
+              <p key={c.key}>
+                <ConfidenceBadge tag={c.tag} /> {c.text}
+              </p>
+            ))}
+            <p>
+              <ConfidenceBadge tag="not-modeled" /> Custom armor-strip
+              percentage, headshot percentage and status uptime are not modeled
+              inputs.
+            </p>
+          </section>
           <div className={styles.optimizeArea}>
             <button
               className={styles.optimize}

@@ -70,14 +70,25 @@ export function calculateWarframeDraft(input: unknown) {
       slotIndex: i,
     };
   });
-  const raw = builds.calculateWarframe({
+  const calculation = builds.calculateWarframe({
     warframeId: frame.id,
     form: b.form,
     modSlots: b.mods,
     archonShards: b.includeShards ? shards : [],
-  }).rawStats;
+  });
+  const raw = calculation.rawStats;
   if (!("abilityStrength" in raw)) throw new Error("Invalid calculation.");
   return {
+    confidence: {
+      ...Object.fromEntries(
+        calculation.stats.map((s) => [s.label.toLowerCase(), s.confidence]),
+      ),
+      Strength: "approximation" as const,
+      Duration: "approximation" as const,
+      Range: "approximation" as const,
+      Efficiency: "approximation" as const,
+    },
+    caveats: calculation.caveats,
     stats: {
       Strength: raw.abilityStrength * 100,
       Duration: raw.abilityDuration * 100,

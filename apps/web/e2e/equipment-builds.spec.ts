@@ -18,7 +18,7 @@ test("every equipment guide is addressable and retains its configuration", async
     expect(r.status(), g.title).toBe(200);
     const text = await r.text();
     expect(text).toContain("CONFIGURATION");
-    expect(text).toContain("Cephalon approved guide");
+    expect(text).toContain("Curated build");
   }
 });
 test("category search, guide navigation and mobile layout", async ({

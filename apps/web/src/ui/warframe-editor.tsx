@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import { ModCard } from "./mod-card";
 import { ItemImage } from "./item-image";
 import { StatRadar } from "./warframe-builds";
-import { Dialog } from "@/ui";
+import { Dialog, ConfidenceBadge, type ConfidenceTag } from "@/ui";
 import type { CompatibleMod, ModSlot } from "@/server/contracts";
 type Shard = {
   id: string;
@@ -20,6 +20,8 @@ type Shard = {
 };
 type Choice = { shardId: string; effect: string } | null;
 type Stats = {
+  confidence?: Record<string, ConfidenceTag>;
+  caveats?: string[];
   stats: Record<string, number>;
   pools: Record<string, number>;
   extras?: Record<string, number>;
@@ -209,7 +211,7 @@ export function WarframeEditor(p: EditorProps) {
   return (
     <>
       <div className="wf-edit-toolbar">
-        <span>{custom ? "CUSTOM BUILD · UNSAVED" : "APPROVED LOADOUT"}</span>
+        <span>{custom ? "CUSTOM BUILD · UNSAVED" : "CURATED LOADOUT"}</span>
         <button
           onClick={() => {
             if (custom) {
@@ -221,7 +223,7 @@ export function WarframeEditor(p: EditorProps) {
             setCustom((c) => !c);
           }}
         >
-          {custom ? "Reset to approved build" : "Customize build"}
+          {custom ? "Reset to curated build" : "Customize build"}
         </button>
       </div>
       {error && <p role="alert">{error} Displaying the last valid stats.</p>}
@@ -233,6 +235,9 @@ export function WarframeEditor(p: EditorProps) {
               {Object.entries(result.stats).map(([k, v]) => (
                 <div key={k}>
                   <span>{k}</span>
+                  <ConfidenceBadge
+                    tag={result.confidence?.[k] ?? "pending-verification"}
+                  />
                   <strong data-warframe-stat={k}>
                     {Math.round(v * 10) / 10}%
                   </strong>
@@ -240,10 +245,23 @@ export function WarframeEditor(p: EditorProps) {
               ))}
             </div>
             <StatRadar stats={result.stats} />
+            <p className="confidence-note">
+              {custom || include
+                ? "Ability parameters are approximations; pool labels use the calculation service."
+                : "Imported guide figures · pending verification."}
+            </p>
+            {result.caveats?.map((c) => (
+              <p className="confidence-note" key={c}>
+                <ConfidenceBadge tag="approximation" /> {c}
+              </p>
+            ))}
             <div className="wf-pools">
               {Object.entries(result.pools).map(([k, v]) => (
                 <div key={k}>
                   <span>{k}</span>
+                  <ConfidenceBadge
+                    tag={result.confidence?.[k] ?? "pending-verification"}
+                  />
                   <strong>{Math.round(v).toLocaleString()}</strong>
                 </div>
               ))}
@@ -252,6 +270,9 @@ export function WarframeEditor(p: EditorProps) {
                 .map(([k, v]) => (
                   <div key={k}>
                     <span>{k}</span>
+                    <ConfidenceBadge
+                      tag={result.confidence?.[k] ?? "pending-verification"}
+                    />
                     <strong>
                       {Math.round(v * 10) / 10}
                       {k.includes("/s") ? "" : "%"}

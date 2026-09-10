@@ -1733,3 +1733,18 @@
     padding: 12px;
   }
 }
+
+.secondaryMetrics > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 4px 8px;
+  align-items: center;
+}
+.secondaryMetrics > div > :global([data-confidence]) {
+  grid-column: 1/-1;
+  grid-row: 2;
+}
+.secondaryMetrics > div > strong {
+  grid-column: 2;
+  grid-row: 1;
+}

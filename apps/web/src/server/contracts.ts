@@ -20,6 +20,13 @@ export type BuildWeaponRequest = {
 export type BuildWeaponResponse = Omit<BuildViewModel, "rawStats"> & {
   capacityUsed: number;
   ttk?: {
+    target: {
+      id: string;
+      name: string;
+      faction: string;
+      level: number;
+      reference: boolean;
+    };
     value: number | null;
     outcome: "killed" | "time_limit" | "unsupported";
     confidence: ConfidenceTag;

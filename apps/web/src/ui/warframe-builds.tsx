@@ -1,4 +1,5 @@
 "use client";
+import { ConfidenceBadge } from "@/ui";
 import { useState } from "react";
 import Link from "next/link";
 import {
@@ -111,10 +112,13 @@ export function GuideDirectory({
             {g.stats && (
               <div className="wf-card-radar">
                 <StatRadar stats={g.stats} compact />
+                <span className="radar-confidence">
+                  Guide stats <ConfidenceBadge tag="pending-verification" />
+                </span>
               </div>
             )}
             <div>
-              <span className="wf-approved">✓ Cephalon approved</span>
+              <span className="wf-approved">Curated build</span>
               <p className="wf-kicker">{g.frame}</p>
               <h2>{g.title}</h2>
               <FormaCost investment={g.investment} audit={g.formaAudit} />
