@@ -7,14 +7,13 @@ test("weapon results show confidence and TTK before faction selection", async ({
   await expect(ttk.locator('[data-confidence="approximation"]')).toBeVisible();
   await expect(ttk.locator("strong")).toContainText(/s/);
   await expect(
-    page.locator('[data-metric="sustainedDps"] + [data-confidence="verified"]'),
-  ).toBeVisible();
+    page.locator(
+      '[data-confidence="verified"], [data-confidence="pending-verification"]',
+    ),
+  ).toHaveCount(0);
   await expect(
-    page
-      .getByRole("region", { name: "Calculation confidence" })
-      .locator('[data-confidence="not-modeled"]')
-      .first(),
-  ).toBeVisible();
+    page.getByRole("region", { name: "Calculation confidence" }),
+  ).toHaveCount(0);
   await page.getByLabel("TTK target").selectOption("Corpus");
   await expect(page.getByLabel("Target faction")).toHaveValue("Corpus");
   await expect(ttk.locator("strong")).not.toHaveText("…");
@@ -53,8 +52,8 @@ test("curated and community collections are separate, without approval claims", 
   ).toBeVisible();
   await page.goto("/warframe-builds/the-enthralled-sovereign");
   await expect(
-    page.locator('.wf-stats [data-confidence="pending-verification"]').first(),
-  ).toBeVisible();
+    page.locator('.wf-stats [data-confidence="pending-verification"]'),
+  ).toHaveCount(0);
   expect(await page.locator("main").innerText()).not.toMatch(
     /Cephalon approved|\bauthor(?:[’']s)?\b/i,
   );
@@ -65,6 +64,6 @@ test("curated and community collections are separate, without approval claims", 
     page.locator('.wf-stats [data-confidence="approximation"]').first(),
   ).toBeVisible();
   await expect(
-    page.locator('.wf-pools [data-confidence="verified"]').first(),
-  ).toBeVisible();
+    page.locator('.wf-pools [data-confidence="verified"]'),
+  ).toHaveCount(0);
 });

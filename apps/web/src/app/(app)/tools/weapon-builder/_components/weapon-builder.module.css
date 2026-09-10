@@ -1748,3 +1748,271 @@
   grid-column: 2;
   grid-row: 1;
 }
+
+.modSlot {
+  position: relative;
+  overflow: visible;
+}
+.modSlot:has(.quickPicker) {
+  z-index: 35;
+}
+.quickPicker {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  width: 300px;
+  max-width: 80vw;
+  z-index: 40;
+  padding: 12px;
+  background: #0e2025;
+  border: 1px solid var(--accent);
+  box-shadow: 0 12px 35px #000a;
+  text-align: left;
+}
+.quickPicker header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.quickPicker input {
+  width: 100%;
+  padding: 10px;
+  background: #1a3037;
+  color: white;
+  border: 1px solid #597680;
+}
+.quickPicker > div {
+  max-height: 260px;
+  overflow: auto;
+}
+.quickPicker > div button {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  padding: 10px 6px;
+  text-align: left;
+  border-bottom: 1px solid #35525a;
+  color: #e4eeeb;
+}
+.quickPicker > div button span {
+  flex: 1;
+}
+.polarityFilters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0;
+}
+.polarityFilters button {
+  padding: 5px;
+  border: 1px solid transparent;
+}
+.polarityFilters button[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: #48695c55;
+}
+.polarityFilters small {
+  margin-left: auto;
+  font-size: 10px;
+  color: var(--text-secondary);
+}
+.minimizedTray .inventoryGrid {
+  display: flex;
+  gap: 8px;
+  max-height: 110px;
+  overflow: auto;
+}
+.minimizedTray .inventoryGrid > button {
+  flex: 0 0 150px;
+}
+.minimizedTray .inventoryGrid > button > span:not(:global(.game-mod-card)) {
+  display: none;
+}
+.minimizedTray .inventoryGrid :global(.game-mod-card) {
+  min-height: 85px;
+  height: 85px;
+  width: 140px;
+}
+.curated {
+  padding: 0;
+}
+.curated .workspace {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 20px;
+}
+.curated .editor {
+  display: contents;
+}
+.curated .specialSlots {
+  grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 52%;
+  justify-self: center;
+  align-items: stretch;
+  gap: 12px;
+}
+.curated .specialSlots .exilusSlot {
+  order: -1;
+}
+.curated .modPanel {
+  grid-column: 2;
+  grid-row: 2;
+  overflow: visible;
+}
+.curated .modGrid {
+  min-width: 0;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.curated .modSlot .modPick {
+  height: 190px;
+  min-height: 190px;
+  padding: 20px 6px 6px;
+}
+.curated .modSlot :global(.game-mod-card) {
+  height: 165px;
+  min-height: 165px;
+}
+.curated .specialSlots .modPick {
+  height: 145px;
+  min-height: 145px;
+}
+.curated .specialSlots :global(.game-mod-card) {
+  height: 120px;
+  min-height: 120px;
+}
+.curated .results {
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  max-height: 760px;
+  position: sticky;
+  top: 20px;
+  align-self: start;
+  overflow: auto;
+}
+.curated .inventory {
+  grid-column: 2;
+  grid-row: 3;
+  position: sticky;
+  bottom: 0;
+  z-index: 20;
+  background: #102226;
+  padding: 12px;
+  border-top: 2px solid var(--accent);
+  max-height: 340px;
+  overflow: auto;
+}
+.curated .scenario {
+  grid-column: 2;
+  grid-row: 4;
+}
+.curated .matrix {
+  grid-column: 2;
+  grid-row: 5;
+}
+.curated .calculationPanel {
+  display: none;
+}
+.curated .arcaneDescription {
+  display: none;
+}
+.curated .modFooter {
+  min-width: 0;
+}
+@media (max-width: 1000px) {
+  .curated .workspace {
+    grid-template-columns: 200px minmax(0, 1fr);
+  }
+  .curated .specialSlots {
+    width: 75%;
+  }
+  .curated .modGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 700px) {
+  .curated .workspace {
+    display: flex;
+    flex-direction: column;
+  }
+  .curated .specialSlots {
+    width: 100%;
+  }
+  .curated .results {
+    position: static;
+    max-height: 400px;
+    order: 2;
+  }
+  .curated .modPanel {
+    order: 1;
+  }
+  .curated .inventory {
+    order: 3;
+  }
+  .curated .scenario {
+    order: 4;
+  }
+  .quickPicker {
+    width: 250px;
+  }
+  .modSlot:nth-child(even) .quickPicker {
+    left: auto;
+    right: 0;
+  }
+}
+
+.curated .results {
+  max-height: none;
+  overflow: visible;
+  position: static;
+}
+.minimizedTray > :not(.sectionHeader) {
+  display: none !important;
+}
+.curated .inventory.minimizedTray {
+  padding: 10px 14px;
+  max-height: none;
+  overflow: visible;
+}
+.curated .inventory .sectionHeader {
+  margin: 0;
+}
+.curated .mobileDock,
+.curated .scenario {
+  display: none;
+}
+.ttk-focus select {
+  font-size: 12px;
+}
+
+.curated .results :global(.ttk-focus) h3 {
+  white-space: nowrap;
+}
+.curated .results :global(.ttk-focus) > div {
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.curated .results :global(.ttk-focus) select {
+  width: 100%;
+  min-width: 0;
+  font-size: 12px;
+  padding-right: 22px;
+}
+.curated .results :global(.confidence-note) {
+  font-size: 11px;
+  line-height: 1.5;
+}
+.curated .modSlot:nth-child(4n) .quickPicker {
+  left: auto;
+  right: 0;
+}
+.curated .slotTools select {
+  flex: 1;
+  min-width: 64px;
+}

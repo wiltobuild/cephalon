@@ -1,5 +1,6 @@
 import {
   Orbit,
+  Trophy,
   Users,
   Library,
   Layers3,
@@ -20,6 +21,12 @@ export type NavItem = {
 };
 export const navigation: NavItem[] = [
   { label: "Overview", href: "/home", icon: Orbit, group: "Explore" },
+  {
+    label: "Tier list",
+    href: "/tier-list",
+    icon: Trophy,
+    group: "Explore",
+  },
   { label: "Arsenal", href: "/arsenal", icon: Layers3, group: "Explore" },
   {
     label: "Weapon builder",

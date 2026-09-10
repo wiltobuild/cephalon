@@ -18,6 +18,7 @@ export function BuildLibraryNav({
       >
         Community builds
       </Link>
+      <Link href="/tier-list">Warframe tier list</Link>
     </nav>
   );
 }

@@ -10,6 +10,7 @@ export function EquipmentDirectory({
   initialQuery: string;
   guides: {
     investment: string;
+    formaAudit?: { count: number | null; note: string };
     stats?: Record<string, number>;
     slug: string;
     title: string;
@@ -52,7 +53,7 @@ export function EquipmentDirectory({
               <span className="wf-approved">Curated build</span>
               <p className="wf-kicker">{g.frame}</p>
               <h2>{g.title}</h2>
-              <FormaCost investment={g.investment} />
+              <FormaCost investment={g.investment} audit={g.formaAudit} />
               <p>{g.subtitle}</p>
               <div className="wf-card-tags">
                 {g.content.split(/[,·]/).map((t, i) => (

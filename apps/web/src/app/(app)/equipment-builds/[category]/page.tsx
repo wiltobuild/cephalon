@@ -1,3 +1,4 @@
+import { curatedWeapon } from "@/server/curated-weapon";
 import { BuildLibraryNav } from "@/ui/build-library-nav";
 import { PageMasthead } from "@/ui/page-masthead";
 import Link from "next/link";
@@ -67,6 +68,13 @@ export default async function Page({
         initialQuery={(await searchParams).q ?? ""}
         guides={categoryGuides(c).map((g) => ({
           investment: g.meta.Investment ?? "",
+          formaAudit:
+            c !== "companions" && curatedWeapon(g)
+              ? {
+                  count: curatedWeapon(g)!.forma,
+                  note: "Minimum polarity changes for the configured loadout.",
+                }
+              : undefined,
           stats: g.stats,
           slug: g.slug,
           title: g.title,

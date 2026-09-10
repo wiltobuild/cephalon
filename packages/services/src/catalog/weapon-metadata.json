@@ -1,0 +1,3600 @@
+{
+  "Acceltra": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Acceltra Prime": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Aeolak": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Afentis": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Afentis Prime": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Alternox": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Alternox Prime": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Ambassador": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Amprex": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Arca Plasmor": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Shotgun"
+  },
+  "Argonak": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Astilla": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Shotgun"
+  },
+  "Astilla Prime": {
+    "polarities": [
+      "madurai",
+      "naramon",
+      "madurai"
+    ],
+    "type": "Shotgun"
+  },
+  "Attica": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Ax-52": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Basmu": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Battacor": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Baza": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Baza Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Boar": {
+    "polarities": [],
+    "type": "Shotgun"
+  },
+  "Boar Prime": {
+    "polarities": [],
+    "type": "Shotgun"
+  },
+  "Boltor": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Rifle"
+  },
+  "Boltor Prime": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Braton": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Braton Prime": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Braton Vandal": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Bubonico": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Shotgun"
+  },
+  "Burston": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Burston Prime": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Buzlok": {
+    "polarities": [],
+    "type": "Sniper"
+  },
+  "Carmine Penta": {
+    "polarities": [],
+    "type": "Launcher"
+  },
+  "Cedo": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Shotgun"
+  },
+  "Cedo Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Shotgun"
+  },
+  "Cernos": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Bow"
+  },
+  "Cernos Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Bow"
+  },
+  "Cinta": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Bow"
+  },
+  "Coda Bassocyst": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Shotgun"
+  },
+  "Coda Bubonico": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Coda Hema": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Coda Sporothrix": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Sniper"
+  },
+  "Coda Synapse": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Convectrix": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Shotgun"
+  },
+  "Corinth": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Shotgun"
+  },
+  "Corinth Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ],
+    "type": "Shotgun"
+  },
+  "Daikyu": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Bow"
+  },
+  "Daikyu Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Bow"
+  },
+  "Dera": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Dera Vandal": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Dex Sybaris": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Drakgoon": {
+    "polarities": [],
+    "type": "Shotgun"
+  },
+  "Dread": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Bow"
+  },
+  "Efv-5 Jupiter": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Enkaus": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Evensong": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Bow"
+  },
+  "Exergis": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Shotgun"
+  },
+  "Felarx": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Shotgun"
+  },
+  "Ferrox": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Rifle"
+  },
+  "Flux Rifle": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Fulmin": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Fulmin Prime": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Glaxion": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Glaxion Vandal": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Gorgon": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Gorgon Wraith": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Gotva Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Grakata": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Grinlok": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Haalvu": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Harpak": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Hek": {
+    "polarities": [],
+    "type": "Shotgun"
+  },
+  "Hema": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Higasa": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Rifle"
+  },
+  "Hind": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Ignis": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Ignis Wraith": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Javlok": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Karak": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Karak Wraith": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Kohm": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Shotgun"
+  },
+  "Komorex": {
+    "polarities": [],
+    "type": "Sniper"
+  },
+  "Kuva Bramma": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Bow"
+  },
+  "Kuva Chakkhurr": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Kuva Drakgoon": {
+    "polarities": [],
+    "type": "Shotgun"
+  },
+  "Kuva Hek": {
+    "polarities": [],
+    "type": "Shotgun"
+  },
+  "Kuva Hind": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Kuva Karak": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Kuva Kohm": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Shotgun"
+  },
+  "Kuva Ogris": {
+    "polarities": [],
+    "type": "Launcher"
+  },
+  "Kuva Quartakk": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Kuva Sobek": {
+    "polarities": [],
+    "type": "Shotgun"
+  },
+  "Kuva Tonkor": {
+    "polarities": [],
+    "type": "Launcher"
+  },
+  "Kuva Zarr": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Launcher"
+  },
+  "Lanka": {
+    "polarities": [],
+    "type": "Sniper"
+  },
+  "Latron": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Latron Prime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Latron Wraith": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Lenz": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ],
+    "type": "Bow"
+  },
+  "Miter": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Mk1-Braton": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Mk1-Paris": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Bow"
+  },
+  "Mk1-Strun": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Shotgun"
+  },
+  "Mutalist Cernos": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Mutalist Quanta": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Rifle"
+  },
+  "Nagantaka": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Nagantaka Prime": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Nataruk": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Bow"
+  },
+  "Ogris": {
+    "polarities": [],
+    "type": "Launcher"
+  },
+  "Opticor": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Opticor Vandal": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Panthera": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Panthera Prime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Paracyst": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Rifle"
+  },
+  "Paris": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Bow"
+  },
+  "Paris Prime": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Bow"
+  },
+  "Penta": {
+    "polarities": [],
+    "type": "Launcher"
+  },
+  "Perigale": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Sniper"
+  },
+  "Perigale Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Phage": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Shotgun"
+  },
+  "Phantasma": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Shotgun"
+  },
+  "Phantasma Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ],
+    "type": "Shotgun"
+  },
+  "Phenmor": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Prisma Gorgon": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Prisma Grakata": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Prisma Grinlok": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Prisma Lenz": {
+    "polarities": [
+      "naramon",
+      "naramon",
+      "madurai"
+    ],
+    "type": "Bow"
+  },
+  "Prisma Tetra": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Proboscis Cernos": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ],
+    "type": "Bow"
+  },
+  "Purgator 1": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Quanta": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Rifle"
+  },
+  "Quanta Vandal": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Quartakk": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Quellor": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Rakta Cernos": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ],
+    "type": "Bow"
+  },
+  "Rauta": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Shotgun"
+  },
+  "Reconifex": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Rubico": {
+    "polarities": [],
+    "type": "Sniper"
+  },
+  "Rubico Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Sniper"
+  },
+  "Sancti Tigris": {
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "madurai"
+    ],
+    "type": "Shotgun"
+  },
+  "Scourge": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Scourge Prime": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Secura Penta": {
+    "polarities": [
+      "naramon",
+      "vazarin",
+      "madurai"
+    ],
+    "type": "Launcher"
+  },
+  "Shedu": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Simulor": {
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Sirocco": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Snipetron": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Sniper"
+  },
+  "Snipetron Vandal": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Sniper"
+  },
+  "Sobek": {
+    "polarities": [],
+    "type": "Shotgun"
+  },
+  "Soma": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Soma Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Sporothrix": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Sniper"
+  },
+  "Stahlta": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Steflos": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Shotgun"
+  },
+  "Stradavar": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Stradavar Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Strun": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Shotgun"
+  },
+  "Strun Prime": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Shotgun"
+  },
+  "Strun Wraith": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Shotgun"
+  },
+  "Supra": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Supra Vandal": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Sybaris": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Sybaris Prime": {
+    "polarities": [
+      "naramon",
+      "naramon",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Synapse": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Synoid Simulor": {
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Telos Boltor": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Tenet Arca Plasmor": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Shotgun"
+  },
+  "Tenet Envoy": {
+    "polarities": [],
+    "type": "Launcher"
+  },
+  "Tenet Ferrox": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Rifle"
+  },
+  "Tenet Flux Rifle": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Tenet Glaxion": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Tenet Quanta": {
+    "polarities": [
+      "vazarin",
+      "madurai",
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Tenet Tetra": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Tenora": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Tenora Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Tetra": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Thornbak": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Tiberon": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Tiberon Prime": {
+    "polarities": [
+      "madurai",
+      "naramon",
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Tigris": {
+    "polarities": [],
+    "type": "Shotgun"
+  },
+  "Tigris Prime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Shotgun"
+  },
+  "Tonkor": {
+    "polarities": [],
+    "type": "Launcher"
+  },
+  "Torid": {
+    "polarities": [],
+    "type": "Launcher"
+  },
+  "Trumna": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Trumna Prime": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Vadarya Prime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Sniper"
+  },
+  "Vaykor Hek": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "type": "Shotgun"
+  },
+  "Vectis": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Sniper"
+  },
+  "Vectis Prime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Sniper"
+  },
+  "Veldt": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Vinquibus": {
+    "polarities": [
+      "madurai",
+      "aura"
+    ],
+    "type": "Rifle"
+  },
+  "Vulkar": {
+    "polarities": [],
+    "type": "Sniper"
+  },
+  "Vulkar Wraith": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Sniper"
+  },
+  "Zarr": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Launcher"
+  },
+  "Zenith": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Zhuge": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Zhuge Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Acrid": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Aegrit": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Throwing"
+  },
+  "Afuris": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Dual Pistols"
+  },
+  "Afuris Prime": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Akarius": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Akarius Prime": {
+    "polarities": [
+      "naramon",
+      "naramon",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Akbolto": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Dual Pistols"
+  },
+  "Akbolto Prime": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Akbronco": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Dual Pistols"
+  },
+  "Akbronco Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Dual Pistols"
+  },
+  "Akjagara": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Akjagara Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Aklato": {
+    "polarities": [],
+    "type": "Dual Pistols"
+  },
+  "Aklex": {
+    "polarities": [],
+    "type": "Dual Pistols"
+  },
+  "Aklex Prime": {
+    "polarities": [],
+    "type": "Dual Pistols"
+  },
+  "Akmagnus": {
+    "polarities": [],
+    "type": "Dual Pistols"
+  },
+  "Akmagnus Prime": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Dual Pistols"
+  },
+  "Aksomati": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Aksomati Prime": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Akstiletto": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Akstiletto Prime": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Akvasto": {
+    "polarities": [],
+    "type": "Dual Pistols"
+  },
+  "Akvasto Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Akzani": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Angstrum": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Arca Scisco": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Athodai": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Athodai Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Atomos": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Azima": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Ballistica": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Ballistica Prime": {
+    "polarities": [
+      "naramon",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Bolto": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Brakk": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Bronco": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Bronco Prime": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Cantare": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Throwing"
+  },
+  "Castanas": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Throwing"
+  },
+  "Catabolyst": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Cestra": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Coda Catabolyst": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Coda Pox": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Coda Tysis": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Cyanex": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Cycron": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Despair": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Throwing"
+  },
+  "Detron": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Dex Furis": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Dual Cestra": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Dual Coda Torxica": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Dual Toxocyst": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Efv-8 Mars": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Embolist": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Epitaph": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Epitaph Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Euphona Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Furis": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Fusilai": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Throwing"
+  },
+  "Gammacor": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Grimoire": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Hikou": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Throwing"
+  },
+  "Hikou Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Throwing"
+  },
+  "Hystrix": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Hystrix Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Knell": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Knell Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Kohmak": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Kompressa": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Kompressa Prime": {
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Kraken": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Kulstar": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Kunai": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Throwing"
+  },
+  "Kuva Brakk": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Kuva Kraken": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Kuva Nukor": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Kuva Seer": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Kuva Twin Stubbas": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Dual Pistols"
+  },
+  "Laetum": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Lato": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Lato Prime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Lato Vandal": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Lex": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Lex Prime": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Magnus": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Magnus Prime": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Mara Detron": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Marelok": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Mk1-Furis": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Mk1-Kunai": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Throwing"
+  },
+  "Nukor": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Ocucor": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Onos": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Pandero": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Pandero Prime": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Plinx": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Pox": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Prisma Angstrum": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Prisma Twin Gremlins": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Pyrana": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Pyrana Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Quatz": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Rakta Ballistica": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Riot-848": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Sagek Prime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Sancti Castanas": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Scyotid": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Throwing"
+  },
+  "Secura Dual Cestra": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Seer": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Sepulcrum": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Sicarus": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Sicarus Prime": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Sonicor": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Spectra": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Spectra Vandal": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Spira": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Throwing"
+  },
+  "Spira Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Throwing"
+  },
+  "Staticor": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Stubba": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Stug": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Synoid Gammacor": {
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Talons": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Throwing"
+  },
+  "Telos Akbolto": {
+    "polarities": [
+      "vazarin",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Tenet Cycron": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Tenet Detron": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Tenet Diplos": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Tenet Plinx": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Tenet Spirex": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Twin Grakatas": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Dual Pistols"
+  },
+  "Twin Gremlins": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Dual Pistols"
+  },
+  "Twin Kohmak": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Twin Rogga": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Twin Vipers": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Dual Pistols"
+  },
+  "Twin Vipers Wraith": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Tysis": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Vasto": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Vasto Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Vaykor Marelok": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Pistol"
+  },
+  "Velox": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Velox Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Vesper 77": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Viper": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Viper Wraith": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Zakti": {
+    "polarities": [
+      "naramon",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Zakti Prime": {
+    "polarities": [
+      "naramon",
+      "naramon",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Zylok": {
+    "polarities": [],
+    "type": "Pistol"
+  },
+  "Zylok Prime": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Pistol"
+  },
+  "Zymos": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Pistol"
+  },
+  "Ack & Brunt": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Amanata": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Amphis": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Anku": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Ankyros": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Ankyros Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Arca Titron": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Argo & Vel": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Arum Spinosa": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Atterax": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Azothane": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Balla": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Bo": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Bo Prime": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Boltace": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Broken Scepter": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Broken War": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Cadus": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Cassowar": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Caustacyst": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Ceramic Dagger": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Cerata": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Ceti Lacera": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Cobra & Crane": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Cobra & Crane Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Coda Caustacyst": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Coda Hirudo": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Coda Mire": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Coda Motovore": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Coda Pathocyst": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Corufell": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Cronus": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Cyath": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Dakra Prime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Dark Dagger": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Dark Split-Sword": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Dark Sword": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Dehtat": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Destreza": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Destreza Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Dex Dakra": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Dex Nikana": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Dokrahm": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Dorrclave": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Dragon Nikana": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Dual Cleavers": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Dual Ether": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Dual Heat Swords": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Dual Ichor": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Dual Kamas": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Dual Kamas Prime": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Dual Keres": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Dual Keres Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Dual Raza": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Dual Skana": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Dual Viciss": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Dual Zoren": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Dual Zoren Prime": {
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Edun": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Ekhein": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Rifle"
+  },
+  "Ekwana Ii Jai": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Ekwana Ii Ruhang": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Ekwana Jai": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Ekwana Jai Ii": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Ekwana Ruhang": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Ekwana Ruhang Ii": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Endura": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Ether Daggers": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Ether Reaper": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Ether Sword": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Falcor": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Fang": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Fang Prime": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Fragor": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Fragor Prime": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Furax": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Furax Wraith": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Galariak Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Galatine": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Galatine Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Galvacord": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Gazal Machete": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Ghoulsaw": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Glaive": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Glaive Prime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Gram": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Gram Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Guandao": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Guandao Prime": {
+    "polarities": [
+      "vazarin",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Gunsen": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Gunsen Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Halikar": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Halikar Wraith": {
+    "polarities": [
+      "madurai",
+      "naramon",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Harmony": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Hate": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Heat Dagger": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Heat Sword": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Heliocor": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Hespar": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Hirudo": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Innodem": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Jai": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Jai Ii": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Jat Kittag": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Jat Kusar": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Jaw Sword": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Jayap": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Kama": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Karyst": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Karyst Prime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Keratinos": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Kesheg": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Kestrel": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Kestrel Prime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Kogake": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Kogake Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Korb": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Korrudo": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Korumm": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Kreska": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Krohkur": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Kronen": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Kronen Prime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Kronsh": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Kroostra": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Kuva Ghoulsaw": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Kuva Shildeg": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Kwath": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Lacera": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Laka": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Lecta": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Lesion": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Machete": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Machete Wraith": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Magistar": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Masseter": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Masseter Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Mewan": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Mios": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Mire": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Mk1-Bo": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Rifle"
+  },
+  "Mk1-Furax": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Nami Skyla": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Nami Skyla Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Nami Solo": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Nepheri": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Nikana": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Nikana Prime": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Ninkondi": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Ninkondi Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Obex": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Ohma": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Okina": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Okina Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Ooltha": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Orthos": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Orthos Prime": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Orvius": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Pangolin Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Pangolin Sword": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Paracesis": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Pathocyst": {
+    "polarities": [
+      "madurai",
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Pennant": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Peye": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Plague Akwin": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Plague Bokwin": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Plague Keewar": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Plague Kripath": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Plasma Sword": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Praedos": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Pride": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Prisma Dual Cleavers": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Prisma Machete": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Prisma Obex": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Prisma Ohma": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Prisma Skana": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Prova": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Prova Vandal": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Pulmonars": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Pupacyst": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Quassus": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Quassus Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Rabvee": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Rakta Dark Dagger": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Reaper Prime": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Redeemer": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Redeemer Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Ripkas": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Ruhang": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Ruhang Ii": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Rumblejack": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Ruvox": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Rifle"
+  },
+  "Sampotes": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Sancti Magistar": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Sarofang": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Sarofang Prime": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Sarpa": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Scindo": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Scindo Prime": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Scoliac": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Secura Lecta": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Seekalla": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Sepfahn": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Serro": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Shaku": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Sheev": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Shtung": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Sibear": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Sigma & Octantis": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Silva & Aegis": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Silva & Aegis Prime": {
+    "polarities": [
+      "madurai",
+      "vazarin",
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Skana": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Skana Prime": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Skiajati": {
+    "polarities": [
+      "umbra",
+      "umbra"
+    ],
+    "type": "Melee"
+  },
+  "Slaytra": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Spinnerex": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Stropha": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Sun & Moon": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Syam": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Sydon": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Synoid Heliocor": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Tak & Lug": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Tatsu": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Tatsu Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Tekko": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Tekko Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Telos Boltace": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Tenet Agendus": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Tenet Exec": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Tenet Grigori": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Tenet Livia": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Thalys": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Tipedo": {
+    "polarities": [
+      "vazarin"
+    ],
+    "type": "Melee"
+  },
+  "Tipedo Prime": {
+    "polarities": [
+      "vazarin",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Tonbo": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Tonkkatt": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Twin Basolk": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Twin Krohkur": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Vargeet Ii Jai": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Vargeet Ii Ruhang": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Vargeet Jai": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Vargeet Jai Ii": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Vargeet Ruhang": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Vargeet Ruhang Ii": {
+    "polarities": [],
+    "type": "Zaw Component"
+  },
+  "Vastilok": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Vaykor Sydon": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Venato": {
+    "polarities": [],
+    "type": "Rifle"
+  },
+  "Venato Prime": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Venka": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Venka Prime": {
+    "polarities": [
+      "naramon",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Verdilac": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Vericres": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Vitrica": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Volnus": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Volnus Prime": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "War": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "War Prime": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Melee"
+  },
+  "Wolf Sledge": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Wrath": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Xoris": {
+    "polarities": [],
+    "type": "Melee"
+  },
+  "Zenistar": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Melee"
+  },
+  "Arbucep": {
+    "polarities": [
+      "madurai",
+      "naramon"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Cortege": {
+    "polarities": [],
+    "type": "Arch-Gun"
+  },
+  "Corvas": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Corvas Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "naramon"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Cyngas": {
+    "polarities": [],
+    "type": "Arch-Gun"
+  },
+  "Dual Decurion": {
+    "polarities": [],
+    "type": "Arch-Gun"
+  },
+  "Fluctus": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Grattler": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Imperator": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Imperator Vandal": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Kuva Ayanga": {
+    "polarities": [
+      "naramon"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Kuva Grattler": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Larkspur": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Larkspur Prime": {
+    "polarities": [
+      "madurai",
+      "madurai",
+      "madurai"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Mandonel": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Mausolon": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Morgha": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Phaedra": {
+    "polarities": [
+      "madurai"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Prisma Dual Decurions": {
+    "polarities": [
+      "madurai",
+      "madurai"
+    ],
+    "type": "Arch-Gun"
+  },
+  "Velocitus": {
+    "polarities": [],
+    "type": "Arch-Gun"
+  }
+}

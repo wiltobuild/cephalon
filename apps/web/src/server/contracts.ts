@@ -41,6 +41,7 @@ export type WeaponListItem = {
   isIncarnon: boolean;
 };
 export type CompatibleMod = {
+  recommendationScore?: number;
   id: string;
   name: string;
   polarity: string;
@@ -51,6 +52,7 @@ export type CompatibleMod = {
   rankText?: string[];
 };
 export type WeaponDetail = {
+  exclusionGroups?: string[][];
   base: Record<string, number>;
   modSlotCount: number;
   arcaneSlots: number;

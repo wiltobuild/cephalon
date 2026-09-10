@@ -139,6 +139,7 @@ export function Badge({
   return <span className={`badge badge--${variant}`}>{children}</span>;
 }
 export function ConfidenceBadge({ tag }: { tag: ConfidenceTag }) {
+  if (tag === "verified" || tag === "pending-verification") return null;
   const item = confidence[tag];
   return (
     <Tooltip label={item.description}>

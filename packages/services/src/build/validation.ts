@@ -15,6 +15,7 @@ export const POLARITIES = [
   "umbra",
   "universal",
   "penjaga",
+  "unairu",
 ];
 export function weaponModExclusions(catalog: CatalogService): string[][] {
   // Inherited groups omit several ordinary/Primed pairs. Derive these by exact
@@ -115,7 +116,7 @@ export function validateWeaponBuild(
       !Number.isInteger(Number(index)) ||
       Number(index) < 0 ||
       Number(index) >= slotCount ||
-      !POLARITIES.includes(polarity)
+      (polarity !== "" && !POLARITIES.includes(polarity))
     )
       throw new Error("Invalid slot polarity.");
   }

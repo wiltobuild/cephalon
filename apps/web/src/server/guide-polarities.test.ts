@@ -11,7 +11,7 @@ test("slots keep authored polarity separate from the mod polarity", () => {
   expect(guidePolarities(g)[0]).toBe("");
   expect(guidePolarities(g)[1]).toBe("madurai");
   expect(slotPolarity("aura slot")).toBeNull();
-  expect(auditedForma(g).count).toBeNull();
+  expect(auditedForma(g).count).toBe(3);
   const clarified = { ...g, auras: ["Corrosive Projection, Naramon polarity"] };
   expect(auditedForma(clarified).count).toBe(3);
 });
@@ -21,10 +21,11 @@ test("stock polarities are reused before counting Forma", () => {
     ...g,
     mods: g.mods.map((m, i) => ({
       ...m,
+      rank: 0,
       polarity: i < 3 ? "Madurai" : "unpolarised",
     })),
-    exilus: "unpolarised",
-    auras: ["Madurai polarity"],
+    exilus: "",
+    auras: ["Growing Power, Madurai polarity"],
   };
   expect(auditedForma(layout).count).toBe(0);
 });

@@ -28,3 +28,16 @@ Search is cooperative and bounded in the server process, with concurrency admiss
 ## Verification approach
 
 Preserve existing engine and service damage snapshots. Add legality, source-category, serialization, deterministic-search, lock/budget/ownership, and image-ambiguity tests. Verify production build plus live browser editing, optimizer, save/reopen, and phone flows. Tests do not establish current-game formula accuracy.
+
+
+### September 10 — editable curated weapon layouts
+
+Curated equipment weapon pages now seed the shared engine-backed editor. Slot-level search and drag/drop use compatibility and exclusion groups; equipped mods are omitted from inventory. A collapsed inventory is a bar. Curated performance starts with conditional DPS and expected TTK; optimization controls are omitted. Displayed slot drain applies the actual selected polarity.
+
+Native weapon polarity/type metadata is projected from WFCD (see packages/services/src/catalog/weapon-metadata.md). A dynamic-programming planner fills unspecified slots with the fewest native-slot changes that fit rank-30 doubled capacity. Authored polarized slots are retained unless the whole layout is impossible; repairs are disclosed. Cards and editor use the same plan. Empty polarity is accepted by validation. Warframe planning uses the same signed aura-capacity costs.
+
+Limitations: weapon plans currently use 60 capacity, without rank-40 or stance bonuses. The Charged Fist import cannot fit at its authored ranks even when every mod is matched and is explicitly flagged. Incarnon guides calculate catalog base forms and disclose the missing evolution configuration. Missing catalog mods/arcanes remain explicit warnings.
+
+Per user instruction, Verified/Pending badges and weapon calculation-coverage panels are removed; approximation labels are retained. Verified formula tests remain intact.
+
+Validation: 77 service tests, 20 web tests, three browser flows (including editing, drag/drop, mobile overflow and confidence/library regression), plus production build.

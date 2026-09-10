@@ -1,4 +1,11 @@
 "use client";
+import {
+  modCapacityAtRank,
+  modSlotCapacityCost,
+} from "@cephalon/services/capacity";
+import { FormaCost } from "@/ui/forma-cost";
+import { layoutForma } from "@/ui/capacity-plan";
+import { PolarityIcon, polarityNames } from "@/ui/polarity";
 import { PolarityPicker } from "@/ui/polarity";
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
@@ -106,13 +113,26 @@ async function requestBuild(
   if (!response.ok) throw new Error(data.error ?? "Calculation failed.");
   return data;
 }
-export function WeaponBuilder() {
+export function WeaponBuilder({
+  initialBuild,
+  stock,
+  curated = false,
+  warnings = [],
+}: {
+  initialBuild?: BuildWeaponRequest;
+  stock?: Record<string, string[]>;
+  curated?: boolean;
+  warnings?: string[];
+} = {}) {
   const params = useSearchParams();
-  const [build, setBuild] = useState<BuildWeaponRequest>(initial);
+  const [build, setBuild] = useState<BuildWeaponRequest>(
+    initialBuild ?? initial,
+  );
   const [weapons, setWeapons] = useState<WeaponListItem[]>([]),
     [detail, setDetail] = useState<WeaponDetail | null>(null);
   const [result, setResult] = useState<BuildWeaponResponse | null>(null),
     [comparison, setComparison] = useState<BuildWeaponResponse | null>(null);
+  const [selectedSlot, setSelectedSlot] = useState(0);
   const [picker, setPicker] = useState<"weapon" | number | null>(null),
     [query, setQuery] = useState("");
   const [history, setHistory] = useState<BuildWeaponRequest[]>([]),
@@ -134,6 +154,8 @@ export function WeaponBuilder() {
   const [saveOpen, setSaveOpen] = useState(false),
     [buildName, setBuildName] = useState("");
   const [shareUrl, setShareUrl] = useState("");
+  const [trayExpanded, setTrayExpanded] = useState(!curated);
+  const [polarityFilter, setPolarityFilter] = useState("");
   const [arcaneOpen, setArcaneOpen] = useState(false);
   const [baseResult, setBaseResult] = useState<BuildWeaponResponse | null>(
     null,
@@ -152,6 +174,7 @@ export function WeaponBuilder() {
       .catch((e) => setError(e.message));
   }, []);
   useEffect(() => {
+    if (curated) return;
     try {
       const hash = window.location.hash;
       if (hash.startsWith("#build=")) {
@@ -175,7 +198,7 @@ export function WeaponBuilder() {
     } catch (e) {
       setError((e as Error).message);
     }
-  }, [params]);
+  }, [params, curated]);
   useEffect(() => {
     const controller = new AbortController();
     setDetail(null);
@@ -276,6 +299,7 @@ export function WeaponBuilder() {
   function openPicker(next: typeof picker) {
     setQuery("");
     setPicker(next);
+    if (typeof next === "number") setSelectedSlot(next);
   }
   function updateSlot(index: number, update: Partial<ModSlot>) {
     change({
@@ -357,18 +381,88 @@ export function WeaponBuilder() {
       ].filter((p) => p.value > 0)
     : [];
   const total = parts.reduce((sum, p) => sum + p.value, 0) || 1;
-  const inventorySlot =
-    typeof picker === "number"
-      ? picker
-      : Array.from({ length: 8 }, (_, i) => i).find(
-          (i) => !build.modSlots.some((s) => s.slotIndex === i),
-        );
+  const capacityUsed = build.modSlots.reduce((sum, slot) => {
+    const mod = [...(detail?.mods ?? []), ...(detail?.exilusMods ?? [])].find(
+      (m) => m.id === slot.modId,
+    );
+    return (
+      sum +
+      (mod
+        ? modSlotCapacityCost(
+            modCapacityAtRank(mod.drain, slot.rank),
+            build.slotPolarities?.[slot.slotIndex],
+            mod.polarity,
+          )
+        : 0)
+    );
+  }, 0);
+  const inventorySlot = typeof picker === "number" ? picker : selectedSlot;
   const compatible =
-    (inventorySlot === 8 ? detail?.exilusMods : detail?.mods)?.filter((m) =>
-      `${m.name} ${m.primaryEffect}`
-        .toLowerCase()
-        .includes(query.toLowerCase()),
-    ) ?? [];
+    (inventorySlot === 8 ? detail?.exilusMods : detail?.mods)
+      ?.filter(
+        (m) =>
+          `${m.name} ${m.primaryEffect}`
+            .toLowerCase()
+            .includes(query.toLowerCase()) &&
+          (!polarityFilter || m.polarity === polarityFilter),
+      )
+      ?.filter(
+        (m) =>
+          !build.modSlots.some(
+            (slot) =>
+              slot.slotIndex !== inventorySlot &&
+              (slot.modId === m.id ||
+                (detail?.exclusionGroups ?? []).some(
+                  (group) => group.includes(slot.modId) && group.includes(m.id),
+                )),
+          ) && !build.modSlots.some((slot) => slot.modId === m.id),
+      ) ?? [];
+  function equip(modId: string, index: number, from?: number) {
+    const mod = (index === 8 ? detail?.exilusMods : detail?.mods)?.find(
+      (m) => m.id === modId,
+    );
+    if (!mod) {
+      setNotice("This mod cannot be equipped in that slot.");
+      return;
+    }
+    if (
+      build.modSlots.some(
+        (s) =>
+          s.slotIndex !== index &&
+          s.slotIndex !== from &&
+          s.modId !== modId &&
+          (detail?.exclusionGroups ?? []).some(
+            (g) => g.includes(s.modId) && g.includes(modId),
+          ),
+      )
+    ) {
+      setNotice("Remove the conflicting mod first.");
+      return;
+    }
+    const previous = build.modSlots.find((s) => s.slotIndex === index);
+    const next = build.modSlots.filter(
+      (s) => s.slotIndex !== index && s.modId !== modId,
+    );
+    if (from !== undefined && previous && from !== index) {
+      const allowed = (from === 8 ? detail?.exilusMods : detail?.mods)?.some(
+        (m) => m.id === previous.modId,
+      );
+      if (!allowed) {
+        setNotice("Those slots cannot exchange mods.");
+        return;
+      }
+      next.push({ ...previous, slotIndex: from });
+    }
+    const old = build.modSlots.find((s) => s.modId === modId);
+    change({
+      ...build,
+      modSlots: [
+        ...next,
+        { modId, rank: old?.rank ?? mod.maxRank, slotIndex: index },
+      ],
+    });
+    setPicker(null);
+  }
   function renderModSlot(index: number) {
     const slot = build.modSlots.find((s) => s.slotIndex === index),
       mod = [...(detail?.mods ?? []), ...(detail?.exilusMods ?? [])].find(
@@ -380,9 +474,27 @@ export function WeaponBuilder() {
         className={`${styles.modSlot} ${picker === index ? styles.selectedSlot : ""} ${mod ? styles.equipped : ""} ${locked ? styles.locked : ""} ${index === 8 ? styles.exilusSlot : ""}`}
         key={index}
         data-slot-polarized={Boolean(build.slotPolarities?.[index])}
+        onDragOver={(e) => e.preventDefault()}
+        onDrop={(e) => {
+          e.preventDefault();
+          try {
+            const item = JSON.parse(
+              e.dataTransfer.getData("application/x-cephalon-mod"),
+            );
+            equip(item.modId, index, item.from);
+          } catch {}
+        }}
       >
         <button
           className={styles.modPick}
+          draggable={!!mod}
+          onDragStart={(e) => {
+            if (mod)
+              e.dataTransfer.setData(
+                "application/x-cephalon-mod",
+                JSON.stringify({ modId: mod.id, from: index }),
+              );
+          }}
           onClick={() => openPicker(index)}
           aria-label={
             mod
@@ -396,19 +508,62 @@ export function WeaponBuilder() {
             {index === 8 ? "EXILUS" : String(index + 1).padStart(2, "0")}
           </span>
           {mod ? (
-            <ModCard mod={mod} rank={slot!.rank} compact />
+            <ModCard
+              mod={mod}
+              rank={slot!.rank}
+              compact
+              capacityCost={modSlotCapacityCost(
+                modCapacityAtRank(mod.drain, slot!.rank),
+                build.slotPolarities?.[index],
+                mod.polarity,
+              )}
+            />
           ) : (
             <>
               <Plus size={23} strokeWidth={1} />
               <strong>{index === 8 ? "Exilus mod" : "Add mod"}</strong>
               <small>
-                {index === 8
-                  ? "Utility mods only · kept by solver"
-                  : "Choose from your arsenal"}
+                {index === 8 ? "Utility mods only" : "Choose from your arsenal"}
               </small>
             </>
           )}
         </button>
+        {picker === index && (
+          <div
+            className={styles.quickPicker}
+            role="dialog"
+            aria-label={`Choose mod for slot ${index + 1}`}
+            onKeyDown={(e) => {
+              if (e.key === "Escape") setPicker(null);
+            }}
+          >
+            <header>
+              <strong>{index === 8 ? "Exilus mods" : "Choose mod"}</strong>
+              <button
+                aria-label="Close mod search"
+                onClick={() => setPicker(null)}
+              >
+                ×
+              </button>
+            </header>
+            <input
+              autoFocus
+              aria-label="Quick mod search"
+              placeholder="Search mods…"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+            />
+            <div>
+              {compatible.slice(0, 40).map((m) => (
+                <button key={m.id} onClick={() => equip(m.id, index)}>
+                  <PolarityIcon value={m.polarity} />
+                  <span>{m.name}</span>
+                  <small>{m.drain + m.maxRank}</small>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
         <div className={styles.polarityControl}>
           <span>SLOT POLARITY</span>
           <PolarityPicker
@@ -425,24 +580,26 @@ export function WeaponBuilder() {
         <div className={styles.slotTools}>
           {mod && (
             <>
-              <button
-                aria-label={`${locked ? "Unlock" : "Lock"} ${mod.name}`}
-                title="Keep this mod during optimization"
-                onClick={() =>
-                  setOptions((o) => ({
-                    ...o,
-                    lockedSlots: locked
-                      ? o.lockedSlots.filter((i) => i !== index)
-                      : [...o.lockedSlots, index],
-                  }))
-                }
-              >
-                {locked ? (
-                  <LockKeyhole size={13} />
-                ) : (
-                  <UnlockKeyhole size={13} />
-                )}
-              </button>
+              {!curated && (
+                <button
+                  aria-label={`${locked ? "Unlock" : "Lock"} ${mod.name}`}
+                  title="Keep this mod during optimization"
+                  onClick={() =>
+                    setOptions((o) => ({
+                      ...o,
+                      lockedSlots: locked
+                        ? o.lockedSlots.filter((i) => i !== index)
+                        : [...o.lockedSlots, index],
+                    }))
+                  }
+                >
+                  {locked ? (
+                    <LockKeyhole size={13} />
+                  ) : (
+                    <UnlockKeyhole size={13} />
+                  )}
+                </button>
+              )}
               <select
                 aria-label={`Rank for ${mod.name}`}
                 value={slot!.rank}
@@ -482,37 +639,64 @@ export function WeaponBuilder() {
     );
   }
   return (
-    <div className={styles.builder}>
-      <div className={styles.breadcrumb}>
-        <Link href="/arsenal">ARSENAL</Link>
-        <span>/</span> WEAPON BUILDER <span className={styles.beta}>LAB</span>
-      </div>
-      <header className={styles.hero}>
-        <div className={styles.heroText}>
-          <p className={styles.eyebrow}>MAKE EVERY SLOT COUNT</p>
-          <h1>{weapon?.name ?? "Your next build"}</h1>
-          <p className={styles.subtitle}>
-            Built around your weapon. Tuned to your mission.
-          </p>
-          <div className={styles.chips}>
-            <span>{weapon?.category ?? "Loading arsenal"}</span>
-            <span>Catalog base form</span>
-            {weapon?.isIncarnon && <span>Incarnon available</span>}
+    <div className={`${styles.builder} ${curated ? styles.curated : ""}`}>
+      {!curated && (
+        <>
+          <div className={styles.breadcrumb}>
+            <Link href="/arsenal">ARSENAL</Link>
+            <span>/</span> WEAPON BUILDER{" "}
+            <span className={styles.beta}>LAB</span>
           </div>
-          <button
-            className={styles.outline}
-            onClick={() => openPicker("weapon")}
-          >
-            <ArrowLeftRight size={14} /> Choose weapon
-          </button>
-        </div>
-        <div className={styles.heroArt}>
-          {weapon && <ItemImage name={weapon.name} priority />}
-          <span className={styles.artLabel}>
-            ARSENAL / {weapon?.id.toUpperCase()}
-          </span>
-        </div>
-      </header>
+          <header className={styles.hero}>
+            <div className={styles.heroText}>
+              <p className={styles.eyebrow}>MAKE EVERY SLOT COUNT</p>
+              <h1>{weapon?.name ?? "Your next build"}</h1>
+              <p className={styles.subtitle}>
+                Built around your weapon. Tuned to your mission.
+              </p>
+              <div className={styles.chips}>
+                <span>{weapon?.category ?? "Loading arsenal"}</span>
+                <span>Catalog base form</span>
+                {weapon?.isIncarnon && <span>Incarnon available</span>}
+              </div>
+              <button
+                className={styles.outline}
+                onClick={() => openPicker("weapon")}
+              >
+                <ArrowLeftRight size={14} /> Choose weapon
+              </button>
+            </div>
+            <div className={styles.heroArt}>
+              {weapon && <ItemImage name={weapon.name} priority />}
+              <span className={styles.artLabel}>
+                ARSENAL / {weapon?.id.toUpperCase()}
+              </span>
+            </div>
+          </header>
+        </>
+      )}
+      {warnings.map((w) => (
+        <p key={w} className={styles.notice}>
+          {w}
+        </p>
+      ))}
+      {curated && stock && (
+        <FormaCost
+          audit={{
+            count: layoutForma(
+              build.slotPolarities ?? {},
+              stock,
+              Object.fromEntries(
+                Array.from(
+                  { length: detail?.exilusSlot === false ? 8 : 9 },
+                  (_, i) => [i, i === 8 ? "exilus" : "regular"],
+                ),
+              ),
+            ),
+            note: "Polarity changes from the native weapon. Unspecified slots use the minimum Forma layout that fits capacity.",
+          }}
+        />
+      )}
       <div className={styles.toolbar}>
         <div className={styles.toolbarLabel}>
           <Crosshair size={15} /> BUILD CONFIGURATION{" "}
@@ -636,7 +820,14 @@ export function WeaponBuilder() {
             </div>
             <div className={styles.modFooter}>
               <span>
-                <LockKeyhole size={12} /> Lock a mod to keep it when optimizing.
+                {curated ? (
+                  "Click a card to replace it, or drag a mod into a slot."
+                ) : (
+                  <>
+                    <LockKeyhole size={12} /> Lock a mod to keep it when
+                    optimizing.
+                  </>
+                )}
               </span>
               <button
                 onClick={() => {
@@ -755,7 +946,7 @@ export function WeaponBuilder() {
             )}
             {detail?.exilusSlot && renderModSlot(8)}
           </div>{" "}
-          <section className={styles.scenario}>
+          <section className={styles.scenario} hidden={curated}>
             <div className={styles.sectionHeader}>
               <h2>TUNE YOUR BUILD</h2>
               <span>YOUR MISSION. YOUR RULES.</span>
@@ -1029,63 +1220,47 @@ export function WeaponBuilder() {
           aria-busy={pending || optimizing}
         >
           <div className={styles.capacityReadout}>
-            <span>CAPACITY REMAINING</span>
+            <span>CAPACITY USED / TOTAL</span>
             <strong>
-              {pending
-                ? "…"
-                : result
-                  ? (build.capacity ?? 60) - result.capacityUsed
-                  : "—"}{" "}
-              / {build.capacity ?? 60}
+              {detail ? capacityUsed : "—"} / {build.capacity ?? 60}
             </strong>
           </div>{" "}
           <div className={styles.sectionHeader}>
             <h2>BUILD PERFORMANCE</h2>
             <span className={styles.liveDot} />
           </div>
-          <section className="ttk-focus" aria-label="Expected time to kill">
-            <div>
-              <h3>EXPECTED TTK</h3>
-              {result?.ttk && <ConfidenceBadge tag={result.ttk.confidence} />}
-            </div>
-            <strong>
-              {pending
-                ? "…"
-                : result?.ttk
-                  ? result.ttk.value == null
-                    ? result.ttk.outcome === "unsupported"
-                      ? "Unavailable"
-                      : "> 600 s"
-                    : `${number(result.ttk.value)} s`
-                  : "—"}
-            </strong>
-            <label>
-              TTK target
-              <select
-                aria-label="TTK target"
-                value={options.target}
-                onChange={(e) =>
-                  updateTarget(e.target.value as OptimizeOptions["target"])
-                }
-              >
-                <option value="general">
-                  Reference: Heavy Gunner · Grineer
-                </option>
-                {Object.keys(presetEnemy).map((f) => (
-                  <option key={f} value={f}>
-                    {f} · {presetEnemy[f].replaceAll("_", " ")}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <p>
-              {result?.ttk?.target.name ?? "Heavy Gunner"} · Level{" "}
-              {build.scenario.level ?? 100}
-              {options.target === "general"
-                ? " reference target · optimization remains faction agnostic"
-                : " · selected faction target"}
-            </p>
-          </section>
+          {!curated && (
+            <>
+              <div className={styles.optimizeArea}>
+                <button
+                  className={styles.optimize}
+                  onClick={
+                    optimizing
+                      ? () => {
+                          optimizerController.current?.abort();
+                          setOptimizing(false);
+                          setNotice(
+                            "Search cancelled. Your build is unchanged.",
+                          );
+                        }
+                      : optimize
+                  }
+                  disabled={!detail || pending}
+                >
+                  {optimizing ? (
+                    <>
+                      <X size={17} /> Cancel search
+                    </>
+                  ) : (
+                    <>
+                      <Sparkles size={17} /> Optimize build{" "}
+                      <ArrowUpRight size={17} />
+                    </>
+                  )}
+                </button>
+              </div>
+            </>
+          )}
           <label className={styles.conditionalToggle}>
             <input
               type="checkbox"
@@ -1118,8 +1293,10 @@ export function WeaponBuilder() {
           <MetricConfidence result={result} metricKey="sustainedDps" />
           {conditional && (
             <p className="confidence-note">
-              <ConfidenceBadge tag="approximation" /> Conditions and maximum
-              stacks are assumed maintained.
+              <ConfidenceBadge tag="approximation" />{" "}
+              {curated
+                ? "Maximum stacks assumed."
+                : "Conditions and maximum stacks are assumed maintained."}
             </p>
           )}
           {comparison && beforeDps != null && dps != null && (
@@ -1128,6 +1305,49 @@ export function WeaponBuilder() {
               {number(dps - beforeDps, 0)} <span>vs. pinned build</span>
             </div>
           )}
+          <section className="ttk-focus" aria-label="Expected time to kill">
+            <div>
+              <h3>EXPECTED TTK</h3>
+              {result?.ttk && <ConfidenceBadge tag={result.ttk.confidence} />}
+            </div>
+            <strong>
+              {pending
+                ? "…"
+                : result?.ttk
+                  ? result.ttk.value == null
+                    ? result.ttk.outcome === "unsupported"
+                      ? "Unavailable"
+                      : "> 600 s"
+                    : `${number(result.ttk.value)} s`
+                  : "—"}
+            </strong>
+            <label>
+              TTK target
+              <select
+                aria-label="TTK target"
+                value={options.target}
+                onChange={(e) =>
+                  updateTarget(e.target.value as OptimizeOptions["target"])
+                }
+              >
+                <option value="general">General · reference target</option>
+                {Object.keys(presetEnemy).map((f) => (
+                  <option key={f} value={f}>
+                    {f}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <p>
+              {result?.ttk?.target.name ?? "Heavy Gunner"} · Level{" "}
+              {build.scenario.level ?? 100}
+              {options.target === "general"
+                ? curated
+                  ? " reference target"
+                  : " reference target · optimization remains faction agnostic"
+                : " · selected faction target"}
+            </p>
+          </section>
           <div className={styles.secondaryMetrics}>
             {[
               ["fireRate", "Fire rate", " shots/s"],
@@ -1162,28 +1382,6 @@ export function WeaponBuilder() {
               <strong>{number(metric(result, "totalDamage"))}</strong>
             </div>
           </div>
-          <div className={styles.divider} />
-          <p className={styles.resultLabel}>DAMAGE DISTRIBUTION</p>
-          <div className={styles.damageBar}>
-            {parts.map((p) => (
-              <span
-                key={p.type}
-                style={{
-                  width: `${(p.value / total) * 100}%`,
-                  background: damageColors[p.type] ?? "#90a4b0",
-                }}
-              />
-            ))}
-          </div>
-          <div className={styles.damageLegend}>
-            {parts.map((p) => (
-              <span key={p.type}>
-                <i style={{ background: damageColors[p.type] ?? "#90a4b0" }} />
-                {p.type}
-                <b>{number((p.value / total) * 100, 0)}%</b>
-              </span>
-            ))}
-          </div>
           <div className={styles.secondaryMetrics}>
             <div>
               <span>Critical chance</span>
@@ -1208,64 +1406,43 @@ export function WeaponBuilder() {
               </strong>
             </div>
           </div>
-          <section
-            className="calculation-confidence"
-            aria-label="Calculation confidence"
-          >
-            <h3>CALCULATION COVERAGE</h3>
-            <p>
-              Verified means a tested, cited formula—not live-game validation.
-            </p>
-            {result?.caveats.map((text) => (
-              <p key={text}>
-                <ConfidenceBadge tag="approximation" /> {text}
-              </p>
+          <div className={styles.divider} />
+          <p className={styles.resultLabel}>DAMAGE DISTRIBUTION</p>
+          <div className={styles.damageBar}>
+            {parts.map((p) => (
+              <span
+                key={p.type}
+                style={{
+                  width: `${(p.value / total) * 100}%`,
+                  background: damageColors[p.type] ?? "#90a4b0",
+                }}
+              />
             ))}
-            {result?.ttk?.caveats.map((c) => (
-              <p key={c.key}>
-                <ConfidenceBadge tag={c.tag} /> {c.text}
-              </p>
+          </div>
+          <div className={styles.damageLegend}>
+            {parts.map((p) => (
+              <span key={p.type}>
+                <i style={{ background: damageColors[p.type] ?? "#90a4b0" }} />
+                {p.type}
+                <b>{number((p.value / total) * 100, 0)}%</b>
+              </span>
             ))}
-            <p>
-              <ConfidenceBadge tag="not-modeled" /> Custom armor-strip
-              percentage, headshot percentage and status uptime are not modeled
-              inputs.
-            </p>
-          </section>
-          <div className={styles.optimizeArea}>
-            <button
-              className={styles.optimize}
-              onClick={
-                optimizing
-                  ? () => {
-                      optimizerController.current?.abort();
-                      setOptimizing(false);
-                      setNotice("Search cancelled. Your build is unchanged.");
-                    }
-                  : optimize
-              }
-              disabled={!detail || pending}
-            >
-              {optimizing ? (
-                <>
-                  <X size={17} /> Cancel search
-                </>
-              ) : (
-                <>
-                  <Sparkles size={17} /> Optimize build{" "}
-                  <ArrowUpRight size={17} />
-                </>
-              )}
-            </button>
           </div>
         </aside>
         <section
+          data-tray-expanded={trayExpanded}
           id="mod-collection"
-          className={styles.inventory}
+          className={`${styles.inventory} ${!trayExpanded ? styles.minimizedTray : ""}`}
           aria-label="Mod collection"
         >
           <div className={styles.sectionHeader}>
             <h2>MOD COLLECTION</h2>
+            <button
+              aria-expanded={trayExpanded}
+              onClick={() => setTrayExpanded((v) => !v)}
+            >
+              {trayExpanded ? "Minimize tray" : "Expand tray"}
+            </button>
             <span>
               {inventorySlot === undefined
                 ? "SELECT A SLOT ABOVE"
@@ -1282,6 +1459,29 @@ export function WeaponBuilder() {
               onChange={(e) => setQuery(e.target.value)}
             />
           </div>
+          <div
+            className={styles.polarityFilters}
+            role="group"
+            aria-label="Filter mods by polarity"
+          >
+            <button
+              aria-pressed={!polarityFilter}
+              onClick={() => setPolarityFilter("")}
+            >
+              All
+            </button>
+            {polarityNames.map((p) => (
+              <button
+                key={p}
+                aria-label={`Filter ${p}`}
+                aria-pressed={polarityFilter === p}
+                onClick={() => setPolarityFilter(p)}
+              >
+                <PolarityIcon value={p} />
+              </button>
+            ))}
+            <small>Highest single-mod DPS · max stacks</small>
+          </div>
           <div className={styles.inventoryGrid}>
             {compatible.map((mod) => {
               const equipped = build.modSlots.some(
@@ -1291,21 +1491,16 @@ export function WeaponBuilder() {
                 <button
                   disabled={equipped || inventorySlot === undefined}
                   key={mod.id}
+                  draggable
+                  onDragStart={(e) =>
+                    e.dataTransfer.setData(
+                      "application/x-cephalon-mod",
+                      JSON.stringify({ modId: mod.id }),
+                    )
+                  }
                   onClick={() => {
-                    change({
-                      ...build,
-                      modSlots: [
-                        ...build.modSlots.filter(
-                          (s) => s.slotIndex !== inventorySlot,
-                        ),
-                        {
-                          modId: mod.id,
-                          rank: mod.maxRank,
-                          slotIndex: inventorySlot!,
-                        },
-                      ],
-                    });
-                    setPicker(null);
+                    if (inventorySlot !== undefined)
+                      equip(mod.id, inventorySlot);
                   }}
                 >
                   <ModCard mod={mod} compact />
@@ -1325,7 +1520,7 @@ export function WeaponBuilder() {
           </div>
         </section>
       </div>
-      <div className={styles.mobileDock}>
+      <div className={styles.mobileDock} hidden={curated}>
         <button
           onClick={() =>
             document.getElementById("build-results")?.scrollIntoView({
