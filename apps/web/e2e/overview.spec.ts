@@ -52,7 +52,7 @@ test("overview connects the complete library and newest Warframe", async ({
   expect(errors).toEqual([]);
 });
 
-test("coming soon removes itself at expiry and stays absent on later visits", async ({
+test("coming soon drops its countdown at expiry but keeps the card", async ({
   page,
 }) => {
   await page.clock.install({ time: new Date("2026-09-22T23:59:00-04:00") });
@@ -63,10 +63,17 @@ test("coming soon removes itself at expiry and stays absent on later visits", as
     "1 day until release day",
   );
   await page.clock.fastForward(3000);
-  await expect(page.locator("[data-upcoming-update]")).toHaveCount(0);
+  // The countdown retires, but the card — and the featured card beside it —
+  // stay put so the spotlights grid keeps its two-column layout.
+  await expect(page.getByRole("timer")).toHaveCount(0);
+  await expect(page.locator("[data-upcoming-update]")).toBeVisible();
   await expect(page.locator(".ov-featured")).toBeVisible();
+  await expect(page.locator(".ov-spotlights")).toHaveCSS(
+    "grid-template-columns",
+    /\d+px \d+px/,
+  );
   await page.reload();
-  await expect(page.locator("[data-upcoming-update]")).toHaveCount(0);
+  await expect(page.locator("[data-upcoming-update]")).toBeVisible();
   await expect(page.getByRole("timer")).toHaveCount(0);
 });
 

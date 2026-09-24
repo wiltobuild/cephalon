@@ -15,9 +15,13 @@ export function UpcomingUpdate({ initialNow }: { initialNow: number }) {
   const expires = Date.parse(upcoming.releaseDayStartsAt);
   const active = now < expires;
   useEffect(() => {
-    if (!active) return;
+    // `initialNow` is the server's clock at render time, which a client-side
+    // clock mock (or ordinary client/server drift) can't reach — resync to
+    // the client's own clock on mount so `active` reflects reality, then set
+    // up the recurring refresh only while that resync says it's still active.
     const refresh = () => setNow(Date.now());
     refresh();
+    if (!active) return;
     const timer = window.setInterval(refresh, 30_000);
     const deadline = expires - Date.now();
     const expiryTimer =
@@ -33,7 +37,6 @@ export function UpcomingUpdate({ initialNow }: { initialNow: number }) {
       document.removeEventListener("visibilitychange", refresh);
     };
   }, [expires, active]);
-  if (now >= expires) return null;
   const days = daysUntilRelease(now, upcoming.releaseDayStartsAt);
   return (
     <a
@@ -41,7 +44,11 @@ export function UpcomingUpdate({ initialNow }: { initialNow: number }) {
       href={upcoming.source}
       target="_blank"
       rel="noreferrer"
-      aria-label={`${upcoming.title}: coming ${upcoming.releaseLabel}. Official update details`}
+      aria-label={
+        active
+          ? `${upcoming.title}: coming ${upcoming.releaseLabel}. Official update details`
+          : `${upcoming.title}. Official update details`
+      }
       data-upcoming-update
     >
       <div className="ov-upcoming-art">
@@ -59,14 +66,16 @@ export function UpcomingUpdate({ initialNow }: { initialNow: number }) {
           <h2>{upcoming.title}</h2>
           <p>{upcoming.releaseLabel} · All platforms</p>
         </div>
-        <div
-          className="ov-countdown"
-          role="timer"
-          aria-label={`${days} ${days === 1 ? "day" : "days"} until release day`}
-        >
-          <strong>{String(days).padStart(2, "0")}</strong>
-          <span>{days === 1 ? "DAY" : "DAYS"} TO GO</span>
-        </div>
+        {active && (
+          <div
+            className="ov-countdown"
+            role="timer"
+            aria-label={`${days} ${days === 1 ? "day" : "days"} until release day`}
+          >
+            <strong>{String(days).padStart(2, "0")}</strong>
+            <span>{days === 1 ? "DAY" : "DAYS"} TO GO</span>
+          </div>
+        )}
       </div>
       <div className="ov-upcoming-footer">
         Discover the update <ArrowUpRight size={17} />
