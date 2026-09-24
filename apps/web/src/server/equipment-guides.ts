@@ -1,7 +1,8 @@
+import { presentGuide } from "./guide-presentation";
 import "server-only";
 import data from "./equipment-guides.json";
 import type { Guide } from "./guide-types";
-export const equipmentGuides: Guide[] = data;
+export const equipmentGuides: Guide[] = data.map(presentGuide);
 export const categories = {
   weapons: "Weapon builds",
   primary: "Primary weapon builds",

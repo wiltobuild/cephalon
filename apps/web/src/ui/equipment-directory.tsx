@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import { FormaCost } from "./forma-cost";
 import { ItemImage } from "./item-image";
 export function EquipmentDirectory({
   guides,
@@ -8,6 +9,9 @@ export function EquipmentDirectory({
 }: {
   initialQuery: string;
   guides: {
+    investment: string;
+    formaAudit?: { count: number | null; note: string };
+    stats?: Record<string, number>;
     slug: string;
     title: string;
     frame: string;
@@ -46,9 +50,10 @@ export function EquipmentDirectory({
               name={g.frame.replace(/ Incarnon$/, "").replace(/ \(.*?\)$/, "")}
             />
             <div>
-              <span className="wf-approved">✓ Cephalon approved</span>
+              <span className="wf-approved">Curated build</span>
               <p className="wf-kicker">{g.frame}</p>
               <h2>{g.title}</h2>
+              <FormaCost investment={g.investment} audit={g.formaAudit} />
               <p>{g.subtitle}</p>
               <div className="wf-card-tags">
                 {g.content.split(/[,·]/).map((t, i) => (

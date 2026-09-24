@@ -10,13 +10,32 @@ export function calculateResponse(
     ...build,
     capacityUsed: capacityCost(catalog, input.modSlots, input.slotPolarities),
   };
-  if (input.scenario.enemyArchetypeId) {
-    const result = sims.simulate(calculated, {
-      enemyArchetypeId: input.scenario.enemyArchetypeId,
+  {
+    const targetId = input.scenario.enemyArchetypeId ?? "heavy_gunner";
+    const reference = input.scenario.enemyArchetypeId
+      ? calculated
+      : builds.calculateWeapon({
+          ...input,
+          scenario: {
+            ...input.scenario,
+            enemyArchetypeId: targetId,
+            faction: "Grineer",
+          },
+        });
+    const result = sims.simulate(reference, {
+      enemyArchetypeId: targetId,
       level: input.scenario.level ?? 100,
       steelPath: input.scenario.steelPath,
     });
+    const enemy = catalog.getEnemyTypes().find((e) => e.id === targetId)!;
     response.ttk = {
+      target: {
+        id: enemy.id,
+        name: enemy.name,
+        faction: enemy.faction,
+        level: input.scenario.level ?? 100,
+        reference: !input.scenario.enemyArchetypeId,
+      },
       value: Number.isFinite(result.ttk.ttk) ? result.ttk.ttk : null,
       outcome: Number.isFinite(result.ttk.ttk) ? "killed" : "time_limit",
       confidence: "approximation",

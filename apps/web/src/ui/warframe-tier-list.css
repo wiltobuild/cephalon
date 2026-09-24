@@ -1,0 +1,328 @@
+.tier-page {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 28px 36px 40px;
+}
+.tier-context {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  margin: 24px 0;
+  padding: 18px 22px;
+  border: 1px solid var(--line-strong);
+  background: var(--surface-1);
+}
+.tier-context > span {
+  flex-shrink: 0;
+  color: var(--accent);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+}
+.tier-context p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.6;
+}
+.tier-controls {
+  margin: 28px 0 42px;
+}
+.tier-controls nav {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.tier-controls nav a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 115px;
+  padding: 12px 18px;
+  border: 1px solid color-mix(in srgb, var(--tier-color) 45%, transparent);
+  background: linear-gradient(
+    125deg,
+    color-mix(in srgb, var(--tier-color) 12%, #102125),
+    #102125
+  );
+  text-decoration: none;
+}
+.tier-controls nav b {
+  font: 500 28px var(--font-display);
+  color: var(--tier-color);
+}
+.tier-controls nav span {
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+[data-tier="S+"] {
+  --tier-color: #e7c785;
+}
+[data-tier="S"] {
+  --tier-color: #a9cfc3;
+}
+[data-tier="A"] {
+  --tier-color: #8cbccf;
+}
+[data-tier="B"] {
+  --tier-color: #b5a8d0;
+}
+[data-tier="C"] {
+  --tier-color: #c39b8f;
+}
+.tier-search {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border: 1px solid var(--line-strong);
+  background: var(--surface-1);
+  color: var(--text-secondary);
+}
+.tier-search input {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+  background: none;
+  border: 0;
+  color: var(--text-primary);
+  font: inherit;
+  outline: none;
+}
+.tier-search:focus-within {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.tier-search span {
+  font-size: 11px;
+  white-space: nowrap;
+}
+.tier-search button {
+  font-size: 24px;
+  padding: 0 8px;
+}
+.tier-section {
+  scroll-margin-top: 28px;
+  margin: 0 0 56px;
+}
+.tier-heading {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 0 0 24px;
+  padding: 24px 0;
+  border-top: 1px solid color-mix(in srgb, var(--tier-color) 60%, transparent);
+}
+.tier-emblem {
+  flex: 0 0 88px;
+  height: 88px;
+  display: grid;
+  place-items: center;
+  font: 500 50px var(--font-display);
+  color: var(--tier-color);
+  border: 1px solid color-mix(in srgb, var(--tier-color) 45%, transparent);
+  background: radial-gradient(
+    ellipse at top,
+    color-mix(in srgb, var(--tier-color) 18%, transparent),
+    transparent
+  );
+  box-shadow: inset 0 0 0 5px #101e22;
+}
+.tier-heading h2 {
+  font: 500 clamp(24px, 3vw, 34px) var(--font-display);
+  color: var(--text-primary);
+  text-transform: capitalize;
+  margin: 5px 0 10px;
+}
+.tier-heading p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 4px 0;
+}
+.tier-heading div > p:first-child {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: var(--tier-color);
+}
+.tier-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.tier-card {
+  border: 1px solid var(--line-strong);
+  background: linear-gradient(155deg, #192d30, #102024);
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+.tier-card:hover {
+  border-color: var(--tier-color);
+  box-shadow: 0 8px 28px #0004;
+}
+.tier-card-link {
+  display: block;
+  height: 100%;
+  text-decoration: none !important;
+  color: inherit;
+}
+.tier-card-link:focus-visible,
+.tier-controls a:focus-visible {
+  outline: 2px solid var(--tier-color);
+  outline-offset: 4px;
+}
+.tier-portrait {
+  position: relative;
+  height: 215px;
+  overflow: hidden;
+  background: radial-gradient(
+    ellipse at 50% 65%,
+    color-mix(in srgb, var(--tier-color) 17%, transparent),
+    transparent 70%
+  );
+  border-bottom: 1px solid var(--line);
+}
+.tier-portrait::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 45px;
+  background: linear-gradient(transparent, #16272b);
+  pointer-events: none;
+}
+.tier-portrait .item-image {
+  position: absolute;
+  inset: 5px 15px 0;
+  display: block;
+  width: auto;
+  height: auto;
+}
+.tier-portrait img {
+  transition: transform 0.3s;
+}
+.tier-card:hover .tier-portrait img {
+  transform: scale(1.04);
+}
+.tier-rank {
+  position: absolute;
+  left: 16px;
+  top: 15px;
+  z-index: 1;
+  font: 500 20px var(--font-display);
+  color: var(--tier-color);
+}
+.tier-card-mark {
+  position: absolute;
+  right: 18px;
+  top: 16px;
+  color: var(--tier-color);
+  opacity: 0.5;
+}
+.tier-card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 18px 20px 5px;
+  color: var(--tier-color);
+}
+.tier-card h3 {
+  font: 500 28px var(--font-display);
+  margin: 0;
+  color: var(--text-primary);
+}
+.tier-build-count {
+  display: block;
+  padding: 0 20px;
+  color: var(--tier-color);
+  font-size: 11px;
+  letter-spacing: 0.03em;
+}
+.tier-justification {
+  padding: 0 20px 22px;
+  margin: 16px 0 0;
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.75;
+}
+.tier-notes {
+  padding: 12px 22px;
+  border-left: 2px solid var(--tier-color);
+  background: color-mix(in srgb, var(--tier-color) 5%, transparent);
+  margin-top: 22px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.75;
+}
+.tier-notes p {
+  margin: 6px 0;
+}
+.tier-empty {
+  padding: 40px;
+  text-align: center;
+  border: 1px solid var(--line-strong);
+}
+.tier-empty button {
+  margin-top: 16px;
+  color: var(--accent);
+}
+@media (min-width: 1600px) {
+  .tier-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+@media (max-width: 1100px) {
+  .tier-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .tier-context {
+    display: block;
+  }
+  .tier-context p {
+    margin-top: 8px;
+  }
+}
+@media (max-width: 600px) {
+  .tier-grid {
+    grid-template-columns: 1fr;
+  }
+  .tier-heading {
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .tier-emblem {
+    flex-basis: 56px;
+    height: 64px;
+    font-size: 34px;
+  }
+  .tier-controls nav {
+    gap: 6px;
+  }
+  .tier-controls nav a {
+    min-width: 0;
+    flex: 1;
+    justify-content: center;
+    padding: 10px;
+  }
+  .tier-controls nav span {
+    display: none;
+  }
+  .tier-context {
+    padding: 16px;
+  }
+  .tier-portrait {
+    height: 235px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tier-card,
+  .tier-portrait img {
+    transition: none;
+  }
+  .tier-card:hover .tier-portrait img {
+    transform: none;
+  }
+}
+
+@media(max-width:700px){.tier-page{padding:16px;}}

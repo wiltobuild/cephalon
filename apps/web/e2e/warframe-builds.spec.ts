@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 import guides from "../src/server/warframe-guides.json";
-test("all sample builds are addressable with abilities and an approved tag", async ({
+test("all sample builds are addressable with abilities and a curated collection label", async ({
   request,
 }) => {
   test.setTimeout(180000);
@@ -8,7 +8,7 @@ test("all sample builds are addressable with abilities and an approved tag", asy
     const response = await request.get(`/warframe-builds/${guide.slug}`);
     expect(response.status(), guide.title).toBe(200);
     const html = await response.text();
-    expect(html).toContain("Cephalon approved");
+    expect(html).toContain("Curated build");
     expect(html).toContain("ABILITIES");
     expect(html).toContain("data-stat-polygon");
   }
@@ -49,7 +49,7 @@ test("directory search and mobile layout stay usable", async ({ page }) => {
       () => document.documentElement.scrollWidth <= innerWidth,
     ),
   ).toBe(true);
-  await expect(page.locator(".wf-approved")).toContainText("Cephalon approved");
+  await expect(page.locator(".wf-approved")).toContainText("Curated build");
   await page.screenshot({
     path: "C:/Users/wilsh/Documents/Codex/2026-09-06/pu/outputs/cephalon-warframe-mobile.png",
   });
@@ -79,7 +79,7 @@ test("temporary customization updates mods, shards, radar and resets", async ({
   await page.getByRole("button", { name: "Done", exact: true }).click();
   await expect(strength).not.toHaveText(withShards!);
   await expect(page.locator("main [role=alert]")).toHaveCount(0);
-  await page.getByRole("button", { name: "Reset to approved build" }).click();
+  await page.getByRole("button", { name: "Reset to curated build" }).click();
   await expect(strength).toHaveText("298%");
   await expect(
     page.getByRole("button", { name: "Customize build" }),

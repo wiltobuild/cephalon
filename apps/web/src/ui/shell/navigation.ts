@@ -1,5 +1,8 @@
 import {
   Orbit,
+  Trophy,
+  Users,
+  Library,
   Layers3,
   Bookmark,
   SlidersHorizontal,
@@ -13,11 +16,17 @@ export type NavItem = {
   label: string;
   href: string;
   icon: LucideIcon;
-  group: "Explore" | "Build library" | "Your loadouts";
+  group: "Explore" | "Curated builds" | "Your loadouts";
   artwork?: { name: string; kind: string };
 };
 export const navigation: NavItem[] = [
   { label: "Overview", href: "/home", icon: Orbit, group: "Explore" },
+  {
+    label: "Tier list",
+    href: "/tier-list",
+    icon: Trophy,
+    group: "Explore",
+  },
   { label: "Arsenal", href: "/arsenal", icon: Layers3, group: "Explore" },
   {
     label: "Weapon builder",
@@ -26,32 +35,44 @@ export const navigation: NavItem[] = [
     group: "Explore",
   },
   {
+    label: "Curated builds",
+    href: "/curated-builds",
+    icon: Library,
+    group: "Curated builds",
+  },
+  {
     label: "Warframe builds",
     href: "/warframe-builds",
     icon: Sparkles,
-    group: "Build library",
+    group: "Curated builds",
     artwork: { name: "Excalibur", kind: "warframe" },
   },
   {
     label: "Weapon builds",
     href: "/equipment-builds/weapons",
     icon: Swords,
-    group: "Build library",
+    group: "Curated builds",
     artwork: { name: "Braton Prime", kind: "weapon" },
   },
   {
     label: "Archwing builds",
     href: "/equipment-builds/archwing",
     icon: Feather,
-    group: "Build library",
+    group: "Curated builds",
     artwork: { name: "Odonata", kind: "archwing" },
   },
   {
     label: "Companion builds",
     href: "/equipment-builds/companions",
     icon: PawPrint,
-    group: "Build library",
+    group: "Curated builds",
     artwork: { name: "Dethcube Prime", kind: "companion" },
+  },
+  {
+    label: "Community builds",
+    href: "/community-builds",
+    icon: Users,
+    group: "Your loadouts",
   },
   {
     label: "My builds",

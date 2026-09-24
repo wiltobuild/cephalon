@@ -20,6 +20,13 @@ export type BuildWeaponRequest = {
 export type BuildWeaponResponse = Omit<BuildViewModel, "rawStats"> & {
   capacityUsed: number;
   ttk?: {
+    target: {
+      id: string;
+      name: string;
+      faction: string;
+      level: number;
+      reference: boolean;
+    };
     value: number | null;
     outcome: "killed" | "time_limit" | "unsupported";
     confidence: ConfidenceTag;
@@ -34,6 +41,7 @@ export type WeaponListItem = {
   isIncarnon: boolean;
 };
 export type CompatibleMod = {
+  recommendationScore?: number;
   id: string;
   name: string;
   polarity: string;
@@ -44,6 +52,7 @@ export type CompatibleMod = {
   rankText?: string[];
 };
 export type WeaponDetail = {
+  exclusionGroups?: string[][];
   base: Record<string, number>;
   modSlotCount: number;
   arcaneSlots: number;

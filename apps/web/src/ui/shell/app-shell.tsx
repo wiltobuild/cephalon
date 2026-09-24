@@ -1,6 +1,6 @@
 "use client";
 import { Command } from "cmdk";
-import { Menu, Search, X, Hexagon, ArrowUpRight } from "lucide-react";
+import { Menu, Search, X, ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { Fragment, type ReactNode, useEffect, useState } from "react";
@@ -63,8 +63,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       >
         <Link href="/home" className="brand">
           <span className="brand-emblem" aria-hidden="true">
-            <Hexagon size={38} strokeWidth={1} />
-            <span>✧</span>
+            <img src="/art/cephalon-logo.svg" width={52} height={52} alt="" />
           </span>
           <span>
             CEPHALON<small>YOUR ARSENAL, UNDERSTOOD</small>

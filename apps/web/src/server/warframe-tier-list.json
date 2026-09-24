@@ -1,0 +1,385 @@
+[
+  {
+    "tier": "S+",
+    "title": "the elite generalists",
+    "intro": [
+      "These are the frames I would be comfortable recommending as someone's \"main for everything.\""
+    ],
+    "notes": [
+      "Uriel being this high isn't just new-frame hype. His current kit has healing, Heat application, a dedicated damage-vulnerability ability, summons and a scaling ultimate whose damage rises through consecutive hits.",
+      "I'd call the gap between #1 and #12 fairly small. Depending on the mission, any one of these can become the best frame on the list."
+    ],
+    "frames": [
+      {
+        "name": "Dante",
+        "rank": 1,
+        "justification": "Probably the most complete general-purpose kit in Warframe. Huge Overguard, team survivability, excellent AoE, Slash, status vulnerability, buffs and strong scaling. He hardly needs weapons until the content specifically demands them."
+      },
+      {
+        "name": "Nova",
+        "rank": 2,
+        "justification": "After her modernization she is ridiculous. Molecular Prime combines enormous damage amplification with Speed/Slow control, Null Star provides survivability, portals give mobility and her kit works beautifully as a weapons platform."
+      },
+      {
+        "name": "Wisp",
+        "rank": 3,
+        "justification": "Health, regeneration, speed, fire rate, CC, Breach Surge, invisibility while airborne, teleportation and excellent Helminth flexibility. Incredible solo and arguably even better in a squad."
+      },
+      {
+        "name": "Protea",
+        "rank": 4,
+        "justification": "Shields, shield gating, energy, health, ammunition, scaling artillery, area denial and one of the best resource-economy abilities in the game. You can drop her into almost anything."
+      },
+      {
+        "name": "Saryn",
+        "rank": 5,
+        "justification": "One of Warframe's nastiest combinations of weapon platform and caster. Spores clear crowds while Toxic Lash and Venom Dose make already-powerful weapons absurd."
+      },
+      {
+        "name": "Volt",
+        "rank": 6,
+        "justification": "Damage, speed, melee attack speed, reload, shields, critical-damage interaction, nuking, Eidolons and squad support. Few frames cover as many completely different jobs."
+      },
+      {
+        "name": "Gauss",
+        "rank": 7,
+        "justification": "Near-unkillable against the appropriate damage types, incredibly fast, huge fire-rate/reload/melee buffs, Thermal Sunder, armor stripping and good CC."
+      },
+      {
+        "name": "Xaku",
+        "rank": 8,
+        "justification": "Scaling auto-turrets, enormous defense strip, excellent CC, survivability and level scaling. Particularly strong once enemy level becomes serious."
+      },
+      {
+        "name": "Revenant",
+        "rank": 9,
+        "justification": "The safest frame in the game. Mesmer Skin turns survivability into something you barely need to think about, leaving the rest of your build free for weapons and utility. Lower than Dante because his native offensive contribution is comparatively limited."
+      },
+      {
+        "name": "Citrine",
+        "rank": 10,
+        "justification": "Perhaps the most underrated top-tier frame. DR, healing, status application, crit support, energy and health generation, plus excellent team support."
+      },
+      {
+        "name": "Uriel",
+        "rank": 11,
+        "justification": "Heat, healing, strong damage vulnerability, CC, summons, mobility and scaling Brimstone damage. His native kit already covers an unusually broad range of jobs."
+      },
+      {
+        "name": "Hildryn",
+        "rank": 12,
+        "justification": "One of the strongest general-purpose frames in the game right now. Near-constant shield sustain, easy armor/shield stripping, status cleansing, excellent team support and no conventional Energy economy. Pillage alone makes her absurdly safe and universally useful."
+      }
+    ]
+  },
+  {
+    "tier": "S",
+    "title": "exceptional",
+    "intro": [
+      "These frames can be astonishingly powerful and are very reasonable \"main everything\" choices, but each has one or two more meaningful limitations than the S+ group."
+    ],
+    "notes": [
+      "I could easily see Sirius & Orion moving into S+ as optimal builds mature. They have one of the deepest kits DE has ever made."
+    ],
+    "frames": [
+      {
+        "name": "Mesa",
+        "rank": null,
+        "justification": "Peacemaker still annihilates huge portions of the game and Shatter Shield gives excellent ranged durability. Loses ground when enemies are ability-resistant or mechanics demand weapon interaction."
+      },
+      {
+        "name": "Nezha",
+        "rank": null,
+        "justification": "Fast, durable, status-resistant, excellent CC and fantastic enemy damage amplification through Chakram. Extremely comfortable generalist."
+      },
+      {
+        "name": "Kullervo",
+        "rank": null,
+        "justification": "One of the nastiest melee frames ever made. Huge crits, Collective Curse, mobility and Overguard. He's below S+ only because so much of his ridiculousness is centered around melee."
+      },
+      {
+        "name": "Octavia",
+        "rank": null,
+        "justification": "Fundamentally broken in the mathematical sense. Scaling reflected damage, invisibility, buffs and CC. She can trivialize endurance but isn't always the fastest or most enjoyable solution."
+      },
+      {
+        "name": "Mag",
+        "rank": null,
+        "justification": "Exceptionally high ceiling. Magnetize turns weapons into murder machines, Polarize/Crush supply protection and armor interaction, and she scales incredibly well. More execution-intensive than the frames above her."
+      },
+      {
+        "name": "Zephyr",
+        "rank": null,
+        "justification": "Turbulence makes most conventional projectiles irrelevant, Tornado multiplies weapon effectiveness, excellent CC and superb crit interaction while airborne."
+      },
+      {
+        "name": "Sevagoth",
+        "rank": null,
+        "justification": "Excellent damage, survivability, debuffing and nuking. With augments he becomes absurd. More build investment and ability management than the very top."
+      },
+      {
+        "name": "Gyre",
+        "rank": null,
+        "justification": "One of the game's best walking-room-clear frames when properly configured. Cathode Current transforms her. Less comfortable against things her electric proc engine cannot bully."
+      },
+      {
+        "name": "Caliban",
+        "rank": null,
+        "justification": "His rework completely changed his standing. Good defense strip, Sentient summons, survivability and CC. Old \"Caliban is terrible\" rankings are outdated."
+      },
+      {
+        "name": "Styanax",
+        "rank": null,
+        "justification": "Armor strip, Slash, energy generation, shields and Overguard through Intrepid Stand. Very capable solo and outstanding squad utility."
+      },
+      {
+        "name": "Temple",
+        "rank": null,
+        "justification": "Excellent modern weapons platform. Critical vulnerability, Heat weapon buff, healing, temporary invulnerability and an exalted weapon. Backbeat rewards active play."
+      },
+      {
+        "name": "Voruna",
+        "rank": null,
+        "justification": "Fantastic melee platform with status spreading, invisibility, mobility and enormous damage. Her specialization keeps her below the best broad generalists."
+      },
+      {
+        "name": "Jade",
+        "rank": null,
+        "justification": "Excellent support combined with legitimate offensive output, armor stripping and aerial gameplay. Strong enough that \"support frame\" badly undersells her."
+      },
+      {
+        "name": "Hydroid",
+        "rank": null,
+        "justification": "Post-rework Hydroid is a genuinely excellent frame: armor stripping through Corrosive, crowd control, durability and strong weapon enhancement."
+      },
+      {
+        "name": "Frost",
+        "rank": null,
+        "justification": "Modern Frost is excellent. Avalanche gives defense stripping, crowd control and survivability while Snow Globe retains objective-defense value."
+      },
+      {
+        "name": "Baruuk",
+        "rank": null,
+        "justification": "Desert Wind can erase Steel Path enemies with comical efficiency and his defensive kit is excellent. Restraint management and melee emphasis cost him generality."
+      },
+      {
+        "name": "Sirius & Orion",
+        "rank": null,
+        "justification": "Very strong, surprisingly broad kit. Armor/shield reduction, grouping through Event Horizon, healing/reviving/DR through Light's Sanctuary, damage, Heat and a second autonomous body. The complexity tax is the main thing holding them back. Their live kit genuinely contains all of those tools."
+      }
+    ]
+  },
+  {
+    "tier": "A",
+    "title": "excellent frames with a stronger specialization",
+    "intro": [
+      "Nothing in this tier is remotely weak. Most can embarrass Steel Path."
+    ],
+    "notes": [],
+    "frames": [
+      {
+        "name": "Rhino",
+        "rank": null,
+        "justification": "Roar + Iron Skin remains one of the most brutally straightforward combinations in Warframe. Reliable everywhere, but less sophisticated than modern S-tier kits."
+      },
+      {
+        "name": "Garuda",
+        "rank": null,
+        "justification": "Huge damage, excellent energy economy, forced Slash and invulnerability windows. Very powerful once mastered."
+      },
+      {
+        "name": "Harrow",
+        "rank": null,
+        "justification": "Phenomenal weapons platform with crits, energy, fire rate/reload, healing and invulnerability. Needs enemies to cooperate with his loop, which can become annoying in squads."
+      },
+      {
+        "name": "Lavos",
+        "rank": null,
+        "justification": "Tanky, essentially infinite ability resources, status monster and fantastic with Valence Formation. Cooldown playstyle is the main downside."
+      },
+      {
+        "name": "Grendel",
+        "rank": null,
+        "justification": "Extremely durable, mobile and able to strip armor while providing Viral. Great kit, just not as universally dominant as the top group."
+      },
+      {
+        "name": "Wukong",
+        "rank": null,
+        "justification": "Still one of the game's great convenience frames. Cloud Walker alone gives speed, healing, invisibility and mobility. Celestial Twin and Defy make him very forgiving."
+      },
+      {
+        "name": "Valkyr",
+        "rank": null,
+        "justification": "Her 2025 rework deserves recognition. Hysteria is tremendously powerful, she can become functionally immortal and her melee output is enormous. She is simply heavily melee-oriented."
+      },
+      {
+        "name": "Oraxia",
+        "rank": null,
+        "justification": "Very strong ranged weapons platform. Status immunity, bonus Toxin, invisibility, damage vulnerability, CC and mobility are a great package."
+      },
+      {
+        "name": "Nokko",
+        "rank": null,
+        "justification": "Viral, sleep, energy, Ability Strength, healing, untargetability and a death-prevention passive. His utility is outstanding even if his raw destruction isn't S-tier."
+      },
+      {
+        "name": "Oberon",
+        "rank": null,
+        "justification": "Much better than old tier lists imply. His 2025 rework added substantial armor and Righteous Negation charges that can outright negate incoming hits for Oberon and allies."
+      },
+      {
+        "name": "Nyx",
+        "rank": null,
+        "justification": "Modern Nyx is actually quite capable. Excellent control and defensive stripping with legitimate survivability after her rework."
+      },
+      {
+        "name": "Khora",
+        "rank": null,
+        "justification": "Absolutely elite at farming and stationary endurance. Whipclaw can produce ludicrous numbers. General-purpose ranking is lower because her strongest identity is tied to specific setups and mission types."
+      },
+      {
+        "name": "Titania",
+        "rank": null,
+        "justification": "Arguably S+ for speedrunning and certain bosses. Razorwing is excellent, Dex Pixia are powerful and her mobility is unparalleled. Less comfortable in missions that reward conventional ground combat."
+      },
+      {
+        "name": "Mirage",
+        "rank": null,
+        "justification": "One of the strongest pure weapons platforms in existence. Eclipse, clones and Prism offer ridiculous offense, but she brings less defensive/team consistency than S+."
+      },
+      {
+        "name": "Cyte-09",
+        "rank": null,
+        "justification": "Extraordinary precision damage, invisibility and elemental ammunition. Neutralize is lethal. More specialized around weak-point shooting than most frames above him. His kit explicitly increases weak-point damage and provides wall vision/punch-through."
+      },
+      {
+        "name": "Gara",
+        "rank": null,
+        "justification": "Extremely durable, protects objectives, provides damage amplification and can infinitely scale Splinter Storm. Powerful but increasingly laborious compared with newer frames."
+      },
+      {
+        "name": "Dagath",
+        "rank": null,
+        "justification": "Great Viral application, critical enhancement, Doom and strong direct damage. Powerful offensive frame without quite enough breadth for S."
+      }
+    ]
+  },
+  {
+    "tier": "B",
+    "title": "strong but noticeably less universal",
+    "intro": [
+      "These are perfectly viable endgame frames. They either require more work, have outdated pieces in their kits, or are superb at something specific without being superb at everything."
+    ],
+    "notes": [
+      "Follie deserves special attention. Being able to make a Conduit Key on demand in Disruption or a Power Cell in Excavation is mechanically bizarre enough that a mission-specific Follie tier list would place her much higher."
+    ],
+    "frames": [
+      {
+        "name": "Ash",
+        "rank": null,
+        "justification": "Excellent scaling Slash, invisibility and armor strip. Very viable at level cap. His problem is not power, it is speed and breadth."
+      },
+      {
+        "name": "Ember",
+        "rank": null,
+        "justification": "Much healthier than old Ember. Good DR, Heat, armor strip and AoE. Modern improvements made Immolation significantly easier to maintain."
+      },
+      {
+        "name": "Excalibur",
+        "rank": null,
+        "justification": "Exalted Blade remains powerful and Slash Dash has interesting survivability interactions. Perfectly capable, but modern melee specialists largely surpass him."
+      },
+      {
+        "name": "Inaros",
+        "rank": null,
+        "justification": "Extremely forgiving health tank after his rework, with good control and status utility. Infinite scaling eventually punishes health tanking harder than shield gating/invisibility."
+      },
+      {
+        "name": "Ivara",
+        "rank": null,
+        "justification": "S-tier stealth and excellent for Spy, conservation, fishing, certain endurance setups and specialized boss strategies. Slow general-purpose tempo keeps her here."
+      },
+      {
+        "name": "Nekros",
+        "rank": null,
+        "justification": "Desecrate alone makes him indispensable for certain farms. Shield of Shadows and modern builds make him durable, but if loot isn't relevant there are stronger kits."
+      },
+      {
+        "name": "Nidus",
+        "rank": null,
+        "justification": "Fantastic scaling health tank with grouping and excellent damage interaction. Mutation setup and lack of shields make him less convenient in modern fast missions."
+      },
+      {
+        "name": "Qorvex",
+        "rank": null,
+        "justification": "Extremely hard to kill, excellent status protection and respectable room control. His offense is more cumbersome than the best frames."
+      },
+      {
+        "name": "Trinity",
+        "rank": null,
+        "justification": "Still provides ludicrous healing, DR and energy. The issue is modern Warframe has so many ways to independently solve those problems that dedicated support carries less value."
+      },
+      {
+        "name": "Vauban",
+        "rank": null,
+        "justification": "Phenomenal CC, grouping and armor interaction. Very good in stationary modes. Less compelling when everything is sprinting through corridors at Mach 5."
+      },
+      {
+        "name": "Yareli",
+        "rank": null,
+        "justification": "Much stronger than her reputation. Merulina gives excellent durability and secondary-weapon builds can be ferocious. K-drive mechanics and specialization still impose friction."
+      },
+      {
+        "name": "Follie",
+        "rank": null,
+        "justification": "One of the weirdest frames to rank. Her raw combat kit is merely good, but Shadowgraph can literally create mission-specific tools such as Conduit Keys, Power Cells, Life Support, ammo and other objects. That gives her bizarre utility that no other frame possesses."
+      },
+      {
+        "name": "Koumei",
+        "rank": null,
+        "justification": "Can become hilariously strong as Decrees accumulate, with excellent status output. The problem is exactly what her theme suggests: inconsistency. Her abilities literally roll dice and Omikuji requires challenges for Decrees."
+      },
+      {
+        "name": "Chroma",
+        "rank": null,
+        "justification": "Still a terrifying weapon damage/tank platform. His issue is that \"huge numbers + durability\" is no longer rare, while half his kit feels much older than Warframe's current design standard."
+      }
+    ]
+  },
+  {
+    "tier": "C",
+    "title": "viable, but substantially outclassed as generalists",
+    "intro": [
+      "This is not \"trash tier.\"",
+      "These frames can still do Steel Path, endurance and even level-cap setups. But if we're asking which frame to bring blindly into an unknown mission, they have significant disadvantages."
+    ],
+    "notes": [],
+    "frames": [
+      {
+        "name": "Atlas",
+        "rank": null,
+        "justification": "Landslide builds can hit extremely hard and he can be durable, but his gameplay and kit are comparatively narrow."
+      },
+      {
+        "name": "Equinox",
+        "rank": null,
+        "justification": "Potentially tremendous damage and utility, yet her kit demands considerably more setup than modern frames for similar results. Several abilities feel trapped in an older era of Warframe design."
+      },
+      {
+        "name": "Limbo",
+        "rank": null,
+        "justification": "Can trivialize the exact mission types that cooperate with Rift mechanics. Unfortunately, Overguard, special enemies and Rift interactions can make him simultaneously awkward and disruptive."
+      },
+      {
+        "name": "Loki",
+        "rank": null,
+        "justification": "Invisibility is still excellent and Safeguard Switch has legitimate high-end applications. But being invisible is no longer enough to justify a four-ability kit when modern frames get invisibility plus damage, buffs, stripping and CC."
+      },
+      {
+        "name": "Banshee",
+        "rank": null,
+        "justification": "Sonar can produce absolutely obscene damage multipliers and Silence is legitimately excellent. The current problem is survivability and overall cohesion. Her placement becomes obsolete September 23."
+      }
+    ]
+  }
+]

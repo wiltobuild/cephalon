@@ -1,5 +1,8 @@
+import weaponMetadata from "./weapon-metadata.json";
 import {
   ENEMY_TYPES,
+  calculateWeaponBuildWithArcanes,
+  DEFAULT_SIM_PARAMS,
   isWarframeExilusMod,
   applyArcaneEffectOverrides,
   enrichWeapon,
@@ -27,6 +30,7 @@ import metadata from "./mod-compatibility.json";
 
 /** Owns the explicit override set and materialises each effective catalog once. */
 export class CatalogService {
+  private readonly modScores = new Map<string, number>();
   private readonly weapons: Map<string, Weapon>;
   private readonly warframes: Map<string, Warframe>;
   private readonly mods: Map<string, Mod>;
@@ -39,7 +43,25 @@ export class CatalogService {
     this.weapons = new Map(
       [...getEffectiveWeaponsMap(overrides)].map(([id, weapon]) => [
         id,
-        enrichWeapon(weapon),
+        enrichWeapon({
+          ...weapon,
+          category:
+            weapon.category === "primary"
+              ? ((
+                  {
+                    Rifle: "rifle",
+                    Shotgun: "shotgun",
+                    Bow: "bow",
+                    Launcher: "launcher",
+                    Sniper: "rifle",
+                  } as Record<string, string>
+                )[
+                  (weaponMetadata as Record<string, { type: string }>)[
+                    weapon.name
+                  ]?.type
+                ] ?? weapon.category)
+              : weapon.category,
+        }),
       ]),
     );
     this.warframes = getEffectiveWarframesMap(overrides);
@@ -191,12 +213,36 @@ export class CatalogService {
         rarity: mod.rarity,
         maxRank: mod.maxRank,
         drain: mod.drain,
+        recommendationScore: (() => {
+          const key = weapon.id + ":" + mod.id;
+          const cached = this.modScores.get(key);
+          if (cached !== undefined) return cached;
+          try {
+            const stats = calculateWeaponBuildWithArcanes(
+              weapon,
+              [{ modId: mod.id, slotIndex: 0, rank: mod.maxRank }],
+              this.mods,
+              [],
+              undefined,
+              { ...DEFAULT_SIM_PARAMS, killStacks: 5, arcaneStacks: 0 },
+            );
+            this.modScores.set(key, stats.sustainedDps);
+            return stats.sustainedDps;
+          } catch {
+            return 0;
+          }
+        })(),
         primaryEffect: mod.description,
         rankText:
           (metadata.presentation as Record<string, { rankText: string[] }>)[
             mod.id
           ]?.rankText ?? [],
-      }));
+      }))
+      .sort(
+        (a, b) =>
+          b.recommendationScore - a.recommendationScore ||
+          a.name.localeCompare(b.name),
+      );
   }
   private allowedModCategories(category: string): string[] {
     switch (category) {
@@ -300,7 +346,9 @@ export class CatalogService {
         maxRank: m.maxRank,
         drain: m.drain,
         primaryEffect: m.description,
-        rankText: (metadata.presentation as Record<string,{rankText?:string[]}>)[m.id]?.rankText,
+        rankText: (
+          metadata.presentation as Record<string, { rankText?: string[] }>
+        )[m.id]?.rankText,
         slotKind:
           sourceModCategory(m) === "aura"
             ? "aura"

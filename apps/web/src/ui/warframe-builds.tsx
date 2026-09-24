@@ -1,4 +1,5 @@
 "use client";
+import { ConfidenceBadge } from "@/ui";
 import { useState } from "react";
 import Link from "next/link";
 import {
@@ -13,6 +14,7 @@ import {
   Gem,
   Grid2X2,
 } from "lucide-react";
+import { FormaCost } from "./forma-cost";
 import { ItemImage } from "./item-image";
 export function GuideDirectory({
   guides,
@@ -20,6 +22,9 @@ export function GuideDirectory({
 }: {
   initialQuery: string;
   guides: {
+    investment: string;
+    formaAudit?: { count: number | null; note: string };
+    stats?: Record<string, number>;
     slug: string;
     title: string;
     frame: string;
@@ -96,15 +101,27 @@ export function GuideDirectory({
       <div className="wf-directory">
         {shown.map((g) => (
           <Link
-            className="wf-guide-tile"
+            className="wf-guide-tile wf-guide-tile--chart"
             key={g.slug}
             href={`/warframe-builds/${g.slug}`}
           >
-            <ItemImage kind="warframe" name={g.frame} />
+            <ItemImage
+              kind="warframe"
+              name={g.frame.replace("Sirius and Orion", "Sirius & Orion")}
+            />
+            {g.stats && (
+              <div className="wf-card-radar">
+                <StatRadar stats={g.stats} compact />
+                <span className="radar-confidence">
+                  Guide stats <ConfidenceBadge tag="pending-verification" />
+                </span>
+              </div>
+            )}
             <div>
-              <span className="wf-approved">✓ Cephalon approved</span>
+              <span className="wf-approved">Curated build</span>
               <p className="wf-kicker">{g.frame}</p>
               <h2>{g.title}</h2>
+              <FormaCost investment={g.investment} audit={g.formaAudit} />
               <p>{g.subtitle}</p>
               <div className="wf-card-tags">
                 {g.content.split(/[,·]/).map((t) => (
@@ -121,7 +138,13 @@ export function GuideDirectory({
     </>
   );
 }
-export function StatRadar({ stats }: { stats: Record<string, number> }) {
+export function StatRadar({
+  stats,
+  compact = false,
+}: {
+  stats: Record<string, number>;
+  compact?: boolean;
+}) {
   const labels = ["Strength", "Duration", "Range", "Efficiency"];
   const maximum = Math.max(
     400,
@@ -180,7 +203,7 @@ export function StatRadar({ stats }: { stats: Record<string, number> }) {
               y={[22, 143, 268, 143][i]}
               textAnchor="middle"
               fill="#c8dde3"
-              fontSize="11"
+              fontSize={compact ? "15" : "11"}
             >
               {l}
             </text>
@@ -189,7 +212,7 @@ export function StatRadar({ stats }: { stats: Record<string, number> }) {
               y={[37, 158, 283, 158][i]}
               textAnchor="middle"
               fill="#91ced4"
-              fontSize="11"
+              fontSize={compact ? "15" : "11"}
             >
               {Math.round(stats[l] * 10) / 10}%
             </text>

@@ -20,23 +20,58 @@ test("ambiguous variants and untrusted kinds never produce a guessed image", asy
   expect(await service.resolve("mod", "A")).toBeUndefined();
   expect(await service.resolve("__proto__", "A")).toBeUndefined();
 });
-test("both shard tiers resolve to the crystal art, never the glow sprite", async () => {
-  const load = vi.fn(async () => {
-    throw new Error("shards must not consult the artwork manifest");
-  });
-  const service = new AssetService(load);
-  const crimson = "https://wiki.warframe.com/images/CrimsonArchonShard.png";
-  expect(await service.resolve("shard", "Crimson Archon Shard")).toBe(crimson);
-  expect(await service.resolve("shard", "Tauforged Crimson Archon Shard")).toBe(
-    crimson,
-  );
-  expect(load).not.toHaveBeenCalled();
-});
-test("an unrecognised shard name still falls through to the manifest", async () => {
+test("normal and Tauforged shards retain separate images", async () => {
   const service = new AssetService(async () => [
-    { name: "Archon Shard", uniqueName: "/x", imageName: "ArchonCrystal.png" },
+    {
+      name: "<Shard_blue_simple> Azure Archon Shard",
+      uniqueName: "/a",
+      imageName: "Azure.png",
+    },
+    {
+      name: "Tauforged Azure Archon Shard",
+      uniqueName: "/b",
+      imageName: "Tau.png",
+    },
   ]);
-  expect(await service.resolve("shard", "Archon Shard")).toContain(
-    "ArchonCrystal.png",
+  expect(await service.resolve("shard", "Azure Archon Shard")).toContain(
+    "Azure.png",
   );
+  expect(await service.resolve("shard", "Tauforged Azure Archon Shard")).toBe(
+    "/art/shards/TauforgedAzureArchonShard.png",
+  );
+});
+
+test("ability icons resolve from nested Warframe abilities", async () => {
+  const service = new AssetService(async () => [
+    {
+      abilities: [
+        {
+          name: "Shuriken",
+          uniqueName: "/ability",
+          imageName: "NinjaStar.png",
+        },
+      ],
+    },
+  ]);
+  expect(await service.resolve("ability", "Shuriken")).toBe(
+    "https://cdn.warframestat.us/img/NinjaStar.png",
+  );
+});
+
+test("all six Tauforged colors use complete local artwork without fetching glow metadata", async () => {
+  const load = vi.fn(async () => []);
+  const service = new AssetService(load);
+  for (const color of [
+    "Crimson",
+    "Amber",
+    "Azure",
+    "Topaz",
+    "Violet",
+    "Emerald",
+  ]) {
+    expect(
+      await service.resolve("shard", `Tauforged ${color} Archon Shard`),
+    ).toBe(`/art/shards/Tauforged${color}ArchonShard.png`);
+  }
+  expect(load).not.toHaveBeenCalled();
 });

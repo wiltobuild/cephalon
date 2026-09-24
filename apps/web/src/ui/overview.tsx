@@ -79,7 +79,7 @@ export function Overview() {
             Take on the Origin System, your way.
           </p>
           <div className="ov-hero-actions">
-            <Link className="ov-button" href="#build-library">
+            <Link className="ov-button" href="/curated-builds">
               Explore the builds <ArrowRight size={18} />
             </Link>
             <Link className="ov-text-link" href="/arsenal">
@@ -102,7 +102,7 @@ export function Overview() {
         <div>
           <span className="ov-diamond">✧</span>
           <strong>{total}</strong>
-          <span>CEPHALON APPROVED BUILDS</span>
+          <span>CURATED BUILDS</span>
         </div>
         {collections.map((c) => (
           <Link key={c.name} href={c.href}>
@@ -134,14 +134,14 @@ export function Overview() {
                 Explore their build <ArrowUpRight size={18} />
               </span>
             </div>
-            <span className="ov-featured-seal">✧ CEPHALON APPROVED</span>
+            <span className="ov-featured-seal">CURATED BUILD</span>
           </Link>
           <UpcomingUpdate initialNow={Date.now()} />
         </section>
         <section id="build-library" className="ov-library">
           <div className="ov-section-heading">
             <div>
-              <p className="ov-eyebrow">THE BUILD LIBRARY</p>
+              <p className="ov-eyebrow">CURATED BUILD LIBRARY</p>
               <h2>A loadout for every journey.</h2>
             </div>
             <p>
@@ -161,7 +161,7 @@ export function Overview() {
                 </div>
                 <ItemImage name={c.art} kind={c.kind} />
                 <div className="ov-collection-copy">
-                  <span>{c.count} APPROVED BUILDS</span>
+                  <span>{c.count} CURATED BUILDS</span>
                   <h3>{c.name}</h3>
                   <p>{c.description}</p>
                 </div>
@@ -169,6 +169,10 @@ export function Overview() {
             ))}
           </div>
         </section>
+        <p className="library-note">
+          Looking for player creations?{" "}
+          <Link href="/community-builds">Visit community builds →</Link>
+        </p>
         <section className="ov-tools" aria-label="Arsenal tools">
           <Link href="/arsenal">
             <Layers3 size={25} />

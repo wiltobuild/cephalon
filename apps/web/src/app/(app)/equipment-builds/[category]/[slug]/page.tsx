@@ -1,3 +1,8 @@
+import { Suspense } from "react";
+import { curatedWeapon } from "@/server/curated-weapon";
+import { WeaponBuilder } from "@/app/(app)/tools/weapon-builder/_components/weapon-builder";
+import { ConfidenceBadge } from "@/ui";
+import { FormaCost } from "@/ui/forma-cost";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -18,6 +23,7 @@ export default async function Page({
     (g) => g.slug === slug && categoryFor(g) === category,
   );
   if (!g) notFound();
+  const editable = category !== "companions" ? curatedWeapon(g) : null;
   return (
     <div className="wf-page">
       <Link className="wf-back" href={`/equipment-builds/${category}`}>
@@ -25,13 +31,14 @@ export default async function Page({
       </Link>
       <header className="wf-build-header">
         <div>
-          <span className="wf-approved">✓ Cephalon approved guide</span>
+          <span className="wf-approved">Curated build</span>
           <p className="wf-kicker">{g.frame}</p>
           <h1>{g.title}</h1>
+          {!editable && <FormaCost investment={g.meta.Investment} />}
           <p>{g.subtitle}</p>
           <div className="wf-tags">
             {Object.entries(g.meta)
-              .filter(([k]) => k !== "")
+              .filter(([k]) => k !== "" && k !== "Investment")
               .map(([k, v]) => (
                 <span key={k}>
                   {k}: {v}
@@ -45,23 +52,36 @@ export default async function Page({
           priority
         />
       </header>
-      {g.statText && (
-        <section className="guide-performance">
-          <h2>BUILD PERFORMANCE</h2>
-          <p>{g.statText}</p>
-        </section>
-      )}
-      <GuideLoadout guide={g} />
-      {g.arcanes.filter(Boolean).length > 0 && (
-        <section className="wf-equipped-arcanes">
-          <h2>ARCANES</h2>
-          {g.arcanes.filter(Boolean).map((a, i) => (
-            <div key={i}>
-              <ItemImage kind="arcane" name={a.replace(/\s*\(.*?\)/g, "")} />
-              <span>{a}</span>
-            </div>
-          ))}
-        </section>
+      {editable ? (
+        <Suspense fallback={<p>Loading loadout…</p>}>
+          <WeaponBuilder curated {...editable} />
+        </Suspense>
+      ) : (
+        <>
+          {g.statText && (
+            <section className="guide-performance">
+              <h2>BUILD PERFORMANCE</h2>
+              <ConfidenceBadge tag="pending-verification" />
+              <p>Imported guide figures</p>
+              <p>{g.statText}</p>
+            </section>
+          )}
+          <GuideLoadout guide={g} />
+          {g.arcanes.filter(Boolean).length > 0 && (
+            <section className="wf-equipped-arcanes">
+              <h2>ARCANES</h2>
+              {g.arcanes.filter(Boolean).map((a, i) => (
+                <div key={i}>
+                  <ItemImage
+                    kind="arcane"
+                    name={a.replace(/\s*\(.*?\)/g, "")}
+                  />
+                  <span>{a}</span>
+                </div>
+              ))}
+            </section>
+          )}
+        </>
       )}
       <GuideSections guide={g} />
     </div>

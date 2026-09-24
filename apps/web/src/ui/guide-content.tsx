@@ -1,7 +1,8 @@
+import { slotPolarity } from "@/server/guide-polarities";
+import { PolarityIcon } from "./polarity";
 import { catalog } from "@/server/services";
 import { ModCard } from "./mod-card";
 import { ItemImage } from "./item-image";
-import { Polarity } from "./polarity";
 import type { Guide } from "@/server/guide-types";
 export function RichText({ text }: { text: string }) {
   return (
@@ -37,7 +38,10 @@ export function GuideLoadout({ guide: g }: { guide: Guide }) {
       </div>
       <div className="guide-mods">
         {g.mods.map((m, i) => (
-          <article key={i}>
+          <article
+            key={i}
+            data-slot-polarized={Boolean(slotPolarity(m.polarity))}
+          >
             {(() => {
               const mod = modCatalog.find((mod) => mod.name === m.name);
               return mod ? (
@@ -64,8 +68,12 @@ export function GuideLoadout({ guide: g }: { guide: Guide }) {
               </small>
               <h3>{m.name}</h3>
               <span className="guide-polarity">
-                <Polarity polarity={m.polarity} size={13} />
-                {m.polarity}
+                <PolarityIcon value={m.polarity} />{" "}
+                {slotPolarity(m.polarity)
+                  ? "Polarized slot"
+                  : slotPolarity(m.polarity) === null
+                    ? "Polarity unspecified"
+                    : "Unpolarized slot"}
               </span>
               <p>{m.note}</p>
             </div>
@@ -83,10 +91,6 @@ export function GuideLoadout({ guide: g }: { guide: Guide }) {
             <span key={t}>{t}</span>
           ))}
       </div>
-      <details>
-        <summary>Full configuration and arsenal figures</summary>
-        <RichText text={g.buildText} />
-      </details>
     </section>
   );
 }

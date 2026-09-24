@@ -1,85 +1,100 @@
-import Image from "next/image";
-import "./polarity.css";
-
-/** Canonical polarity key -> bundled glyph in /public/polarities (game art, white). */
-const FILE: Record<string, string> = {
-  madurai: "madurai",
-  vazarin: "vazarin",
-  naramon: "naramon",
-  zenurik: "zenurik",
-  unairu: "unairu",
-  penjaga: "penjaga",
-  umbra: "umbra",
-  umbral: "umbra",
-  any: "any",
-  universal: "any",
-  omni: "any",
-  aura: "any",
-};
-
-const LABEL: Record<string, string> = {
-  madurai: "Madurai",
-  vazarin: "Vazarin",
-  naramon: "Naramon",
-  zenurik: "Zenurik",
-  unairu: "Unairu",
-  penjaga: "Penjaga",
-  umbra: "Umbral",
-  any: "Universal",
-};
-
-/** Normalises the many polarity spellings in the data ("Zenurik", "madurai",
- *  "Naramon polarity", "unpolarised", "◇", "") to a glyph key, or null. */
-export function polarityKey(raw?: string | null): string | null {
-  if (!raw) return null;
-  const k = raw
-    .trim()
-    .toLowerCase()
-    .replace(/\s*polarity$/, "")
-    .replace(/\s*slot$/, "");
-  if (
-    !k ||
-    k === "none" ||
-    k === "unpolarised" ||
-    k === "unpolarized" ||
-    k === "◇"
-  )
-    return null;
-  return FILE[k] ?? null;
-}
-
-/** Renders the real in-game polarity symbol. Falls back to a neutral ◇ for
- *  unpolarised / unknown slots. */
-export function Polarity({
-  polarity,
-  size = 14,
-  className = "",
-}: {
-  polarity?: string | null;
-  size?: number;
-  className?: string;
-}) {
-  const key = polarityKey(polarity);
-  if (!key)
-    return (
-      <span
-        className={`polarity-icon is-none ${className}`.trim()}
-        style={{ width: size, height: size }}
-        aria-hidden="true"
-      >
-        ◇
-      </span>
-    );
-  const label = LABEL[key] ?? key;
-  return (
-    <Image
-      className={`polarity-icon ${className}`.trim()}
-      src={`/polarities/${key}.png`}
-      alt={`${label} polarity`}
-      title={`${label} polarity`}
-      width={size}
-      height={size}
-      unoptimized
+"use client";
+import { useState, useEffect, useRef } from "react";
+export const polarityNames = [
+  "madurai",
+  "vazarin",
+  "naramon",
+  "zenurik",
+  "umbra",
+  "unairu",
+  "penjaga",
+  "universal",
+];
+export function PolarityIcon({ value = "" }: { value?: string }) {
+  const name = value.toLowerCase().replace(/ polarity$/, "");
+  return polarityNames.includes(name) ? (
+    <img
+      className="polarity-icon"
+      src={`/art/polarities/${name === "universal" ? "any" : name}.svg`}
+      alt={`${name} polarity`}
+      title={`${name} polarity`}
+      width={24}
+      height={24}
     />
+  ) : (
+    <span
+      className="polarity-empty"
+      title={value || "Unpolarized"}
+      aria-label={value || "Unpolarized"}
+    />
+  );
+}
+export function PolarityPicker({
+  value,
+  onChange,
+  label,
+}: {
+  value: string;
+  onChange: (value: string) => void;
+  label: string;
+}) {
+  const [ready, setReady] = useState(false);
+  useEffect(() => setReady(true), []);
+  const [open, setOpen] = useState(false);
+  const root = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (!open) return;
+    const close = (e: PointerEvent) => {
+      if (!root.current?.contains(e.target as Node)) setOpen(false);
+    };
+    const escape = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setOpen(false);
+        root.current?.querySelector("button")?.focus();
+      }
+    };
+    document.addEventListener("pointerdown", close);
+    document.addEventListener("keydown", escape);
+    return () => {
+      document.removeEventListener("pointerdown", close);
+      document.removeEventListener("keydown", escape);
+    };
+  }, [open]);
+  return (
+    <div className="polarity-picker" ref={root}>
+      <button
+        type="button"
+        disabled={!ready}
+        aria-label={label}
+        aria-expanded={open}
+        onClick={() => setOpen(!open)}
+      >
+        <PolarityIcon value={value} />
+        <span>{value || "None"}</span>
+        <span aria-hidden="true">▾</span>
+      </button>
+      {open && (
+        <div className="polarity-options" role="group" aria-label={label}>
+          {["", ...polarityNames].map((v) => (
+            <button
+              key={v}
+              type="button"
+              aria-label={v || "None"}
+              aria-pressed={v === value}
+              onClick={() => {
+                onChange(v);
+                setOpen(false);
+              }}
+            >
+              <PolarityIcon value={v} />
+              <span>{v || "None"}</span>
+            </button>
+          ))}
+          <button type="button" onClick={() => setOpen(false)}>
+            Close
+          </button>
+        </div>
+      )}
+    </div>
   );
 }
